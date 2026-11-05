@@ -66,7 +66,7 @@ def converter(item):
     for l in LETRAS:
         r = str(just.get(l, '')).strip()
         # troca "Certa."/"Errada."/"Correta."/"Incorreta." pelo padrão do simulado
-        r = re.sub(r'^\s*\(?(certa|correta|errada|incorreta|verdadeira|falsa)\)?\s*[.:\-–—]\s*', '', r, flags=re.I)
+        r = re.sub(r'^\s*\(?(certa|correta|errada|incorreta|verdadeira|falsa)\)?\s*(\([^)]*\))?\s*[.:\-–—]?\s*', '', r, flags=re.I)
         r = ('CORRETA. ' if l == correta else 'Incorreta. ') + r
         opts.append({'letter': l, 'text': str(alts[l]).strip(), 'rationale': r})
     dif = DIF.get(str(item.get('dificuldade', '')).strip().lower(), 'Intermediária')
@@ -117,7 +117,7 @@ def main():
 
     banco.extend(novas)
     ordem = ['id', 'code', 'assunto', 'category', 'subcategory', 'difficulty', 'origem', 'sourceLabel',
-             'prompt', 'options', 'correctLetter', 'clinicalPointers', 'solutionSteps']
+             'prompt', 'options', 'correctLetter', 'clinicalPointers', 'solutionSteps', 'bookContext', 'revisada']
     for i, q in enumerate(banco, 1):
         q['id'] = i
     banco = [{k: q[k] for k in ordem if k in q} for q in banco]

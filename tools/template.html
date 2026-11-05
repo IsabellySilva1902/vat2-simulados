@@ -279,6 +279,7 @@
         <span id="q-category" class="px-2 py-1 rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-300 font-medium"></span>
         <span id="q-difficulty" class="px-2 py-1 rounded-full bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300 font-medium"></span>
         <span id="q-code" class="px-2 py-1 rounded-full bg-slate-100 text-slate-500 dark:bg-slate-700 dark:text-slate-400 font-mono"></span>
+        <span id="q-origem" class="hidden px-2 py-1 rounded-full bg-emerald-50 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300"></span>
         <button id="btn-clear-highlights" class="hidden ml-auto px-2 py-1 rounded-full border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700" title="Remover todos os grifos desta questão">🖍️ Limpar grifos</button>
         <button id="btn-mark-review" class="px-2 py-1 rounded-full border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700" title="Marcar para revisão">🏳️ <span id="mark-label">Marcar</span></button>
       </div>
@@ -569,6 +570,23 @@ function escapeHtml(str) {
    isso e injetado diretamente; texto de tabela e o alt/caption sao escapados. */
 /* Passo a passo: resolucao comentada opcional (campo solutionSteps). Itens aceitos:
    "texto" | {calc:"1/2 × 1/4 = 1/8"} | {table:{head:[...], rows:[[...]], hit:["aa"], caption:""}} | {result:"..."} */
+/* Aprofundamento opcional (campo bookContext: {text, fonte}): contexto tirado dos
+   livros de referência do notebook, mostrado depois de responder. */
+function getBookContext(q) {
+  if (q.bookContext) return q.bookContext;
+  const src = QUESTIONS_DATABASE.find((x) => x.code === q.code);
+  return (src && src.bookContext) || null;
+}
+function renderBookContext(q) {
+  const c = getBookContext(q);
+  if (!c || !c.text) return "";
+  return `
+    <details class="rounded-lg border border-emerald-200 dark:border-emerald-800 bg-emerald-50/60 dark:bg-emerald-900/20 p-3 text-sm">
+      <summary class="cursor-pointer font-semibold text-emerald-700 dark:text-emerald-300">📖 Aprofundamento (livros de referência)</summary>
+      <p class="mt-2 text-slate-700 dark:text-slate-200 leading-relaxed">${escapeHtml(c.text)}</p>
+      ${c.fonte ? `<p class="mt-2 text-xs text-slate-500 dark:text-slate-400">Fonte indicada pelo NotebookLM: ${escapeHtml(c.fonte)}</p>` : ""}
+    </details>`;
+}
 function getSolutionSteps(q) {
   if (q.solutionSteps) return q.solutionSteps;
   const src = QUESTIONS_DATABASE.find((x) => x.code === q.code);
@@ -1536,6 +1554,10 @@ function renderQuizQuestion() {
   document.getElementById("q-category").textContent = q.category;
   document.getElementById("q-difficulty").textContent = q.difficulty;
   document.getElementById("q-code").textContent = q.code + (q.isReview ? " · 🔁 revisão" : "");
+  const origemSrc = QUESTIONS_DATABASE.find((x) => x.code === q.code);
+  const origemEl = document.getElementById("q-origem");
+  origemEl.textContent = (origemSrc && origemSrc.sourceLabel) || "";
+  origemEl.classList.toggle("hidden", !origemEl.textContent);
   const promptEl = document.getElementById("q-prompt");
   promptEl.innerHTML = renderHighlightedText(q.prompt, q.highlights, true);
   promptEl.querySelectorAll(".hl-mark").forEach((markEl) =>
@@ -1624,7 +1646,7 @@ function renderQuizQuestion() {
     feedbackBox.classList.add("hidden");
   }
   const solutionBox = document.getElementById("q-solution-box");
-  const solutionHtml = revealAnswer ? renderSolution(q) : "";
+  const solutionHtml = revealAnswer ? [renderSolution(q), renderBookContext(q)].filter(Boolean).join('<div class="h-3"></div>') : "";
   solutionBox.innerHTML = solutionHtml;
   solutionBox.classList.toggle("hidden", !solutionHtml);
 
@@ -1909,6 +1931,7 @@ function renderReview() {
         <div data-review-visual="${qi}">${renderVisual(q)}</div>
         <div class="space-y-2 mb-3">${optionsHtml}</div>
         ${renderSolution(q) ? `<div class="mb-3">${renderSolution(q)}</div>` : ""}
+        ${renderBookContext(q) ? `<div class="mb-3">${renderBookContext(q)}</div>` : ""}
         <div class="rounded-lg bg-amber-50 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-800 p-2.5 text-xs text-amber-700 dark:text-amber-300">
           💡 ${escapeHtml(q.clinicalPointers)}
         </div>
