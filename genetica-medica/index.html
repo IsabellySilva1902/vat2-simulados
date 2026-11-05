@@ -8050,6 +8050,7 @@ const LS_KEYS = {
   history: `simfc_${STORAGE_SUBJECT}_history`,
   weak: `simfc_${STORAGE_SUBJECT}_weak_ids`,
   srs: `simfc_${STORAGE_SUBJECT}_srs`, // agenda da revisao espacada
+  answers: `simfc_${STORAGE_SUBJECT}_answers`, // acertos/erros por questao (lido pela plataforma de estudos)
   current: `simfc_${STORAGE_SUBJECT}_current_attempt`,
   dark: "simfc_dark_mode", // preferencia de modo escuro compartilhada entre todos os simulados
   tutorialSeen: "simfc_tutorial_seen", // guia "como usar" ja visto, compartilhado entre todos os simulados
@@ -9340,6 +9341,16 @@ function finishQuiz() {
   });
   lsSet(LS_KEYS.weak, Array.from(weak));
 
+  // registro por questao: { codigo: [{ ts, ok }] }, usado pela plataforma vat2-estudos (pontos fracos)
+  const answersLog = lsGet(LS_KEYS.answers, {});
+  const ts = Date.now();
+  answered.forEach((q) => {
+    const arr = (answersLog[q.code] = answersLog[q.code] || []);
+    arr.push({ ts, ok: !!q.options[q.answerIndex].isCorrect });
+    if (arr.length > 20) arr.splice(0, arr.length - 20);
+  });
+  lsSet(LS_KEYS.answers, answersLog);
+
   // revisao espacada
   const nSlow = srsRecord(questions, !App.attempt.label);
   if (nSlow) setTimeout(() => toast(`⏱️ ${nSlow} questão(ões) que você acertou, mas com tempo bem acima do seu ritmo, entrou(aram) na revisão espaçada.`, "info"), 400);
@@ -9643,6 +9654,7 @@ function exportResultsPage() {
 function exportProgress() {
   const data = {
     seenIds: lsGet(LS_KEYS.seen, []),
+    answers: lsGet(LS_KEYS.answers, {}),
     history: lsGet(LS_KEYS.history, []),
     weakIds: lsGet(LS_KEYS.weak, []),
     srs: lsGet(LS_KEYS.srs, null),
@@ -9681,6 +9693,7 @@ function applyImport(mode) {
     lsSet(LS_KEYS.seen, d.seenIds || []);
     lsSet(LS_KEYS.history, (d.history || []).slice(0, HISTORY_MAX));
     lsSet(LS_KEYS.weak, d.weakIds || []);
+    if (d.answers) lsSet(LS_KEYS.answers, d.answers);
     if (d.srs && d.srs.items) lsSet(LS_KEYS.srs, d.srs);
     else localStorage.removeItem(LS_KEYS.srs);
   } else {
