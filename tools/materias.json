@@ -1,0 +1,8 @@
+[
+  { "id": "genetica", "pasta": "genetica-medica", "nome": "Genética Médica", "emoji": "🧬", "storage": "vat2-genetica-medica" },
+  { "id": "epidemio", "pasta": "epidemiologia", "nome": "Epidemiologia", "emoji": "📊", "storage": "vat2-epidemiologia" },
+  { "id": "farmaco", "pasta": "farmacologia-clinica", "nome": "Farmacologia Clínica II", "emoji": "💊", "storage": "vat2-farmacologia-clinica" },
+  { "id": "praticas", "pasta": "saude-da-mulher", "nome": "Práticas Médicas II: Saúde da Mulher", "emoji": "🩷", "storage": "vat2-saude-da-mulher" },
+  { "id": "topicos", "pasta": "topicos-medicos", "nome": "Tópicos Especiais em Ciências Médicas", "emoji": "🩺", "storage": "vat2-topicos-medicos" },
+  { "id": "saudemental", "pasta": "saude-mental", "nome": "Saúde Mental", "emoji": "🧠", "storage": "vat2-saude-mental" }
+]

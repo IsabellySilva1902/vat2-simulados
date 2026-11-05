@@ -1,0 +1,2075 @@
+[
+ {
+  "id": 1,
+  "code": "AG-01",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Conceito de aconselhamento genético",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Segundo a definição clássica estabelecida em 1975 pela Sociedade Americana de Genética Humana, o aconselhamento genético (AG) é entendido principalmente como:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Um procedimento laboratorial para identificar mutações em famílias de risco.",
+    "rationale": "Incorreta. Os testes laboratoriais podem fazer parte do AG, mas a definição de 1975 descreve o AG como um processo de comunicação, não como um exame."
+   },
+   {
+    "letter": "B",
+    "text": "Um processo de comunicação que trata dos problemas humanos causados pela ocorrência, ou pelo risco de ocorrência, de uma doença genética na família.",
+    "rationale": "CORRETA. É exatamente a definição apresentada em aula: o AG é um processo de comunicação centrado nos problemas humanos ligados à ocorrência ou ao risco de doença genética na família."
+   },
+   {
+    "letter": "C",
+    "text": "Uma orientação médica para que casais de risco evitem ter filhos.",
+    "rationale": "Incorreta. Recomendar que o casal não tenha filhos é uma conduta diretiva, típica do modelo eugenista, e contraria o princípio do AG não diretivo."
+   },
+   {
+    "letter": "D",
+    "text": "Uma política de Estado para reduzir a frequência de genes deletérios na população.",
+    "rationale": "Incorreta. Políticas estatais de controle do \"pool gênico\" caracterizam o modelo eugenista histórico, não a definição de AG de 1975."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "AG = processo de COMUNICAÇÃO sobre a ocorrência ou o risco de doença genética na família (ASHG, 1975)."
+ },
+ {
+  "id": 2,
+  "code": "AG-02",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Componentes do AG segundo a NSGC (2006)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "A definição atualizada da National Society of Genetic Counselors (2006) descreve o AG como um processo que ajuda as pessoas a compreenderem e se adaptarem às implicações médicas, psicológicas e familiares da contribuição genética à doença. Qual dos itens abaixo NÃO faz parte dos componentes integrados desse processo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Decisão, pelo profissional, sobre a conduta reprodutiva mais adequada para o casal.",
+    "rationale": "CORRETA. Não faz parte: o AG promove escolhas informadas e decisões AUTÔNOMAS do consulente. Decidir pelo paciente fere a não diretividade."
+   },
+   {
+    "letter": "B",
+    "text": "Interpretação das histórias médica e familiar para estimar a chance de ocorrência ou recorrência.",
+    "rationale": "Incorreta. Faz parte da definição: a interpretação da história médica e familiar é a base para estimar o risco."
+   },
+   {
+    "letter": "C",
+    "text": "Educação sobre herança, testes, manejo, prevenção, recursos e pesquisa.",
+    "rationale": "Incorreta. Faz parte da definição: o componente educativo cobre herança, testes, manejo e recursos disponíveis."
+   },
+   {
+    "letter": "D",
+    "text": "Aconselhamento para promover escolhas informadas e adaptação ao risco ou à condição.",
+    "rationale": "Incorreta. Faz parte da definição: promover escolhas informadas e adaptação é um dos pilares do processo."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "NSGC 2006: interpretar histórias → educar → aconselhar para escolhas informadas → apoiar decisões autônomas. O profissional NÃO decide pelo consulente."
+ },
+ {
+  "id": 3,
+  "code": "AG-03",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Modelo eugenista",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um texto histórico descreve um modelo de aconselhamento que buscava a \"melhora da raça humana\", usava técnicas diretivas e até coercitivas e apoiava políticas como esterilização compulsória e restrição de casamentos. Esse modelo, cujo termo-base foi proposto por Francis Galton em 1885, é o:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Modelo preventista ou médico.",
+    "rationale": "Incorreta. O modelo preventista buscava reduzir doenças genéticas por meio do diagnóstico médico acurado, com o médico como provedor neutro, sem coerção estatal."
+   },
+   {
+    "letter": "B",
+    "text": "Modelo psicológico ou psicossocial.",
+    "rationale": "Incorreta. O modelo psicossocial é baseado no aconselhamento não diretivo de Carl Rogers, o oposto de técnicas coercitivas."
+   },
+   {
+    "letter": "C",
+    "text": "Modelo informativo ou comunicativo atual.",
+    "rationale": "Incorreta. O modelo atual é não diretivo e comunicativo e respeita a autonomia do consulente, o que é incompatível com coerção."
+   },
+   {
+    "letter": "D",
+    "text": "Modelo eugenista.",
+    "rationale": "CORRETA. Galton propôs o termo eugenia (\"bem gerado\") em 1885. O modelo eugenista foi o primeiro a se desenvolver e tinha caráter diretivo e coercitivo, com forte ação social e política."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Eugenista (Galton, 1885): \"melhorar a raça\", diretivo/coercitivo, com esterilização compulsória e restrição de casamentos. Foi o primeiro modelo histórico."
+ },
+ {
+  "id": 4,
+  "code": "AG-04",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Modelo preventista ou médico",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Na fase de \"medicalização\" do aconselhamento genético, os serviços passaram a se concentrar em grandes centros médicos, a genética virou disciplina clínica e o médico se tornou o legítimo provedor do AG, baseado no diagnóstico acurado e no princípio da neutralidade. Qual era o objetivo central desse modelo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Proteger o \"pool gênico\" humano por meio de políticas estatais.",
+    "rationale": "Incorreta. Proteger o pool gênico por políticas de Estado é característica do modelo eugenista."
+   },
+   {
+    "letter": "B",
+    "text": "Ajudar o consulente a elaborar o luto pela doença genética na família.",
+    "rationale": "Incorreta. Lidar com luto e sofrimento é o foco do modelo psicológico ou psicossocial."
+   },
+   {
+    "letter": "C",
+    "text": "Diminuir ou eliminar as doenças genéticas.",
+    "rationale": "CORRETA. O modelo preventista ou médico tinha como meta diminuir ou eliminar as doenças genéticas, apoiado no diagnóstico médico preciso."
+   },
+   {
+    "letter": "D",
+    "text": "Substituir a consulta médica por grupos de apoio entre famílias.",
+    "rationale": "Incorreta. Grupos de apoio integram a equipe multidisciplinar, mas não definem o modelo preventista, que é centrado no médico."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Preventista/médico: objetivo de reduzir ou eliminar doenças genéticas; o médico é o provedor; a base é o diagnóstico acurado; princípio da neutralidade."
+ },
+ {
+  "id": 5,
+  "code": "AG-05",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Modelo psicológico ou psicossocial",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Uma família recebe o diagnóstico de uma doença genética grave no primeiro filho. A conselheira percebe culpa e raiva entre os pais e conduz a consulta numa relação de participação mútua, ajudando-os a \"ajudarem a si mesmos\", sem direcionar escolhas. Essa abordagem corresponde ao modelo:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Eugenista, porque orienta a família a evitar novos filhos afetados.",
+    "rationale": "Incorreta. Não há orientação para evitar filhos nem coerção. O modelo eugenista é diretivo, ao contrário da conduta descrita."
+   },
+   {
+    "letter": "B",
+    "text": "Psicológico ou psicossocial, baseado no aconselhamento não diretivo centrado na pessoa (Carl Rogers).",
+    "rationale": "CORRETA. O modelo psicossocial reconhece que a informação genética ameaça o ego e desencadeia luto, e usa a relação conselheiro-consulente de participação mútua, não diretiva, baseada em Rogers."
+   },
+   {
+    "letter": "C",
+    "text": "Preventista, porque o foco é o diagnóstico acurado e a redução de doenças genéticas.",
+    "rationale": "Incorreta. O preventista centra-se no diagnóstico e na relação médico-paciente tradicional, não na elaboração emocional com participação mútua."
+   },
+   {
+    "letter": "D",
+    "text": "Laboratorial, porque a conduta depende dos testes moleculares.",
+    "rationale": "Incorreta. Não existe \"modelo laboratorial\" entre os modelos históricos estudados, e a situação descrita é de manejo emocional, não de exames."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Psicossocial: a informação genética não é neutra (ameaça o ego, gera luto). Abordagem não diretiva de Carl Rogers, com participação mútua."
+ },
+ {
+  "id": 6,
+  "code": "AG-06",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Princípio da não diretividade",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Durante o AG de um casal com risco de 25% de recorrência de uma doença autossômica recessiva, o casal pergunta ao médico: \"O que o senhor faria no nosso lugar?\". Qual conduta é mais coerente com os princípios do AG apresentados em aula?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Oferecer todas as informações sobre riscos e opções, sem decidir pelo casal, e apoiar a decisão que ele tomar.",
+    "rationale": "CORRETA. O conselheiro não decide pelos consulentes: oferece todas as informações para capacitá-los a decidir e depois apoia a decisão tomada. O AG deve ser não diretivo e comunicativo."
+   },
+   {
+    "letter": "B",
+    "text": "Recomendar firmemente que o casal não tenha mais filhos biológicos.",
+    "rationale": "Incorreta. É uma conduta diretiva, que fere a autonomia do casal e o princípio do AG não diretivo."
+   },
+   {
+    "letter": "C",
+    "text": "Dizer qual seria a sua escolha pessoal, para facilitar a decisão do casal.",
+    "rationale": "Incorreta. Expor a própria preferência influencia a decisão e fere a não diretividade, mesmo que pareça acolhedor."
+   },
+   {
+    "letter": "D",
+    "text": "Encaminhar o casal ao psicólogo e encerrar o aconselhamento.",
+    "rationale": "Incorreta. O apoio psicológico pode compor a equipe, mas encerrar o AG sem informar e apoiar a decisão abandona o processo."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "AG não diretivo e comunicativo: o profissional informa tudo, NÃO decide pelos consulentes e APOIA a decisão que eles tomarem."
+ },
+ {
+  "id": 7,
+  "code": "AG-07",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Indicações de encaminhamento",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Qual das situações abaixo NÃO está entre as indicações clássicas de encaminhamento ao aconselhamento genético listadas em aula?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gestante de 37 anos no primeiro trimestre.",
+    "rationale": "Incorreta. Idade materna avançada (≥ 35 anos) é indicação clássica de AG, pelo risco de aneuploidias."
+   },
+   {
+    "letter": "B",
+    "text": "Casal consanguíneo (primos em primeiro grau) planejando gestação.",
+    "rationale": "Incorreta. Consanguinidade aumenta o risco de doenças autossômicas recessivas e é indicação de AG."
+   },
+   {
+    "letter": "C",
+    "text": "Mulher com três abortamentos espontâneos consecutivos.",
+    "rationale": "Incorreta. Abortos repetitivos (e infertilidade conjugal) estão entre as indicações, pela possibilidade de rearranjos cromossômicos balanceados nos pais."
+   },
+   {
+    "letter": "D",
+    "text": "Homem de 30 anos com hipertensão arterial controlada e sem história familiar relevante.",
+    "rationale": "CORRETA. Uma condição multifatorial comum, isolada, sem história familiar ou outro fator de risco genético, não é indicação de encaminhamento ao AG."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Indicações de AG: risco de doença genética (inclusive de início tardio), história familiar ou étnica, filho afetado, idade materna ≥ 35, pré-natal ou US alterados, abortos repetitivos ou infertilidade, teratógenos ou radiação, consanguinidade."
+ },
+ {
+  "id": 8,
+  "code": "AG-08",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Indicações de encaminhamento: teratógenos",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Uma gestante de 8 semanas descobre a gravidez após usar por um mês uma medicação potencialmente teratogênica, e o parceiro trabalha com exposição ocupacional à radiação. Ela procura orientação sobre o risco para o bebê. Em relação ao AG, é correto afirmar que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Exposição a teratógenos não é indicação de AG, porque não envolve genes.",
+    "rationale": "Incorreta. A exposição a teratógenos (medicamentos e drogas na gestação, radiação parental) está explicitamente listada entre as indicações de AG."
+   },
+   {
+    "letter": "B",
+    "text": "Só há indicação de AG se o ultrassom já mostrar malformação.",
+    "rationale": "Incorreta. Malformação no US é uma indicação por si só, mas a exposição a teratógenos já justifica o AG antes de qualquer achado."
+   },
+   {
+    "letter": "C",
+    "text": "Exposição a teratógenos, incluindo medicamentos na gestação e radiação parental, é indicação de encaminhamento ao AG.",
+    "rationale": "CORRETA. A aula lista \"exposição a teratógenos\", com orientação sobre medicamentos e drogas na gestação e sobre exposição parental à radiação, entre as indicações de AG."
+   },
+   {
+    "letter": "D",
+    "text": "O AG só se aplica a doenças monogênicas de herança mendeliana.",
+    "rationale": "Incorreta. O AG abrange doenças cromossômicas, monogênicas e multifatoriais, além das situações de exposição a teratógenos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Teratógenos (medicação ou drogas na gestação, radiação parental) são indicação de AG, mesmo sem doença genética conhecida na família."
+ },
+ {
+  "id": 9,
+  "code": "AG-09",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Classificação das doenças genéticas",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Na aula, as doenças genéticas foram classificadas em três grandes grupos. A fissura labial isolada, que resulta da interação entre vários genes e fatores ambientais, pertence a qual grupo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Aberrações cromossômicas.",
+    "rationale": "Incorreta. Aberrações cromossômicas (deleções, translocações, alterações numéricas) são estudadas citogeneticamente e não correspondem à interação de múltiplos genes com o ambiente."
+   },
+   {
+    "letter": "B",
+    "text": "Desordens multifatoriais.",
+    "rationale": "CORRETA. Desordens multifatoriais envolvem vários genes e fatores ambientais. É o caso das malformações isoladas, como a fissura labial, e de doenças comuns do adulto."
+   },
+   {
+    "letter": "C",
+    "text": "Doenças monogênicas.",
+    "rationale": "Incorreta. Doenças monogênicas decorrem da alteração de um único gene, seguindo padrões mendelianos."
+   },
+   {
+    "letter": "D",
+    "text": "Doenças mitocondriais, que formam um quarto grupo obrigatório na classificação apresentada.",
+    "rationale": "Incorreta. A classificação da aula tem três grupos: cromossômicas, monogênicas e multifatoriais."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Três grupos: (1) aberrações cromossômicas (citogenética), (2) monogênicas (um gene), (3) multifatoriais (genes + ambiente)."
+ },
+ {
+  "id": 10,
+  "code": "AG-10",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Risco de recorrência: autossômica recessiva",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Um casal saudável tem um filho com fibrose cística, doença autossômica recessiva. No AG, qual é o risco de que um próximo filho do casal seja afetado?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "25%, porque ambos os pais são portadores heterozigotos.",
+    "rationale": "CORRETA. Pais saudáveis com filho afetado por doença AR são, obrigatoriamente, heterozigotos (Aa × Aa). A cada gestação: 25% afetado, 50% portador, 25% não afetado e não portador."
+   },
+   {
+    "letter": "B",
+    "text": "50%, porque basta um alelo mutado para a doença se manifestar.",
+    "rationale": "Incorreta. 50% é o risco típico da herança autossômica dominante com um genitor afetado. Na recessiva, são necessários dois alelos mutados."
+   },
+   {
+    "letter": "C",
+    "text": "0%, porque o risco já se \"cumpriu\" com o primeiro filho afetado.",
+    "rationale": "Incorreta. Cada gestação é um evento independente: o risco não diminui por já existir um filho afetado."
+   },
+   {
+    "letter": "D",
+    "text": "100%, porque os pais já transmitiram o gene uma vez.",
+    "rationale": "Incorreta. Cada gestação tem a mesma probabilidade, de forma independente. Não há transmissão obrigatória."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "AR com pais portadores: 25% afetado, 50% portador, 25% não afetado, em CADA gestação (eventos independentes).",
+  "solutionSteps": [
+   {
+    "text": "Filho afetado (aa) com pais saudáveis → os dois pais são Aa."
+   },
+   {
+    "text": "Aa × Aa → AA 1/4, Aa 1/2, aa 1/4."
+   },
+   {
+    "text": "Risco de afetado = 1/4 = 25%, em toda gestação."
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "code": "AG-11",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Risco de recorrência: autossômica dominante",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um homem com doença autossômica dominante de penetrância completa (heterozigoto) e uma mulher não afetada pedem AG antes de engravidar. Qual informação está correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Só os filhos homens têm risco, porque a doença foi herdada do pai.",
+    "rationale": "Incorreta. Na herança autossômica, o sexo do filho não altera o risco, já que o gene não está nos cromossomos sexuais."
+   },
+   {
+    "letter": "B",
+    "text": "O risco é de 25%, como em toda doença genética.",
+    "rationale": "Incorreta. 25% é o risco clássico da herança autossômica recessiva com pais portadores, não da dominante."
+   },
+   {
+    "letter": "C",
+    "text": "Se o primeiro filho for afetado, o segundo terá risco menor.",
+    "rationale": "Incorreta. As gestações são independentes: o risco continua 50% em cada uma."
+   },
+   {
+    "letter": "D",
+    "text": "Cada filho, de qualquer sexo, tem 50% de chance de herdar o alelo mutado e ser afetado.",
+    "rationale": "CORRETA. Aa × aa: metade da prole recebe o alelo mutado. Com penetrância completa, 50% dos filhos serão afetados, independentemente do sexo."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "AD com um genitor heterozigoto afetado: 50% de risco a cada gestação, para meninos e meninas.",
+  "solutionSteps": [
+   {
+    "text": "Pai Aa (afetado) × mãe aa."
+   },
+   {
+    "text": "Gametas do pai: 1/2 A e 1/2 a. A mãe só passa a."
+   },
+   {
+    "text": "Prole: 1/2 Aa (afetado) e 1/2 aa → 50%, em toda gestação."
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "code": "AG-12",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Probabilidade combinada (regra do produto)",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Um casal de portadores de uma doença autossômica recessiva quer saber a probabilidade de que os DOIS próximos filhos sejam afetados. Aplicando a regra do produto, usada na aula para cálculo de risco, a resposta é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "1/2.",
+    "rationale": "Incorreta. 1/2 seria a soma de dois riscos de 1/4. Para eventos independentes que precisam ocorrer juntos, as probabilidades se MULTIPLICAM."
+   },
+   {
+    "letter": "B",
+    "text": "1/4.",
+    "rationale": "Incorreta. 1/4 é o risco de UM filho afetado, não de dois filhos afetados em sequência."
+   },
+   {
+    "letter": "C",
+    "text": "1/16.",
+    "rationale": "CORRETA. Eventos independentes que ocorrem juntos (\"e\"): multiplica-se. 1/4 × 1/4 = 1/16."
+   },
+   {
+    "letter": "D",
+    "text": "1/8.",
+    "rationale": "Incorreta. 1/8 resultaria de 1/4 × 1/2, o que não corresponde a dois filhos afetados."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Regra do produto: eventos independentes simultâneos (\"E\") → MULTIPLICA (ex.: 1/6 × 1/6 = 1/36 no dado; 1/4 × 1/4 = 1/16 para dois filhos AR afetados).",
+  "solutionSteps": [
+   {
+    "text": "Risco de cada filho ser afetado (Aa × Aa) = 1/4."
+   },
+   {
+    "text": "Os dois afetados = evento A E evento B → multiplica."
+   },
+   {
+    "text": "1/4 × 1/4 = 1/16."
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "code": "AG-13",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Etapas da consulta de AG",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Sobre a consulta de aconselhamento genético descrita em aula, assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O heredograma é dispensável quando já existe teste molecular disponível.",
+    "rationale": "Incorreta. A construção da árvore genealógica (pedigree) é etapa central da história médica e familiar e orienta inclusive qual teste pedir."
+   },
+   {
+    "letter": "B",
+    "text": "O diagnóstico preciso pelo médico geneticista é essencial, porque o cálculo de risco depende do padrão de herança correto.",
+    "rationale": "CORRETA. A aula enfatiza que o diagnóstico preciso é essencial: sem ele não é possível definir o padrão de herança nem estimar corretamente o risco de recorrência."
+   },
+   {
+    "letter": "C",
+    "text": "Aspectos psicológicos, como culpa e raiva, devem ser evitados para não atrapalhar o raciocínio técnico.",
+    "rationale": "Incorreta. Aspectos psicológicos (culpa, raiva, dinâmica familiar) fazem parte explícita da consulta de AG e devem ser abordados."
+   },
+   {
+    "letter": "D",
+    "text": "O consentimento informado é desnecessário para testes genéticos feitos dentro do SUS.",
+    "rationale": "Incorreta. A consulta inclui informar sobre os testes possíveis e obter o consentimento informado, independentemente do serviço."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Consulta de AG: diagnóstico preciso → história médica/familiar com heredograma → estimativa de risco → aspectos psicológicos (culpa, raiva) → testes com consentimento informado."
+ },
+ {
+  "id": 14,
+  "code": "AG-14",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Princípios éticos do conselheiro",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um serviço de AG passa a atender também pacientes do interior por teleconsulta, para manter o serviço acessível a quem precisa. Entre os princípios que devem guiar o conselheiro, esse esforço corresponde mais diretamente à:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Eficiência.",
+    "rationale": "CORRETA. Na aula, eficiência é \"esforçar-se para manter seus serviços acessíveis para aqueles que necessitam\"."
+   },
+   {
+    "letter": "B",
+    "text": "Autonomia.",
+    "rationale": "Incorreta. Autonomia se refere a respeitar as decisões do consulente, não a manter o serviço acessível."
+   },
+   {
+    "letter": "C",
+    "text": "Não maleficência.",
+    "rationale": "Incorreta. Não maleficência é não causar dano. Ampliar acesso tem relação mais direta com outro princípio citado."
+   },
+   {
+    "letter": "D",
+    "text": "Beneficência.",
+    "rationale": "Incorreta. Beneficência é agir para promover o bem-estar do consulente. É importante, mas a aula define a acessibilidade do serviço como eficiência."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Princípios do conselheiro: beneficência, não maleficência, autonomia, justiça e EFICIÊNCIA (manter o serviço acessível a quem precisa)."
+ },
+ {
+  "id": 15,
+  "code": "AG-15",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Explicar o diagnóstico em termos compreensíveis",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Ao explicar o diagnóstico de síndrome de Down aos pais, a conselheira troca \"epicanto\" por \"prega oblíqua nos olhos\" e \"palma simiesca\" por \"linha transversal única na palma da mão\". Essa conduta corresponde a qual atribuição do conselheiro genético?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Obter informações médicas, étnicas e familiares.",
+    "rationale": "Incorreta. Essa é a primeira atribuição (coleta de dados), não a explicação do diagnóstico."
+   },
+   {
+    "letter": "B",
+    "text": "Indicar os testes genéticos mais apropriados.",
+    "rationale": "Incorreta. Indicar testes, como o cariótipo 47,XY,+21, é outra atribuição, distinta da tradução do diagnóstico."
+   },
+   {
+    "letter": "C",
+    "text": "Apoiar a decisão tomada pelos consulentes.",
+    "rationale": "Incorreta. Apoiar a decisão é uma etapa posterior, depois da informação completa."
+   },
+   {
+    "letter": "D",
+    "text": "Confirmar ou explicar o diagnóstico usando termos compreensíveis.",
+    "rationale": "CORRETA. A aula usa exatamente a síndrome de Down como exemplo: traduzir o fenótipo técnico (epicanto, braquicefalia, palma simiesca, clinodactilia de 5º dedo, hipotonia, glossomegalia) para linguagem acessível."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O CG deve: (1) obter informações, (2) explicar riscos e recorrência, (3) explicar o diagnóstico em termos compreensíveis, (4) indicar testes e condutas, (6) não decidir pelos consulentes, (7) apoiar a decisão."
+ },
+ {
+  "id": 16,
+  "code": "AG-16",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Escolha do teste: FISH interfásico",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Um recém-nascido tem fenótipo sugestivo de trissomia do 21 e a equipe precisa de uma confirmação rápida, sem aguardar a cultura celular do cariótipo. A técnica mostrada em aula, em que o núcleo interfásico exibe três sinais fluorescentes para o cromossomo 21, é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Sequenciamento de Sanger.",
+    "rationale": "Incorreta. Sanger lê a sequência de bases de um fragmento. Não é usado para contar cópias de cromossomos inteiros em núcleos interfásicos."
+   },
+   {
+    "letter": "B",
+    "text": "MLPA para deleções de éxons.",
+    "rationale": "Incorreta. MLPA quantifica a dosagem de éxons específicos (ex.: gene DMD na distrofia de Duchenne). Não é o método mostrado para a contagem rápida do cromossomo 21."
+   },
+   {
+    "letter": "C",
+    "text": "FISH (hibridização in situ por fluorescência) em núcleo interfásico.",
+    "rationale": "CORRETA. A sonda fluorescente específica para o cromossomo 21 hibridiza no núcleo interfásico: três sinais indicam trissomia, sem necessidade de células em metáfase, o que torna o resultado rápido."
+   },
+   {
+    "letter": "D",
+    "text": "PCR convencional com eletroforese.",
+    "rationale": "Incorreta. A PCR amplifica sequências específicas de DNA, mas não mostra sinais fluorescentes por cromossomo no núcleo."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "FISH interfásico: sonda fluorescente no núcleo sem metáfase → contagem rápida de cromossomos (3 sinais = trissomia). O cariótipo convencional precisa de cultura."
+ },
+ {
+  "id": 17,
+  "code": "AG-17",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Escolha do teste: array (CNVs)",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Uma criança com atraso global do desenvolvimento e dismorfias tem cariótipo com bandamento G normal. O geneticista suspeita de microdeleção ou microduplicação abaixo da resolução do cariótipo. Entre os testes mostrados em aula, o mais indicado é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Repetir o cariótipo em cultura de longa duração.",
+    "rationale": "Incorreta. Repetir o cariótipo não aumenta a resolução para alterações submicroscópicas."
+   },
+   {
+    "letter": "B",
+    "text": "Análise por microarranjos (array/CGH-array), que detecta variações no número de cópias (CNVs).",
+    "rationale": "CORRETA. O array co-hibridiza DNA teste e controle e mapeia microdeleções e microduplicações (CNVs) em todo o genoma, abaixo da resolução do cariótipo. No SUS, é o procedimento de identificação de alteração cromossômica submicroscópica."
+   },
+   {
+    "letter": "C",
+    "text": "Teste de vínculo genético (paternidade).",
+    "rationale": "Incorreta. O teste de vínculo não investiga a causa do quadro clínico. Além disso, a aula destaca que não tem cobertura no SUS."
+   },
+   {
+    "letter": "D",
+    "text": "PCR em tempo real para um único gene escolhido ao acaso.",
+    "rationale": "Incorreta. Sem hipótese de gene específico, um teste de gene único tem baixo rendimento. O array faz varredura genômica."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Cariótipo normal + suspeita de micro(deleção/duplicação) → ARRAY (detecta CNVs submicroscópicas)."
+ },
+ {
+  "id": 18,
+  "code": "AG-18",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Equipe multidisciplinar",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Sobre quem participa do aconselhamento genético, segundo a aula:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A abordagem é multidisciplinar e inclui geneticistas, laboratório, outras especialidades, profissionais da saúde e grupos de apoio de pacientes.",
+    "rationale": "CORRETA. A equipe inclui conselheiro e médico geneticista, especialistas do laboratório (citogenética, genética molecular, bioquímica), outras especialidades médicas, psicólogos, enfermeiros, assistentes sociais e outros, além de grupos de apoio."
+   },
+   {
+    "letter": "B",
+    "text": "O AG é ato exclusivo do médico geneticista, sem participação de outros profissionais.",
+    "rationale": "Incorreta. A aula destaca que a abordagem é multidisciplinar e que, diante da escassez de geneticistas, a contribuição de não médicos habilitados é imprescindível."
+   },
+   {
+    "letter": "C",
+    "text": "Grupos de apoio de pacientes devem ser evitados, porque podem transmitir informações erradas.",
+    "rationale": "Incorreta. Grupos de apoio (sociedade civil organizada, religiosos etc.) são citados como parte da rede do AG."
+   },
+   {
+    "letter": "D",
+    "text": "Psicólogos só participam quando há indicação psiquiátrica formal.",
+    "rationale": "Incorreta. O psicólogo integra a equipe multidisciplinar de rotina, porque o AG envolve aspectos emocionais como culpa e luto."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "AG é multidisciplinar: geneticistas, laboratório (citogenética, molecular, bioquímica), outras especialidades, profissionais da saúde e grupos de apoio."
+ },
+ {
+  "id": 19,
+  "code": "AG-19",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Doenças raras e política pública",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Sobre o contexto brasileiro das doenças raras, apresentado no fim da aula de AG, assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As doenças raras afetam menos de 0,1% da população e, por isso, não justificam política específica.",
+    "rationale": "Incorreta. A aula estima que cerca de 6% da população apresente alguma doença rara, o que justifica política pública."
+   },
+   {
+    "letter": "B",
+    "text": "O número de médicos geneticistas no Brasil é suficiente para atender toda a demanda de AG.",
+    "rationale": "Incorreta. A aula afirma o contrário: o número de geneticistas é ínfimo diante da quantidade de pessoas com doenças raras de origem genética."
+   },
+   {
+    "letter": "C",
+    "text": "A triagem neonatal ampliada foi revogada e deixou de incluir doenças genéticas.",
+    "rationale": "Incorreta. A aula cita a aprovação da ampliação da triagem neonatal (PL 5043/2020), com cerca de 53 doenças."
+   },
+   {
+    "letter": "D",
+    "text": "Cerca de 80% das doenças raras têm origem genética, e a Portaria MS nº 199/2014 instituiu a Política Nacional de Atenção Integral às Pessoas com Doenças Raras.",
+    "rationale": "CORRETA. A aula cita que, das pelo menos 8.000 doenças raras conhecidas, cerca de 80% têm origem genética, e que a Portaria 199 (30/01/2014) implantou a Política Nacional de Atenção Integral às Pessoas com Doenças Raras."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Doenças raras: ~8.000 conhecidas, ~80% genéticas, ~6% da população. Portaria MS 199/2014 = Política Nacional de Atenção Integral às Pessoas com Doenças Raras. Faltam geneticistas."
+ },
+ {
+  "id": 20,
+  "code": "AG-20",
+  "assunto": "gen-ag",
+  "category": "Aconselhamento Genético",
+  "subcategory": "Profissionais habilitados ao AG no SUS",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Considerando a escassez de médicos geneticistas e a formação exigida para realizar AG no SUS, conforme apresentado em aula, assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Apenas médicos com residência em Genética Médica podem registrar o procedimento de AG no SUS.",
+    "rationale": "Incorreta. A aula mostra que biólogos, biomédicos e farmacêuticos também podem atuar no AG, desde que habilitados por pós-graduação ou residência multiprofissional."
+   },
+   {
+    "letter": "B",
+    "text": "Qualquer profissional de saúde pode realizar AG, sem formação específica.",
+    "rationale": "Incorreta. É exigida habilitação específica (pós-graduação, residência multiprofissional ou residência médica)."
+   },
+   {
+    "letter": "C",
+    "text": "Biólogos, biomédicos e farmacêuticos podem atuar, se habilitados por pós-graduação ou residência multiprofissional; o médico, por residência médica.",
+    "rationale": "CORRETA. É a habilitação apresentada em aula. A contribuição de não médicos habilitados, atuando em equipe multidisciplinar, é considerada imprescindível."
+   },
+   {
+    "letter": "D",
+    "text": "O AG no SUS é feito exclusivamente por psicólogos, por ser um processo de comunicação.",
+    "rationale": "Incorreta. Embora o AG seja um processo de comunicação, ele exige conhecimento amplo de genética. Os psicólogos compõem a equipe, mas não são os únicos executores."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "AG no SUS: médico (residência médica) e biólogo, biomédico ou farmacêutico (pós-graduação ou residência multiprofissional), atuando em equipe."
+ },
+ {
+  "id": 21,
+  "code": "ONCO-01",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Níveis de prevenção do câncer",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Na aula de diagnóstico molecular em oncologia, a prevenção secundária do câncer foi definida como:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Redução da exposição a fatores de risco, como tabagismo e má alimentação.",
+    "rationale": "Incorreta. Reduzir fatores de risco antes do início da doença é prevenção PRIMÁRIA."
+   },
+   {
+    "letter": "B",
+    "text": "Diagnóstico precoce e intervenção imediata, na fase ainda assintomática ou inicial.",
+    "rationale": "CORRETA. Prevenção secundária = diagnóstico precoce (rastreamento) e intervenção imediata, aproveitando a fase pré-clínica."
+   },
+   {
+    "letter": "C",
+    "text": "Tratamento da doença já sintomática e cuidados paliativos.",
+    "rationale": "Incorreta. Tratamento da doença estabelecida e cuidados de fim de vida correspondem à prevenção terciária."
+   },
+   {
+    "letter": "D",
+    "text": "Vacinação de toda a população contra vírus oncogênicos.",
+    "rationale": "Incorreta. A vacinação (ex.: HPV) atua antes da doença e é prevenção primária."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Primária = reduzir riscos. Secundária = diagnóstico precoce e intervenção imediata. Terciária = tratar a doença sintomática e reabilitar."
+ },
+ {
+  "id": 22,
+  "code": "ONCO-02",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Classes de genes associados ao câncer",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Segundo a base genética do câncer apresentada em aula, as mutações que levam à desregulação do ciclo celular e à proliferação descontrolada atingem principalmente três classes de genes. São elas:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Oncogenes, genes supressores de tumor e genes de reparo do DNA.",
+    "rationale": "CORRETA. São as três classes da aula: oncogenes (aceleradores), supressores de tumor (freios) e genes de reparo do DNA (manutenção da integridade genômica)."
+   },
+   {
+    "letter": "B",
+    "text": "Genes de grupos sanguíneos, genes do HLA e genes de reparo do DNA.",
+    "rationale": "Incorreta. Genes de grupos sanguíneos e do HLA não compõem as classes clássicas de genes do câncer."
+   },
+   {
+    "letter": "C",
+    "text": "Genes mitocondriais, genes ribossomais e oncogenes.",
+    "rationale": "Incorreta. Genes mitocondriais e ribossomais não foram apresentados como classes associadas ao câncer."
+   },
+   {
+    "letter": "D",
+    "text": "Apenas oncogenes, porque todo câncer é causado por ganho de função.",
+    "rationale": "Incorreta. A perda de função de supressores e de genes de reparo também é central na carcinogênese."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Três classes: ONCOGENES (ganho de função), SUPRESSORES DE TUMOR (perda de função) e genes de REPARO do DNA."
+ },
+ {
+  "id": 23,
+  "code": "ONCO-03",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Oncogene × supressor de tumor",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Qual alternativa diferencia corretamente proto-oncogenes e genes supressores de tumor na carcinogênese?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Os proto-oncogenes contribuem para o câncer quando perdem a função, e os supressores, quando ganham função.",
+    "rationale": "Incorreta. É o inverso: proto-oncogenes viram oncogenes por GANHO de função; supressores contribuem quando PERDEM a função."
+   },
+   {
+    "letter": "B",
+    "text": "Os dois tipos atuam apenas na apoptose, sem relação com o ciclo celular.",
+    "rationale": "Incorreta. Ambos regulam o ciclo celular. A apoptose é apenas uma das vias envolvidas."
+   },
+   {
+    "letter": "C",
+    "text": "Os supressores de tumor só existem em células germinativas, e os oncogenes só em células somáticas.",
+    "rationale": "Incorreta. Os dois tipos de gene existem em todas as células. Mutações germinativas em supressores explicam síndromes hereditárias, mas eles não são exclusivos da linhagem germinativa."
+   },
+   {
+    "letter": "D",
+    "text": "Os proto-oncogenes contribuem quando ativados (ganho de função, efeito dominante na célula); os supressores, quando inativados (perda de função, em geral dos dois alelos).",
+    "rationale": "CORRETA. A ativação de um único alelo do proto-oncogene já estimula a proliferação. Os supressores precisam ser inativados, tipicamente nos dois alelos (hipótese dos dois eventos de Knudson)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Proto-oncogene → oncogene por GANHO de função (um alelo basta). Supressor → câncer por PERDA de função (os dois alelos: Knudson)."
+ },
+ {
+  "id": 24,
+  "code": "ONCO-04",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "p53: guardião do genoma",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Após exposição a radiação ionizante, uma célula sofre lesão no DNA. Segundo o esquema da aula sobre p53 e estabilidade genômica, a sequência esperada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A p53 é degradada, o ciclo acelera e a célula se divide para diluir o dano.",
+    "rationale": "Incorreta. Diante de lesão, a p53 é estabilizada e ativada; o ciclo é BLOQUEADO, e não acelerado."
+   },
+   {
+    "letter": "B",
+    "text": "A p53 ativa diretamente oncogenes para que a célula repare o DNA mais rápido.",
+    "rationale": "Incorreta. A p53 é um supressor de tumor: não ativa oncogenes, mas interrompe o ciclo e promove reparo ou apoptose."
+   },
+   {
+    "letter": "C",
+    "text": "A proteína ATM identifica a lesão e sinaliza a p53, que bloqueia o ciclo em G1 e ativa genes de reparo; se o dano for irreparável, induz apoptose.",
+    "rationale": "CORRETA. É o esquema da aula: ATM detecta o dano → ativa p53 → bloqueio em G1 com ativação da transcrição de genes de reparo → reparo bem-sucedido (a célula segue) ou apoptose (dano irreparável)."
+   },
+   {
+    "letter": "D",
+    "text": "A célula entra direto em mitose, e a p53 atua apenas depois da divisão.",
+    "rationale": "Incorreta. O bloqueio ocorre em G1, antes da replicação, para evitar que o dano seja copiado."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Lesão no DNA → ATM → p53 → parada em G1 + genes de reparo → reparo OU apoptose. Lesões retardam o ciclo (checkpoint)."
+ },
+ {
+  "id": 25,
+  "code": "ONCO-05",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Síndrome de Li-Fraumeni",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Uma família apresenta, em várias gerações, casos precoces de câncer de mama, osteossarcoma, tumores cerebrais e leucemias. O gene supressor de tumor associado a essa síndrome hereditária, localizado em 17p13, é o:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "APC.",
+    "rationale": "Incorreta. O APC (5q21) está associado à polipose adenomatosa familiar."
+   },
+   {
+    "letter": "B",
+    "text": "TP53 (p53).",
+    "rationale": "CORRETA. Mutação germinativa em p53 (17p13) causa a síndrome de Li-Fraumeni, com amplo espectro tumoral: mama, osteossarcoma, cérebro, leucemias, entre outros."
+   },
+   {
+    "letter": "C",
+    "text": "RB1.",
+    "rationale": "Incorreta. O RB1 (13q14) está associado ao retinoblastoma hereditário."
+   },
+   {
+    "letter": "D",
+    "text": "VHL.",
+    "rationale": "Incorreta. O VHL (3p25) está associado à doença de von Hippel-Lindau, com destaque para o câncer renal."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "p53 (17p13) → síndrome de Li-Fraumeni: múltiplos tumores precoces (mama, osteossarcoma, SNC, leucemias)."
+ },
+ {
+  "id": 26,
+  "code": "ONCO-06",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Retinoblastoma e hipótese dos dois eventos",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Uma criança de 1 ano tem retinoblastoma bilateral, e o pai teve retinoblastoma na infância. Sobre esse caso, é correto afirmar:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A criança herdou uma mutação germinativa no RB1 (13q14), e o tumor surge após um segundo evento somático no outro alelo, o que explica a bilateralidade e o início precoce.",
+    "rationale": "CORRETA. Na forma hereditária, todas as células já têm um alelo mutado; basta um segundo evento somático. Por isso os tumores são precoces, múltiplos ou bilaterais (Knudson)."
+   },
+   {
+    "letter": "B",
+    "text": "O gene envolvido é um oncogene, e basta um evento somático para o tumor surgir.",
+    "rationale": "Incorreta. O RB1 é um gene SUPRESSOR de tumor."
+   },
+   {
+    "letter": "C",
+    "text": "O retinoblastoma hereditário é sempre unilateral e de início tardio.",
+    "rationale": "Incorreta. Ao contrário: a forma hereditária tende a ser bilateral e precoce. A forma esporádica costuma ser unilateral e mais tardia."
+   },
+   {
+    "letter": "D",
+    "text": "Por ser hereditário, o risco para os irmãos é nulo.",
+    "rationale": "Incorreta. Com o pai portador de mutação germinativa (herança autossômica dominante na família), os irmãos têm risco de até 50% de herdar a mutação."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "RB1 (13q14) é supressor. Hereditário = 1º evento germinativo + 2º somático → bilateral e precoce (Knudson)."
+ },
+ {
+  "id": 27,
+  "code": "ONCO-07",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Polipose adenomatosa familiar",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um homem de 25 anos tem centenas de pólipos adenomatosos no cólon, e o pai faleceu de câncer colorretal aos 40 anos. O gene supressor de tumor mais provavelmente envolvido, segundo a tabela da aula, é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "WT1 (11p13).",
+    "rationale": "Incorreta. O WT1 está associado ao tumor de Wilms (renal, pediátrico)."
+   },
+   {
+    "letter": "B",
+    "text": "NF2 (22q12).",
+    "rationale": "Incorreta. O NF2 está associado à neurofibromatose tipo II (meningiomas, schwannomas)."
+   },
+   {
+    "letter": "C",
+    "text": "p16/MTS1 (9p21).",
+    "rationale": "Incorreta. O p16 está associado ao melanoma familiar."
+   },
+   {
+    "letter": "D",
+    "text": "APC (5q21).",
+    "rationale": "CORRETA. Na tabela da aula, o APC (5q21) está ligado à polipose adenomatosa familiar e, na forma esporádica, a carcinomas de cólon, reto, pâncreas e estômago."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "APC (5q21) → polipose adenomatosa familiar (centenas de pólipos, CCR precoce)."
+ },
+ {
+  "id": 28,
+  "code": "ONCO-08",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Tabela de genes supressores",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Assinale a associação gene supressor → câncer hereditário que está INCORRETA, conforme a tabela da aula:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "VHL (3p25) → doença de von Hippel-Lindau, com câncer renal.",
+    "rationale": "Incorreta. Associação correta na tabela da aula."
+   },
+   {
+    "letter": "B",
+    "text": "NF1 (17q11) → neurofibromatose tipo I.",
+    "rationale": "Incorreta. Associação correta na tabela da aula."
+   },
+   {
+    "letter": "C",
+    "text": "p16 (9p21) → polipose adenomatosa familiar.",
+    "rationale": "CORRETA. INCORRETA, e por isso é a resposta: o p16/MTS1 está associado ao melanoma familiar. A polipose adenomatosa familiar é do APC (5q21)."
+   },
+   {
+    "letter": "D",
+    "text": "WT1 (11p13) → tumor de Wilms.",
+    "rationale": "Incorreta. Associação correta na tabela da aula."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Supressores: RB1 → retinoblastoma; APC → PAF; NF1/NF2 → neurofibromatoses; p53 → Li-Fraumeni; VHL → câncer renal; WT1 → Wilms; p16 → melanoma familiar."
+ },
+ {
+  "id": 29,
+  "code": "ONCO-09",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Oncogenes: tabela",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um paciente com leucemia mieloide crônica tem alteração envolvendo o gene ABL, localizado em 9q34. Na classificação de oncogenes da aula, o ABL pertence ao grupo das:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fatores de transcrição.",
+    "rationale": "Incorreta. Os fatores de transcrição da tabela são N-myc (neuroblastoma) e MYB."
+   },
+   {
+    "letter": "B",
+    "text": "Proteínas de transdução de sinal.",
+    "rationale": "CORRETA. Na tabela da aula, o Abl (9q34) está entre as proteínas de transdução de sinal, junto com H-RAS e K-RAS, e é associado à LMC e à LMA."
+   },
+   {
+    "letter": "C",
+    "text": "Fatores de crescimento.",
+    "rationale": "Incorreta. Os fatores de crescimento da tabela são HST (estômago) e SIS (glioma)."
+   },
+   {
+    "letter": "D",
+    "text": "Genes de reparo do DNA.",
+    "rationale": "Incorreta. O ABL é um proto-oncogene, não um gene de reparo como BRCA1/2 ou MLH1."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Oncogenes da aula: fatores de crescimento (HST, SIS), receptores (RET → NEM; Erb-A), transdução de sinal (H-RAS, K-RAS, ABL → LMC/LMA), fatores de transcrição (N-myc → neuroblastoma; MYB)."
+ },
+ {
+  "id": 30,
+  "code": "ONCO-10",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Oncogene RET",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Uma família tem vários membros com carcinoma medular de tireoide e feocromocitoma, quadro compatível com neoplasia endócrina múltipla. Segundo a tabela da aula, o oncogene envolvido e sua categoria funcional são:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "RET, receptor de fator de crescimento.",
+    "rationale": "CORRETA. Na tabela, o RET (10q) é um receptor de fator de crescimento associado à neoplasia endócrina múltipla."
+   },
+   {
+    "letter": "B",
+    "text": "N-myc, fator de transcrição.",
+    "rationale": "Incorreta. O N-myc está associado ao neuroblastoma e ao carcinoma pulmonar."
+   },
+   {
+    "letter": "C",
+    "text": "SIS, fator de crescimento.",
+    "rationale": "Incorreta. O SIS está associado ao glioma."
+   },
+   {
+    "letter": "D",
+    "text": "K-RAS, proteína de transdução de sinal.",
+    "rationale": "Incorreta. Na tabela da aula, o K-RAS aparece associado a melanoma e carcinoma tireoidiano, mas a NEM é do RET."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "RET (10q) = receptor de fator de crescimento → neoplasia endócrina múltipla (carcinoma medular de tireoide)."
+ },
+ {
+  "id": 31,
+  "code": "ONCO-11",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Mecanismos de oncogênese",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "O esquema geral de mecanismos de oncogênese apresentado em aula inclui as seguintes vias, EXCETO:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ativação de proto-oncogenes.",
+    "rationale": "Incorreta. É uma das vias do esquema."
+   },
+   {
+    "letter": "B",
+    "text": "Mutação ou perda de genes supressores tumorais.",
+    "rationale": "Incorreta. É uma das vias do esquema."
+   },
+   {
+    "letter": "C",
+    "text": "Ativação de genes antiapoptóticos ou perda de genes pró-apoptóticos.",
+    "rationale": "Incorreta. É uma das vias do esquema: menos apoptose favorece a expansão clonal."
+   },
+   {
+    "letter": "D",
+    "text": "Aumento da expressão de genes pró-apoptóticos, que acelera a proliferação.",
+    "rationale": "CORRETA. É a exceção: aumentar genes pró-apoptóticos levaria a MAIS morte celular, o que se opõe à oncogênese."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Oncogênese: ativação de proto-oncogene, perda de supressor e desequilíbrio da apoptose (↑ antiapoptóticos ou ↓ pró-apoptóticos)."
+ },
+ {
+  "id": 32,
+  "code": "ONCO-12",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Genes de reparo do DNA",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Uma paciente com mutação germinativa em BRCA1 tem risco aumentado de câncer de mama e ovário. Na classificação funcional dos genes associados ao câncer, o BRCA1 é melhor descrito como:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Oncogene que codifica um fator de crescimento.",
+    "rationale": "Incorreta. BRCA1 não é oncogene. Sua perda de função é que favorece o câncer."
+   },
+   {
+    "letter": "B",
+    "text": "Gene de grupo sanguíneo com herança codominante.",
+    "rationale": "Incorreta. Não tem relação com grupos sanguíneos."
+   },
+   {
+    "letter": "C",
+    "text": "Gene de reparo do DNA, responsável pela manutenção da estabilidade genômica.",
+    "rationale": "CORRETA. BRCA1/2, MSH2 e MLH1 são genes de reparo (\"caretakers\"). A perda de função leva ao acúmulo de mutações em outros genes."
+   },
+   {
+    "letter": "D",
+    "text": "Gene que acelera diretamente a mitose, como a ciclina D.",
+    "rationale": "Incorreta. Ciclina D e CDK4 promovem o ciclo. O BRCA1 atua no reparo de quebras do DNA."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Genes de REPARO (BRCA1/2, MSH2, MLH1): a perda de função leva à instabilidade genômica e ao acúmulo de mutações."
+ },
+ {
+  "id": 33,
+  "code": "ONCO-13",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Marcadores tumorais: usos",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Sobre o uso dos marcadores tumorais discutido em aula (\"quando pedir ou NÃO pedir\"), assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Marcadores tumorais séricos substituem a biópsia para o diagnóstico definitivo de câncer.",
+    "rationale": "Incorreta. O diagnóstico definitivo exige obtenção de tecido e células (biópsia/histopatológico). Marcador sérico não substitui."
+   },
+   {
+    "letter": "B",
+    "text": "São úteis para diagnóstico diferencial, prognóstico, avaliação da resposta terapêutica e seguimento ou detecção de recidiva.",
+    "rationale": "CORRETA. São as indicações discutidas em aula. O uso para rastreamento populacional é restrito e deve ser criterioso."
+   },
+   {
+    "letter": "C",
+    "text": "Um marcador normal exclui câncer com segurança.",
+    "rationale": "Incorreta. Marcadores têm sensibilidade limitada: um valor normal não exclui neoplasia."
+   },
+   {
+    "letter": "D",
+    "text": "Devem ser pedidos em painel completo para todo paciente assintomático no check-up.",
+    "rationale": "Incorreta. Pedir painéis amplos em assintomáticos gera falso-positivos e investigação desnecessária. É exatamente o \"quando NÃO pedir\"."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Marcadores: diagnóstico diferencial, prognóstico, resposta terapêutica, SEGUIMENTO e recidiva. Não substituem a biópsia; um valor normal não exclui câncer."
+ },
+ {
+  "id": 34,
+  "code": "ONCO-14",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Marcadores por sítio tumoral",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Relacione o marcador ao sítio tumoral, conforme o mapa anatômico da aula. Qual associação está correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Alfa-fetoproteína (AFP) → fígado e testículo.",
+    "rationale": "CORRETA. A AFP aparece no fígado e no testículo (junto com a β-hCG livre) no mapa da aula."
+   },
+   {
+    "letter": "B",
+    "text": "CA-125 → próstata.",
+    "rationale": "Incorreta. O CA-125 está associado a ovário (e colo uterino) no mapa. O marcador da próstata é o PSA."
+   },
+   {
+    "letter": "C",
+    "text": "PSA → pâncreas.",
+    "rationale": "Incorreta. O PSA é marcador da próstata. Para pâncreas, o mapa traz o CA 19-9."
+   },
+   {
+    "letter": "D",
+    "text": "Calcitonina → mama.",
+    "rationale": "Incorreta. A calcitonina é marcadora do carcinoma MEDULAR de tireoide. Mama: CA 15-3 e CEA."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "PSA → próstata; CA-125 → ovário; AFP → fígado e testículo (+ β-hCG); CA 19-9 → pâncreas e TGI; CA 15-3 → mama; calcitonina → tireoide medular; CEA → colorretal (seguimento)."
+ },
+ {
+  "id": 35,
+  "code": "ONCO-15",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "CEA no câncer colorretal",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Um paciente operado de adenocarcinoma de cólon tinha CEA elevado antes da cirurgia, e o valor normalizou após a ressecção. No seguimento, o CEA volta a subir progressivamente. A interpretação mais adequada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O aumento do CEA confirma, sozinho, metástase hepática, sem necessidade de imagem.",
+    "rationale": "Incorreta. O marcador levanta suspeita, mas a confirmação exige investigação por imagem e/ou tecido."
+   },
+   {
+    "letter": "B",
+    "text": "Indica que o tumor inicial era benigno.",
+    "rationale": "Incorreta. A queda pós-ressecção e a nova elevação não mudam a natureza maligna do tumor inicial."
+   },
+   {
+    "letter": "C",
+    "text": "O CEA não tem papel no colorretal, porque é marcador exclusivo de pulmão.",
+    "rationale": "Incorreta. O CEA aparece em vários sítios no mapa (colorretal, pulmão, mama, fígado, tireoide medular). No colorretal é usado no estadiamento e no seguimento."
+   },
+   {
+    "letter": "D",
+    "text": "Sugere recidiva ou doença metastática e motiva investigação com exames de imagem, como a TC.",
+    "rationale": "CORRETA. No colorretal, o CEA é usado no seguimento: a elevação após normalização pós-operatória sugere recidiva e orienta investigação (TC, função hepática etc.)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "CEA no CCR: dosado no estadiamento e no SEGUIMENTO. Aumento após normalização sugere recidiva e pede imagem."
+ },
+ {
+  "id": 36,
+  "code": "ONCO-16",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Objetivos do estadiamento",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Entre os objetivos do estadiamento em oncologia listados em aula, NÃO se inclui:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ajudar o médico no planejamento do tratamento.",
+    "rationale": "Incorreta. É um objetivo listado."
+   },
+   {
+    "letter": "B",
+    "text": "Determinar o prognóstico.",
+    "rationale": "Incorreta. É um objetivo listado."
+   },
+   {
+    "letter": "C",
+    "text": "Dispensar a confirmação histopatológica do tumor.",
+    "rationale": "CORRETA. Não é objetivo do estadiamento. O diagnóstico exige obtenção de tecidos e células para análise, inclusive para definir estágio e grau."
+   },
+   {
+    "letter": "D",
+    "text": "Facilitar o intercâmbio de informações entre centros de tratamento.",
+    "rationale": "Incorreta. É um objetivo listado."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Estadiamento: planejar o tratamento, definir o prognóstico, avaliar resultados, trocar informações entre centros e contribuir para a pesquisa."
+ },
+ {
+  "id": 37,
+  "code": "ONCO-17",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Diagnóstico e estadiamento do câncer colorretal",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Uma mulher de 62 anos tem pesquisa de sangue oculto nas fezes positiva. Seguindo a sequência apresentada em aula para o câncer colorretal, o exame que permite visualizar a lesão e obter biópsia para estudo histopatológico é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Dosagem isolada do CEA.",
+    "rationale": "Incorreta. O CEA é usado no estadiamento e no seguimento, não para o diagnóstico da lesão."
+   },
+   {
+    "letter": "B",
+    "text": "Colonoscopia, com biópsia para estudo histopatológico.",
+    "rationale": "CORRETA. A colonoscopia visualiza a lesão e permite a biópsia, que dá o diagnóstico histopatológico. Exames como TC abdominopélvica, RX de tórax, função hepática e CEA entram no estadiamento."
+   },
+   {
+    "letter": "C",
+    "text": "Radiografia de tórax.",
+    "rationale": "Incorreta. O RX de tórax faz parte do estadiamento (pesquisa de metástases), não do diagnóstico primário."
+   },
+   {
+    "letter": "D",
+    "text": "Ultrassom endorretal como primeiro e único exame.",
+    "rationale": "Incorreta. O US endorretal ajuda no estadiamento local do reto, mas não substitui a colonoscopia com biópsia."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "CCR: sangue oculto ou toque → colonoscopia + BIÓPSIA (diagnóstico). Estadiamento: CEA, RX de tórax, função hepática, US, TC abdominopélvica, RM."
+ },
+ {
+  "id": 38,
+  "code": "ONCO-18",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Estadiamento linfonodal por TC no câncer de pulmão",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "No estadiamento do câncer de pulmão não pequenas células, a TC de tórax é o procedimento inicial em praticamente todos os pacientes. Segundo a aula, qual critério sugere comprometimento linfonodal metastático na maioria das cadeias?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Linfonodo com menor eixo maior que 10 mm.",
+    "rationale": "CORRETA. O critério geral é o alargamento do MENOR eixo > 10 mm. Algumas cadeias têm limiares próprios: subcarinal > 13–15 mm; para-aórtico e gordura pericárdica > 8 mm."
+   },
+   {
+    "letter": "B",
+    "text": "Qualquer linfonodo visível na TC, independentemente do tamanho.",
+    "rationale": "Incorreta. Linfonodos normais são visíveis na TC. O critério é de tamanho (menor eixo)."
+   },
+   {
+    "letter": "C",
+    "text": "Linfonodo com maior eixo maior que 5 mm.",
+    "rationale": "Incorreta. O critério usa o MENOR eixo, e o limiar geral é 10 mm."
+   },
+   {
+    "letter": "D",
+    "text": "Apenas linfonodos calcificados.",
+    "rationale": "Incorreta. Calcificação sugere, com frequência, processo granulomatoso benigno, não metástase."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "TC de tórax (CPNPC): linfonodo suspeito se MENOR eixo > 10 mm (subcarinal > 13–15 mm; para-aórtico ou pericárdico > 8 mm)."
+ },
+ {
+  "id": 39,
+  "code": "ONCO-19",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Rastreamento: recomendações de detecção precoce",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Segundo a tabela de recomendações para detecção precoce apresentada em aula, assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O rastreamento de câncer de pulmão com radiografia de tórax e citologia de escarro é recomendado como rotina para fumantes.",
+    "rationale": "Incorreta. A tabela indica que RX de tórax com citologia de escarro NÃO é recomendado como rotina."
+   },
+   {
+    "letter": "B",
+    "text": "O rastreamento de câncer colorretal deve começar aos 18 anos.",
+    "rationale": "Incorreta. Na tabela, o rastreamento colorretal começa após os 50 anos (toque retal após os 40)."
+   },
+   {
+    "letter": "C",
+    "text": "Não existe recomendação de rastreamento para tumores ginecológicos.",
+    "rationale": "Incorreta. A tabela traz o exame pélvico periódico para colo uterino, útero e ovário."
+   },
+   {
+    "letter": "D",
+    "text": "A pesquisa de sangue oculto nas fezes é recomendada anualmente após os 50 anos para o câncer colorretal.",
+    "rationale": "CORRETA. É a recomendação da tabela da aula para o câncer de cólon e reto."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Tabela da aula: sangue oculto nas fezes anual após 50 anos (CCR); RX de tórax + escarro para pulmão NÃO é rotina."
+ },
+ {
+  "id": 40,
+  "code": "ONCO-20",
+  "assunto": "gen-onco",
+  "category": "Oncogenética",
+  "subcategory": "Integração: hereditário × esporádico",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Sobre câncer hereditário e esporádico, considerando os genes supressores estudados, assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Câncer hereditário e esporádico nunca envolvem o mesmo gene.",
+    "rationale": "Incorreta. A tabela da aula mostra o mesmo gene nas duas formas. O APC, por exemplo, aparece na PAF hereditária e em carcinomas esporádicos de cólon."
+   },
+   {
+    "letter": "B",
+    "text": "Todo câncer é hereditário, porque é uma doença genética.",
+    "rationale": "Incorreta. Câncer é doença genética no nível celular (mutações somáticas), mas a maioria dos casos é esporádica, não herdada."
+   },
+   {
+    "letter": "C",
+    "text": "No câncer hereditário, a primeira mutação é germinativa, presente em todas as células; no esporádico, os dois eventos são somáticos, o que explica o início mais tardio do esporádico.",
+    "rationale": "CORRETA. Na forma hereditária, todas as células já têm um alelo inativado e basta um evento somático: tumores precoces, múltiplos ou bilaterais. Na esporádica, os dois eventos são somáticos e ocorrem mais tarde."
+   },
+   {
+    "letter": "D",
+    "text": "Mutações somáticas são transmitidas aos filhos.",
+    "rationale": "Incorreta. Só mutações em células germinativas são transmitidas à prole."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Hereditário: 1º hit germinativo (em todas as células) → precoce, múltiplo, bilateral. Esporádico: 2 hits somáticos → mais tardio. Câncer é genético, mas a maioria NÃO é herdada."
+ },
+ {
+  "id": 41,
+  "code": "FGEN-01",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Conceito de farmacogenética",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Segundo Meyer (2004), citado em aula, a farmacogenética trata:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Da síntese industrial de novos fármacos a partir de DNA recombinante.",
+    "rationale": "Incorreta. A indústria usa a farmacogenética para desenvolver drogas, mas a definição não é sobre síntese de fármacos."
+   },
+   {
+    "letter": "B",
+    "text": "Da forma como o indivíduo responde às drogas frente a determinadas variações genéticas.",
+    "rationale": "CORRETA. É a definição da aula (Meyer, 2004): estudo da influência das variações genéticas na resposta individual aos fármacos."
+   },
+   {
+    "letter": "C",
+    "text": "Do efeito dos fármacos sobre a estrutura dos cromossomos fetais.",
+    "rationale": "Incorreta. Efeitos de fármacos sobre o feto dizem respeito à teratogênese, não à farmacogenética."
+   },
+   {
+    "letter": "D",
+    "text": "Da interação entre dois fármacos administrados ao mesmo tempo.",
+    "rationale": "Incorreta. Interação medicamentosa entre fármacos não é a definição de farmacogenética."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Farmacogenética = como a variação genética do indivíduo altera sua resposta aos fármacos (Meyer, 2004)."
+ },
+ {
+  "id": 42,
+  "code": "FGEN-02",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Sentido amplo × sentido estrito",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Em sentido ESTRITO, conforme apresentado em aula, a farmacogenética se refere:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "À variação genética que só é revelada pela resposta a drogas ou produtos químicos.",
+    "rationale": "CORRETA. Sentido estrito: variações genéticas \"silenciosas\", que só aparecem quando o indivíduo é exposto a determinado fármaco ou produto químico (ex.: deficiência de G6PD revelada pela primaquina)."
+   },
+   {
+    "letter": "B",
+    "text": "A qualquer variabilidade genética que determine diferença na resposta a drogas.",
+    "rationale": "Incorreta. Essa é a definição em sentido AMPLO."
+   },
+   {
+    "letter": "C",
+    "text": "Apenas às doenças monogênicas de herança mendeliana.",
+    "rationale": "Incorreta. A farmacogenética não se restringe a doenças monogênicas."
+   },
+   {
+    "letter": "D",
+    "text": "Ao estudo do genoma inteiro de populações (farmacogenômica).",
+    "rationale": "Incorreta. Farmacogenômica é o estudo em escala genômica. Não é a definição em sentido estrito apresentada."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Amplo = qualquer variação genética na resposta a drogas. Estrito = variação só revelada pela exposição à droga ou ao produto químico."
+ },
+ {
+  "id": 43,
+  "code": "FGEN-03",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Determinantes da resposta a fármacos",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "A resposta de um paciente a um fármaco depende de vários fatores. Segundo a aula, ela é influenciada por:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Apenas pela dose prescrita.",
+    "rationale": "Incorreta. A dose importa, mas a aula destaca fatores ambientais, o estado de saúde e as características genéticas."
+   },
+   {
+    "letter": "B",
+    "text": "Exclusivamente pela genética, sem papel do ambiente.",
+    "rationale": "Incorreta. O ambiente (ex.: tabagismo, álcool, dieta) também modula a resposta."
+   },
+   {
+    "letter": "C",
+    "text": "Apenas pelo sexo do paciente.",
+    "rationale": "Incorreta. O sexo pode influenciar, mas não é o determinante único nem o foco da aula."
+   },
+   {
+    "letter": "D",
+    "text": "Fatores ambientais, estado de saúde e características genéticas, especialmente dos genes que codificam proteínas-alvo e enzimas metabolizadoras.",
+    "rationale": "CORRETA. São os três determinantes citados. O componente genético depende dos genes de alvos, transportadores e enzimas de metabolização."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Resposta ao fármaco = ambiente + estado de saúde + genética (alvos, transportadores, enzimas)."
+ },
+ {
+  "id": 44,
+  "code": "FGEN-04",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Alvos farmacogenéticos: transportadores",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um paciente com epilepsia refratária a vários anticonvulsivantes tem expressão aumentada de glicoproteína-P na barreira hematoencefálica. O gene envolvido e o mecanismo provável são:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "NAT2, que acelera a acetilação dos anticonvulsivantes no fígado.",
+    "rationale": "Incorreta. A NAT2 é enzima de acetilação (ex.: isoniazida), não um transportador de efluxo."
+   },
+   {
+    "letter": "B",
+    "text": "CYP2D6, que transporta o fármaco para dentro do neurônio.",
+    "rationale": "Incorreta. A CYP2D6 é uma enzima metabolizadora, não um transportador."
+   },
+   {
+    "letter": "C",
+    "text": "MDR1, que codifica a glicoproteína-P, transportador de efluxo que retira o fármaco da célula e contribui para a resistência a múltiplas drogas.",
+    "rationale": "CORRETA. A glicoproteína-P é produto do gene MDR1 (multirresistência a fármacos) e faz o efluxo de fármacos e xenobióticos. Maior expressão reduz a concentração do fármaco no alvo."
+   },
+   {
+    "letter": "D",
+    "text": "Gene do canal de sódio, que codifica a glicoproteína-P.",
+    "rationale": "Incorreta. Canais de sódio são RECEPTORES/alvos (ex.: carbamazepina). A glicoproteína-P vem do MDR1."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Transportador: MDR1 → glicoproteína-P (efluxo) → resistência a múltiplos fármacos."
+ },
+ {
+  "id": 45,
+  "code": "FGEN-05",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Alvos farmacogenéticos: receptores",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Na aula, os canais de sódio foram citados como exemplo de alvo farmacogenético relacionado a qual uso terapêutico?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Tratamento da tuberculose com isoniazida.",
+    "rationale": "Incorreta. A isoniazida se relaciona à enzima NAT2, não a canais de sódio."
+   },
+   {
+    "letter": "B",
+    "text": "Tratamento da epilepsia com carbamazepina.",
+    "rationale": "CORRETA. Os canais de sódio são o RECEPTOR (alvo) da carbamazepina. Variações nos genes desses canais alteram a resposta ao tratamento da epilepsia."
+   },
+   {
+    "letter": "C",
+    "text": "Tratamento da malária com primaquina.",
+    "rationale": "Incorreta. A primaquina se relaciona à deficiência de G6PD (enzima), não a canais de sódio."
+   },
+   {
+    "letter": "D",
+    "text": "Tratamento da depressão com nortriptilina.",
+    "rationale": "Incorreta. A nortriptilina foi usada no exemplo do CYP2D6 (enzima)."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Receptor/alvo: canais de sódio → carbamazepina (epilepsia)."
+ },
+ {
+  "id": 46,
+  "code": "FGEN-06",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Alvos farmacogenéticos: enzimas",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Entre as enzimas de detoxificação citadas como alvos de estudos farmacogenéticos, a aula listou:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "GST, CYP e NAT2.",
+    "rationale": "CORRETA. Glutationa S-transferases (GST), citocromo P450 (CYP) e N-acetiltransferase 2 (NAT2) foram os exemplos de enzimas polimórficas."
+   },
+   {
+    "letter": "B",
+    "text": "Glicoproteína-P, canais de sódio e EGFR.",
+    "rationale": "Incorreta. Glicoproteína-P é transportador, canal de sódio é receptor e EGFR é receptor de fator de crescimento. Nenhum deles é enzima de detoxificação."
+   },
+   {
+    "letter": "C",
+    "text": "DNA polimerase, ligase e helicase.",
+    "rationale": "Incorreta. São enzimas da replicação do DNA, não de metabolização de fármacos."
+   },
+   {
+    "letter": "D",
+    "text": "Insulina, glucagon e cortisol.",
+    "rationale": "Incorreta. São hormônios, não enzimas de detoxificação."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Três tipos de alvo: TRANSPORTADORES (MDR1/P-gp), RECEPTORES (canais de Na+) e ENZIMAS (GST, CYP, NAT2)."
+ },
+ {
+  "id": 47,
+  "code": "FGEN-07",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "CYP2D6 e fenótipos metabolizadores",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Dois pacientes recebem a mesma dose padrão de nortriptilina. O paciente 1 desenvolve sedação intensa, hipotensão e arritmia, com nível sérico muito alto. O paciente 2 não tem resposta clínica, com nível sérico baixo. Considerando os perfis de metabolização do CYP2D6 da aula, os pacientes 1 e 2 são, respectivamente:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Metabolizador ultrarrápido e metabolizador lento.",
+    "rationale": "Incorreta. Está invertido: o ultrarrápido elimina o fármaco depressa e teria nível BAIXO."
+   },
+   {
+    "letter": "B",
+    "text": "Metabolizador extensivo (normal) nos dois casos.",
+    "rationale": "Incorreta. Com metabolismo normal, a dose padrão daria níveis terapêuticos nos dois."
+   },
+   {
+    "letter": "C",
+    "text": "Metabolizador intermediário e metabolizador extensivo.",
+    "rationale": "Incorreta. O intermediário tem atividade reduzida, mas o quadro do paciente 2 (nível baixo com dose padrão) é típico do ultrarrápido, não do extensivo."
+   },
+   {
+    "letter": "D",
+    "text": "Metabolizador lento (pobre) e metabolizador ultrarrápido.",
+    "rationale": "CORRETA. O metabolizador lento acumula o fármaco (nível alto, toxicidade) e precisa de dose menor. O ultrarrápido elimina rápido (nível baixo, falha terapêutica) e precisaria de dose maior."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "CYP2D6 (nortriptilina): 4 fenótipos (UM, EM, IM, PM). Lento → acumula e intoxica (↓ dose). Ultrarrápido → nível baixo e falha (↑ dose)."
+ },
+ {
+  "id": 48,
+  "code": "FGEN-08",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "NAT2 e isoniazida",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Durante o tratamento de tuberculose com esquema que inclui isoniazida, um paciente desenvolve hepatotoxicidade e neuropatia periférica, enquanto outro, com a mesma dose, não tem efeitos adversos. A explicação farmacogenética clássica, apresentada em aula, envolve:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Deficiência de G6PD, que causa hemólise com isoniazida.",
+    "rationale": "Incorreta. A deficiência de G6PD é o exemplo clássico com a primaquina (hemólise), não da hepatotoxicidade da isoniazida."
+   },
+   {
+    "letter": "B",
+    "text": "Hiperexpressão de MDR1, que aumenta a entrada da isoniazida no fígado.",
+    "rationale": "Incorreta. O MDR1 faz efluxo, não aumenta a entrada, e não é o mecanismo clássico da toxicidade da isoniazida."
+   },
+   {
+    "letter": "C",
+    "text": "Polimorfismo da NAT2: acetiladores lentos acumulam isoniazida e têm mais reações adversas.",
+    "rationale": "CORRETA. A NAT2 acetila a isoniazida. Acetiladores lentos (genótipo de baixa atividade) mantêm níveis mais altos e têm maior risco de reações adversas. É o exemplo clássico de Evans e colaboradores."
+   },
+   {
+    "letter": "D",
+    "text": "Polimorfismo de canais de sódio, que altera a absorção intestinal.",
+    "rationale": "Incorreta. Canais de sódio são alvos de anticonvulsivantes, sem relação com a isoniazida."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "NAT2: acetiladores LENTOS + isoniazida → maior risco de reações adversas (hepatotoxicidade, neuropatia)."
+ },
+ {
+  "id": 49,
+  "code": "FGEN-09",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "G6PD e primaquina",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um soldado tratado para malária com primaquina desenvolve anemia hemolítica aguda e urina escura poucos dias após o início do medicamento. Esse foi um dos marcos históricos da farmacogenética, descrito por Beutler em 1959. A condição de base é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Acetilação lenta pela NAT2.",
+    "rationale": "Incorreta. A NAT2 está ligada à isoniazida, não à hemólise por primaquina."
+   },
+   {
+    "letter": "B",
+    "text": "Deficiência de glicose-6-fosfato desidrogenase (G6PD).",
+    "rationale": "CORRETA. A deficiência de G6PD torna a hemácia vulnerável ao estresse oxidativo de fármacos como a primaquina, o que causa hemólise. Beutler a descreveu em 1959."
+   },
+   {
+    "letter": "C",
+    "text": "Metabolização ultrarrápida pelo CYP2D6.",
+    "rationale": "Incorreta. O exemplo da aula para o CYP2D6 foi a nortriptilina."
+   },
+   {
+    "letter": "D",
+    "text": "Alcaptonúria.",
+    "rationale": "Incorreta. A alcaptonúria foi estudada por Garrod (1902), no conceito de \"química individual\", e não causa hemólise por primaquina."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Marcos: Garrod (1902, química individual, alcaptonúria); Motulsky (1957); Beutler (1959, G6PD + primaquina → hemólise); Kalow (1962, primeiro livro de farmacogenética)."
+ },
+ {
+  "id": 50,
+  "code": "FGEN-10",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "História: Garrod",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "O médico britânico que, em 1902, ao estudar a alcaptonúria e pigmentos urinários de pacientes, propôs o conceito de \"química individual\", considerado precursor da farmacogenética, foi:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Archibald Garrod.",
+    "rationale": "CORRETA. Garrod estudou a alcaptonúria e propôs o conceito de química individual (1902), base dos erros inatos do metabolismo e da farmacogenética."
+   },
+   {
+    "letter": "B",
+    "text": "Werner Kalow.",
+    "rationale": "Incorreta. Kalow publicou o primeiro livro de farmacogenética, em 1962."
+   },
+   {
+    "letter": "C",
+    "text": "Arno Motulsky.",
+    "rationale": "Incorreta. Motulsky publicou \"Drug reactions, enzymes and biochemical genetics\" em 1957."
+   },
+   {
+    "letter": "D",
+    "text": "Francis Galton.",
+    "rationale": "Incorreta. Galton propôs o termo eugenia (1885), tema da aula de aconselhamento genético."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Garrod (1902) → \"química individual\" (alcaptonúria). Motulsky 1957 → reações a drogas e genética bioquímica. Beutler 1959 → G6PD. Kalow 1962 → primeiro livro."
+ },
+ {
+  "id": 51,
+  "code": "FGEN-11",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "SNP",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Sobre os polimorfismos de nucleotídeo único (SNPs), marcadores de DNA muito usados em farmacogenética, é correto afirmar, segundo a aula:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "São alterações de grandes segmentos cromossômicos, visíveis no cariótipo.",
+    "rationale": "Incorreta. SNP é a variação de UMA única base, invisível ao cariótipo."
+   },
+   {
+    "letter": "B",
+    "text": "São sempre patogênicos e causam doença monogênica.",
+    "rationale": "Incorreta. A maioria dos SNPs não causa doença. Muitos apenas modulam respostas, como a resposta a fármacos."
+   },
+   {
+    "letter": "C",
+    "text": "Só ocorrem em regiões não codificantes do genoma.",
+    "rationale": "Incorreta. A aula cita pelo menos 4 SNPs por gene em regiões codificantes."
+   },
+   {
+    "letter": "D",
+    "text": "Correspondem a cerca de 90% dos polimorfismos do DNA humano e envolvem uma única base, podendo ser bi, tri ou tetra-alélicos.",
+    "rationale": "CORRETA. É o que a aula apresenta: variação de uma base; 90% dos polimorfismos humanos; podem ser bi, tri ou tetra-alélicos; ao menos 4 SNPs por gene em regiões codificantes."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "SNP = troca de 1 base; ~90% dos polimorfismos humanos; bi, tri ou tetra-alélico; ≥ 4 por gene em regiões codificantes."
+ },
+ {
+  "id": 52,
+  "code": "FGEN-12",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "PCR na genotipagem",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Para genotipar o CYP2D6 de um paciente antes de iniciar um antidepressivo, o laboratório amplifica in vitro a região do gene de interesse. Sobre a técnica descrita em aula para isso, assinale a correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A PCR amplifica de forma linear proteínas a partir do RNA mensageiro.",
+    "rationale": "Incorreta. A PCR amplifica DNA, não proteínas, e de forma exponencial."
+   },
+   {
+    "letter": "B",
+    "text": "A PCR só funciona com grandes quantidades de DNA, como cromossomos inteiros.",
+    "rationale": "Incorreta. A PCR parte de pequenas quantidades de DNA."
+   },
+   {
+    "letter": "C",
+    "text": "A PCR amplifica de forma exponencial sequências específicas de DNA, usando elementos da replicação natural; os produtos são chamados amplicons.",
+    "rationale": "CORRETA. É a definição da aula: amplificação exponencial in vitro de pequenas quantidades de DNA, rápida e eficiente para sequências específicas, gerando amplicons."
+   },
+   {
+    "letter": "D",
+    "text": "Os produtos da PCR são chamados de sondas FISH.",
+    "rationale": "Incorreta. Os produtos da PCR são amplicons. Sondas FISH são outra ferramenta."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "PCR: amplificação EXPONENCIAL in vitro de sequência específica de DNA → AMPLICONS. Base da genotipagem de SNPs."
+ },
+ {
+  "id": 53,
+  "code": "FGEN-13",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Sistema LADME",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "O esquema LADME (Löscher, 2009), usado em aula para epilepsia, mostra que polimorfismos em transportadores, alvos e enzimas podem predizer o desfecho clínico. Qual alternativa interpreta corretamente esse modelo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A genética só influencia a etapa de absorção do fármaco.",
+    "rationale": "Incorreta. O modelo mostra variações que atuam em várias etapas (liberação, absorção, distribuição, metabolismo, eliminação) e também no alvo."
+   },
+   {
+    "letter": "B",
+    "text": "Variantes em transportadores (ex.: na barreira hematoencefálica), em alvos (ex.: canais) e em enzimas (ex.: CYP) se somam para determinar resposta, efeitos adversos e desfecho.",
+    "rationale": "CORRETA. É a ideia central do esquema: polimorfismos em diferentes pontos do caminho do fármaco, do transporte ao alvo e ao metabolismo, predizem resposta, efeitos adversos, comorbidades e estado de saúde."
+   },
+   {
+    "letter": "C",
+    "text": "O modelo indica que o ambiente não interfere na resposta a anticonvulsivantes.",
+    "rationale": "Incorreta. O modelo foca em pontos genéticos, mas a aula reconhece fatores ambientais e o estado de saúde como determinantes."
+   },
+   {
+    "letter": "D",
+    "text": "LADME é o nome de um gene de resistência a múltiplas drogas.",
+    "rationale": "Incorreta. LADME é o acrônimo das etapas farmacocinéticas (Liberação, Absorção, Distribuição, Metabolismo, Eliminação). O gene de multirresistência é o MDR1."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "LADME + genética: transportadores polimórficos, alvos polimórficos e enzimas polimórficas → predizem resposta, efeitos adversos e desfecho."
+ },
+ {
+  "id": 54,
+  "code": "FGEN-14",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Aplicabilidade em oncologia",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "A aula citou que determinadas drogas da quimioterapia do câncer só têm efeito terapêutico em certos grupos. O exemplo dado envolve:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O receptor do fator de crescimento epidérmico (EGFR).",
+    "rationale": "CORRETA. Terapias dirigidas ao EGFR beneficiam principalmente pacientes cujo tumor tem determinadas alterações nesse receptor. É um exemplo de seleção farmacogenética do tratamento."
+   },
+   {
+    "letter": "B",
+    "text": "A enzima G6PD.",
+    "rationale": "Incorreta. A G6PD é o exemplo da primaquina, não de quimioterápicos."
+   },
+   {
+    "letter": "C",
+    "text": "A alcaptonúria.",
+    "rationale": "Incorreta. A alcaptonúria é o exemplo histórico de Garrod, sem relação com quimioterapia."
+   },
+   {
+    "letter": "D",
+    "text": "O gene RB1.",
+    "rationale": "Incorreta. O RB1 é supressor de tumor estudado em oncogenética, não o exemplo de resposta a quimioterápico citado na farmacogenética."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Aplicação em oncologia: drogas dirigidas ao EGFR funcionam só em subgrupos com alterações específicas."
+ },
+ {
+  "id": 55,
+  "code": "FGEN-15",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Aplicabilidade e perspectivas",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Sobre a aplicabilidade e as perspectivas da farmacogenética discutidas em aula, é INCORRETO afirmar:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "É ferramenta útil na busca de novas drogas pela indústria farmacêutica.",
+    "rationale": "Incorreta. Afirmação correta da aula."
+   },
+   {
+    "letter": "B",
+    "text": "Pode beneficiar a saúde pública ao evitar reações adversas em grupos distintos de pacientes.",
+    "rationale": "Incorreta. Afirmação correta da aula."
+   },
+   {
+    "letter": "C",
+    "text": "Serve como prognóstico de estado ou patogenicidade de doenças.",
+    "rationale": "Incorreta. Afirmação correta da aula."
+   },
+   {
+    "letter": "D",
+    "text": "Todos os marcadores genéticos já estão validados, e basta genotipar para decidir qualquer tratamento.",
+    "rationale": "CORRETA. INCORRETA, e por isso é a resposta: a aula ressalta que ainda é necessário validar marcadores genéticos de maior relevância clínica antes de tomar decisões terapêuticas."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Perspectivas: novas drogas, prognóstico, saúde pública (evitar reações adversas), oncologia dirigida. Mas ainda é preciso VALIDAR marcadores clinicamente relevantes."
+ },
+ {
+  "id": 56,
+  "code": "FGEN-16",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Integração: dose individualizada",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Uma paciente sabidamente metabolizadora lenta do CYP2D6 precisa iniciar um antidepressivo tricíclico metabolizado por essa enzima. A conduta farmacogeneticamente mais racional é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Usar a dose padrão e aumentar rapidamente, porque o metabolismo lento reduz o efeito.",
+    "rationale": "Incorreta. No metabolizador lento, o fármaco ACUMULA. Dose padrão com aumento rápido eleva o risco de toxicidade."
+   },
+   {
+    "letter": "B",
+    "text": "Contraindicar qualquer antidepressivo, porque o CYP2D6 metaboliza todos.",
+    "rationale": "Incorreta. Nem todos os antidepressivos dependem do CYP2D6. Existem alternativas."
+   },
+   {
+    "letter": "C",
+    "text": "Iniciar com dose reduzida e monitorar efeitos adversos (e, se disponível, o nível sérico), ou escolher um fármaco não dependente dessa via.",
+    "rationale": "CORRETA. Como a eliminação é lenta, doses menores atingem o nível terapêutico. Monitorar ou trocar por fármaco de outra via evita toxicidade, que é a lógica de individualizar a dose."
+   },
+   {
+    "letter": "D",
+    "text": "Dobrar a dose, como se faz no metabolizador ultrarrápido.",
+    "rationale": "Incorreta. Doses maiores são consideradas no ULTRARRÁPIDO, não no lento."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Metabolizador lento → dose MENOR, monitorar ou trocar a via. Ultrarrápido → dose maior ou outro fármaco."
+ },
+ {
+  "id": 57,
+  "code": "FGEN-17",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Doença monogênica × multifatorial na resposta a fármacos",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Sobre a base genética da variabilidade de resposta a fármacos, assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "É sempre monogênica, determinada por mutações raras em um único gene.",
+    "rationale": "Incorreta. Há exemplos monogênicos marcantes (G6PD, NAT2), mas boa parte da variabilidade resulta de vários polimorfismos combinados com fatores ambientais."
+   },
+   {
+    "letter": "B",
+    "text": "Pode envolver mutações raras em um gene (monogênica) ou a combinação de vários polimorfismos frequentes (> 1% da população) com fatores ambientais (multifatorial).",
+    "rationale": "CORRETA. A aula diferencia doenças e traços monogênicos (um gene, mutações raras) de poligênicos ou multifatoriais (polimorfismos em vários genes + ambiente). As duas lógicas se aplicam à farmacogenética."
+   },
+   {
+    "letter": "C",
+    "text": "Depende apenas de alterações cromossômicas numéricas.",
+    "rationale": "Incorreta. Alterações numéricas não são a base principal da variação na resposta a fármacos."
+   },
+   {
+    "letter": "D",
+    "text": "Polimorfismo é sinônimo de mutação patogênica rara.",
+    "rationale": "Incorreta. Polimorfismo é variante FREQUENTE (> 1% da população), em geral não patogênica."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Polimorfismo = variante com frequência > 1%. A resposta a fármacos pode ser monogênica (ex.: G6PD) ou multifatorial (vários SNPs + ambiente)."
+ },
+ {
+  "id": 58,
+  "code": "FGEN-18",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Interação genótipo × ambiente",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "prompt": "Estudos citados em aula mostraram maior expressão cerebral de CYP2E1 em fumantes e alcoolistas e maior risco de reações a tuberculostáticos em acetiladores lentos combinados a outros fatores (sexo, tabagismo). Esses achados reforçam que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fatores ambientais, como tabaco e álcool, interagem com o genótipo e modulam enzimas e risco de efeitos adversos.",
+    "rationale": "CORRETA. A indução do CYP2E1 por nicotina e etanol e o risco maior quando genótipo lento se soma a outros fatores ilustram a interação genótipo-ambiente na resposta a drogas."
+   },
+   {
+    "letter": "B",
+    "text": "O genótipo, sozinho, determina toda a resposta ao fármaco.",
+    "rationale": "Incorreta. Os exemplos mostram justamente o contrário: fatores ambientais modificam a expressão enzimática e somam-se ao genótipo."
+   },
+   {
+    "letter": "C",
+    "text": "A farmacogenética não se aplica ao tratamento da tuberculose.",
+    "rationale": "Incorreta. A NAT2 com isoniazida é exemplo clássico de farmacogenética na tuberculose."
+   },
+   {
+    "letter": "D",
+    "text": "O CYP2E1 só existe no fígado.",
+    "rationale": "Incorreta. Os estudos citados avaliaram CYP2E1 no cérebro, o que mostra expressão fora do fígado."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Genótipo × ambiente: tabaco e álcool induzem enzimas (CYP2E1) e se somam ao genótipo (ex.: NAT2 lento) no risco de reação adversa."
+ },
+ {
+  "id": 59,
+  "code": "FGEN-19",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Propósito da farmacogenética",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "prompt": "Uma das perguntas de fixação da aula foi \"Qual o propósito da farmacogenética?\". A melhor resposta é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Substituir todos os ensaios clínicos por testes genéticos.",
+    "rationale": "Incorreta. Os ensaios clínicos continuam necessários. A farmacogenética os complementa."
+   },
+   {
+    "letter": "B",
+    "text": "Diagnosticar doenças cromossômicas no pré-natal.",
+    "rationale": "Incorreta. Esse é o campo do diagnóstico pré-natal e da citogenética."
+   },
+   {
+    "letter": "C",
+    "text": "Eliminar a necessidade de prescrição médica.",
+    "rationale": "Incorreta. A farmacogenética apoia, mas não substitui, a decisão clínica."
+   },
+   {
+    "letter": "D",
+    "text": "Individualizar a escolha e a dose dos fármacos com base no perfil genético, aumentando a eficácia e reduzindo as reações adversas.",
+    "rationale": "CORRETA. É o propósito central: usar o perfil genético para prever resposta e toxicidade e individualizar o tratamento."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Propósito: medicina individualizada, com o fármaco certo, na dose certa, para o genótipo certo (mais eficácia, menos reações adversas)."
+ },
+ {
+  "id": 60,
+  "code": "FGEN-20",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Integração com epilepsia",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "prompt": "Um adolescente com epilepsia não responde à carbamazepina, apesar de níveis séricos adequados. Considerando os alvos farmacogenéticos estudados, qual é a hipótese MAIS coerente para a falha?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Acetilação rápida pela NAT2.",
+    "rationale": "Incorreta. A NAT2 não é a via relevante da carbamazepina e não explicaria falha com nível sérico adequado."
+   },
+   {
+    "letter": "B",
+    "text": "Deficiência de G6PD.",
+    "rationale": "Incorreta. A deficiência de G6PD causa hemólise com oxidantes. Não explica falha anticonvulsivante."
+   },
+   {
+    "letter": "C",
+    "text": "Variação no alvo (canais de sódio) ou maior efluxo na barreira hematoencefálica pela glicoproteína-P (MDR1), que reduz o fármaco no sítio de ação.",
+    "rationale": "CORRETA. Com nível sérico adequado, a falha sugere problema no alvo (canal de sódio polimórfico) ou no transporte até o cérebro (efluxo pela P-gp), exatamente os alvos discutidos para epilepsia."
+   },
+   {
+    "letter": "D",
+    "text": "Metabolização lenta pelo CYP2D6, que reduz o nível sérico.",
+    "rationale": "Incorreta. O metabolizador lento AUMENTA o nível sérico. Além disso, o enunciado já informa níveis adequados."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Falha com nível sérico adequado → pensar no ALVO (canal de Na+) ou no TRANSPORTE até o alvo (P-gp/MDR1 na BHE)."
+ }
+]
