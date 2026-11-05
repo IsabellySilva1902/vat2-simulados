@@ -19,17 +19,22 @@ DIF = {'basica': 'Básica', 'básica': 'Básica', 'intermediaria': 'Intermediár
 
 
 def blocos_json(texto):
-    """Encontra todas as listas JSON no texto (aceita vários blocos colados em sequência)."""
+    """Encontra todas as questões (objetos com "enunciado") no texto, uma a uma.
+
+    Aceita vários blocos colados em sequência e também respostas cortadas no meio:
+    as questões completas são aproveitadas e só a última, incompleta, é descartada.
+    """
     dec = json.JSONDecoder(); i = 0; achadas = []
     while True:
-        i = texto.find('[', i)
+        i = texto.find('{', i)
         if i < 0:
             return achadas
         try:
             obj, fim = dec.raw_decode(texto, i)
-            if isinstance(obj, list) and obj and isinstance(obj[0], dict):
-                achadas.extend(obj)
-            i = fim
+            if isinstance(obj, dict) and 'enunciado' in obj:
+                achadas.append(obj); i = fim
+            else:
+                i += 1
         except json.JSONDecodeError:
             i += 1
 
