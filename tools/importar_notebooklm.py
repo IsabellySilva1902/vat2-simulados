@@ -39,7 +39,22 @@ def blocos_json(texto):
             i += 1
 
 
+CITACAO = re.compile(r'\s*\[\d+(?:\s*[,\-–]\s*\d+)*\]')
+
+
+def limpar(v):
+    """Remove as marcas de citação do NotebookLM ("[1]", "[2, 3]", "[4-6]")."""
+    if isinstance(v, str):
+        return CITACAO.sub('', v).strip()
+    if isinstance(v, dict):
+        return {k: limpar(x) for k, x in v.items()}
+    if isinstance(v, list):
+        return [limpar(x) for x in v]
+    return v
+
+
 def converter(item):
+    item = limpar(item)
     alts = item.get('alternativas') or {}
     if isinstance(alts, list):  # aceita lista ["...", "..."] também
         alts = {LETRAS[k]: v for k, v in enumerate(alts)}
@@ -50,8 +65,9 @@ def converter(item):
     opts = []
     for l in LETRAS:
         r = str(just.get(l, '')).strip()
-        if not re.match(r'^(CORRETA|Incorreta)', r):
-            r = ('CORRETA. ' if l == correta else 'Incorreta. ') + r
+        # troca "Certa."/"Errada."/"Correta."/"Incorreta." pelo padrão do simulado
+        r = re.sub(r'^\s*\(?(certa|correta|errada|incorreta|verdadeira|falsa)\)?\s*[.:\-–—]\s*', '', r, flags=re.I)
+        r = ('CORRETA. ' if l == correta else 'Incorreta. ') + r
         opts.append({'letter': l, 'text': str(alts[l]).strip(), 'rationale': r})
     dif = DIF.get(str(item.get('dificuldade', '')).strip().lower(), 'Intermediária')
     return {

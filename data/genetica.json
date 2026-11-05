@@ -4396,5 +4396,2105 @@
   ],
   "correctLetter": "D",
   "clinicalPointers": "Falha com nível sérico adequado → pensar no ALVO (canal de Na+) ou no TRANSPORTE até o alvo (P-gp/MDR1 na BHE)."
+ },
+ {
+  "id": 128,
+  "code": "CRISPR-01",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Origem e estrutura do CRISPR",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um pesquisador de genética médica apresenta uma aula sobre a origem biológica das ferramentas de edição genômica. Ele explica que o acrônimo CRISPR se refere a sequências repetitivas encontradas no genoma procarionte que funcionam como mecanismo adaptativo. Qual é o significado correto da sigla CRISPR e a faixa de tamanho característico de suas unidades de repetição em bactérias?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Chromosomal Repeated Interspaced Short Palindromic Regions, com repetições variando de 100 a 200 pares de bases.",
+    "rationale": "Incorreta. A sigla correta é Clustered Regularly Interspaced Short Palindromic Repeats e a extensão das unidades repetitivas é de 24 a 47 pares de bases, e não de 100 a 200 pb."
+   },
+   {
+    "letter": "B",
+    "text": "Clustered Randomly Inserted Short Polyadenylated Repeats, com unidades de repetição de 5 a 15 pares de bases.",
+    "rationale": "Incorreta. O termo não se refere a repetições poliadeniladas inseridas ao acaso, mas a repetições palindrômicas curtas agrupadas e regularmente interespaçadas de 24 a 47 pb."
+   },
+   {
+    "letter": "C",
+    "text": "Clustered Regularly Interspaced Short Palindromic Repeats, com unidades de repetição variando de 24 a 47 pares de bases.",
+    "rationale": "CORRETA. O acrônimo CRISPR significa Clustered Regularly Interspaced Short Palindromic Repeats, constituindo um sistema de defesa antiviral em bactérias cujas unidades de repetição variam de 24 a 47 pares de bases."
+   },
+   {
+    "letter": "D",
+    "text": "Cellular Regularly Interspaced Short Protein Repeats, com repetições variando de 50 a 100 pares de bases.",
+    "rationale": "Incorreta. O sistema CRISPR é composto por sequências de ácidos nucleicos (DNA/RNA) no genoma bacteriano, e não por repetições proteicas celulares."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "CRISPR significa Clustered Regularly Interspaced Short Palindromic Repeats com unidades de repetição variando de 24 a 47 pb no genoma bacteriano."
+ },
+ {
+  "id": 129,
+  "code": "CRISPR-02",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Origem bacteriana da nuclease Cas9",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Durante um seminário de terapia gênica em oncologia, discute-se a enzima endonuclease Cas9 mais comumente utilizada em pesquisas de edição biotecnológica (SpCas9). Qual é o organismo de origem e o tipo de sistema CRISPR do qual essa endonuclease foi originalmente isolada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Escherichia coli, pertencente ao sistema CRISPR do tipo I.",
+    "rationale": "Incorreta. A endonuclease Cas9 descrita na aula provém da bactéria Streptococcus pyogenes e pertence ao sistema tipo II, não à E. coli tipo I."
+   },
+   {
+    "letter": "B",
+    "text": "Streptococcus pyogenes, pertencente ao sistema CRISPR do tipo II.",
+    "rationale": "CORRETA. A enzima Cas9 descrita na aula faz parte do sistema CRISPR bacteriano tipo II de Streptococcus pyogenes."
+   },
+   {
+    "letter": "C",
+    "text": "Staphylococcus aureus, pertencente ao sistema CRISPR do tipo III.",
+    "rationale": "Incorreta. O material de estudo aponta a nuclease Cas9 como derivada de Streptococcus pyogenes (sistema tipo II), e não de S. aureus do tipo III."
+   },
+   {
+    "letter": "D",
+    "text": "Pseudomonas aeruginosa, pertencente ao sistema CRISPR do tipo IV.",
+    "rationale": "Incorreta. O locus genético de onde se deriva o gene Cas9 apresentado pertence a Streptococcus pyogenes tipo II."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A nuclease Cas9 utilizada na edição genômica deriva do sistema CRISPR tipo II da bactéria Streptococcus pyogenes."
+ },
+ {
+  "id": 130,
+  "code": "CRISPR-03",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Reconhecimento da Sequência PAM",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Em um laboratório de genética médica, um pesquisador desenha um RNA guia para direcionar a enzima endonuclease Cas9 derivada de Streptococcus pyogenes ao gene mutado de um paciente. Para que ocorra o alinhamento e a clivagem do DNA genômico alvo, qual sequência adjacente ao protoespaçador (motivo PAM) deve estar obrigatoriamente presente na fita alvo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Sequência NGG adjacente a 3' (ou NCC na fita complementar).",
+    "rationale": "CORRETA. A nuclease Cas9 exige a presença do motivo PAM (Protospacer Adjacent Motif) correspondente à sequência NGG (ou NCC na fita complementar) junto ao alvo genômico para realizar o corte."
+   },
+   {
+    "letter": "B",
+    "text": "Sequência TATA box adjacente a 5'.",
+    "rationale": "Incorreta. O elemento promotor TATA box não atua como sequência PAM para o reconhecimento do complexo Cas9."
+   },
+   {
+    "letter": "C",
+    "text": "Sequência Poly-A de 10 a 20 nucleotídeos.",
+    "rationale": "Incorreta. A cauda Poly-A é uma modificação de mRNA eucariótico, não a sequência de reconhecimento PAM no DNA alvo."
+   },
+   {
+    "letter": "D",
+    "text": "Sequência repetida de tripletos CAG.",
+    "rationale": "Incorreta. Tripletos CAG correspondem a expansões nucleotídicas associadas a neurodegenerações como a Doença de Huntington, não à sequência PAM."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A endonuclease Cas9 necessita da sequência PAM (NGG) adjacente ao sítio alvo para realizar a clivagem da dupla fita de DNA."
+ },
+ {
+  "id": 131,
+  "code": "CRISPR-04",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Componentes do RNA Guia (sgRNA)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Para simplificar o uso do sistema CRISPR-Cas9 em células humanas, cientistas fundiram duas moléculas biológicas de RNA em uma única fita sintética denominada gRNA (ou sgRNA). Essa estrutura artificial é formada pela junção de quais componentes originais do sistema bacteriano?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fusão do pre-CRISPR RNA com a enzima Cas1.",
+    "rationale": "Incorreta. O gRNA é composto exclusivamente por ácidos nucleicos (crRNA e tracrRNA), sem fusão proteica com a Cas1."
+   },
+   {
+    "letter": "B",
+    "text": "Fusão da nuclease Cas9 com o mRNA da hemoglobina.",
+    "rationale": "Incorreta. A endonuclease Cas9 é uma proteína endonuclease que se liga ao complexo de RNA guia, não uma parte constituinte do próprio gRNA."
+   },
+   {
+    "letter": "C",
+    "text": "Fusão do DNA doador com a sequência PAM.",
+    "rationale": "Incorreta. A sequência PAM fica no DNA alvo e o DNA doador é usado para reparo por HDR, não fazendo parte da fusão do gRNA."
+   },
+   {
+    "letter": "D",
+    "text": "Fusão do crRNA com o tracrRNA.",
+    "rationale": "CORRETA. O RNA guia (gRNA ou sgRNA) é obtido biotecnologicamente mediante a fusão das moléculas de crRNA e tracrRNA."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O gRNA sintético é criado a partir da fusão do crRNA (que pareia com o DNA alvo) com o tracrRNA."
+ },
+ {
+  "id": 132,
+  "code": "CRISPR-05",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Fases da Imunidade Bacteriana (Fase 1 - Imunização)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Ao estudar o funcionamento do sistema imune adaptativo bacteriano em resposta a uma infecção por bacteriófago, um estudante de Medicina analisa os eventos moleculares da 'Fase 1: Imunização'. Qual evento caracteriza fundamentalmente essa primeira fase no locus CRISPR tipo II?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Lise completa do cromossomo bacteriano pela proteína Cas9 para evitar a replicação do fago.",
+    "rationale": "Incorreta. A imunização procarionte preserva o genoma bacteriano ao incorporar fragmentos do vírus no locus CRISPR para memória futura."
+   },
+   {
+    "letter": "B",
+    "text": "Tradução de imunoglobulinas solúveis para neutralizar os capsídeos virais extracelulares.",
+    "rationale": "Incorreta. Bactérias não produzem imunoglobulinas; a memória adaptativa procarionte é mediada pelo sistema CRISPR-Cas via RNAs."
+   },
+   {
+    "letter": "C",
+    "text": "Clivagem do DNA viral pelo complexo Cas e inserção de um novo espaçador (spacer) entre as unidades de repetição no locus CRISPR.",
+    "rationale": "CORRETA. Na Fase 1 (Imunização), o DNA do vírus invasor é clivado pelo complexo de proteínas Cas (Cas9, Cas1, Cas2, Csn2) e uma nova unidade espaçadora (spacer) é inserida no locus CRISPR da bactéria."
+   },
+   {
+    "letter": "D",
+    "text": "Degradação do tracrRNA pela fita complementar para inativar a transcrição gênica.",
+    "rationale": "Incorreta. O tracrRNA atua na maturação e complexação da Cas9 durante o processo imunitário, não sendo degradado para inativar a transcrição."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A Fase 1 (Imunização) bacteriana consiste no processamento do DNA viral e incorporação de um novo espaçador no locus CRISPR."
+ },
+ {
+  "id": 133,
+  "code": "CRISPR-06",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Componentes Genéticos do Locus CRISPR tipo II",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um grupo de pesquisa investiga a arquitetura genética do locus CRISPR tipo II da cepa Streptococcus pyogenes SF370 para clonagem em plasmídeos. Além das regiões de repetições diretas (direct repeats) e espaçadores (spacers), quais são os genes codificadores de proteínas associadas (genes Cas) organizados nesse locus operônico?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Genes BRCA1, BRCA2, TP53 e ATM.",
+    "rationale": "Incorreta. BRCA1, BRCA2 e TP53 são genes supressores tumorais humanos."
+   },
+   {
+    "letter": "B",
+    "text": "Genes Cas9, Cas1, Cas2 e Csn2.",
+    "rationale": "CORRETA. O locus CRISPR tipo II em Streptococcus pyogenes SF370 contém os genes operônicos associados Cas9, Cas1, Cas2 e Csn2."
+   },
+   {
+    "letter": "C",
+    "text": "Genes EGFR, Ras, MYC e ERBB2.",
+    "rationale": "Incorreta. EGFR, Ras e MYC são proto-oncogenes/oncogenes humanos analisados nas aplicações oncológicas da aula."
+   },
+   {
+    "letter": "D",
+    "text": "Genes FANCC, CYBB, FMR1 e FXN.",
+    "rationale": "Incorreta. FANCC, CYBB, FMR1 e FXN são genes humanos associados a patologias hereditárias (Anemia de Fanconi, DGC, X-frágil e Ataxia de Friedreich)."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O locus CRISPR tipo II de Streptococcus pyogenes contém os genes codificadores das proteínas Cas9, Cas1, Cas2 e Csn2."
+ },
+ {
+  "id": 134,
+  "code": "CRISPR-07",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Elementos do Plasmídeo de Edição Genômica",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Para realizar a edição de genoma em células eucarióticas, constrói-se um plasmídeo de expressão no qual a sequência codificadora da endonuclease SpCas9 é flanqueada por sequências de Sinal de Localização Nuclear (NLS). Qual é a função biológica da presença dessas sequências NLS no vetor de edição?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Garantir o transporte e o direcionamento da enzima SpCas9 sintetizada no citoplasma para o núcleo celular.",
+    "rationale": "CORRETA. Como a tradução da nuclease SpCas9 ocorre no citoplasma de hospedeiros eucarióticos, as sequências NLS (Nuclear Localization Signal) garantem a importação ativa da enzima para o núcleo, onde se encontra o genoma."
+   },
+   {
+    "letter": "B",
+    "text": "Promover a degradação da proteína SpCas9 logo após a clivagem do DNA alvo.",
+    "rationale": "Incorreta. As sequências NLS sinalizam a importação nuclear da proteína, e não a sua degradação proteassômica."
+   },
+   {
+    "letter": "C",
+    "text": "Permitir a secreção da SpCas9 para o espaço extracelular a fim de editar células vizinhas.",
+    "rationale": "Incorreta. O sinal NLS direciona a proteína para a organela nuclear interna da própria célula tradutora, não para a secreção extracelular."
+   },
+   {
+    "letter": "D",
+    "text": "Converter a dupla fita do DNA genômico em fita simples antes da ação da endonuclease.",
+    "rationale": "Incorreta. O sinal NLS atua exclusivamente no tráfego intracelular de proteínas e não altera a conformação do DNA alvo."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "As sequências NLS integradas ao vetor garantem o direcionamento e transporte nuclear da proteína SpCas9 traduzida."
+ },
+ {
+  "id": 135,
+  "code": "CRISPR-08",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Terapia Gênica In Vivo",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente de 50 anos com doença hereditária metabólica hepática é incluído em um ensaio clínico. A equipe médica administra via infusão endovenosa direta vetores virais contendo a endonuclease Cas9, o gRNA e o molde de reparo, permitindo que a edição ocorra diretamente nos hepatócitos dentro do organismo. Como é classificada essa modalidade terapêutica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Edição gênica ex vivo.",
+    "rationale": "Incorreta. A abordagem ex vivo requer a remoção de células do paciente, edição em bancada e posterior retransplante."
+   },
+   {
+    "letter": "B",
+    "text": "Terapia de reposição enzimática exógena.",
+    "rationale": "Incorreta. Trata-se da entrega de elementos de edição gênica no DNA do paciente, e não de infusão proteica purified estrita."
+   },
+   {
+    "letter": "C",
+    "text": "Reprogramação celular por iPSCs.",
+    "rationale": "Incorreta. A reprogramação iPSC envolve isolamento e diferenciação celular in vitro, enquadrando-se em abordagens ex vivo."
+   },
+   {
+    "letter": "D",
+    "text": "Edição gênica in vivo.",
+    "rationale": "CORRETA. A edição gênica in vivo caracteriza-se pela administração direta do sistema CRISPR/Cas9 e moldes de reparo no corpo do paciente através de vetores virais ou não virais."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A terapia gênica in vivo baseia-se no envio direto de vetores virais ou não virais com o sistema CRISPR/Cas9 para o corpo do paciente."
+ },
+ {
+  "id": 136,
+  "code": "CRISPR-09",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Terapia Gênica Ex Vivo",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente pediátrico com imunodeficiência severa é submetido a um protocolo no qual suas células estaminais hematopoiéticas são colhidas, modificadas externamente em laboratório pelo sistema CRISPR-Cas9, submetidas a seleção e expansão clonal, e finalmente reinfundidas. Qual é a denominação dessa estratégia e quais tipos celulares podem ser empregados após reprogramação prévia?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Terapia in vivo utilizando vetores adenovirais sistêmicos.",
+    "rationale": "Incorreta. A remoção, manipulação em cultura e reinfusão celular caracterizam uma abordagem ex vivo, e não in vivo."
+   },
+   {
+    "letter": "B",
+    "text": "Erradicação por Gene Drive populacional.",
+    "rationale": "Incorreta. Gene Drive é uma estratégia voltada para a disseminação de traços em populações de organismos (ex: vetores de doenças), não uma terapia individual ex vivo."
+   },
+   {
+    "letter": "C",
+    "text": "Edição gênica ex vivo utilizando células estaminais ou iPSCs (células-tronco pluripotentes induzidas).",
+    "rationale": "CORRETA. Na edição gênica ex vivo, os genes são corrigidos externamente em células somáticas ou iPSCs anteriormente reprogramadas a partir do doente, passando por processo de seleção e expansão antes do retransplante."
+   },
+   {
+    "letter": "D",
+    "text": "Transplante heterólogo direto sem seleção prévia.",
+    "rationale": "Incorreta. A metodologia ex vivo exige etapas rigorosas de seleção e expansão celular in vitro antes do transplante."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Na terapia ex vivo, as células do paciente (somáticas ou iPSCs) são corrigidas externamente por CRISPR/Cas9, selecionadas, expandidas e retransplantadas."
+ },
+ {
+  "id": 137,
+  "code": "CRISPR-10",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Gene Drive e Genética de Populações",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Em um plano de controle biológico da transmissão de arboviroses, cientistas planejam liberar mosquitos geneticamente modificados contendo a tecnologia Gene Drive baseada em CRISPR-Cas9. Diferente da herança mendeliana tradicional (na qual a probabilidade de um alelo ser transmitido é de 50%), qual é o mecanismo molecular do Gene Drive e sua repercussão na descendência?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O Gene Drive bloqueia a meiose, impedindo a geração de gametas levedados com o gene alterado.",
+    "rationale": "Incorreta. O Gene Drive não bloqueia a gametogênese meiótica; ele converte indivíduos heterozigotos em homozigotos modificados."
+   },
+   {
+    "letter": "B",
+    "text": "O sistema Gene Drive cliva o cromossomo parceiro selvagem e o mecanismo de reparo copia a modificação, fazendo com que quase 100% da descendência herde o gene modificado.",
+    "rationale": "CORRETA. No sistema Gene Drive, a nuclease cliva o cromossomo selvagem parceiro e o reparo copia a modificação para este cromossomo, resultando em transmissão para quase 100% da prole e rápida disseminação populacional."
+   },
+   {
+    "letter": "C",
+    "text": "O Gene Drive induz a lise seletiva de embriões fêmeas, reduzindo a população em 75%.",
+    "rationale": "Incorreta. O mecanismo do Gene Drive apoia-se na cortagem e cópia do gene alterado para o cromossomo homólogo, e não na lise embrionária seletiva."
+   },
+   {
+    "letter": "D",
+    "text": "O Gene Drive reduz a transmissão do gene para cerca de 25% através de imprinting paternal.",
+    "rationale": "Incorreta. O Gene Drive aumenta drasticamente a taxa de herança (para próximo de 100%), acelerando a fixação do gene modificado na população."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O Gene Drive cliva o cromossomo selvagem parceiro e copia a modificação durante o reparo, garantindo que quase 100% da descendência herde o gene."
+ },
+ {
+  "id": 138,
+  "code": "CRISPR-11",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Sanguíneas (Anemia de Fanconi e β-Talassemia)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente de 14 anos diagnosticado com Anemia de Fanconi é avaliado para protocolos de edição de genoma. De acordo com o conteúdo da aula de terapia gênica com CRISPR-Cas9, qual é o gene alvo específico nesta patologia e qual mecanismo de reparação é empregado em iPSCs?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene FANCC através do mecanismo de reparação por Homologia (HDR) em iPSCs.",
+    "rationale": "CORRETA. Para a Anemia de Fanconi, o alvo da tecnologia CRISPR/Cas9 é o gene FANCC, utilizando o mecanismo de reparação dirigida por homologia (HDR) em iPSCs."
+   },
+   {
+    "letter": "B",
+    "text": "Gene CCR5 por ablação de receptores nucleares.",
+    "rationale": "Incorreta. O gene CCR5 é o alvo para ablação na terapia da infecção pelo vírus HIV."
+   },
+   {
+    "letter": "C",
+    "text": "Gene do Fator VIII por reversão de inversões cromossômicas.",
+    "rationale": "Incorreta. A reversão de inversões no gene do Fator VIII é empregada no tratamento da Hemofilia A."
+   },
+   {
+    "letter": "D",
+    "text": "Gene HTT por deleção de repetições CAG.",
+    "rationale": "Incorreta. O gene HTT é alvo de deleção de CAG na Doença de Huntington."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Na Anemia de Fanconi, a abordagem por CRISPR/Cas9 é direcionada ao gene FANCC utilizando o mecanismo de reparo HDR em iPSCs."
+ },
+ {
+  "id": 139,
+  "code": "CRISPR-12",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Sanguíneas (Hemofilia A)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um recém-nascido do sexo masculino é diagnosticado com Hemofilia A grave provocada por uma grande inversão cromossômica no genoma. Consultando a tabela de doenças sanguíneas tratáveis por CRISPR/Cas9 apresentada na aula, qual é o alvo molecular e o mecanismo de reparação gênica indicado para essa condição?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene da Hemoglobina Beta por reparação HDR em células musculares.",
+    "rationale": "Incorreta. O gene da Hemoglobina Beta é o alvo na β-talassemia."
+   },
+   {
+    "letter": "B",
+    "text": "Gene CYBB por alteração do splicing alternativo em plaquetas.",
+    "rationale": "Incorreta. O gene CYBB é o alvo na Doença Granulomatosa Crônica via HDR."
+   },
+   {
+    "letter": "C",
+    "text": "Gene EGFR por repressão da atividade quinase.",
+    "rationale": "Incorreta. O gene EGFR é alvo de repressão no câncer de pulmão."
+   },
+   {
+    "letter": "D",
+    "text": "Gene do Factor de coagulação VIII através da reversão de inversões cromossomais em iPSCs.",
+    "rationale": "CORRETA. Para a Hemofilia A, o alvo da CRISPR/Cas9 é o gene do Factor de coagulação VIII e a estratégia de reparação consiste na reversão de inversões cromossomais em iPSCs."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O tratamento por CRISPR/Cas9 para Hemofilia A visa o gene do Fator VIII com mecanismo de reversão de inversões cromossômicas em iPSCs."
+ },
+ {
+  "id": 140,
+  "code": "CRISPR-13",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Sanguíneas (Doença Granulomatosa Crônica)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Uma criança com infecções bacterianas e fúngicas graves recorrentes recebe o diagnóstico de Doença Granulomatosa Crônica (DGC). A equipe de genética médica estuda a viabilidade de aplicar CRISPR/Cas9. De acordo com o material de aula, qual é o gene alvo da CRISPR/Cas9 na DGC e qual é o mecanismo de reparação utilizado em iPSCs?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene EBNA 1 através da clivagem por repetição distal.",
+    "rationale": "Incorreta. EBNA 1 é um gene do vírus Epstein-Barr (EBV), não o gene causador da DGC."
+   },
+   {
+    "letter": "B",
+    "text": "Gene FXN através da deleção de tripletos GAA.",
+    "rationale": "Incorreta. A deleção de repetições GAA no gene FXN é a estratégia indicada para a Ataxia de Friedreich."
+   },
+   {
+    "letter": "C",
+    "text": "Gene CYBB através do mecanismo de reparação HDR em iPSCs.",
+    "rationale": "CORRETA. Na Doença Granulomatosa Crônica, o alvo da CRISPR/Cas9 é o gene CYBB e o mecanismo de reparação é o HDR (Homology-Directed Repair) em iPSCs."
+   },
+   {
+    "letter": "D",
+    "text": "Gene Trp53 através da inserção aleatória por NHEJ.",
+    "rationale": "Incorreta. O gene Trp53 é corrigido em casos de linfoma."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A abordagem por CRISPR/Cas9 na Doença Granulomatosa Crônica foca no gene CYBB por meio de reparo HDR em iPSCs."
+ },
+ {
+  "id": 141,
+  "code": "CRISPR-14",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Virais (HIV)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente adulto com infecção pelo Vírus da Imunodeficiência Humana (HIV) consulta um infectologista sobre pesquisas de edição genômica voltadas à eliminação do provírus e resistência celular. Com base nas aplicações clínicas para infecções virais descritas na aula, quais são os dois alvos da CRISPR/Cas9 para o HIV e seus respectivos mecanismos de ação?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene da insulina (ativação transcricional) e DNA mitocondrial (deleção).",
+    "rationale": "Incorreta. O gene da insulina e o DNA mitocondrial não são alvos da terapia CRISPR contra o HIV."
+   },
+   {
+    "letter": "B",
+    "text": "Gene CCR5 (ablação do CCR5) e Região LTR (destruição dos LTR).",
+    "rationale": "CORRETA. Para o vírus HIV, os alvos da CRISPR/Cas9 apontados na aula são o gene CCR5 (promovendo a ablação do co-receptor CCR5) e a região LTR (promovendo a destruição das sequências LTR provirais)."
+   },
+   {
+    "letter": "C",
+    "text": "Genes E6 e E7 (bloqueio da tradução ribossômica).",
+    "rationale": "Incorreta. E6 e E7 são oncogenes do HPV, não genes do vírus HIV."
+   },
+   {
+    "letter": "D",
+    "text": "Gene PARK (regulação gênica do vírus).",
+    "rationale": "Incorreta. Os genes PARK estão associados à Doença de Parkinson."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A estratégia terapêutica da CRISPR/Cas9 contra o HIV inclui a ablação do gene CCR5 e a destruição das regiões LTR provirais."
+ },
+ {
+  "id": 142,
+  "code": "CRISPR-15",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Virais (HBV, HPV e EBV)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Uma paciente de 35 anos apresenta neoplasia intraepitelial cervical associada ao Papilomavírus Humano (HPV). Ao revisar os alvos de terapias virais com CRISPR/Cas9 apresentados no curso, qual é o alvo molecular no HPV e o resultado gerado sobre as proteínas virais e supressores tumorais da célula hospedeira?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Alvo nos genes E6 e E7, resultando na destruição das proteínas E6 e E7 e no aumento de supressores tumorais.",
+    "rationale": "CORRETA. No HPV, o alvo da CRISPR/Cas9 são os genes E6 e E7, levando à destruição das proteínas virais oncogênicas E6 e E7 e permitindo o aumento dos supressores tumorais na célula hospedeira."
+   },
+   {
+    "letter": "B",
+    "text": "Alvo no cDNA intra-hepático, resultando em lise bacteriana.",
+    "rationale": "Incorreta. A destruição do cDNA intra-hepático é o mecanismo contra o Vírus da Hepatite B (HBV), não o HPV."
+   },
+   {
+    "letter": "C",
+    "text": "Alvo nos genes EBNA 1 e EBNA 3C, resultando no silenciamento do p53.",
+    "rationale": "Incorreta. EBNA 1 e EBNA 3C são alvos na infecção pelo Vírus Epstein-Barr (EBV)."
+   },
+   {
+    "letter": "D",
+    "text": "Alvo nos genes EGFR e Ras, promovendo proliferação celular.",
+    "rationale": "Incorreta. EGFR e Ras são proto-oncogenes humanos direcionados no tratamento do câncer de pulmão."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A clivagem dos genes E6 e E7 do HPV via CRISPR/Cas9 destrói as proteínas oncogênicas virais e restaura os níveis de supressores tumorais."
+ },
+ {
+  "id": 143,
+  "code": "CRISPR-16",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Oncologia (Câncer de Pulmão e Próstata)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um oncologista estuda novos alvos terapêuticos de edição genômica para pacientes com cancro da próstata metastático. De acordo com a tabela de doenças cancerígenas tratáveis por CRISPR/Cas9 fornecida na aula, quais são os genes alvos e o mecanismo de ação no Câncer de Próstata?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene Trp53 e gene Myc, resultando na correção do Trp53.",
+    "rationale": "Incorreta. Trp53 e Myc são alvos no tratamento de Linfomas."
+   },
+   {
+    "letter": "B",
+    "text": "Gene Mll3, resultando na regulação da transcrição citoplasmática.",
+    "rationale": "Incorreta. O gene Mll3 é o alvo na Leucemia Mieloide Aguda (LMA)."
+   },
+   {
+    "letter": "C",
+    "text": "Gene EGFR e genes da Ras, resultando na repressão do EGFR e regulação da Ras.",
+    "rationale": "Incorreta. EGFR e genes da Ras são alvos na terapia do Cancro do Pulmão."
+   },
+   {
+    "letter": "D",
+    "text": "Genes NANOG e NANOGP8, resultando na repressão do NANOG e do NANOGP8.",
+    "rationale": "CORRETA. No Cancro da Próstata, a intervenção por CRISPR/Cas9 tem como alvos os genes NANOG e NANOGP8, atuando através da repressão do NANOG e do NANOGP8."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "No câncer de próstata, a ferramenta CRISPR/Cas9 é direcionada para promover a repressão dos genes NANOG e NANOGP8."
+ },
+ {
+  "id": 144,
+  "code": "CRISPR-17",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Oncologia (Linfomas e Leucemia Mieloide Aguda)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente de 58 anos com linfoma refratário passa por avaliação de alvos moleculares para terapia de precisão. Conforme demonstrado no conteúdo da aula sobre doenças cancerígenas, quais são os alvos e mecanismos de ação do CRISPR/Cas9 estabelecidos especificamente para Linfomas?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene EGFR (repressão do EGFR) e genes da Ras (regulação da Ras).",
+    "rationale": "Incorreta. EGFR e genes da Ras são alvos no Cancro do Pulmão."
+   },
+   {
+    "letter": "B",
+    "text": "Gene Mll3 (apenas hipermetilação promotora).",
+    "rationale": "Incorreta. O gene Mll3 é o alvo de regulação na Leucemia Mieloide Aguda."
+   },
+   {
+    "letter": "C",
+    "text": "Gene Trp53 (correção do gene Trp53) e Gene Myc (regulação da expressão do gene Myc).",
+    "rationale": "CORRETA. Para o tratamento de Linfomas com CRISPR/Cas9, os alvos apontados são o gene Trp53 (com mecanismo de correção do gene Trp53) e o gene Myc (com regulação da expressão do gene Myc)."
+   },
+   {
+    "letter": "D",
+    "text": "Genes E6 e E7 (destruição de histonas virais).",
+    "rationale": "Incorreta. E6 e E7 são oncogenes virais do HPV."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Nos linfomas, a terapia com CRISPR/Cas9 visa a correção do gene supressor Trp53 e a regulação da expressão do oncogene Myc."
+ },
+ {
+  "id": 145,
+  "code": "CRISPR-18",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Neurodegenerativas (Doença de Huntington)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Homem de 40 anos apresenta distúrbios motores coreicos e declínio cognitivo, sendo diagnosticado com Doença de Huntington por expansão do trinucleotídeo CAG no gene huntingtina. Qual é o alvo exato do CRISPR/Cas9 nessa patologia neurodegenerativa e a modificação pretendida?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene FMR1 com deleção de tripletos CGG.",
+    "rationale": "Incorreta. O gene FMR1 e a deleção de tripletos CGG são os alvos na Síndrome do X frágil."
+   },
+   {
+    "letter": "B",
+    "text": "Gene HTT com deleção de tripletos CAG.",
+    "rationale": "CORRETA. Na Doença de Huntington, o alvo do sistema CRISPR/Cas9 é o gene HTT, tendo como mecanismo de ação a deleção de tripletos CAG expandidos."
+   },
+   {
+    "letter": "C",
+    "text": "Gene FXN com deleção de tripletos GAA.",
+    "rationale": "Incorreta. O gene FXN e a deleção de repetições GAA são os alvos na Ataxia de Friedreich."
+   },
+   {
+    "letter": "D",
+    "text": "Gene PARK com regulação de oncogenes.",
+    "rationale": "Incorreta. Os genes PARK são regulados no tratamento da Doença de Parkinson."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A terapia gênica via CRISPR/Cas9 na Doença de Huntington atua no gene HTT realizando a deleção de repetições de tripletos CAG."
+ },
+ {
+  "id": 146,
+  "code": "CRISPR-19",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Neurodegenerativas (Ataxia de Friedreich)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Jovem de 19 anos apresenta perda de coordenação motora, perda de reflexos miotáticos e cardiomiopatia, recebendo o diagnóstico genético de Ataxia de Friedreich. Com base no painel de doenças neurodegenerativas abordado na aula, qual é o alvo molecular da CRISPR/Cas9 nessa patologia e a intervenção proposta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene FXN, com deleção de tripletos GAA.",
+    "rationale": "CORRETA. Na Ataxia de Friedreich, a CRISPR/Cas9 é direcionada ao gene FXN, atuando através da deleção dos tripletos GAA expandidos."
+   },
+   {
+    "letter": "B",
+    "text": "Gene HTT, com inserção de exons promotores.",
+    "rationale": "Incorreta. O gene HTT é alvo de deleção de tripletos CAG na Doença de Huntington."
+   },
+   {
+    "letter": "C",
+    "text": "Gene PARK, com ablação de receptores dopaminérgicos.",
+    "rationale": "Incorreta. Os genes PARK são alvos de regulação na Doença de Parkinson."
+   },
+   {
+    "letter": "D",
+    "text": "Gene CYBB, com reparo dirigido por recombinação somática.",
+    "rationale": "Incorreta. O gene CYBB é o alvo na Doença Granulomatosa Crônica."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A abordagem por CRISPR/Cas9 na Ataxia de Friedreich foca no gene FXN com a deleção de tripletos GAA."
+ },
+ {
+  "id": 147,
+  "code": "CRISPR-20",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Neurodegenerativas (Parkinson e X Frágil)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um neurologista analisa a indicação de terapias gênicas para duas patologias neurodegenerativas distintas: a Doença de Parkinson em um senhor de 70 anos e a Síndrome do X Frágil em uma criança com atraso no desenvolvimento. Quais são os alvos e mecanismos descritos na aula para Parkinson e Síndrome do X Frágil, respectivamente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Parkinson: deleção de tripletos CAG no gene HTT; Síndrome do X Frágil: ablação do gene CCR5.",
+    "rationale": "Incorreta. Deleção de CAG no gene HTT refere-se a Huntington, e ablação do CCR5 refere-se ao HIV."
+   },
+   {
+    "letter": "B",
+    "text": "Parkinson: repressão dos genes NANOG; Síndrome do X Frágil: correção do gene Trp53.",
+    "rationale": "Incorreta. Os genes NANOG são alvos no câncer de próstata, e Trp53 em linfomas."
+   },
+   {
+    "letter": "C",
+    "text": "Parkinson: reversão de inversões cromossômicas no gene Fator VIII; Síndrome do X Frágil: destruição do cDNA.",
+    "rationale": "Incorreta. Fator VIII refere-se à Hemofilia A, e destruição de cDNA refere-se à infecção por HBV."
+   },
+   {
+    "letter": "D",
+    "text": "Parkinson: regulação dos genes PARK; Síndrome do X Frágil: gene FMR1 com deleção de tripletos CGG.",
+    "rationale": "CORRETA. Para a Doença de Parkinson, o alvo da CRISPR/Cas9 é a regulação dos genes PARK. Para a Síndrome do X Frágil, o alvo é o gene FMR1 com o mecanismo de deleção de tripletos CGG."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A aplicação do CRISPR/Cas9 na Doença de Parkinson envolve a regulação dos genes PARK, enquanto na Síndrome do X Frágil visa a deleção de tripletos CGG no gene FMR1."
+ },
+ {
+  "id": 148,
+  "code": "CRISPR-21",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Conceito e Origem Biológica do CRISPR",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "O que significa a sigla CRISPR e qual é a sua função biológica original identificada em microrganismos?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Chromosomal Region of Interspaced Short Protein Repeats; atua na replicação do DNA cromossômico em fungos.",
+    "rationale": "Incorreta. O acrônimo não se refere a 'Chromosomal Region' nem a proteína, e sua origem é bacteriana antiviral, não em fungos."
+   },
+   {
+    "letter": "B",
+    "text": "Cellular RNA Interspaced Short Palindromic Regions; atua na síntese de anticorpos em eucariotos superiores.",
+    "rationale": "Incorreta. O acrônimo correto envolve 'Palindromic Repeats' e trata-se de imunidade procariótica, não de síntese de anticorpos eucarióticos."
+   },
+   {
+    "letter": "C",
+    "text": "Clustered Regularly Interspaced Short Palindromic Repeats; atua como um sistema de defesa antiviral em bactérias.",
+    "rationale": "CORRETA. Conforme o material, CRISPR significa 'Clustered Regularly Interspaced Short Palindromic Repeats' e é um componente do sistema de defesa antiviral adaptativo em bactérias."
+   },
+   {
+    "letter": "D",
+    "text": "Clustered Regulatory Interspaced Short Polynucleotide Ribosomes; atua no reparo celular durante a mitose.",
+    "rationale": "Incorreta. A sigla não significa 'Regulatory Interspaced Short Polynucleotide Ribosomes' e sua função biológica natural é a defesa contra vírus bacterianos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "CRISPR é um sistema natural de defesa antiviral em bactérias caracterizado por repetições palindrômicas curtas agrupadas e espaçadas regularmente."
+ },
+ {
+  "id": 149,
+  "code": "CRISPR-22",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Componentes do Sistema CRISPR-Cas9",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "No sistema CRISPR proveniente da bactéria Streptococcus pyogenes (Tipo II), qual é a função primordial da enzima Cas9?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Sintetizar a fita de RNA mensageiro a partir de um molde de DNA doador.",
+    "rationale": "Incorreta. A Cas9 é uma endonuclease de corte de DNA, não uma RNA polimerase."
+   },
+   {
+    "letter": "B",
+    "text": "Atuar como uma endonuclease que forma complexo com o sítio alvo e o RNA guia para clivar o DNA.",
+    "rationale": "CORRETA. O material especifica que a endonuclease Cas9 (do sistema CRISPR Tipo II de S. pyogenes) forma um complexo funcional com o sítio alvo e o RNA guia para realizar a clivagem do DNA."
+   },
+   {
+    "letter": "C",
+    "text": "Promover a ligação covalente entre ribossomos e proteassomas durante a infecção viral.",
+    "rationale": "Incorreta. A Cas9 não interage com proteassomas para ligação ribossômica; ela atua no genoma ao lado do sgRNA."
+   },
+   {
+    "letter": "D",
+    "text": "Reverter inversões cromossômicas sem a necessidade de qualquer molécula de RNA.",
+    "rationale": "Incorreta. A ação da Cas9 depende estritamente do RNA guia para o direcionamento e reconhecimento da sequência alvo."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A Cas9 é uma endonuclease dependente de RNA guia que reconhece e cliva sequências específicas de DNA alvo."
+ },
+ {
+  "id": 150,
+  "code": "CRISPR-23",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Estrutura Genômica e Repetições",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "De acordo com as características moleculares apresentadas nas fontes, qual é a faixa de tamanho típica das unidades de repetição (repeats) no locus CRISPR?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "24 a 47 pares de bases (pb).",
+    "rationale": "CORRETA. O texto indica expressamente que 'O Tamanho das unidades de repetição varia de 24 a 47 pb'."
+   },
+   {
+    "letter": "B",
+    "text": "1 a 10 pares de bases (pb).",
+    "rationale": "Incorreta. Sequências de 1 a 10 pb são curtas demais para constituir as unidades de repetição do locus CRISPR."
+   },
+   {
+    "letter": "C",
+    "text": "150 a 300 pares de bases (pb).",
+    "rationale": "Incorreta. 150 a 300 pb excede a faixa de tamanho descrita para as repetições CRISPR."
+   },
+   {
+    "letter": "D",
+    "text": "500 a 1000 pares de bases (pb).",
+    "rationale": "Incorreta. A faixa de 500 a 1000 pb é desproporcionalmente longa para os repeats palindrômicos do sistema."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "As repetições CRISPR possuem um tamanho característico que varia entre 24 e 47 pares de bases."
+ },
+ {
+  "id": 151,
+  "code": "CRISPR-24",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Engenharia do RNA Guia (gRNA)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Como o RNA guia sintético (gRNA ou sgRNA) utilizado na tecnologia de edição gênica é derivado a partir do sistema bacteriano natural?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Pela união direta de promotores de DNA com a proteína endonuclease Cas9 sem transcrição de RNA.",
+    "rationale": "Incorreta. O gRNA é uma molécula de RNA guia e não uma fusão proteica sem transcrição."
+   },
+   {
+    "letter": "B",
+    "text": "Pela clivagem exclusiva do pre-CRISPR RNA sem a participação do tracrRNA.",
+    "rationale": "Incorreta. No sistema natural o tracrRNA é essencial para formar o híbrido crRNA:tracrRNA que dá origem ao gRNA sintético."
+   },
+   {
+    "letter": "C",
+    "text": "Pela substituição do crRNA por um fragmento proteico derivado do plasmídeo.",
+    "rationale": "Incorreta. O gRNA mantém a porção de reconhecimento do crRNA ligada ao tracrRNA e não é substituído por fragmentos proteicos."
+   },
+   {
+    "letter": "D",
+    "text": "Pela fusão das moléculas de crRNA e tracrRNA em uma única cadeia quimérica de RNA.",
+    "rationale": "CORRETA. As ilustrações e esquemas mostram que o gRNA é concebido através da fusão ('Fusion of crRNA + tracrRNA') em um único RNA guia sintetizado."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O sgRNA/gRNA resulta da fusão funcional dos RNAs bacterianos crRNA e tracrRNA em uma molécula única."
+ },
+ {
+  "id": 152,
+  "code": "CRISPR-25",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Reconhecimento do Alvo e Sequência PAM",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "No mecanismo de clivagem do DNA genômico pela Cas9 de Streptococcus pyogenes, qual motivo de sequência adjacente é essencial para o reconhecimento e corte da fita dupla?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Cauda de poli-A presente no éxon 1 do gene hospedeiro.",
+    "rationale": "Incorreta. A cauda poli-A pertence ao processamento do mRNA eucariótico e não serve como motivo de ancoragem PAM para a Cas9."
+   },
+   {
+    "letter": "B",
+    "text": "Promotor U6 inserido na fita complementar do dCas9.",
+    "rationale": "Incorreta. O promotor U6 é um elemento de expressão plasmidial, não o motivo de ancoragem no DNA alvo."
+   },
+   {
+    "letter": "C",
+    "text": "Sequência PAM (Protospacer Adjacent Motif), exemplificada por NGG.",
+    "rationale": "CORRETA. O diagrama estrutural do complexo Cas9-DNA destaca a presença necessária da 'PAM Sequence' (composta pelo motivo NGG) ao lado da sequência alvo genômica."
+   },
+   {
+    "letter": "D",
+    "text": "Códon de terminação UAA localizado no RNA guia.",
+    "rationale": "Incorreta. A sequência PAM fica no DNA alvo e não no RNA guia como um códon de parada."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A presença da sequência PAM (como NGG para SpCas9) adjacente ao sítio alvo é indispensável para a ligação e clivagem pela endonuclease Cas9."
+ },
+ {
+  "id": 153,
+  "code": "CRISPR-26",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Estratégia de Edição Gênica In Vivo",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Como se define a abordagem de terapia gênica in vivo descrita no material de estudo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Retirada de células somáticas para edição externa em placas de cultura seguida de seleção.",
+    "rationale": "Incorreta. A manipulação de células em cultura fora do corpo é a definição de terapia ex vivo."
+   },
+   {
+    "letter": "B",
+    "text": "Entrega direta dos componentes de edição (vetores virais ou não virais) no próprio organismo do paciente.",
+    "rationale": "CORRETA. O esquema conceitual define a edição genômica in vivo como a entrega de vetores virais ou não virais contendo o sistema CRISPR/Cas9 + molde diretamente no corpo do indivíduo."
+   },
+   {
+    "letter": "C",
+    "text": "Reprogramação de células iPSCs em laboratório para posterior transplante autólogo.",
+    "rationale": "Incorreta. O uso de iPSCs cultivadas e selecionadas externamente caracteriza a abordagem ex vivo."
+   },
+   {
+    "letter": "D",
+    "text": "Edição exclusiva de gametas em fases pré-embrionárias antes da fertilização.",
+    "rationale": "Incorreta. A definição in vivo apresentada foca na administração de vetores terapêuticos nos tecidos do paciente doente."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A terapia in vivo entrega os vetores terapêuticos (virais ou não virais) diretamente no corpo do paciente."
+ },
+ {
+  "id": 154,
+  "code": "CRISPR-27",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Estratégia de Edição Gênica Ex Vivo",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Quais são as etapas sequenciais da edição gênica ex vivo conforme detalhado no material?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Isolamento de células (somáticas ou iPSCs) do paciente, edição por CRISPR-Cas9 em ambiente externo, seleção, expansão celular e retransplante no doente.",
+    "rationale": "CORRETA. O texto especifica que na terapia ex vivo 'os genes são editados externamente em células somáticas ou iPSCs... Depois de corrigidas as células passam por um processo de seleção e expansão para posteriormente serem transplantadas no doente'."
+   },
+   {
+    "letter": "B",
+    "text": "Injeção intravascular de vetores virais, biópsia hepática imediata e indução de imunodeficiência temporária.",
+    "rationale": "Incorreta. Injeção intravascular de vetores sem cultivo externo pertence ao protocolo in vivo."
+   },
+   {
+    "letter": "C",
+    "text": "Aplicação tópica de Cas9 recombinante sobre o tecido afetado seguida de eletroporação in vivo.",
+    "rationale": "Incorreta. Aplicação tópica e eletroporação direta no corpo não constituem a rotina ex vivo descrita com seleção e expansão celular."
+   },
+   {
+    "letter": "D",
+    "text": "Silenciamento permanente do promotor U6 diretamente na circulação sanguínea.",
+    "rationale": "Incorreta. Silenciamento em circulação não descreve a coleta, edição, seleção e retransplante celular ex vivo."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A terapia ex vivo exige coleta celular, modificação gênica externa, seleção/expansão e posterior reinfusão no paciente."
+ },
+ {
+  "id": 155,
+  "code": "CRISPR-28",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Genética de Populações e Gene Drive",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Qual é a principal diferença observada entre a hereditariedade padrão (Standard Inheritance) e a herança por Gene Drive?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Na herança padrão o gene modificado se espalha rapidamente, enquanto no Gene Drive ele permanece restrito aos indivíduos heterozigotos.",
+    "rationale": "Incorreta. É o Gene Drive que se espalha rapidamente pela população, não a herança padrão."
+   },
+   {
+    "letter": "B",
+    "text": "No Gene Drive a taxa de transmissão é de 25% por causa da segregação independente mendeliana clássica.",
+    "rationale": "Incorreta. A herança por Gene Drive atinge quase 100% de transmissão na prole, superando as proporções mendelianas."
+   },
+   {
+    "letter": "C",
+    "text": "A herança padrão necessita da presença de Cas9 para ser transmitida, enquanto o Gene Drive independe de qualquer vetor ou enzima.",
+    "rationale": "Incorreta. O sistema de Gene Drive é construído utilizando a maquinaria CRISPR-Cas9 para cortar o cromossomo parceiro."
+   },
+   {
+    "letter": "D",
+    "text": "Na herança padrão a probabilidade de transmissão do gene modificado à prole é de 50%, enquanto no Gene Drive o sistema cliva o cromossomo parceiro e copia a modificação por reparo, atingindo quase 100% de transmissão.",
+    "rationale": "CORRETA. O painel comparativo demonstra que na herança padrão os descendentes têm 50% de chance de herdar o gene modificado, enquanto no Gene Drive o corte e reparo no cromossomo homólogo faz com que quase 100% da prole herde a modificação, varrendo rapidamente a população."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O Gene Drive substitui a distribuição mendeliana clássica (50%) ao converter o alelo selvagem no alelo modificado durante a reparação do corte, garantindo transmissão em quase 100% dos descendentes."
+ },
+ {
+  "id": 156,
+  "code": "CRISPR-29",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Sanguíneas - Beta-Talassemia",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Qual é o alvo molecular e o mecanismo de reparação indicados para o tratamento da Beta-Talassemia via CRISPR-Cas9?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Alvo no Gene CYBB com reversão de inversões cromossômicas em células maduras.",
+    "rationale": "Incorreta. O gene CYBB é o alvo da Doença Granulomatosa Crônica, não da Beta-Talassemia."
+   },
+   {
+    "letter": "B",
+    "text": "Alvo no Gene FANCC com ablação proteica de superfície.",
+    "rationale": "Incorreta. O gene FANCC refere-se à Anemia de Fanconi."
+   },
+   {
+    "letter": "C",
+    "text": "Alvo no Gene da Hemoglobina Beta com mecanismo de reparação por Reparo Direcionado por Homologia (HDR) em iPSCs.",
+    "rationale": "CORRETA. A tabela de patologias sanguíneas associa a Beta-Talassemia ao alvo no 'Gene da Hemoglobina Beta' utilizando 'HDR em iPSCs'."
+   },
+   {
+    "letter": "D",
+    "text": "Alvo no Gene do Fator VIII com destruição da região LTR.",
+    "rationale": "Incorreta. O Fator VIII é o alvo da Hemofilia A e regiões LTR aplicam-se ao HIV."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Na Beta-Talassemia, o CRISPR-Cas9 visa o gene da Hemoglobina Beta promovendo a correção via HDR em iPSCs."
+ },
+ {
+  "id": 157,
+  "code": "CRISPR-30",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Sanguíneas - Hemofilia A",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "No tratamento da Hemofilia A por CRISPR-Cas9, qual o alvo genético específico e a abordagem de correção citada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Alvo no Gene da Hemoglobina Beta, atuando por ablação transcricional.",
+    "rationale": "Incorreta. O gene da Hemoglobina Beta é o alvo da Beta-Talassemia."
+   },
+   {
+    "letter": "B",
+    "text": "Alvo no Gene do Fator de coagulação VIII, atuando pela reversão de inversões cromossômicas em iPSCs.",
+    "rationale": "CORRETA. Na tabela de doenças sanguíneas, a Hemofilia A tem como alvo o 'Gene do Factor de coagulação VIII' e o mecanismo 'Reversão de inversões cromossomais em iPSCs'."
+   },
+   {
+    "letter": "C",
+    "text": "Alvo no Gene CYBB, atuando pela inserção de tripletos GAA.",
+    "rationale": "Incorreta. O gene CYBB é alvo na Doença Granulomatosa Crônica e tripletos GAA associam-se à Ataxia de Friedreich."
+   },
+   {
+    "letter": "D",
+    "text": "Alvo na região LTR, atuando pelo silenciamento do vírus da hemofilia.",
+    "rationale": "Incorreta. Hemofilia A é uma patologia genética congênita da coagulação, não uma infecção viral LTR."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A terapia genômica para Hemofilia A visa o gene do Fator VIII corrigindo inversões cromossômicas em iPSCs."
+ },
+ {
+  "id": 158,
+  "code": "CRISPR-31",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Sanguíneas - FANCC e CYBB",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Quais são os alvos e mecanismos compartilhados descritos para a Anemia de Fanconi e a Doença Granulomatosa Crônica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gene FANCC (Anemia de Fanconi) e Gene CYBB (Doença Granulomatosa Crônica), ambos com mecanismo de reparação por HDR em iPSCs.",
+    "rationale": "CORRETA. A tabela médica aponta que a Anemia de Fanconi utiliza o alvo 'Gene FANCC' e a Doença Granulomatosa Crônica utiliza o 'Gene CYBB', sendo ambos corrigidos por 'HDR em iPSCs'."
+   },
+   {
+    "letter": "B",
+    "text": "Gene EGFR e Gene Ras, ambos com repressão por dCas9.",
+    "rationale": "Incorreta. EGFR e Ras são alvos citados na tabela de doenças cancerígenas (Cancro do Pulmão)."
+   },
+   {
+    "letter": "C",
+    "text": "Gene E6 e Gene E7, ambos com destruição proteica viral.",
+    "rationale": "Incorreta. E6 e E7 são oncogenes virais alvos do HPV."
+   },
+   {
+    "letter": "D",
+    "text": "Gene HTT e Gene FXN, ambos com deleção de microssatélites.",
+    "rationale": "Incorreta. HTT e FXN são alvos em doenças neurodegenerativas (Huntington e Ataxia de Friedreich)."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Tanto a Anemia de Fanconi (FANCC) quanto a Doença Granulomatosa Crônica (CYBB) utilizam a via HDR em iPSCs para a correção gênica."
+ },
+ {
+  "id": 159,
+  "code": "CRISPR-32",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Virais - HIV",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Quais são os dois alvos virais/celulares do CRISPR-Cas9 e seus respectivos mecanismos de ação contra o Vírus da Imunodeficiência Humana (HIV)?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "cDNA intra-hepático (destruição) e Gene Mll3 (regulação).",
+    "rationale": "Incorreta. Destruição do cDNA intra-hepático refere-se ao vírus da Hepatite B (HBV) e Mll3 à Leucemia Mieloide Aguda."
+   },
+   {
+    "letter": "B",
+    "text": "Genes EBNA 1 e EBNA 3C (destruição e silenciamento).",
+    "rationale": "Incorreta. EBNA 1 e EBNA 3C são alvos do Vírus Epstein-Barr (EBV)."
+   },
+   {
+    "letter": "C",
+    "text": "Gene Trp53 (correção) e Gene Myc (repressão).",
+    "rationale": "Incorreta. Trp53 e Myc são alvos associados a Linfomas na tabela de oncologia."
+   },
+   {
+    "letter": "D",
+    "text": "Gene CCR5 (com ablação do CCR5) e Região LTR (com destruição dos LTR).",
+    "rationale": "CORRETA. A tabela de infeções virais lista para o HIV os alvos 'Gene CCR5' (mecanismo: Ablação do CCR5) e 'Região LTR' (mecanismo: Destruição dos LTR)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A estratégia anti-HIV com CRISPR combina a ablação do co-receptor celular CCR5 e a destruição das sequências repetidas LTR provirais."
+ },
+ {
+  "id": 160,
+  "code": "CRISPR-33",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Virais - HBV e HPV",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "De acordo com o mapeamento terapêutico, qual é a ação do CRISPR-Cas9 contra o Vírus da Hepatite B (HBV) e o Vírus do Papiloma Humano (HPV), respectivamente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "HBV: ablação do receptor CCR5; HPV: inversão cromossômica no gene do Fator VIII.",
+    "rationale": "Incorreta. CCR5 liga-se ao HIV e Fator VIII liga-se à Hemofilia A."
+   },
+   {
+    "letter": "B",
+    "text": "HBV: deleção de repetições CGG; HPV: repressão do NANOGP8.",
+    "rationale": "Incorreta. Repetições CGG ligam-se ao X Frágil e NANOGP8 ao Câncer de Próstata."
+   },
+   {
+    "letter": "C",
+    "text": "HBV: destruição do cDNA intra-hepático; HPV: destruição das proteínas E6 e E7 e aumento de supressores tumorais.",
+    "rationale": "CORRETA. A tabela indica que no HBV o alvo é o cDNA com 'Destruição do cDNA intra-hepático', e no HPV os alvos são os 'Genes E6 e E7' provocando 'Destruição das proteínas E6 e E7 e aumento de supressores tumorais'."
+   },
+   {
+    "letter": "D",
+    "text": "HBV: HDR no gene FANCC; HPV: regulação dos genes PARK.",
+    "rationale": "Incorreta. FANCC é alvo na Anemia de Fanconi e PARK na Doença de Parkinson."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O CRISPR atua eliminando o cDNA do HBV no fígado e inativando os oncogenes E6/E7 do HPV para restaurar os supressores tumorais."
+ },
+ {
+  "id": 161,
+  "code": "CRISPR-34",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Doenças Virais - Epstein-Barr (EBV)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Qual é a estratégia de intervenção do CRISPR-Cas9 contra a infecção pelo Vírus Epstein-Barr (EBV)?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Alvo no gene da Hemoglobina Beta, promovendo a conversão para iPSCs.",
+    "rationale": "Incorreta. O gene da Hemoglobina Beta trata da Beta-Talassemia."
+   },
+   {
+    "letter": "B",
+    "text": "Alvo nos Genes EBNA 1 e EBNA 3C, promovendo a destruição e silenciamento desses genes virais.",
+    "rationale": "CORRETA. Na tabela de infecções virais, o Vírus Epstein-Barr tem como alvo os 'Gene EBNA 1 e EBNA 3C' com o mecanismo 'Destruição e silenciamento dos genes'."
+   },
+   {
+    "letter": "C",
+    "text": "Alvo no gene FXN, promovendo a adição de repetições GAA.",
+    "rationale": "Incorreta. O gene FXN com repetições GAA associa-se à Ataxia de Friedreich."
+   },
+   {
+    "letter": "D",
+    "text": "Alvo na região LTR proviral, promovendo a estimulação do EGFR.",
+    "rationale": "Incorreta. LTR é alvo no HIV e EGFR é alvo no Câncer de Pulmão."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O direcionamento dos genes vitais EBNA 1 e EBNA 3C permite destruir e silenciar a persistência do vírus EBV."
+ },
+ {
+  "id": 162,
+  "code": "CRISPR-35",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Câncer - Pulmão e Próstata",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "No âmbito das patologias oncológicas, quais alvos e mecanismos são indicados para o Cancro do Pulmão e para o Cancro da Próstata?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Cancro do Pulmão: alvos no gene EGFR (repressão do EGFR) e genes da Ras (regulação da Ras); Cancro da Próstata: alvos nos genes NANOG e NANOGP8 (repressão do NANOG e NANOGP8).",
+    "rationale": "CORRETA. A tabela de oncologia registra no Cancro do Pulmão os alvos 'Gene EGFR' (Repressão do EGFR) e 'Genes da Ras' (Regulação da Ras), e no Cancro da Próstata os alvos 'Genes NANOG e NANOGP8' (Repressão do NANOG e do NANOGP8)."
+   },
+   {
+    "letter": "B",
+    "text": "Cancro do Pulmão: deleção de tripletos CAG; Cancro da Próstata: reversão de inversões no Fator VIII.",
+    "rationale": "Incorreta. Tripletos CAG relacionam-se à Doença de Huntington e Fator VIII à Hemofilia A."
+   },
+   {
+    "letter": "C",
+    "text": "Cancro do Pulmão: ablação do gene CCR5; Cancro da Próstata: HDR no gene CYBB.",
+    "rationale": "Incorreta. CCR5 relaciona-se ao HIV e CYBB à Doença Granulomatosa Crônica."
+   },
+   {
+    "letter": "D",
+    "text": "Cancro do Pulmão: destruição das proteínas E6 e E7; Cancro da Próstata: regulação do gene Mll3.",
+    "rationale": "Incorreta. Proteínas E6/E7 pertencem ao HPV e Mll3 à Leucemia Mieloide Aguda."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O CRISPR reprime oncogenes-chave e vias de sinalização de proliferação celular, como EGFR/Ras no pulmão e NANOG/NANOGP8 na próstata."
+ },
+ {
+  "id": 163,
+  "code": "CRISPR-36",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Aplicações Clínicas em Câncer - Linfomas e Leucemia Mieloide Aguda",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Quais são as abordagens terapêuticas baseadas em CRISPR-Cas9 apontadas para Linfomas e Leucemia Mieloide Aguda (LMA)?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Linfomas: deleção de repetições CGG no gene FMR1; LMA: destruição do cDNA intra-hepático.",
+    "rationale": "Incorreta. Repetições CGG no FMR1 referem-se à Síndrome do X Frágil e cDNA intra-hepático à Hepatite B."
+   },
+   {
+    "letter": "B",
+    "text": "Linfomas: ablação do co-receptor CCR5; LMA: reversão de inversões cromossômicas em iPSCs.",
+    "rationale": "Incorreta. CCR5 refere-se ao HIV e inversões em iPSCs à Hemofilia A."
+   },
+   {
+    "letter": "C",
+    "text": "Linfomas: repressão dos genes NANOG; LMA: eliminação das repetições GAA no gene FXN.",
+    "rationale": "Incorreta. NANOG associa-se ao câncer de próstata e repetições GAA no gene FXN à Ataxia de Friedreich."
+   },
+   {
+    "letter": "D",
+    "text": "Linfomas: alvo no gene Trp53 (correção do Trp53) e no gene Myc (regulação da expressão do Myc); LMA: alvo no gene Mll3 (regulação do Mll3).",
+    "rationale": "CORRETA. A tabela de patologias cancerígenas associa Linfomas aos alvos 'Gene Trp53' (Correção) e 'Gene Myc' (Regulação da expressão), e a Leucemia Mieloide Aguda ao alvo 'Gene Mll3' (Regulação do Mll3)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Em neoplasias hematológicas, o CRISPR permite a correção de supressores tumorais mutados (Trp53) e a modulação de proto-oncogenes e reguladores epigenéticos (Myc, Mll3)."
+ },
+ {
+  "id": 164,
+  "code": "CRISPR-37",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Doenças Neurodegenerativas - X Frágil e Huntington",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "No grupo de patologias neurodegenerativas, qual é o mecanismo de ação específico do CRISPR-Cas9 na Síndrome do X Frágil e na Doença de Huntington?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Síndrome do X Frágil: regulação dos genes PARK; Doença de Huntington: deleção de tripletos GAA no gene FXN.",
+    "rationale": "Incorreta. Genes PARK associam-se ao Parkinson e tripletos GAA no gene FXN à Ataxia de Friedreich."
+   },
+   {
+    "letter": "B",
+    "text": "Síndrome do X Frágil: correção do gene Trp53; Doença de Huntington: ablação do gene CCR5.",
+    "rationale": "Incorreta. Trp53 associa-se a Linfomas e CCR5 ao HIV."
+   },
+   {
+    "letter": "C",
+    "text": "Síndrome do X Frágil: alvo no gene FMR1 com deleção de tripletos CGG; Doença de Huntington: alvo no gene HTT com deleção de tripletos CAG.",
+    "rationale": "CORRETA. A tabela de doenças neurodegenerativas indica para a Síndrome do X Frágil o 'Gene FMR1' com 'Deleção de tripletos CGG' e para a Doença de Huntington o 'Gene HTT' com 'Deleção de tripletos CAG'."
+   },
+   {
+    "letter": "D",
+    "text": "Síndrome do X Frágil: repressão do EGFR; Doença de Huntington: destruição do cDNA.",
+    "rationale": "Incorreta. EGFR associa-se ao Câncer de Pulmão e cDNA à Hepatite B."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Nas patologias por expansão de nucleotídeos (X Frágil e Huntington), o CRISPR elimina diretamente as repetições de tripletos mutogênicos (CGG e CAG)."
+ },
+ {
+  "id": 165,
+  "code": "CRISPR-38",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Doenças Neurodegenerativas - Parkinson e Ataxia de Friedreich",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Quais são os alvos genéticos e os mecanismos terapêuticos definidos para a Doença de Parkinson e a Ataxia de Friedreich?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Doença de Parkinson: deleção de tripletos CGG no gene FMR1; Ataxia de Friedreich: repressão do gene NANOG.",
+    "rationale": "Incorreta. CGG no gene FMR1 refere-se ao X Frágil e NANOG ao Câncer de Próstata."
+   },
+   {
+    "letter": "B",
+    "text": "Doença de Parkinson: alvo no gene PARK (regulação dos genes PARK); Ataxia de Friedreich: alvo no gene FXN (deleção de tripletos GAA).",
+    "rationale": "CORRETA. A tabela de doenças neurodegenerativas relaciona a Doença de Parkinson ao 'Gene PARK' (Regulação dos genes PARK) e a Ataxia de Friedreich ao 'Gene FXN' (Deleção de tripletos GAA)."
+   },
+   {
+    "letter": "C",
+    "text": "Doença de Parkinson: ablação da região LTR; Ataxia de Friedreich: regulação do gene Mll3.",
+    "rationale": "Incorreta. Região LTR liga-se ao HIV e Mll3 à Leucemia Mieloide Aguda."
+   },
+   {
+    "letter": "D",
+    "text": "Doença de Parkinson: correção do gene Trp53; Ataxia de Friedreich: HDR no gene da Hemoglobina Beta.",
+    "rationale": "Incorreta. Trp53 liga-se a Linfomas e Hemoglobina Beta à Beta-Talassemia."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O CRISPR atua modulando a expressão dos genes PARK no Parkinson e excisando a expansão do tripto GAA no gene FXN da Ataxia de Friedreich."
+ },
+ {
+  "id": 166,
+  "code": "CRISPR-39",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Elementos do Plasmídeo de Edição Genômica",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Na arquitetura do plasmídeo utilizado para edição genômica apresentado nos esquemas da aula, quais elementos promotores e sequências de localização acompanham o vetor SpCas9?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Promotor U6 (com regiões DR para inserção da sequência alvo), promotor EF1a, 3x FLAG, marcas NLS (Nuclear Localization Signal) e elemento WPRE.",
+    "rationale": "CORRETA. O diagrama do plasmídeo ('Plasmid used for Genome Editing') exibe a seguinte organização: promotor U6 com sítio de inserção entre repetições DR, promotor EF1a, marcação 3x FLAG, sinal de localização nuclear NLS flanqueando a SpCas9, e o elemento estabilizador WPRE."
+   },
+   {
+    "letter": "B",
+    "text": "Promotor lacZ, gene de resistência à ampicilina e ausência completa de sequências NLS.",
+    "rationale": "Incorreta. O plasmídeo necessita dos sinais de localização nuclear (NLS) para direcionar a Cas9 ao núcleo celular eucariótico."
+   },
+   {
+    "letter": "C",
+    "text": "Promotor viral LTR, co-receptor CCR5 e elemento de deleção de tripletos CAG.",
+    "rationale": "Incorreta. LTR, CCR5 e tripletos CAG não são componentes da estrutura geral do vetor de expressão plasmidial mostrada."
+   },
+   {
+    "letter": "D",
+    "text": "Promotor de hemoglobina beta acoplado a cDNAs intra-hepáticos de hepatite.",
+    "rationale": "Incorreta. O plasmídeo estrutural básico de edição não utiliza promotores teciduais de hemoglobina acoplados a cDNAs virais."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O plasmídeo de expressão para edição gênica integra promotores eficientes (U6 e EF1a), sinais de localização nuclear (NLS) e sinalizadores (FLAG) para garantir a correta transcrição e montagem do complexo Cas9 nas células."
+ },
+ {
+  "id": 167,
+  "code": "CRISPR-40",
+  "assunto": "gen-crispr",
+  "category": "Terapia Gênica: CRISPR-Cas9",
+  "subcategory": "Locus Natural de CRISPR em Streptococcus pyogenes",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "No operon natural do locus CRISPR Tipo II da bactéria Streptococcus pyogenes SF370, quais são os genes associados (Cas genes) presentes ao lado das repetições e espaçadores?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Genes BRCA1, BRCA2, TP53 e ATM.",
+    "rationale": "Incorreta. BRCA1, BRCA2, TP53 e ATM são genes humanos supressores de tumor e de reparo de DNA, não genes procarióticos Cas."
+   },
+   {
+    "letter": "B",
+    "text": "Genes EGFR, RAS, MYC e ERBB2.",
+    "rationale": "Incorreta. EGFR, RAS e MYC são proto-oncogenes e oncogenes humanos."
+   },
+   {
+    "letter": "C",
+    "text": "Genes FANCC, CYBB, FMR1 e HTT.",
+    "rationale": "Incorreta. FANCC, CYBB, FMR1 e HTT são genes humanos associados a patologias hereditárias."
+   },
+   {
+    "letter": "D",
+    "text": "Genes Cas9, Cas1, Cas2 e Csn2.",
+    "rationale": "CORRETA. O mapa genômico do 'Streptococcus pyogenes SF370 type II CRISPR locus' ilustra claramente a presença sequencial dos genes Cas9, Cas1, Cas2 e Csn2 precedendo os direct repeats e spacers."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O locus bacteriano natural CRISPR Tipo II de S. pyogenes contém o agrupamento dos genes operonais Cas9, Cas1, Cas2 e Csn2."
+ },
+ {
+  "id": 168,
+  "code": "FGEN-21",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Conceito e Definições de Farmacogenética",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um residente de Clínica Médica questiona o preceptor sobre a diferença entre as definições de farmacogenética em sentido amplo e estrito durante a discussão de um caso de reação adversa a drogas. De acordo com a literatura de referência, como se define a farmacogenética em sentido estrito?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "É qualquer variabilidade genética individual observada na resposta a medicamentos sem restrição ao método de revelação.",
+    "rationale": "Incorreta. Esta descrição refere-se à farmacogenética no seu sentido amplo, que engloba qualquer variabilidade genética determinada na resposta a drogas."
+   },
+   {
+    "letter": "B",
+    "text": "É a análise exclusiva de alterações estruturais em cromossomos observadas após administração de quimioterápicos.",
+    "rationale": "Incorreta. A definição não se limita a alterações cromossômicas nem à quimioterapia, mas sim a variações genéticas reveladas pela resposta medicamentosa."
+   },
+   {
+    "letter": "C",
+    "text": "É a variação na resposta a fármacos ou produtos químicos revelada apenas pela exposição a essas substâncias.",
+    "rationale": "CORRETA. No sentido estrito, a farmacogenética trata da variação genética que é apenas revelada pela resposta a drogas ou produtos químicos."
+   },
+   {
+    "letter": "D",
+    "text": "É a investigação isolada da farmacocinética de drogas em populações sem polimorfismos conhecidos.",
+    "rationale": "Incorreta. A farmacogenética em sentido estrito envolve necessariamente a presença de variações genéticas individuais reveladas pela resposta a fármacos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A farmacogenética em sentido estrito refere-se à variação genética revelada especificamente pela resposta a drogas ou produtos químicos."
+ },
+ {
+  "id": 169,
+  "code": "FGEN-22",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Histórico e Erros Inatos do Metabolismo (Garrod)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente do sexo masculino apresenta-se ao ambulatório com queixa de dores abdominais recorrentes, náuseas, fotossensibilidade cutânea acentuada, alteração na coloração dos dentes e episódios de confusão mental. O quadro remete aos estudos históricos iniciados em 1902 por Archibald Garrod sobre a química individual. Qual condição e enzima deficiente foram associadas por Garrod a essa apresentação clínica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Alcaptonúria, decorrente da oxidação incompleta da fenilalanina.",
+    "rationale": "Incorreta. Embora Garrod tenha estudado a alcaptonúria (envolvendo a oxidação incompleta da fenilalanina), os sintomas de fotossensibilidade, dores abdominais, dentes anormais e confusão mental referem-se à porfiria."
+   },
+   {
+    "letter": "B",
+    "text": "Porfiria, associada à deficiência da enzima uroporfirinogênio sintetase.",
+    "rationale": "CORRETA. Garrod estudou a porfiria, cujas manifestações incluem dores abdominais, náuseas, sensibilidade ao sol, dentes anormais e confusão mental, causadas pela deficiência de uroporfirinogênio sintetase."
+   },
+   {
+    "letter": "C",
+    "text": "Deficiência de G6PD, provocada pela exposição à primaquina.",
+    "rationale": "Incorreta. A deficiência de G6PD e sua relação com a primaquina foi demonstrada por Beutler em 1959, e não por Garrod em 1902."
+   },
+   {
+    "letter": "D",
+    "text": "Resistência à nortriptilina, decorrente da hiperatividade do CYP2D6.",
+    "rationale": "Incorreta. A variabilidade da metabolização da nortriptilina pelo CYP2D6 foi descrita muito posteriormente na história da farmacogenética."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Archibald Garrod introduziu o conceito de química individual em 1902 ao estudar a alcaptonúria e a porfiria (deficiência de uroporfirinogênio sintetase)."
+ },
+ {
+  "id": 170,
+  "code": "FGEN-23",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Marcos Históricos da Farmacogenética (Anos 50 e 60)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Durante uma aula de farmacologia clínica, a década de 1950 é destacada como o grande marco histórico para a consolidação da farmacogenética. Entre os fatos históricos apontados na literatura da aula, qual associação entre autor, ano e contribuição está correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Beutler demonstrou em 1959 a relação entre a deficiência da enzima G6PD e o uso do fármaco primaquina.",
+    "rationale": "CORRETA. Beutler, em 1959, estabeleceu o marco histórico relacionando a deficiência de G6PD à reação adversa desencadeada pela primaquina."
+   },
+   {
+    "letter": "B",
+    "text": "Motulsky publicou em 1962 o livro pioneiro Pharmacogenetics. Heredity and the Response to Drugs.",
+    "rationale": "Incorreta. Quem publicou o livro Pharmacogenetics. Heredity and the Response to Drugs em 1962 foi Kalow, enquanto Motulsky publicou em 1957 o trabalho Drug reactions, enzymes and biochemical genetics."
+   },
+   {
+    "letter": "C",
+    "text": "Kalow descreveu em 1959 a anemia hemolítica por deficiência de G6PD induzida pelo antimalárico primaquina.",
+    "rationale": "Incorreta. A descoberta sobre a deficiência de G6PD e o uso de primaquina em 1959 é de autoria de Beutler, não de Kalow."
+   },
+   {
+    "letter": "D",
+    "text": "Price Evans formulou em 1957 o conceito de erros inatos do metabolismo ao analisar pigmentos urinários.",
+    "rationale": "Incorreta. O conceito de química individual a partir de pigmentos urinários foi desenvolvido por Archibald Garrod em 1902."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Os anos 1950 consagraram a farmacogenética com os trabalhos de Motulsky (1957), Beutler (G6PD e primaquina em 1959) e Kalow (1962)."
+ },
+ {
+  "id": 171,
+  "code": "FGEN-24",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Sistema LADME e Alvos Farmacogenéticos",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um farmacologista clínico estuda a variabilidade de resposta a medicamentos utilizando o modelo do sistema LADME (Löscher et al., 2009). Com base nos sítios alvos polimórficos identificados ao longo do sistema LADME, assinale a alternativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Os transportadores polimórficos atuam exclusivamente na etapa de eliminação renal, sem interferir na absorção.",
+    "rationale": "Incorreta. Os transportadores polimórficos influenciam as etapas de absorção, distribuição, metabolismo e eliminação dentro do sistema LADME."
+   },
+   {
+    "letter": "B",
+    "text": "Os alvos polimórficos, como receptores no sistema nervoso central, alteram apenas a taxa de metabolização hepática do fármaco.",
+    "rationale": "Incorreta. Alvos polimórficos atuam no local de ação farmacodinâmica (como no SNC/alvo), determinando a resposta ao fármaco e não o metabolismo."
+   },
+   {
+    "letter": "C",
+    "text": "A dosagem de um fármaco independe do genótipo, pois polimorfismos não afetam a distribuição nos tecidos.",
+    "rationale": "Incorreta. O genótipo afeta a distribuição e a metabolização do fármaco, influenciando diretamente a dose necessária."
+   },
+   {
+    "letter": "D",
+    "text": "O genótipo do paciente influencia a resposta a drogas por meio de transportadores, receptores alvos e enzimas metabolizadoras polimórficas no sistema LADME.",
+    "rationale": "CORRETA. O genótipo prediz o desfecho clínico (resposta a drogas e efeitos adversos) ao atuar em transportadores, alvos e enzimas polimórficas ao longo de todo o sistema LADME."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O genótipo individual prediz a resposta terapêutica e efeitos adversos ao influenciar transportadores, alvos e enzimas no sistema LADME."
+ },
+ {
+  "id": 172,
+  "code": "FGEN-25",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Transportadores de Efluxo e Gene MDR1 / Glicoproteína-P",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Uma paciente portadora de artrite reumatoide apresenta refratariedade ao tratamento medicamentoso. A equipe médica investiga a expressão de transportadores de efluxo e identifica alteração na Glicoproteína-P. Considerando o papel da Glicoproteína-P e sua genética, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A Glicoproteína-P é uma enzima de fase I do citocromo P450 responsável pelo influxo celular de imunossupressores.",
+    "rationale": "Incorreta. A Glicoproteína-P é um transportador de efluxo de membrana, não sendo uma enzima de fase I do citocromo P450."
+   },
+   {
+    "letter": "B",
+    "text": "O gene MDR1 codifica um canal de sódio voltagem-dependente associado ao controle de crises epilépticas.",
+    "rationale": "Incorreta. O gene MDR1 codifica a Glicoproteína-P (transportador de efluxo), enquanto os canais de sódio são receptores alvos associados à epilepsia."
+   },
+   {
+    "letter": "C",
+    "text": "A Glicoproteína-P é o produto do gene MDR1 e atua no transporte de efluxo de fármacos; sua expressão aumentada em células T CD4+ Th1 correlaciona-se com resistência a drogas na artrite reumatoide.",
+    "rationale": "CORRETA. A Glicoproteína-P é o produto do gene de multirresistência a fármacos (MDR1), sendo responsável pelo transporte de efluxo. A expressão aumentada de Glicoproteína-P em células Th1 correlaciona-se com a resistência a drogas na artrite reumatoide."
+   },
+   {
+    "letter": "D",
+    "text": "A redução da expressão da Glicoproteína-P é o mecanismo causador de toxicidade aguda por acúmulo celular de xenobióticos.",
+    "rationale": "Incorreta. O estudo de Yudoh et al. citado na aula demonstrou que o aumento (e não a redução) da expressão de Glicoproteína-P em células Th1 se correlaciona com a resistência ao tratamento."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O gene MDR1 expressa a Glicoproteína-P, um transportador de efluxo cuja alta expressão em células Th1 está associada à resistência medicamentosa na artrite reumatoide."
+ },
+ {
+  "id": 173,
+  "code": "FGEN-26",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Receptores e Canais de Sódio na Epilepsia",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente de 22 anos diagnosticado com epilepsia inicia tratamento com carbamazepina, apresentando variação individual no controle das crises. A equipe de genética médica investiga variações em alvos farmacodinâmicos do tipo receptores. Qual a principal classe de receptores relacionada à ação da carbamazepina citada na aula?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Enzimas de conjugação da família Glutatião S-Transferase.",
+    "rationale": "Incorreta. A Glutatião S-Transferase (GST) é uma enzima de detoxificação metabólica, não um receptor alvo da carbamazepina."
+   },
+   {
+    "letter": "B",
+    "text": "Canais de sódio polimórficos, cujas mutações alteram o alvo terapêutico na epilepsia.",
+    "rationale": "CORRETA. Os canais de sódio constituem alvos farmacogenéticos de receptores associados ao tratamento da epilepsia com carbamazepina (Meisler & Kearney)."
+   },
+   {
+    "letter": "C",
+    "text": "Transportadores de efluxo de nucleotídeos codificados pelo gene NAT2.",
+    "rationale": "Incorreta. O gene NAT2 codifica a N-acetiltransferase 2 (enzima metabolizadora de acetilação), e não transportadores de efluxo."
+   },
+   {
+    "letter": "D",
+    "text": "Receptores do fator de crescimento da epiderme (EGFR) expressos no córtex cerebral.",
+    "rationale": "Incorreta. O receptor EGFR é mencionado como alvo na resposta a drogas quimioterápicas no câncer, e não na epilepsia."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Mutações em canais de sódio atuam como polimorfismos de receptores alvos no tratamento da epilepsia com carbamazepina."
+ },
+ {
+  "id": 174,
+  "code": "FGEN-27",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Polimorfismo do CYP2D6 e Metabolismo de Antidepressivos",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Uma paciente com depressão inicia uso de nortriptilina em dose convencional. Após poucas tomadas, apresenta sintomas graves de toxicidade anticolinérgica. A genotipagem do citocromo P450 revela variabilidade no gene CYP2D6. Considerando a relação genótipo-fenótipo do CYP2D6 descrita por Meyer (2004), qual é o perfil metabolizador esperado nessa paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Metabolizador lento (poor metabolizer), que acumula a droga no sangue por baixa capacidade de metabolização.",
+    "rationale": "CORRETA. Pacientes metabolizadores lentos (poor metabolizers, 5-10% da população) possuem atividade reduzida do CYP2D6, o que gera acúmulo da nortriptilina e manifestações de toxicidade."
+   },
+   {
+    "letter": "B",
+    "text": "Metabolizador ultrarrápido, que degrada o fármaco rapidamente e necessita de doses elevadas (> 250 mg/dia).",
+    "rationale": "Incorreta. Metabolizadores ultrarrápidos (5-10% dos caucasianos) limpam o fármaco do organismo muito rápido, levando à ausência de efeito terapêutico na dose habitual."
+   },
+   {
+    "letter": "C",
+    "text": "Metabolizador extensivo, que representa de 65% a 80% dos caucasianos e apresenta resposta terapêutica padrão.",
+    "rationale": "Incorreta. Metabolizadores extensivos possuem a atividade enzimática convencional e não desenvolvem toxicidade em doses padrão."
+   },
+   {
+    "letter": "D",
+    "text": "Metabolizador intermediário induzido por consumo concomitante de álcool e nicotina.",
+    "rationale": "Incorreta. A indução por etanol e nicotina é uma característica descrita para o CYP2E1, não fazendo parte dos perfis genotípicos do CYP2D6 para nortriptilina."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O perfil de metabolizador lento (poor metabolizer) do CYP2D6 leva a níveis plasmáticos elevados de nortriptilina e toxicidade."
+ },
+ {
+  "id": 175,
+  "code": "FGEN-28",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Farmacogenética do NAT2 e Reações Adversas à Isoniazida",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente em tratamento para tuberculose desenvolvendo reação adversa a medicamentos (ADR) passa por análise genotípica da enzima N-acetiltransferase 2 (NAT2). De acordo com os dados apresentados na aula (Costa et al., 2012; Hiratsuka et al., 2002), assinale a alternativa correta referente ao risco associado ao genótipo do NAT2:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O perfil acetilador rápido do NAT2 é o principal fator isolado causador de hepatotoxicidade, com Odds Ratio de 0,5.",
+    "rationale": "Incorreta. O estudo de Costa et al. (Tabela IV) demonstra que os acetiladores rápidos apresentam menor frequência de reações adversas (45,0%) em comparação aos lentos (55,0%)."
+   },
+   {
+    "letter": "B",
+    "text": "A presença das variantes nulas dos genes GSTM1 e GSTT1 anula completamente o risco conferido pelo gene NAT2.",
+    "rationale": "Incorreta. O polimorfismo do NAT2 apresentou associação estatisticamente significativa (p = 0,009) isoladamente, independente das deleções em GSTM1 ou GSTT1."
+   },
+   {
+    "letter": "C",
+    "text": "Pacientes acetiladores lentos do NAT2 apresentam elevada razão acetilisoniazida/isoniazida no sangue após 3 horas.",
+    "rationale": "Incorreta. Acetiladores lentos (SA) apresentam baixa razão de acetilisoniazida/isoniazida (AcINH/INH ratio), acumulando a droga mãe (isoniazida) não acetilada."
+   },
+   {
+    "letter": "D",
+    "text": "O genótipo acetilador lento do NAT2 apresenta associação significativa com o surgimento de reações adversas (ADR+), com uma Odds Ratio de 3,2 em relação ao acetilador rápido.",
+    "rationale": "CORRETA. Os dados epidemiológicos da Tabela IV mostram que o fenótipo acetilador lento do NAT2 associa-se significativamente ao desenvolvimento de reações adversas (ADR+), apresentando OR de 3,2 (IC 95%: 1,2 - 8,6; p = 0,009)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O fenótipo acetilador lento do NAT2 constitui um fator de risco significativo (OR = 3,2) para o desenvolvimento de reações adversas à isoniazida."
+ },
+ {
+  "id": 176,
+  "code": "FGEN-29",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Interação Gene-Ambiente na Toxicidade Medicamentosa",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "A análise epidemiológica de doentes com tuberculose revela que o risco de reações adversas a medicamentos (ADR) pode ser amplificado quando fatores genéticos e ambientais interagem. Com base no gráfico de modelos de interação de Costa et al. (2012), qual condição resulta na maior razão de chances (Odds Ratio) para a ocorrência de toxicidade?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A presença isolada de um único alelo NAT2 lento em paciente do sexo masculino não fumante.",
+    "rationale": "Incorreta. A presença de apenas um alelo NAT2 lento resulta na menor Odds Ratio do gráfico de interação (inferior a 3,0)."
+   },
+   {
+    "letter": "B",
+    "text": "O fator ambiental isolado do tabagismo em indivíduos com genótipo acetilador rápido.",
+    "rationale": "Incorreta. Fatores ambientais isolados (como sexo feminino ou tabagismo) apresentam aumentos discretos da Odds Ratio em comparação ao modelo combinado."
+   },
+   {
+    "letter": "C",
+    "text": "A interação gene-ambiente combinando predisposição genotípica (dois alelos NAT2 lentos) com fatores ambientais (sexo feminino e tabagismo).",
+    "rationale": "CORRETA. O modelo de interação sinérgica (Gene-environment interaction) demonstrado no gráfico de Costa et al. atinge as maiores razões de chance (Odds Ratio acima de 30) quando acumula dois alelos NAT2 lentos, sexo feminino e tabagismo."
+   },
+   {
+    "letter": "D",
+    "text": "A heterozigose simples no gene CYP2E1 em pacientes não expostos ao tabaco.",
+    "rationale": "Incorreta. Os polimorfismos isolados do CYP2E1 não alcançaram significância estatística isolada no estudo de Costa et al.."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A combinação entre múltiplos alelos genéticos desfavoráveis (NAT2 lento) e variáveis ambientais (como o tabagismo) eleva sinergicamente a Odds Ratio para reações adversas."
+ },
+ {
+  "id": 177,
+  "code": "FGEN-30",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Indução Enzimática do CYP2E1",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente etilista crônico e fumante ativo é submetido à avaliação da atividade metabólica de enzimas de fase I no sistema nervoso central. O médico pondera sobre a regulação ambiental do citocromo P450 2E1 (CYP2E1). De acordo com os achados de Howard et al. (2003) expostos na aula, como a nicotina e o etanol afetam o CYP2E1 cerebral?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Provocam inibição competitiva da enzima, reduzindo a expressão no tecido cerebral.",
+    "rationale": "Incorreta. Howard et al. demonstraram que a nicotina e o etanol induzem (aumentam) a expressão do CYP2E1, e não o inibem."
+   },
+   {
+    "letter": "B",
+    "text": "Induzem a expressão do CYP2E1 no cérebro, fazendo com que seus níveis sejam mais elevados em fumantes e alcoólatras.",
+    "rationale": "CORRETA. O estudo de Howard et al. (2003) mostrou que o CYP2E1 cerebral é induzido por nicotina e etanol, apresentando maior expressão em indivíduos fumantes e etilistas."
+   },
+   {
+    "letter": "C",
+    "text": "Não exercem qualquer efeito, pois a transcrição do CYP2E1 é exclusivamente determinada pelo gene GSTT1.",
+    "rationale": "Incorreta. O estudo comprovou que fatores ambientais como fumo e álcool alteram diretamente os níveis teciduais de CYP2E1."
+   },
+   {
+    "letter": "D",
+    "text": "Inativam o transporte celular mediado pela Glicoproteína-P, bloqueando a síntese de citocromos.",
+    "rationale": "Incorreta. A indução do CYP2E1 por nicotina e etanol é um fenômeno enzimático direto, sem relação com inativação da Glicoproteína-P."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A enzima CYP2E1 no cérebro é induzida pela exposição à nicotina e ao etanol, apresentando maior nível em fumantes e alcoólatras."
+ },
+ {
+  "id": 178,
+  "code": "FGEN-31",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Mutação vs. Polimorfismo Genético",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Durante um seminário de genética médica, os alunos discutem os conceitos de marcadores de DNA. O palestrante solicita a diferenciação correta entre mutações causadoras de doenças monogênicas e polimorfismos genéticos. Qual a definição de polimorfismo genético apresentada na aula?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Variação na sequência de DNA que ocorre com frequência maior que 1% na população, associada a alterações multifatoriais e doenças poligênicas.",
+    "rationale": "CORRETA. Conforme o esquema conceitual da aula, polimorfismos ocorrem com frequência > 1% na população, participando da suscetibilidade a doenças poligênicas e respostas a drogas."
+   },
+   {
+    "letter": "B",
+    "text": "Alteração raras no DNA com frequência inferior a 0,1% responsável isoladamente por doenças monogênicas.",
+    "rationale": "Incorreta. Alterações genéticas raras envolvidas em doenças monogênicas em um único gene são conceituadas como mutações."
+   },
+   {
+    "letter": "C",
+    "text": "Deleção de cromossomos inteiros observada exclusivamente em 50% dos indivíduos com câncer.",
+    "rationale": "Incorreta. Polimorfismos são variações de sequência de nucleotídeos (como SNPs), e não deleções cromossômicas de grande porte."
+   },
+   {
+    "letter": "D",
+    "text": "Modificação química nos nucleotídeos induzida exclusivamente por medicamentos injetáveis.",
+    "rationale": "Incorreta. Polimorfismos são variações genéticas herdáveis presentes na população e não modificações induzidas por via de administração medicamentosa."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Polimorfismos genéticos ocorrem com frequência superior a 1% na população e atuam na suscetibilidade a doenças poligênicas e resposta a fármacos."
+ },
+ {
+  "id": 179,
+  "code": "FGEN-32",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Single Nucleotide Polymorphisms (SNPs)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Ao analisar o laudo de um painel genômico de um paciente, o médico identifica a presença de diversos SNPs (Single Nucleotide Polymorphisms) em genes de enzimas metabolizadoras. Em relação às características biológicas dos SNPs apresentadas no material didático, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Os SNPs ocorrem em menos de 10% de toda a variação do DNA humano.",
+    "rationale": "Incorreta. Os SNPs constituem 90% de todos os polimorfismos encontrados no DNA humano."
+   },
+   {
+    "letter": "B",
+    "text": "Cada gene humano possui no máximo 1 SNP localizado obrigatoriamente em regiões não codificantes.",
+    "rationale": "Incorreta. A aula destaca que ocorrem pelo menos 4 SNPs por gene em regiões codificantes."
+   },
+   {
+    "letter": "C",
+    "text": "Um SNP caracteriza-se por alterações em múltiplos pares de bases cromossômicas simultaneamente.",
+    "rationale": "Incorreta. O SNP é definido por ser uma variação em apenas uma única base de um determinado gene."
+   },
+   {
+    "letter": "D",
+    "text": "Os SNPs ocorrem em apenas uma base de um gene, podem ser bi, tri ou tetra-alélicos, representam 90% dos polimorfismos humanos e ocorrem pelo menos 4 por gene em regiões codificantes.",
+    "rationale": "CORRETA. O SNP envolve uma única base, pode ser bi, tri ou tetra-alélico, representa 90% dos polimorfismos no DNA humano e apresenta pelo menos 4 ocorrências por gene em regiões codificantes."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Os SNPs correspondem a 90% dos polimorfismos no DNA humano, afetando uma única base e ocorrendo em média 4 por gene em regiões codificantes."
+ },
+ {
+  "id": 180,
+  "code": "FGEN-33",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Reação em Cadeia da Polimerase (PCR) e Genotipagem",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um laboratório de diagnóstico molecular utiliza a Reação em Cadeia da Polimerase (PCR) para amplificar sequências específicas do gene CYP2D6 antes da genotipagem. Com base nos conceitos da técnica explicados na aula, como se conceitua a PCR e qual o termo correto para o seu produto gerado?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Método in vivo de sequenciamento proteico por eletroforese, cujos produtos são denominados plasmídeos.",
+    "rationale": "Incorreta. A PCR é realizada in vitro e amplifica DNA, e não proteínas ou plasmídeos."
+   },
+   {
+    "letter": "B",
+    "text": "Reação enzimática de degradação de RNA mensageiro em anticorpos, gerando primosomos.",
+    "rationale": "Incorreta. A PCR utiliza elementos do processo natural de replicação do DNA; os primers são reagentes iniciadores e não os produtos finais."
+   },
+   {
+    "letter": "C",
+    "text": "Técnica in vitro de amplificação exponencial de pequenas quantidades de DNA, cujos produtos são chamados amplicons.",
+    "rationale": "CORRETA. A PCR é empregada para obter amplificação exponencial de pequenas quantidades de DNA in vitro, sendo seus produtos chamados amplicons."
+   },
+   {
+    "letter": "D",
+    "text": "Processo de extração de lipídios de membrana celular, gerando marcadores de restrição.",
+    "rationale": "Incorreta. A PCR não lida com extração lipídica, mas com a síntese de cópias de segmentos de DNA por variação térmica."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A PCR é uma técnica in vitro para amplificação exponencial de DNA que gera produtos denominados amplicons."
+ },
+ {
+  "id": 181,
+  "code": "FGEN-34",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Medicina Personalizada e Oncologia (EGFR)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um oncologista discute com a equipe multiprofissional as perspectivas da farmacogenômica no tratamento do câncer, ressaltando que certos medicamentos quimioterápicos possuem eficácia limitada a subgrupos populacionais específicos. Qual exemplo de receptor citado na aula ilustra essa dependência de perfil genético no tratamento oncológico?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Receptor de uroporfirinogênio sintetase.",
+    "rationale": "Incorreta. A uroporfirinogênio sintetase é a enzima associada à porfiria, não um receptor de quimioterapia oncológica."
+   },
+   {
+    "letter": "B",
+    "text": "Receptor do fator de crescimento da epiderme (EGFR).",
+    "rationale": "CORRETA. A aula menciona expressamente o receptor do fator de crescimento da epiderme (EGFR) como exemplo de alvo onde drogas quimioterápicas só possuem efeito em certos grupos populacionais."
+   },
+   {
+    "letter": "C",
+    "text": "Receptor de canais de sódio tipo 2.",
+    "rationale": "Incorreta. Os canais de sódio são alvos receptores relacionados a fármacos antiepilépticos, como a carbamazepina."
+   },
+   {
+    "letter": "D",
+    "text": "Receptor de efluxo de fenilalanina.",
+    "rationale": "Incorreta. O acúmulo por oxidação incompleta da fenilalanina é característica da alcaptonúria."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Determinados quimioterápicos no câncer dependem do perfil genético populacional de receptores como o receptor do fator de crescimento da epiderme (EGFR)."
+ },
+ {
+  "id": 182,
+  "code": "FGEN-35",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Enzimas de Detoxificação (Sistema GST)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Pesquisadores em farmacogenética investigam a suscetibilidade a reações adversas e ao câncer decorrente da variabilidade em enzimas de detoxificação da Fase II. Quais genes pertencentes à família Glutatião S-Transferase (GST) são citados na aula como alvos potenciais de estudos?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "GSTM1 e GSTT1.",
+    "rationale": "CORRETA. Os genes GSTM1 e GSTT1 codificam enzimas da família Glutatião S-Transferase (GST), que atuam como enzimas de detoxificação metabólica."
+   },
+   {
+    "letter": "B",
+    "text": "CYP2D6 e CYP2E1.",
+    "rationale": "Incorreta. CYP2D6 e CYP2E1 integram a família das enzimas do Citocromo P450, e não da Glutatião S-Transferase."
+   },
+   {
+    "letter": "C",
+    "text": "NAT1 e NAT2.",
+    "rationale": "Incorreta. NAT1 e NAT2 são N-acetiltransferases responsáveis pelas reações de acetilação."
+   },
+   {
+    "letter": "D",
+    "text": "MDR1 e P-gp.",
+    "rationale": "Incorreta. O gene MDR1 codifica a proteína transportadora de efluxo Glicoproteína-P."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Os genes GSTM1 e GSTT1 codificam enzimas de detoxificação da família Glutatião S-Transferase."
+ },
+ {
+  "id": 183,
+  "code": "FGEN-36",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Ajuste Posológico Baseado no Genótipo do CYP2D6",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente em acompanhamento psiquiátrico por depressão resistente é submetido à genotipagem e classificado como metabolizador ultrarrápido do CYP2D6. Consultando os dados posológicos de nortriptilina por perfil metabólico (Meyer, 2004) apresentados na aula, qual conduta posológica é adequada para obter resposta terapêutica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prescrever dose reduzida entre 20 e 50 mg/dia para evitar toxicidade grave.",
+    "rationale": "Incorreta. A dose baixa de 20 a 50 mg/dia é indicada para metabolizadores lentos (poor metabolizers), com o objetivo de prevenir acúmulo e toxicidade."
+   },
+   {
+    "letter": "B",
+    "text": "Manter a dose diária convencional de 100 mg/dia, pois a duplicação gênica não afeta o fármaco.",
+    "rationale": "Incorreta. A faixa de 100 a 150 mg/dia é a dose padrão para metabolizadores extensivos; em metabolizadores ultrarrápidos, essa dosagem resulta em subdose e falha terapêutica."
+   },
+   {
+    "letter": "C",
+    "text": "Suspender o tratamento e solicitar dosagem de enzimas de porfiria urinária.",
+    "rationale": "Incorreta. O teste de porfirias urinárias aplica-se à suspeita de porfiria e não tem relação com o ajuste de nortriptilina por CYP2D6."
+   },
+   {
+    "letter": "D",
+    "text": "Necessitar de doses diárias muito elevadas (> 250 a 500 mg/dia) devido ao metabolismo extremamente rápido do fármaco.",
+    "rationale": "CORRETA. Pacientes com o fenótipo de metabolizador ultrarrápido necessitam de doses elevadas (> 250-500 mg/dia) de nortriptilina para atingir concentrações plasmáticas eficazes."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Metabolizadores ultrarrápidos do CYP2D6 necessitam de doses significativamente maiores de nortriptilina (> 250-500 mg/dia) para alcançar o efeito terapêutico."
+ },
+ {
+  "id": 184,
+  "code": "FGEN-37",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Aplicabilidade e Perspectivas da Farmacogenética",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Em uma conferência sobre a modernização da medicina, o palestrante aborda a aplicabilidade clínica e as perspectivas da farmacogenética para os sistemas de saúde. Com base no conteúdo da aula, qual é uma das principais contribuições da farmacogenética?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Erradicar completamente todas as doenças de transmissão genética monogênica na população humana.",
+    "rationale": "Incorreta. A farmacogenética foca na resposta a fármacos e polimorfismos, não tendo o objetivo nem a capacidade de erradicar doenças genéticas herdadas."
+   },
+   {
+    "letter": "B",
+    "text": "Isolar o atendimento médico de influências ambientais, focando unicamente na análise de mutações raras.",
+    "rationale": "Incorreta. A resposta biológica integra genótipo, ambiente e estado de saúde do paciente, não isolando o ambiente."
+   },
+   {
+    "letter": "C",
+    "text": "Auxiliar a indústria farmacêutica no desenvolvimento de novas drogas, servir como prognóstico patológico e trazer benefícios à Saúde Pública ao prevenir reações adversas a medicamentos.",
+    "rationale": "CORRETA. As aplicabilidades descritas na aula englobam a busca por novas drogas pela indústria, a função prognóstica de estado/doença e os benefícios à Saúde Pública ao evitar reações adversas em grupos de risco."
+   },
+   {
+    "letter": "D",
+    "text": "Dispensa a validação de marcadores genéticos para a tomada de decisões terapêuticas à beira do leito.",
+    "rationale": "Incorreta. A aula ressalta expressamente a necessidade de ainda validar marcadores genéticos de maior relevância clínica para fundamentar decisões."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A farmacogenética auxilia na descoberta de fármacos, no prognóstico de doenças e na redução de reações adversas a medicamentos na Saúde Pública."
+ },
+ {
+  "id": 185,
+  "code": "FGEN-38",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Fisiopatologia e Sintomatologia da Porfiria",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Um paciente adulto jovem apresenta dor abdominal aguda de causa indefinida, náuseas, dentes com alteração de coloração, fotossensibilidade e episódios de confusão mental. A suspeita clínica é de porfiria, uma das condições históricas investigadas por Archibald Garrod. Qual é a alteração enzimática responsável por esse quadro sintomático?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Super-expressão do transportador de efluxo Glicoproteína-P no fígado.",
+    "rationale": "Incorreta. A Glicoproteína-P é um transportador de efluxo associado à resistência a drogas, não tendo papel na etiologia da porfiria."
+   },
+   {
+    "letter": "B",
+    "text": "Deficiência da enzima uroporfirinogênio sintetase.",
+    "rationale": "CORRETA. A porfiria investigada por Garrod decorre da deficiência da enzima uroporfirinogênio sintetase."
+   },
+   {
+    "letter": "C",
+    "text": "Acetilação ultrarrápida mediada pela enzima N-acetiltransferase 2.",
+    "rationale": "Incorreta. A N-acetiltransferase 2 (NAT2) está envolvida na metabolização de drogas como a isoniazida, e não na gênese da porfiria."
+   },
+   {
+    "letter": "D",
+    "text": "Inibição irreversível do citocromo P450 2E1 por metabólitos da fenilalanina.",
+    "rationale": "Incorreta. O CYP2E1 é induzido por nicotina e etanol; a alteração associada à fenilalanina refere-se à alcaptonúria."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A porfiria manifesta-se com dores abdominais, fotossensibilidade, alteração dentária e confusão mental devido à deficiência de uroporfirinogênio sintetase."
+ },
+ {
+  "id": 186,
+  "code": "FGEN-39",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Fatores Determinantes da Resposta a Fármacos",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Ao prescrever um mesmo tratamento para dois pacientes com o mesmo diagnóstico clínico, o médico nota variações expressivas na eficácia e no aparecimento de efeitos colaterais. De acordo com os fundamentos apresentados na aula, a resposta individual a fármacos é determinada por qual conjunto de fatores?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Por uma integração entre fatores ambientais, estado de saúde e características genéticas (genes que codificam proteínas alvo ou enzimas metabolizadoras).",
+    "rationale": "CORRETA. A aula estabelece que a resposta a fármacos é influenciada por fatores ambientais, estado de saúde e características genéticas (genes de proteínas alvo ou enzimas metabolizadoras)."
+   },
+   {
+    "letter": "B",
+    "text": "Exclusivamente por fatores genéticos, sendo os fatores ambientais e o estado de saúde irrelevantes.",
+    "rationale": "Incorreta. A resposta a fármacos não é exclusivamente genética, dependendo também do ambiente e do estado de saúde."
+   },
+   {
+    "letter": "C",
+    "text": "Apenas pelo tipo de alimentação do paciente no momento da tomada do medicamento.",
+    "rationale": "Incorreta. Embora a alimentação seja um fator ambiental, a resposta depende fundamentalmente da constituição genética individual e do estado de saúde."
+   },
+   {
+    "letter": "D",
+    "text": "Unicamente pela presença de mutações raras em genes de estrutura óssea.",
+    "rationale": "Incorreta. A resposta a drogas envolve polimorfismos frequentes em transportadores, receptores e enzimas de detoxificação, e não apenas mutações ósseas raras."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A resposta individual aos medicamentos resulta da interação entre características genéticas, fatores ambientais e o estado de saúde."
+ },
+ {
+  "id": 187,
+  "code": "FGEN-40",
+  "assunto": "gen-farmaco",
+  "category": "Farmacogenética",
+  "subcategory": "Validação Clínica de Marcadores Genéticos",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM",
+  "prompt": "Durante uma discussão sobre a implementação da farmacogenômica na rotina assistencial, um perito ressalta as perspectivas e desafios futuros da área. Qual é o requisito decisivo apontado ao final da aula para que marcadores genéticos possam orientar decisões terapêuticas de forma segura?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Realizar o sequenciamento completo de todos os íntrons do genoma antes de qualquer prescrição.",
+    "rationale": "Incorreta. O sequenciamento completo de íntrons não é necessário nem viável para todas as decisões terapêuticas de rotina."
+   },
+   {
+    "letter": "B",
+    "text": "Substituir todas as enzimas do citocromo P450 por transportadores de efluxo sintéticos.",
+    "rationale": "Incorreta. Não é possível nem indicado substituir a expressão biológica de enzimas do CYP450 por transportadores sintéticos."
+   },
+   {
+    "letter": "C",
+    "text": "Abolir o uso de exames laboratoriais de PCR em favor de testes sorológicos clássicos.",
+    "rationale": "Incorreta. A PCR é a técnica de escolha para obtenção de amplicons e análise genotípica em farmacogenética."
+   },
+   {
+    "letter": "D",
+    "text": "Validar marcadores genéticos de maior relevância clínica para fundamentar a tomada de decisões terapêuticas.",
+    "rationale": "CORRETA. A aula conclui destacando que é necessário ainda validar marcadores genéticos de maior relevância clínica para tomar decisões terapêuticas embasadas na prática médica."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A aplicação prática da farmacogenética exige a validação prévia de marcadores genéticos de relevância clínica comprovada."
  }
 ]
