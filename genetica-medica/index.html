@@ -8762,7 +8762,9 @@ function startQuiz(opts) {
   }
   const rng = makeRng(sessionCode);
   const seen = new Set(lsGet(LS_KEYS.seen, []));
-  const respectAntiRepeat = !sessionCode;
+  // ?aleatorio=1 (revisão aberta pela plataforma de estudos): sorteio sem prioridade nem anti-repetição
+  const aleatorio = !sessionCode && !poolOverride && new URLSearchParams(location.search).get("aleatorio") === "1";
+  const respectAntiRepeat = !sessionCode && !aleatorio;
 
   let chosen;
   const reviewIds = new Set();
@@ -8772,7 +8774,7 @@ function startQuiz(opts) {
     shuffleInPlace(chosen, rng);
   } else {
     // revisoes vencidas entram primeiro (nao em sessoes compartilhadas por codigo)
-    if (!sessionCode) {
+    if (!sessionCode && !aleatorio) {
       const cap = Math.max(1, Math.round(qtd * SRS_MAX_SHARE));
       srsDueList(subjects).slice(0, Math.min(cap, qtd)).forEach((x) => reviewIds.add(x.q.id));
     }
