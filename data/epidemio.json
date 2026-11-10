@@ -3358,5 +3358,1605 @@
    "fonte": "Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 9; Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 8"
   },
   "revisada": true
+ },
+ {
+  "id": 85,
+  "code": "VAL-01",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Validade interna vs. Validade externa",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um ensaio clínico randomizado duplo-cego avaliou a eficácia de um novo imunobiológico na redução de crises em pacientes com artrite reumatoide grave. Para assegurar máxima homogeneidade e mitigar confundidores, os autores adotaram critérios rigorosos de exclusão: retiraram idosos, indivíduos com disfunções renais ou hepáticas e pacientes em uso de outros imunossupressores. O estudo concluiu que o fármaco reduziu significantemente as crises inflamatórias (p < 0,01), com excelente controle de erros sistemáticos na amostra. Contudo, reumatologistas da rede pública relatam receio e dificuldade em transpor essas conclusões aos seus pacientes do SUS, que são frequentemente idosos, polimedicados e portadores de comorbidades clínicas. Do ponto de vista epidemiológico, esse cenário caracteriza um estudo com:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "ampla validade externa assegurada pelo desenho experimental, acompanhada de prejuízo na validade interna por viés de seleção.",
+    "rationale": "Incorreta. O rigoroso controle de variáveis em um ensaio clínico randomizado duplo-cego maximiza a validade interna, e não a externa. Além disso, a aplicação de critérios estritos de elegibilidade a priori não configura viés de seleção prejudicial à validade interna, mas sim uma estratégia para evitar fatores de confusão na amostra estudada."
+   },
+   {
+    "letter": "B",
+    "text": "alta validade interna devido ao rigor metodológico, com limitação na validade externa para a prática clínica habitual.",
+    "rationale": "CORRETA. O desenho experimental randomizado, mascarado e com controle estrito de confundidores assegura elevada validade interna (os resultados observados decorrem de fato da intervenção avaliada). Por outro lado, a exclusão sistemática de idosos, polimedicados e pacientes com disfunções orgânicas restringe a validade externa (generalizabilidade/aplicabilidade dos achados para a população heterogênea atendida no cotidiano do SUS)."
+   },
+   {
+    "letter": "C",
+    "text": "comprometimento da validade interna decorrente de erro sistemático nos critérios de inclusão, sem impacto na validade externa.",
+    "rationale": "Incorreta. A homogeneização e a definição estrita de critérios de inclusão e exclusão têm como objetivo primário justamente proteger e elevar a validade interna, reduzindo erros sistemáticos de confusão. O impacto negativo dessa escolha metodológica ocorre na validade externa, ao contrário do que afirma a alternativa."
+   },
+   {
+    "letter": "D",
+    "text": "presença marcante de viés de aferição não diferencial decorrente do duplo-cegamento, o que comprometeu a precisão do estudo.",
+    "rationale": "Incorreta. O mascaramento duplo-cego é uma ferramenta metodológica empregada exatamente para prevenir o viés de aferição (informação) e de desempenho entre os grupos comparados. Ademais, o estudo demonstrou eficácia analítica com significância estatística (p < 0,01), sem indícios de perda de precisão ou viés de mensuração."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A validade interna é condição prévia indispensável para um estudo, mas critérios de seleção hiper-restritivos aumentam a homogeneidade interna em detrimento da validade externa (generalização).",
+  "bookContext": {
+   "text": "A validade interna é o grau em que os resultados de uma observação estão corretos para os pacientes sob análise dentro do estudo, sendo ameaçada por vieses de seleção, aferição e confundimento. A validade externa, ou capacidade de generalização, expressa a validade de se presumir que os indivíduos da amostra são representativos de pacientes em outros cenários clínicos. Para que uma observação clínica seja útil, a validade interna é condição necessária, porém insuficiente, pois um estudo de alta validade interna pode ser inteiramente enganoso se generalizado para pacientes distintos daqueles incluídos na pesquisa.",
+   "fonte": "Fletcher, Epidemiologia Clínica, Capítulo 1 (Introdução e Validade)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 86,
+  "code": "VAL-02",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Diferenciação entre erro sistemático (viés) e erro aleatório (imprecisão)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um estudo epidemiológico transversal desenhado para estimar a prevalência de hipertensão arterial em uma comunidade, utilizou-se um lote de esfigmomanômetros que não passaram por calibração prévia. Uma auditoria metrológica posterior identificou que todos os aparelhos registravam valores sistematicamente 8 mmHg abaixo do valor pressórico real dos voluntários. Em contrapartida, em um segundo estudo piloto com apenas 15 participantes e aparelhos perfeitamente calibrados, os pesquisadores observaram grande flutuação casual nas aferições decorrente da variabilidade biológica momentânea e do tamanho reduzido da amostra, gerando intervalos de confiança bastante amplos. Na perspectiva da epidemiologia clínica, as falhas observadas no primeiro e no segundo estudo representam, respectivamente:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "erro sistemático direcionado (viés de aferição); e erro aleatório decorrente de variação amostral e biológica (imprecisão).",
+    "rationale": "CORRETA. O desvio constante e unidirecional causado pelo aparelho descalibrado constitui erro sistemático (viés de aferição/mensuração), que compromete a acurácia/validade. A oscilação casual ao redor da média provocada por flutuação amostral e variação biológica define o erro aleatório, que compromete a precisão."
+   },
+   {
+    "letter": "B",
+    "text": "erro aleatório passível de correção por ampliação amostral; e viés de seleção associado a perdas de acompanhamento.",
+    "rationale": "Incorreta. O primeiro estudo apresenta erro sistemático (viés), que é um desvio constante e direcional que não se resolve pelo aumento do tamanho amostral. O segundo estudo ilustra erro aleatório (imprecisão amostral), e não viés de seleção."
+   },
+   {
+    "letter": "C",
+    "text": "imprecisão metodológica atribuível ao acaso; e erro sistemático de aferição dependente da qualificação técnica do observador.",
+    "rationale": "Incorreta. Os conceitos foram invertidos: aparelhos descalibrados gerando leituras unidirecionais caracterizam erro sistemático (viés), ao passo que a variabilidade biológica em amostras pequenas gera erro aleatório."
+   },
+   {
+    "letter": "D",
+    "text": "alta acurácia associada a baixa precisão; e alta precisão associada a perda intolerável da validade interna do estudo.",
+    "rationale": "Incorreta. O primeiro estudo possui baixa acurácia (os valores afastam-se sistematicamente do real). O segundo estudo apresenta baixa precisão (ampla dispersão devida à amostra diminuta)."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O erro sistemático (viés) desvia o resultado de forma constante em direção errônea e não diminui com o aumento amostral, enquanto o erro aleatório (imprecisão) dispersa as medidas por flutuação casual e diminui conforme a amostra cresce.",
+  "bookContext": {
+   "text": "Todas as observações clínicas estão sujeitas a desvios que decorrem do desempenho dos instrumentos e dos observadores envolvidos nas aferições. As condições em que ocorrem as medições podem levar a um viés sistemático (falta de validade ou acurácia) ou a um erro aleatório (falta de precisão ou confiabilidade). Enquanto o erro sistemático produz estimativas distorcidas da associação real que não se atenuam com o aumento do tamanho da amostra, o erro aleatório deve-se à variação probabilística da amostragem e à variação biológica momento a momento, podendo ser reduzido com amostras maiores e padronização rigorosa.",
+   "fonte": "Fletcher, Epidemiologia Clínica, Capítulo 2 (Desempenho das Aferições e Variação)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 87,
+  "code": "VAL-03",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Validade de constructo e validade de critério (padrão-ouro)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Pesquisadores desenvolveram uma escala multidimensional para rastreamento de sofrimento mental em idosos na Atenção Primária à Saúde. Por se tratar de um fenômeno subjetivo sem marcador biológico ou físico direto, o processo de validação foi estruturado em duas fases: na Fase 1, verificou-se que os escores do instrumento apresentavam correlação lógica e teoricamente predita com construtos correlatos (como fadiga crônica, insônia e escores de ansiedade); na Fase 2, as classificações obtidas pelo instrumento foram comparadas aos diagnósticos emitidos por psiquiatras experientes utilizando entrevistas clínicas estruturadas pelo DSM-5 (consideradas a referência máxima aceita), permitindo o cálculo de sensibilidade e especificidade. As fases 1 e 2 do estudo avaliaram, respectivamente, as seguintes propriedades psicométricas:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "validade de critério e validade de conteúdo.",
+    "rationale": "Incorreta. A Fase 1 abordou a convergência teórica entre conceitos afins (constructo), e não a correspondência com padrão de referência (critério). Além disso, a validade de conteúdo refere-se à abrangência com que todos os domínios do fenômeno foram contemplados pelos itens da escala."
+   },
+   {
+    "letter": "B",
+    "text": "validade interna e validade de confiabilidade.",
+    "rationale": "Incorreta. Validade interna diz respeito ao rigor metodológico geral de inferência causal do estudo frente a vieses, enquanto confiabilidade avalia reprodutibilidade/estabilidade de aferições, e não a capacidade do instrumento de mensurar o que se propõe contra um padrão-ouro."
+   },
+   {
+    "letter": "C",
+    "text": "validade preditiva e validade concorrente.",
+    "rationale": "Incorreta. A validade preditiva exige acompanhamento temporal longitudinal para predizer desfechos futuros. Embora a validação concorrente seja um subtipo de validade de critério, a Fase 1 foi puramente de validação de constructo teórico."
+   },
+   {
+    "letter": "D",
+    "text": "validade de constructo e validade de critério.",
+    "rationale": "CORRETA. A validade de constructo avalia se a medição se relaciona de forma coerente com outros fenômenos teóricos conhecidos que compartilham o mesmo domínio conceitual. A validade de critério avalia a correspondência direta das medidas obtidas pelo instrumento frente a um padrão de referência reconhecido ('padrão-ouro')."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A validade de constructo analisa a coerência relacional de conceitos não verificáveis fisicamente com outras variáveis teóricas, enquanto a validade de critério afere o desempenho comparando o método com o padrão-ouro aceito.",
+  "bookContext": {
+   "text": "Aferições clínicas de fenômenos como dor, dispneia e humor não podem ser verificadas diretamente por meios físicos, exigindo questionários cujos itens formam escalas destinadas a mensurar conceitos específicos denominados construtos. A validade de construto demonstra se o instrumento se correlaciona de modo logicamente esperado com outras medidas clínicas que integram o mesmo fenômeno patológico. Já a validade de critério estabelece-se quando a mensuração prediz ou concorda de maneira precisa com um critério externo estabelecido, frequentemente denominado padrão-ouro ou padrão de referência da verdade diagnóstica.",
+   "fonte": "Fletcher, Epidemiologia Clínica, Capítulo 2 (Desempenho das Aferições - Padrão-Ouro e Validade)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 88,
+  "code": "VAL-04",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Conceito de precisão (consistência e reprodutibilidade)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma investigação epidemiológica multicêntrica sobre doença pulmonar obstrutiva crônica, dois pneumologistas realizaram a interpretação independente de 300 exames espirométricos para classificar o distúrbio em leve, moderado ou grave. A análise estatística revelou um coeficiente Kappa de Cohen de 0,42 entre os especialistas. Além disso, quando um dos avaliadores repetiu a leitura de 50 exames após um intervalo de 30 dias sem identificação prévia, alterou sua classificação em 20% das curvas espirométricas. Considerando os parâmetros de qualidade de medidas em epidemiologia, conclui-se que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "a divergência observada decorre de viés de confusão, o qual deve ser corrigido mediante estratificação analítica.",
+    "rationale": "Incorreta. A discordância decorre da variabilidade na interpretação do observador (erro aleatório ou subjetividade da leitura), e não de variáveis de confusão (que distorcem associações etiológicas entre exposição e desfecho)."
+   },
+   {
+    "letter": "B",
+    "text": "a acurácia do teste espirométrico ficou preservada, visto que a concordância pelo acaso garantiu validade ao método.",
+    "rationale": "Incorreta. A concordância atribuível ao acaso não confere validade ao exame; pelo contrário, o índice Kappa serve exatamente para expurgar a concordância casual, evidenciando que testes com baixa reprodutibilidade perdem utilidade e confiabilidade."
+   },
+   {
+    "letter": "C",
+    "text": "há um comprometimento da precisão do estudo, manifestado por variações interobservador e intraobservador.",
+    "rationale": "CORRETA. A precisão, também denominada consistência, confiabilidade ou reprodutibilidade, expressa a capacidade de uma aferição fornecer resultados semelhantes quando repetida nas mesmas condições. As variações entre avaliadores distintos (interobservador) e no mesmo avaliador em tempos diferentes (intraobservador) representam déficit de precisão."
+   },
+   {
+    "letter": "D",
+    "text": "o coeficiente Kappa observado comprova excelente reprodutibilidade interobservador, dispensando padronizações.",
+    "rationale": "Incorreta. Segundo a classificação clássica de concordância de Landis e Koch citada nos manuais de epidemiologia, valores de Kappa entre 0,40 e 0,75 representam concordância intermediária ou moderada, e não excelente (que exige Kappa > 0,75 ou > 0,80)."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A precisão (confiabilidade ou reprodutibilidade) depende da estabilidade das medições entre avaliadores (interobservador) e no mesmo avaliador ao longo do tempo (intraobservador).",
+  "bookContext": {
+   "text": "Confiabilidade ou precisão é a capacidade de aferições repetidas de um fenômeno estável, por diferentes instrumentos ou pessoas em momentos distintos, apresentarem resultados semelhantes. A variabilidade das aferições decorre de fatores instrumentais, da variação intraobservador e da variação interobservador. Quando a reprodutibilidade de uma mensuração é insuficiente, a utilidade e a aplicabilidade clínica do teste ficam seriamente comprometidas, pois um exame incapaz de produzir resultados consistentes não pode sustentar inferências diagnósticas válidas.",
+   "fonte": "Gordis, Epidemiologia, Capítulo 5 (Determinação da Validade e Confiabilidade de Testes de Diagnóstico e Rastreamento)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 89,
+  "code": "VAL-05",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Inter-relação entre Acurácia (Validade) e Precisão (Confiabilidade)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um grupo de pesquisadores avalia um novo monitor digital oscilométrico para aferição de pressão arterial em uma unidade de terapia intensiva. Para testar o equipamento, realizam dez medições sucessivas em um mesmo paciente adulto sob condições fisiológicas estáveis, comparando os achados com a pressão intra-arterial contínua (padrão de referência fixado em 120/80 mmHg). Todas as dez leituras do novo monitor registraram valores estritamente entre 144/94 mmHg e 146/96 mmHg. Com base nas propriedades das medições clínicas em saúde, assinale a interpretação correta desse resultado.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O aparelho apresenta elevada acurácia e baixa precisão, pois os resultados se afastam do valor verdadeiro.",
+    "rationale": "Incorreta. A alternativa inverte os conceitos. A precisão (confiabilidade) é alta, visto que as medidas sucessivas foram praticamente idênticas entre si, demonstrando excelente reprodutibilidade. A acurácia (validade), por outro lado, é baixa, pois as medidas encontram-se sistematicamente deslocadas em cerca de 25/15 mmHg em relação ao valor verdadeiro de referência."
+   },
+   {
+    "letter": "B",
+    "text": "O aparelho apresenta elevada precisão e baixa acurácia, pois reproduz valores distantes do alvo real.",
+    "rationale": "CORRETA. A precisão expressa a capacidade de um instrumento repetir os mesmos resultados sob condições idênticas (consistência/reprodutibilidade), o que ocorreu devido à dispersão mínima entre 144/94 e 146/96 mmHg. A acurácia expressa a proximidade entre a média das medições e o valor verdadeiro (validade); como houve um desvio sistemático constante em relação aos 120/80 mmHg reais, a acurácia é insatisfatória."
+   },
+   {
+    "letter": "C",
+    "text": "O aparelho apresenta acurácia e precisão insatisfatórias, pois a dispersão impede inferências clínicas.",
+    "rationale": "Incorreta. A precisão do equipamento foi satisfatória e a dispersão observada foi muito pequena (apenas 2 mmHg de oscilação). O erro presente é exclusivamente sistemático (viés de calibração), e não aleatório."
+   },
+   {
+    "letter": "D",
+    "text": "O aparelho apresenta validade satisfatória para o indivíduo, pois a baixa variabilidade assegura acurácia.",
+    "rationale": "Incorreta. Conforme demonstrado na literatura epidemiológica, a reprodutibilidade é condição necessária, mas não suficiente, para a validade. Um teste pode ser altamente consistente e reprodutível, porém completamente inválido por aferir um valor falso de maneira repetida."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A precisão (reprodutibilidade) indica a consistência entre medições repetidas, enquanto a acurácia (validade) indica a proximidade com o valor real; alta precisão não garante acurácia se houver erro sistemático.",
+  "bookContext": {
+   "text": "A confiabilidade reflete o quanto aferições repetidas de um fenômeno estável produzem resultados semelhantes quando realizadas por diferentes observadores ou instrumentos. Já a validade, ou acurácia, expressa o grau em que os dados medem o que realmente deveriam medir, aproximando-se do estado verdadeiro do fenômeno. Conforme apontam Fletcher e Gordis, medições podem ser extremamente confiáveis e reprodutíveis, mas inteiramente inacuradas se estiverem sistematicamente afastadas da verdade. No contexto individual, um teste não confiável é incapaz de ser válido, mas um teste com precisão máxima pode ser clinicamente inútil caso sofra desvio sistemático.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica (4ª ed.), Capítulo 2 (Desempenho das Aferições) e Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5 (Relação entre Validade e Confiabilidade)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 90,
+  "code": "VAL-06",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Efeito do Tamanho Amostral sobre o Erro Aleatório e o Erro Sistemático",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um estudo transversal com 80 participantes avaliou a associação entre obesidade e hipertensão arterial, encontrando uma Razão de Prevalência de 1,60, porém com intervalo de confiança de 95% amplo (0,75 a 3,42), decorrente do reduzido número de indivíduos analisados. Para contornar a imprecisão estatística, os autores ampliaram a amostra para 8.000 indivíduos mantendo rigorosamente o mesmo protocolo, o qual continha um esfigmomanômetro com manguito de tamanho único inadequado que superestimava a pressão arterial dos participantes obesos. Considerando o comportamento dos componentes de erro, qual é o impacto metodológico dessa mudança amostral?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O aumento amostral reduzirá o erro aleatório, mas perpetuará a estimativa pontual enviesada.",
+    "rationale": "CORRETA. O erro aleatório (imprecisão amostral) diminui conforme o tamanho amostral aumenta, o que estreita os intervalos de confiança e eleva o poder estatístico do estudo. Entretanto, o erro sistemático (viés de aferição induzido pelo manguito inadequado) independe do tamanho da amostra, fazendo com que o estudo passe a apresentar uma estimativa altamente precisa de um valor incorreto."
+   },
+   {
+    "letter": "B",
+    "text": "O aumento amostral anulará o viés de aferição e aumentará a dispersão aleatória das estimativas.",
+    "rationale": "Incorreta. O aumento do tamanho amostral não tem qualquer capacidade de anular ou atenuar o erro sistemático (viés de aferição decorrente do manguito incorreto). Além disso, o incremento da amostra reduz a dispersão dos dados em torno da média amostral, estreitando o intervalo de confiança."
+   },
+   {
+    "letter": "C",
+    "text": "O aumento amostral reduzirá o erro sistemático, mantendo inalterada a amplitude dos intervalos.",
+    "rationale": "Incorreta. O erro sistemático decorre de imperfeições no delineamento, nos instrumentos ou na execução do estudo, permanecendo inalterado mesmo em amostras de proporções censitárias. A amplitude do intervalo de confiança é reduzida proporcionalmente ao aumento de n, não se mantendo inalterada."
+   },
+   {
+    "letter": "D",
+    "text": "O aumento amostral corrigirá a acurácia global do estudo por meio do aumento do poder do teste.",
+    "rationale": "Incorreta. O aumento do poder do teste reduz o erro do tipo II (associado ao acaso em amostras pequenas), mas não conserta a falta de acurácia provocada por falha sistemática na mensuração dos dados."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O aumento do tamanho da amostra reduz exclusivamente o erro aleatório (aumentando a precisão estatística), mas não atenua nem corrige o erro sistemático (viés).",
+  "bookContext": {
+   "text": "A variação aleatória representa a influência do acaso inerente ao processo de amostragem, diminuindo à medida que mais observações são adicionadas à investigação. Por sua vez, o erro sistemático, ou viés, consiste em uma distorção direcionada que afasta os achados da realidade em decorrência de problemas estruturais de seleção, mensuração ou confusão. Como enfatizado por Fletcher e Rouquayrol, a ampliação do tamanho da amostra estreita o intervalo de confiança em torno da média, mas deixa o viés intacto. Consequentemente, estudos gigantescos com falhas metodológicas geram conclusões falsas com alto grau de certeza estatística aparente.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica (4ª ed.), Capítulo 1 (Os Efeitos do Viés e do Acaso São Cumulativos) e Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 8"
+  },
+  "revisada": true
+ },
+ {
+  "id": 91,
+  "code": "VAL-07",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Validade de Conteúdo em Instrumentos de Mensuração Clínica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma equipe multiprofissional desenvolve uma escala em formato de questionário estruturado para mensurar a intensidade do sofrimento e da sobrecarga vivenciados por cuidadores de pacientes com demência avançada. Ao submeter a primeira versão da escala à apreciação de um comitê de juízes especialistas na área, observou-se que o questionário abordava detalhadamente o desgaste financeiro e o isolamento social, porém omitia por completo as dimensões de exaustão física e privação de sono, além de incorporar perguntas sobre opções políticas do cuidador. De acordo com as estratégias de validação de construtos não verificáveis diretamente pelos sentidos físicos, qual propriedade da escala foi primariamente comprometida?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Validade de critério concorrente, em decorrência da ausência de comparação direta com o padrão-ouro aceito.",
+    "rationale": "Incorreta. A validade de critério exige a correlação das pontuações da escala com uma medida externa aceita como referência independente (padrão-ouro), situação diferente da análise conceitual da abrangência temática realizada pelo painel de especialistas."
+   },
+   {
+    "letter": "B",
+    "text": "Confiabilidade teste-reteste, pela potencial inconsistência temporal observada nas aplicações sucessivas.",
+    "rationale": "Incorreta. A confiabilidade teste-reteste avalia a estabilidade temporal dos resultados obtidos quando o instrumento é reaplicado ao mesmo indivíduo em momentos distintos sob condições clínicas estáveis."
+   },
+   {
+    "letter": "C",
+    "text": "Consistência interna psicométrica, pela incapacidade teórica da escala de atingir estabilidade em longo prazo.",
+    "rationale": "Incorreta. A consistência interna analisa a homogeneidade estatística entre as questões do teste (geralmente avaliada pelo alfa de Cronbach), e a estabilidade em longo prazo relaciona-se com reprodutibilidade, não se confundindo com o juízo sobre a representatividade dos itens."
+   },
+   {
+    "letter": "D",
+    "text": "Validade de conteúdo, pela omissão de domínios centrais do constructo e inclusão de itens estranhos.",
+    "rationale": "CORRETA. A validade de conteúdo é definida especificamente como o grau em que um instrumento de aferição abrange todas as dimensões relevantes do fenômeno clínico (constructo) que se propõe avaliar e nada mais. A omissão de domínios fundamentais (fadiga física e sono) e a incorporação de itens completamente impertinentes ao quadro clínico (posicionamento político) violam diretamente esse critério."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A validade de conteúdo avalia se o instrumento contempla adequadamente todas as facetas essenciais do construto clínico estudado, sem excluir dimensões relevantes nem incorporar domínios alheios.",
+  "bookContext": {
+   "text": "Muitos fenômenos clínicos de interesse primordial para os cuidados em saúde, como dor, dispneia, depressão e sobrecarga emocional, não podem ser quantificados diretamente por meio de sentidos físicos ou dispositivos laboratoriais. Para esses fenômenos, recorre-se ao desenvolvimento de questionários e escalas compostos por conjuntos de itens que procuram operacionalizar o constructo teórico. A validade de conteúdo assegura que cada componente essencial do fenômeno esteja devidamente representado no instrumento, garantindo que a escala não deixe de fora aspectos críticos nem capture elementos estranhos ao construto. Trata-se de um passo indispensável anterior à validação de critério empírica.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica (4ª ed.), Capítulo 2 (Desempenho das Aferições - Validade de Conteúdo)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 92,
+  "code": "VAL-08",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Validade de Critério e o Desafio do Padrão-Ouro na Prática Clínica",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um centro de pesquisa biomédica desenvolve um biomarcador liquórico para a identificação precoce de uma encefalopatia degenerativa rara e fatal. Ao elaborar o protocolo de validação de critério diagnóstico, a comissão científica conclui que a confirmação histopatológica inequívoca da doença (padrão de referência anatomopatológico absoluto) só pode ser obtida por necropsia ou biópsia cortical invasiva, procedimento formalmente contraindicado em voluntários vivos sem sinais avançados. Segundo as diretrizes de epidemiologia clínica para situações em que a comprovação diagnóstica imediata pelo padrão-ouro é inviável ou eticamente inaceitável em doenças crônicas ou não autolimitadas, qual solução metodológica é recomendada para validar o novo teste?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Substituir a confirmação histopatológica por análise de consistência interna das queixas clínicas.",
+    "rationale": "Incorreta. A consistência interna é uma medida psicométrica de confiabilidade de questionários e escalas, sendo incapaz de atuar como critério externo substitutivo da verdade anatomoclínica sobre a existência da doença."
+   },
+   {
+    "letter": "B",
+    "text": "Presumir validade perfeita caso o biomarcador apresente alta confiabilidade analítica laboratorial.",
+    "rationale": "Incorreta. A confiabilidade analítica apenas atesta a reprodutibilidade das dosagens laboratoriais do biomarcador. Não substitui a validação de critério nem comprova que o marcador reflete fidedignamente o processo nosológico subjacente."
+   },
+   {
+    "letter": "C",
+    "text": "Utilizar o seguimento clínico ao longo do tempo como fonte da verdade até a manifestação da doença.",
+    "rationale": "CORRETA. Conforme preconizado por Fletcher no estudo da validade de critério e padrão-ouro, para doenças crônicas, indolentes ou não autolimitadas em que a verificação confirmatória imediata pelo padrão-ouro é arriscada, cara ou eticamente inviável, o seguimento clínico longitudinal dos indivíduos serve como padrão de referência (fonte da verdade). O acompanhamento no tempo permite verificar retrospectivamente quais indivíduos de fato desenvolveram o quadro clínico inequívoco da afecção."
+   },
+   {
+    "letter": "D",
+    "text": "Adotar a opinião consensual não cega dos neurologistas participantes como critério diagnóstico final.",
+    "rationale": "Incorreta. O consenso de especialistas sem cegamento induz viés de aferição e expectativa, comprometendo a independência necessária entre o teste em estudo e a definição da doença."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Na impossibilidade de aplicar o padrão-ouro físico de imediato por razões éticas ou técnicas, o acompanhamento clínico longitudinal dos indivíduos funciona como critério de referência válido para doenças não autolimitadas.",
+  "bookContext": {
+   "text": "A acurácia de um teste diagnóstico é estimada pela comparação direta com um padrão de referência reconhecido como a melhor representação da verdade (padrão-ouro). Frequentemente, padrões teciduais definitivos, como cirurgias abertas, biópsias invasivas e necropsias, não podem ser justificados eticamente em indivíduos assintomáticos ou com suspeita precoce. Nesses cenários, a evolução clínica documentada durante um período de seguimento suficientemente longo permite estabelecer com segurança a presença ou ausência da doença de base. Essa estratégia longitudinal valida a sensibilidade e a especificidade do método inicial sem expor os pacientes a procedimentos diagnósticos desproporcionais.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica (4ª ed.), Capítulo 3 (Diagnóstico - Padrão-Ouro)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 93,
+  "code": "VAL-09",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Fontes de Variação Biológica Intrassujeito e Minimização do Erro Aleatório em Aferições",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma pesquisa clínica ambulatorial destinada a avaliar o controle pressórico de pacientes com hipertensão recém-diagnosticada, os pesquisadores observaram expressiva oscilação nas leituras de pressão arterial de um mesmo participante ao longo do dia, relacionada a variações do ciclo circadiano, estresse transitório e digestão pós-prandial. Considerando os fundamentos metodológicos sobre variabilidade de aferição, erro aleatório e precisão em estudos epidemiológicos, assinale a alternativa que identifica a fonte dessa variabilidade e a estratégia adequada para mitigar seu efeito.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Configura erro sistemático por descalibração instrumental crônica, sendo solucionada com a substituição imediata por aparelhos aneroides hospitalares.",
+    "rationale": "Incorreta. A descalibração instrumental introduz erro sistemático (desvio constante e unidirecional em relação ao valor real), enquanto as oscilações circadianas e metabólicas do próprio paciente constituem flutuações biológicas dinâmicas e imprevisíveis que dispersam as medidas."
+   },
+   {
+    "letter": "B",
+    "text": "Constitui variação biológica intrassujeito, sendo mitigada pela padronização das condições de repouso e pelo uso da média de aferições repetidas.",
+    "rationale": "CORRETA. As características humanas sofrem flutuações temporais e contextuais naturais (variação intrassujeito ou biológica intraindivíduo), o que gera erro aleatório e reduz a precisão da medida. As diretrizes epidemiológicas preconizam atenuar esse impacto padronizando estritamente o protocolo de preparo (repouso prévio, ambiente controlado, ausência de esforço recente) e calculando a média aritmética de medições repetidas sob as mesmas condições."
+   },
+   {
+    "letter": "C",
+    "text": "Trata-se de viés de aferição interobservador no estudo clínico, sendo corrigida mediante a troca frequente dos pesquisadores responsáveis pela avaliação.",
+    "rationale": "Incorreta. A variabilidade observada decorre da fisiologia do indivíduo examinado e não da falta de concordância técnica entre examinadores distintos (variação interobservador). A troca de pesquisadores não neutralizaria a flutuação biológica do paciente."
+   },
+   {
+    "letter": "D",
+    "text": "Representa viés de informação por recordação pregressa, sendo prevenida pela substituição da aferição direta por questionários autoaplicados de saúde.",
+    "rationale": "Incorreta. O viés de recordação refere-se a falhas de memória sobre eventos ou exposições pretéritas em estudos retrospectivos, não se aplicando à aferição hemodinâmica direta no momento do exame; questionários trariam imprecisão ainda maior."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A variação biológica intrassujeito é uma causa clássica de erro aleatório nas medições clínicas e deve ser controlada mediante padronização rigorosa do protocolo de exame e cálculo da média de múltiplas mensurações.",
+  "bookContext": {
+   "text": "A variabilidade dos valores obtidos na mensuração de características humanas decorre da soma de três componentes: o ato de medir, as diferenças biológicas interindivíduos e a oscilação biológica intrassujeito ao longo do tempo. Quando as condições basais do indivíduo variam em curtos períodos, como ocorre na pressão arterial e na glicemia, introduz-se uma dispersão casual nos dados que compromete a reprodutibilidade. Essa imprecisão não direciona os resultados para um mesmo lado, mas espalha as observações e eleva o erro padrão da estimativa. Para reduzir a contribuição dessa fonte de erro aleatório, o protocolo do estudo deve instituir períodos padronizados de repouso prévio, horários uniformes de coleta e a obtenção de séries repetidas de aferições para a utilização de sua média aritmética.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 2 e Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5"
+  },
+  "revisada": true
+ },
+ {
+  "id": 94,
+  "code": "VAL-10",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Divergência entre Validade Populacional e Validade Individual sob Baixa Confiabilidade de Medição",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um inquérito populacional para rastreamento de disglicemia, testou-se um novo sensor capilar em 1.500 participantes em jejum. A análise estatística revelou que a média aritmética global de todas as dosagens do sensor foi perfeitamente idêntica à média obtida pela dosagem laboratorial padrão-ouro (100 mg/dL). Não obstante, as aferições individuais repetidas geraram uma curva de distribuição excessivamente larga em torno da média real, com marcante dispersão de valores para um mesmo indivíduo. Considerando as propriedades de validade e confiabilidade de testes diagnósticos em saúde, assinale a interpretação correta desse resultado.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O instrumento demonstra acurácia para o grupo por estar centrado no valor real, mas sua baixa precisão compromete a validade do resultado no indivíduo isolado.",
+    "rationale": "CORRETA. De acordo com os preceitos epidemiológicos consolidados, quando a distribuição dos resultados de um teste produz uma curva larga, porém simetricamente centrada sobre o valor verdadeiro, os resultados são acurados e válidos para o grupo populacional. Entretanto, a acentuada falta de confiabilidade e precisão faz com que a validade prática para um indivíduo específico no consultório seja baixa, visto que a mensuração isolada pode recair em pontos extremos da curva unicamente por erro aleatório."
+   },
+   {
+    "letter": "B",
+    "text": "O instrumento apresenta validade clínica plena para o manejo de pacientes individuais, pois a equivalência das médias assegura a ausência de imprecisão nas aferições.",
+    "rationale": "Incorreta. A concordância da média agregada demonstra apenas ausência de tendência sistemática de superestimação ou subestimação no grupo. Contudo, devido à ampla dispersão de leituras individuais, uma aferição pontual em um paciente isolado pode distanciar-se dramaticamente do valor real, induzindo a erros graves de conduta clínica individual."
+   },
+   {
+    "letter": "C",
+    "text": "A dispersão observada configura viés sistemático de informação na análise, invalidando tanto a concordância na média agregada quanto a confiabilidade técnica.",
+    "rationale": "Incorreta. A ampla variabilidade simétrica em torno do centro reflete erro aleatório (baixa precisão/confiabilidade), e não um viés sistemático (que provocaria desvio unidirecional da média populacional em relação ao padrão-ouro)."
+   },
+   {
+    "letter": "D",
+    "text": "A coincidência da média com o padrão-ouro comprova alta reprodutibilidade instrumental, indicando que o erro aleatório residual foi eliminado da mensuração.",
+    "rationale": "Incorreta. A equivalência da média com o parâmetro real indica ausência de viés (acurácia na média), enquanto a reprodutibilidade diz respeito à capacidade de repetir resultados semelhantes (curva estreita). A curva ampla comprova que o erro aleatório permanece elevado."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Um teste pode apresentar validade ao nível populacional por ter média centrada no valor verdadeiro, mas, apresentando baixa confiabilidade e ampla dispersão, sua validade para guiar decisões em um indivíduo isolado torna-se deficiente.",
+  "bookContext": {
+   "text": "A inter-relação entre validade e confiabilidade impõe distinguir a inferência agregada para grupos da tomada de decisão em pacientes individuais. Quando um instrumento possui baixa precisão, sua curva de distribuição é larga, embora possa permanecer centrada exatamente sobre o valor verdadeiro determinado pelo padrão-ouro. Nessa situação, o instrumento apresenta validade para a média de uma população, uma vez que as flutuações positivas e negativas se compensam no somatório coletivo. No entanto, na prática assistencial com um paciente específico, uma única medida tem elevada probabilidade de desviar-se substancialmente do estado biológico real, tornando a aferição clínica individualmente não confiável e potencialmente perigosa.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5 e Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 2"
+  },
+  "revisada": true
+ },
+ {
+  "id": 95,
+  "code": "VAL-11",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Conceito de viés e amostra não representativa (Cenários práticos)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Pesquisadores planejam um inquérito epidemiológico para estimar a prevalência de sobrepeso e obesidade entre estudantes de uma universidade pública. Por conveniência logística e facilidade de captação de voluntários, a equipe decide aplicar os questionários e realizar as avaliações antropométricas exclusivamente na academia de musculação do campus universitário durante os horários de maior movimento. Considerando os conceitos epidemiológicos de validade e fontes de erro metodológico, essa abordagem:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Configura viés de informação, visto que indivíduos ativos apresentam relatos de peso e altura com menor chance de erro de memória.",
+    "rationale": "Incorreta. A falha metodológica central reside no mecanismo de recrutamento dos participantes (amostra por conveniência em local específico), que seleciona indivíduos com perfil de saúde diferenciado. O erro não decorre de falhas na coleta de variáveis ou no registro da informação."
+   },
+   {
+    "letter": "B",
+    "text": "Provoca aumento do erro aleatório, o que prejudica a precisão da medida amostral sem distorcer a validade interna da pesquisa.",
+    "rationale": "Incorreta. O erro aleatório diz respeito a flutuações amostrais casuais e imprevisíveis decorrentes do acaso, passíveis de redução com a ampliação da amostra. O caso descrito expressa um erro sistemático unidirecional (viés), o qual continuará distorcendo a estimativa independentemente do número de frequentadores avaliados."
+   },
+   {
+    "letter": "C",
+    "text": "Representa viés de aferição, pois a distorção observada advém unicamente de falha instrumental durante a pesagem dos estudantes.",
+    "rationale": "Incorreta. O viés de aferição ou mensuração relaciona-se a falhas estruturais nos instrumentos de medição, erros na calibração ou desvios na técnica de aferição antropométrica. No cenário, o problema decorre da seleção tendenciosa do grupo avaliado, e não de inconsistências nas balanças ou estadiômetros."
+   },
+   {
+    "letter": "D",
+    "text": "Induz viés de seleção, acarretando uma subestimativa sistemática da real prevalência de obesidade entre todos os universitários.",
+    "rationale": "CORRETA. Conforme a Situação 1 apresentada nos slides da aula e nos manuais de epidemiologia, recrutar sujeitos exclusivamente em uma academia universitária gera um clássico viés de seleção por amostra não representativa. Como os frequentadores da academia apresentam, em média, maior prática de atividade física e menor ocorrência de excesso de peso em relação ao conjunto geral da universidade, a prevalência do agravo será sistematicamente subestimada, comprometendo a validade do estudo."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A seleção de participantes em locais com estilo de vida específico gera amostra não representativa e viés de seleção, subestimando a real ocorrência de agravos como a obesidade.",
+  "bookContext": {
+   "text": "O viés de seleção ocorre quando a forma como os participantes são escolhidos ou incluídos no estudo não é representativa da população-alvo de interesse. De acordo com a literatura epidemiológica, os vieses introduzem erros sistemáticos capazes de distorcer de maneira unidirecional as medidas de frequência e de associação, superestimando ou subestimando a realidade. Enquanto o erro aleatório decorre de flutuações amostrais casuais e pode ser minimizado com o aumento do tamanho da amostra, o erro sistemático não é corrigido pela inclusão de novos participantes recrutados pelo mesmo método inadequado. Por esse motivo, a representatividade da amostra em relação à população de referência constitui premissa fundamental para assegurar tanto a validade interna quanto a capacidade de generalização dos achados.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 1; Aula VAT2 · Validade e confiabilidade, Slides 3 e 4"
+  },
+  "revisada": true
+ },
+ {
+  "id": 96,
+  "code": "VAL-12",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de seleção (Viés de Berkson e taxas de admissão hospitalar)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um hospital de nível terciário, realizou-se um estudo de caso-controle para investigar a associação entre doença pulmonar obstrutiva crônica (DPOC) e osteoporose. Os casos foram selecionados consecutivamente na enfermaria de pneumologia e os controles na enfermaria de ortopedia da mesma instituição. A análise bruta revelou uma razão de chances expressiva entre as condições (OR = 3,4; IC 95%: 1,9 - 6,1). Todavia, uma auditoria metodológica constatou que indivíduos portadores concomitantes de DPOC e osteoporose apresentavam probabilidade substancialmente maior de internação hospitalar do que indivíduos portadores de apenas uma das condições, além de os critérios de admissão clínica diferirem entre as especialidades. No contexto dos vieses epidemiológicos, esse fenômeno é denominado:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Viés de perda de seguimento, que ocorre quando pacientes graves abandonam precocemente a observação na rotina hospitalar.",
+    "rationale": "Incorreta. O viés de perda de seguimento (viés de atrito) é característico de estudos longitudinais de acompanhamento, como coortes e ensaios clínicos, nos quais há evasão assimétrica de participantes ao longo do tempo. Em um estudo de caso-controle pontual baseado em pacientes hospitalizados, essa não é a fonte da distorção descrita."
+   },
+   {
+    "letter": "B",
+    "text": "Viés de aferição diferencial, gerado por imperfeições nos critérios de espirometria aplicados aos pacientes ortopédicos.",
+    "rationale": "Incorreta. O viés de aferição pressupõe erros sistemáticos nos aparelhos, na execução de exames complementares ou na padronização de diagnósticos. O problema do estudo reside no mecanismo pelo qual os indivíduos foram admitidos e selecionados no hospital, e não em imperfeições técnicas da espirometria ou da densitometria."
+   },
+   {
+    "letter": "C",
+    "text": "Viés de Berkson, originado por taxas desiguais de admissão hospitalar associadas à presença simultânea de duas doenças.",
+    "rationale": "CORRETA. O viés de Berkson (ou viés da taxa de admissão) é um subtipo clássico de viés de seleção que incide em estudos caso-controle hospitalares. Ele ocorre quando as probabilidades de admissão hospitalar diferem entre os casos e os controles e, sobretudo, quando a presença simultânea de duas condições clínicas aumenta de forma sinérgica a chance de internação. Isso produz uma associação artificialmente aumentada entre a exposição e a doença na amostra hospitalar, inexistente na população geral."
+   },
+   {
+    "letter": "D",
+    "text": "Viés de memória, decorrente da lembrança retrospectiva excessiva de sintomas de tosse entre os indivíduos da ortopedia.",
+    "rationale": "Incorreta. O viés de memória ocorre quando há discrepância na capacidade ou no esforço de relembrar exposições passadas entre casos e controles. No cenário, os diagnósticos clínicos foram extraídos do histórico hospitalar, não havendo menção a distorções subjetivas de recordação por parte dos participantes."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O viés de Berkson surge em estudos de base hospitalar devido a probabilidades desiguais de admissão que se elevam quando o indivíduo apresenta mais de uma doença simultaneamente.",
+  "bookContext": {
+   "text": "Descrito originalmente por Joseph Berkson, esse viés de seleção decorre do fato de que pacientes hospitalizados raramente constituem uma amostra representativa da população geral com a doença ou sob risco. Como a admissão hospitalar depende da gravidade clínica, da presença de comorbidades associadas e de políticas institucionais de encaminhamento, indivíduos que apresentam duas patologias simultaneamente têm uma probabilidade combinada de hospitalização muito maior do que indivíduos com apenas uma delas. Consequentemente, estudos de caso-controle de base hospitalar frequentemente identificam associações estatísticas elevadas entre duas doenças que, na comunidade, são completamente independentes. Os manuais de epidemiologia enfatizam que a seleção criteriosa de controles de base comunitária ou de múltiplos serviços representa a melhor estratégia para prevenir essa distorção.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulos 10 e 15; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 8"
+  },
+  "revisada": true
+ },
+ {
+  "id": 97,
+  "code": "VAL-13",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de informação (Viés de recordação e diferenças no observador)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um estudo de caso-controle investigou a potencial relação entre o uso materno de antieméticos no primeiro trimestre gestacional e a ocorrência de fenda palatina em recém-nascidos. Mães de recém-nascidos com a malformação (casos) e mães de recém-nascidos sem anomalias (controles) foram entrevistadas pessoalmente por examinadores que tinham pleno conhecimento prévio sobre o grupo a que cada mãe pertencia. Constatou-se que as mães dos casos relataram uso pregresso de antieméticos com frequência muito superior à das mães dos controles, e os entrevistadores questionaram os casos com perguntas mais minuciosas. A respeito dos vieses de informação e suas formas de minimização nesse contexto, é correto afirmar que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A recordação diferencial materna constitui erro aleatório não sistemático, aproximando a estimativa de associação da nulidade.",
+    "rationale": "Incorreta. O viés de recordação (viés de memória) é um erro sistemático de informação diferencial, e não um erro aleatório. Mães de crianças com malformações congênitas realizam maior esforço retrospectivo para justificar o desfecho adverso do que mães de crianças saudáveis, tendendo a superestimar artificialmente a razão de chances (afastando-a da nulidade)."
+   },
+   {
+    "letter": "B",
+    "text": "O mascaramento dos entrevistadores em relação ao diagnóstico da criança neutraliza o viés do observador na coleta.",
+    "rationale": "CORRETA. Quando o entrevistador conhece previamente o status de caso ou controle do participante e tem consciência da hipótese do estudo, tende a interrogar de forma mais persistente ou registrar dados de maneira tendenciosa nos casos (viés do observador/entrevistador). O mascaramento (cegamento) da equipe de coleta de dados impede que esse conhecimento prévio influencie a aferição das respostas."
+   },
+   {
+    "letter": "C",
+    "text": "A realização de pareamento no delineamento do estudo por idade materna e paridade elimina integralmente o viés de memória.",
+    "rationale": "Incorreta. O pareamento (matching) no delineamento destina-se a controlar variáveis de confusão (como idade materna e paridade), assegurando comparabilidade entre grupos. Todavia, ele não possui qualquer efeito sobre o viés de memória retrospectivo dos participantes."
+   },
+   {
+    "letter": "D",
+    "text": "O aumento do tamanho amostral de casos e controles é suficiente para anular o viés de relato gerado pela ruminação materna.",
+    "rationale": "Incorreta. Aumentar o tamanho da amostra reduz exclusivamente o erro aleatório (elevando a precisão estatística), mas não anula erros sistemáticos (vieses). Se o método de coleta for vulnerável à assimetria de recordação materna, uma amostra maior apenas produzirá uma estimativa enviesada com intervalo de confiança mais estreito."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O mascaramento dos avaliadores previne o viés do entrevistador, enquanto o viés de memória decorre da lembrança diferencial de eventos e não pode ser corrigido ampliando o tamanho amostral.",
+  "bookContext": {
+   "text": "O viés de memória (recall bias) constitui uma das principais ameaças à validade interna em estudos epidemiológicos retrospectivos, especialmente os delineamentos de caso-controle. Conforme detalhado por Gordis e Fletcher, indivíduos que sofreram um desfecho adverso tendem a ruminar e esmiuçar retrospectivamente seus antecedentes na tentativa de encontrar uma explicação causal para a enfermidade, enquanto participantes sadios esquecem exposições corriqueiras. Paralelamente, quando o observador conhece o status clínico do participante, pode ocorrer o viés do entrevistador, no qual a busca por informações é conduzida de forma mais incisiva no grupo de interesse. Para mitigar essas ameaças, recomenda-se a utilização de registros médicos pré-existentes preenchidos antes do desfecho, o emprego de questionários estritamente padronizados e a manutenção do mascaramento rigoroso da equipe de campo.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulos 10 e 15; Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulos 1 e 7"
+  },
+  "revisada": true
+ },
+ {
+  "id": 98,
+  "code": "VAL-14",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de aferição/mensuração (Equipamentos descalibrados e erro sistemático)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante um inquérito epidemiológico multicêntrico desenhado para determinar a prevalência de hipertensão arterial sistêmica em estudantes universitários, a coordenação de campo detectou que um lote de aparelhos oscilométricos digitais apresentava defeito crônico de fabricação. Esse problema fazia com que o equipamento registrasse a pressão arterial sistólica com valor invariavelmente 15 mmHg abaixo do valor verdadeiro em todas as avaliações realizadas com os dispositivos afetados. Sob a perspectiva da validade e confiabilidade das medidas epidemiológicas, essa irregularidade instrumental caracteriza um:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Viés de aferição instrumental, gerando perda de acurácia e subestimativa sistemática da prevalência da hipertensão.",
+    "rationale": "CORRETA. Conforme a Situação 3 dos slides e os livros didáticos, aparelhos descalibrados produzem um viés de aferição ou mensuração, que é uma modalidade de erro sistemático instrumental. Essas medições podem até ser reprodutíveis entre si (precisas), mas carecem de acurácia (não atingem o valor verdadeiro), resultando em subestimação sistemática da taxa de prevalência de hipertensão."
+   },
+   {
+    "letter": "B",
+    "text": "Erro aleatório por variabilidade biológica dos alunos, diminuindo a precisão das medidas sem desviar a média populacional.",
+    "rationale": "Incorreta. O erro aleatório dispersa as medições em ambas as direções de maneira imprevisível em torno da média real, afetando a precisão sem alterar sistematicamente o ponto central em amostras volumosas. Um desvio constante, uniforme e direcionado de 15 mmHg para baixo é um erro sistemático."
+   },
+   {
+    "letter": "C",
+    "text": "Viés de seleção gerado por recrutamento inadequado, contornável na fase de análise estatística por regressão multivariada.",
+    "rationale": "Incorreta. O viés de seleção diz respeito a imperfeições na seleção ou retenção dos sujeitos que compõem a amostra. No caso, os estudantes foram incluídos, mas a variável biológica foi mensurada incorretamente por um equipamento defeituoso."
+   },
+   {
+    "letter": "D",
+    "text": "Viés de informação do entrevistado, solucionável unicamente pelo aumento do tamanho amostral de universitários avaliados.",
+    "rationale": "Incorreta. O viés atribuível ao entrevistado decorre de relatos incorretos ou omissões subjetivas dos participantes em questionários. O problema em tela é um defeito físico de calibração em um equipamento diagnóstico, e aumentar o número de voluntários examinados com o aparelho descalibrado apenas perpetuará a distorção."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Aparelhos descalibrados produzem erros sistemáticos unidirecionais que comprometem a acurácia (validade) da aferição, subestimando ou superestimando a medida independentemente da precisão.",
+  "bookContext": {
+   "text": "Na teoria da mensuração epidemiológica, a acurácia reflete a proximidade do valor observado em relação ao valor verdadeiro, enquanto a precisão (ou confiabilidade) expressa a consistência e reprodutibilidade das medidas sucessivas. Equipamentos mecânicos ou digitais descalibrados podem produzir aferições com excelente confiabilidade e baixa dispersão, mas com severo comprometimento da validade interna pela falta de acurácia. Conforme exposto nos livros de epidemiologia e nos slides sobre validade, o erro sistemático desloca os resultados de modo unidirecional, levando a uma subestimativa ou superestimativa previsível do parâmetro de interesse. A calibração prévia periódica dos instrumentos, o treinamento rígido dos avaliadores e a padronização operacional dos protocolos constituem as únicas medidas eficazes para evitar o viés de aferição.",
+   "fonte": "Aula VAT2 · Validade e confiabilidade, Slides 2 e 3; Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 2"
+  },
+  "revisada": true
+ },
+ {
+  "id": 99,
+  "code": "VAL-15",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de seleção: perdas de seguimento (viés de atrito)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Pesquisadores conduziram um estudo de coorte prospectivo de 10 anos para investigar a relação entre exposição ocupacional a solventes orgânicos e incidência de neuropatia periférica. Ao término da pesquisa, constatou-se que 28% dos indivíduos expostos abandonaram o estudo (principalmente por troca precoce de função ou licença médica devido a queixas clínicas), enquanto no grupo de não expostos as perdas somaram apenas 4%. A estimativa pontual de risco relativo obtida ao final foi de 1,05 (IC 95%: 0,88–1,25). Considerando o delineamento e o padrão de perdas observado, assinale a afirmativa correta sobre a distorção metodológica presente:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A perda diferencial de participantes reduz a precisão estatística da amostra, gerando erro puramente aleatório que pode ser corrigido com o ajuste a posteriori do nível de significância.",
+    "rationale": "Incorreta. Perdas diferenciais de seguimento relacionadas à exposição e ao desfecho não configuram erro aleatório, mas sim erro sistemático (viés de seleção). O erro aleatório afeta a precisão e a variabilidade amostral (sendo atenuado pelo aumento do tamanho da amostra), enquanto o viés sistemático atinge a acurácia e compromete a validade interna, não podendo ser corrigido por modificações nos níveis de significância estatística."
+   },
+   {
+    "letter": "B",
+    "text": "O fenômeno configura viés de aferição, visto que o desfecho clínico foi medido por instrumentos diagnósticos sem calibragem adequada pelos pesquisadores.",
+    "rationale": "Incorreta. O viés de aferição relaciona-se a falhas sistemáticas na mensuração das variáveis ou na calibragem de equipamentos durante o exame dos participantes. Na situação apresentada, a distorção decorre do abandono seletivo de indivíduos ao longo do seguimento, caracterizando viés de seleção por atrito."
+   },
+   {
+    "letter": "C",
+    "text": "O padrão verificado compromete exclusivamente a validade externa do estudo, mantendo intacta a validade interna para a comparação das incidências calculadas.",
+    "rationale": "Incorreta. A perda diferencial quebra a comparabilidade entre as coortes exposta e não exposta, atingindo diretamente a validade interna do estudo. A validade externa concerne à generalização para populações distintas, mas a validade interna constitui pré-requisito obrigatório para qualquer inferência epidemiológica válida."
+   },
+   {
+    "letter": "D",
+    "text": "Ocorre viés de seleção por atrito, o qual compromete a validade interna ao subestimar a incidência real de neuropatia no grupo exposto.",
+    "rationale": "CORRETA. De acordo com o slide da aula e a literatura epidemiológica, recusas de participação e perdas de seguimento constituem clássico viés de seleção. Como os trabalhadores expostos que manifestavam sintomas precoces abandonaram a coorte em proporção expressivamente maior, os novos casos de neuropatia deixaram de ser computados no numerador desse grupo, diluindo a incidência observada e enviesando o risco relativo em direção ao valor nulo."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Perdas de seguimento assimétricas e associadas ao desfecho configuram viés de seleção (viés de atrito), distorcendo as medidas de incidência e invalidando a comparação interna entre expostos e não expostos.",
+  "bookContext": {
+   "text": "Em estudos de coorte prospectivos e ensaios clínicos, as perdas de seguimento constituem uma das principais ameaças à validade interna da pesquisa. Se indivíduos doentes ou sob maior risco abandonam o acompanhamento de forma seletiva em um dos grupos, as taxas de incidência acumuladas tornam-se gravemente distorcidas. Perdas superiores a 20% do tamanho amostral representam uma séria ameaça metodológica, exigindo a realização de análises de sensibilidade para avaliar os cenários de melhor e pior hipótese. Diferentemente do erro aleatório, o viés decorrente de perdas não é corrigido aumentando o tempo de seguimento ou aplicando testes estatísticos adicionais.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 9 e Capítulo 15; Livro · Fletcher · Epidemiologia Clínica (4ª ed.), Capítulo 7."
+  },
+  "revisada": true
+ },
+ {
+  "id": 100,
+  "code": "VAL-16",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de seleção: uso de controles não representativos em estudos caso-controle",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Para avaliar se o uso crônico de anti-inflamatórios não esteroides (AINEs) eleva o risco de infarto agudo do miocárdio (IAM), pesquisadores realizaram um estudo caso-controle em um hospital geral. Os casos foram pacientes internados na unidade coronariana com diagnóstico confirmado de IAM. Para compor o grupo controle, os investigadores selecionaram pacientes internados nas enfermarias de ortopedia e reumatologia do mesmo hospital, com diagnóstico de osteoartrose ou lombalgia crônica. A análise final demonstrou uma razão de chances (odds ratio) de 0,80 (IC 95%: 0,60–1,06). Assinale a alternativa que identifica corretamente a falha metodológica e seu mecanismo:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Instalou-se um viés de aferição na coleta dos dados clínicos, decorrente do emprego de protocolos heterogêneos de dosagem medicamentosa entre as diferentes enfermarias.",
+    "rationale": "Incorreta. O viés de aferição refere-se a imprecisões no instrumental ou na técnica de mensuração das variáveis. A divergência de rotinas terapêuticas hospitalares não define o problema principal relatado, que se encontra no critério viciado de elegibilidade e recrutamento dos controles."
+   },
+   {
+    "letter": "B",
+    "text": "Configurou-se viés de informação por lembrança assimétrica, haja vista que os pacientes ortopédicos esquecem mais o histórico pregresso de consumo analgésico.",
+    "rationale": "Incorreta. O viés de informação ocorreria se houvesse erro diferencial no relato ou resgate das informações passadas. No cenário descrito, o erro decorreu da inclusão de controles que de fato consumiam muitos AINEs devido às suas patologias de base crônicas, tratando-se de vício na seleção."
+   },
+   {
+    "letter": "C",
+    "text": "Houve viés de seleção, pois os controles selecionados têm prevalência de uso de AINEs superior à da população de origem, subestimando o risco.",
+    "rationale": "CORRETA. Nos estudos de caso-controle, os controles devem refletir a distribuição da exposição na população-base de onde se originaram os casos. Ao recrutar controles em enfermarias ortopédicas e reumatológicas (nas quais o consumo de AINEs é rotineiro e substancialmente superior ao da comunidade geral), inflou-se artificialmente a proporção de expostos no grupo controle, o que gerou um viés de seleção que reduziu o odds ratio e mascarou a verdadeira associação de risco."
+   },
+   {
+    "letter": "D",
+    "text": "Ocorreu erro puramente aleatório de amostragem no recrutamento, visto que a flutuação estatística hospitalar distorceu a distribuição normal esperada dos grupos.",
+    "rationale": "Incorreta. A distorção apresentada decorre de uma decisão metodológica enviesada de seleção amostral (erro sistemático), e não de variações casuais do processo de amostragem. O aumento do tamanho amostral não corrigiria a distorção observada."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A seleção de controles hospitalares cuja admissão ou doença de base esteja associada à exposição de interesse introduz grave viés de seleção, mascarando ou invertendo a direção da associação.",
+  "bookContext": {
+   "text": "Um princípio elementar dos estudos de caso-controle é que os indivíduos do grupo controle devem representar a população de onde os casos se originaram no que tange à probabilidade de exposição. Ao selecionar controles hospitalares com condições clínicas que habitualmente demandam o fator investigado, a taxa de exposição nos controles torna-se anormalmente elevada. Esse fenômeno gera um viés de seleção que reduz artificialmente a razão de chances, podendo transformar um fator de risco real em um aparente fator de proteção. Essa inadequação metodológica compromete irremediavelmente a validade interna do estudo, não podendo ser revertida na etapa de análise.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 10 e Capítulo 15; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 6 e Capítulo 8."
+  },
+  "revisada": true
+ },
+ {
+  "id": 101,
+  "code": "VAL-17",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de informação: classificação errônea não diferencial",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma investigação epidemiológica transversal sobre estresse e enxaqueca em servidores públicos, utilizou-se um questionário simplificado que apresentou sensibilidade e especificidade imperfeitas para avaliar a presença de estresse, gerando erro de classificação em 12% dos participantes. No entanto, constatou-se que essa proporção de erro ocorreu de maneira idêntica entre os servidores portadores e não portadores de enxaqueca. Em relação a esse tipo de erro na classificação da exposição, é correto afirmar que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Constitui viés de seleção amostral decorrente de voluntariado, provocando desvios na razão de prevalências que afastam a medida do valor nulo.",
+    "rationale": "Incorreta. Erros na aferição, no registro ou na categorização da exposição configuram viés de informação (erro de classificação), e não viés de seleção. Além disso, quando o erro não é diferencial, a tendência é a aproximação da hipótese nula, e não desvios imprevisíveis que afastam a medida do valor nulo."
+   },
+   {
+    "letter": "B",
+    "text": "Trata-se de classificação errônea não diferencial, cujo efeito típico é atenuar a medida de associação em direção ao valor nulo (1,0).",
+    "rationale": "CORRETA. De acordo com o livro de Gordis e o conteúdo do slide da aula sobre viés de informação, o erro de classificação não diferencial ocorre quando as falhas na identificação da exposição ou do desfecho acontecem na mesma proporção em ambos os grupos comparados. O impacto sistemático desse erro é diluir a diferença aparente entre expostos e não expostos, puxando a razão de chances ou risco relativo em direção a 1,0 (valor nulo)."
+   },
+   {
+    "letter": "C",
+    "text": "Trata-se de erro puramente aleatório e inconsequente, cuja ocorrência é incapaz de modificar a magnitude pontual das medidas de associação.",
+    "rationale": "Incorreta. Embora derive de imperfeições inerentes aos instrumentos de pesquisa e atinja os grupos de modo uniforme, a classificação errônea não diferencial altera sistematicamente a magnitude observada da associação, diminuindo a probabilidade de identificar um efeito real."
+   },
+   {
+    "letter": "D",
+    "text": "Representa classificação errônea diferencial, tendendo a superestimar sistematicamente a força de associação entre a exposição e o desfecho.",
+    "rationale": "Incorreta. O erro seria diferencial se a probabilidade de má classificação fosse assimétrica entre doentes e não doentes (como ocorre no viés de recordação). Quando a probabilidade de erro é igual em ambos os grupos, define-se como erro não diferencial."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A classificação errônea não diferencial ocorre com igual intensidade entre os grupos comparados e atua sistematicamente diluindo a medida de efeito em direção ao valor nulo (1,0).",
+  "bookContext": {
+   "text": "O viés de informação por classificação errônea subdivide-se em diferencial e não diferencial. Na forma não diferencial, a probabilidade de classificação equivocada quanto à exposição ou ao desfecho é homogênea entre os grupos comparados, refletindo limitações gerais do instrumento de aferição. Essa simetria no erro faz com que os grupos se assemelhem mais do que na realidade, provocando uma diluição sistemática da magnitude de associação (bias toward the null). Dessa maneira, o epidemiologista tem menor probabilidade de identificar uma associação clinicamente relevante, mesmo que ela exista de fato na população.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 15; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 7 e Capítulo 8."
+  },
+  "revisada": true
+ },
+ {
+  "id": 102,
+  "code": "VAL-18",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de aferição/mensuração: procedimentos incorretos, padronização e cegamento",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um ensaio clínico multicêntrico comparando uma nova técnica cirúrgica minimamente invasiva à cirurgia aberta convencional para correção de hérnia inguinal, os cirurgiões responsáveis pela avaliação pós-operatória de dor e retorno às atividades tinham conhecimento prévio da técnica realizada em cada paciente. Além disso, as escalas visuais analógicas de dor foram aplicadas sem treinamento uniforme dos examinadores, permitindo que cada médico fizesse perguntas indutivas aos operados por laparoscopia. Ao término do seguimento, o grupo laparoscópico apresentou desfechos significativamente superiores. Considerando a validade do estudo, assinale a opção que identifica a distorção metodológica ocorrida e a conduta recomendada para preven-la:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Viés de aferição por procedimento incorreto e ausência de mascaramento, prevenível por protocolos padronizados e cegamento dos avaliadores.",
+    "rationale": "CORRETA. Conforme os slides da aula (que listam procedimentos incorretos, falta de padronização e entrevistadores mal treinados como fontes de viés de aferição) e os textos de Fletcher e Gordis, a falta de uniformidade nas técnicas de medição combinada ao conhecimento da intervenção por parte do avaliador induz erro sistemático na coleta do desfecho. Sua prevenção exige a padronização rígida dos procedimentos de medição e o cegamento dos avaliadores clínicos."
+   },
+   {
+    "letter": "B",
+    "text": "Viés de seleção decorrente de amostragem não balanceada, prevenível unicamente pela exclusão dos pacientes que relataram complicações menores.",
+    "rationale": "Incorreta. A distorção relatada ocorreu na etapa de verificação e mensuração dos desfechos clínicos pelos profissionais, tratando-se de viés de aferição, e não de viés de seleção. Excluir participantes sintomáticos após a alocação apenas agravaria os erros metodológicos."
+   },
+   {
+    "letter": "C",
+    "text": "Erro aleatório gerado pela flutuação biológica da resposta álgica, controlável exclusivamente pelo aumento retrospectivo do número de participantes.",
+    "rationale": "Incorreta. A ausência de mascaramento associada a entrevistas orientadas introduz uma distorção sistemática orientada em favor da nova intervenção (viés), o que difere conceitualmente de ruído estatístico ou erro aleatório por variabilidade biológica."
+   },
+   {
+    "letter": "D",
+    "text": "Viés de confusão residual devido à faixa etária dos indivíduos, solucionável pela estratificação estatística simples na análise dos resultados.",
+    "rationale": "Incorreta. O viés de confusão pressupõe uma terceira variável externa associada tanto à exposição quanto ao desfecho. O problema central em questão advém da técnica viciada de coleta de dados e da subjetividade do observador não mascarado."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O viés de aferição por procedimentos incorretos e observadores não mascarados gera desvios sistemáticos na detecção dos desfechos, sendo prevenido por padronização e cegamento.",
+  "bookContext": {
+   "text": "O viés de aferição ou mensuração manifesta-se quando os métodos de obtenção e registro dos dados clínicos diferem sistematicamente entre os grupos sob comparação. No contexto cirúrgico e de intervenções terapêuticas, observadores que conhecem a intervenção recebida tendem a avaliar os desfechos do grupo experimental com maior condescendência ou atenção diferenciada. Conforme destaca a literatura de epidemiologia clínica, o estabelecimento de critérios objetivos previamente definidos, o treinamento rigoroso dos avaliadores e o mascaramento (cegamento) de quem afere os desfechos são as medidas primordiais para resguardar a validade interna do estudo contra esse tipo de erro sistemático.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica (4ª ed.), Capítulo 1 e Capítulo 7; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 8."
+  },
+  "revisada": true
+ },
+ {
+  "id": 103,
+  "code": "VAL-19",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de seleção: viés de incidência-prevalência (viés de Neyman ou de sobrevivência seletiva)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um grupo de pesquisadores conduziu um estudo caso-controle em ambiente hospitalar para investigar o papel de um biomarcador genético no prognóstico do infarto agudo do miocárdio (IAM). Para compor o grupo de casos, foram recrutados 120 pacientes sobreviventes internados na enfermaria que haviam sofrido IAM há pelo menos seis meses (casos prevalentes). O grupo controle foi composto por 120 indivíduos sem histórico de IAM pareados por sexo e idade. Os resultados demonstraram que a presença do biomarcador estava associada a uma redução significativa da chance de complicações graves (OR = 0,42; IC 95%: 0,22 – 0,80). Posteriormente, um estudo de coorte prospectivo com casos incidentes demonstrou que o mesmo biomarcador aumentava de forma aguda a mortalidade pré-hospitalar precoce por arritmia letal nas primeiras duas horas após o evento coronariano.\n\nA discrepância observada entre os estudos deve-se primariamente a qual distorção metodológica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Viés de informação do tipo recordação, em virtude da incapacidade dos controles de relatar com precisão a ocorrência prévia de sintomas isquêmicos leves.",
+    "rationale": "Incorreta. O viés de recordação (ou memória) é um erro sistemático de informação decorrente da capacidade diferencial de lembrança sobre exposições passadas entre casos e controles. No cenário descrito, a exposição analisada é um marcador biológico/genético objetivo, não dependendo da memória dos participantes acerca de sintomas prévios."
+   },
+   {
+    "letter": "B",
+    "text": "Viés de aferição sistemático não diferencial, que diluiu a medida de associação entre os grupos em direção ao valor nulo devido a erro nos testes laboratoriais.",
+    "rationale": "Incorreta. O erro não diferencial afeta os grupos de forma aleatória e homogênea, tendendo comumente a atenuar (diluir) a medida de associação em direção ao valor nulo (OR = 1,0). No estudo, ocorreu uma distorção grave de seleção que inverteu o sentido do efeito (um fator de letalidade precoce pareceu protetor), e não uma falha instrumental de aferição."
+   },
+   {
+    "letter": "C",
+    "text": "Viés de Berkson, originado pela seleção de controles com diagnósticos hospitalares que apresentavam taxas de admissão distintas daquelas observadas na população geral.",
+    "rationale": "Incorreta. O viés de Berkson (ou viés de admissão) surge em estudos hospitalares quando as diferentes probabilidades de internação de casos e controles portadores de diferentes exposições distorcem a razão de chances. O problema central da questão não reside na taxa de admissão dos controles, mas na exclusão de óbitos pré-hospitalares pelo uso de casos prevalentes."
+   },
+   {
+    "letter": "D",
+    "text": "Viés de seleção do tipo sobrevivência seletiva (viés de Neyman), decorrente da inclusão de casos prevalentes que excluiu indivíduos com evolução fatal precoce.",
+    "rationale": "CORRETA. Trata-se do clássico viés de incidência-prevalência (ou viés de sobrevivência seletiva de Neyman). Ao selecionar casos prevalentes (indivíduos que já haviam sofrido IAM há meses e sobreviveram), o estudo excluiu sistematicamente os pacientes com doença fulminante que faleceram antes do recrutamento. Como a mutação provocava morte súbita precoce, os portadores do gene que conseguiram sobreviver por seis meses representavam um subgrupo atípico de excelente prognóstico, gerando a falsa impressão de proteção."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A utilização de casos prevalentes em vez de casos incidentes seleciona preferencialmente indivíduos com formas menos graves da doença ou de sobrevida prolongada, introduzindo o viés de sobrevivência seletiva (viés de Neyman).",
+  "bookContext": {
+   "text": "O viés de incidência-prevalência ocorre com frequência quando se utilizam casos prevalentes em vez de casos incidentes em investigações epidemiológicas, particularmente em doenças com alta letalidade aguda. Nesses cenários, os casos identificados em dado momento no tempo não são representativos da totalidade dos casos que se desenvolveram na população, pois excluem sistematicamente aqueles que evoluíram para óbito antes da realização da pesquisa. Consequentemente, a associação observada entre a exposição e a doença pode refletir determinantes da sobrevida com a afecção, e não verdadeiros fatores associados à sua etiologia ou risco de ocorrência. Por essa razão, os manuais epidemiológicos recomendam priorizar o recrutamento de casos novos (incidentes) na condução de estudos analíticos.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 10; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 8."
+  },
+  "revisada": true
+ },
+ {
+  "id": 104,
+  "code": "VAL-20",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Viés de informação: viés de detecção (vigilância diagnóstica)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um estudo de coorte prospectivo com 5.000 mulheres na pós-menopausa, investigou-se a associação entre o uso de terapia hormonal e o risco de colelitíase. As usuárias de terapia hormonal realizavam consultas ginecológicas trimestrais e eram submetidas rotineiramente a ultrassonografias de abdome a cada seis meses nas clínicas onde eram acompanhadas. Por outro lado, as mulheres do grupo não exposto realizavam consultas anuais de rotina na atenção primária e só faziam ultrassonografia se relatassem queixas dispépticas relevantes ou dor biliar típica. Ao término de cinco anos, observou-se um Risco Relativo (RR) de 2,3 (IC 95%: 1,5 – 3,5) para o diagnóstico de cálculos biliares associado ao uso de terapia hormonal.\n\nConsiderando os conceitos de epidemiologia clínica e validade interna, a distorção metodológica descrita é denominada:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Viés de seleção por atrito, determinado pelo abandono seletivo de pacientes assintomáticas ao longo de todo o seguimento.",
+    "rationale": "Incorreta. O viés de atrito decorre de perdas desiguais de participantes durante o seguimento de estudos longitudinais. O enunciado não descreve evasão ou abandono de participantes, mas sim uma assimetria na rotina de vigilância diagnóstica empregada entre as duas coortes."
+   },
+   {
+    "letter": "B",
+    "text": "Viés de confusão residual, decorrente da falta de controle analítico para variáveis metabólicas e hábitos de vida.",
+    "rationale": "Incorreta. O fator de confusão é uma variável externa associada independentemente à exposição e ao desfecho, sem ser um elo causal intermediário. A distorção no caso em questão é puramente metodológica e procedimental (decorrente do excesso de exames complementares solicitados no grupo exposto) e não um fenômeno biológico de confusão residual."
+   },
+   {
+    "letter": "C",
+    "text": "Viés de detecção (vigilância diagnóstica), decorrente da busca mais ativa e frequente do desfecho no grupo exposto.",
+    "rationale": "CORRETA. O viés de detecção (também chamado de viés de vigilância diagnóstica ou de verificação) é um erro sistemático de informação que ocorre quando a probabilidade de identificar ou confirmar o desfecho clínico varia sistematicamente entre os grupos sob comparação. No caso apresentado, as mulheres expostas à terapia hormonal foram submetidas a exames ultrassonográficos periódicos mesmo assintomáticas, possibilitando a detecção de cálculos biliares silenciosos que passaram despercebidos no grupo não exposto (que só realizava exames sob suspeita clínica), inflacionando artificialmente a medida de associação."
+   },
+   {
+    "letter": "D",
+    "text": "Viés de memória de longo prazo, motivado pela imprecisão no relato retrospectivo sobre a dosagem dos fármacos.",
+    "rationale": "Incorreta. O viés de memória ocorre tipicamente em delineamentos retrospectivos (como estudos caso-controle), nos quais os participantes relatam exposições antigas. Trata-se de uma coorte prospectiva em que a prescrição e o uso da terapia hormonal foram acompanhados ao longo do tempo, dispensando a memória retrospectiva de longo prazo."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O viés de detecção ou vigilância diagnóstica ocorre quando indivíduos expostos a um determinado fator são submetidos a um monitoramento médico mais rigoroso, elevando artificialmente a confirmação de formas assintomáticas ou leves da doença.",
+  "bookContext": {
+   "text": "O viés de detecção constitui uma forma de erro sistemático de informação na qual a identificação do desfecho clínico é influenciada pelo conhecimento prévio do estado de exposição. Indivíduos expostos a determinado fator de risco ou terapia frequentemente recebem atenção médica mais rigorosa, consultas mais frequentes e investigação diagnóstica mais aprofundada do que aqueles não expostos. Como resultado, formas subclínicas, indolentes ou assintomáticas da doença acabam sendo diagnosticadas desproporcionalmente no grupo monitorado, superestimando o risco relativo ou a razão de chances. Para mitigar esse problema em estudos epidemiológicos, recomenda-se a padronização rigorosa dos critérios de investigação diagnóstica e o cegamento dos avaliadores em relação ao status de exposição dos participantes.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 15; Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 7."
+  },
+  "revisada": true
+ },
+ {
+  "id": 105,
+  "code": "VAL-21",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Fatores de confundimento: definição, relação causal e conduta por estratificação/ajuste",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um estudo observacional avaliou a associação entre o consumo frequente de café e a incidência de infarto agudo do miocárdio (IAM), identificando inicialmente um Risco Relativo bruto de 1,8. Entretanto, os pesquisadores verificaram que grande parte dos consumidores de café também fumava cigarros, sendo o tabagismo um fator de risco independente e comprovado para IAM, além de estar associado ao hábito de tomar café, sem ser uma consequência biológica direta desse consumo. Diante dessa situação, assinale a afirmativa correta sobre o papel do tabagismo e o manejo metodológico apropriado.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Atua como modificador de efeito, devendo sua influência ser eliminada por testes bicaudais de hipótese na amostra total.",
+    "rationale": "Incorreta. O tabagismo não se comporta no exemplo como modificador de efeito (interação), mas como uma covariável associada à exposição que atua independentemente sobre o desfecho. Ademais, modificadores de efeito não são eliminados por testes de hipótese na amostra geral, mas descritos e apresentados em estratos separados."
+   },
+   {
+    "letter": "B",
+    "text": "Configura fator de confundimento, cuja distorção pode ser corrigida por meio de estratificação ou ajuste multivariado.",
+    "rationale": "CORRETA. Para ser caracterizado como fator de confundimento, a variável deve preencher três critérios clássicos: associar-se à exposição em estudo (hábito de fumar e consumo de café andam juntos), ser fator de risco independente para o desfecho (o tabagismo causa IAM em não bebedores de café) e não se constituir em um elo na via causal entre a exposição e a doença. Sua presença distorce a medida de associação bruta, exigindo controle no desenho (restrição, pareamento, randomização) ou na análise (estratificação, como pelo método de Mantel-Haenszel, ou modelagem multivariada)."
+   },
+   {
+    "letter": "C",
+    "text": "Representa variável mediadora da cadeia causal, sendo exigido o controle estatístico para mensurar o efeito causal total.",
+    "rationale": "Incorreta. Uma variável mediadora situa-se no caminho causal entre a exposição primária e o desfecho (Exposição -> Mediador -> Desfecho). O tabagismo não é causado pelo consumo de café, nem atua como mecanismo biológico pelo qual a cafeína provocaria infarto. Controlar um mediador diminuiria a estimativa do efeito causal total, ao passo que controlar o confundidor revela o efeito real desprovido de distorção."
+   },
+   {
+    "letter": "D",
+    "text": "Constitui viés de aferição sistemático, cuja interferência deve ser contornada apenas pelo aumento do tamanho da amostra.",
+    "rationale": "Incorreta. O tabagismo é uma característica biológica/comportamental real dos participantes da coorte que afeta a comparabilidade dos grupos, configurando confundimento, e não uma falha nos instrumentos de medida ou classificação (viés de aferição). Além disso, o aumento do tamanho amostral reduz unicamente o erro aleatório (aumenta a precisão estatística), sendo incapaz de eliminar erros sistemáticos ou fatores de confusão."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O fator de confundimento associa-se à exposição e ao desfecho de forma independente e não integra a cadeia causal; sua correção na análise ocorre por estratificação ou modelos multivariados.",
+  "bookContext": {
+   "text": "Um fator de confusão ocorre quando uma variável está simultaneamente ligada à exposição de interesse e ao desfecho, sem ser um efeito intermediário dessa exposição. Essa relação gera uma falsa associação ou distorce a magnitude da associação real entre a exposição e a doença. O confundimento não decorre de erro na mensuração ou aferição, mas sim da estrutura de inter-relações na população de estudo. Conforme ensina Gordis, sua presença pode mascarar uma associação verdadeira, criar uma aparente associação espúria ou até inverter o sentido do efeito observado. Para neutralizá-lo na fase de análise dos dados, utilizam-se técnicas clássicas como a estratificação de Mantel-Haenszel e a modelagem multivariada.",
+   "fonte": "Gordis, Epidemiologia (5ª ed.), Capítulo 15 (Mais Informações sobre Interferências Causais: Viés, Fator de Confusão e Interação); Slide da aula 'Validade e Confiabilidade', Módulo 4."
+  },
+  "revisada": true
+ },
+ {
+  "id": 106,
+  "code": "VAL-22",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Modificadores de efeito: diferença do efeito entre grupos e apresentação separada dos dados",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um estudo de coorte desenhado para analisar a associação entre tabagismo pesado e eventos coronarianos agudos, a análise global indicou uma Razão de Riscos (RR) bruta de 2,1. Ao realizarem a análise estratificada por sexo biológico, os autores constataram um RR de 3,8 (IC 95%: 2,9–4,9) entre os homens e um RR de 1,2 (IC 95%: 0,9–1,6) entre as mulheres, com taxas de consumo tabágico comparáveis entre ambos os grupos. Com base nas diretrizes epidemiológicas de validade e análise de dados, assinale a opção que identifica a função da variável sexo e a conduta científica correta.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Modificador de efeito; os autores devem apresentar os resultados separadamente para cada estrato, evitando sumários combinados.",
+    "rationale": "CORRETA. Uma variável atua como modificadora de efeito quando a intensidade ou a direção da associação entre a exposição e a doença difere entre os estratos definidos por essa variável. Conforme destacado nos slides e nos livros de epidemiologia, a modificação de efeito não representa um erro metodológico que precise ser eliminado ou ajustado; trata-se de um achado biológico fundamental cuja conduta mandatória é relatar os dados separadamente para cada grupo."
+   },
+   {
+    "letter": "B",
+    "text": "Fator de confusão clássico; os dados devem sofrer ajuste multivariado obrigatório para gerar uma estimativa sumária ponderada.",
+    "rationale": "Incorreta. Na presença de verdadeiro confundimento, as medidas de efeito nos estratos são semelhantes entre si (homogêneas) e diferem da medida bruta; nessas situações, calcula-se uma estimativa combinada ajustada. Quando as medidas de associação diferem substancialmente entre os estratos (RR = 3,8 nos homens vs. RR = 1,2 nas mulheres), há modificação de efeito (interação). Forçar um ajuste para relatar um valor único consolidado mascararia a heterogeneidade biológica real."
+   },
+   {
+    "letter": "C",
+    "text": "Viés de seleção não diferencial; os autores devem descartar a amostra feminina para garantir a comparabilidade interna do estudo.",
+    "rationale": "Incorreta. A discrepância observada entre os sexos reflete uma vulnerabilidade biológica diferencial e não um defeito no processo de recrutamento ou retenção dos participantes (viés de seleção). A exclusão arbitrária de um grupo violaria a validade externa e interna da pesquisa."
+   },
+   {
+    "letter": "D",
+    "text": "Variável interveniente de ruído; a equipe deve aplicar pareamento retrospectivo para unificar os coeficientes em um único valor.",
+    "rationale": "Incorreta. A expressão 'variável interveniente de ruído' não constitui categoria analítica válida em epidemiologia. Ademais, o pareamento retrospectivo não é viável nem conceitualmente justificável para unificar efeitos que são genuinamente distintos entre estratos."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Na modificação de efeito, a associação apresenta magnitudes diferentes entre os estratos avaliados; a conduta adequada é relatar os resultados separadamente para cada categoria, sem agrupá-los em uma medida sumária.",
+  "bookContext": {
+   "text": "A modificação de efeito, também denominada interação, reflete uma situação em que o risco decorrente de uma exposição varia dependendo da presença ou ausência de uma terceira variável. Diferentemente do viés metodológico ou do confundimento puro, a modificação de efeito não representa um defeito no delineamento que precise ser eliminado ou ajustado. Quando ela ocorre, o resumo da associação por meio de uma única medida ajustada é incorreto e oculta a real dinâmica do agravo nos subgrupos. Segundo Fletcher e Gordis, a conduta epidemiológica adequada e informativa consiste em descrever as estimativas separadamente em cada estrato avaliado. A identificação dessa heterogeneidade fornece subsídios fundamentais para intervenções preventivas direcionadas aos estratos sob maior vulnerabilidade.",
+   "fonte": "Gordis, Epidemiologia (5ª ed.), Capítulo 15 (Mais Informações sobre Interferências Causais: Viés, Fator de Confusão e Interação); Fletcher, Epidemiologia Clínica (4ª ed.), Capítulo 7; Slide da aula 'Validade e Confiabilidade', Módulo 5."
+  },
+  "revisada": true
+ },
+ {
+  "id": 107,
+  "code": "VAL-23",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Fatores mediadores: variáveis no caminho causal e efeito direto vs. efeito total",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um estudo epidemiológico de base populacional pretende avaliar o impacto causal do sedentarismo crônico sobre a incidência de diabetes mellitus tipo 2 (DM2). Na fundamentação biológica do protocolo, estabeleceu-se que o comportamento sedentário acarreta ganho ponderal substancial e acúmulo de gordura visceral (obesidade), que subsequentemente induz resistência insulínica e eclosão do DM2. Caso os pesquisadores incluam a obesidade como variável de ajuste em um modelo de regressão para avaliar o sedentarismo, qual será a consequência dessa abordagem analítica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Eliminará o viés de confundimento da obesidade, permitindo identificar com precisão a magnitude real do efeito causal global.",
+    "rationale": "Incorreta. A obesidade, dentro dessa estrutura fisiopatológica hipotética, não é um fator de confusão basal que antecede o sedentarismo, mas sim uma etapa desencadeada por ele. Tratá-la como fator de confusão comum é um erro conceitual frequente que fragmenta indevidamente a estimativa do efeito etiológico total."
+   },
+   {
+    "letter": "B",
+    "text": "Transformará a variável obesidade em modificadora de efeito, exigindo a junção obrigatória dos coeficientes em um estrato único.",
+    "rationale": "Incorreta. O ato de ajustar uma variável na modelagem multivariada não a converte em modificadora de efeito. A modificação de efeito depende de interação biológica ou epidemiológica na qual o efeito varia nos subgrupos, e não de manipulação estatística."
+   },
+   {
+    "letter": "C",
+    "text": "Induzirá erro de classificação diferencial, reduzindo o poder estatístico do estudo sem alterar a estimativa pontual da associação.",
+    "rationale": "Incorreta. O ajuste por uma covariável em modelos matemáticos é uma escolha analítica e não se confunde com erros de mensuração ou imprecisão diagnóstica na coleta de dados (erro de classificação diferencial)."
+   },
+   {
+    "letter": "D",
+    "text": "Bloqueará a rota causal intermediária, mensurando apenas o efeito direto e subestimando o impacto causal total do sedentarismo.",
+    "rationale": "CORRETA. A obesidade funciona como variável mediadora, ou seja, localiza-se no caminho causal entre a exposição e o desfecho (Sedentarismo -> Obesidade -> DM2). Ao controlar estatisticamente um mediador, anula-se a porção do efeito que transita por essa via intermediária. O modelo resultante expressará exclusivamente o efeito direto da exposição (efeito independente da via da obesidade), subestimando a força do efeito causal total do sedentarismo sobre a incidência de DM2."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Variáveis mediadoras pertencem à cadeia causal intermediária (Exposição -> Mediador -> Desfecho); controlá-las bloqueia a via indireta e estima apenas o efeito direto, subestimando o efeito total.",
+  "bookContext": {
+   "text": "Uma variável é considerada mediadora quando funciona como elo biológico intermediário no trajeto etiológico que conecta a exposição ao desfecho. Conforme alertam Fletcher e Rouquayrol, as variáveis situadas no caminho causal não devem ser tratadas indiscriminadamente como simples fatores de confusão. Se o objetivo do estudo for calcular o efeito total de uma exposição, o mediador não deve ser controlado, sob pena de mascarar ou subestimar a real contribuição da exposição. O controle do mediador é reservado para investigações específicas que pretendam discernir o efeito direto daquele mediado por determinada via fisiopatológica. Portanto, a decisão de ajustar ou não por um intermediário depende explicitamente da pergunta científica e do efeito de interesse pré-definido no protocolo.",
+   "fonte": "Fletcher, Epidemiologia Clínica: Elementos Essenciais (4ª ed.), Capítulo 1 (Introdução - Viés de Confusão); Rouquayrol, Epidemiologia & Saúde (8ª ed.), Capítulos 7 e 8; Slide da aula 'Validade e Confiabilidade', Módulo 6."
+  },
+  "revisada": true
+ },
+ {
+  "id": 108,
+  "code": "VAL-24",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Diferenciação prática entre confundimento, modificação de efeito e mediação",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Ao examinar a relação entre uma exposição primária e um desfecho clínico, um epidemiologista avalia o comportamento de uma terceira variável e seus impactos nas medidas de associação brutas e estratificadas. Para orientar a tomada de decisão no desenho e na análise do estudo, ele precisa diferenciar rigorosamente confundimento, modificação de efeito e mediação. Assinale a alternativa que estabelece a correta distinção metodológica e a respectiva conduta diante dessas três situações.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O confundidor compõe a cadeia causal; o mediador gera estratos divergentes; o modificador deve ser sempre padronizado no modelo final.",
+    "rationale": "Incorreta. O fator de confusão não integra a cadeia causal entre a exposição e o desfecho (se integrasse, seria mediador). O mediador não se caracteriza por apresentar medidas distintas entre estratos (propriedade do modificador de efeito), e modificadores de efeito não devem ser padronizados ou resumidos em medida única."
+   },
+   {
+    "letter": "B",
+    "text": "O modificador decorre de viés de aferição; o confundidor exige relato estratificado; o mediador atua reduzindo o erro aleatório global.",
+    "rationale": "Incorreta. A modificação de efeito não se origina de falhas de aferição ou erros de mensuração, consistindo em um efeito biológico real da população. O fator de confusão não demanda publicação em tabelas isoladas de estratos, mas sim controle analítico para obter uma estimativa ajustada válida, e o mediador não interfere no erro aleatório."
+   },
+   {
+    "letter": "C",
+    "text": "O confundidor causa distorção e exige ajuste; o modificador gera efeitos discrepantes entre estratos; o mediador é elo na via causal.",
+    "rationale": "CORRETA. A proposição sintetiza perfeitamente os três conceitos abordados na aula e na literatura: o fator de confusão é uma variável que distorce a associação real e requer controle (por estratificação ou ajuste multivariado); o modificador de efeito produz heterogeneidade na magnitude do efeito entre diferentes grupos populacionais, devendo ser relatado em estratos separados; e o fator mediador constitui um elo intermediário na rota causal, cuja retenção ou ajuste analítico depende do interesse em aferir o efeito causal total ou direto."
+   },
+   {
+    "letter": "D",
+    "text": "O mediador atua externamente sem relação causal; o modificador é uma falha metodológica; o confundidor dispensa controle estatístico.",
+    "rationale": "Incorreta. O mediador possui relação causal direta e cronologicamente definida tanto com a exposição quanto com a doença. Além disso, a modificação de efeito não é uma falha de planejamento metodológico, e o confundimento obrigatoriamente exige controle (no delineamento ou na análise) para assegurar a validade interna do estudo."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Confundidor distorce e deve ser ajustado; modificador reflete heterogeneidade biológica entre grupos e deve ser apresentado separadamente; mediador é elo causal e define a análise de efeito direto vs. total.",
+  "bookContext": {
+   "text": "A correta distinção entre confundimento, modificação de efeito e mediação constitui um dos pilares mais relevantes para assegurar a validade interna de estudos observacionais. Enquanto o confundimento gera uma distorção artificial ou mascara uma associação por meio de uma causa comum externa, a modificação de efeito descreve uma realidade em que a magnitude da associação varia genuinamente conforme subgrupos específicos. Por sua vez, a mediação lida com variáveis situadas diretamente na linha temporal e biológica entre o fator causal e o agravo à saúde. Segundo Gordis e Fletcher, confundidores devem ser prevenidos ou ajustados, modificadores de efeito devem ser expostos e estratificados, e mediadores exigem clareza metodológica quanto ao interesse no efeito total ou direto. A confusão entre esses três papéis compromete tanto a interpretação teórica dos mecanismos etiológicos quanto a formulação de intervenções preventivas.",
+   "fonte": "Gordis, Epidemiologia (5ª ed.), Capítulo 15 (Mais Informações sobre Interferências Causais: Viés, Fator de Confusão e Interação); Fletcher, Epidemiologia Clínica: Elementos Essenciais (4ª ed.), Capítulos 1 e 7; Slide da aula 'Validade e Confiabilidade', Módulos 4, 5 e 6."
+  },
+  "revisada": true
+ },
+ {
+  "id": 109,
+  "code": "VAL-25",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Estratégias de controle de confundimento no desenho do estudo: Pareamento e suas limitações conceituais",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um grupo de pesquisadores planeja um estudo de caso-controle para investigar a associação entre o uso crônico de anti-inflamatórios não esteroides (AINEs) e o desenvolvimento de doença renal crônica. Sabendo que a hipertensão arterial é um fator de risco estabelecido para nefropatia e que também se associa à prescrição frequente de analgésicos, a equipe decide realizar o pareamento individual de cada caso com um controle apresentando exatamente o mesmo histórico de hipertensão arterial. Considerando as repercussões metodológicas dessa decisão no delineamento do estudo, é correto afirmar que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O pareamento elimina o viés de confusão pela hipertensão e permite quantificar diretamente o efeito isolado da hipertensão sobre o desfecho.",
+    "rationale": "Incorreta. Ao forçar uma proporção artificialmente idêntica de hipertensos entre os grupos de casos e de controles durante a seleção, o pesquisador impede que se avalie se a prevalência de hipertensão difere entre doentes e não doentes, impossibilitando estimar o risco próprio da hipertensão."
+   },
+   {
+    "letter": "B",
+    "text": "O pareamento neutraliza o confundimento pela hipertensão, mas inviabiliza estimar o risco isolado da própria hipertensão sobre o desfecho.",
+    "rationale": "CORRETA. O pareamento no desenho equilibra a distribuição do potencial fator de confusão entre casos e controles, removendo sua influência espúria sobre a relação principal. Em contrapartida, acarreta uma importante limitação conceitual: torna impossível investigar a variável pareada como fator de risco independente no mesmo estudo."
+   },
+   {
+    "letter": "C",
+    "text": "O pareamento dispensa a necessidade de testes estatísticos específicos e assegura a comparabilidade para todos os fatores não mensurados.",
+    "rationale": "Incorreta. O pareamento individual não dispensa técnicas estatísticas apropriadas; ao contrário, exige obrigatoriamente métodos de análise pareada (como a razão de chances pareada e o teste de McNemar). Ademais, diferentemente da randomização em ensaios clínicos, o pareamento só atua nas variáveis selecionadas e não equilibra fatores não mensurados."
+   },
+   {
+    "letter": "D",
+    "text": "O pareamento converte a hipertensão em modificadora de efeito biológico, obrigando a equipe a apresentar o risco em estratos independentes.",
+    "rationale": "Incorreta. O pareamento é uma técnica metodológica de seleção amostral para neutralizar confundimento, não tendo a propriedade de alterar a natureza biológica da variável ou transformá-la em modificadora de efeito."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O pareamento no desenho do estudo controla o confundimento pela variável pareada, mas impede que ela seja avaliada como fator de risco independente.",
+  "bookContext": {
+   "text": "De acordo com as bases conceituais de Leon Gordis, o maior desafio conceitual do emparelhamento reside no fato de que, uma vez pareados os controles aos casos para certas características, não se pode mais estudar essas características como fatores de risco. Ao emparelhar, estabelece-se artificialmente uma proporção idêntica do fator entre os grupos, fixando sua distribuição por protocolo. Consequentemente, o pesquisador não é mais capaz de verificar se os casos diferem dos controles na prevalência desse fator específico. Por esse motivo, os epidemiologistas recomendam jamais emparelhar por variáveis cujo efeito isolado se pretenda investigar.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 10: 'Estudos de Casos-Controle' e Capítulo 15: 'Fatores de Confusão'"
+  },
+  "revisada": true
+ },
+ {
+  "id": 110,
+  "code": "VAL-26",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Direção do confundimento: Confundimento negativo e viés de indicação clínica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um estudo de coorte observacional conduzido em uma unidade de terapia intensiva, pesquisadores avaliaram o impacto de uma nova intervenção hemodinâmica na mortalidade hospitalar de pacientes com sepse grave. Na análise bruta inicial, a taxa de mortalidade observada entre os pacientes que receberam a intervenção foi igual à daqueles que não a receberam (Risco Relativo bruto = 1,00; IC 95%: 0,82 – 1,22). Todavia, ao realizar o ajuste multivariado pelo escore de gravidade fisiológica admissional (SOFA), constatou-se que a intervenção esteve associada a uma significativa redução do risco de óbito (Risco Relativo ajustado = 0,60; IC 95%: 0,45 – 0,80). O fenômeno epidemiológico que justifica a discrepância entre a análise bruta e a ajustada é denominado:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Confundimento negativo, gerado pelo uso preferencial do fármaco nos casos mais graves.",
+    "rationale": "CORRETA. Trata-se de um clássico exemplo de confundimento negativo, frequentemente manifestado na prática clínica como viés de indicação (confundimento por gravidade). Como os pacientes em pior estado clínico recebiam a terapia com maior frequência e possuíam maior probabilidade intrínseca de falecer, a gravidade mascarou a eficácia da droga na análise bruta; o controle analítico desfez essa distorção e revelou o efeito protetor real (RR = 0,60)."
+   },
+   {
+    "letter": "B",
+    "text": "Modificação de efeito qualitativa, decorrente da heterogeneidade biológica da gravidade.",
+    "rationale": "Incorreta. A modificação de efeito caracterizar-se-ia por efeitos verdadeiramente distintos entre os diferentes subgrupos clínicos (como jovens versus idosos), exigindo a apresentação estratificada das medidas, e não a identificação de um benefício homogêneo mascarado pela gravidade basal."
+   },
+   {
+    "letter": "C",
+    "text": "Viés de aferição não diferencial, decorrente de falha na aplicação do escore clínico.",
+    "rationale": "Incorreta. O erro de aferição não diferencial decorre de imprecisão indiscriminada de medidas e tende a diluir a associação em direção à hipótese nula (RR = 1,00), não explicando o surgimento de um efeito protetor robusto após a estratificação ou ajuste."
+   },
+   {
+    "letter": "D",
+    "text": "Viés de sobreajuste analítico, provocado pela inclusão de um mediador no modelo final.",
+    "rationale": "Incorreta. O sobreajuste ocorre quando se controla uma variável intermediária (mediadora) no caminho causal, o que reduziria ou anularia o efeito real da intervenção, exatamente o inverso do ganho de magnitude protetora documentado."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O confundimento negativo ocorre quando a distribuição desigual de um fator de risco mascara ou atenua um efeito causal verdadeiro, como no viés de indicação.",
+  "bookContext": {
+   "text": "Conforme discutido por Fletcher e Rouquayrol, o viés de confusão não atua apenas criando associações espúrias ou superestimando riscos (confundimento positivo), mas também pode atenuar, mascarar ou até inverter a direção da verdadeira associação (confundimento negativo). Em estudos observacionais de condutas médicas, o viés de indicação é a causa mais comum de confundimento negativo: pacientes com pior prognóstico recebem preferencialmente a intervenção terapêutica. Dessa forma, a gravidade clínica subjacente neutraliza o benefício da droga na análise bruta, fazendo um tratamento eficaz aparentar nulidade terapêutica. O controle estatístico adequado por meio de ajuste multivariado permite neutralizar esse desbalanceamento prognóstico e revelar a verdadeira magnitude do efeito protetor.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 1: 'Introdução' e Capítulo 7: 'Tratamento'"
+  },
+  "revisada": true
+ },
+ {
+  "id": 111,
+  "code": "VAL-27",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Interação e modelos de efeito conjunto: Sinergismo aditivo e multiplicativo",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma coorte ocupacional, avaliou-se a incidência de câncer de pulmão (casos por 100.000 pessoas-ano) sob influência de duas exposições: tabagismo (Fator A) e inalação de sílica (Fator B). A incidência basal no grupo sem nenhuma das exposições foi de 10 por 100.000. Nos indivíduos expostos exclusivamente ao tabagismo, a incidência foi de 30 por 100.000 (excesso de 20). Nos expostos exclusivamente à sílica, a incidência foi de 40 por 100.000 (excesso de 30). Já no grupo de trabalhadores expostos simultaneamente ao tabagismo e à sílica, a taxa de incidência encontrada foi de 150 por 100.000 pessoas-ano. De acordo com os modelos clássicos de interação biológica e efeito conjunto em epidemiologia, a interpretação correta desse resultado é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Há comprovação de ajuste aditivo esperado, pois a taxa combinada reflete a simples adição do excesso de risco.",
+    "rationale": "Incorreta. O modelo aditivo puro previa uma incidência de apenas 60 por 100.000; a ocorrência de 150 casos por 100.000 representa duas vezes e meia o valor previsto pela simples soma dos riscos atribuíveis."
+   },
+   {
+    "letter": "B",
+    "text": "Há demonstração de confundimento residual, que distorceu a incidência nos indivíduos expostos a ambos os agentes.",
+    "rationale": "Incorreta. O fenômeno reflete uma interação biológica e estatística real em que a ação concomitante dos carcinógenos amplifica os danos biológicos, e não um artefato por falha de mensuração ou confundimento não controlado."
+   },
+   {
+    "letter": "C",
+    "text": "Há presença de antagonismo biológico, visto que a taxa nos expostos conjuntos não atingiu a predição necessária.",
+    "rationale": "Incorreta. O antagonismo biológico ocorre quando a ação conjunta produz uma incidência inferior àquela calculada pela independência dos fatores; no caso apresentado, a taxa observada foi consideravelmente superior às predições aditiva e multiplicativa."
+   },
+   {
+    "letter": "D",
+    "text": "Há evidência de interação sinérgica positiva, superando as predições dos modelos aditivo e multiplicativo.",
+    "rationale": "CORRETA. Pelo modelo aditivo, a taxa esperada seria a incidência basal somada aos riscos atribuíveis de cada fator: 10 + 20 + 30 = 60 por 100.000. Pelo modelo multiplicativo, os riscos relativos individuais são 3,0 (30/10) e 4,0 (40/10), prevendo uma taxa conjunta de 10 x 3 x 4 = 120 por 100.000. Como a incidência observada foi de 150 por 100.000, o efeito conjunto superou tanto o modelo aditivo quanto o multiplicativo, evidenciando expressivo sinergismo (interação positiva)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A interação positiva (sinergismo) ocorre quando o efeito combinado de dois fatores de risco excede as expectativas fundamentadas nos modelos de efeitos independentes.",
+  "bookContext": {
+   "text": "Leon Gordis conceitua interação como a situação em que a taxa de incidência de uma doença na presença de dois ou mais fatores de risco difere daquela esperada com base na contribuição isolada de cada fator. Para quantificar essa independência, a epidemiologia utiliza dois modelos teóricos: o modelo aditivo (baseado na soma dos riscos atribuíveis) e o modelo multiplicativo (baseado no produto dos riscos relativos). Quando o risco observado no grupo duplamente exposto supera até mesmo a predição multiplicativa, comprova-se uma interação fortemente positiva ou sinérgica. Esse mecanismo é amplamente documentado na literatura na ação combinada de agentes inalatórios, a exemplo da clássica interação entre fumo e amianto na etiologia do carcinoma pulmonar.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 15: 'Mais Informações sobre Interferências Causais: Viés, Fator de Confusão e Interação' (Seção: Interação)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 112,
+  "code": "VAL-28",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Manejo metodológico de fatores mediadores: Viés de sobreajuste na estimação do efeito total",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um ensaio comunitário avaliou a implementação de ciclovias urbanas (exposição) na redução da incidência de infarto agudo do miocárdio após cinco anos de acompanhamento. Sabe-se que o incentivo ao transporte ativo reduz os eventos isquêmicos primariamente por induzir a prática rotineira de exercícios físicos e, consequentemente, promover reduções sustentadas nos níveis pressóricos. Ao analisar os dados para estimar o impacto sanitário global da implantação das ciclovias, o bioestatístico incluiu no modelo multivariado final, além das características basais dos indivíduos, os valores médios de pressão arterial sistólica aferidos anualmente durante o seguimento. A inclusão dessa variável aferida no seguimento acarreta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Eliminação bem-sucedida do principal confundidor, garantindo estimativa robusta do efeito protetor da intervenção.",
+    "rationale": "Incorreta. A pressão arterial durante o seguimento atua como variável mediadora na cadeia de eventos disparada pela intervenção, e não como confundidor basal; variáveis situadas no caminho causal não devem ser ajustadas quando o objetivo é avaliar o efeito total."
+   },
+   {
+    "letter": "B",
+    "text": "Identificação precisa de modificação de efeito, viabilizando demonstrar a eficácia da medida em hipertensos.",
+    "rationale": "Incorreta. A inclusão de uma covariável no modelo de regressão não investiga modificação de efeito, procedimento que demandaria a introdução de termos de interação ou análises estratificadas específicas."
+   },
+   {
+    "letter": "C",
+    "text": "Introdução de viés de sobreajuste, bloqueando a via intermediária e atenuando o benefício global da medida.",
+    "rationale": "CORRETA. Como a redução da pressão arterial é um mecanismo causal intermediário pelo qual a ciclovia reduz o infarto (Intervenção -> Atividade Física -> Redução Pressórica -> Prevenção de Infarto), ajustar por ela remove a porção indireta do efeito da intervenção. Isso introduz o chamado viés de sobreajuste (overadjustment bias), mascarando ou atenuando indevidamente a magnitude da eficácia da política pública."
+   },
+   {
+    "letter": "D",
+    "text": "Correção de erro de mensuração, equalizando a chance de diagnóstico do evento cardíaco nos grupos avaliados.",
+    "rationale": "Incorreta. A inserção de covariáveis no modelo estatístico não tem relação com a precisão dos métodos de aferição diagnóstica do infarto, que é o desfecho dependente do estudo."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Controlar ou ajustar por uma variável mediadora bloqueia o caminho causal intermediário, gerando sobreajuste e subestimando o efeito total da exposição.",
+  "bookContext": {
+   "text": "De acordo com Fletcher e com o roteiro pedagógico da aula sobre validade, uma variável não deve ser tratada como confundidora se estiver posicionada diretamente no caminho causal entre a exposição e o desfecho. As variáveis mediadoras transmitem, no todo ou em parte, a ação da causa sobre o efeito em etapas sucessivas. O slide ressalta explicitamente que 'não se controla automaticamente uma mediadora; primeiro é preciso definir se queremos o efeito total ou o efeito direto'. Ao inserir estatisticamente um mediador em modelos de regressão quando a meta da pesquisa é quantificar o impacto total da intervenção, o investigador comete um viés de sobreajuste (overadjustment bias), suprimindo artificialmente o benefício real decorrente da rota biológica intermediária.",
+   "fonte": "Aula VAT2 · Validade e confiabilidade (Slide: Fatores Mediadores) e Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 1"
+  },
+  "revisada": true
+ },
+ {
+  "id": 113,
+  "code": "VAL-29",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Estratégias de controle de confundimento no desenho: Restrição amostral e implicações na validade",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um grupo de pesquisadores planeja um estudo observacional prospectivo de coorte para investigar se a prática regular de atividade física reduz a incidência de infarto agudo do miocárdio em adultos. Cientes de que o tabagismo é um forte fator de risco para a doença coronariana e de que indivíduos que praticam exercícios tendem a fumar com menor frequência, os autores decidem controlar essa variável na fase de delineamento do estudo por meio da técnica de restrição, estabelecendo como critério de inclusão que apenas indivíduos que nunca fumaram possam participar. Considerando os princípios metodológicos da técnica de restrição aplicada a esse cenário, assinale a afirmativa correta.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Previne o confundimento por variáveis não mensuradas, mas exige a realização de ajuste multivariado adicional para o tabagismo ao término do seguimento.",
+    "rationale": "Incorreta. A restrição só é capaz de atuar sobre fatores de risco conhecidos e previamente selecionados para a triagem amostral, sendo incapaz de controlar variáveis não mensuradas ou desconhecidas (propriedade exclusiva da randomização). Além disso, ao homogeneizar a amostra para o tabagismo, elimina-se a sua variabilidade interna, tornando desnecessário qualquer ajuste estatístico posterior para essa variável específica."
+   },
+   {
+    "letter": "B",
+    "text": "Elimina o confundimento pelo tabagismo no desenho, mas reduz a validade externa do estudo e impede a investigação dos efeitos próprios dessa variável.",
+    "rationale": "CORRETA. Ao restringir o recrutamento a um espectro estrito de características (apenas não fumantes), assegura-se que a variável de confusão não se distribua de modo desigual entre os grupos, eliminando o potencial de confundimento no próprio desenho. Suas contrapartidas clássicas são a perda de generalização (validade externa) para populações que contenham fumantes e a impossibilidade de o estudo avaliar o impacto do tabagismo ou de suas interações sobre o desfecho."
+   },
+   {
+    "letter": "C",
+    "text": "Mantém a ampla generalização dos resultados para toda a população, embora dependa de modelagem estatística por estratificação para anular o viés.",
+    "rationale": "Incorreta. A restrição compromete diretamente a validade externa (capacidade de generalização), pois os resultados observados em uma população homogênea de não fumantes não podem ser extrapolados automaticamente para indivíduos com históricos tabágicos variados. Ademais, como o controle ocorreu a priori no desenho, não há necessidade de estratificação analítica para essa covariável."
+   },
+   {
+    "letter": "D",
+    "text": "Induz viés de informação diferencial durante o seguimento, tornando os dados inválidos tanto internamente quanto externamente para os não expostos.",
+    "rationale": "Incorreta. A restrição é uma estratégia deliberada de desenho que visa a proteger e otimizar a validade interna do estudo, prevenindo o viés de confusão. Ela não introduz viés de aferição ou de informação diferencial na mensuração dos desfechos ao longo do seguimento."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A restrição no delineamento elimina eficazmente o confundimento pela variável delimitada ao produzir subgrupos homogêneos, mas tem como custos centrais a redução da validade externa e a impossibilidade de analisar o efeito e as interações dessa variável no estudo.",
+  "bookContext": {
+   "text": "A restrição consiste em limitar o ingresso de pacientes a um espectro estreito de características no momento da seleção para o estudo. Essa abordagem impede que a variável delimitada atue como fator de confusão, pois ela é mantida constante entre os participantes sob comparação. Contudo, ao selecionar subgrupos extremamente homogêneos, a capacidade de generalização dos achados para a prática clínica habitual é substancialmente reduzida. Além disso, uma vez aplicada a restrição, torna-se metodologicamente inviável mensurar o efeito isolado da variável excluída ou identificar possíveis modificações de efeito entre ela e a exposição de interesse.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 7 (Prognóstico: Métodos para Controle do Viés de Seleção e Confusão)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 114,
+  "code": "VAL-30",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Confundimento residual decorrente de mensuração e categorização de covariáveis",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um estudo de caso-controle de base populacional desenhado para investigar a relação entre consumo diário de café e a ocorrência de câncer de esôfago, os pesquisadores reconhecem o tabagismo como um potencial e relevante fator de confusão. Durante a etapa de análise estatística, a equipe decide controlar esse efeito por estratificação, dividindo todos os participantes em duas categorias dicotômicas: 'fumantes atuais' e 'nunca fumantes'. Após a análise estratificada, observa-se que uma razão de chances (odds ratio) discretamente aumentada, porém com significância estatística, persiste no estrato dos fumantes. Considerando a teoria epidemiológica sobre o controle analítico de fatores de confusão, assinale a opção que explica corretamente por que essa associação residual pode ser decorrente de viés metodológico.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A categorização ampla ignora a carga tabágica e o tempo de uso, permitindo que desbalanços residuais dentro de cada estrato continuem distorcendo a estimativa.",
+    "rationale": "CORRETA. O fenômeno do confundimento residual ocorre quando o controle analítico é incompleto, seja por erro de mensuração da covariável ou por sua categorização em estratos excessivamente amplos. Ao classificar indivíduos apenas como 'fumantes', ignora-se a intensidade da exposição (como o número de maços-ano e o tempo de tabagismo). Se entre os grandes consumidores de café houver indivíduos com carga tabágica substancialmente mais pesada do que entre os que consomem pouco café, a disparidade biológica interna persistirá, mantendo uma associação espúria ou inflacionada."
+   },
+   {
+    "letter": "B",
+    "text": "A estratificação em duas categorias converte o tabagismo em um fator mediador intermediário, gerando sobreajuste que amplifica a medida observada entre os grupos.",
+    "rationale": "Incorreta. A categorização ampla ou imperfeita de um confundidor não o transforma em mediador. Variáveis mediadoras encontram-se no trajeto biológico intermediário entre a exposição e a doença (Exposição → Mediador → Desfecho), situação que não descreve o papel do tabagismo na relação entre o hábito de consumir café e a neoplasia."
+   },
+   {
+    "letter": "C",
+    "text": "O agrupamento em categorias dicotômicas remove por completo a confusão pelo tabagismo, confirmando que a associação verificada possui natureza puramente causal.",
+    "rationale": "Incorreta. A criação de categorias dicotômicas simplificadas em variáveis contínuas ou de gradiente complexo é justamente um mecanismo insuficiente de controle, sendo incapaz de anular integralmente a distorção introduzida pelo fator de confusão."
+   },
+   {
+    "letter": "D",
+    "text": "A persistência da associação reflete um erro estrutural na condução da pesquisa, cuja única solução metodológica viável seria o cegamento triplo dos analistas.",
+    "rationale": "Incorreta. O confundimento não decorre de um erro de execução do estudo passível de correção por cegamento de analistas, mas sim de uma correlação existente no mundo real entre exposições e desfechos. O cegamento visa a prevenir viés de aferição ou de interpretação, não corrigindo problemas de desbalanço e categorização de variáveis de confusão."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O confundimento residual persiste quando covariáveis de confusão são mensuradas com imprecisão ou agregadas em categorias excessivamente amplas, permitindo que variações internas ao estrato mantenham distorções na medida de associação.",
+  "bookContext": {
+   "text": "O fator de confusão não constitui um erro inerente ao estudo, mas sim uma realidade biológica e epidemiológica que descreve a teia de relações entre múltiplos fatores e o desfecho de interesse. Quando os dados são estratificados ou ajustados utilizando categorias excessivamente amplas, pode haver espaço substancial para heterogeneidades de risco não capturadas no interior do próprio estrato. Essa imprecisão métrica impede o isolamento completo do efeito independente da exposição principal, gerando o chamado confundimento residual. Para minimizar esse problema, as covariáveis de confusão devem ser aferidas detalhadamente e tratadas por meio de categorizações mais refinadas ou modelos multivariados contínuos.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 15 (Mais Informações sobre Inferências Causais: Fator de Confusão) e Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 7 (Prognóstico)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 115,
+  "code": "VAL-31",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Tipos e métricas de confiabilidade psicométrica",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um grupo de pesquisadores da área de Saúde Coletiva desenvolveu uma escala com 10 perguntas destinadas a avaliar sintomas de ansiedade e sofrimento psíquico em estudantes universitários. Na etapa de validação do instrumento, a equipe necessita verificar se os diferentes itens do questionário estão medindo de forma consistente o mesmo construto subjacente. Para realizar essa análise estatística, a dimensão de confiabilidade avaliada e a respectiva métrica recomendada são:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Confiabilidade teste-reteste, mensurada por meio do coeficiente Kappa ponderado de Cohen.",
+    "rationale": "Incorreta. A confiabilidade teste-reteste afere a estabilidade dos resultados quando o mesmo instrumento é reaplicado às mesmas pessoas em momentos distintos e sob condições semelhantes, e não a coesão entre os itens componentes."
+   },
+   {
+    "letter": "B",
+    "text": "Confiabilidade interobservador, mensurada por meio do coeficiente de correlação intraclasse.",
+    "rationale": "Incorreta. A confiabilidade interobservador avalia a concordância entre avaliadores diferentes ao examinarem de forma independente os mesmos pacientes ou exames, não se aplicando à homogeneidade interna de uma escala."
+   },
+   {
+    "letter": "C",
+    "text": "Confiabilidade intraobservador, mensurada pela proporção de concordância simples observada.",
+    "rationale": "Incorreta. A confiabilidade intraobservador diz respeito à capacidade de o mesmo examinador reproduzir os mesmos julgamentos em avaliações repetidas; além disso, a concordância simples não desconta a concordância esperada pelo acaso."
+   },
+   {
+    "letter": "D",
+    "text": "Consistência interna, mensurada por meio do cálculo do coeficiente Alfa de Cronbach.",
+    "rationale": "CORRETA. A consistência interna verifica se o conjunto de itens que compõem o instrumento afere o mesmo construto teórico de maneira homogênea; a métrica padrão-ouro para essa propriedade é o coeficiente Alfa de Cronbach (α)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A consistência interna avalia a coerência entre múltiplos itens de um instrumento na mensuração de um construto único, sendo quantificada pelo Alfa de Cronbach.",
+  "bookContext": {
+   "text": "A consistência interna possibilita verificar se o conjunto de itens que compõem a escala explica unicamente o fenômeno em questão, garantindo que todos apontem na mesma direção teórica. A medida universalmente empregada para essa análise é o coeficiente Alfa de Cronbach, que apresenta intervalo de variação entre 0 e 1. Quanto mais próximo de 1 estiver o coeficiente, maior é a consistência interna da escala, adotando-se frequentemente valores a partir de 0,70 ou 0,80 como patamares aceitáveis na literatura epidemiológica.",
+   "fonte": "Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 7 / Aula VAT2 · Validade e confiabilidade"
+  },
+  "revisada": true
+ },
+ {
+  "id": 116,
+  "code": "VAL-32",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Acurácia diagnóstica versus precisão (confiabilidade)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um estudo de base populacional para triagem de hipertensão arterial, utilizou-se um esfigmomanômetro automático. Durante o controle de qualidade contra um manômetro de coluna de mercúrio calibrado (padrão-ouro), os pesquisadores constataram que o aparelho automático apresentava leituras altamente repetíveis e agrupadas em mensurações sucessivas no mesmo indivíduo, porém todos os valores registrados situavam-se sistematicamente 15 mmHg abaixo da pressão arterial real. Em relação aos conceitos de acurácia e precisão/confiabilidade, o desempenho desse aparelho caracteriza-se por:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Baixa confiabilidade e alta acurácia, decorrente de importante erro aleatório amostral.",
+    "rationale": "Incorreta. O instrumento exibiu elevada confiabilidade pela alta repetibilidade dos dados. Além disso, a distorção observada constitui um viés sistemático do equipamento, e não erro aleatório decorrente do acaso."
+   },
+   {
+    "letter": "B",
+    "text": "Baixa confiabilidade e baixa acurácia, decorrente de variações fisiológicas intrassujeito.",
+    "rationale": "Incorreta. A confiabilidade foi alta em decorrência da reduzida variabilidade das leituras sucessivas; o defeito derivou de erro de aferição instrumental fixo, e não de flutuação biológica do paciente."
+   },
+   {
+    "letter": "C",
+    "text": "Alta confiabilidade e baixa acurácia, decorrente de erro sistemático de calibração.",
+    "rationale": "CORRETA. A confiabilidade (precisão) diz respeito à reprodutibilidade das mensurações repetidas, que apresentaram mínima dispersão entre si. A acurácia (validade), por sua vez, refere-se à proximidade do resultado em relação ao valor verdadeiro; como houve um desvio constante e viciado de 15 mmHg para baixo (erro sistemático), o teste não é acurado."
+   },
+   {
+    "letter": "D",
+    "text": "Alta confiabilidade e alta acurácia, decorrente de mínima dispersão em torno da média.",
+    "rationale": "Incorreta. Embora a confiabilidade seja de fato elevada pela concordância estreita das medidas, a acurácia é baixa porque os valores mensurados encontram-se sistematicamente afastados da realidade estabelecida pelo padrão-ouro."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Um teste pode ser altamente confiável (preciso/reproduzível) e, ao mesmo tempo, apresentar baixa acurácia (inválido) caso esteja acometido por erro sistemático.",
+  "bookContext": {
+   "text": "A confiabilidade reflete a extensão em que aferições repetidas de um fenômeno estável produzem resultados semelhantes, expressando a precisão do método contra o erro aleatório. Em contrapartida, a acurácia diagnóstica diz respeito à capacidade da mensuração de retratar a verdade clínica, isto é, sua proximidade ao valor real fornecido por um padrão-ouro. Testes acometidos por desvios metodológicos ou instrumentos descalibrados fornecem medidas viciadas que convergem perfeitamente entre si, demonstrando que alta confiabilidade não garante validade diagnóstica.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 2 / Aula VAT2 · Validade e confiabilidade"
+  },
+  "revisada": true
+ },
+ {
+  "id": 117,
+  "code": "VAL-33",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Cálculo de acurácia, sensibilidade, especificidade e classificação percentual",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um teste imunocromatográfico rápido para diagnóstico precoce de arbovirose foi avaliado em um grupo de 1.000 pacientes febris atendidos em uma Unidade de Pronto Atendimento, utilizando-se o RT-PCR como padrão-ouro. Dentre os 200 pacientes com diagnóstico confirmado de infecção pelo RT-PCR, o teste rápido foi positivo em 160 e negativo em 40. Dentre os 800 pacientes verdadeiramente não infectados, o teste rápido foi negativo em 720 e positivo em 80. Considerando a fórmula de acurácia global e a tabela de classificação percentual adotada na disciplina, a acurácia do novo teste e sua interpretação qualitativa são, respectivamente:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "80,0%, recebendo classificação de acurácia boa.",
+    "rationale": "Incorreta. O valor de 80,0% corresponde à sensibilidade do teste [VP / (VP + FN) = 160 / 200 = 0,80], indicando a fração de doentes com exame positivo, e não a taxa de acerto global."
+   },
+   {
+    "letter": "B",
+    "text": "88,0%, recebendo classificação de acurácia boa.",
+    "rationale": "CORRETA. A acurácia expressa a proporção total de resultados corretos: (VP + VN) / N = (160 + 720) / 1.000 = 880 / 1.000 = 88,0%. Conforme a tabela de classificação percentual de acurácia (≥ 90% excelente; 80–89% boa; 70–79% moderada; < 70% baixa), o resultado obtido classifica-se como de boa acurácia."
+   },
+   {
+    "letter": "C",
+    "text": "90,0%, recebendo classificação de acurácia excelente.",
+    "rationale": "Incorreta. O percentual de 90,0% representa a especificidade do método [VN / (VN + FP) = 720 / 800 = 0,90], correspondendo à fração de não doentes corretamente negativados; essa faixa enquadraria o teste como excelente, mas não representa a acurácia global."
+   },
+   {
+    "letter": "D",
+    "text": "72,0%, recebendo classificação de acurácia moderada.",
+    "rationale": "Incorreta. O percentual de 72,0% decorre de erro na tabulação (ex.: calcular apenas VN sobre o total amostral: 720/1.000); a faixa de 70% a 79% qualificaria uma acurácia moderada, mas a proporção real de acertos é superior."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A acurácia global calcula a proporção de acertos totais [(VP + VN) / Total], sendo categorizada como boa quando se situa no intervalo de 80% a 89%.",
+  "bookContext": {
+   "text": "A acurácia global sintetiza o desempenho de um exame diagnóstico medindo a fração de todas as classificações corretas em relação à totalidade dos indivíduos testados. Diferentemente da sensibilidade e da especificidade, que avaliam frações condicionadas ao verdadeiro status da doença, a acurácia é uma medida composta influenciada tanto pela acurácia intrínseca quanto pela estrutura da amostra. Em termos percentuais de validação clínica, testes que apresentam acurácia entre 80% e 89% são considerados de bom rendimento, ao passo que desempenhos iguais ou superiores a 90% recebem a chancela de excelência.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5 / Aula VAT2 · Validade e confiabilidade"
+  },
+  "revisada": true
+ },
+ {
+  "id": 118,
+  "code": "VAL-34",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Curva ROC e contrabalanço entre Sensibilidade e Especificidade",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um novo biomarcador sérico contínuo foi avaliado para detecção de sepse grave em pacientes admitidos na Unidade de Terapia Intensiva. Para determinar o limiar clínico operacional, os pesquisadores traçaram a curva ROC (Receiver Operating Characteristic) contra o padrão-ouro microbiológico e clínico. A equipe assistencial deseja definir um ponto de corte voltado para a triagem na sala de emergência, cujo objetivo principal é minimizar os resultados falso-negativos para não atrasar o início da antibioticoterapia empírica. Com base na dinâmica dos pontos de corte na curva ROC e nas propriedades diagnósticas, a conduta e a interpretação corretas são:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Mover o ponto de corte para aumentar a sensibilidade acarreta elevação dos falsos-positivos, provocando redução proporcional na especificidade.",
+    "rationale": "CORRETA. Há um contrabalanço recíproco inevitável ao alterar o ponto de corte: ao reduzi-lo para capturar todos os verdadeiros doentes (aumentando a sensibilidade e reduzindo falsos-negativos), inclui-se maior número de indivíduos hígidos como alterados, elevando a taxa de falsos-positivos e diminuindo a especificidade."
+   },
+   {
+    "letter": "B",
+    "text": "Fixar um ponto de corte com especificidade de 100% atende perfeitamente à triagem, pois elimina por completo as ocorrências de falsos-negativos.",
+    "rationale": "Incorreta. Para priorizar a triagem e evitar falsos-negativos em situações agudas, é imperativo maximizar a sensibilidade. A fixação de um ponto com especificidade máxima de 100% desloca o corte para patamares elevados, gerando muitos falsos-negativos indesejáveis."
+   },
+   {
+    "letter": "C",
+    "text": "Obter uma área sob a curva ROC de 0,50 traduz um teste com excelente capacidade discriminativa entre pacientes sépticos e não sépticos.",
+    "rationale": "Incorreta. Uma área sob a curva ROC (AUC) igual a 0,50 corresponde exatamente à linha diagonal de identidade, indicando que o teste não discrimina doentes de sadios além do que se esperaria pelo acaso."
+   },
+   {
+    "letter": "D",
+    "text": "Posicionar o limiar operacional no canto inferior direito do gráfico ROC otimiza simultaneamente a sensibilidade e a especificidade do teste.",
+    "rationale": "Incorreta. O ponto de melhor poder discriminatório global (ombro da curva) situa-se próximo ao canto superior esquerdo do plano cartesiano (alta taxa de verdadeiros-positivos e baixa taxa de falsos-positivos), e não no canto inferior direito."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A curva ROC ilustra o contrabalanço inverso entre sensibilidade e especificidade ao variar o ponto de corte; a área sob a curva mede a capacidade discriminatória global do teste.",
+  "bookContext": {
+   "text": "A curva ROC expressa visualmente a relação de compensação entre a sensibilidade no eixo das ordenadas e a taxa de falsos-positivos (1 menos a especificidade) no eixo das abscissas para sucessivos pontos de corte. O ponto situado no ombro superior esquerdo da curva é frequentemente selecionado por conciliar o melhor equilíbrio entre sensibilidade e especificidade, embora a finalidade clínica possa justificar o deslocamento para extremos em prol de maior sensibilidade (como no rastreamento e triagem) ou de maior especificidade (na confirmação diagnóstica). A área sob a curva sumariza a acurácia global do método, em que o valor 1,0 representa teste perfeito e 0,50 reflete total incapacidade discriminatória.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 3 / Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5"
+  },
+  "revisada": true
+ },
+ {
+  "id": 119,
+  "code": "VAL-35",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Indicação clínica de testes diagnósticos: Testes sensíveis versus testes específicos",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um médico de família atua em uma Unidade Básica de Saúde e precisa definir a estratégia diagnóstica para duas situações distintas: (1) Rastreamento populacional de uma condição congênita grave, tratável e assintomática ao nascimento, na qual a perda do diagnóstico oportuno acarreta sequelas neurológicas irreversíveis ou óbito; (2) Confirmação diagnóstica prévia ao início de quimioterapia altamente tóxica com risco de aplasia medular grave, em que um resultado falso-positivo exporia um indivíduo sadio a dano iatrogênico potencialmente letal. Considerando os princípios operatórios dos testes diagnósticos, a conduta técnica correta para selecionar os exames nas situações 1 e 2 é priorizar, respectivamente:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Teste de alta especificidade na situação 1, para minimizar os falsos-positivos; e teste de alta sensibilidade na situação 2, para abranger todos os casos possíveis.",
+    "rationale": "Incorreta. Na situação 1 (triagem de doença grave e tratável), não se prioriza teste específico na triagem inicial, pois sua menor sensibilidade geraria falsos-negativos inaceitáveis para uma condição com potencial de cura precoce. Na situação 2, um teste sensível tenderia a gerar falsos-positivos, expondo pacientes não doentes a quimioterapia tóxica."
+   },
+   {
+    "letter": "B",
+    "text": "Teste de alta sensibilidade na situação 1, visando elevar o valor preditivo positivo; e teste de alta sensibilidade na situação 2, para excluir a hipótese diagnóstica.",
+    "rationale": "Incorreta. O valor preditivo positivo depende fortemente da prevalência e da especificidade, e não é garantido unicamente por alta sensibilidade. Além disso, na situação 2, a prioridade não é excluir com sensibilidade, mas sim confirmar com alta especificidade antes de intervir de modo agressivo."
+   },
+   {
+    "letter": "C",
+    "text": "Teste de alta especificidade na situação 1, visando reduzir procedimentos invasivos; e teste de alta especificidade na situação 2, para ampliar a taxa de detecção.",
+    "rationale": "Incorreta. Priorizar alta especificidade na situação 1 deixaria muitos doentes passarem despercebidos (falsos-negativos), o que contraria as diretrizes de rastreamento para condições graves e tratáveis."
+   },
+   {
+    "letter": "D",
+    "text": "Teste de alta sensibilidade na situação 1, para minimizar os falsos-negativos; e teste de alta especificidade na situação 2, para evitar danos por falsos-positivos.",
+    "rationale": "CORRETA. Conforme Fletcher (Capítulo 3) e Gordis (Capítulo 5), testes sensíveis são indicados quando as consequências de perder um doente (falso-negativo) são graves e a patologia é tratável, minimizando falsos-negativos (regra SnNOut: sensível e negativo afasta a doença). Já testes específicos são cruciais quando resultados falso-positivos causam danos físicos, psicológicos ou financeiros graves ao paciente, como na indicação de tratamentos agressivos ou estigmatizantes (regra SpPIn: específico e positivo confirma a doença)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Testes sensíveis evitam falsos-negativos e são ideais para triagem e doenças graves tratáveis; testes específicos evitam falsos-positivos e são essenciais antes de terapias de alto risco.",
+  "bookContext": {
+   "text": "A escolha racional entre sensibilidade e especificidade deve ser norteada pelo impacto clínico dos erros diagnósticos. Testes altamente sensíveis são prioritários nas fases iniciais de rastreamento ou quando a omissão terapêutica acarreta desfechos fatais em condições curáveis. Por outro lado, testes com elevada especificidade são indispensáveis sempre que um resultado falso-positivo culminar em condutas iatrogênicas de alta morbimortalidade ou intervenções cirúrgicas desnecessárias.",
+   "fonte": "Livro · Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 3: Diagnóstico."
+  },
+  "revisada": true
+ },
+ {
+  "id": 120,
+  "code": "VAL-36",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Ajuste de ponto de corte em variáveis contínuas e repercussões sobre falsos-positivos e falsos-negativos",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma equipe de saúde ocupacional utiliza a concentração sérica de uma enzima como marcador contínuo para triagem de hepatotoxicidade em trabalhadores expostos a vapores químicos. Diante da constatação de que os ambulatórios de referência estão sobrecarregados por biópsias hepáticas e exames invasivos realizados em indivíduos saudáveis que testaram positivo, a coordenação decide elevar o ponto de corte numérico (cut-off) da enzima para considerar o exame positivo. Do ponto de vista epidemiológico, esse deslocamento do limiar decisório acarreta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Aumento da sensibilidade diagnóstica com redução concomitante do total de falsos-negativos.",
+    "rationale": "Incorreta. Elevar o ponto de corte torna o critério de positividade mais rígido, o que reduz a sensibilidade e eleva a quantidade de resultados falsos-negativos."
+   },
+   {
+    "letter": "B",
+    "text": "Elevação simultânea da sensibilidade e da especificidade devido ao refinamento do limiar.",
+    "rationale": "Incorreta. Em testes biológicos contínuos com sobreposição entre populações doentes e sadias, há uma relação inversa obrigatória: elevar o ponto de corte aumenta a especificidade, mas reduz a sensibilidade."
+   },
+   {
+    "letter": "C",
+    "text": "Queda no total de falsos-positivos, ao custo do aumento indesejado de falsos-negativos.",
+    "rationale": "CORRETA. Segundo Leon Gordis (Capítulo 5), ao elevar o ponto de corte em um teste de variável contínua, uma proporção menor de indivíduos sem a doença atinge o critério positivo, aumentando a especificidade e reduzindo os falsos-positivos (desafogando os serviços especializados). Em contrapartida, perde-se sensibilidade, fazendo com que indivíduos verdadeiramente doentes com títulos moderados sejam erroneamente classificados como normais (aumento de falsos-negativos)."
+   },
+   {
+    "letter": "D",
+    "text": "Diminuição de falsos-negativos, mantendo estáveis os custos associados a exames confirmatórios.",
+    "rationale": "Incorreta. O aumento do ponto de corte eleva os falsos-negativos (doentes com valores intermediários deixam de ser detectados), enquanto os custos com exames confirmatórios caem devido à redução dos falsos-positivos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Subir o ponto de corte de uma variável contínua eleva a especificidade e diminui falsos-positivos, mas reduz a sensibilidade e eleva falsos-negativos.",
+  "bookContext": {
+   "text": "Na avaliação de testes baseados em variáveis contínuas, inexiste separação absoluta entre doentes e não doentes, configurando-se uma faixa de sobreposição de valores. A escolha do ponto de corte representa uma decisão de política assistencial que equilibra o custo emocional e econômico dos falsos-positivos contra o dano clínico dos falsos-negativos. Elevar o limiar protege o sistema de investigações fúteis em sadios, contudo impõe a perda de diagnósticos precoces em casos com alterações bioquímicas discretas.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5: Determinação da Validade e Confiabilidade de Testes de Diagnóstico e Rastreamento."
+  },
+  "revisada": true
+ },
+ {
+  "id": 121,
+  "code": "VAL-37",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Fundamentos da estatística Kappa e limitações do percentual de concordância simples",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um estudo de reprodutibilidade para implantação de um protocolo de telemedicina no SUS, dois médicos radiologistas avaliaram de modo independente 1.000 mamografias de rastreamento para classificar a presença de microcalcificações suspeitas (presente/ausente). Sabendo-se que a grande maioria das pacientes examinadas não apresentava alterações (mamografias normais), a análise revelou um percentual bruto de concordância simples de 92%. No entanto, o cálculo do coeficiente Kappa de Cohen resultou em 0,38 (concordância pobre a regular). A discrepância observada entre o elevado percentual de concordância global e o baixo valor de Kappa decorre do fato de que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O coeficiente Kappa computa apenas a variação intraobservador ao longo do tempo, desconsiderando a matriz global de desacordos diagnósticos.",
+    "rationale": "Incorreta. O coeficiente Kappa pode ser aplicado tanto à concordância interobservador quanto à intraobservador, e sua fórmula utiliza ativamente todas as células da tabela cruzada para descontar o acordo atribuível ao acaso."
+   },
+   {
+    "letter": "B",
+    "text": "A concordância simples é inflacionada pelo acaso na ampla maioria de casos normais, enquanto o Kappa mensura o ganho além da casualidade.",
+    "rationale": "CORRETA. De acordo com Gordis (Capítulo 5), quando a maioria dos indivíduos testados é negativa (célula de concordância negativa muito alta), os observadores tendem a concordar em números absolutos expressivos puramente em função do acaso e da baixa prevalência do evento. O coeficiente Kappa de Cohen foi desenhado justamente para remover a concordância esperada unicamente pelo acaso, expressando o quanto a concordância observada excede a casual sobre o ganho máximo possível. Por isso, um percentual de concordância de 92% pode traduzir um Kappa baixo (0,38), indicando que a concordância efetiva além do acaso foi pequena."
+   },
+   {
+    "letter": "C",
+    "text": "O percentual simples incorpora a variabilidade biológica dos tecidos, ao passo que a métrica Kappa quantifica somente a precisão instrumental.",
+    "rationale": "Incorreta. O percentual de concordância simples e o coeficiente Kappa são medidas estatísticas de reprodutibilidade de observadores/instrumentos, e nenhum deles mensura diretamente a variabilidade biológica dos tecidos."
+   },
+   {
+    "letter": "D",
+    "text": "A fórmula da concordância bruta superestima erros sistemáticos dos leitores, enquanto o teste Kappa assume independência total entre os métodos.",
+    "rationale": "Incorreta. A concordância simples não superestima erros sistemáticos; pelo contrário, mascara discordâncias relevantes nos casos positivos porque é artificialmente inflacionada pelo grande volume de pares negativos concordantes."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O percentual de concordância simples é inflacionado pelo acaso em eventos raros; a estatística Kappa ajusta a reprodutibilidade excluindo o acordo esperado pelo acaso.",
+  "bookContext": {
+   "text": "Dois examinadores independentes concordarão em uma parcela substancial de exames exclusivamente por forças aleatórias, sobretudo quando há assimetria acentuada na distribuição das categorias diagnósticas. O percentual bruto de concordância mascara discrepâncias críticas em lesões suspeitas ao diluí-las em uma grande massa de laudos normais concordantes. A estatística Kappa quantifica rigorosamente a proporção do aprimoramento possível que foi concretizada acima da probabilidade teórica de acerto casual.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5: Determinação da Validade e Confiabilidade de Testes de Diagnóstico e Rastreamento."
+  },
+  "revisada": true
+ },
+ {
+  "id": 122,
+  "code": "VAL-38",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Estratégias de testagem múltipla: Testes em série (sequenciais) versus em paralelo (simultâneos)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em um programa de controle de uma infecção crônica assintomática, os gestores dispõem de dois exames complementares independentes: o Teste A (rápido e de baixo custo, com sensibilidade de 80% e especificidade de 80%) e o Teste B (mais complexo e oneroso, com sensibilidade de 90% e especificidade de 90%). O comitê discute se deve utilizar os testes em série (sequenciais em dois estágios, realizando o Teste B unicamente naqueles que apresentarem Teste A positivo) ou em paralelo (simultâneos, aplicando ambos conjuntamente e considerando infectado quem tiver resultado positivo em qualquer um deles). Comparada à estratégia em paralelo, a aplicação dos testes em série na mesma população proporcionará:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Maior especificidade líquida acompanhada de redução na sensibilidade líquida do processo.",
+    "rationale": "CORRETA. Conforme demonstrado por Gordis (Capítulo 5) e Fletcher (Capítulo 3), na testagem sequencial (em série), apenas indivíduos positivos no teste inicial realizam o segundo exame, e a confirmação requer positividade em ambos. Esse processo produz um ganho na especificidade líquida (minimizando os falsos-positivos e reduzindo intervenções desnecessárias), mas impõe perda na sensibilidade líquida (indivíduos doentes falso-negativos no primeiro teste são perdidos). Por outro lado, testes em paralelo aumentam a sensibilidade líquida e reduzem a especificidade líquida."
+   },
+   {
+    "letter": "B",
+    "text": "Maior sensibilidade líquida e decréscimo expressivo no volume total de exames aplicados.",
+    "rationale": "Incorreta. A testagem em série resulta em menor sensibilidade líquida quando comparada à paralela, pois o paciente precisa ser positivo em ambos os exames para ser rotulado como caso ao final."
+   },
+   {
+    "letter": "C",
+    "text": "Menor especificidade líquida e eliminação integral de resultados falso-positivos gerados.",
+    "rationale": "Incorreta. A estratégia em série acarreta maior especificidade líquida (e não menor), uma vez que indivíduos negativos no primeiro teste são prontamente descartados e não seguem para confirmação."
+   },
+   {
+    "letter": "D",
+    "text": "Sensibilidade líquida inalterada com variação restrita aos custos operacionais da triagem.",
+    "rationale": "Incorreta. As propriedades operatórias líquidas divergem fortemente: testes em paralelo maximizam a sensibilidade líquida, enquanto testes em série maximizam a especificidade líquida."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Testes em série aumentam a especificidade líquida (menos falsos-positivos); testes em paralelo aumentam a sensibilidade líquida (menos falsos-negativos).",
+  "bookContext": {
+   "text": "A utilização de múltiplos testes combinados constitui a principal manobra metodológica para superar os limites impostos pelo compromisso entre sensibilidade e especificidade. A testagem em série é especialmente vantajosa em programas populacionais porque reserva exames caros ou invasivos apenas para quem positivou na triagem inicial, maximizando a especificidade líquida. Já a testagem em paralelo é a estratégia de escolha quando a urgência clínica não tolera falsos-negativos, como em salas de emergência ou triagem de doadores de órgãos.",
+   "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Capítulo 5: Determinação da Validade e Confiabilidade de Testes de Diagnóstico e Rastreamento."
+  },
+  "revisada": true
+ },
+ {
+  "id": 123,
+  "code": "VAL-39",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Fontes de variabilidade nas aferições clínicas: variação biológica intrassujeito versus variação intraobservador",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um médico de família atende um paciente de 52 anos em consulta de rotina para acompanhamento de hipertensão arterial. Durante a consulta, nota que a pressão arterial do paciente varia consideravelmente entre a aferição inicial na triagem e a aferição após dez minutos de repouso no consultório, além de oscilações circadianas expressivas registradas no diário de monitorização domiciliar, apesar de o esfigmomanômetro estar devidamente calibrado e a técnica ter sido rigorosamente padronizada. Na semana seguinte, durante uma sessão de controle de qualidade do serviço, esse mesmo médico reexamina, de forma cega, um conjunto de traçados eletrocardiográficos que ele próprio havia laudado no mês anterior, constatando que reclassificou como 'sobrecarga ventricular esquerda' três exames que antes havia considerado normais. De acordo com os fundamentos epidemiológicos que regem a confiabilidade e as fontes de variabilidade das medições clínicas, as discrepâncias verificadas na aferição pressórica e na reanálise eletrocardiográfica decorrem, respectivamente, de:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "erro instrumental de medição e variação interobservador decorrente de discordância de critérios diagnósticos.",
+    "rationale": "Incorreta. A primeira situação não decorre de erro instrumental de medição, pois o enunciado assegura que o equipamento estava validado e calibrado e a técnica foi padronizada; além disso, a segunda situação não representa variação interobservador, uma vez que não houve dois ou mais profissionais comparados, mas sim o mesmo examinador reavaliando seus próprios laudos em momentos distintos."
+   },
+   {
+    "letter": "B",
+    "text": "viés sistemático de aferição e erro aleatório amostral decorrente de flutuações no tamanho da amostra.",
+    "rationale": "Incorreta. A variação da pressão arterial não traduz viés sistemático de aferição, o qual exigiria uma distorção constante e unidirecional (como um manguito descalibrado superestimando sistematicamente os valores); ademais, a inconsistência do médico ao reler os traçados não é um erro amostral aleatório do estudo, mas sim uma variação ligada ao observador que compromete a confiabilidade intraobservador."
+   },
+   {
+    "letter": "C",
+    "text": "confiabilidade teste-reteste e variação interobservador decorrente de divergência entre múltiplos peritos.",
+    "rationale": "Incorreta. A confiabilidade teste-reteste é a propriedade psicométrica/metodológica de um instrumento quando reaplicado aos mesmos indivíduos sob condições semelhantes, e não a causa fisiológica da flutuação clínica do paciente; além disso, classificar a reavaliação individual do ECG como variação interobservador é um erro conceitual direto, pois a variação interobservador requer necessariamente a comparação entre examinadores diferentes."
+   },
+   {
+    "letter": "D",
+    "text": "variação biológica intrassujeito e variação intraobservador decorrente de inconsistência do mesmo avaliador.",
+    "rationale": "CORRETA. A oscilação pressórica no mesmo paciente ao longo do dia e em diferentes momentos da consulta exemplifica a variação biológica intrassujeito (intra-indivíduo), que corresponde a flutuações fisiológicas reais da variável clínica decorrentes de fatores como postura, estresse e ritmo circadiano. Já a discrepância na reclassificação dos traçados de ECG reflete a variação intraobservador, definida pela falta de reprodutibilidade de um mesmo avaliador ao analisar o mesmo material em tempos distintos, resultante de fadiga, subjetividade de interpretação ou pequenas variações no limiar perceptual."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A variabilidade global de um dado clínico resulta da soma da variação biológica intrassujeito (flutuação fisiológica do próprio paciente), da variação intraobservador (inconsistência do mesmo profissional) e da variação interobservador ou instrumental.",
+  "bookContext": {
+   "text": "As medições em epidemiologia e na prática clínica estão sujeitas a três fontes principais de variação: a variação biológica intrassujeito, a variação ligada ao observador e a variação decorrente do instrumento. A variação biológica intrassujeito decorre de alterações fisiológicas normais dentro do próprio indivíduo ao longo do tempo, como a oscilação da pressão arterial pelas fases do ciclo circadiano, postura ou estado emocional. Por sua vez, a variação do observador pode se manifestar de duas formas: intraobservador, quando o mesmo profissional emite interpretações divergentes ao reexaminar idêntico material em momentos diferentes, e interobservador, quando avaliadores distintos discordam do achado. Reconhecer essas distinções é crucial para o delineamento de estudos e para a prática clínica, pois instrumentos com grande variabilidade biológica ou subjetividade de leitura exigem repetição seriada de aferições e protocolos rígidos de padronização.",
+   "fonte": "Gordis · Epidemiologia (5ª ed.), Capítulo 5; Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 2."
+  },
+  "revisada": true
+ },
+ {
+  "id": 124,
+  "code": "VAL-40",
+  "assunto": "epi-valid",
+  "category": "Validade e Confiabilidade em Estudos Epidemiológicos",
+  "subcategory": "Área sob a curva ROC (AUC) e capacidade discriminatória global de testes diagnósticos",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma unidade de terapia intensiva, pesquisadores avaliaram dois novos biomarcadores plasmáticos contínuos (Biomarcador Alfa e Biomarcador Beta) para a discriminação precoce entre choque séptico e síndrome da resposta inflamatória sistêmica (SIRS) de origem não infecciosa. A partir de uma amostra de 200 pacientes com diagnóstico confirmado pelo padrão de referência, foram delineadas as respectivas Curvas Características de Operação do Receptor (Curvas ROC), plotando-se no plano cartesiano a sensibilidade (eixo vertical) contra a taxa de falsos-positivos ou 1 – especificidade (eixo horizontal) para toda a faixa de valores dos testes. A análise estatística indicou que o Biomarcador Alfa obteve uma área sob a curva (AUC) de 0,87, enquanto o Biomarcador Beta obteve uma AUC de 0,51, com seu traçado sobrepondo-se à linha diagonal de 45 graus que une a origem (0,0) ao vértice superior direito (1,1). Considerando as bases conceituais da curva ROC e a interpretação de sua área sob a curva, assinale a opção correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O Biomarcador Beta apresenta utilidade clínica para exclusão diagnóstica de sepse, pois sua sobreposição à diagonal de 45 graus indica que o método atinge sensibilidade de 100% no topo da curva.",
+    "rationale": "Incorreta. A sobreposição à diagonal de 45 graus denota completa ausência de capacidade discriminatória (AUC ≈ 0,50). Embora no vértice superior direito (coordenadas 1, 1) a sensibilidade seja de 100%, a taxa de falsos-positivos (1 – especificidade) também é de 100% (especificidade zero), o que equivale a classificar arbitrariamente todos os pacientes como doentes, sem nenhum ganho diagnóstico ou capacidade de exclusão."
+   },
+   {
+    "letter": "B",
+    "text": "A área sob a curva do Biomarcador Alfa expressa elevada precisão instrumental, porém é incapaz de mensurar a acurácia do exame por agregar informações sem definir um ponto de corte absoluto.",
+    "rationale": "Incorreta. A área sob a curva ROC quantifica a acurácia diagnóstica do teste (capacidade de diferenciar indivíduos doentes de sadios contra um padrão-ouro) e não a precisão ou confiabilidade instrumental (reprodutibilidade de medições repetidas). Além disso, sua principal vantagem metodológica é justamente fornecer uma medida global da acurácia que independe da escolha de um único ponto de corte."
+   },
+   {
+    "letter": "C",
+    "text": "O Biomarcador Alfa possui acurácia discriminatória superior à do Biomarcador Beta, cuja proximidade com a diagonal de 45 graus reflete desempenho global equivalente ao do mero acaso.",
+    "rationale": "CORRETA. A área sob a curva ROC (AUC) sintetiza a acurácia global e o poder discriminatório de um teste em toda a sua amplitude de pontos de corte; valores próximos de 1,0 indicam excelente capacidade diagnóstica, como visto no Biomarcador Alfa (AUC = 0,87), cuja curva se aproxima do canto superior esquerdo. Já a linha diagonal de 45 graus representa a linha de não discriminação (onde sensibilidade é igual à taxa de falsos-positivos em cada ponto, gerando AUC de 0,50), demonstrando que o Biomarcador Beta é clinicamente inútil e tem desempenho equivalente ao lançamento de uma moeda."
+   },
+   {
+    "letter": "D",
+    "text": "A área sob a curva ROC de ambos os biomarcadores sofrerá drástica redução se avaliada em enfermarias gerais, visto que a curva ROC é um parâmetro altamente dependente da prevalência da doença.",
+    "rationale": "Incorreta. Diferentemente dos valores preditivos positivo e negativo, que se modificam substancialmente conforme a probabilidade pré-teste (prevalência), a sensibilidade, a especificidade e, consequentemente, a curva ROC e sua área (AUC) são propriedades intrínsecas da capacidade discriminatória do método diagnóstico contra o padrão de referência, não dependendo matematicamente da prevalência da afecção."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A área sob a curva ROC resume a acurácia diagnóstica global de variáveis contínuas; curvas sobre a diagonal de 45° (AUC = 0,50) equivalem ao puro acaso, enquanto maiores áreas refletem superioridade discriminatória.",
+  "bookContext": {
+   "text": "A curva ROC (Receiver Operating Characteristic) é construída graficamente representando a taxa de verdadeiros-positivos (sensibilidade) em função da taxa de falsos-positivos (1 – especificidade) ao longo de sucessivos pontos de corte de uma variável contínua. A área sob a curva (AUC) funciona como um índice sumário da acurácia geral do teste, expressando a probabilidade de que um indivíduo doente selecionado aleatoriamente apresente um resultado mais indicativo de doença do que um indivíduo sadio. A diagonal ascendente que liga (0,0) a (1,1) reflete a ausência total de discriminação diagnóstica (AUC = 0,50), na qual a proporção de acertos em doentes é rigorosamente idêntica à proporção de erros em não doentes, correspondendo ao mero acaso. Quanto mais a curva se projeta em direção ao ângulo superior esquerdo, maior é a área sob a curva e maior o poder discriminatório do teste, permitindo comparar exames concorrentes de forma objetiva sem a necessidade de fixar previamente um limiar arbitrário.",
+   "fonte": "Fletcher · Epidemiologia Clínica: elementos essenciais (4ª ed.), Capítulo 3; Rouquayrol · Epidemiologia & Saúde (8ª ed.), Capítulo 8."
+  },
+  "revisada": true
  }
 ]
