@@ -21,9 +21,11 @@ for m in materias:
                  .replace('{{BANCO}}', json.dumps(banco, ensure_ascii=False, indent=1)))
     os.makedirs(os.path.join(RAIZ, m['pasta']), exist_ok=True)
     open(os.path.join(RAIZ, m['pasta'], 'index.html'), 'w', encoding='utf-8').write(pagina)
-    assuntos = sorted({q['category'] for q in banco})
+    assuntos = sorted({q['category'] for q in banco if not q.get('lista')})
+    listas = sorted({q['lista'] for q in banco if q.get('lista')})
+    extra = f' · {len(listas)} listas de aula' if listas else ''
     cartoes.append(f'<a class="card" href="{m["pasta"]}/"><span>{m["emoji"]}</span><div><b>{html.escape(m["nome"])}</b>'
-                   f'<small>{len(banco)} questões · {len(assuntos)} assuntos</small></div><i>→</i></a>')
+                   f'<small>{len(banco)} questões · {len(assuntos)} assuntos{extra}</small></div><i>→</i></a>')
     print(f'{m["pasta"]}/index.html: {len(banco)} questões')
 
 idx = os.path.join(RAIZ, 'index.html')

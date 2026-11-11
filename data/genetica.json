@@ -7558,5 +7558,1781 @@
    "fonte": "Thompson & Thompson - Genética Médica, Capítulo 18 (Aplicação da Genômica à Medicina e Cuidados de Saúde Personalizados) e Slide da aula (Farmacogenética)."
   },
   "revisada": true
+ },
+ {
+  "id": 188,
+  "code": "LFARM-01",
+  "lista": "farmaco",
+  "category": "Lista de aula · Farmacogenética",
+  "subcategory": "Conceitos Fundamentais de Farmacogenética e Farmacocinética versus Farmacodinâmica",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Assinale a alternativa INCORRETA sobre alguns conceitos fundamentais da farmacogenética.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "É a ciência, que estuda como diferentes fatores genéticos influenciam a variação da resposta ao uso de fármacos.",
+    "rationale": "Incorreta. A farmacogenética é formalmente definida como o ramo da genética médica e farmacologia que estuda a base genética da variabilidade interindividual na resposta a agentes terapêuticos, xenobióticos e medicamentos, analisando desde predisposições genéticas a reações adversas até falhas de eficácia terapêutica."
+   },
+   {
+    "letter": "B",
+    "text": "Seus alvos mais importantes são os genes que codificam enzimas responsáveis pela farmacocinética (interação com receptores) e, também, pela farmacodinâmica (absorção, metabolismo e excreção) dos medicamentos.",
+    "rationale": "CORRETA. Falsa (e alternativa que responde à questão por ser incorreta). Houve uma inversão conceitual deliberada entre farmacocinética e farmacodinâmica: a farmacocinética estuda o destino do fármaco no corpo e abrange a taxa na qual o organismo absorve, transporta, metaboliza e excreta o fármaco ('o que o organismo faz com o fármaco'), enquanto a farmacodinâmica analisa a interação com alvos biológicos, como receptores, canais iônicos e cascatas de sinalização celular ('o que o fármaco faz ao organismo')."
+   },
+   {
+    "letter": "C",
+    "text": "De acordo com a característica observada na atividade enzimática do indivíduo, o fenótipo pode ser dividido em quatro categorias de metabolizadores: lentos, intermediários, extensivos e ultrarrápidos.",
+    "rationale": "Incorreta. Tradicionalmente, com base no perfil de atividade enzimática frente a determinados substratos, os indivíduos são categorizados fenotipicamente em quatro classes principais: metabolizadores lentos (PM - poor metabolizers), intermediários (IM - intermediate metabolizers), extensivos ou normais (EM - extensive metabolizers) e ultrarrápidos (UM - ultrarapid metabolizers)."
+   },
+   {
+    "letter": "D",
+    "text": "Os pacientes com atividade enzimática normal são chamados de metabolizadores extensivos.",
+    "rationale": "Incorreta. Os metabolizadores extensivos (EM) correspondem aos indivíduos com atividade enzimática fisiológica normal (geralmente portadores de dois alelos funcionais do tipo selvagem), representando a maioria da população e servindo de referência para as doses terapêuticas padronizadas em ensaios clínicos."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A farmacocinética compreende a absorção, distribuição, metabolismo e excreção de medicamentos, enquanto a farmacodinâmica foca nas respostas teciduais e interações moleculares com receptores e alvos biológicos.",
+  "bookContext": {
+   "text": "A variação genética afeta a terapêutica de duas maneiras fundamentais: alterando a taxa com que o organismo absorve, distribui, metaboliza e excreta o fármaco (farmacocinética) ou alterando a sensibilidade e o sítio de ação do fármaco no tecido-alvo (farmacodinâmica). No genoma humano, as enzimas da superfamília do citocromo P450, transportadores de efluxo como a glicoproteína-P (codificada pelo gene MDR1/ABCB1) e complexos imunológicos (como os alelos HLA) constituem os principais determinantes dessas variações. O reconhecimento das quatro classes funcionais de metabolizadores permite predizer concentrações séricas e prevenir toxicidade grave ou ineficácia terapêutica.",
+   "fonte": "Livro Thompson & Thompson Genética Médica (Capítulo 18: Farmacogenômica) e Slides da Aula VAT2: Farmacogenética"
+  },
+  "revisada": true
+ },
+ {
+  "id": 189,
+  "code": "LFARM-02",
+  "lista": "farmaco",
+  "category": "Lista de aula · Farmacogenética",
+  "subcategory": "Medicina Personalizada e Objetivos Clínicos da Farmacogenômica",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "A farmacogenômica e a medicina personalizada são áreas emergentes na farmácia, enfatizando a personalização dos tratamentos farmacológicos com base na genética individual. Esta abordagem pode melhorar significativamente a eficácia e segurança dos medicamentos. Qual é o principal benefício da farmacogenômica na prática farmacêutica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Uniformizar os tratamentos para todos os pacientes.",
+    "rationale": "Incorreta. O princípio da medicina personalizada e da farmacogenômica contrapõe-se diretamente à prática empírica de dose única universal ('one size fits all'), buscando a estratificação dos pacientes segundo seus perfis alélicos específicos."
+   },
+   {
+    "letter": "B",
+    "text": "Ajustar os tratamentos farmacológicos às características genéticas individuais.",
+    "rationale": "CORRETA. O benefício basilar e finalidade primordial da farmacogenômica na prática clínica e farmacêutica é permitir o ajuste posológico racional e a escolha direcionada dos medicamentos às peculiaridades genéticas de cada indivíduo, maximizando a eficácia terapêutica e minimizando o risco de reações adversas a medicamentos (RAM)."
+   },
+   {
+    "letter": "C",
+    "text": "Evitar o uso de tecnologias avançadas na prescrição de medicamentos.",
+    "rationale": "Incorreta. Pelo contrário, a implementação prática da farmacogenômica requer e estimula o uso de plataformas moleculares e biotecnológicas avançadas, incluindo genotipagem por PCR em tempo real, microarranjos e sequenciamento de nova geração (NGS)."
+   },
+   {
+    "letter": "D",
+    "text": "Concentrar-se exclusivamente em medicamentos tradicionais, evitando inovações.",
+    "rationale": "Incorreta. A disciplina estimula o desenvolvimento e a prescrição de terapias-alvo inovadoras, como anticorpos monoclonais e moduladores enzimáticos específicos, sem limitar-se a medicamentos tradicionais ou empíricos."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O objetivo primordial da farmacogenômica consiste em customizar a escolha e a dosagem dos fármacos às peculiaridades genômicas de cada paciente, superando a abordagem empírica de dose única.",
+  "bookContext": {
+   "text": "Falhas terapêuticas e reações adversas graves constituem uma das principais causas de hospitalização e óbito no ambiente hospitalar moderno. A transição da farmacogenética clássica (focada em variantes monogênicas de enzimas metabolizadoras) para a farmacogenômica de larga escala visa integrar variantes somáticas e germinativas em múltiplos loci para selecionar o fármaco correto na dose exata de primeira intenção. Exemplos clínicos consagrados incluem a triagem do alelo HLA-B*5701 antes do início do tratamento com abacavir para prevenir síndrome de Stevens-Johnson letal e o ajuste de varfarina com base nos genes VKORC1 e CYP2C9.",
+   "fonte": "Livro Thompson & Thompson Genética Médica (Capítulo 18: Farmacogenômica) e Slides da Aula VAT2: Farmacogenética"
+  },
+  "revisada": true
+ },
+ {
+  "id": 190,
+  "code": "LFARM-03",
+  "lista": "farmaco",
+  "category": "Lista de aula · Farmacogenética",
+  "subcategory": "Ajuste Posológico em Drogas Ativas versus Pró-fármacos e Fenótipos Metabolizadores",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Assinale a alternativa correta quanto a administração de doses:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Um metabolizador ultrarrápido deve receber uma dose menor que a padrão, caso o medicamento contenha a droga ativa.",
+    "rationale": "Incorreta. Quando se administra uma droga já em sua forma ativa a um metabolizador ultrarrápido, a enzima metabolizadora a inativa e degrada com rapidez muito superior à usual. Consequentemente, a dose padrão ou uma dose reduzida não atinge a janela terapêutica plasmática, sendo necessária uma dose maior (ou encurtamento do intervalo posológico, ou ainda troca por classe terapêutica alternativa)."
+   },
+   {
+    "letter": "B",
+    "text": "Um metabolizador ultrarrápido deve receber uma dose menor que a padrão, caso o medicamento contenha uma pré-droga.",
+    "rationale": "CORRETA. Em uma pré-droga (pró-fármaco), o composto administrado é inativo e depende estritamente da biotransformação enzimática para converter-se no metabólito terapêutico ativo (como ocorre na conversão da codeína em morfina via CYP2D6). Em metabolizadores ultrarrápidos, essa ativação acontece de forma descontrolada e exacerbada, atingindo rapidamente concentrações plasmáticas tóxicas do metabólito ativo com a dose padrão; logo, caso a pré-droga venha a ser utilizada, a dose deve ser reduzida em relação à dose padrão para evitar intoxicação e overdose."
+   },
+   {
+    "letter": "C",
+    "text": "Um metabolizador lento deve receber uma dose menor que a padrão, caso o medicamento contenha uma pré-droga.",
+    "rationale": "Incorreta. O paciente metabolizador lento possui pouca ou nenhuma atividade enzimática capaz de biotransformar a pré-droga em sua molécula ativa. Reduzir a dose abaixo do padrão agravaria ainda mais a falta de efeito biológico, resultando em ausência completa de resposta terapêutica; a conduta adequada para metabolizadores lentos recebendo pré-drogas é a substituição por um fármaco que não dependa dessa rota de ativação metabólica."
+   },
+   {
+    "letter": "D",
+    "text": "Um metabolizador lento deve receber uma dose maior que o padrão, caso o medicamento contenha a droga ativa.",
+    "rationale": "Incorreta. Para uma droga ativa, o metabolizador lento apresenta taxa reduzida de depuração (clearance) e inativação, acumulando o composto ativo no organismo até níveis plasmáticos tóxicos. Administrar uma dose maior que a padrão precipitaria efeitos adversos graves e toxicidade aguda; o indicado para droga ativa em metabolizador lento é prescrever uma dose menor que a padrão."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Para pró-fármacos, metabolizadores ultrarrápidos convertem o composto excessivamente rápido em seu metabólito ativo, exigindo redução da dose (ou troca do medicamento) para evitar overdose e toxicidade.",
+  "bookContext": {
+   "text": "A biotransformação farmacológica via enzimas microssomais, como o complexo CYP450, possui implicações clínicas diametralmente opostas a depender de o fármaco ser um agente farmacologicamente ativo ou um pró-fármaco. Na analgesia com codeína, a fração analgésica relevante depende de sua O-desmetilação para morfina por CYP2D6; metabolizadores ultrarrápidos podem desenvolver depressão respiratória fatal com doses terapêuticas habituais de codeína, conforme relatado em casos pediátricos e puérperas. Por outro lado, para fármacos que já entram ativos no organismo e necessitam do citocromo para sua desintoxicação e excreção (como a nortriptilina), os metabolizadores ultrarrápidos enfrentam falha terapêutica por subexposição, enquanto os metabolizadores lentos acumulam concentrações tóxicas a menos que a dosagem seja substancialmente reduzida.",
+   "fonte": "Livro Thompson & Thompson Genética Médica (Capítulo 18: Farmacogenômica, seções 'Variação na Resposta Farmacocinética' e 'Figura 18-3') e Slides da Aula VAT2: Farmacogenética"
+  },
+  "revisada": true
+ },
+ {
+  "id": 191,
+  "code": "LFARM-04",
+  "lista": "farmaco",
+  "category": "Lista de aula · Farmacogenética",
+  "subcategory": "Polimorfismo Genético do CYP2D6, Escore de Atividade Alélica e Ajuste Terapêutico",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Analise a tabela e marque a alternativa incorreta:",
+  "visualHtml": "<div style=\"overflow-x:auto\"><p class=\"text-sm font-semibold mb-1\">Fenótipos metabolizadores resultantes de diversas combinações de alelos <i>CYP2D6</i></p><table style=\"border-collapse:collapse;font-size:.85rem;min-width:420px\" border=\"1\" cellpadding=\"4\"><tr><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\" rowspan=\"2\">Alelo no outro cromossomo</th><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\" colspan=\"4\">Alelo em um cromossomo</th></tr><tr><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Tipo selvagem</th><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Reduzido</th><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Ausente</th><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Aumentado</th></tr><tr><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Tipo selvagem</th><td style=\"border:1px solid #94a3b8;padding:4px 8px\">Normal</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\"></td><td style=\"border:1px solid #94a3b8;padding:4px 8px\"></td><td style=\"border:1px solid #94a3b8;padding:4px 8px\"></td></tr><tr><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Reduzido</th><td style=\"border:1px solid #94a3b8;padding:4px 8px\">Normal</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\">Lento</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\"></td><td style=\"border:1px solid #94a3b8;padding:4px 8px\"></td></tr><tr><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Ausente</th><td style=\"border:1px solid #94a3b8;padding:4px 8px\">Normal</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\">Lento</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\">Lento</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\"></td></tr><tr><th style=\"border:1px solid #94a3b8;padding:4px 8px;background:rgba(148,163,184,.15)\">Aumentado</th><td style=\"border:1px solid #94a3b8;padding:4px 8px\">Ultrarrápido</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\">—</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\">—</td><td style=\"border:1px solid #94a3b8;padding:4px 8px\">—</td></tr></table></div>",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indivíduos com dois alelos do tipo Selvagem não deverão ter sua dose de codeína ajustada pelo médico.",
+    "rationale": "Incorreta. Pela tabela de combinações alélicas do CYP2D6, o genótipo Tipo selvagem + Tipo selvagem resulta no fenótipo metabolizador Normal (extensivo). Como a codeína é um pró-fármaco que tem conversão equilibrada em morfina nesses pacientes, a dose padrão habitual garante analgesia eficaz com baixíssimo risco de intoxicação, dispensando ajustes posológicos."
+   },
+   {
+    "letter": "B",
+    "text": "Indivíduos com dois alelos Ausentes devem ser medicados com uma dose menor do que a padrão de Nortriptilina.",
+    "rationale": "Incorreta. O genótipo Ausente + Ausente acarreta perda bialélica de função do CYP2D6, conferindo o fenótipo de metabolizador Lento. A nortriptilina é um antidepressivo tricíclico administrado em sua forma ativa e inativado pelo CYP2D6; metabolizadores lentos apresentam depuração significativamente prejudicada, necessitando de uma dose diária muito menor (cerca de 20 a 50 mg/dia versus 100 a 150 mg/dia no padrão) para evitar toxicidade cardiológica e neurológica."
+   },
+   {
+    "letter": "C",
+    "text": "Indivíduos com um alelo do tipo Selvagem e outro Aumentado não experimentariam os efeitos terapêuticos da Nortriptilina com a dose padrão.",
+    "rationale": "Incorreta. A combinação de um alelo Aumentado com um Tipo selvagem resulta em fenótipo metabolizador Ultrarrápido. Como a nortriptilina é uma droga ativa cuja eliminação é acelerada pela hiperatividade do CYP2D6, os níveis séricos do fármaco sob dose padrão não ultrapassam o limiar mínimo de eficácia clínica, fazendo com que o indivíduo não experimente o benefício antidepressivo esperado."
+   },
+   {
+    "letter": "D",
+    "text": "Indivíduos com alelo Reduzido e outro Ausente não devem ter as doses de seus medicamentos alteradas.",
+    "rationale": "CORRETA. Falsa (e alternativa que responde à questão por ser incorreta). Segundo a própria matriz da tabela fornecida, a interação entre um alelo Reduzido e um alelo Ausente resulta no fenótipo metabolizador Lento. Indivíduos metabolizadores lentos possuem retenção anormal de drogas ativas e incapacidade de ativar pré-drogas, tornando mandatória a modificação da posologia padrão (redução de dose ou substituição de fármacos) sob pena de toxicidade severa ou ineficácia terapêutica absoluta."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O cruzamento de um alelo Reduzido com um Ausente gera um fenótipo metabolizador lento, que demanda obrigatoriamente ajuste de dose para evitar acúmulo tóxico de fármacos ativos.",
+  "bookContext": {
+   "text": "O gene CYP2D6 exibe notável polimorfismo alélico com mais de 100 variantes catalogadas, que englobam alelos com atividade normal (tipo selvagem, ex: *1, *2), atividade reduzida (*9, *10, *41), ausência completa de atividade (*3, *4, *5 com deleção total) e alelos de função aumentada decorrentes de eventos de duplicação gênica (*1xN, *2xN). A determinação do 'escore de atividade' prediz de forma precisa o fenótipo de metabolização. Pacientes classificados como metabolizadores lentos (compostos heterozigotos nulos ou com alelos reduzidos/ausentes) que utilizam substratos de estreito índice terapêutico, como antiarrítmicos e antidepressivos tricíclicos, sofrem risco iminente de prolongamento do intervalo QTc e arritmias ventriculares fatais caso não haja redução agressiva da posologia.",
+   "fonte": "Livro Thompson & Thompson Genética Médica (Capítulo 18, Tabela 18-3 e Tabela de Combinações de Alelos CYP2D6) e Slides da Aula VAT2: Farmacogenética (Figura 2: Relação genótipo-fenótipo do CYP2D6)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 192,
+  "code": "LFARM-05",
+  "lista": "farmaco",
+  "category": "Lista de aula · Farmacogenética",
+  "subcategory": "Perfis de metabolização e risco de reações adversas",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "A farmacogenética busca identificar os perfis de melhor resposta aos medicamentos e aqueles perfis de risco para reações adversas, tornando a terapia mais individualizada. Nessa linha de pensamento, se identificou a presença de metabolizadores rápidos, lentos e intermediários dos medicamentos. De acordo com a genética de cada indivíduo, qual o perfil de metabolizador que apresenta o menor risco de reação adversa?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Metabolizador intermediário.",
+    "rationale": "Incorreta. Incorreta (Falsa). O metabolizador intermediário apresenta redução parcial da atividade enzimática em relação ao metabolizador rápido/extenso, acumulando concentrações mais elevadas do fármaco e apresentando risco intermediário de reações adversas."
+   },
+   {
+    "letter": "B",
+    "text": "Tipos de metabolizador não interferem nas reações adversas.",
+    "rationale": "Incorreta. Incorreta (Falsa). O perfil metabólico afeta diretamente a depuração plasmática, o tempo de meia-vida do composto e as concentrações em estado de equilíbrio, interferindo decisivamente no risco de toxicidade e reações adversas."
+   },
+   {
+    "letter": "C",
+    "text": "Metabolizador rápido.",
+    "rationale": "CORRETA. Correta (Verdadeira). Em fármacos administrados na sua forma ativa, o metabolizador rápido (frequentemente correspondente ao metabolizador normal/extenso) biotransforma e inativa a molécula com eficiência prevista, evitando o acúmulo tóxico sistêmico e garantindo o menor risco de reações adversas por superdosagem relativa."
+   },
+   {
+    "letter": "D",
+    "text": "Metabolizador lento.",
+    "rationale": "Incorreta. Incorreta (Falsa). O metabolizador lento possui ausência ou atividade enzimática residual para inativar o medicamento, levando ao acúmulo da droga livre na circulação sistêmica e ao maior risco de reações adversas e toxicidade."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O perfil de metabolização dita a velocidade de biotransformação e excreção dos fármacos ativos. Indivíduos metabolizadores rápidos processam o medicamento de modo eficiente, mantendo-o na janela terapêutica e minimizando o risco de acúmulo tóxico e reações adversas.",
+  "bookContext": {
+   "text": "A variação na resposta farmacológica individual frequentemente decorre de polimorfismos genéticos em enzimas de metabolização, como as da família do citocromo P450 (CYP2D6, CYP2C19, CYP2C9). Nos indivíduos classificados como metabolizadores lentos, doses convencionais de fármacos ativos geram níveis séricos supraterapêuticos, precipitando toxicidade clínica grave. Por outro lado, os metabolizadores rápidos e normais conseguem depurar a substância no ritmo esperado, preservando a segurança do tratamento. Esse conhecimento é a base da farmacogenética para a individualização de doses e a redução de hospitalizações por reações adversas evitáveis.",
+   "fonte": "Aula VAT2 · Farmacogenética e Thompson & Thompson · Genética Médica, Cap. 18 (Farmacogenômica)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 193,
+  "code": "LFARM-06",
+  "lista": "farmaco",
+  "category": "Lista de aula · Farmacogenética",
+  "subcategory": "Conceito e alvos moleculares da farmacogenética",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Os testes farmacogenéticos são recomendados para auxiliar na escolha da melhor droga e na melhor dose, aumentando as chances de sucesso do tratamento. Analise as assertivas abaixo sobre farmacogenética.\nI. Estuda como diferentes fatores ambientais associados aos hábitos de vida influenciam a variação da resposta ao uso de fármacos.\nII. Seus alvos mais importantes são os genes que codificam enzimas responsáveis pela interação com receptores e também pela absorção, metabolismo e excreção dos medicamentos.\nIII. Tem o potencial de melhorar a qualidade e a segurança dos medicamentos, a eficiência do desenvolvimento de medicamentos e o tratamento de pacientes.\nÉ correto o que se afirma em:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "I e II, somente.",
+    "rationale": "Incorreta. Incorreta (Falsa). Embora a proposição II seja verdadeira, a proposição I é incorreta por atribuir à farmacogenética o estudo centrado unicamente em fatores ambientais e comportamentais."
+   },
+   {
+    "letter": "B",
+    "text": "I, II e III.",
+    "rationale": "Incorreta. Incorreta (Falsa). A proposição I é falsa, invalidando a alternativa que assume todas como verdadeiras."
+   },
+   {
+    "letter": "C",
+    "text": "I e III, somente.",
+    "rationale": "Incorreta. Incorreta (Falsa). A proposição I é falsa e a proposição II é verdadeira, o que torna esta opção incorreta."
+   },
+   {
+    "letter": "D",
+    "text": "II e III, somente.",
+    "rationale": "CORRETA. Correta (Verdadeira). As proposições II e III estão corretas. A proposição I é falsa porque a farmacogenética foca primariamente na variabilidade genética herdada que condiciona a resposta terapêutica. A assertiva II descreve os alvos canônicos da farmacogenética (receptores e enzimas LADME: absorção, distribuição, metabolismo e eliminação) e a III sintetiza seu potencial para a segurança e o desenvolvimento de fármacos."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A farmacogenética investiga como as mutações e polimorfismos no DNA modulam a interação dos fármacos com receptores, transportadores e enzimas metabolizadoras. Essa abordagem visa aperfeiçoar o desenvolvimento farmacêutico e individualizar as condutas terapêuticas.",
+  "bookContext": {
+   "text": "A farmacogenética lida com as variações herdadas na sequência do DNA que provocam diferenças na farmacocinética (absorção, distribuição, metabolismo e excreção) e farmacodinâmica (alvos e receptores). Genes que codificam proteínas transportadoras, como o gene MDR1 (glicoproteína-P), e enzimas de fase I e II, como NAT2 e complexos CYP450, são alvos centrais de estudo. Fatores ambientais, estilo de vida e comorbidades afetam o paciente, mas o escopo definidor da farmacogenética é a base genômica dessa variabilidade. Compreender esses mecanismos permite à indústria farmacêutica desenhar fármacos mais específicos e aos médicos prever a eficácia antes de iniciar a terapia.",
+   "fonte": "Aula VAT2 · Farmacogenética e Thompson & Thompson · Genética Médica, Cap. 18 (Farmacogenômica)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 194,
+  "code": "LFARM-07",
+  "lista": "farmaco",
+  "category": "Lista de aula · Farmacogenética",
+  "subcategory": "Medicina personalizada e aplicação clínica dos testes genéticos",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "A medicina personalizada é uma abordagem de saúde que utiliza informações genéticas, ambientais e de estilo de vida para adaptar tratamentos e prevenir doenças de forma individualizada. Ela permite a escolha de terapias mais eficazes e seguras, com base no perfil genético de cada paciente. Sobre a medicina personalizada, analise as proposições abaixo:\nI. Testes farmacogenéticos já estão amplamente integrados à prática clínica e são obrigatórios em todos os tratamentos oncológicos.\nII. A farmacogenética considerada como a variação nos genes de um indivíduo pode influenciar a eficácia e a segurança dos medicamentos.\nIII. A farmacogenética incluiu o estudo de como os polimorfismos genéticos influenciam o metabolismo e/ou distribuição de fármacos.\nÉ correto o que se afirma em:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Apenas III",
+    "rationale": "Incorreta. Incorreta (Falsa). A proposição II também é estritamente verdadeira, não sendo apenas a assertiva III correta."
+   },
+   {
+    "letter": "B",
+    "text": "Apenas I e III",
+    "rationale": "Incorreta. Incorreta (Falsa). A proposição I é falsa, pois a testagem genética pré-tratamento não é obrigatória para todos os tratamentos oncológicos nem está universalmente integrada a todas as rotinas clínicas."
+   },
+   {
+    "letter": "C",
+    "text": "Apenas II e III",
+    "rationale": "CORRETA. Correta (Verdadeira). As proposições II e III são verdadeiras, e a proposição I é falsa. A variação genética comprovadamente afeta a eficácia e segurança (II) e os polimorfismos em genes de metabolização e distribuição são pilares da área (III), enquanto a obrigatoriedade e integração universal irrestrita na oncologia (I) constituem um erro conceitual."
+   },
+   {
+    "letter": "D",
+    "text": "Apenas I e II",
+    "rationale": "Incorreta. Incorreta (Falsa). A proposição I é falsa e a proposição III é verdadeira, inviabilizando esta composição."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A medicina de precisão busca correlacionar variantes e polimorfismos genéticos com o comportamento farmacocinético e farmacodinâmico dos medicamentos. Apesar dos avanços em terapias-alvo oncológicas, os testes farmacogenéticos não são obrigatórios para a totalidade dos esquemas terapêuticos.",
+  "bookContext": {
+   "text": "A farmacogenômica constitui o cerne da medicina personalizada, permitindo correlacionar perfis genotípicos específicos a respostas terapêuticas previsíveis. Na oncologia, terapias direcionadas exigem a identificação de biomarcadores somáticos ou germinativos em casos específicos, como mutações em EGFR e translocações ALK no câncer pulmonar ou superexpressão de HER2 no câncer de mama. Entretanto, a exigência de testes não é universal nem compulsória para todo e qualquer protocolo quimioterápico. Barreiras como custo, carência de ensaios clínicos randomizados de custo-efetividade e a necessidade de validação de novos marcadores ainda limitam a sua implementação como procedimento obrigatório generalizado.",
+   "fonte": "Aula VAT2 · Farmacogenética e Thompson & Thompson · Genética Médica, Cap. 15 e 18"
+  },
+  "revisada": true
+ },
+ {
+  "id": 195,
+  "code": "LONCO-01",
+  "lista": "onco",
+  "category": "Lista de aula · Oncogenética",
+  "subcategory": "Bases moleculares do câncer e oncogenes",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Em relação a oncogenes e câncer, assinale a alternativa incorreta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Câncer é causado por alterações em oncogenes, genes supressores tumorais e genes apoptóticos.",
+    "rationale": "Incorreta. Afirmação verdadeira. O processo de carcinogênese decorre fundamentalmente de anomalias genéticas e epigenéticas que afetam três classes centrais de genes: os proto-oncogenes (que são hiperativados em oncogenes promotores de crescimento), os genes supressores de tumor (que perdem a capacidade de frear o ciclo celular ou manter a integridade genômica) e os genes reguladores da apoptose (cuja perda de função pró-apoptótica ou ativação antiapoptótica impede a morte programada de células danificadas)."
+   },
+   {
+    "letter": "B",
+    "text": "Uma única alteração genética é suficiente para o desenvolvimento de um tumor malígno.",
+    "rationale": "CORRETA. Afirmação falsa (portanto, é a alternativa incorreta que responde à questão). A formação de uma neoplasia maligna é um processo multistep (em múltiplas etapas) que requer o acúmulo sucessivo e cooperativo de diversas mutações condutoras (driver mutations) e alterações epigenéticas ao longo do tempo. Uma única alteração genética isolada é insuficiente para transformar uma célula normal em um fenótipo maligno invasivo, sendo necessária a superação progressiva de múltiplos pontos de controle celular, mecanismos de reparo do DNA, senescência e vigilância imunológica."
+   },
+   {
+    "letter": "C",
+    "text": "Oncogenes codificam proteínas que controlam a proliferação celular, apoptose, ou ambas.",
+    "rationale": "Incorreta. Afirmação verdadeira. Os oncogenes codificam proteínas fisiológicas essenciais pertencentes às vias de sinalização celular (como ligantes de fatores de crescimento, receptores tirosina-quinase, transdutores citoplasmáticos de sinal como RAS e fatores de transcrição nucleares como MYC), as quais estimulam diretamente a progressão do ciclo celular e a proliferação, além de inibirem vias de apoptose (como no caso do BCL2), promovendo sobrevida clonal."
+   },
+   {
+    "letter": "D",
+    "text": "Ativação de oncogenes por rearranjos de cromossomos, mutações e amplificação de genes confere uma vantagem de crescimento ou aumento da sobrevida das células que carreiam essas alterações.",
+    "rationale": "Incorreta. Afirmação verdadeira. A conversão de um proto-oncogene em oncogene ocorre por mecanismos bem estabelecidos de ganho de função, tais como mutações pontuais ativadoras (ex.: mutações no códon 12 de KRAS), translocações cromossômicas com criação de genes quiméricos ou justaposição a promotores ativos (ex.: BCR-ABL1 na LMC ou IGH-MYC no linfoma de Burkitt) e amplificação gênica (ex.: amplificação de N-MYC em neuroblastomas). Todas essas alterações conferem vantagem proliferativa e de sobrevivência às células portadoras."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A oncogênese é um processo clonal cumulativo e em múltiplas etapas; uma única mutação não confere todas as capacidades biológicas necessárias para a malignização tecidual.",
+  "bookContext": {
+   "text": "De acordo com os fundamentos descritos em Thompson & Thompson (Capítulo 15), o desenvolvimento do câncer baseia-se na teoria da evolução clonal somática. As células adquirem inicialmente mutações condutoras que aumentam ligeiramente sua taxa proliferativa ou diminuem sua sensibilidade à apoptose. Com a consequente expansão do clone e a instabilidade genômica progressiva, novas mutações em outros genes condutores e vias supressoras (como TP53 e RB1) vão sendo selecionadas. Assim, um carcinoma invasivo típico requer mutações cooperativas em múltiplos genes ao longo de anos ou décadas.",
+   "fonte": "Livro Thompson & Thompson - Genética Médica, Cap. 15 (Genética e Genômica do Câncer) e Aula VAT2 · Oncogenética (slide Classes de genes associados com o câncer)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 196,
+  "code": "LONCO-02",
+  "lista": "onco",
+  "category": "Lista de aula · Oncogenética",
+  "subcategory": "Biologia tumoral, diferenciação e níveis de prevenção",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Câncer é um termo que abrange mais de 100 diferentes tipos de doenças malignas que têm em comum o crescimento desordenado de células, que podem invadir tecidos adjacentes ou órgãos à distância. Dividindo-se rapidamente, estas células tendem a ser muito agressivas e incontroláveis, determinando a formação de tumores, que podem espalhar-se para outras regiões do corpo. Os diferentes tipos de câncer correspondem aos vários tipos de células do corpo (INCA, 2020).\nAssinale a alternativa correta em relação ao câncer.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O câncer é caracterizado por células que crescem descontroladamente de maneira agressiva e locorregional.",
+    "rationale": "Incorreta. Afirmação falsa. O erro reside na restrição do crescimento a um padrão 'locorregional'. Embora o tumor se inicie localmente e possa invadir tecidos adjacentes, a característica definidora e mais agressiva das neoplasias malignas é a capacidade de embolização vascular e linfática, disseminando-se para sítios anatômicos distantes (metástases)."
+   },
+   {
+    "letter": "B",
+    "text": "Quanto mais indiferenciadas são as células cancerígenas, mais agressivo é o tumor.",
+    "rationale": "CORRETA. Afirmação verdadeira (portanto, responde à questão). Na anaplasia e graduação histopatológica, o grau de desdiferenciação celular está diretamente associado à agressividade tumoral. Células indiferenciadas ou pouco diferenciadas perderam as características estruturais e funcionais especializadas do tecido de origem, apresentando intenso pleomorfismo, alta taxa mitótica atípica, rápido crescimento e maior potencial metastático e invasivo."
+   },
+   {
+    "letter": "C",
+    "text": "Quanto mais parecidas com as células do tecido original, mais rápido o câncer se desenvolverá.",
+    "rationale": "Incorreta. Afirmação falsa. Células neoplásicas muito parecidas com o tecido de origem são consideradas bem diferenciadas (baixo grau histológico). Em regra biológica, tumores bem diferenciados apresentam ritmo proliferativo mais brando, evolução temporal mais lenta e menor agressividade quando comparados aos tumores anaplásicos ou indiferenciados."
+   },
+   {
+    "letter": "D",
+    "text": "Pacientes em prevenção secundária apresentam pouca chance de cura.",
+    "rationale": "Incorreta. Afirmação falsa. A prevenção secundária compreende o diagnóstico precoce e as estratégias de rastreamento (screening) em fases assintomáticas ou incipientes da história natural da doença. Pacientes diagnosticados nessa fase apresentam as maiores probabilidades de controle clínico e taxas de cura curativa, pois o tumor ainda não atingiu grandes volumes nem sofreu disseminação metastática."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A diferenciação celular correlaciona-se inversamente com a malignidade: tumores indiferenciados e anaplásicos possuem comportamento biológico consideravelmente mais agressivo.",
+  "bookContext": {
+   "text": "O estadiamento e a graduação histopatológica são pilares fundamentais da prática oncogenética e clínica. Enquanto o estadiamento clínico (como o sistema TNM) avalia a extensão anatômica do tumor primário, o acometimento linfonodal e as metástases à distância, o grau histológico quantifica a fidelidade arquitetural e citológica do tumor em relação ao tecido normal de origem. Tumores indiferenciados frequentemente expressam assinaturas moleculares ligadas à transição epitélio-mesênquima e perda de adesão por caderinas, facilitando a invasão precoce da matriz extracelular.",
+   "fonte": "Aula VAT2 · Oncogenética (slides 'Processo e estrutura do sistema de atenção à saúde' e 'Objetivos do Estadiamento') e Livro Thompson & Thompson - Genética Médica, Cap. 15"
+  },
+  "revisada": true
+ },
+ {
+  "id": 197,
+  "code": "LONCO-03",
+  "lista": "onco",
+  "category": "Lista de aula · Oncogenética",
+  "subcategory": "Epidemiologia do câncer e fatores de risco ambientais vs. genéticos",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "O câncer não tem uma causa única. Há diversas causas externas (presentes no meio ambiente) e internas (como hormônios, condições imunológicas e mutações genéticas). Os fatores podem interagir de diversas formas, dando início ao surgimento do câncer. Entende-se por ambiente o meio em geral (água, terra e ar), o ambiente de trabalho (indústrias químicas e afins), o ambiente de consumo (alimentos, medicamentos) e o ambiente social e cultural (estilo e hábitos de vida). Os fatores de risco ambientais de câncer são denominados cancerígenos ou carcinógenos. Esses fatores alteram a estrutura genética (DNA) das células. Existem ainda alguns fatores genéticos que tornam determinadas pessoas mais suscetíveis à ação dos agentes cancerígenos ambientais. Isso parece explicar porque algumas delas desenvolvem câncer e outras não, quando expostas a um mesmo carcinógeno (INCA, 2018).\nQuanto aos fatores de risco de desenvolvimento de um tumor, assinale a alternativa correta",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Os fatores internos são responsáveis por cerca de 40% do desenvolvimento dos tumores malignos.",
+    "rationale": "Incorreta. Afirmação falsa. Os fatores genéticos internos hereditários clássicos (síndromes de predisposição hereditária ao câncer) respondem por cerca de 10% a 15% de todos os casos de neoplasias malignas, e não 40%."
+   },
+   {
+    "letter": "B",
+    "text": "Os fatores internos são mais relevantes para o desenvolvimento do câncer.",
+    "rationale": "Incorreta. Afirmação falsa. Epidemiologicamente, os fatores ambientais e comportamentais externos (exposições a carcinógenos químicos, biológicos, físicos e estilo de vida) são muito mais relevantes na carga global de câncer do que fatores puramente genéticos hereditários."
+   },
+   {
+    "letter": "C",
+    "text": "Fatores ambientais são responsáveis pelo desenvolvimento de pelo menos 80% dos tumores malignos.",
+    "rationale": "CORRETA. Afirmação verdadeira (portanto, responde à questão). Segundo as estimativas clássicas do INCA e consensos de oncologia de saúde pública, os fatores de risco ambientais e comportamentais (como tabagismo, alimentação inadequada, sedentarismo, obesidade, infecções e exposições ocupacionais) são determinantes em cerca de 80% a 90% dos casos de tumores malignos, tornando grande parte das neoplasias passíveis de prevenção primária."
+   },
+   {
+    "letter": "D",
+    "text": "O sexo é o fator interno que causa maior pressão para o desenvolvimento de um câncer.",
+    "rationale": "Incorreta. Afirmação falsa. O fator interno biológico de maior impacto e relevância causal no desenvolvimento de tumores é a idade/envelhecimento celular, visto que o câncer é uma doença tempo-dependente decorrente do acúmulo de erros de replicação e lesões somáticas ao longo dos anos. O sexo anatômico apenas define suscetibilidades específicas por órgão-alvo, não constituindo a maior pressão oncogênica interna."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A vasta maioria dos tumores malignos (80% a 90%) possui etiologia atrelada a agentes ambientais e estilo de vida, superando amplamente as causas estritamente hereditárias.",
+  "bookContext": {
+   "text": "A epidemiologia do câncer evidencia que fatores ambientais interagem constantemente com o genoma do hospedeiro, atuando como iniciadores e promotores da carcinogênese. Conforme demonstrado nos dados de distribuição etiológica do INCA abordados na aula, fatores comportamentais como tabagismo (30%) e dieta inadequada (30%) lideram o peso causal das neoplasias. A predisposição genética individual frequentemente modula a eficiência de enzimas de metabolização de xenobióticos (como o citocromo P450) ou a capacidade de reparo de quebras no DNA, justificando por que diferentes pessoas expostas a uma mesma dose ambiental de carcinógeno apresentam riscos neoplásicos divergentes.",
+   "fonte": "Aula VAT2 · Oncogenética (slide 'Fatores de Risco') e Livro Thompson & Thompson - Genética Médica, Cap. 15 (Carcinógenos Químicos e Radiação)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 198,
+  "code": "LONCO-04",
+  "lista": "onco",
+  "category": "Lista de aula · Oncogenética",
+  "subcategory": "Etapas da carcinogênese e expansão clonal neoplásica",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "O processo de formação do câncer é chamado de carcinogênese ou oncogênese e, em geral, acontece lentamente, podendo levar vários anos para que uma célula cancerosa prolifere-se e dê origem a um tumor visível (INCA, 2018).\nOs genes controlam a hereditariedade e as atividades celulares dia-a-dia. O câncer é causado, na maioria dos casos, por mutação ou ativação anormal dos genes que controlam o crescimento celular (LOURO, 2000), resultando em modificações progressivas da biologia celular caracterizadas por alterações na proliferação, diferenciação e na interação das células com o meio extracelular (COTRAN et al., 2000).\nSobre o processo de carcinogênese, podemos afirmar",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Os oncogenes sofrem mutação tornando-se inativos ou disfuncionais.",
+    "rationale": "Incorreta. Afirmação falsa. Os oncogenes resultam da ativação aberrante com ganho de função a partir de proto-oncogenes normais. Quem se torna inativo, silenciado ou disfuncional no desenvolvimento tumoral são os genes supressores de tumor (TSGs), que operam tipicamente de forma recessiva na perda de função."
+   },
+   {
+    "letter": "B",
+    "text": "Os genes apoptóticos são superexpressos quando sofrem mutações.",
+    "rationale": "Incorreta. Afirmação falsa. Os genes pró-apoptóticos (que executam ou sinalizam a morte celular programada, como BAX ou caspases) sofrem inativação ou repressão para permitir que a célula com DNA danificado sobreviva. O que pode ser superexpresso no câncer são genes antiapoptóticos (como BCL2), os quais bloqueiam a apoptose."
+   },
+   {
+    "letter": "C",
+    "text": "O desenvolvimento do câncer não é proporcional ao efeito cumulativo da exposição aos agentes cancerígenos.",
+    "rationale": "Incorreta. Afirmação falsa. A carcinogênese é um processo dependente da dose, duração e efeito cumulativo da exposição aos agentes mutagênicos e cancerígenos; maiores cargas cumulativas de exposição aumentam linearmente a probabilidade de ocorrência de lesões permanentes no DNA e mutações condutoras."
+   },
+   {
+    "letter": "D",
+    "text": "As mutações genéticas e epigenéticas causam a malignização da célula, esta, após transformada, dá origem a cópias, formando uma camada no tecido tumoral.",
+    "rationale": "CORRETA. Afirmação verdadeira (portanto, responde à questão). Alterações genéticas (mutações de ponto, quebras e translocações) e epigenéticas (hipermetilação de promotores e desacetilação de histonas) convertem a célula normal em uma célula transformada/neoplásica. A partir daí, essa célula sofre expansão monoclonal desregulada, multiplicando-se mitoticamente e formando cópias que constituem as camadas celulares do parênquima tumoral em expansão."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A carcinogênese compreende a desregulação genômica e epigenética que confere potencial de proliferação clonal a uma célula progenitora, originando a massa tumoral.",
+  "bookContext": {
+   "text": "O modelo molecular de carcinogênese clássico divide-se nas etapas de iniciação (dano permanente no DNA provocado por agente mutagênico ou erro replicativo), promoção (estímulo proliferativo mitogênico da célula iniciada) e progressão (aquisição de instabilidade genômica acelerada, fenótipo invasor e angiogênese). Como detalhado em Thompson & Thompson (Capítulo 15), as alterações epigenéticas exercem papel equivalente às mutações estruturais: a hipermetilação de ilhas CpG na região promotora de genes de reparo do DNA (como MLH1) e supressores tumorais (como CDKN2A) silencia a expressão gênica sem alterar a sequência de nucleotídeos, impulsionando a seleção e arquitetura tecidual do tumor.",
+   "fonte": "Aula VAT2 · Oncogenética (slides 'Base Molecular do Câncer' e 'O que é carcinogênese?') e Livro Thompson & Thompson - Genética Médica, Cap. 15"
+  },
+  "revisada": true
+ },
+ {
+  "id": 199,
+  "code": "LONCO-05",
+  "lista": "onco",
+  "category": "Lista de aula · Oncogenética",
+  "subcategory": "Carcinogênese e Agentes Mutagênicos Ambientais",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "O câncer se desenvolve quando células anormais deixam de seguir esse processo normal. Analise as assertivas e marque a que se refere o surgimento do câncer.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Estudos sobre interferências epidemiológicas no surgimento do câncer, mostraram que esse tipo de condição independe dos resultados na incidência da doença.",
+    "rationale": "Incorreta. Estudos epidemiológicos demonstram de maneira sólida que a incidência e o risco de desenvolvimento de diferentes tipos de câncer são fortemente dependentes de fatores ambientais, comportamentais e ocupacionais, refutando a ideia de independência em relação à incidência."
+   },
+   {
+    "letter": "B",
+    "text": "As mutações transmitidas à proxima geração que predispõem ao câncer ocorrem em células somáticas.",
+    "rationale": "Incorreta. Mutações transmitidas à próxima geração e que predispõem ao câncer ocorrem na linhagem germinativa (células germinativas), e não em células somáticas, cujas alterações afetam unicamente o indivíduo no qual surgiram."
+   },
+   {
+    "letter": "C",
+    "text": "Os fatores do crescimento atuam de forma independente no surgimento de um câncer, por não apresentar ligação com a célula.",
+    "rationale": "Incorreta. Os fatores de crescimento atuam intimamente ligados à célula, ligando-se a receptores específicos de membrana e ativando cascatas intracelulares de sinalização essenciais que promovem o ciclo celular e a sobrevivência mitogênica."
+   },
+   {
+    "letter": "D",
+    "text": "A frequência dos eventos genéticos causadores de cânceres pode ser alterada pela exposição a mutagênicos, levando a ligação com carcinógenos ambientais.",
+    "rationale": "CORRETA. A exposição a agentes mutagênicos (como radiações e substâncias químicas carcinogênicas) aumenta a frequência de alterações no DNA celular, estabelecendo o elo fisiopatológico direto entre os carcinógenos ambientais e o surgimento de mutações desencadeadoras de neoplasias."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O câncer surge a partir de alterações genéticas celulares cuja taxa de ocorrência pode ser significativamente elevada pela exposição ambiental a agentes mutagênicos. Mutações herdáveis necessitam ocorrer na linhagem germinativa, enquanto mutações somáticas não são passadas à prole.",
+  "bookContext": {
+   "text": "A carcinogênese é um processo em múltiplas etapas impulsionado pelo acúmulo de mutações condutoras no genoma somático. Embora alguns indivíduos herdem variantes predisponentes, a maioria das neoplasias decorre de lesões genéticas induzidas por mutagênicos ambientais, como hidrocarbonetos do tabaco ou radiação ultravioleta. Esses agentes lesam o DNA e, quando os sistemas de reparo celular falham, fixam-se mutações em genes que controlam a divisão celular e a apoptose. Consequentemente, a taxa de iniciação tumoral se correlaciona diretamente com o grau e o tempo de exposição a esses fatores carcinogênicos externos.",
+   "fonte": "Livro Thompson & Thompson: Genética Médica (Capítulo 15: Genética e Genômica do Câncer) e Aula VAT2: Oncogenética"
+  },
+  "revisada": true
+ },
+ {
+  "id": 200,
+  "code": "LONCO-06",
+  "lista": "onco",
+  "category": "Lista de aula · Oncogenética",
+  "subcategory": "Genes do Câncer: Supressores Tumorais e Oncogenes",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Nas duas últimas décadas vêm testemunhando um desenvolvimento impressionante da biologia molecular e, com isto, maior compreensão da genética do câncer. Ao identificar a localização exata do gene em que a mutação carcinogênica tem lugar, os modernos biólogos moleculares nos estão trazendo para dentro do mundo da célula, onde somos postos em contato com uma série de eventos que devem constituir elementos do ambíguo mecanismo desta enfermidade (Alberts et al., 1994). Marque a assertiva correta sobre os genes do câncer.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Os genes supressores tumorais normalmente codificam proteínas que mantêm as células em G1, fora do ciclo mitótico.",
+    "rationale": "Incorreta. Células na fase G1 da interfase estão ativamente dentro do ciclo celular, e não fora dele (a fase de quiescência fora do ciclo é G0). Além disso, os genes supressores de tumor possuem mecanismos múltiplos além de G1, incluindo pontos de checagem em G2/M, reparo de DNA e indução de morte celular programada."
+   },
+   {
+    "letter": "B",
+    "text": "Os proto-oncogenes se originam dos oncogenes, sendo envolvidos na proliferação celular descontrolada que pode levar ao câncer.",
+    "rationale": "Incorreta. A ordem está invertida: os proto-oncogenes são genes celulares normais que, após sofrerem mutações ativadoras, amplificação ou translocações cromossômicas, transformam-se em oncogenes oncogênicos."
+   },
+   {
+    "letter": "C",
+    "text": "Os genes supressores tumorais normalmente bloqueiam a proliferação celular descontrolada que pode levar ao câncer.",
+    "rationale": "CORRETA. Os genes supressores de tumor codificam fisiologicamente proteínas que atuam como freios celulares, regulando negativamente o ciclo celular, reparando danos genéticos ou estimulando a apoptose, bloqueando a proliferação anormal que conduz à malignidade."
+   },
+   {
+    "letter": "D",
+    "text": "Os oncogenes se apresentam de forma recessiva, precisando de mais de uma cópia para levar ao surgimento do câncer.",
+    "rationale": "Incorreta. Os oncogenes comportam-se de forma dominante no nível celular, necessitando de mutação com ganho de função em apenas um dos alelos para promover a transformação neoplásica; o comportamento recessivo é característico dos genes supressores de tumor."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Os genes supressores de tumor atuam normalmente como reguladores negativos do ciclo celular e guardiões da integridade genômica, inibindo o crescimento celular autônomo e descontrolado.",
+  "bookContext": {
+   "text": "Os genes condutores do câncer dividem-se primariamente em proto-oncogenes e genes supressores de tumor. Os proto-oncogenes promovem o crescimento e a diferenciação normais, tornando-se oncogenes oncogênicos via mutações dominantes de ganho de função. Em contrapartida, os supressores tumorais agem como gatekeepers, controlando diretamente a transição entre as fases do ciclo celular e a apoptose (como TP53 e RB1), ou como caretakers, mantendo a estabilidade cromossômica e o reparo do DNA. A perda de função de ambas as cópias alélicas de um supressor de tumor elimina mecanismos essenciais de frenagem, abrindo caminho para a expansão clonal maligna.",
+   "fonte": "Livro Thompson & Thompson: Genética Médica (Capítulo 15: Genética e Genômica do Câncer) e Aula VAT2: Oncogenética"
+  },
+  "revisada": true
+ },
+ {
+  "id": 201,
+  "code": "LONCO-07",
+  "lista": "onco",
+  "category": "Lista de aula · Oncogenética",
+  "subcategory": "Síndromes de Predisposição Hereditária ao Câncer",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "O câncer hereditário é causado por mutações genéticas transmitidas de uma geração para outra. Em contraste, o câncer esporádico ocorre devido a mutações adquiridas ao longo da vida. Sobre câncer hereditário, analise as proposições abaixo:\nI. O câncer hereditário geralmente ocorre em idades mais jovens do que o câncer esporádico.\nII. Tumores múltiplos em um único paciente são raros em cânceres hereditários.\nIII. O câncer hereditário é sempre causado por mutações em genes dos cromossomos sexuais.\nÉ correto o que se afirma em:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "apenas II",
+    "rationale": "Incorreta. A assertiva II é incorreta porque o desenvolvimento de múltiplos tumores primários (bilaterais ou multicêntricos) é uma das marcas clínicas mais frequentes no câncer hereditário, não sendo um achado raro."
+   },
+   {
+    "letter": "B",
+    "text": "apenas I e II",
+    "rationale": "Incorreta. Embora a assertiva I esteja correta, a proposição II é falsa, pois pacientes com predisposição hereditária apresentam risco marcadamente aumentado de neoplasias síncronas ou metacrônicas."
+   },
+   {
+    "letter": "C",
+    "text": "apenas II e III",
+    "rationale": "Incorreta. Ambas as proposições II e III são falsas: tumores múltiplos são frequentes em síndromes hereditárias e a imensa maioria dos genes envolvidos situa-se em cromossomos autossômicos (como TP53, BRCA1, BRCA2, APC, MLH1 e MSH2), não nos sexuais."
+   },
+   {
+    "letter": "D",
+    "text": "apenas I",
+    "rationale": "CORRETA. Apenas a proposição I é correta, já que o câncer hereditário surge em média em faixas etárias bem mais jovens do que o câncer esporádico correspondente, devido à herança constitucional da primeira mutação em todas as células corporais."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O câncer hereditário manifesta-se tipicamente em idade precoce e com propensão a tumores múltiplos e bilaterais, sendo determinado predominantemente por alterações em genes autossômicos.",
+  "bookContext": {
+   "text": "De acordo com a clássica hipótese dos dois eventos de Knudson (two-hit model), o câncer hereditário requer apenas um evento mutacional somático secundário na célula-alvo, uma vez que todas as células já nascem portando a primeira mutação germinativa. Esse mecanismo explica a cinética de aparecimento muito mais precoce dos tumores quando comparados aos casos esporádicos, nos quais ambos os eventos mutacionais devem ocorrer de forma independente na mesma linhagem celular ao longo dos anos. Adicionalmente, por haver milhões de células em risco carregando a primeira alteração, a probabilidade estatística de surgimento de múltiplos tumores primários, bilaterais ou multifocais, é consideravelmente superior à observada na população geral.",
+   "fonte": "Livro Thompson & Thompson: Genética Médica (Capítulo 15) e Livro Síndromes Genéticas: Reconhecer para Tratar (Capítulo 8: Oncogenética)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 202,
+  "code": "LTG-01",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Alvos terapêuticos e indicações da terapia gênica",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Das modalidades de doenças potencialmente tratáveis pela terapia gênica, as de ação direta com maior chance de efetividade seriam as doenças:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "multifatoriais adquiridas como diabetes.",
+    "rationale": "Incorreta. Doenças multifatoriais adquiridas, como o diabetes mellitus, decorrem da interação complexa de múltiplos genes com fatores ambientais e comportamentais. Nelas, a alteração de um único gene não é suficiente para a cura, tornando a terapia gênica direta muito menos eficaz em comparação ao controle farmacológico e clínico dessas condições."
+   },
+   {
+    "letter": "B",
+    "text": "que afetem o sistema nervoso central.",
+    "rationale": "Incorreta. As afecções do sistema nervoso central enfrentam obstáculos fisiológicos severos para a terapia gênica, destacando-se a presença da barreira hematoencefálica (que impede a difusão da maioria dos vetores sistêmicos) e a natureza pós-mitótica dos neurônios, o que impõe métodos invasivos de administração e reduz a chance de sucesso imediato frente a tecidos mais acessíveis."
+   },
+   {
+    "letter": "C",
+    "text": "poligênicas.",
+    "rationale": "Incorreta. Condições poligênicas envolvem variantes alélicas em diversos loci genéticos independentes, com efeitos aditivos ou epistáticos. A manipulação de um único gene não é capaz de restaurar o fenótipo normal, inviabilizando a ação direta curativa de um transgene único."
+   },
+   {
+    "letter": "D",
+    "text": "monogênicas, como várias metabólicas.",
+    "rationale": "CORRETA. As doenças monogênicas causadas por mutações em um único gene bem identificado, a exemplo de diversos erros inatos do metabolismo (como fenilcetonúria, deficiência de ADA e doença de Gaucher), constituem os alvos preferenciais e com maior potencial de efetividade na terapia gênica direta. Nesses distúrbios, a introdução ou edição de uma única cópia funcional do gene normal é capaz de restabelecer a síntese enzimática ou proteica necessária para resgatar a função celular e normalizar o fenótipo clínico."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A terapia gênica de ação direta possui maior taxa de sucesso em doenças monogênicas bem definidas, nas quais a restauração funcional de um único gene supre a falha bioquímica causal.",
+  "bookContext": {
+   "text": "Conforme exposto nos livros Thompson & Thompson Genética Médica (Capítulos 1 e 7) e Snustad Fundamentos de Genética (Capítulo 16), as afecções monogênicas apresentam correlação genótipo-fenótipo direta, facilitando o desenho de vetores com transgenes substitutivos. Em muitos erros inatos do metabolismo, a recuperação de apenas uma fração mínima (frequentemente entre 5% e 15%) da atividade enzimática normal nos tecidos afetados é suficiente para prevenir ou reverter o acúmulo de substratos tóxicos. Essa tolerância metabólica, aliada ao padrão recessivo da maioria dessas condições, faz com que a adição do alelo selvagem exerça efeito dominante restaurador sem exigir a transdução da totalidade das células do organismo.",
+   "fonte": "Livro Thompson & Thompson Genética Médica (Capítulos 1 e 7); Livro Snustad Fundamentos de Genética (Capítulo 16); Slide da aula VAT2 (Terapia gênica: CRISPR-Cas9)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 203,
+  "code": "LTG-02",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Características gerais, vetores e limitações da terapia gênica",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "A terapia gênica é considerada uma das técnicas mais promissoras no tratamento de doenças como a fibrose cística, fenilcetonúria e outras. Considerando as características e os aspectos da terapia gênica, assinale a alternativa INCORRETA.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Os estudos de terapia gênica estão voltados mais especificamente para células somáticas, mas, em um futuro próximo, pretende-se atuar sobre células germinativas.",
+    "rationale": "Incorreta. Verdadeira (conforme abordado em discussões teóricas de biotecnologia). Os estudos e tratamentos clínicos atuais focam exclusivamente em células somáticas para evitar a transmissão de modificações aos descendentes. Embora na medicina humana a terapia germinativa seja terminantemente proibida por normas bioéticas e leis internacionais (devido a riscos hereditários imprevisíveis e dilemas eugênicos), pesquisas experimentais em modelos animais utilizam rotineiramente a modificação de linhagens germinativas e células-tronco embrionárias para a criação de linhagens transgênicas e modelos de doenças humanas."
+   },
+   {
+    "letter": "B",
+    "text": "Uma das motivações para a utilização da terapia gênica é a eficiência dos métodos de transferência dos genes alelos e a precisão no controle da regulação do gene funcional.",
+    "rationale": "CORRETA. Falsa (e responde à questão). A afirmação é incorreta porque a eficiência dos vetores de transferência e o controle preciso da regulação do transgene representam, historicamente, os maiores obstáculos, desafios técnicos e limitações da terapia gênica, e não motivações para o seu uso. A verdadeira motivação da técnica reside na necessidade clínica urgente de curar distúrbios genéticos graves e progressivos que não respondem satisfatoriamente às terapias convencionais."
+   },
+   {
+    "letter": "C",
+    "text": "Para que o gene seja colocado no interior da célula, é necessário o uso de um vetor que é geralmente um vírus.",
+    "rationale": "Incorreta. Para que o material genético exógeno vença as defesas celulares e penetre no núcleo da célula hospedeira, é fundamental a utilização de vetores de entrega, sendo os vírus desarmados (como retrovírus, adenovírus e vírus adeno-associados) os veículos biológicos mais amplamente empregados."
+   },
+   {
+    "letter": "D",
+    "text": "A técnica in vivo de transferência de gene consiste na clonagem em um vetor do alelo normal e de seu preparo que são introduzidos no paciente.",
+    "rationale": "Incorreta. A modalidade de terapia gênica in vivo baseia-se na clonagem do gene terapêutico normal em um vetor carreador, seguido de sua formulação e administração direta no organismo do paciente para transduzir as células-alvo no próprio tecido afetado."
+   },
+   {
+    "letter": "E",
+    "text": "A técnica da terapia gênica consiste em substituir o alelo associado a uma doença por um alelo normal.",
+    "rationale": "Incorreta. Sob uma perspectiva conceitual ampla da engenharia genética, a terapia gênica busca substituir ou neutralizar o impacto patológico do alelo mutante mediante o fornecimento do alelo funcional normal, seja pela suplementação do produto ausente (terapia de adição clássica) ou pela substituição direta via recombinação homóloga e edição gênica direcionada."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A baixa eficiência dos vetores de entrega e a dificuldade de controlar a regulação da expressão gênica são os maiores entraves da terapia gênica, e não motivos que justificam sua escolha.",
+  "bookContext": {
+   "text": "O livro Fundamentos de Genética de Snustad (Capítulo 16) discute amplamente que a transferência gênica segura e eficiente permanece como o principal desafio da terapia gênica somática humana. O uso de vetores retrovirais com integração genômica aleatória acarreta risco de mutagênese insercional, como demonstrado nos ensaios clínicos pioneiros para imunodeficiência combinada grave ligada ao X (SCID-X1), nos quais quatro pacientes desenvolveram leucemia decorrente da ativação inadequada do proto-oncogene LMO2. Além disso, vetores adenovirais não integrativos provocam respostas inflamatórias e imunes severas no hospedeiro e conferem apenas expressão transitória do transgene, ressaltando que o controle preciso da regulação transcricional e a segurança vetorial ainda estão em fase de consolidação científica.",
+   "fonte": "Livro Snustad Fundamentos de Genética (Capítulo 16); Livro Thompson & Thompson Genética Médica (Capítulo 14); Slide da aula VAT2 (Terapia gênica: CRISPR-Cas9)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 204,
+  "code": "LTG-03",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Bases moleculares da transferência gênica e universalidade do DNA",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Terapia gênica é um procedimento médico que envolve a modificação genética de células, como forma de tratar doenças. A terapia gênica idealmente visaria substituir um gene defeituoso por um gene normal. Algumas das formas de transferência utilizam vírus, dos quais os principais são os retrovírus, os adenovírus e os vírus adeno-associados. Esse procedimento é possível porque",
+  "options": [
+   {
+    "letter": "A",
+    "text": "as proteínas de todos os seres vivos são as mesmas.",
+    "rationale": "Incorreta. As proteínas apresentam enorme diversidade estrutural e funcional entre diferentes espécies e tecidos, não sendo idênticas entre todos os seres vivos nem compatíveis de forma universal sem modificações pós-traducionais adequadas."
+   },
+   {
+    "letter": "B",
+    "text": "o material genético de todos os envolvidos têm a mesma constituição química.",
+    "rationale": "CORRETA. A transferência, integração e expressão de transgenes carreados por vetores virais em células humanas só ocorrem porque o material genético de todas as entidades biológicas celulares e da maioria dos vírus compartilha a mesma estrutura química de ácidos nucleicos (nucleotídeos formados por base nitrogenada, pentose e grupo fosfato) e utiliza o mesmo código genético universal. Assim, o maquinário enzimático celular humano é capaz de transcrever o DNA viral recombinante e traduzir o mRNA terapêutico de forma natural."
+   },
+   {
+    "letter": "C",
+    "text": "os seres vivos envolvidos na transferência dos genes são eucariontes.",
+    "rationale": "Incorreta. Os vírus não são organismos celulares nem seres eucariontes; são agentes infecciosos acelulares compostos por capsídeo proteico e genoma de ácido nucleico (DNA ou RNA), dependendo obrigatoriamente da célula hospedeira para a sua expressão gênica."
+   },
+   {
+    "letter": "D",
+    "text": "os vírus são capazes de se reproduzir no interior das células.",
+    "rationale": "Incorreta. Embora os vírus selvagens possuam ciclo replicativo intracelular, os vírus manipulados como vetores de terapia gênica são desprovidos dos genes virais de replicação (são defectivos em replicação) para garantir que não se multipliquem nem lisem a célula do paciente. Ademais, a capacidade de replicação não constitui o fundamento molecular que permite a transcrição e tradução do transgene pelas enzimas do hospedeiro."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A identidade química fundamental dos ácidos nucleicos e a universalidade do código genético permitem que o maquinário molecular humano reconheça e expresse transgenes introduzidos por vetores virais.",
+  "bookContext": {
+   "text": "Conforme salientam Griffiths em Introdução à Genética (Capítulos 1, 7 e 10) e Snustad em Fundamentos de Genética (Capítulos 9 e 14), o princípio transformante demonstrado por Avery, MacLeod e McCarty comprovou que o DNA é o carreador universal da informação biológica. A conservação estrita das ligações fosfodiéster, do pareamento de bases complementares (Watson-Crick) e dos mecanismos de transcrição mediada por RNA polimerase permitiu o desenvolvimento da tecnologia do DNA recombinante. Dessa forma, genes humanos inseridos em carcaças virais modificadas são prontamente processados pelos ribossomos e fatores de transcrição da célula hospedeira eucariótica, resultando na síntese fidedigna do polipeptídio ausente.",
+   "fonte": "Livro Griffiths Introdução à Genética (Capítulos 7, 8 e 10); Livro Snustad Fundamentos de Genética (Capítulos 9 e 14); Slide da aula VAT2 (Terapia gênica: CRISPR-Cas9)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 205,
+  "code": "LTG-04",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Mecanismo e aplicações do sistema CRISPR-Cas9",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "A tecnologia CRISPR-Cas9 revolucionou a terapia gênica ao permitir a edição precisa de genes. Qual das seguintes afirmativas descreve corretamente o mecanismo de ação de CRISPR-Cas9 e sua aplicação na terapia gênica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "CRISPR-Cas9 utiliza moléculas de RNA para se ligar ao DNA alvo e impedir sua transcrição em proteínas.",
+    "rationale": "Incorreta. O sistema canônico CRISPR-Cas9 não se limita a ligar-se ao DNA para bloquear estericamente a transcrição; sua função nativa essencial é atuar como uma endonuclease que introduz uma clivagem física na dupla-fita de DNA. O bloqueio transcricional sem clivagem é uma variante sintética modificada da técnica, denominada interferência por CRISPR (CRISPRi), que utiliza uma variante inativa da enzima (dCas9)."
+   },
+   {
+    "letter": "B",
+    "text": "CRISPR-Cas9 é uma técnica de edição de genes que utiliza uma proteína nucleolítica guiada por RNA para introduzir quebras específicas na sequência de DNA.",
+    "rationale": "CORRETA. O sistema CRISPR-Cas9 é uma tecnologia de edição genômica precisa composta pela endonuclease Cas9 (proteína com atividade nucleásica) e um RNA guia sintético (sgRNA). O sgRNA hibridiza com a sequência de DNA genômico complementar adjacente ao motivo protoespaçador adjacente (PAM), orientando a Cas9 para clivar ambas as fitas de DNA e produzir uma quebra de fita dupla (DSB), a qual é subsequentemente reparada pelos mecanismos endógenos da célula (NHEJ ou HDR), viabilizando o nocaute, substituição ou edição precisa do gene alvo."
+   },
+   {
+    "letter": "C",
+    "text": "CRISPR-Cas9 envolve a inserção de genes normais em células usando vetores virais para substituir genes defeituosos.",
+    "rationale": "Incorreta. A introdução de genes funcionais adicionais carreados por vetores virais convencionais para compensar um alelo defeituoso corresponde à terapia gênica de adição (substituição fenotípica não direcionada), e não ao mecanismo de edição sítio-específica de nucleotídeos característico do sistema CRISPR-Cas9."
+   },
+   {
+    "letter": "D",
+    "text": "CRISPR-Cas9 utiliza pequenas moléculas de RNA para se ligar ao mRNA, promovendo sua degradação.",
+    "rationale": "Incorreta. O direcionamento de pequenos RNAs para ligar-se ao mRNA e promover sua degradação ou bloqueio de tradução descreve o mecanismo de interferência por RNA (RNAi, operado pelas enzimas Dicer e pelo complexo RISC) ou de nucleases direcionadas a RNA (como Cas13), ao passo que a endonuclease Cas9 clássica atua exclusivamente no nível do DNA genômico."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "CRISPR-Cas9 atua como uma tesoura molecular programável por RNA guia que introduz quebras específicas na dupla-fita de DNA genômico para permitir edição e reparo direcionados.",
+  "bookContext": {
+   "text": "Como abordado no livro Snustad Fundamentos de Genética (Capítulo 16 - Engenharia Genômica) e nos slides da aula VAT2, o sistema CRISPR-Cas9 deriva da imunidade adaptativa de bactérias como Streptococcus pyogenes contra bacteriófagos. Na engenharia genômica contemporânea, a fusão de crRNA e tracrRNA gera uma molécula-guia única (sgRNA) cujos primeiros 20 nucleotídeos são projetados para parear perfeitamente com o DNA alvo imediatamente a montante do motivo PAM (5'-NGG-3'). Ao introduzir a quebra de fita dupla três nucleotídeos antes do PAM, a célula pode reparar o corte via junção de extremidades não homólogas (NHEJ) — gerando indels que inativam o gene — ou via reparo direcionado por homologia (HDR) na presença de um DNA doador, promovendo correções alélicas altamente pontuais e customizadas.",
+   "fonte": "Livro Snustad Fundamentos de Genética (Capítulo 16); Slide da aula VAT2 (Terapia gênica: CRISPR-Cas9); Livro Thompson & Thompson Genética Médica (Capítulo 14)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 206,
+  "code": "LTG-05",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Terapia Gênica, Edição Genômica (CRISPR-Cas9) e Biossegurança em Biotecnologia",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Considerada revolucionária, a técnica de edição de genes conhecida pela sigla Crispr-Cas9 começa a tornar mais próxima da realidade a alteração ou substituição de genes para tratar ou evitar doenças. Por causa da facilidade e da versatilidade, em pouco tempo pesquisadores no mundo todo passaram a testar a Crispr em plantas e animais com os mais variados objetivos, de aprimorar a produção de alimentos a criar modelos para estudar doenças humanas. Camundongos, ratos, coelhos, porcos, cães e macacos já foram alterados geneticamente com a Crispr, muitos de modo pioneiro por pesquisadores na China. Menos de cinco anos após a publicação dos artigos na Science, surgiram trabalhos mostrando ser possível corrigir genes defeituosos em embriões humanos e começaram os tratamentos experimentais em pessoas. Sobre a técnica Crispr-Cas9, avalie as asserções a seguir e a relação proposta entre elas.\nI. A manipulação genética possibilitada pela Crispr inaugurou um leque de possibilidades na produção de animais transgênicos, terapia gênica e correção de doenças em embriões humanos, enquanto as técnicas anteriores de transgenia só podiam ser utilizadas com segurança em plantas.\nPORQUE\nII. A técnica Crispr-Cas9 usa um complexo de proteína (Cas9) e RNA guia muito simples de ser desenhado em laboratório e que traz extrema especificidade ao processo.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As assertivas I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
+    "rationale": "Incorreta. Incorreta segundo o gabarito oficial. Embora ambas as proposições sejam consideradas verdadeiras pela banca elaboradora, a Asserção II não funciona como uma justificativa causal completa ou direta da Asserção I. A revolução nas possibilidades da engenharia genética e da terapia gênica descrita em I abrange fatores biológicos, clínicos e ético-regulatórios complexos. A simplicidade de desenho laboratorial do RNA guia e a especificidade da Cas9 citadas em II explicam o mecanismo molecular de direcionamento, mas não constituem a causa exclusiva nem a justificativa suficiente para toda a superação histórica dos entraves de transgenia em modelos multicelulares."
+   },
+   {
+    "letter": "B",
+    "text": "As assertivas I e II são proposições verdadeiras, e a II não é uma justificativa correta da I.",
+    "rationale": "CORRETA. Correta segundo o gabarito oficial. Considera que a Asserção I é verdadeira no contexto da história da biotecnologia aplicada (em que a transgenia comercial e amplamente aprovada com segurança estabelecida limitava-se a cultivares vegetais, enquanto terapias gênicas e correções embrionárias em humanos eram barradas pela imprevisibilidade da integração genômica aleatória). Considera também que a Asserção II é uma proposição verdadeira independente (o sistema CRISPR-Cas9 utiliza RNA guia de pareamento direto com DNA e a endonuclease Cas9, de fácil desenho e elevada especificidade), sem que a II atue como a causa direta e estrita da proposição I."
+   },
+   {
+    "letter": "C",
+    "text": "A assertiva I é uma proposição verdadeira, e a II é uma proposição falsa.",
+    "rationale": "Incorreta. A Asserção II é factual e indiscutivelmente verdadeira à luz da biologia molecular contemporânea e do material didático de referência. O sistema CRISPR-Cas9 baseia-se na endonuclease Cas9 orientada por um RNA guia curto (sgRNA, fusão de crRNA e tracrRNA) cujos primeiros 20 nucleotídeos são complementares ao DNA-alvo adjacente a uma sequência PAM (5'-NGG-3'), sendo uma ferramenta de design laboratorial extremamente ágil e de alta fidelidade comparada a tecnologias anteriores baseadas em reconhecimento proteico (como ZFNs e TALENs)."
+   },
+   {
+    "letter": "D",
+    "text": "A assertiva I é uma proposição falsa, e a II é uma proposição verdadeira.",
+    "rationale": "Incorreta. Incorreta sob a ótica do gabarito oficial da banca (que validou I como verdadeira), mas constitui a alternativa tecnicamente mais robusta e rigorosa em análises externas de genética avançada. Sob o rigor conceitual da genética experimental, a Asserção I torna-se falsa pela cláusula restritiva final ('enquanto as técnicas anteriores de transgenia só podiam ser utilizadas com segurança em plantas'), visto que técnicas consolidadas de transgenia animal (como microinjeção de DNA exógeno em pronúcleos de zigotos e manipulação direcionada em células ES mediada por recombinação homóloga com seleção por neomicina e ganciclovir) são empregadas com sucesso e segurança laboratorial em camundongos e outros animais desde o início dos anos 1980, produzindo linhagens estáveis de modelos animais transgênicos e knockouts."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "⚠️ Atenção: o NotebookLM, analisando sozinho, escolheu a letra D; o gabarito oficial é B. O gabarito oficial (letra B) é defensável caso se adote a perspectiva pedagógica e contextual do texto de apoio (frequentemente derivado de artigos de divulgação científica sobre biotecnologia), no qual o autor assume a Asserção I como verdadeira ao contrastar a ampla consolidação comercial e regulatória dos transgênicos vegetais com as limitações de biossegurança da transgenia clássica em animais de grande porte e, sobretudo, em embriões humanos e terapia clínica. Sob essa ótica, a transgenia pré-CRISPR (baseada em vetores virais ou recombinação homóloga de baixa eficiência) envolvia integração ectópica/aleatória no genoma, risco de mutagênese insercional (como ativação de oncogenes) e efeitos deletérios imprevisíveis, tornando impensável a correção segura em embriões humanos. A Asserção II também é inegavelmente verdadeira, pois o sistema CRISPR-Cas9 combina a endonuclease Cas9 com um RNA guia sintético (sgRNA) desenhado por complementaridade de bases de forma rápida e barata, conferindo alta especificidade de clivagem junto ao sítio PAM. Considera-se que a II não é justificativa causal plena da I (justificando a letra B) porque a ampliação das possibilidades de transgenia e terapia gênica não decorre exclusivamente da simplicidade de síntese do complexo proteico-RNA, mas de um conjunto amplo de propriedades funcionais, como capacidade multiplex, facilidade de entrega vetorial e eficiência na indução de quebras de fita dupla reparadas por NHEJ ou HDR. Contudo, a questão apresenta evidente ambiguidade que fundamenta a defesa da letra D: na literatura genética clássica (como detalhado nos livros de Snustad e Griffiths), animais transgênicos (especialmente camundongos, ratos e suínos) vêm sendo produzidos rotineiramente e com segurança experimental desde a década de 1980 por meio de microinjeção pronuclear e recombinação homóloga em células-tronco embrionárias (células ES), de modo que a afirmação de que 'só podiam ser utilizadas com segurança em plantas' é cientificamente imprecisa e restritiva ao ignorar quatro décadas de modelos animais transgênicos. Diferenciação entre a transgenia clássica (inserção ectópica de genes exógenos por vetores ou recombinação homóloga de baixa eficiência) e a edição gênica moderna sítio-dirigida via CRISPR-Cas9, avaliando o alcance histórico da biotecnologia em plantas versus animais e humanos.",
+  "bookContext": {
+   "text": "Historicamente, as tecnologias de recombinação de DNA possibilitaram a criação de organismos geneticamente modificados (OGMs) em vegetais por meio do plasmídio Ti de Agrobacterium tumefaciens ou biobalística, consolidando culturas transgênicas com ampla aprovação comercial. Paralelamente, em modelos animais, a produção de camundongos transgênicos e mutantes de nocaute (knockouts) desenvolveu-se intensamente a partir dos trabalhos de Oliver Smithies e Mario Capecchi por recombinação homóloga em células ES cultivadas e microinjeção em blastocistos. Contudo, em humanos e animais de grande porte, as técnicas pré-CRISPR apresentavam limitações críticas: a frequência de recombinação homóloga espontânea era extremamente baixa (cerca de 1 em 100.000 células), predominando a integração aleatória (ectópica). Nos ensaios pioneiros de terapia gênica somática com vetores retrovirais (como no tratamento da imunodeficiência combinada grave ligada ao X - SCID-X1), a integração acidental em proximidade a proto-oncogenes desencadeou quadros leucêmicos em pacientes, evidenciando graves falhas de segurança biológica. O advento do sistema CRISPR-Cas9 revolucionou esse cenário: adaptado do sistema imune adaptativo bacteriano contra fagos, ele utiliza uma endonuclease guiada por RNA (sgRNA) para introduzir quebras de fita dupla (DSB) exatamente no sítio genômico de interesse (reconhecendo 20 pb complementares flanqueados pelo PAM 5'-NGG-3'). A indução controlada de DSBs ativa os mecanismos intrínsecos de reparo celular — junção de extremidades não homólogas (NHEJ), gerando indels para silenciamento gênico, ou reparo dirigido por homologia (HDR), permitindo substituição e edição de nucleotídeos com o fornecimento de um molde de DNA exógeno. A facilidade de síntese de oligonucleotídeos de RNA guia substituiu a necessidade laboriosa de desenhar domínios proteicos complexos (como nas endonucleases ZFNs e TALENs), viabilizando aplicações in vivo e ex vivo, estudos em embriões humanos e novas fronteiras na oncogenética, infectologia e hematologia.",
+   "fonte": "Aula VAT2 · Terapia gênica: CRISPR-Cas9; Quadro da revisão · Genética (10/11); Livro · Snustad · Fundamentos de Genética (Capítulo 16: Aplicações da Genética Molecular); Livro · Griffiths · Introdução à Genética (Capítulo 10: Técnicas de Engenharia Genética e Transgênese)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 207,
+  "code": "LTG-06",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Heterogeneidade gênica e terapia gênica",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Um dos grandes problemas a ser enfrentados pelas terapias gênicas é a heterogeneidade gênica. Estes problemas requerem que os diagnósticos moleculares sejam cada vez mais precisos. Considerando esse assunto, julgue os itens a seguir.\nI- É necessário saber qual alelo o indivíduo porta para que a terapia gênica tenha efeito eficaz.\nII- É necessário ter uma descrição clínica precisa para direcionar a terapia gênica.\nIII- É necessário saber exatamente qual o gene envolvido para que a terapia gênica tenha possibilidade de fazer efeito.\nAssinale a opção correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Apenas os itens I e II estão corretos.",
+    "rationale": "Incorreta. Incorreta (os itens I e II são falsos). O item I é falso porque na abordagem clássica de terapia gênica por adição gênica (introdução de um transgene funcional de tipo selvagem via vetor viral ou não viral), a expressão da cópia normal supre a ausência da proteína funcional independentemente de qual seja a variante alélica portada pelo indivíduo. O item II é falso porque, exatamente devido à heterogeneidade gênica (especialmente a heterogeneidade de locus), distúrbios clinicamente indistinguíveis podem decorrer de defeitos em genes completamente diferentes; assim, a descrição clínica isolada é insuficiente para direcionar a terapia gênica, sendo necessária a confirmação pelo diagnóstico molecular."
+   },
+   {
+    "letter": "B",
+    "text": "Apenas o item I está certo.",
+    "rationale": "Incorreta. Incorreta (o item I é falso e o item III é verdadeiro). O item I é incorreto porque o conhecimento prévio da variante alélica específica não é um requisito obrigatório para a eficácia das terapias de adição gênica convencional, bastando fornecer a sequência correta do gene funcional. Além disso, a alternativa desconsidera a correção do item III."
+   },
+   {
+    "letter": "C",
+    "text": "Apenas o item III está certo.",
+    "rationale": "CORRETA. Correta (apenas o item III é verdadeiro). O item III é estritamente verdadeiro porque as terapias gênicas são gene-específicas: diante da heterogeneidade de locus (em que mutações em diferentes genes produzem o mesmo fenótipo), é indispensável saber exatamente qual gene está mutado no paciente para fornecer ou editar a sequência correta, sob pena de ineficácia total do procedimento. Os itens I e II são falsos conforme justificado nas alternativas anteriores."
+   },
+   {
+    "letter": "D",
+    "text": "Apenas os itens II e III estão certos.",
+    "rationale": "Incorreta. Incorreta (o item II é falso). Embora o item III esteja correto, o item II é incorreto porque a descrição fenotípica clínica, por mais minuciosa que seja, não consegue discriminar qual locus gênico está afetado em doenças com heterogeneidade de locus. Desse modo, quem direciona a intervenção gênica ao alvo etiológico correto é o diagnóstico molecular de precisão, e não a clínica."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A heterogeneidade gênica (de locus) faz com que manifestações clínicas idênticas sejam causadas por diferentes genes, tornando indispensável a identificação molecular precisa do gene envolvido para viabilizar a terapia gênica. Além disso, na terapia de adição convencional com transgene selvagem, a restauração funcional independe do alelo mutante específico do paciente, invalidando a dependência do alelo ou da descrição clínica para direcionar o tratamento.",
+  "bookContext": {
+   "text": "A heterogeneidade genética subdivide-se em alélica (múltiplos alelos mutantes em um único locus) e de locus (mutações em diferentes genes resultando em patologias clinicamente idênticas, como observado em mais de 50 genes na retinose pigmentar e na amaurose congênita de Leber). Na terapia gênica somática clássica, o objetivo principal consiste em transferir uma cópia funcional de tipo selvagem do gene defeituoso às células do paciente, permitindo que o transgene sintetize o produto gênico ausente ou anômalo. Dado que a intervenção terapêutica é desenhada para um gene específico, o conhecimento do locus exato por meio de diagnóstico molecular é mandatório para que o tratamento tenha qualquer probabilidade de êxito. Em contrapartida, para as terapias de adição gênica em distúrbios de perda de função, não é necessário mapear o alelo mutante individual para obter eficácia biológica, visto que a suplementação com o cDNA normal contorna indistintamente as diversas variantes patogênicas.",
+   "fonte": "Thompson & Thompson: Genética Médica (Capítulo 7: Padrões de Herança Monogênica - Heterogeneidade Genética; Capítulo 16: Tratamento de Doenças Genéticas - Terapia Gênica); Snustad: Fundamentos de Genética (Capítulo 16: Aplicações da Genética Molecular - Terapia Gênica Humana); Slide da aula VAT2: Terapia gênica: CRISPR-Cas9"
+  },
+  "revisada": true
+ },
+ {
+  "id": 208,
+  "code": "LTG-07",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "CRISPR-Cas9 e Terapia Gênica em Doenças Monogênicas",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Edição inédita de DNA humano revela a possibilidade de cura para diversas doenças genéticas. Divulgado esta semana pela revista científica Science, estudo realizado por um grupo de pesquisadores, (...) do Centro de Terapia Genética Celular e Embrionária, resultou na edição do DNA de embriões humanos para a eliminação de uma mutação genética que afeta diretamente o músculo cardíaco. Esta mutação é responsável pela cardiomiopatia hipertrófica, uma das principais causas de morte súbita entre jovens (...) uma doença incurável que se beneficia, até hoje, apenas de tratamento paliativo com o objetivo de reduzir os sintomas. Esse avanço é resultado da técnica CRISPR, sigla para Clusters Regularly Interspaced Short Palindromic Repeats, ou Repetições Curtas Palindrômicas Agrupadas e Regularmente Interespaçadas. Os cientistas puderam localizar mutações genéticas específicas, corrigindo o DNA de uma célula viva tanto por adição, substituição ou remoção de bases.\nDentre as doenças que podem ter seu tratamento beneficiado pelo uso dessa técnica, um exemplo pode ser encontrado em qual alternativa abaixo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Síndrome de Turner",
+    "rationale": "Incorreta. Incorreta (Falsa). A Síndrome de Turner é uma anomalia cromossômica numérica (aneuploidia), caracterizada pela perda completa ou parcial de um dos cromossomos sexuais, resultando habitualmente no cariótipo 45,X. Por se tratar da ausência de um cromossomo inteiro em escala citogenética, e não de uma mutação gênica pontual ou alteração de bases em um lócus específico, ela não é tratada por correção ou substituição pontual de bases através da técnica de CRISPR-Cas9."
+   },
+   {
+    "letter": "B",
+    "text": "Síndrome de Cri-Du-Chat",
+    "rationale": "Incorreta. Incorreta (Falsa). A Síndrome de Cri-Du-Chat (miado de gato) é uma anomalia cromossômica estrutural provocada por uma grande deleção no braço curto do cromossomo 5 (5p-). Essa alteração envolve a perda de grandes segmentos cromossômicos contendo múltiplos genes e milhões de pares de bases, o que impede a correção direta pelo mecanismo clássico de edição gênica local ou pontual do CRISPR-Cas9."
+   },
+   {
+    "letter": "C",
+    "text": "Fenilcetonúria",
+    "rationale": "CORRETA. Correta (Verdadeira). A Fenilcetonúria (PKU) é um erro inato do metabolismo clássico com padrão de herança autossômica recessiva, decorrente de mutações gênicas pontuais no gene PAH (localizado no cromossomo 12q24.1), que codifica a enzima fenilalanina hidroxilase. Como o sistema CRISPR-Cas9 atua guiado por RNA para reconhecer sequências nucleotídicas específicas e viabilizar a adição, substituição ou correção de bases nitrogenadas via reparo direcionado por homologia (HDR), a fenilcetonúria é um exemplo típico de doença monogênica passível de correção gênica molecular."
+   },
+   {
+    "letter": "D",
+    "text": "Síndrome de Down",
+    "rationale": "Incorreta. Incorreta (Falsa). A Síndrome de Down é uma alteração cromossômica numérica (aneuploidia autossômica) causada na vasta maioria das vezes pela trissomia livre do cromossomo 21 (cariótipo 47,XX,+21 ou 47,XY,+21 decorrente de não-disjunção meiótica), ou por translocação robertsoniana. Dessa forma, decorre do desbalanço de dosagem de centenas de genes devido a um cromossomo supranumerário, não sendo passível de tratamento por correção pontual de mutações via CRISPR-Cas9."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O sistema CRISPR-Cas9 é uma tecnologia de edição genômica de alta precisão que atua no nível de nucleotídeos específicos em genes determinados. Portanto, seu potencial terapêutico destina-se a doenças monogênicas causadas por mutações pontuais, como a fenilcetonúria, e não a aneuploidias numéricas ou grandes aberrações estruturais cromossômicas.",
+  "bookContext": {
+   "text": "O sistema CRISPR-Cas9 opera através da associação entre a endonuclease Cas9 e uma molécula de RNA guia (sgRNA), que direciona a clivagem do DNA fita dupla para um sítio genômico complementar localizado adjacente ao motivo PAM (5'-NGG-3'). A quebra de fita dupla induzida pode ser corrigida pela via de reparo por junção de extremidades não homólogas (NHEJ), que frequentemente introduz pequenas inserções ou deleções (indels) para nocautear genes, ou pela via de reparo dirigido por homologia (HDR), na qual a introdução de uma fita molde homóloga permite a correção exata de mutações de ponto. Na fenilcetonúria, a falha funcional na fenilalanina hidroxilase impede a conversão da fenilalanina em tirosina, acumulando fenilalanina e ácido fenilpirúvico com consequente neurotoxicidade. A edição genética molecular possibilita restaurar a sequência selvagem do gene PAH, restabelecendo a atividade enzimática e exemplificando o objetivo principal da terapia gênica somática contemporânea.",
+   "fonte": "Livro · Snustad · Fundamentos de Genética (Capítulo 16: Aplicações da Genética Molecular - Engenharia Genômica e Terapia Gênica) / Livro · Griffiths · Introdução à Genética (Capítulo 2: Genética de Transmissão de Mutantes Monogênicos e Capítulo 10: Tecnologia do DNA Recombinante) / Aula VAT2 · Terapia gênica: CRISPR-Cas9"
+  },
+  "revisada": true
+ },
+ {
+  "id": 209,
+  "code": "LTG-08",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Mecanismo molecular do CRISPR-Cas9 e aplicações em terapia gênica",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Avanços recentes em engenharia genética dão início a uma revolução; cientistas são capazes de manipular DNA humano de forma prática e barata, abrindo portas para uma gama de novos estudos genéticos nas áreas de medicina e de biotecnologia. O sistema CRISPR-Cas9 constitui uma maquinaria celular que é natural em diversos organismos vivos e oferece um enorme potencial, desde a cura de doenças causadas por mutações e danos no DNA até a criação de fármacos com organismos geneticamente modificados, entre outras aplicações em biotecnologia. Em relação ao sistema CRISPR-Cas9, é correto afirmar que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "corresponde a pequenas moléculas de RNA associadas a uma enzima de restrição, com capacidade de reconhecer e clivar sequências específicas de DNA exógeno.",
+    "rationale": "CORRETA. O sistema CRISPR-Cas9 é uma via natural de imunidade adaptativa procariótica composta por pequenas moléculas de RNA não codificador (crRNA e tracrRNA, ou sgRNA) que se associam à endonuclease Cas9 (uma enzima de corte/restrição guiada por RNA), capacitando o complexo a parear por complementaridade de bases e clivar sequências específicas de DNA exógeno invasor (como genomas de bacteriófagos e plasmídeos)."
+   },
+   {
+    "letter": "B",
+    "text": "identifica e quantifica moléculas de RNA em uma amostra de interesse, para estudo de expressão gênica.",
+    "rationale": "Incorreta. A identificação e quantificação de moléculas de transcritos de RNA em uma amostra biológica para avaliação de expressão gênica caracterizam técnicas analíticas como RT-qPCR (reação em cadeia da polimerase via transcriptase reversa quantitativa), microarranjos de DNA (microarrays) e sequenciamento de RNA (RNA-Seq), e não a endonuclease CRISPR-Cas9."
+   },
+   {
+    "letter": "C",
+    "text": "isola genes individuais do DNA humano e os insere em DNA plasmidial.",
+    "rationale": "Incorreta. O isolamento de segmentos de DNA e sua incorporação em plasmídios bacterianos definem o procedimento clássico de clonagem molecular na tecnologia do DNA recombinante (utilizando digestão por endonucleases de restrição convencionais e selamento covalente pela DNA ligase), e não o mecanismo de edição nucleotídica do CRISPR-Cas9."
+   },
+   {
+    "letter": "D",
+    "text": "amplifica em milhares de vezes uma região específica da molécula de DNA.",
+    "rationale": "Incorreta. A amplificação exponencial in vitro de uma região predeterminada da molécula de DNA descreve a técnica da Reação em Cadeia da Polimerase (PCR), que utiliza ciclos repetidos de variação térmica, iniciadores oligonucleotídicos (primers) e uma DNA polimerase termoestável."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O sistema CRISPR-Cas9 constitui um mecanismo imunológico adaptativo bacteriano no qual moléculas curtas de RNA guiam a endonuclease Cas9 para reconhecer e clivar sítios específicos de DNA exógeno invasor. Essa capacidade catalítica de precisão foi reprogramada pela engenharia genética para atuar como ferramenta de edição genômica e terapia gênica.",
+  "bookContext": {
+   "text": "Nos procariotos, como Streptococcus pyogenes, sequências derivadas de infecções prévias por fagos são integradas como espaçadores no arranjo CRISPR e transcritas em crRNAs, que se pareiam ao tracrRNA para guiar a enzima Cas9 até sequências-alvo adjacentes a um motivo PAM (5'-NGG-3'). Ao se ligar ao alvo complementar, a Cas9 induz uma quebra da dupla-fita de DNA (DSB), inviabilizando o material genético invasor. Na biotecnologia moderna, os componentes de RNA foram unificados em um RNA-guia sintético (sgRNA), permitindo direcionar a Cas9 para qualquer ponto do genoma humano ou animal. A quebra resultante ativa mecanismos celulares de reparo, como a junção de extremidades não homólogas (NHEJ), que gera indels e inativação gênica, ou a recombinação homóloga direcionada (HDR), que utiliza um molde exógeno para corrigir mutações causadoras de doenças.",
+   "fonte": "Livro Snustad (Fundamentos de Genética, 7ª ed., Cap. 16: Engenharia genômica – Sistema CRISPR/Cas9 para clivagem de moléculas de DNA) e Aula VAT2 · Terapia gênica: CRISPR-Cas9"
+  },
+  "revisada": true
+ },
+ {
+  "id": 210,
+  "code": "LTG-09",
+  "lista": "tg",
+  "category": "Lista de aula · Terapia gênica",
+  "subcategory": "Transferência gênica direta (in vivo) e vetores virais",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Monitoria 2025.1) · respondida com o NotebookLM; resposta: gabarito oficial da lista",
+  "prompt": "Como toda terapia nova, a terapia gênica foi inicialmente testada em modelos animais, antes do teste em humanos. Em linhas gerais, a terapia gênica pode ser realizada efetuando a transferência direta de genes ou usando-se células vivas como veículo de transporte dos genes de interesse. Ambos os processos apresentam vantagens e desvantagens e vêm sendo alvo de intensas pesquisas buscando protocolos mais seguros e eficientes. Com relação à transferência direta de genes, assinale a opção correta.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Uma das opções para a transferência gênica direta é o empacotamento do gene em vírus, como adenovírus e retrovírus, modificados geneticamente.",
+    "rationale": "CORRETA. A transferência direta de genes (estratégia in vivo) consiste na administração do gene terapêutico diretamente no organismo do paciente. Para viabilizar a entrada e a estabilidade do material genético nas células-alvo, empregam-se rotineiramente vetores virais modificados geneticamente por engenharia recombinante — tais como adenovírus, retrovírus, lentivírus e vírus adenoassociados —, os quais têm seus genes de virulência/replicação deletados ou substituídos pelo transgene terapêutico de interesse."
+   },
+   {
+    "letter": "B",
+    "text": "Em decorrência de a maquinaria de produção proteica ser idêntica em todos os tipos celulares de uma dada espécie, a transferência direta de genes não demanda que essa transferência seja feita para um tecido específico.",
+    "rationale": "Incorreta. Embora o código genético e os elementos centrais do maquinário de tradução sejam universais entre as células da mesma espécie, o padrão de diferenciação, os fatores de transcrição e os receptores de superfície celular são tecido-específicos. A transferência direta de genes demanda obrigatoriamente direcionamento para tecidos específicos (seja por injeção anatômica localizada, tropismo natural do capsídeo viral ou promotores tecido-específicos), sob pena de causar efeitos adversos graves, imunorreatividade disseminada ou ineficácia terapêutica no órgão doente."
+   },
+   {
+    "letter": "C",
+    "text": "Um exemplo desse tipo de terapia gênica é a retirada de células da medula óssea de paciente com leucemia que são reprogramadas geneticamente e uma posterior reintrodução dessas células.",
+    "rationale": "Incorreta. O processo de retirar células do paciente (como células-tronco hematopoéticas da medula óssea), manipulá-las/corrigi-las geneticamente em cultura de laboratório e subsequentemente reinfundi-las no paciente é a definição clássica de terapia gênica celular ou indireta (estratégia ex vivo), e não de transferência direta de genes (in vivo)."
+   },
+   {
+    "letter": "D",
+    "text": "Uma das células-alvo tradicionais para receber a transferência direta de genes são as hemácias, pois elas circulam por todo o organismo, podendo levar o produto gênico para os mais diferentes órgãos e tecidos.",
+    "rationale": "Incorreta. As hemácias humanas maduras são células anucleadas e desprovidas de ribossomos e organelas, sendo biologicamente incapazes de transcrever e traduzir sequências de DNA em proteínas funcionais. Em doenças hematológicas, as células-alvo modificadas são as células-tronco e precursoras nucleadas da medula óssea através de protocolos ex vivo, e não os eritrócitos maduros circulantes."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A transferência direta de genes (in vivo) baseia-se na entrega do transgene diretamente aos tecidos do paciente por meio de vetores formulados, comumente vírus geneticamente modificados e desarmados. Distingue-se fundamentalmente da abordagem ex vivo, que extrai células do paciente, introduz o gene em ambiente laboratorial e as reimplanta.",
+  "bookContext": {
+   "text": "Na terapia gênica somática in vivo, os vetores virais são ferramentas fundamentais de transdução, sendo projetados para perder a capacidade patogênica replicativa enquanto preservam a aptidão para aportar material genético às células-alvo. Vetores retrovirais integram estavelmente o DNA ao genoma do hospedeiro, permitindo a transmissão às linhagens derivadas, embora tragam o risco de mutagênese insercional em oncogenes ou genes supressores de tumor. Em contrapartida, vetores adenovirais permanecem predominantemente na forma epissomal (extracromossômica), gerando expressão gênica transitória, mas com frequência associada a intensas respostas imunes inflamatórias secundárias. Por essa razão, a escolha e a modificação do vetor constituem o ponto crítico de segurança e eficácia na transferência gênica direta.",
+   "fonte": "Livro · Snustad · Fundamentos de Genética (Capítulo 16: Aplicações da Genética Molecular – Terapia gênica humana e Vetores da terapia gênica) e Aula VAT2 · Terapia gênica: CRISPR-Cas9"
+  },
+  "revisada": true
+ },
+ {
+  "id": 211,
+  "code": "LAG-01",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Princípios do aconselhamento genético pré-natal e idade materna avançada",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Uma mulher de 38 anos, gestante de 12 semanas, procura atendimento pré-natal preocupada com a possibilidade de o feto apresentar uma alteração cromossômica. Ela relata que nunca teve filhos e que não possui história familiar conhecida de doenças genéticas. Após avaliação clínica, o médico explica que a idade materna constitui uma indicação para encaminhamento ao aconselhamento genético e discute as possibilidades de investigação pré-natal.\nConsiderando os princípios do aconselhamento genético, a conduta mais adequada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Informar à paciente que, devido à idade, a gestação apresenta risco elevado e recomendar interrupção da gravidez.",
+    "rationale": "Incorreta. Incorreta (Falsa). O aconselhamento genético orienta-se pela não diretividade, sendo contrário aos seus preceitos bioéticos impor, prescrever ou recomendar a interrupção da gestação; ademais, a idade materna avançada representa aumento de risco probabilístico, mas a grande maioria das gestações em mulheres de 38 anos resulta em crianças cromossomicamente típicas."
+   },
+   {
+    "letter": "B",
+    "text": "Explicar que a idade materna é um fator de risco e apresentar as possibilidades de investigação, permitindo que a paciente participe autonomamente da decisão.",
+    "rationale": "CORRETA. Correta (Verdadeira). A idade materna avançada (definida a partir dos 35 anos) é uma indicação clássica para encaminhamento ao aconselhamento genético devido ao aumento na taxa de não disjunção meiótica cromossômica. A conduta médica adequada consiste em apresentar de forma clara, empática e objetiva todas as opções disponíveis de rastreamento e diagnóstico pré-natal, garantindo a autonomia da paciente na tomada de decisão consciente e compartilhada."
+   },
+   {
+    "letter": "C",
+    "text": "Solicitar obrigatoriamente amniocentese, pois mulheres com idade ≥35 anos devem realizar diagnóstico invasivo.",
+    "rationale": "Incorreta. Incorreta (Falsa). A realização de procedimentos invasivos (como biópsia de vilosidades coriônicas ou amniocentese) não é obrigatória, pois envolve riscos inerentes de perda gestacional; a paciente tem a prerrogativa de optar por exames de triagem não invasivos (como o NIPT e a ultrassonografia morfológica) ou recusar qualquer investigação."
+   },
+   {
+    "letter": "D",
+    "text": "Evitar discutir riscos genéticos, pois a ausência de história familiar exclui a possibilidade de alterações cromossômicas.",
+    "rationale": "Incorreta. Incorreta (Falsa). A ausência de histórico familiar de doenças genéticas não exclui a chance de cromossomopatias, visto que a grande maioria das aneuploidias fetais (como as trissomias do 21, 18 e 13) decorre de eventos novos de não disjunção meiótica durante a ovogênese, associados primordialmente ao envelhecimento dos gametas maternos."
+   },
+   {
+    "letter": "E",
+    "text": "Recomendar diretamente o teste genético considerado mais eficaz, independentemente das preferências da paciente.",
+    "rationale": "Incorreta. Incorreta (Falsa). O profissional não deve determinar unilateralmente qual teste a gestante deve realizar; a prática médica no aconselhamento genético exige respeito às crenças, aos valores, aos objetivos reprodutivos e ao consentimento esclarecido da consulente."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O aconselhamento genético pré-natal em gestantes com idade materna avançada deve respeitar rigorosamente o princípio da autonomia e da não diretividade. Cabe ao profissional expor as opções de triagem e diagnóstico disponíveis, assegurando que a paciente participe ativamente e decida de modo livre e informado.",
+  "bookContext": {
+   "text": "Conforme detalhado no livro Thompson & Thompson: Genética Médica (Capítulos 16 e 17), a idade materna a partir dos 35 anos é uma das indicações mais frequentes para o aconselhamento genético em virtude do risco exponencial de aneuploidias secundárias a falhas na segregação cromossômica durante a meiose I materna. O processo de aconselhamento pré-natal equilibra a apresentação do risco de ocorrência de uma anomalia com o risco de perda fetal decorrente de métodos invasivos como a amniocentese e a amostragem de vilosidades coriônicas (CVS). A introdução de métodos não invasivos de triagem no soro materno e de análise do DNA fetal livre no plasma materno (NIPT) ampliou as opções das gestantes, exigindo discussão aprofundada antes e depois dos exames. O pilar ético fundamental reside no suporte não diretivo, capacitando os pais a avaliarem as informações à luz de seus próprios valores morais, éticos e reprodutivos.",
+   "fonte": "Livro Thompson & Thompson - Genética Médica (Capítulos 16 e 17) e Aula VAT2 · Aconselhamento genético (Slides de indicações e princípios bioéticos)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 212,
+  "code": "LAG-02",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Funções do aconselhamento genético e avaliação citogenética na síndrome de Down",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Um casal procura atendimento após o nascimento de uma criança com características fenotípicas sugestivas de síndrome de Down. O médico geneticista solicita investigação citogenética para confirmar o diagnóstico e, posteriormente, pretende discutir com os pais o risco de recorrência em futuras gestações.\nNesse contexto, uma das funções fundamentais do aconselhamento genético é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Determinar se os pais devem ou não ter outra gestação.",
+    "rationale": "Incorreta. Incorreta (Falsa). O papel do aconselhamento genético não é tomar decisões pela família ou determinar se devem ou não ter outros filhos, mas capacitá-los por meio da compreensão do quadro genético para que exerçam suas escolhas reprodutivas de forma autônoma."
+   },
+   {
+    "letter": "B",
+    "text": "Estabelecer uma conduta reprodutiva obrigatória para reduzir a ocorrência de doenças genéticas.",
+    "rationale": "Incorreta. Correta (Falsa como afirmação). O aconselhamento genético rejeita qualquer imposição de condutas reprodutivas obrigatórias ou metas de saúde pública voltadas à diminuição forçada da incidência de genes na população, distanciando-se expressamente de concepções eugenistas."
+   },
+   {
+    "letter": "C",
+    "text": "Confirmar ou esclarecer o diagnóstico, explicar suas implicações e estimar o risco de recorrência de maneira compreensível.",
+    "rationale": "CORRETA. Correta (Verdadeira). Estabelecer a precisão diagnóstica (por meio do cariótipo, que diferencia trissomia livre de translocações estruturais), esclarecer as características fenotípicas, história natural e prognóstico da síndrome em linguagem acessível e calcular o risco empírico ou mendeliano de recorrência para futuras gestações configuram os objetivos primordiais do aconselhamento genético."
+   },
+   {
+    "letter": "D",
+    "text": "Restringir as informações aos pais, evitando que outros familiares tenham acesso ao diagnóstico.",
+    "rationale": "Incorreta. Incorreta (Falsa). As doenças genéticas repercutem em todo o grupo familiar; embora haja respeito ao sigilo do paciente, o geneticista frequentemente estimula e apoia os pais no compartilhamento das informações relevantes com parentes biológicos em risco (como no caso de um dos genitores ser portador de translocação balanceada)."
+   },
+   {
+    "letter": "E",
+    "text": "Priorizar exclusivamente os aspectos laboratoriais, pois as repercussões psicológicas não fazem parte do aconselhamento genético.",
+    "rationale": "Incorreta. Incorreta (Falsa). O aconselhamento genético moderno transcende a mera emissão de laudos laboratoriais, englobando de forma primordial o suporte psicológico, o manejo do luto e a adaptação familiar diante de uma condição crônica congênita."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O aconselhamento genético pós-natal visa confirmar o diagnóstico etiológico, esclarecer suas implicações médicas de modo compreensível e estimar o risco de recorrência para a família. Essas informações fundamentam decisões médicas, terapêuticas e reprodutivas conscientes sem imposição profissional.",
+  "bookContext": {
+   "text": "De acordo com o Thompson & Thompson: Genética Médica (Capítulo 16) e a definição adotada pela National Society of Genetic Counselors (NSGC), o aconselhamento genético integra interpretação de histórias familiares, avaliação de riscos e educação sobre herança genética. Na suspeita de síndrome de Down pós-natal, a realização do cariótipo com bandas G é indispensável para identificar se o evento decorreu de trissomia simples do 21 por não disjunção meiótica (com risco de recorrência empírico de cerca de 1%) ou de translocação Robertsoniana não balanceada (onde o risco pode ser de 10% a 15% se a mãe for portadora balanceada da translocação 14;21, ou até 100% no caso de translocações 21q21q). A comunicação transparente dessas nuances genéticas permite que os pais compreendam a etiologia biológica sem sentimentos infundados de culpabilização. Além disso, o encaminhamento multidisciplinar precoce para estimulação motora, cognitiva e acompanhamento de cardiopatias congênitas faz parte das atribuições do suporte clínico gerado no aconselhamento.",
+   "fonte": "Livro Thompson & Thompson - Genética Médica (Capítulos 6 e 16) e Aula VAT2 · Aconselhamento genético (Slides sobre definição, passos do AG e síndrome de Down)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 213,
+  "code": "LAG-03",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Aspectos psicológicos, manejo do luto e modelo psicossocial no aconselhamento genético",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Um casal recebe a confirmação de que seu filho apresenta uma doença genética. A mãe manifesta sentimento de culpa e o pai demonstra raiva e dificuldade em aceitar o diagnóstico. O médico percebe que, além das informações clínicas, a família necessita de apoio para lidar com as repercussões emocionais da condição.\nSegundo o conteúdo apresentado no material, essa situação está relacionada principalmente ao reconhecimento de que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O aconselhamento genético deve limitar-se à interpretação dos exames laboratoriais.",
+    "rationale": "Incorreta. Incorreta (Falsa). Reduzir o aconselhamento genético a testes e laudos laboratoriais negligencia o impacto humano, médico e psicológico que o diagnóstico impõe à dinâmica conjugal e familiar."
+   },
+   {
+    "letter": "B",
+    "text": "A doença genética pode desencadear processos de sofrimento, luto e repercussões psicológicas na família.",
+    "rationale": "CORRETA. Correta (Verdadeira). O modelo psicossocial/psicoterapêutico do aconselhamento genético fundamenta-se na constatação de que as informações genéticas não são neutras, mas sim ameaçadoras da identidade e do ego dos pais, desencadeando reações emocionais complexas como choque, negação, raiva, culpa, estigma e vivência do luto pela perda do filho saudável idealizado."
+   },
+   {
+    "letter": "C",
+    "text": "As manifestações emocionais devem ser ignoradas para evitar interferência na tomada de decisão.",
+    "rationale": "Incorreta. Incorreta (Falsa). Ignorar os aspectos emocionais é prejudicial, pois pais sob intenso estresse ou bloqueio psicológico não conseguem processar as informações médicas ou tomar decisões conscientes, demandando suporte acolhedor do profissional."
+   },
+   {
+    "letter": "D",
+    "text": "O modelo eugenista é o mais adequado quando a doença apresenta elevada gravidade.",
+    "rationale": "Incorreta. Incorreta (Falsa). O modelo eugenista tinha como premissa a seleção reprodutiva para benefício da composição genética populacional em detrimento do bem-estar e da autonomia individual; trata-se de um modelo ultrapassado, eticamente rechaçado na prática contemporânea da genética clínica."
+   },
+   {
+    "letter": "E",
+    "text": "O aconselhamento genético deve ser realizado exclusivamente pelo médico geneticista, sem participação de outros profissionais.",
+    "rationale": "Incorreta. Incorreta (Falsa). O atendimento às afecções genéticas exige atuação inter e multiprofissional, demandando o concurso de psicólogos, assistentes sociais, enfermeiros e terapeutas para acolhimento integral da família."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O diagnóstico de uma anomalia genética desencadeia vivências profundas de luto, culpa e abalo psicossocial na família. O aconselhamento genético fundamenta-se no modelo psicoterapêutico para acolher e manejar essas manifestações emocionais, facilitando a adaptação familiar.",
+  "bookContext": {
+   "text": "Conforme exposto nos livros de Genética Médica (Thompson & Thompson, Cap. 16) e na literatura de referência do módulo (Pina-Neto, 2008), o modelo psicossocial de aconselhamento genético inspirou-se na abordagem não diretiva centrada na pessoa, desenvolvida por Carl Rogers. Reconhece-se que a constatação de um distúrbio genético quebra a expectativa da gestação de um filho saudável, deflagrando fases semelhantes ao processo clássico de luto descrito por Elisabeth Kübler-Ross: negação, revolta, culpa mútua ou individual e depressão antes da aceitação e ajustamento. A culpa parental é frequente devido à percepção equivocada de que a herança genética defeituosa representa uma falha biológica pessoal. O aconselhador genético atua estabelecendo uma relação de ajuda empática e mútua participação, fornecendo espaço seguro para elaboração desses sentimentos e encaminhando os familiares para suporte psicológico especializado quando necessário.",
+   "fonte": "Aula VAT2 · Aconselhamento genético (Slides sobre aspectos históricos/éticos e modelo psicossocial/Pina-Neto) e Livro Thompson & Thompson - Genética Médica (Capítulo 16)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 214,
+  "code": "LAG-04",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Consanguinidade, herança autossômica recessiva e aconselhamento genético pré-concepcional",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Um casal consanguíneo procura uma unidade de saúde para avaliação antes de uma nova gestação. Eles relatam que possuem um sobrinho com uma doença genética de etiologia ainda não esclarecida. O médico decide encaminhá-los para aconselhamento genético.\nA justificativa mais adequada para esse encaminhamento é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A consanguinidade constitui uma situação em que pode haver necessidade de avaliação do risco genético e investigação da história familial.",
+    "rationale": "CORRETA. Correta (Verdadeira). A consanguinidade entre cônjuges é uma indicação formal de aconselhamento genético porque aumenta a proporção de locos gênicos em homozigose compartilhados por descendência de um ancestral comum. Associada ao relato de um parente próximo (sobrinho) afetado por doença não diagnosticada, impõe-se a construção do heredograma detalhado para avaliação criteriosa de riscos mendelianos ou multifatoriais."
+   },
+   {
+    "letter": "B",
+    "text": "Todo casal consanguíneo obrigatoriamente terá filhos com doenças genéticas.",
+    "rationale": "Incorreta. Incorreta (Falsa). A consanguinidade não torna mandatória a ocorrência de afecções genéticas; embora o risco basal empírico de anomalias congênitas em filhos de primos em primeiro grau seja aumentado em relação à população geral (passando de cerca de 2% a 3% para aproximadamente 4% a 6%), a grande maioria dos descendentes de casais consanguíneos nasce hígida."
+   },
+   {
+    "letter": "C",
+    "text": "A consanguinidade determina exclusivamente doenças cromossômicas.",
+    "rationale": "Incorreta. Incorreta (Falsa). A consanguinidade afeta a probabilidade de homozigose de alelos deletérios recessivos idênticos por descendência, estando intimamente ligada a doenças monogênicas autossômicas recessivas e a caracteres multifatoriais, e não a aberrações cromossômicas numéricas ou estruturais."
+   },
+   {
+    "letter": "D",
+    "text": "O aconselhamento genético somente está indicado quando ambos os indivíduos apresentam manifestações clínicas.",
+    "rationale": "Incorreta. Incorreta (Falsa). O aconselhamento genético pode e deve ser oferecido a indivíduos sadios que desejam planejamento reprodutivo ou avaliação de portador (triagem pré-concepcional), especialmente quando há consanguinidade conjugal ou antecedentes na linhagem familiar."
+   },
+   {
+    "letter": "E",
+    "text": "A avaliação genética deve ser realizada apenas após o nascimento de uma criança afetada.",
+    "rationale": "Incorreta. Incorreta (Falsa). A avaliação genética pré-concepcional é a estratégia preventiva de escolha, permitindo calcular probabilidades antes da concepção e oferecer estratégias de triagem e seguimento pré-natal programado."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A consanguinidade entre parceiros justifica o encaminhamento para aconselhamento genético por elevar a probabilidade de homozigose para alelos mutantes recessivos idênticos por descendência, exigindo levantamento minucioso do heredograma familiar.",
+  "bookContext": {
+   "text": "Conforme detalhado no livro Thompson & Thompson: Genética Médica (Capítulos 7, 9 e 16), casais aparentados (como primos em primeiro grau, cujo coeficiente de parentesco compartilhado é de 1/8 e o coeficiente de endogamia da prole é de 1/16) possuem chances significativamente maiores de carregar em heterozigose a mesma mutação autossômica recessiva herdada de um ancestral em comum. A investigação no aconselhamento genético apoia-se no levantamento da genealogia de no mínimo três gerações e na busca de dados etiológicos da doença manifestada no probando ou parente afetado (no caso, o sobrinho). Quando a condição específica do parente não possui diagnóstico molecular firmado, o aconselhador genético calcula riscos empíricos e modelos de probabilidade condicional bayesiana para estimar as chances de heterozigose dos consulentes. Isso permite planejar o seguimento gestacional, considerar painéis moleculares de rastreamento de portadores e assegurar orientação reprodutiva esclarecida ao casal.",
+   "fonte": "Livro Thompson & Thompson - Genética Médica (Capítulos 7 e 16) e Aula VAT2 · Aconselhamento genético (Slides sobre indicações do AG e consanguinidade)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 215,
+  "code": "LAG-05",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Autonomia e Princípio da Não Diretividade",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Um médico apresenta a uma família diferentes possibilidades de investigação genética e explica as implicações, limitações e possíveis resultados de cada exame. Ao final da consulta, os familiares decidem não realizar determinado teste naquele momento.\nConsiderando os princípios éticos do aconselhamento genético, a atitude do médico é adequada porque:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O médico deve decidir pelo paciente quando houver risco de doença genética.",
+    "rationale": "Incorreta. No aconselhamento genético contemporâneo, o profissional não assume papel paternalista e não deve decidir pelo paciente, cabendo a ele fornecer as informações necessárias para capacitar os consulentes a tomarem decisões próprias."
+   },
+   {
+    "letter": "B",
+    "text": "A autonomia do paciente deve ser respeitada, mesmo quando sua decisão não coincide com a recomendação inicial do profissional.",
+    "rationale": "CORRETA. A autonomia do paciente é um princípio bioético cardeal do aconselhamento genético; a conduta do médico é adequada porque respeita a decisão informada e voluntária da família de adiar ou não realizar o exame, mesmo que divirja da conduta inicialmente sugerida."
+   },
+   {
+    "letter": "C",
+    "text": "A decisão sobre testes genéticos deve ser tomada exclusivamente pelo laboratório.",
+    "rationale": "Incorreta. O laboratório de genética é responsável unicamente pela execução técnica e liberação dos laudos dos testes, cabendo a decisão clínica e pessoal sobre sua realização exclusivamente ao paciente e sua família."
+   },
+   {
+    "letter": "D",
+    "text": "A recusa de um teste demonstra falta de compreensão e deve ser obrigatoriamente revertida pelo médico.",
+    "rationale": "Incorreta. A recusa consciente e informada constitui prerrogativa legítima do consulente no exercício de sua autonomia, não significando déficit de entendimento nem justificando imposição médica para revertê-la."
+   },
+   {
+    "letter": "E",
+    "text": "O aconselhamento genético possui caráter diretivo para garantir melhores resultados clínicos.",
+    "rationale": "Incorreta. O aconselhamento genético clássico rege-se pelo princípio da não diretividade, recusando a imposição de caminhos terapêuticos ou reprodutivos para preservar a autodeterminação da família."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O aconselhamento genético fundamenta-se na não diretividade e no respeito estrito à autonomia do paciente, cabendo ao profissional informar e capacitar, mas nunca deliberar pelo consulente.",
+  "bookContext": {
+   "text": "Historicamente, o aconselhamento genético transitou de modelos diretivos e eugênicos para uma prática focada na comunicação e no suporte psicossocial centrado na pessoa. De acordo com a Sociedade Nacional de Conselheiros Genéticos (NSGC) e os principais compêndios da área, o papel do conselheiro é auxiliar os indivíduos a compreenderem os aspectos médicos, genéticos e psicológicos da condição familiar. Isso envolve apresentar os riscos, os benefícios, a acurácia e as limitações de cada teste genético disponível. Ao garantir que o consentimento seja livre e esclarecido, preserva-se o direito do paciente de recusar procedimentos diagnósticos ou reprodutivos que entrem em conflito com seus valores morais, éticos ou religiosos.",
+   "fonte": "Aula VAT2 · Aconselhamento genético (slides sobre Definição da NSGC, Não Diretividade e Modelo Psicológico) e Thompson & Thompson Genética Médica, Capítulo 16 (Avaliação de Risco e Aconselhamento Genético)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 216,
+  "code": "LAG-06",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Diagnóstico Clínico da Síndrome de Down",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Uma criança apresenta hipotonia, epicanto, braquicefalia, clinodactilia do quinto dedo, prega palmar única e aumento do volume da língua. O pediatra suspeita de uma alteração cromossômica e encaminha a criança para avaliação genética.\nA partir dos achados apresentados na aula, a hipótese diagnóstica que deve ser investigada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Síndrome de Turner.",
+    "rationale": "Incorreta. A Síndrome de Turner (45,X) manifesta-se em indivíduos fenotipicamente femininos e cursa com baixa estatura acentuada, disgenesia gonadal, amenorreia primária, pescoço alado, tórax largo com mamilos espaçados e malformações cardiovasculares como coarctação de aorta, não exibindo o espectro descrito."
+   },
+   {
+    "letter": "B",
+    "text": "Síndrome de Klinefelter.",
+    "rationale": "Incorreta. A Síndrome de Klinefelter (47,XXY) acomete indivíduos do sexo masculino e tem diagnóstico predominantemente pós-puberal decorrente de hipogonadismo hipergonadotrófico, alta estatura com membros alongados, ginecomastia e azoospermia, sem o conjunto de dismorfismos pediátricos citados."
+   },
+   {
+    "letter": "C",
+    "text": "Síndrome de Down.",
+    "rationale": "CORRETA. A associação de hipotonia muscular generalizada, fendas palpebrais com prega epicântica (epicanto), braquicefalia com achatamento occipital, clinodactilia do 5º quirodáctilo, prega palmar transversa única (linha simiesca) e macroglossia relativa (aumento do volume da língua) compõe o quadro fenotípico clássico da Síndrome de Down (trissomia do cromossomo 21)."
+   },
+   {
+    "letter": "D",
+    "text": "Síndrome do triplo X.",
+    "rationale": "Incorreta. A Síndrome do Triplo X (47,XXX) costuma apresentar fenótipo físico brando ou quase imperceptível, com estatura discretamente elevada e eventuais dificuldades escolares, sem as dismorfias faciais e palmares marcantes descritas."
+   },
+   {
+    "letter": "E",
+    "text": "Síndrome de Cri-du-chat.",
+    "rationale": "Incorreta. A Síndrome de Cri-du-Chat (deleção terminal do braço curto do cromossomo 5) caracteriza-se primariamente pelo choro agudo semelhante ao miado de gato (decorrente de hipoplasia da laringe), microcefalia grave e hipotelorismo/ponte nasal ampla, diferindo da constelação sindrômica apresentada."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A presença simultânea de hipotonia, epicanto, braquicefalia, prega palmar única, clinodactilia e macroglossia define o conjunto clássico de estigmas dismórficos indicativo da Síndrome de Down.",
+  "bookContext": {
+   "text": "A Síndrome de Down é a aneuploidia autossômica mais frequente compatível com a sobrevida pós-natal em humanos, decorrendo em cerca de 95% dos casos de trissomia livre por não disjunção meiótica materna. O reconhecimento clínico neonatal fundamenta-se em critérios clássicos que incluem hipotonia, perfil facial achatado, fissuras palpebrais oblíquas para cima acompanhadas de epicanto e anomalias osteoarticulares nas extremidades. A confirmação laboratorial mandatória faz-se por cariótipo com bandeamento G ou técnicas moleculares rápidas (como FISH e QF-PCR) para orientar o manejo precoce das comorbidades associadas. O diagnóstico citogenético preciso também é indispensável para distinguir trissomia livre de formas associadas a translocações robertsonianas, o que modifica substancialmente o risco de recorrência para os pais.",
+   "fonte": "Aula VAT2 · Aconselhamento genético (slide de Características Fenotípicas), Aula VAT1 · Alterações cromossômicas e Thompson & Thompson Genética Médica, Capítulo 6 (Citogenética Clínica)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 217,
+  "code": "LAG-07",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "História Familiar e Doenças de Manifestação Tardia",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Um homem de 32 anos procura aconselhamento genético porque sua mãe apresentou uma doença genética de manifestação tardia. Ele deseja saber qual é seu risco de desenvolver a doença e se poderá transmiti-la aos filhos.\nNesse caso, uma etapa fundamental do aconselhamento genético consiste em:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Evitar investigar familiares, pois doenças de manifestação tardia não podem ser avaliadas geneticamente.",
+    "rationale": "Incorreta. Doenças genéticas de manifestação tardia (como Coreia de Huntington, certas ataxias espinocerebelares e síndromes de predisposição hereditária ao câncer) são extensamente investigadas por meio da história familiar, heredograma e, quando indicado, exames pré-sintomáticos com aconselhamento especializado."
+   },
+   {
+    "letter": "B",
+    "text": "Construir a história médica e familiar, analisar o padrão de herança e estimar o risco de ocorrência ou recorrência.",
+    "rationale": "CORRETA. A obtenção pormenorizada da história médica e familiar estendida em três gerações permite confeccionar o heredograma, elucidar o provável padrão de herança (mendeliano ou complexo) e aplicar princípios probabilísticos para determinar o risco de ocorrência e recorrência do distúrbio para o consulente e sua futura prole."
+   },
+   {
+    "letter": "C",
+    "text": "Informar imediatamente que o paciente desenvolverá a doença caso sua mãe seja afetada.",
+    "rationale": "Incorreta. A presença de um genitor afetado por uma afecção genética não implica certeza absoluta de adoecimento do filho sem a caracterização do modelo de herança, do cálculo do risco de transmissão e da avaliação de penetrância dependente da idade."
+   },
+   {
+    "letter": "D",
+    "text": "Recomendar que o paciente não tenha filhos independentemente do padrão de herança.",
+    "rationale": "Incorreta. O aconselhamento genético profissional é estritamente não prescritivo e recusa orientações mandatórias de abstinência reprodutiva; as alternativas reprodutivas (incluindo diagnóstico pré-natal ou pré-implantação) são apresentadas para suporte à decisão autônoma do casal."
+   },
+   {
+    "letter": "E",
+    "text": "Solicitar apenas exames laboratoriais, sem necessidade de investigação da história familiar.",
+    "rationale": "Incorreta. O heredograma e a história médica familiar constituem instrumentos clínicos basilares indispensáveis que direcionam a interpretação e a indicação de quaisquer exames genéticos moleculares laboratoriais."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A anamnese detalhada e a construção da história médica familiar e do heredograma constituem a etapa propedêutica essencial para identificar o padrão de herança e calcular riscos genéticos.",
+  "bookContext": {
+   "text": "Nas doenças monogênicas de manifestação tardia, a probabilidade pré-teste de um indivíduo assintomático ser portador da mutação patogênica sofre influência direta do padrão mendeliano e de sua idade atual em relação à curva de penetrância cumulativa da doença. Ferramentas bioestatísticas como a análise bayesiana são rotineiramente empregadas pelo médico geneticista para integrar os dados genealógicos com o histórico de familiares assintomáticos que ultrapassaram a faixa etária típica de início clínico. A realização de testes pré-sintomáticos ou preditivos nesses contextos requer avaliação neurológica e psicossocial criteriosa pré e pós-teste, devido às profundas repercussões emocionais e aos dilemas reprodutivos decorrentes de um diagnóstico positivo para condições sem tratamento curativo.",
+   "fonte": "Aula VAT2 · Aconselhamento genético (slides sobre Indicações ao AG e Obtenção da História Familiar) e Thompson & Thompson Genética Médica, Capítulo 16 (Avaliação de Risco e Aconselhamento Genético)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 218,
+  "code": "LAG-08",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Comunicação e Linguagem Acessível no AG",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Uma família recebe o diagnóstico de uma doença genética rara. Durante a consulta, o médico explica o diagnóstico utilizando linguagem técnica, mas percebe que os familiares não compreenderam adequadamente as informações fornecidas.\nDe acordo com os objetivos do aconselhamento genético apresentados no material, a conduta mais apropriada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Manter a terminologia técnica para preservar a precisão científica.",
+    "rationale": "Incorreta. O apego estrito a jargões médicos e termos técnicos complexos ergue uma barreira de comunicação e contraria a meta educativa do aconselhamento genético, prejudicando o entendimento e a tomada de decisão autônoma da família."
+   },
+   {
+    "letter": "B",
+    "text": "Encerrar a consulta, pois cabe exclusivamente à família buscar informações adicionais.",
+    "rationale": "Incorreta. A transmissão clara, humanizada e eficaz do diagnóstico é atribuição intrínseca e intransferível do profissional conselheiro, não cabendo desresponsabilizar-se ou delegar esse ônus aos familiares fragilizados."
+   },
+   {
+    "letter": "C",
+    "text": "Reformular as informações utilizando linguagem compreensível, verificando a compreensão dos consulentes.",
+    "rationale": "CORRETA. O aconselhamento genético é definido internacionalmente como um processo de comunicação médica e psicossocial; ao perceber ruídos ou incompreensão, o profissional deve traduzir as noções biomédicas em linguagem acessível e checar sistematicamente o entendimento dos consulentes."
+   },
+   {
+    "letter": "D",
+    "text": "Evitar explicar o diagnóstico para reduzir a ansiedade familiar.",
+    "rationale": "Incorreta. Ocultar ou sonegar o diagnóstico viola o princípio bioético da veracidade e impede que os familiares compreendam o prognóstico e as medidas clínicas preventivas ou de suporte cabíveis para o paciente."
+   },
+   {
+    "letter": "E",
+    "text": "Transferir a responsabilidade pela comunicação exclusivamente ao laboratório responsável pelo teste.",
+    "rationale": "Incorreta. Os laboratórios de apoio diagnóstico fornecem relatórios e laudos anatomopatológicos ou moleculares, mas não realizam o acompanhamento clínico, a interpretação contextualizada nem o aconselhamento genético da família."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O aconselhamento genético é essencialmente um processo de comunicação; cabe ao profissional adaptar a linguagem para termos compreensíveis e verificar ativamente a assimilação das informações pela família.",
+  "bookContext": {
+   "text": "De acordo com os postulados pioneiros de Sheldon Reed e as diretrizes da Sociedade Americana de Genética Humana (ASHG), a comunicação de más notícias e diagnósticos genéticos complexos requer competências empáticas e pedagógicas que ultrapassam a transmissão fria de dados laboratoriais. Diante de diagnósticos de doenças raras, os familiares comumente enfrentam luto antecipatório, sentimentos de culpa e choque emocional, fatores que reduzem a capacidade cognitiva momentânea de absorver termos médicos densos. O aconselhador deve fragmentar as informações em blocos claros, evitar tecnicismos desnecessários, recorrer a recursos visuais explicativos e realizar perguntas abertas para certificar-se de que os consulentes compreenderam a etiologia, o prognóstico e as opções de manejo disponíveis.",
+   "fonte": "Aula VAT2 · Aconselhamento genético (slide 'O que o CG deve fazer? 3. Confirmar ou explicar o diagnóstico usando termos compreensíveis') e Thompson & Thompson Genética Médica, Capítulo 16 (Aspectos Psicológicos e Comunicação)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 219,
+  "code": "LAG-09",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Indicações de encaminhamento ao aconselhamento genético",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Uma gestante apresenta, durante ultrassonografia obstétrica de rotina, uma alteração fetal que pode estar relacionada a uma condição genética. O obstetra considera necessário encaminhamento para aconselhamento genético.\nQual das situações abaixo também constitui indicação reconhecida para encaminhamento ao aconselhamento genético?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Apenas pacientes com doenças infecciosas durante a gestação.",
+    "rationale": "Incorreta. O uso do termo restritivo 'Apenas' torna a afirmativa incorreta. Embora exposições infecciosas teratogênicas durante a gestação possam requerer avaliação no diagnóstico diferencial de malformações congênitas, o aconselhamento genético possui um escopo de indicações muito mais amplo, incluindo aberrações cromossômicas, heranças mendelianas, consanguinidade e história familiar de doenças hereditárias."
+   },
+   {
+    "letter": "B",
+    "text": "Apenas gestantes com idade inferior a 20 anos.",
+    "rationale": "Incorreta. A proposição é duplamente errônea pelo termo 'Apenas' e pelo critério de faixa etária. O fator etário materno reconhecido formalmente como indicação para aconselhamento genético e investigação pré-natal de aneuploidias é a idade materna avançada (definida tradicionalmente como idade igual ou superior a 35 anos), momento em que há elevação estatística no risco de não disjunção meiótica."
+   },
+   {
+    "letter": "C",
+    "text": "História de abortamentos repetitivos ou infertilidade conjugal.",
+    "rationale": "CORRETA. A história de perdas gestacionais de repetição (dois ou mais abortos espontâneos) ou de infertilidade conjugal sem causa ginecológica/urológica evidente é uma indicação clássica para aconselhamento genético. Cerca de 3% a 5% desses casais apresentam rearranjos cromossômicos estruturais balanceados em um dos genitores (como translocações robertsonianas ou recíprocas), que não causam sintomas no portador, mas produzem gametas com desequilíbrio cromossômico resultando em letalidade embrionária."
+   },
+   {
+    "letter": "D",
+    "text": "Exclusivamente pacientes que já tenham realizado um teste molecular.",
+    "rationale": "Incorreta. A palavra 'Exclusivamente' invalida a alternativa. O encaminhamento para aconselhamento genético deve ser realizado frequentemente antes da indicação ou execução de qualquer teste genético (aconselhamento pré-teste), e muitos pacientes são conduzidos ao serviço por achados clínicos, heredogramas sugestivos ou alterações em triagens de rotina, sem que nenhum exame molecular tenha sido previamente efetuado."
+   },
+   {
+    "letter": "E",
+    "text": "Somente pacientes com doenças cromossômicas previamente diagnosticadas.",
+    "rationale": "Incorreta. A inclusão de 'Somente' torna a afirmação falsa. O aconselhamento genético abrange não apenas afecções cromossômicas já comprovadas, mas também doenças monogênicas, desordens de herança multifatorial complexa, casos sob investigação de defeitos congênitos isolados ou múltiplos, casais consanguíneos e indivíduos assintomáticos sob risco de condições genéticas de início tardio."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O encaminhamento para aconselhamento genético possui múltiplas indicações clínicas e reprodutivas formais, incluindo perdas gestacionais repetitivas e infertilidade conjugal decorrentes de potenciais desarranjos cromossômicos parentais.",
+  "bookContext": {
+   "text": "De acordo com o livro Thompson & Thompson Genética Médica (Capítulo 16), abortamentos espontâneos de repetição e infertilidade constituem indicações clássicas de aconselhamento genético porque parcela substancial das perdas gestacionais de primeiro trimestre decorre de anomalias cromossômicas. Em casais com histórico de abortamento recorrente, a análise citogenética dos cônjuges frequentemente identifica anomalias estruturais balanceadas, como translocações recíprocas ou robertsonianas. Embora os portadores dessas alterações balanceadas apresentem fenótipo normal, eles exibem risco elevado de produzir gametas com recombinações desbalanceadas durante a segregação meiótica. O aconselhamento genético atua exatamente para estimar o risco empírico de recorrência de perdas ou de nascimentos de concepto acometido, além de apresentar opções de investigação laboratorial e manejo reprodutivo.",
+   "fonte": "Aula VAT2 · Aconselhamento genético (Slide 'Indicações para encaminhamento ao AG') e Thompson & Thompson Genética Médica (8ª ed., Cap. 16, Tabela 16-1)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 220,
+  "code": "LAG-10",
+  "lista": "ag",
+  "category": "Lista de aula · Aconselhamento genético",
+  "subcategory": "Princípio da não diretividade e autonomia reprodutiva",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Questões objetivas modelo ENAMED) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Durante uma consulta, um casal pergunta ao médico: \"Doutor, com esse resultado, o senhor acha que devemos ter outro filho?\". O profissional explica o diagnóstico, o padrão de herança, o risco de recorrência, as possibilidades de investigação e as alternativas disponíveis, mas não determina qual decisão o casal deve tomar.\nEssa postura está de acordo com o princípio de que o aconselhamento genético deve:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ser diretivo, estabelecendo a melhor decisão reprodutiva para a família.",
+    "rationale": "Incorreta. O aconselhamento genético contemporâneo rejeita a conduta diretiva, que visava prescrever decisões reprodutivas aos pacientes em conformidade com o antigo modelo eugenista do século XX. O modelo atual baseia-se na não diretividade, recusando a imposição de caminhos ou decisões médicas."
+   },
+   {
+    "letter": "B",
+    "text": "Priorizar a decisão médica em situações de risco genético elevado.",
+    "rationale": "Incorreta. A magnitude do risco genético (mesmo quando atinge 25% ou 50%) não confere ao médico a prerrogativa de decidir pela família. O profissional tem o papel de esclarecer o significado médico e estatístico desse risco, assegurando que os consulentes detenham a soberania sobre seu próprio planejamento reprodutivo."
+   },
+   {
+    "letter": "C",
+    "text": "Fornecer informações que permitam decisões autônomas, sem decidir pelos consulentes.",
+    "rationale": "CORRETA. O princípio orientador fundamental da prática do aconselhamento genético é a não diretividade e a promoção da autonomia individual dos consulentes. O conselheiro atua disponibilizando informações diagnósticas, probabilísticas, prognósticas e terapêuticas precisas e imparciais, capacitando o casal a avaliar as opções e decidir livremente de acordo com suas próprias crenças, valores morais e objetivos familiares."
+   },
+   {
+    "letter": "D",
+    "text": "Recomendar a opção que produza menor risco genético, independentemente dos valores da família.",
+    "rationale": "Incorreta. A abordagem ética da genética médica proíbe a recomendação impositiva de condutas sob o pretexto de minimizar riscos biológicos quando estas desrespeitam as convicções culturais, éticas e religiosas dos pacientes."
+   },
+   {
+    "letter": "E",
+    "text": "Evitar discutir alternativas reprodutivas para não interferir na autonomia do casal.",
+    "rationale": "Incorreta. O médico aconselhador tem a obrigação de apresentar todas as alternativas reprodutivas existentes (gestação natural informada, diagnóstico genético pré-natal, reprodução assistida com teste genético pré-implantacional, utilização de gametas doados ou adoção). Fornecer o leque de opções disponíveis não fere a autonomia, mas constitui o requisito indispensável para o consentimento livre e esclarecido."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O aconselhamento genético orienta-se pela não diretividade e pelo respeito estrito à autonomia, fornecendo informações científicas abrangentes para que os próprios consulentes façam suas escolhas reprodutivas.",
+  "bookContext": {
+   "text": "Conforme delineado no Thompson & Thompson Genética Médica (Capítulos 16 e 19) e nas diretrizes internacionais de genética clínica, o aconselhamento genético moderno distancia-se historicamente de qualquer prática eugenista ou prescritiva. O profissional tem a responsabilidade de elucidar o diagnóstico etiológico, o padrão de herança, o prognóstico e a estimativa de riscos de recorrência de forma neutra, acessível e empática. A decisão final sobre reprodução, realização de testes diagnósticos pré-natais ou interrupção de gestações pertence com exclusividade ao casal, livre de julgamentos morais ou pressões externas. Dessa forma, o acolhimento das repercussões psicossociais e o suporte irrestrito à autodeterminação dos consulentes constituem o alicerce fundamental de toda a conduta ética em genética médica.",
+   "fonte": "Aula VAT2 · Aconselhamento genético (Slides sobre definição, história e princípios do AG) e Thompson & Thompson Genética Médica (8ª ed., Cap. 16 e Cap. 19)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 221,
+  "code": "LQUAD-01",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "Farmacogenética: Farmacocinética de Pró-fármacos em Metabolizadores Lentos",
+  "difficulty": "Básica",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "Um homem de 48 anos, em recuperação pós-operatória de osteossíntese fêmur, recebe prescrição analgésica de fosfato de codeína em posologia convencional. Após 72 horas de uso contínuo, o paciente relata ausência total de alívio do quadro álgico, sem registrar sonolência, sedação ou náuseas. Uma triagem farmacogenômica prévia do citocromo P450 revela homozigose para variantes de perda total de função na enzima CYP2D6, classificando-o como metabolizador lento. Considerando que a codeína consiste em uma pré-droga que requer bioativação hepática para converter-se em seu metabólito ativo (morfina), assinale a conduta que reflete as recomendações farmacogenéticas de ajuste posológico para esse perfil:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Reduzir a dose administrada da pré-droga, pois a lentidão metabólica hepática provocaria acúmulo e toxicidade sistêmica grave.",
+    "rationale": "Incorreta. A redução da dose é indicada para medicamentos administrados sob a forma de droga ativa em metabolizadores lentos, uma vez que a depuração lenta causa acúmulo e toxicidade; no caso de uma pré-droga, reduzir a dose reduziria ainda mais a já deficiente concentração plasmática do metabólito ativo."
+   },
+   {
+    "letter": "B",
+    "text": "Aumentar a dose da pré-droga ou trocar de fármaco, pois a baixa conversão compromete o efeito terapêutico.",
+    "rationale": "CORRETA. Nos metabolizadores lentos que utilizam pré-drogas, a conversão para a molécula terapeuticamente ativa é extremamente deficiente. Para atingir níveis terapêuticos eficazes, a diretriz farmacogenética do quadro orienta o uso de uma maior dose (ou a substituição por fármaco ativo direto), evitando a falha terapêutica analgésica."
+   },
+   {
+    "letter": "C",
+    "text": "Prescrever metade da dose padrão da pré-droga, buscando evitar a sobrecarga funcional das vias secundárias de eliminação renal.",
+    "rationale": "Incorreta. A prescrição fracionada ou reduzida prejudicaria ainda mais a formação de morfina, perpetuando o quadro álgico refratário do paciente decorrente de subdosagem do princípio bioativo."
+   },
+   {
+    "letter": "D",
+    "text": "Manter o regime tradicional sem alteração, visto que os metabolizadores lentos formam a ampla maioria na população em geral.",
+    "rationale": "Incorreta. A dose tradicional é preconizada para o metabolizador extensivo (que representa a maioria da população). O metabolizador lento requer modificação de conduta para compensar a inativação da via de ativação enzimática."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Para pré-drogas em metabolizadores lentos, há risco iminente de ineficácia terapêutica por falha de ativação metabólica, exigindo maior dose ou troca de fármaco.",
+  "bookContext": {
+   "text": "A variação na resposta farmacológica aos medicamentos pode ser classificada em farmacocinética ou farmacodinâmica. No metabolismo de fase I dependente do complexo citocromo P450, a bioativação de pró-fármacos inativos como a codeína exige catálise eficiente para originar produtos ativos com afinidade a receptores opioides. Em indivíduos que carregam alelos nulos em homozigose ou heterozigose composta, a geração do metabólito ativo é drasticamente reduzida, comprometendo o desfecho clínico. Dessa forma, as diretrizes do consórcio de implementação farmacogenética preconizam agentes alternativos ou ajustes posológicos direcionados.",
+   "fonte": "Thompson & Thompson · Genética Médica, Cap. 18 / Quadro da revisão"
+  },
+  "revisada": true
+ },
+ {
+  "id": 222,
+  "code": "LQUAD-02",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "Farmacogenética: Droga Ativa versus Pré-droga em Metabolizadores Ultrarrápidos",
+  "difficulty": "Intermediária",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "Em um ambulatório de cardiologia e psiquiatria, dois pacientes realizam painel genético antes de iniciar novas terapias. O laudo revela que ambos são portadores de duplicações alélicas funcionais, sendo fenotipados como metabolizadores ultrarrápidos para uma determinada isoenzima hepática. O Paciente 1 iniciará tratamento com um fármaco administrado diretamente como droga ativa, enquanto o Paciente 2 receberá uma pré-droga que requer ativação por essa mesma via enzimática. Com base nas diretrizes farmacogenéticas de individualização posológica, quais devem ser as orientações de dosagem inicial para os Pacientes 1 e 2, respectivamente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Maior dose para o Paciente 1; menor dose de início para o Paciente 2.",
+    "rationale": "CORRETA. Como o Paciente 1 metaboliza e inativa a droga ativa em velocidade excessiva, necessita de maior dose (ou doses mais frequentes) para manter a concentração dentro da janela terapêutica. Já o Paciente 2 transforma a pré-droga em metabólito ativo de forma maciça e rápida, necessitando de menor dose para evitar toxicidade aguda."
+   },
+   {
+    "letter": "B",
+    "text": "Dose tradicional para o Paciente 1; dose intermediária para o Paciente 2.",
+    "rationale": "Incorreta. A dose tradicional não é adequada para metabolizadores ultrarrápidos, pois para a droga ativa haverá rápida depuração com ineficácia clínica, e para a pré-droga haverá hiperativação com níveis tóxicos de metabólito."
+   },
+   {
+    "letter": "C",
+    "text": "Menor dose de manutenção para o Paciente 1; maior dose para o Paciente 2.",
+    "rationale": "Incorreta. Essa alternativa inverte a lógica fisiopatológica de ambos os casos: administrar menor dose de droga ativa levaria a níveis subterapêuticos, e maior dose de pré-droga causaria intoxicação catastrófica."
+   },
+   {
+    "letter": "D",
+    "text": "Dose padrão tradicional para ambos, pois representam o padrão da maioria.",
+    "rationale": "Incorreta. Metabolizadores ultrarrápidos são variantes minoritárias da população decorrentes de amplificação ou ganho de função gênica; a maioria populacional é composta por metabolizadores extensivos."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O metabolizador ultrarrápido depura a droga ativa velozmente (exigindo maior dose) e bioativa a pré-droga intensamente (exigindo menor dose para evitar intoxicação).",
+  "bookContext": {
+   "text": "Variações no número de cópias gênicas (CNVs) podem gerar alelos com função enzimática amplificada, como observado em indivíduos com múltiplas cópias do gene CYP2D6. Quando submetidos a doses padrão de uma droga ativa, esses pacientes apresentam eliminação acelerada e falha na manutenção do estado de equilíbrio farmacológico. Por outro lado, a exposição a pró-fármacos nessa mesma condição acarreta uma conversão explosiva na fração bioativa, resultando em níveis séricos potencialmente letais. Portanto, a farmacogenômica permite prever o risco de desfechos adversos e antecipar o escalonamento posológico.",
+   "fonte": "Thompson & Thompson · Genética Médica, Cap. 18 / Quadro da revisão"
+  },
+  "revisada": true
+ },
+ {
+  "id": 223,
+  "code": "LQUAD-03",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "Farmacogenética: Epidemiologia Genética e Dosagem em Metabolizadores Extensivos",
+  "difficulty": "Avançada",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "Durante uma discussão clínica sobre diretrizes terapêuticas institucionais, um médico geneticista analisa os parâmetros de dosagem populacional para fármacos prescritos rotineiramente em atenção primária. Ao correlacionar as frequências alélicas observadas na prática clínica com as curvas de concentração plasmática em equilíbrio, a equipe debate a base teórica que fundamenta as bulas dos medicamentos convencionais. Considerando a correlação entre as frequências fenotípicas da população e a tabela de manejo farmacogenético, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O perfil intermediário requer dose tradicional para drogas ativas e dose majorada contínua para as pré-drogas.",
+    "rationale": "Incorreta. Conforme a tabela do quadro, para o metabolizador intermediário recomenda-se dose intermediária (tanto para droga ativa quanto para pré-droga), visto que sua atividade enzimática residual situa-se entre o metabolizador lento e o extensivo."
+   },
+   {
+    "letter": "B",
+    "text": "O perfil extensivo abrange fração minoritária e hipersensível da população, exigindo reduções rotineiras.",
+    "rationale": "Incorreta. O metabolizador extensivo não é minoritário nem hipersensível; ele reflete a atividade enzimática dita normal e prevalente na espécie humana."
+   },
+   {
+    "letter": "C",
+    "text": "O perfil ultrarrápido representa a maioria das pessoas e necessita de escalonamento empírico generalizado.",
+    "rationale": "Incorreta. O metabolizador ultrarrápido é uma variante incomum (frequência geralmente entre 1% e 10% dependendo do grupo étnico) e requer ajustes individualizados específicos, não constituindo a base posológica geral."
+   },
+   {
+    "letter": "D",
+    "text": "O perfil extensivo abrange a maioria da população e requer dose tradicional para drogas ativas e pré-drogas.",
+    "rationale": "CORRETA. O metabolizador extensivo (também chamado de metabolizador normal ou rápido) abrange a ampla maioria da população geral (cerca de 65% a 80% dos indivíduos). É precisamente para esse fenótipo de referência que as doses tradicionais de bula foram estabelecidas e testadas clinicamente, tanto para medicamentos ativos quanto para pré-drogas."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O metabolizador extensivo (normal) compreende a maior parte da população e utiliza a posologia tradicional padronizada em bula.",
+  "bookContext": {
+   "text": "A distribuição populacional das taxas metabólicas é tradicionalmente caracterizada por distribuições multimodais decorrentes do polimorfismo genético de enzimas metabolizadoras. Os ensaios clínicos de fases II e III historicamente calibram a faixa terapêutica e a dose diária média a partir de indivíduos extensivos, que exibem clearance enzimático padrão. Indivíduos que se desviam dessa faixa central de atividade — sejam lentos, intermediários ou ultrarrápidos — representam grupos de risco para reações adversas ou ausência de eficácia clínica. O reconhecimento desses grupos populacionais é pilar crucial na transição para a medicina de precisão.",
+   "fonte": "Thompson & Thompson · Genética Médica, Cap. 18 / Quadro da revisão"
+  },
+  "revisada": true
+ },
+ {
+  "id": 224,
+  "code": "LQUAD-04",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "CRISPR/Cas9: Pareamento Específico entre RNA Guia e Sequência-Alvo de DNA",
+  "difficulty": "Intermediária",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "A tecnologia de edição gênica por CRISPR/Cas9 depende da especificidade molecular com que a maquinaria ribonucleoproteica localiza o lócus genômico a ser editado. No delineamento de um ensaio laboratorial com a endonuclease Cas9, um pesquisador desenhou um RNA guia (gRNA) voltado para o silenciamento de um gene mutado. A região do filamento-alvo de DNA genômico selecionada para pareamento direto com o espaçador do RNA guia apresenta a sequência nucleotídica 5'-ATCGGA-3'. Considerando o modelo conceitual de pareamento complementar do complexo CRISPR/Cas9, assinale a sequência do RNA guia correspondente que se hibridizará diretamente com esse segmento-alvo:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "5'-U-A-G-C-C-T-3', mantendo a timina na fita de RNA sintetizada.",
+    "rationale": "Incorreta. A presença de timina (T) em uma molécula de RNA é quimicamente inadequada; o RNA utiliza uracila (U) como base nitrogenada pirimídica complementar à adenina."
+   },
+   {
+    "letter": "B",
+    "text": "5'-A-U-C-G-G-A-3', repetindo a sequência original trocando T por U.",
+    "rationale": "Incorreta. Essa alternativa simplesmente copia a sequência da fita de DNA (com substituição de T por U), configurando uma fita com mesmo senso e não complementar, incapaz de formar pontes de hidrogênio com o filamento-alvo de DNA."
+   },
+   {
+    "letter": "C",
+    "text": "5'-U-A-G-C-C-U-3', com pareamento complementar e uracila no RNA.",
+    "rationale": "CORRETA. O pareamento por complementaridade de bases segue as regras canônicas de Watson-Crick: a adenina (A) do DNA pareia com a uracila (U) do RNA guia; a timina (T) do DNA pareia com a adenina (A) do RNA; e citosinas (C) e guaninas (G) pareiam entre si. Assim, para a fita de DNA 5'-A-T-C-G-G-A-3', a sequência complementar do RNA guia correspondente é 5'-U-A-G-C-C-U-3'."
+   },
+   {
+    "letter": "D",
+    "text": "5'-T-A-G-C-C-A-3', utilizando pareamento de DNA e adenina terminal.",
+    "rationale": "Incorreta. Contém timina (incompatível com o RNA) e comete erro de pareamento na base terminal (pareando adenina com adenina em vez de uracila)."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O RNA guia pareia de forma estritamente complementar ao filamento-alvo de DNA, contendo uracila (U) no lugar de timina (T).",
+  "bookContext": {
+   "text": "A porção espaçadora do RNA guia único (sgRNA) é derivada do sistema CRISPR procariótico e possui tipicamente 20 nucleotídeos complementares ao DNA-alvo. O reconhecimento da sequência exige a hibridização estrita de bases nitrogenadas entre a fita de RNA e a fita molde de DNA genômico deselicoidizada pela enzima Cas9. Para que a clivagem bifilamentar ocorra de modo produtivo, o sítio pareado deve situar-se imediatamente adjacente a um motivo conservado conhecido como PAM (protospacer adjacent motif). A introdução de incompatibilidades de pareamento (mismatches) na sequência de ancoragem anula ou reduz drasticamente a eficiência catalítica da nuclease.",
+   "fonte": "Snustad · Fundamentos de Genética, Cap. 16 / Quadro da revisão"
+  },
+  "revisada": true
+ },
+ {
+  "id": 225,
+  "code": "LQUAD-05",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "CRISPR/Cas9: Estratégias Terapêuticas In Vivo versus Ex Vivo e Vetores de Entrega",
+  "difficulty": "Avançada",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "A aplicação translacional da edição genômica humana por CRISPR/Cas9 pode ser implementada por meio de duas abordagens conceituais distintas: as terapias in vivo e ex vivo. Em um congresso de terapia gênica, discutem-se duas estratégias terapêuticas: a Abordagem 1, que visa corrigir o gene de globina em células progenitoras hematopoieticas para cura de beta-talassemia; e a Abordagem 2, que propõe o fornecimento local de vetores (adenovirais ou plasmídeos) contendo o maquinário de edição diretamente no tecido de órgãos internos de pacientes com distrofias neuromusculares. Considerando a metodologia, a segurança e a precisão associadas a essas estratégias:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A Abordagem 2 adota estratégia ex vivo em cultivo, conferindo menor risco biológico e maior precisão celular.",
+    "rationale": "Incorreta. A entrega direta de vetores aos tecidos do paciente caracteriza a abordagem in vivo, a qual, conforme sintetizado na revisão, apresenta menor precisão de entrega tecidual e maior risco de respostas imunes ou efeitos fora do alvo (off-target)."
+   },
+   {
+    "letter": "B",
+    "text": "A Abordagem 1 baseia-se em edição ex vivo em cultivo, enquanto a Abordagem 2 requer aplicação in vivo.",
+    "rationale": "CORRETA. A Abordagem 1 para doenças hematológicas emprega a estratégia ex vivo, na qual as células são coletadas do paciente, cultivadas, editadas e selecionadas em laboratório antes do reimplante. A Abordagem 2 representa a terapia in vivo, administrando vetores virais ou plasmidiais diretamente no organismo, técnica que envolve maior complexidade e riscos sistêmicos."
+   },
+   {
+    "letter": "C",
+    "text": "Ambas as abordagens operam exclusivamente in vivo, pois vetores plasmidiais não funcionam em cultura celular.",
+    "rationale": "Incorreta. A terapia ex vivo é amplamente consolidada para tecidos hematopoieticos acessíveis, e tanto plasmídeos quanto vetores virais são frequentemente utilizados em ensaios de transfecção em cultura celular."
+   },
+   {
+    "letter": "D",
+    "text": "A Abordagem 1 requer abordagem in vivo direta, modalidade de escolha para células-tronco hematopoieticas.",
+    "rationale": "Incorreta. Células-tronco hematopoieticas são manipuladas preferencialmente por via ex vivo para permitir controle de qualidade, seleção das células corrigidas e garantia de ausência de clones tumorigênicos antes da infusão."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Terapia ex vivo ocorre fora do corpo (cultivo celular, maior precisão e controle); terapia in vivo atua diretamente no tecido corporal do paciente (mais riscos e desafios de entrega).",
+  "bookContext": {
+   "text": "Na terapia gênica ex vivo, células somáticas ou células-tronco pluripotentes induzidas (iPSCs) são retiradas do paciente e editadas em condições controladas de bancada, possibilitando a validação de quebras corretas e a expansão clonal segura. Em contraste, a terapia in vivo demanda sistemas de carreadores — como vetores adenovirais, adenoassociados ou nanopartículas lipídicas — carreados por via sistêmica ou injeção tecidual específica. Os principais gargalos biológicos da via in vivo compreendem a imunogenicidade aos capsídeos virais, a distribuição heterogênea no tecido-alvo e o risco de clivagens ectópicas não intencionais em órgãos secundários.",
+   "fonte": "Snustad · Fundamentos de Genética, Cap. 16 / Quadro da revisão"
+  },
+  "revisada": true
+ },
+ {
+  "id": 226,
+  "code": "LQUAD-06",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "CRISPR/Cas9: Componentes Moleculares e Aplicações em Doenças Virais e Hematológicas",
+  "difficulty": "Básica",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "O sistema CRISPR/Cas9 foi adaptado da imunidade bacteriana adaptativa para se consolidar como uma ferramenta revolucionária de engenharia genômica eucariótica. Para que ocorra a modificação programada no genoma humano, é indispensável a atuação coordenada de seus elementos funcionais fundamentais, que já demonstram grande potencial de tratamento em grupos específicos de enfermidades. Em relação às atribuições desses componentes e às áreas clínicas de destaque para a tecnologia, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O RNA guia direciona a clivagem e a Cas9 cliva o DNA, sendo útil contra infecções virais e doenças do sangue.",
+    "rationale": "CORRETA. O RNA guia fornece a informação de posicionamento por complementaridade de bases com o DNA genômico-alvo, enquanto a endonuclease Cas9 catalisa a quebra bifilamentar no DNA. Entre suas principais aplicações terapêuticas figuram as doenças virais (como HIV e hepatite B) e hematológicas (como talassemia e anemia falciforme)."
+   },
+   {
+    "letter": "B",
+    "text": "A endonuclease Cas9 reconhece a sequência por pareamento direto, enquanto o RNA guia degrada o peptídeo-alvo.",
+    "rationale": "Incorreta. A enzima Cas9 atua clivando a ligação fosfodiéster do DNA genômico, não participando do pareamento direto de bases nem degradando peptídeos."
+   },
+   {
+    "letter": "C",
+    "text": "O RNA guia efetua a quebra da dupla-fita por ação catalítica, atuando apenas em doenças mitocondriais raras.",
+    "rationale": "Incorreta. O RNA guia tem função puramente orientadora de hibridização, não possuindo atividade catalítica de endonuclease de restrição para quebra de fitas de DNA."
+   },
+   {
+    "letter": "D",
+    "text": "A endonuclease Cas9 sintetiza novos nucleotídeos de reparo no sítio de corte, guiada por motivos proteicos não pareados.",
+    "rationale": "Incorreta. A Cas9 não é uma polimerase e não adiciona nucleotídeos de reparo; ela atua induzindo quebras de fita dupla (DSB), cabendo à maquinaria celular endógena efetuar o reparo."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O RNA guia confere especificidade de sítio por pareamento complementar, a Cas9 realiza o corte (clivagem) no DNA, e as aplicações clínicas centrais incluem patologias virais e hematológicas.",
+  "bookContext": {
+   "text": "A endonuclease Cas9 de Streptococcus pyogenes depende da formação de um complexo com o RNA guia para varrer o genoma em busca de sítios compatíveis associados à sequência PAM. Ao ancorar no DNA alvo, os domínios catalíticos RuvC e HNH da enzima promovem a quebra nas duas fitas da molécula de DNA. No contexto clínico, essa clivagem tem sido explorada para a destruição de genomas virais integrados (como provírus de HIV) e para a reativação de hemoglobina fetal ou correção de mutações em hemoglobinopatias graves.",
+   "fonte": "Snustad · Fundamentos de Genética, Cap. 16 / Quadro da revisão"
+  },
+  "revisada": true
+ },
+ {
+  "id": 227,
+  "code": "LQUAD-07",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "Métodos de detecção genética em oncologia: mutações gênicas versus alterações cromossômicas estruturais",
+  "difficulty": "Intermediária",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "Um paciente de 48 anos com diagnóstico recente de leucemia mieloide crônica (LMC) é avaliado para confirmação da translocação recíproca t(9;22)(q34;q11.2), responsável pelo cromossomo Philadelphia e pelo gene de fusão BCR-ABL1. Simultaneamente, em um paciente com melanoma cutâneo irressecável, investiga-se a presença da mutação pontual c.1799T>A (p.Val600Glu) no gene BRAF para definir a indicação de terapia-alvo dirigida. Considerando as bases metodológicas esquematizadas na abordagem diagnóstica da oncogenética, assinale a alternativa que apresenta a indicação correta para cada uma das alterações.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O cariótipo convencional ou o FISH detectam a mutação de ponto do BRAF, enquanto o sequenciamento é exclusivo para identificar translocações cromossômicas volumosas.",
+    "rationale": "Incorreta. O cariótipo de bandas G e a técnica de FISH avaliam alterações estruturais e numéricas de escala cromossômica, não possuindo resolução para discernir mutações gênicas de ponto de base única."
+   },
+   {
+    "letter": "B",
+    "text": "A reação em cadeia da polimerase (PCR) identifica a translocação estrutural completa, enquanto o cariótipo óptico analisa alterações pontuais de nucleotídeo único.",
+    "rationale": "Incorreta. O cariótipo convencional possui limite de resolução macroscópica em torno de 3 a 5 megabases, sendo absolutamente incapaz de identificar trocas de nucleotídeos individuais no DNA."
+   },
+   {
+    "letter": "C",
+    "text": "O sequenciamento de exoma completo é a técnica padrão para translocações cromossômicas estruturais, sendo o FISH reservado para mutações pontuais de nucleotídeo único.",
+    "rationale": "Incorreta. A técnica de FISH utiliza sondas fluorescentes direcionadas a sequências genômicas cromossômicas para mapear rearranjos e ganhos/perdas estruturais, não sendo aplicada na detecção de substituições pontuais de nucleotídeos."
+   },
+   {
+    "letter": "D",
+    "text": "O cariótipo ou a hibridização in situ por fluorescência (FISH) detectam a translocação t(9;22), ao passo que a PCR ou o sequenciamento identificam a mutação pontual do BRAF.",
+    "rationale": "CORRETA. Alterações cromossômicas estruturais de larga escala, como translocações balanceadas geradoras de rearranjos citogenéticos, são identificadas por cariótipo ou FISH. Em contrapartida, mutações gênicas de ponto restritas à sequência de nucleotídeos são detectadas por ensaios de PCR alelo-específica ou sequenciamento genômico."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Mutações gênicas pontuais são identificadas por métodos moleculares (PCR e sequenciamento de exoma), enquanto alterações cromossômicas estruturais são diagnosticadas por citogenética (cariótipo e FISH).",
+  "bookContext": {
+   "text": "As lesões genômicas que conduzem à carcinogênese compreendem tanto eventos na escala de pares de bases quanto rearranjos cromossômicos macroscópicos. As técnicas citogenéticas, como o cariótipo óptico e a hibridização in situ por fluorescência (FISH), fornecem uma avaliação espacial de quebras e fusões em nível cromossômico, exemplificadas pela translocação entre os cromossomos 9 e 22 na LMC. Por outro lado, mutações pontuais condutoras em proto-oncogenes exigem métodos de alta resolução molecular com amplificação por PCR e sequenciamento de DNA para mapear a substituição nucleotídica precisa.",
+   "fonte": "Livro Thompson & Thompson Genética Médica, Capítulo 15 (Genética do Câncer e Genômica) e Quadro da revisão (Quadro 2)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 228,
+  "code": "LQUAD-08",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "Produtos dos oncogenes e compartimentalização celular funcional",
+  "difficulty": "Básica",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "Os proto-oncogenes codificam componentes proteicos normais que regulam o crescimento e a diferenciação celular. Quando ativados por mutações de ganho de função, transformam-se em oncogenes que promovem a sinalização proliferativa autônoma. O esquema de Oncogenética agrupa as proteínas codificadas por oncogenes de acordo com os principais compartimentos celulares em que desempenham sua função primária. Assinale a alternativa que correlaciona corretamente a classe de produto oncogênico ao seu respectivo sítio celular de atuação.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As proteínas transdutoras de sinal atuam no núcleo, os fatores de transcrição na membrana celular e os receptores de crescimento no citoplasma.",
+    "rationale": "Incorreta. As proteínas transdutoras da sinalização intracelular operam predominantemente no citosol, enquanto os fatores de transcrição modulam a expressão gênica no núcleo celular."
+   },
+   {
+    "letter": "B",
+    "text": "Os receptores de fatores de crescimento atuam no núcleo, as proteínas transdutoras na membrana e os fatores de transcrição no citoplasma celular.",
+    "rationale": "Incorreta. Receptores de fatores de crescimento contêm domínios extracelulares e transmembrana inseridos na membrana plasmática, não no interior do envelope nuclear."
+   },
+   {
+    "letter": "C",
+    "text": "Os receptores de crescimento atuam na membrana celular, os transdutores de sinal no citoplasma e os fatores de transcrição no núcleo celular.",
+    "rationale": "CORRETA. A cascata mitogênica segue uma organização espacial estrita: fatores de crescimento e receptores tirosina-quinase localizam-se na membrana plasmática; transdutores de sinal (como as proteínas da família RAS e quinases citoplasmáticas) atuam no citoplasma; e fatores de transcrição (como os membros da família MYC) atuam no núcleo ativando a expressão gênica."
+   },
+   {
+    "letter": "D",
+    "text": "Os fatores de transcrição atuam na membrana plasmática, os fatores de crescimento no núcleo e as proteínas transdutoras no estroma extracelular.",
+    "rationale": "Incorreta. Fatores de transcrição ligam-se diretamente a sequências reguladoras de DNA na cromatina nuclear, não exercendo atividade catalítica na membrana plasmática."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Produtos de oncogenes atuam em compartimentos específicos: fatores e receptores de crescimento na membrana celular, transdutores de sinal no citoplasma e fatores de transcrição no núcleo.",
+  "bookContext": {
+   "text": "A ativação oncogênica frequentemente desregula a via clássica de sinalização mitogênica celular. Sinais mitogênicos iniciam-se na membrana citoplasmática mediante o engajamento ou autofosforilação de receptores de superfície celular. Esse estímulo é propagado através de cascatas de fosforilação no citosol mediadas por proteínas G e quinases citoplasmáticas. Finalmente, a mensagem atinge o núcleo, onde fatores de transcrição oncogênicos promovem a expressão de genes essenciais para o avanço no ciclo celular e sobrevivência.",
+   "fonte": "Livro Thompson & Thompson Genética Médica, Capítulo 15 (Genética do Câncer e Genômica) e Slides da Aula VAT2 (Oncogenética)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 229,
+  "code": "LQUAD-09",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "Gene supressor de tumor TP53 e Síndrome de Li-Fraumeni",
+  "difficulty": "Avançada",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "Uma paciente de 31 anos com câncer de mama triplo-negativo procurou o serviço de genética médica. O heredograma revelou múltiplos casos de neoplasias de início precoce em parentes de primeiro grau: um irmão falecido na infância com rabdomiossarcoma, a mãe tratada de osteossarcoma aos 22 anos e um sobrinho diagnosticado com carcinoma de córtex adrenal aos 2 anos de idade. Diante do quadro altamente sugestivo da Síndrome de Li-Fraumeni, o médico solicitou a análise molecular do gene supressor tumoral correspondente. Considerando a fisiopatologia molecular e genética dessa síndrome, assinale a afirmativa correta.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A síndrome é causada pela amplificação de um proto-oncogene de membrana, gerando hipersensibilidade celular a baixas taxas de fatores de crescimento.",
+    "rationale": "Incorreta. O TP53 é um gene supressor de tumor cuja patogênese decorre da perda de função, e não da amplificação de um proto-oncogene codificador de receptor de membrana."
+   },
+   {
+    "letter": "B",
+    "text": "A síndrome decorre de mutação germinativa no gene supressor TP53, cuja proteína atua bloqueando o ciclo em G1 e induzindo apoptose perante lesões no DNA.",
+    "rationale": "CORRETA. A Síndrome de Li-Fraumeni é uma síndrome de predisposição hereditária autossômica dominante provocada por mutações patogênicas na linhagem germinativa do gene supressor tumoral TP53. A proteína p53 monitora a integridade genômica, interrompendo o ciclo na transição G1/S para viabilizar o reparo do DNA ou deflagrando a apoptose celular em danos irreparáveis."
+   },
+   {
+    "letter": "C",
+    "text": "A síndrome resulta de mutação de perda de função em genes apoptóticos pró-sobrevivência, impedindo a diferenciação terminal de blastos hematopoéticos.",
+    "rationale": "Incorreta. A p53 atua primariamente induzindo genes pró-apoptóticos para eliminar células danificadas; sua perda reduz a apoptose fisiológica e permite o acúmulo de clones celulares instáveis."
+   },
+   {
+    "letter": "D",
+    "text": "A síndrome se origina da inativação de um gene de reparo mitocondrial, com herança materna exclusiva e manifestação restrita a sarcomas de tecidos moles.",
+    "rationale": "Incorreta. A herança da Síndrome de Li-Fraumeni é autossômica dominante (cromossomo 17p13), sem correlação com herança mitocondrial materna, apresentando amplo espectro tumoral (sarcomas, mama, tumores de SNC e córtex adrenal)."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O gene TP53 é o principal gene supressor de tumor e guardião do genoma; mutações germinativas heterozigotas no TP53 causam a Síndrome de Li-Fraumeni.",
+  "bookContext": {
+   "text": "A proteína p53 desempenha um papel central na resposta celular ao estresse genotóxico e a danos no DNA. Quando lesões de cadeia dupla ou estresse replicativo ocorrem, quinases sensoras fosforilam e estabilizam a p53, que ativa a transcrição de inibidores de quinases dependentes de ciclina, promovendo bloqueio do ciclo em G1. Se o dano não for reparado satisfatoriamente, a p53 desencadeia a via intrínseca de apoptose pela regulação positiva de genes efetores. Na Síndrome de Li-Fraumeni, a inativação somática do segundo alelo do TP53 abole esse controle homeostático e resulta em rápida progressão tumoral de tecidos moles, mama e encéfalo.",
+   "fonte": "Livro Thompson & Thompson Genética Médica, Capítulo 15 (Genética do Câncer e Genômica) e Ribeiro (2021), Capítulo 8 (Oncogenética)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 230,
+  "code": "LQUAD-10",
+  "lista": "quadro",
+  "category": "Lista de aula · Quadro da revisão",
+  "subcategory": "Mecanismos epigenéticos e silenciamento de genes supressores de tumor na oncogênese",
+  "difficulty": "Intermediária",
+  "origem": "quadro da revisão",
+  "sourceLabel": "Gerada no NotebookLM a partir do quadro da revisão (10/11) · slides + livros",
+  "prompt": "Durante a investigação molecular de um adenocarcinoma colorretal em um indivíduo de 68 anos sem história familiar de neoplasias, constatou-se perda da expressão tecidual da proteína de reparo MLH1 por imuno-histoquímica. Todavia, o sequenciamento genômico completo de éxons e junções de splicing do gene MLH1 revelou integridade estrita da sequência de nucleotídeos, sem nenhuma mutação identificável. Considerando o papel da epigenética na oncogênese destacado no esquema da revisão, qual mecanismo biológico fundamenta o silenciamento funcional desse gene?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Hipermetilação do promotor que altera a acessibilidade da cromatina e silencia a transcrição gênica sem modificar a sequência de bases do DNA.",
+    "rationale": "CORRETA. Mecanismos epigenéticos modulam a expressão dos genes sem modificar a sequência primária de bases nitrogenadas do DNA. A hipermetilação de citosinas em ilhas CpG localizadas na região promotora de genes supressores (como o MLH1) recruta desacetilases de histonas, compacta a cromatina e inibe a transcrição do gene."
+   },
+   {
+    "letter": "B",
+    "text": "Translocação cromossômica equilibrada que altera o código de trincas do gene sem modificar o perfil de compactação das histonas na cromatina.",
+    "rationale": "Incorreta. Translocações cromossômicas configuram alterações genéticas estruturais no arranjo físico do DNA, e não modificações epigenéticas que conservam a sequência original."
+   },
+   {
+    "letter": "C",
+    "text": "Amplificação gênica somática que superacumula cópias do promotor e induz degradação proteolítica antecipada no compartimento citoplasmático.",
+    "rationale": "Incorreta. A amplificação gênica é um mecanismo genético associado ao aumento de cópias e superexpressão de oncogenes, não ao silenciamento transcricional de genes supressores de tumor."
+   },
+   {
+    "letter": "D",
+    "text": "Mutação silenciosa intrônica que modifica os nucleotídeos reguladores e impede a tradução ribossômica no retículo endoplasmático rugoso.",
+    "rationale": "Incorreta. Mutações silenciosas intrônicas representam alterações na sequência nucleotídica (mutações genéticas), enquanto a via epigenética atua especificamente através de marcas químicas na cromatina sem mutações de base."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Alterações epigenéticas, como a hipermetilação de promotores em ilhas CpG e modificações de histonas, alteram a expressão dos genes supressores sem alterar a sequência primária do DNA.",
+  "bookContext": {
+   "text": "A carcinogênese depende tanto de alterações genéticas sequenciais quanto de perturbações epigenômicas marcantes. A hipermetilação aberrante de dinucleotídeos CpG em regiões promotoras resulta na formação de cromatina transcricionalmente inativa, silenciando genes essenciais de reparo e de supressão tumoral. Por sua vez, essa perda de expressão ocorre sem qualquer mutação na sequência codificadora do gene, demonstrando a plasticidade dos mecanismos epigenéticos na transformação maligna. Paralelamente ao silenciamento local, o genoma tumoral comumente desenvolve hipometilação difusa, favorecendo a instabilidade cromossômica.",
+   "fonte": "Livro Thompson & Thompson Genética Médica, Capítulo 15 (Genética do Câncer e Genômica) e Livro Snustad Fundamentos de Genética, Capítulo 18 (Regulação da Expressão Gênica)."
+  },
+  "revisada": true
  }
 ]
