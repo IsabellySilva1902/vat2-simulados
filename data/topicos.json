@@ -9598,5 +9598,1815 @@
    "fonte": "PCDT · Hanseníase (Seção 12.5: Indivíduos com dificuldade de adesão ao esquema farmacológico de primeira linha) e Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade"
   },
   "revisada": true
+ },
+ {
+  "id": 241,
+  "code": "ESCORP-01",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Determinantes sociais, vulnerabilidade socioambiental e resposta sistêmica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um médico de família e comunidade atua em uma Unidade Básica de Saúde (UBS) responsável pelo atendimento a comunidades rurais e ribeirinhas com isolamento geográfico relativo. Durante reunião de planejamento em saúde para enfrentamento do escorpionismo na região, a equipe debate os fatores determinantes da letalidade e as barreiras de acesso da população ao tratamento específico. Considerando o diagrama de convergência crítica e as diretrizes do Ministério da Saúde para os acidentes escorpiônicos, assinale a conduta de gestão e assistência adequada:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Centralizar os estoques de soro em hospitais terciários com leito de UTI para garantir infusão estritamente monitorada.",
+    "rationale": "Incorreta. Centralizar o soro antiescorpiônico em hospitais terciários ou condicionar sua aplicação à disponibilidade de leitos de terapia intensiva agrava drasticamente o tempo porta-agulha e a mortalidade, contrariando a resposta sistêmica necessária frente ao isolamento geográfico."
+   },
+   {
+    "letter": "B",
+    "text": "Descentralizar estoques de soro antiveneno e capacitar a rede para reduzir o tempo porta-agulha na atenção primária.",
+    "rationale": "CORRETA. A convergência crítica no escorpionismo resulta da sobreposição entre isolamento geográfico, condições habitacionais precárias e tempo porta-agulha prolongado. A diretriz institucional e bioética preconiza a descentralização dos estoques de soro antiveneno e a reorganização dos serviços para assegurar a soroterapia em tempo oportuno, independentemente da densidade tecnológica do serviço local."
+   },
+   {
+    "letter": "C",
+    "text": "Priorizar a remoção aeromédica imediata sem intervenções locais prévias devido à complexidade da farmacoterapia.",
+    "rationale": "Incorreta. A ausência de suporte avançado ou UTI local não pode constituir barreira para o início do atendimento imediato; a conduta preconizada é estabilizar hemodinamicamente o paciente e administrar o soro assim que indicado antes ou durante a transferência."
+   },
+   {
+    "letter": "D",
+    "text": "Administrar dose profilática de corticoide parenteral na UBS para retardar a absorção do veneno durante o transporte.",
+    "rationale": "Incorreta. O uso profilático de corticosteroides não previne a tempestade autonômica, não retarda a toxicocinética das peçonhas e não tem indicação clínica demonstrada para evitar reações imediatas ao antiveneno."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O enfrentamento do desafio bioético do escorpionismo exige descentralização do soro para encurtar o tempo porta-agulha na atenção primária, superando a barreira do isolamento geográfico.",
+  "bookContext": {
+   "text": "A abordagem dos determinantes sociais em saúde na atenção primária requer o reconhecimento do território-processo, no qual a vulnerabilidade socioambiental e as barreiras geográficas modulam assimetricamente o risco de desfechos desfavoráveis. O planejamento em saúde deve abandonar a visão puramente burocrática e atuar na reorganização dos fluxos assistenciais e na garantia da equidade distributiva de insumos estratégicos essenciais. Na vigilância da saúde, assegurar que intervenções com impacto direto na sobrevida estejam disponíveis no primeiro ponto de contato do usuário com o sistema concretiza o princípio da integralidade e da proteção da vida.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 9: A Territorialização e o Planejamento Local em Saúde"
+  },
+  "revisada": true
+ },
+ {
+  "id": 242,
+  "code": "ESCORP-02",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Agentes etiológicos e manifestações clínicas: escorpionismo amazônico vs. extra-amazônico",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 38 anos, residente em comunidade ribeirinha no interior do Pará, dá entrada em posto de saúde 2 horas após ser picado por um escorpião escuro de grande porte (cerca de 8,5 cm) durante coleta de frutos na mata. Ao exame físico, apresenta dor intensa com irradiação descrita como sensação de choque elétrico no membro atingido, além de abalos musculares involuntários e mioclonias generalizadas, ataxia de marcha e disartria pronunciada. Ausculta cardiopulmonar e sinais vitais mostram-se normais, sem broncoespasmo ou sinais de edema pulmonar. A fisiopatologia subjacente a esse quadro clínico específico decorre de:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "ação direta de neurotoxinas no sistema nervoso central característica da espécie Tityus obscurus.",
+    "rationale": "CORRETA. Na região Amazônica, o envenenamento pelo escorpião-preto-da-amazônia (Tityus obscurus) distingue-se clinicamente pela ação direta de suas frações tóxicas no Sistema Nervoso Central, manifestando-se com ataxia cerebelar de marcha, mioclonias, disartria e a clássica e intensa sensação de choque elétrico."
+   },
+   {
+    "letter": "B",
+    "text": "estímulo massivo de receptores colinérgicos periféricos com hiperatividade vagal e sobrecarga pulmonar.",
+    "rationale": "Incorreta. O predomínio de manifestações colinérgicas e adrenérgicas (bradi ou taquiarritmias, sialorreia profusa, edema agudo de pulmão e choque) caracteriza a tempestade disautonômica do escorpionismo da região extra-amazônica (T. serrulatus, T. bahiensis e T. stigmurus), e não o padrão neurológico central amazônico."
+   },
+   {
+    "letter": "C",
+    "text": "bloqueio pré-sináptico da junção neuromuscular mediado por neurotoxinas de ação periférica descendente.",
+    "rationale": "Incorreta. A fisiopatologia da espécie amazônica não cursa com bloqueio pré-sináptico de placa motora ou paralisia neuromuscular periférica descendente (quadro típico do botulismo ou acidentes crotálicos e elapídicos), mas sim com hiperestimulação e mioclonias centrais."
+   },
+   {
+    "letter": "D",
+    "text": "descarga simpática paroxística induzida por hialuronidases que acomete o miocárdio ventricular esquerdo.",
+    "rationale": "Incorreta. A descarga adrenérgica com acometimento miocárdico e digestivo decorre de neurotoxinas que alteram canais de sódio e potássio periféricos em espécies extra-amazônicas, enquanto as hialuronidases atuam como fatores de dispersão e difusão tecidual, não sendo mediadoras da agressão ventricular ou central."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O escorpionismo por Tityus obscurus (Amazônia) induz manifestações neurológicas centrais como mioclonias, ataxia, disartria e sensação de choque elétrico, diferindo da tempestade autonômica do extra-amazônico.",
+  "bookContext": {
+   "text": "Diferentemente do padrão cardiorrespiratório comum aos acidentes por escorpiões da região extra-amazônica, os acidentes provocados por Tityus obscurus na bacia amazônica exibem um tropismo acentuado das toxinas sobre o encéfalo. Essa estimulação cortical e subcortical direta promove despolarizações desordenadas que culminam em mioclonias contínuas, fasciculações e ataxia cerebelar motora. O reconhecimento dessa distinção semiológica é crucial para evitar erros diagnósticos de etiologia convulsiva primária ou acidente vascular encefálico e para guiar a utilização do soro antiaracnídico (SAA) associado ao manejo sintomático adequado com benzodiazepínicos.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 243,
+  "code": "ESCORP-03",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Espécies de importância médica e aspectos morfológicos / biológicos",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma investigação de vigilância em saúde ambiental no interior do estado de Minas Gerais, técnicos coletam espécimes de escorpiões com tamanho variando entre 5 e 7 cm, corpo castanho-escuro com pernas e cauda amareladas. Trata-se da espécie de maior importância médica do Brasil, responsável pela vasta maioria dos acidentes graves registrados no país. A elevada capacidade de expansão territorial e colonização de ambientes urbanos degradados por essa espécie é atribuída principalmente à sua característica biológica de:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "possuir manchas negras transversais nos pedipalpos que conferem camuflagem eficaz.",
+    "rationale": "Incorreta. A presença de manchas escuras nos palpos que lembram pequenos braceletes é a característica morfológica distintiva do Tityus bahiensis (escorpião-marrom)."
+   },
+   {
+    "letter": "B",
+    "text": "apresentar carapaça dorsal com faixa escura única e triângulo cefálico característico.",
+    "rationale": "Incorreta. A coloração amarelada com faixa escura longitudinal no dorso e marca triangular típica na região da carapaça descreve o Tityus stigmurus (escorpião-amarelo-do-nordeste)."
+   },
+   {
+    "letter": "C",
+    "text": "adaptar-se exclusivamente a nichos florestais nativos preservados de difícil controle.",
+    "rationale": "Incorreta. O Tityus serrulatus destaca-se justamente pela facilidade de adaptação sinantrópica e proliferação em ambientes urbanos (redes de esgoto, entulho, tubulações), enquanto o Tityus obscurus possui menor adaptação urbana e maior ligação a áreas florestais."
+   },
+   {
+    "letter": "D",
+    "text": "reproduzir-se por partenogênese, na qual as fêmeas geram prole fértil sem cópula.",
+    "rationale": "CORRETA. O Tityus serrulatus (escorpião-amarelo) reproduz-se por partenogênese, fenômeno no qual as fêmeas dão origem a novas fêmeas sem a necessidade de fecundação por machos, o que acelera enormemente sua proliferação e fixação no meio antrópico."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Tityus serrulatus é a espécie de maior importância médica no Brasil, apresentando corpo escuro com apêndices amarelos e reprodução partenogenética.",
+  "bookContext": {
+   "text": "A partenogênese no Tityus serrulatus permite que um único indivíduo introduzido acidentalmente em uma nova localidade estabeleça rapidamente uma colônia densa e autossustentável. Essa vantagem reprodutiva, combinada à disponibilidade de alimento abundante em centros urbanos como baratas e ausência de predadores naturais, transformou o escorpião-amarelo no principal causador de envenenamentos humanos no país. O conhecimento taxonômico e dos mecanismos reprodutivos orienta as estratégias de controle físico ambiental nos municípios, priorizando a erradicação de criadouros em vez de inseticidas químicos, que apenas desalojam os animais.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 244,
+  "code": "ESCORP-04",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fisiopatologia do escorpionismo extra-amazônico e biologia do ataque",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "No envenenamento escorpiônico por espécies extra-amazônicas (como Tityus serrulatus, Tityus bahiensis e Tityus stigmurus), a interação entre as toxinas inoculadas e a fisiologia do hospedeiro determina a gravidade do quadro clínico. Além disso, características biológicas no momento da ferroada influenciam a carga e a composição do veneno injetado. A respeito da fisiopatologia e da biologia do ataque escorpiônico, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A secreção escorpiônica leitosa apresenta menor toxicidade do que o veneno límpido.",
+    "rationale": "Incorreta. Conforme a biologia do ataque, a percepção de uma ameaça grave pelo animal altera a composição da secreção; o aspecto leitoso sinaliza uma concentração proteica muito mais elevada e maior toxicidade em relação ao veneno límpido e claro."
+   },
+   {
+    "letter": "B",
+    "text": "O acometimento cardiovascular decorre de ação miotóxica direta e lesão inflamatória do veneno.",
+    "rationale": "Incorreta. Está errada porque o comprometimento cardiovascular grave no escorpionismo decorre da tempestade autonômica por despolarização maciça das terminações nervosas e liberação sistêmica de catecolaminas e acetilcolina, e não de efeito miotóxico direto ou processo inflamatório primário causado pela peçonha sobre as fibras miocárdicas."
+   },
+   {
+    "letter": "C",
+    "text": "A inoculação do veneno deflagra tempestade disautonômica adrenérgica e colinérgica.",
+    "rationale": "CORRETA. Está certa porque as neurotoxinas dos escorpiões da região extra-amazônica atuam abrindo e retardando o fechamento dos canais de sódio neuronais, despolarizando terminações simpáticas e parassimpáticas e desencadeando uma tempestade disautonômica com manifestações adrenérgicas e colinérgicas combinadas."
+   },
+   {
+    "letter": "D",
+    "text": "A picada provoca necrose dermo-epidérmica extensa por citotoxinas e colagenases ativas.",
+    "rationale": "Incorreta. O escorpionismo por Tityus caracteriza-se clinicamente pela ausência de lesão tecidual local evidente, sem necrose ou edema extenso, apresentando apenas dor intensa imediata; a lesão dermonecrótica é característica clássica do loxoscelismo (aranha-marrom)."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O veneno leitoso possui maior toxicidade que o límpido, e a fisiopatologia extra-amazônica é regida por hialuronidases e tempestade disautonômica autonômica mista.",
+  "bookContext": {
+   "text": "A fração tóxica do veneno escorpiônico atua primariamente ligando-se a sítios específicos de canais de sódio e potássio voltagem-dependentes, prolongando os potenciais de ação e induzindo liberação maciça de neurotransmissores autonômicos. O componente colinérgico manifesta-se precocemente com salivação abundante, bradicardia, miose, hipotensão e sudorese, frequentemente sobreposto ou sucedido pelo estímulo adrenérgico com hipertensão, taquicardia, vasoconstrição periférica e aumento da pós-carga. Esse desbalanço neuro-humoral agudo é o responsável final pelo desenvolvimento de edema pulmonar não cardiogênico e cardiogênico, exigindo monitoramento rigoroso e reversão precoce por neutralização antiveneno.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 245,
+  "code": "ESCORP-05",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Biologia Reprodutiva e Partenogênese em Tityus serrulatus",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante uma ação de vigilância ambiental em um município do Sudeste brasileiro, a equipe de controle de zoonoses constatou uma rápida proliferação de escorpiões da espécie Tityus serrulatus em galerias pluviais e entulhos de construção civil. Ao analisar as características reprodutivas dessa população, a equipe destacou um mecanismo biológico singular que explica sua capacidade de rápida colonização territorial. Esse mecanismo consiste na:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "cópula com estocagem prolongada de espermatozoides pelas fêmeas em espermatecas, permitindo múltiplas ninhadas viáveis anuais.",
+    "rationale": "Incorreta. Embora alguns aracnídeos possuam espermatecas para armazenamento de esperma após a cópula, essa não é a estratégia biológica primária que define o Tityus serrulatus. As populações de T. serrulatus são compostas essencialmente por fêmeas que se reproduzem sem fecundação prévia."
+   },
+   {
+    "letter": "B",
+    "text": "partenogênese, na qual fêmeas geram descendentes viáveis a partir de óvulos não fertilizados, sem necessidade de machos.",
+    "rationale": "CORRETA. Está certa porque a espécie Tityus serrulatus possui como característica reprodutiva marcante a partenogênese telítoca, mecanismo pelo qual as fêmeas dão origem a novas fêmeas viáveis a partir de óvulos não fertilizados, permitindo rápida dispersão e colonização territorial a partir de um único exemplar."
+   },
+   {
+    "letter": "C",
+    "text": "reprodução sexuada com fecundação externa e liberação de ootecas altamente resistentes em ambientes úmidos e escuros urbanos.",
+    "rationale": "Incorreta. Está errada porque os escorpiões são animais vivíparos (os filhotes nascem formados e sobem diretamente no dorso da mãe) e possuem fecundação interna indireta mediada por espermatóforo nas espécies sexuadas, não realizando fecundação externa nem produzindo ootecas (estruturas de desova características de insetos, como baratas)."
+   },
+   {
+    "letter": "D",
+    "text": "hermafroditismo sequencial protândrico, no qual os indivíduos machos juvenis se convertem em fêmeas adultas reprodutivas.",
+    "rationale": "Incorreta. O hermafroditismo sequencial (protandria ou protoginia) é um fenômeno comum em certas espécies de peixes e moluscos, mas inexistente em escorpiões da família Buthidae, onde não há transição de sexo entre fases de desenvolvimento."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A reprodução por partenogênese em Tityus serrulatus dispensa a presença de machos para a fecundação, facilitando a colonização acelerada em centros urbanos.",
+  "bookContext": {
+   "text": "O Tityus serrulatus é considerado o escorpião de maior relevância médica no Brasil devido à elevada toxicidade de seu veneno e ao seu padrão reprodutivo por partenogênese. Nessa modalidade, as fêmeas produzem progênie exclusivamente feminina a partir de óvulos não fertilizados, dispensando a presença e o acasalamento com machos. Esse traço biológico propicia vantagens adaptativas marcantes em ambientes antropizados, pois a dispersão passiva de um único espécime em caixas, materiais de construção ou redes de esgoto é suficiente para estabelecer uma nova colônia funcional. Tal facilidade de disseminação explica sua ampla expansão geográfica a partir da região Sudeste para diversas outras unidades federativas do país.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 246,
+  "code": "ESCORP-06",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Ação Neurotrópica Central do Escorpionismo Amazônico",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador rural de 38 anos, morador de área ribeirinha no estado do Pará, é admitido em uma unidade de saúde duas horas após ser picado na mão por um escorpião de coloração escura e cerca de 8 cm. O paciente queixa-se de dor local moderada, acompanhada de intensa sensação descrita como 'choques elétricos' irradiados pelo membro. Ao exame clínico, encontra-se vigil, porém com fala arrastada (disartria), tremores e abalos musculares involuntários frequentes (mioclonias), além de marcha instável (ataxia). Não são observados taquicardia, sudorese profusa, hipertensão importante ou estertores pulmonares. Considerando o quadro clínico e o agente etiológico provável, o mecanismo fisiopatológico predominante desse envenenamento decorre de:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "ação direta de neurotoxinas específicas sobre o sistema nervoso central, alterando a excitabilidade neuronal cortical.",
+    "rationale": "CORRETA. O acidente causado por Tityus obscurus (escorpião-preto-da-Amazônia) possui fisiopatologia singular decorrente da ação direta de suas neurotoxinas no Sistema Nervoso Central (SNC). Esse mecanismo gera um padrão clínico marcadamente neurológico, evidenciado por mioclonias, disartria, ataxia de marcha, espasmos musculares e a típica sensação de choques elétricos, diferenciando-se da tempestade disautonômica clássica do escorpionismo extra-amazônico."
+   },
+   {
+    "letter": "B",
+    "text": "bloqueio pós-sináptico irreversível da placa mioneural periférica, provocando paralisia flácida e reflexos abolidos.",
+    "rationale": "Incorreta. O bloqueio pós-sináptico da junção neuromuscular com paralisia flácida descendente é o mecanismo característico das peçonhas de serpentes do gênero Micrurus (coral-verdadeira), não ocorrendo no escorpionismo por Tityus obscurus."
+   },
+   {
+    "letter": "C",
+    "text": "descarga autonômica adrenérgica maciça no miocárdio, levando à falência ventricular esquerda e choque cardiogênico.",
+    "rationale": "Incorreta. A descarga adrenérgica intensa no miocárdio associada a arritmias e falência ventricular é o mecanismo típico dos acidentes por escorpiões da região extra-amazônica (como T. serrulatus), mediado pela liberação periférica de catecolaminas, o qual não predominou no caso descrito."
+   },
+   {
+    "letter": "D",
+    "text": "estímulo colinérgico periférico exagerado sobre glândulas exócrinas, determinando hipersecreção e broncoespasmo agudo.",
+    "rationale": "Incorreta. O estímulo colinérgico periférico gera sialorreia, sudorese profusa, miose, vômitos e bradicardia. No escorpionismo amazônico, tais manifestações muscarínicas não compõem a síndrome clínica principal, que é caracterizada por sintomas neurológicos centrais."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O escorpionismo amazônico por Tityus obscurus caracteriza-se fisiopatologicamente pela ação direta de toxinas no SNC, manifestando-se clinicamente com mioclonias, disartria e ataxia.",
+  "bookContext": {
+   "text": "Na Região Amazônica, o escorpionismo de importância médica é protagonizado pelo Tityus obscurus, que habita primariamente ambientes de floresta úmida e apresenta menor adaptação ao meio urbano. Diferente das espécies extra-amazônicas, cuja fisiopatologia é governada pela liberação maciça de mediadores autonômicos, o veneno do T. obscurus atua preferencialmente no sistema nervoso central. Isso desencadeia um quadro neurológico específico composto por disartria, ataxia cerebelar, mioclonias generalizadas e parestesias descritas como descargas elétricas. A identificação dessa síndrome neurotóxica central é indispensável para evitar diagnósticos equivocados de distúrbios vestibulares ou encefalites agudas na região.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 247,
+  "code": "ESCORP-07",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Cinética de Difusão e Papel das Hialuronidases no Veneno Escorpiônico",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "A peçonha inoculada por escorpiões do gênero Tityus é uma mistura complexa de peptídeos neurotóxicos de baixo peso molecular combinados a diversas enzimas. Dentre essas enzimas, as hialuronidases desempenham uma função determinante na farmacocinética precoce do envenenamento e na rapidez de instalação das manifestações sistêmicas. Em relação ao papel dessas enzimas na fisiopatologia do escorpionismo, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Induzem necrose tecidual direta no sítio da picada ao degradar as membranas endoteliais e ativar cascatas trombóticas.",
+    "rationale": "Incorreta. A degradação endotelial com necrose dermonecrótica e microtrombose é a assinatura patológica do veneno de aranhas do gênero Loxosceles (mediada por esfingomielinase D), sendo que a peçonha de Tityus tipicamente não produz necrose local relevante."
+   },
+   {
+    "letter": "B",
+    "text": "Promovem despolarização direta das terminações sensitivas nociceptivas, constituindo o gatilho principal da dor imediata.",
+    "rationale": "Incorreta. A dor imediata e intensa no escorpionismo decorre da ação direta de toxinas peptídicas nos canais de sódio e potássio das terminações nervosas sensoriais, e não da catálise enzimática promovida pela hialuronidase."
+   },
+   {
+    "letter": "C",
+    "text": "Inibem competitivamente a recaptação de noradrenalina nas fendas sinápticas, deflagrando a crise autonômica sistêmica.",
+    "rationale": "Incorreta. A tempestade adrenérgica advém da liberação maciça de catecolaminas pós-estimulação de canais de sódio voltagem-dependentes pelas toxinas sobre as terminações adrenérgicas, e não da inibição enzimática de recaptadores pela hialuronidase."
+   },
+   {
+    "letter": "D",
+    "text": "Atuam como fator de difusão ao despolimerizar a matriz intersticial, acelerando o influxo das neurotoxinas na circulação.",
+    "rationale": "CORRETA. As hialuronidases presentes no veneno escorpiônico atuam hidrolisando o ácido hialurônico presente na matriz extracelular do tecido conjuntivo no sítio de inoculação. Ao degradar essa barreira física tecidual, funcionam classicamente como 'fatores de espalhamento' (spreading factors), permitindo que as frações peptídicas neurotóxicas atinjam rapidamente a circulação sanguínea e linfática, o que justifica o pico precoce de toxicidade sistêmica."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "As hialuronidases hidrolisam o interstício tecidual, atuando como fatores de difusão que aceleram a absorção sistêmica das neurotoxinas escorpiônicas.",
+  "bookContext": {
+   "text": "O veneno dos escorpiões da família Buthidae, como as espécies do gênero Tityus, caracteriza-se pela presença marcante de hialuronidases que atuam em sinergia com as neurotoxinas de baixo peso molecular. Ao catalisarem a clivagem das ligações glicosídicas do ácido hialurônico intersticial, essas enzimas aumentam substancialmente a permeabilidade do tecido conjuntivo no local da inoculação. Esse efeito de permeação permite a rápida translocação das toxinas peptídicas até os capilares e vasos linfáticos, encurtando o período de latência entre a picada e a absorção sistêmica. Assim, as hialuronidases viabilizam o estabelecimento fulminante da tempestade autonômica observada nas formas moderadas e graves do envenenamento.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 248,
+  "code": "ESCORP-08",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Tempo Porta-Agulha e Redução da Vulnerabilidade na Convergência Crítica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante reunião do colegiado gestor de uma região de saúde rural com alta incidência de escorpionismo, debateu-se a estruturação da linha de cuidado para vítimas de picada por Tityus. Constatou-se que a maioria dos desfechos fatais em crianças ocorria devido ao atraso de mais de 4 horas entre o acidente e o início da soroterapia específica, gerado pela transferência obrigatória para o hospital regional terciário. Sob os princípios da vigilância em saúde e as diretrizes do PCDT para mitigação da 'convergência crítica', a intervenção de reestruturação operacional mais adequada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "restringir a administração do antiveneno a centros terciários providos de terapia intensiva pediátrica.",
+    "rationale": "Incorreta. Conforme preconizado no slide da aula e nas diretrizes nacionais, a indisponibilidade de UTI não pode ser barreira ou impeditivo para a realização imediata da soroterapia na atenção básica em casos moderados e graves; a neutralização do veneno deve ocorrer o mais rápido possível antes do transporte."
+   },
+   {
+    "letter": "B",
+    "text": "instituir o uso profilático de dexametasona parenteral nos postos rurais para desacelerar o envenenamento.",
+    "rationale": "Incorreta. O uso profilático de corticosteroides como dexametasona não possui evidência científica para conter a toxicidade sistêmica ou o edema pulmonar em humanos e atrasa injustificadamente a aplicação do antiveneno específico."
+   },
+   {
+    "letter": "C",
+    "text": "descentralizar os estoques de soro para a rede primária, garantindo o atendimento em tempo oportuno.",
+    "rationale": "CORRETA. porque a descentralização dos estoques de soro antiveneno para a atenção primária é a resposta sistêmica indicada para combater a convergência crítica, reduzindo o tempo porta-agulha e evitando a letalidade associada à demora na transferência para centros terciários."
+   },
+   {
+    "letter": "D",
+    "text": "centralizar os antivenenos em pronto-socorros com exigência de transporte aeromédico para todos os casos.",
+    "rationale": "Incorreta. A centralização exclusiva em serviços terciários e a dependência de transporte aeromédico ampliam o tempo porta-agulha, acentuando a mortalidade em populações vulneráveis de regiões remotas devido ao rápido pico plasmático das toxinas."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A redução do tempo porta-agulha por meio da descentralização do soro para a atenção primária é a principal estratégia para mitigar a mortalidade na convergência crítica.",
+  "bookContext": {
+   "text": "O atraso no início da soroterapia antiescorpiônica correlaciona-se diretamente com o aumento exponencial da morbimortalidade, especialmente em faixas etárias pediátricas onde a relação veneno/superfície corporal é crítica. O modelo da convergência crítica demonstra que o isolamento geográfico e as habitações vulneráveis potencializam os efeitos letais caso o tempo porta-agulha seja elevado por barreiras logísticas de acesso. Portanto, a descentralização de polos de aplicação do soro antiveneno para unidades de saúde da família e postos de pronto atendimento é um imperativo de equidade e justiça distributiva do SUS. Garantir a infusão do antiveneno em tempo oportuno no primeiro ponto de contato assistencial previne o colapso hemodinâmico irreversível.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 249,
+  "code": "ESCORP-09",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Tempestade Disautonômica: Diferenciação entre Manifestações Colinérgicas e Adrenérgicas",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um menino de 6 anos é admitido em unidade de pronto atendimento cerca de 40 minutos após acidente escorpiônico no pé direito. Ao exame físico inicial, apresenta choro intenso, sudorese profusa, salivação abundante (sialorreia), miose bilateral e episódios repetidos de vômitos. Durante a monitorização contínua na sala de emergência, evolui progressivamente com taquicardia acentuada (FC 168 bpm), elevação pressórica transitória (PA 140/90 mmHg), extremidades frias, palidez cutânea e extrassístoles ventriculares frequentes ao traçado eletrocardiográfico. Considerando a fisiopatologia da tempestade disautonômica induzida pelas toxinas de escorpiões do gênero Tityus de ocorrência extra-amazônica, a correlação correta entre os sinais clínicos apresentados e a mediação neuroquímica envolvida é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A sialorreia e os vômitos decorrem de bloqueio colinérgico periférico agudo, ao passo que a hipertensão inicial deriva da inibição pré-sináptica direta de receptores alfa-adrenérgicos centrais.",
+    "rationale": "Incorreta. A sialorreia e os vômitos incoercíveis não decorrem de bloqueio colinérgico, mas exatamente da hiperestimulação parassimpática (colinérgica) provocada pela liberação maciça de acetilcolina nas terminações pós-ganglionares. Da mesma forma, a hipertensão e a taquicardia derivam de estímulo adrenérgico periférico e central por liberação de catecolaminas, e não de bloqueio ou inibição de receptores alfa-adrenérgicos."
+   },
+   {
+    "letter": "B",
+    "text": "A sialorreia e a miose decorrem de hiperestimulação colinérgica pós-ganglionar, ao passo que a taquicardia e a palidez derivam da liberação maciça de catecolaminas endógenas.",
+    "rationale": "CORRETA. No escorpionismo por espécies do gênero Tityus da região extra-amazônica, as neurotoxinas promovem a despolarização contínua das terminações axonais do sistema nervoso autônomo. A liberação maciça pré-sináptica de acetilcolina nas terminações pós-ganglionares parassimpáticas desencadeia os efeitos colinérgicos (sialorreia abundante, miose, sudorese, broncorreia e estímulo à motilidade gástrica culminando em vômitos incoercíveis), enquanto a descarga massiva de catecolaminas (adrenalina e noradrenalina) pelas terminações simpáticas e medula adrenal é responsável pelo componente adrenérgico, caracterizado por taquicardia, hipertensão arterial transitória, vasoconstrição periférica intensa (palidez cutânea e extremidades frias) e arritmias cardíacas."
+   },
+   {
+    "letter": "C",
+    "text": "A sudorese e a taquicardia decorrem exclusivamente de estímulos muscarínicos centrais, ao passo que a miose e as arritmias derivam da liberação adrenérgica nas placas mioneurais.",
+    "rationale": "Incorreta. A taquicardia não é mediada por estímulos muscarínicos (os quais, pelo contrário, provocam bradicardia via tônus vagal parassimpático), mas sim pela estimulação de receptores beta-1 adrenérgicos por excesso de catecolaminas. Além disso, a miose decorre de ação colinérgica sobre o músculo esfíncter da pupila, e as extrassístoles ventriculares decorrem do excesso adrenérgico miocárdico, sem relação direta com placas mioneurais esqueléticas."
+   },
+   {
+    "letter": "D",
+    "text": "A palidez periférica e a salivação decorrem de descarga simpática direta na medula adrenal, ao passo que as arritmias ventriculares resultam do estímulo vagal parassimpático.",
+    "rationale": "Incorreta. A salivação abundante é um sintoma classicamente colinérgico/parassimpático (mediado por receptores muscarínicos glandulares), e não simpático. Ademais, as arritmias ventriculares derivam da hiperexcitabilidade gerada pelo influxo maciço de catecolaminas e sobrecarga adrenérgica nas fibras cardíacas, e não de hiperatividade vagal."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A tempestade disautonômica no escorpionismo extra-amazônico cursa com liberação simultânea ou sucessiva de acetilcolina (gerando sialorreia, miose, vômitos e bradicardia) e de catecolaminas (gerando taquicardia, hipertensão transitória, palidez e arritmias ventriculares).",
+  "bookContext": {
+   "text": "As toxinas dos escorpiões da família Buthidae atuam primariamente nos canais de sódio e potássio voltagem-dependentes das membranas axonais, impedindo sua inativação e deflagrando despolarizações repetitivas. Essa estimulação atinge as terminações nervosas autônomas pós-ganglionares, gerando uma liberação desordenada e em grande escala de acetilcolina e catecolaminas. Clinicamente, os efeitos colinérgicos (como sialorreia, miose e vômitos incoercíveis) frequentemente coexistem ou antecedem a tempestade adrenérgica, na qual o excesso de noradrenalina e adrenalina eleva a pós-carga por vasoconstrição sistêmica e induz taquiarritmias. Esse estresse miocárdico agudo e a elevação da pressão capilar pulmonar explicam a gênese do edema agudo de pulmão e do choque cardiogênico nos casos graves.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 250,
+  "code": "ESCORP-10",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Morfologia e Distribuição Regional de Tityus stigmurus e Tityus bahiensis",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante ações integradas de vigilância ambiental e atenção primária em um polo de saúde regional, uma equipe de saúde é demandada a orientar a comunidade sobre identificação de escorpiões capturados no peridomicílio. Um dos espécimes recolhidos mede cerca de 6 cm de comprimento, exibe coloração geral amarelada, apresenta uma linha escura longitudinal ao longo do dorso e uma mancha escura triangular característica na região da carapaça dorsal. Paralelamente, discute-se o reconhecimento de outro animal de importância médica que alcança até 7 cm, possui coloração corporal mais escura e manchas negras nos pedipalpos que lembram braceletes. A correta identificação taxonômica dos espécimes e sua correspondência epidemiológico-geográfica no território brasileiro é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O espécime capturado trata-se de Tityus stigmurus, típico do Nordeste, enquanto o escorpião com marcas em braceletes é o Tityus bahiensis, encontrado sobretudo no Sudeste, Sul e Centro-Oeste.",
+    "rationale": "CORRETA. Tityus stigmurus (escorpião-amarelo-do-nordeste) mede entre 5 e 7 cm, apresenta coloração amarelada, faixa escura longitudinal no dorso e marca triangular na região da carapaça, sendo o principal agente etiológico de escorpionismo na Região Nordeste. Por sua vez, Tityus bahiensis (escorpião-marrom) atinge até cerca de 7 cm, possui coloração marrom-escura e manchas pretas características nos pedipalpos que lembram braceletes, com distribuição concentrada principalmente nas regiões Sudeste, Sul e parte do Centro-Oeste brasileiro."
+   },
+   {
+    "letter": "B",
+    "text": "O espécime capturado pertence à espécie Tityus serrulatus, amplamente disseminada no Sul do Brasil, ao passo que o escorpião com marcas em braceletes nos palpos trata-se de Tityus stigmurus, restrito ao Norte.",
+    "rationale": "Incorreta. O espécime amarelado com faixa dorsal longitudinal e mancha triangular na carapaça é o Tityus stigmurus (escorpião-amarelo-do-nordeste), e não o Tityus serrulatus (que tem corpo castanho-escuro com pernas amareladas, sem triângulo cefalotorácico nem faixa longitudinal, possuindo serrilhas no 4º e 5º segmentos caudais). Além disso, as manchas em forma de braceletes nos palpos caracterizam Tityus bahiensis, e T. stigmurus concentra-se na Região Nordeste, e não no Norte."
+   },
+   {
+    "letter": "C",
+    "text": "O espécime capturado pertence à espécie Tityus bahiensis, primariamente encontrado na Bacia Amazônica, ao passo que o escorpião com marcas em braceletes nos palpos trata-se de Tityus obscurus, típico do Sudeste.",
+    "rationale": "Incorreta. O escorpião capturado com linha dorsal longitudinal e triângulo cefalotorácico é Tityus stigmurus, e não Tityus bahiensis. Além disso, Tityus bahiensis não é encontrado na Bacia Amazônica (onde predomina Tityus obscurus), e o animal com braceletes nos palpos é o próprio Tityus bahiensis, e não Tityus obscurus (que apresenta coloração preta a vermelho-escuro uniforme e tamanho de até 9 cm)."
+   },
+   {
+    "letter": "D",
+    "text": "O espécime capturado pertence à espécie Tityus obscurus, prevalente no Centro-Oeste brasileiro, ao passo que o escorpião com marcas em braceletes nos palpos trata-se de Tityus serrulatus, restrito à Bahia.",
+    "rationale": "Incorreta. Tityus obscurus é o escorpião-preto-da-Amazônia, de distribuição restrita à Região Norte e ambiente de floresta, medindo até 9 cm com corpo preto ou avermelhado, sem carapaça amarela ou triângulo dorsal. Da mesma forma, as manchas em braceletes pertencem a Tityus bahiensis, enquanto Tityus serrulatus não possui braceletes nos pedipalpos e tem ampla dispersão pelo Sudeste, Centro-Oeste e Nordeste (não restrito à Bahia)."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Tityus stigmurus possui coloração amarelada com faixa escura dorsal e triângulo na carapaça (concentrado no Nordeste), enquanto Tityus bahiensis tem corpo marrom e manchas escuras nos palpos em forma de braceletes (predominante no Sudeste, Sul e Centro-Oeste).",
+  "bookContext": {
+   "text": "A identificação entomológica e o conhecimento da distribuição geográfica das espécies de Tityus são cruciais para a vigilância epidemiológica e a correlação diagnóstica dos acidentes escorpiônicos no Brasil. O escorpião-amarelo-do-nordeste (Tityus stigmurus) apresenta marcas dorsais típicas (linha mediana longitudinal e triângulo cefalotorácico escuro), figurando como a principal causa de acidentes no Nordeste. Em contrapartida, o escorpião-marrom (Tityus bahiensis) distingue-se facilmente pelos 'braceletes' enegrecidos nos pedipalpos e, apesar da denominação científica, tem seu maior impacto em saúde pública nas regiões Sudeste, Sul e Centro-Oeste. Diferenciar essas espécies de T. serrulatus e T. obscurus orienta a avaliação da gravidade potencial e assegura a escolha do antiveneno específico em cada cenário regional.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 251,
+  "code": "ESCORP-11",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fatores prognósticos e grupos de risco na população pediátrica",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um menino de 4 anos dá entrada no pronto atendimento levado pelos pais após sofrer picada de escorpião-amarelo (Tityus serrulatus) na mão direita enquanto brincava no quintal. Os pais demonstram extrema aflição e questionam a equipe de saúde por que os acidentes escorpiônicos costumam apresentar evolução clínica muito mais grave e potencialmente fatal em crianças pequenas do que em adultos saudáveis. Do ponto de vista fisiopatológico e prognóstico, a principal razão para essa maior gravidade na faixa etária pediátrica é a:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "imaturidade funcional do sistema fagocítico mononuclear hepático em depurar as frações tóxicas do veneno.",
+    "rationale": "Incorreta. A depuração e a toxicidade do veneno escorpiônico não dependem primordialmente de imaturidade fagocítica ou hepática, mas sim da cinética de distribuição tecidual da peçonha."
+   },
+   {
+    "letter": "B",
+    "text": "incapacidade fisiológica de resposta vasomotora e adrenérgica compensatória frente ao estresse álgico intenso.",
+    "rationale": "Incorreta. A criança não apresenta incapacidade de resposta adrenérgica; pelo contrário, a tempestade disautonômica ocorre por hiperestimulação maciça e liberação descontrolada de catecolaminas e acetilcolina pelas terminações nervosas pós-ganglionares."
+   },
+   {
+    "letter": "C",
+    "text": "ausência de barreira hematoencefálica madura que impeça a penetração direta e maciça de neurotoxinas no SNC.",
+    "rationale": "Incorreta. Nas espécies extra-amazônicas predominantes no país (como T. serrulatus), o veneno atua predominantemente nos canais de sódio dos nervos periféricos e sistema autonômico, não sendo a permeabilidade da barreira hematoencefálica o determinante central da gravidade clínica."
+   },
+   {
+    "letter": "D",
+    "text": "relação desproporcional entre a carga de veneno inoculada e a menor superfície corporal da criança.",
+    "rationale": "CORRETA. A gravidade desproporcional na infância (≤ 10 anos e criticamente < 7 anos) decorre da relação direta entre a quantidade fixa de peçonha inoculada pelo escorpião e o reduzido peso/superfície corpórea da criança, gerando pico plasmático e tecidual precoce e elevado, o que deflagra tempestades autonômicas fulminantes."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A letalidade na pediatria (especialmente em menores de 7 a 10 anos) decorre da elevada carga de veneno por área de superfície corpórea, gerando pico plasmático rápido e tempestade autonômica grave.",
+  "bookContext": {
+   "text": "Na população pediátrica, o volume e a toxicidade do veneno injetado pelo ferrão são absolutos, enquanto o compartimento de distribuição infantil é muito reduzido. Essa desproporção entre a carga de toxina e a superfície corporal acelera a ligação do veneno aos canais iônicos dos sistemas simpático e parassimpático. Em crianças criticamente abaixo de 7 anos, esse pico plasmático exponencial desencadeia rapidamente falência miocárdica e edema pulmonar agudo. Dessa forma, a triagem pediátrica deve ser imediata e agressiva em qualquer suspeita de envenenamento.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 252,
+  "code": "ESCORP-12",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Classificação clínica de risco e sinais de gravidade extrema (Red Flag)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma menina de 5 anos é atendida na sala de emergência 45 minutos após ser picada por escorpião no antebraço direito. Ao exame físico inicial, apresenta choro inconsolável, eritema puntiforme com dor intensa no local da picada, palidez cutânea e sudorese profusa. Durante a triagem clínica, a paciente evolui com salivação excessiva (sialorreia) e apresenta quatro episódios consecutivos de vômitos incoercíveis. De acordo com as diretrizes do Ministério da Saúde para acidentes escorpiônicos, a classificação de risco e a conduta imediata preconizada são:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Moderado (Amarelo); indicar hidratação venosa vigorosa, antieméticos e reavaliar necessidade de soro após 2 horas.",
+    "rationale": "Incorreta. A presença de vômitos incoercíveis/inúmeros episódios associada a sinais parassimpáticos claros (sialorreia, sudorese profusa) enquadra o caso como Grave (Vermelho), sendo contraindicado postergar o soro para reavaliação tardia."
+   },
+   {
+    "letter": "B",
+    "text": "Leve (Verde); instituir analgesia escalonada, antieméticos orais e manter em observação clínica rigorosa por 4 horas.",
+    "rationale": "Incorreta. O enquadramento Leve (Verde) restringe-se a manifestações locais isoladas (dor, edema discreto, parestesia local) e ausência de tempestade autonômica sistêmica."
+   },
+   {
+    "letter": "C",
+    "text": "Grave (Vermelho); prescrever imediatamente a soroterapia específica venosa associada ao suporte avançado de vida.",
+    "rationale": "CORRETA. Vômitos incoercíveis / múltiplos episódios constituem o principal sinal de alerta clínico (Red Flag), indicativo de grave tempestade autonômica sistêmica e alta probabilidade de evolução rápida para choque cardiogênico e EAP. O paciente classifica-se como Grave (Vermelho), exigindo soroterapia antiveneno imediata (6 ampolas) e suporte intensivo."
+   },
+   {
+    "letter": "D",
+    "text": "Moderado (Amarelo); realizar bloqueio anestésico local, suporte sintomático e soroterapia venosa apenas se houver EAP.",
+    "rationale": "Incorreta. O caso preenche todos os critérios de gravidade sistêmica extrema e o soro não pode aguardar a instalação de edema agudo de pulmão (EAP); além disso, o bloqueio local em crianças instáveis não substitui a estabilização e a soroterapia precoce."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Vômitos incoercíveis ou em múltiplos episódios são a principal Red Flag do escorpionismo, definindo caso Grave (Vermelho) e indicação imediata de soroterapia plena mais suporte intensivo.",
+  "bookContext": {
+   "text": "A classificação de risco em acidentes escorpiônicos divide os pacientes em Leve (sintomas estritamente locais), Moderado (manifestações sistêmicas leves e oscilações discretas) e Grave (tempestade sistêmica evidente). Os vômitos incoercíveis e repetidos são reconhecidos como o sinal clínico precoce mais sensível e fidedigno de envenenamento grave por tempestade disautonômica. A presença dessa 'Red Flag' antecipa colapso cardiorrespiratório iminente, obrigando o início da neutralização imunológica rápida antes da descompensação hemodinâmica completa.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 253,
+  "code": "ESCORP-13",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Manifestações clínicas de gravidade e choque cardiogênico",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 72 anos, hipertenso e com histórico de insuficiência cardíaca prévia, é admitido no setor de urgência 2 horas após picada por Tityus serrulatus no dorso. Ao exame: paciente torporoso, sudorese profusa, extremidades frias com tempo de enchimento capilar de 4 segundos, estertores crepitantes bilaterais até terços médios pulmonares, PA = 75 x 45 mmHg e FC = 52 bpm com ritmo irregular. Considerando a fisiopatologia e as manifestações de gravidade do escorpionismo nesse paciente, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A instabilidade decorre de anafilaxia precoce grave ao veneno, sendo a adrenalina intramuscular a terapia de escolha.",
+    "rationale": "Incorreta. Trata-se de envenenamento sistêmico tóxico direto com choque cardiogênico e não de reação de hipersensibilidade anafilática alérgica mediada por IgE; a adrenalina em bolus agravaria o estresse miocárdico e as arritmias já presentes."
+   },
+   {
+    "letter": "B",
+    "text": "O quadro clínico caracteriza choque cardiogênico e edema pulmonar decorrentes da intensa tempestade autonômica.",
+    "rationale": "CORRETA. O veneno de escorpiões do gênero Tityus induz liberação maciça de catecolaminas e acetilcolina. Nos pacientes com cardiopatia e idosos, essa tempestade autonômica acarreta disfunção ventricular aguda, miocardite tóxica, bradiarritmias/taquiarritmias, choque cardiogênico e edema agudo de pulmão (EAP)."
+   },
+   {
+    "letter": "C",
+    "text": "O paciente desenvolveu choque hipovolêmico por desidratação aguda, exigindo expansão cristalóide rápida de 30 mL/kg.",
+    "rationale": "Incorreta. A causa da hipotensão é a falência de bomba (choque cardiogênico) com congestão pulmonar ativa (estertores até terço médio); a sobrecarga volêmica com 30 mL/kg precipitaria piora catastrófica do edema agudo de pulmão."
+   },
+   {
+    "letter": "D",
+    "text": "O quadro decorre de CIVD associada a dano tubular renal direto por ação proteolítica das toxinas escorpiônicas.",
+    "rationale": "Incorreta. Coagulação intravascular disseminada (CIVD) e proteólise não fazem parte da fisiopatologia do acidente escorpiônico (sendo alterações encontradas em acidentes ofídicos botrópicos ou loxoscelismo sistêmico)."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O choque no escorpionismo grave é tipicamente cardiogênico (com miocardite e disfunção ventricular), acompanhado frequentemente de edema agudo de pulmão devido à intensa tempestade adrenérgica e colinérgica.",
+  "bookContext": {
+   "text": "A tempestade autonômica no escorpionismo combina estímulos adrenérgicos e colinérgicos simultâneos ou alternados, gerando hipertensão transitória ou hipotensão grave com colapso circulatório. A agressão catecolaminérgica direta sobre o miocárdio causa necrose em bandas de contração, espasmo coronariano e falência ventricular aguda, configurando choque cardiogênico. O edema pulmonar resultante possui componente cardiogênico (aumento súbito da pós-carga e falência de VE) e aumento de permeabilidade vascular mediado por neuropeptídeos. Em idosos e portadores de comorbidades prévias, a reserva funcional miocárdica exaurida amplia acentuadamente a letalidade.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 254,
+  "code": "ESCORP-14",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Princípios de conduta na Atenção Primária, estabilização e transporte",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma Unidade Básica de Saúde (UBS) de município isolado sem leito de terapia intensiva, dá entrada uma criança de 6 anos picada por escorpião há 1 hora. O paciente apresenta sudorese fria profusa, sialorreia intensa, vômitos ininterruptos, taquidispneia importante e oscilação pressórica acentuada. O hospital de referência com UTI pediátrica dista 2 horas de viagem por via rodoviária. A UBS dispõe de ampolas de soro antiescorpiônico em seu estoque descentralizado. Diante desse cenário de convergência crítica, a conduta correta da equipe é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Realizar estabilização clínica, infundir o soro antiveneno imediatamente na UBS e organizar transporte regulado.",
+    "rationale": "CORRETA. Conforme as diretrizes clínicas e o PCDT, a ausência de UTI no local de primeiro contato nunca pode ser barreira para a realização imediata da soroterapia. A conduta na Atenção Primária consiste em fornecer suporte ventilatório e hemodinâmico, administrar imediatamente a soroterapia adequada (tempo porta-agulha oportuno) e articular o transporte seguro regulado para centro terciário."
+   },
+   {
+    "letter": "B",
+    "text": "Transferir imediatamente em ambulância simples, reservando a soroterapia para a admissão na UTI de referência.",
+    "rationale": "Incorreta. Retardar a administração do soro antiescorpiônico para que ocorra apenas no hospital terciário aumenta drasticamente o tempo porta-agulha e a mortalidade pediátrica durante o trajeto."
+   },
+   {
+    "letter": "C",
+    "text": "Prescrever dexametasona e anti-histamínico intravenosos na unidade e aguardar transporte aeromédico especializado.",
+    "rationale": "Incorreta. Corticoides e anti-histamínicos profiláticos não possuem respaldo em evidências para evitar complicações sistêmicas ou anafilaxia precoce, configurando erro grave substituir ou postergar a soroterapia antiveneno."
+   },
+   {
+    "letter": "D",
+    "text": "Postergar a soroterapia na UBS pelo risco de reações anafiláticas graves sem disponibilidade de suporte invasivo.",
+    "rationale": "Incorreta. A tempestade adrenérgica do próprio acidente atua como barreira biológica parcial contra reações precoces imediatas, e o risco de morte pelo envenenamento não neutralizado supera imensamente o receio de evento adverso anafilactoide."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A indisponibilidade de suporte intensivo na Atenção Primária nunca pode impedir a administração imediata do soro antiveneno em casos moderados e graves; deve-se estabilizar e transportar em seguida.",
+  "bookContext": {
+   "text": "O modelo de atenção aos acidentes escorpiônicos fundamenta-se na redução estrita do tempo porta-agulha para impedir a fixação irreversível das neurotoxinas aos alvos tissulares. A descentralização dos estoques de soro antiveneno para a Atenção Primária e unidades periféricas existe precisamente para assegurar atendimento em tempo oportuno antes do transporte. Postergar a soroterapia alegando ausência de leito de UTI ou receio de anafilaxia eleva a letalidade em áreas com vulnerabilidade geográfica. O protocolo exige intervenção inicial na UBS com estabilização clínica imediata, infusão venosa rápida do soro e posterior remoção regulada.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 255,
+  "code": "ESCORP-15",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fatores prognósticos e grupos de risco: comorbidades e população idosa",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 74 anos, portador de hipertensão arterial sistêmica de longa data e insuficiência cardíaca de fração de ejeção preservada, é levado à Unidade de Pronto Atendimento 40 minutos após ser picado no pé por um escorpião amarelo (Tityus serrulatus). Ao exame físico inicial, apresenta dor local intensa com sudorese perilesional, sem vômitos, sem sialorreia e sem sinais de congestão pulmonar ou choque (PA 140/85 mmHg, FC 78 bpm, SatO2 97% em ar ambiente). Diante do perfil do paciente e das diretrizes clínicas vigentes, assinale a conduta e a correlação prognóstica adequadas:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indicar metade da dose da soroterapia antiescorpiônica padrão em decorrência da senescência fisiológica e do risco de lesão renal aguda associada ao soro heterólogo.",
+    "rationale": "Incorreta. Não existe redução de dose de antiveneno em função de idade geriátrica ou peso corporal; além disso, na ausência de manifestações sistêmicas o caso é classificado como leve, situação em que a soroterapia não está indicada."
+   },
+   {
+    "letter": "B",
+    "text": "Classificar o acidente como grave unicamente pela idade geriátrica, prescrevendo prontamente seis frascos-ampolas de soro antiescorpiônico venoso com hidratação vigorosa.",
+    "rationale": "Incorreta. A faixa etária avançada isolada não converte o enquadramento clínico para a categoria grave (Vermelha); a classificação depende da presença de manifestações sistêmicas, e a dose de 6 ampolas é restrita a envenenamentos graves comprovados."
+   },
+   {
+    "letter": "C",
+    "text": "Determinar internação profilática imediata em terapia intensiva, pois antecedentes de hipertensão arterial tornam mandatório o suporte ventilatório invasivo precoce.",
+    "rationale": "Incorreta. A presença de antecedentes cardiovasculares demanda vigilância clínica atenta dos sinais vitais, mas não constitui indicação mandatória de UTI profilática nem de suporte ventilatório invasivo em paciente estável e oligossintomático."
+   },
+   {
+    "letter": "D",
+    "text": "Manter observação clínica com analgesia, visto que o idoso segue o protocolo do adulto, embora comorbidades prévias agravem uma eventual tempestade autonômica.",
+    "rationale": "CORRETA. De acordo com o PCDT e os slides da aula, comorbidades cardiovasculares (HAS, diabetes e cardiopatias) agravam a tempestade autonômica caso ela ocorra, porém a conduta no idoso segue estritamente o protocolo do adulto, baseada na apresentação clínica (caso leve = analgesia e observação)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A presença de comorbidades no paciente idoso potencializa a gravidade caso se instale a tempestade autonômica, mas a abordagem terapêutica segue rigorosamente o protocolo clínico dos adultos, sem ajuste de dose ou soroterapia profilática.",
+  "bookContext": {
+   "text": "O slide da aula destaca que antecedentes como hipertensão arterial sistêmica, diabetes mellitus e cardiopatias prévias funcionam como fatores agravantes na vigência de tempestade autonômica no escorpionismo. A reserva miocárdica reduzida no idoso torna-o mais vulnerável às variações súbitas de pós-carga e contratilidade provocadas pelas catecolaminas. Todavia, as diretrizes ministeriais e o PCDT estabelecem formalmente que o manejo clínico e a eventual indicação de soroterapia no idoso seguem estritamente o protocolo definido para os adultos. A estratificação de risco permanece pautada nos achados clínicos objetivos, evitando intervenções medicamentosas intempestivas em quadros exclusivamente locais.",
+   "fonte": "Somente slide da aula (Slides 5 e 6)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 256,
+  "code": "ESCORP-16",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fatores prognósticos: localização anatômica da picada e velocidade de absorção",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante uma atividade laboral de colheita em área rural, dois trabalhadores adultos jovens sofrem picada acidental por Tityus serrulatus. O trabalhador X é picado na região da falange distal do indicador direito, enquanto o trabalhador Y é picado na região dorsal torácica. Ambos procuram o mesmo serviço de saúde cerca de 45 minutos após o ocorrido. Considerando a influência da localização anatômica da picada na cinética do veneno e no prognóstico do escorpionismo, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O trabalhador X apresenta maior probabilidade de evolução sistêmica rápida porque a menor espessura tecidual distal facilita a penetração vascular direta do veneno.",
+    "rationale": "Incorreta. As extremidades distais (mãos e pés) possuem circulação terminal e fluxo linfático mais lentificado em comparação com tronco e raízes de membros, não conferindo maior aceleração da difusão plasmática."
+   },
+   {
+    "letter": "B",
+    "text": "A localização anatômica da inoculação é irrelevante para a velocidade de absorção da peçonha escorpiônica, dependendo o desfecho clínico apenas da massa do paciente.",
+    "rationale": "Incorreta. A localização da picada é listada explicitamente no slide 5 como uma avaliação prognóstica essencial, ao lado do tempo decorrido e das comorbidades, exercendo impacto direto na farmacocinética inicial da peçonha."
+   },
+   {
+    "letter": "C",
+    "text": "O trabalhador Y exige monitorização rigorosa, pois inoculações em tronco ou membros proximais exibem velocidade de absorção sistêmica diferenciada e mais precoce.",
+    "rationale": "CORRETA. Conforme demonstrado nos slides da aula, picadas localizadas no tronco ou em membros inferiores/proximais apresentam velocidade de absorção sistêmica diferenciada em relação a extremidades distais, favorecendo uma dispersão mais rápida da carga tóxica para a circulação central."
+   },
+   {
+    "letter": "D",
+    "text": "O trabalhador X demanda vigilância preferencial porque os plexos nervosos das extremidades potencializam a deflagração da tempestade autonômica e das arritmias.",
+    "rationale": "Incorreta. A tempestade autonômica decorre da ação sistêmica de frações neurotóxicas sobre canais iônicos do sistema nervoso autônomo após distribuição circulatória, e não de um arco reflexo periférico deflagrado na pele das extremidades."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A inoculação de veneno escorpiônico no tronco ou em regiões proximais proporciona absorção sistêmica diferenciada e mais acelerada em comparação com as extremidades distais.",
+  "bookContext": {
+   "text": "As toxinas escorpiônicas são peptídeos básicos de baixo peso molecular rapidamente difundidos pelos tecidos biológicos com o auxílio das hialuronidases presentes no veneno. Picadas no tronco ou regiões proximais dos membros encontram leitos vasculares e linfáticos de maior calibre e fluxo, o que favorece uma ascensão plasmática mais veloz em relação às extremidades distais. Isso reduz a janela de observação clínica para o surgimento de manifestações sistêmicas e requer vigilância atenta dos parâmetros vitais. Na estratificação do paciente, a localização anatômica da inoculação deve ser integrada ao tempo de evolução para estimar o risco de descompensação rápida.",
+   "fonte": "Somente slide da aula (Slides 3 e 5)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 257,
+  "code": "ESCORP-17",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fatores prognósticos: tempo de atendimento e tempo porta-agulha",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em acidentes escorpiônicos, o tempo decorrido entre a picada e a chegada ao serviço de saúde com administração do antiveneno quando indicado — conceituado no planejamento assistencial como 'tempo porta-agulha' — constitui um determinante prognóstico fundamental. A importância prioritária atribuída a esse intervalo temporal fundamenta-se no fato de que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O veneno escorpiônico possui meia-vida plasmática ultralonga, sendo o soro ineficaz se administrado decorridas mais de duas horas do evento inoculatório.",
+    "rationale": "Incorreta. O antiveneno permanece indicado e eficaz na neutralização de toxinas circulantes mesmo após duas horas, desde que o paciente mantenha sintomas sistêmicos moderados ou graves."
+   },
+   {
+    "letter": "B",
+    "text": "A rápida absorção das neurotoxinas escorpiônicas exige neutralização precoce antes da fixação irreversível nos canais iônicos e da cascata disautonômica.",
+    "rationale": "CORRETA. As frações neurotóxicas do veneno de Tityus atuam despolarizando canais de sódio e desencadeando a liberação maciça de catecolaminas e acetilcolina; o tempo porta-agulha precoce é vital para neutralizar as toxinas circulantes antes que o dano tecidual e a falência orgânica se consolidem."
+   },
+   {
+    "letter": "C",
+    "text": "A soroterapia tardia perde sua capacidade de neutralizar antígenos circulantes e passa a induzir reações anafiláticas graves mediadas por imunocomplexos.",
+    "rationale": "Incorreta. O tempo decorrido não torna o soro ineficaz para o veneno livre e nem aumenta a ocorrência de anafilaxia imediata por imunocomplexos circulantes, que é mecanismo de hipersensibilidade do tipo III tardia."
+   },
+   {
+    "letter": "D",
+    "text": "A inoculação de toxinas escorpiônicas desencadeia necrose tecidual progressiva no local da picada, que só pode ser contida com soro nos primeiros minutos.",
+    "rationale": "Incorreta. O envenenamento escorpiônico por Tityus é marcadamente neurotóxico e disautonômico, não cursando com necrose cutânea progressiva ou dermonecrose local (quadro que caracteriza o loxoscelismo)."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O tempo porta-agulha curto é crítico porque as neurotoxinas escorpiônicas têm absorção célere e desencadeiam despolarização autonômica com pico precoce, tornando urgente a neutralização soroterápica.",
+  "bookContext": {
+   "text": "O slide da aula estabelece o diagrama de convergência crítica entre isolamento geográfico, precariedade habitacional e o tempo porta-agulha, ressaltando o desafio bioético do atraso no atendimento. As neurotoxinas escorpiônicas atingem concentrações plasmáticas máximas em curto intervalo, estimulando a liberação maciça de mediadores adrenérgicos e colinérgicos. Quanto maior a demora na infusão do antiveneno nos casos moderados e graves, maior a probabilidade de falência ventricular e disfunção hemodinâmica irreversível. A descentralização de estoques nos serviços de saúde visa exatamente encurtar o tempo porta-agulha e reduzir a morbimortalidade.",
+   "fonte": "Somente slide da aula (Slides 1, 2 e 5)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 258,
+  "code": "ESCORP-18",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Manifestações clínicas de gravidade: edema agudo de pulmão (EAP) e oscilações pressóricas",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma criança de 9 anos é admitida no pronto-atendimento 2 horas após picada por Tityus serrulatus. Apresenta-se taquidispneica, com estertores crepitantes em ambos os terços médios e bases pulmonares, sudorese profusa, extremidades frias e períodos alternados de taquicardia com picos de hipertensão arterial seguidos de episódios de bradicardia e hipotensão transitória. Em relação à fisiopatologia das manifestações respiratórias e pressóricas de gravidade no escorpionismo, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As variações na pressão e o edema pulmonar decorrem da tempestade mista adrenérgica e colinérgica, que sobrecarrega o ventrículo esquerdo e altera a permeabilidade.",
+    "rationale": "CORRETA. Nos acidentes graves por escorpiões da região extra-amazônica, ocorre liberação maciça e desordenada de mediadores simpáticos (catecolaminas) e parassimpáticos (acetilcolina), resultando em labilidade hemodinâmica (hipertensão/hipotensão), falência do VE e aumento da permeabilidade vascular pulmonar, deflagrando o EAP."
+   },
+   {
+    "letter": "B",
+    "text": "O edema pulmonar resulta de lise celular e destruição mecânica da barreira alvéolo-capilar por metaloproteinases tóxicas, prescindindo de alterações hemodinâmicas.",
+    "rationale": "Incorreta. O edema agudo de pulmão no escorpionismo não tem gênese histolítica direta por destruição alveolar enzimática; seu mecanismo principal envolve disfunção miocárdica com aumento da pós-carga e componente de permeabilidade capilar."
+   },
+   {
+    "letter": "C",
+    "text": "As oscilações pressóricas derivam unicamente do estresse álgico intenso provocado pela picada, sendo revertidas com analgesia intravenosa e infiltração de anestésicos.",
+    "rationale": "Incorreta. As alterações pressóricas (hipertensão transitória ou choque/hipotensão) no envenenamento grave são reflexos diretos da tempestade disautonômica sistêmica e não apenas uma consequência da dor local."
+   },
+   {
+    "letter": "D",
+    "text": "A labilidade hemodinâmica expressa uma resposta parassimpática pura de origem medular, inexistindo participação de catecolaminas circulantes no comprometimento pulmonar.",
+    "rationale": "Incorreta. A tempestade autonômica tem expressivo componente adrenérgico, com picos de adrenalina e noradrenalina que provocam vasoconstrição sistêmica intensa, taquiarritmias e sobrecarga ventricular aguda."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O edema agudo de pulmão e a labilidade pressórica decorrem da tempestade autonômica disautonômica mista (adrenérgica e colinérgica), envolvendo disfunção ventricular aguda e alteração da permeabilidade alvéolo-capilar.",
+  "bookContext": {
+   "text": "Conforme apresentado nos slides 3, 6 e 7 da aula, os acidentes por espécies da região extra-amazônica deflagram tempestade disautonômica caracterizada pela estimulação simultânea ou alternada de vias adrenérgicas e colinérgicas. A liberação de catecolaminas induz hipertensão arterial transitória, taquiarritmias e vasoconstrição periférica intensa, aumentando bruscamente o consumo miocárdico de oxigênio e a pós-carga. Concomitantemente ou em seguida, descargas parassimpáticas e a depressão da contratilidade miocárdica promovem bradicardia e hipotensão. O edema agudo de pulmão expressa a culminação desse distúrbio hemodinâmico somado ao aumento de permeabilidade vascular pulmonar mediado por neuropeptídeos e citocinas.",
+   "fonte": "Somente slide da aula (Slides 3, 5, 6 e 7)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 259,
+  "code": "ESCORP-19",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Classificação clínica de risco: diferenciação entre envenenamento Leve e Moderado",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 28 anos é atendido em uma Unidade Básica de Saúde 1 hora após ter sido picado no antebraço direito por um escorpião. Ao exame físico, queixa-se de dor intensa no membro acometido, onde se observa discreto eritema e sudorese local restrita. O paciente encontra-se ansioso e relata ter apresentado náuseas e dois episódios de vômitos após a picada. A aferição de sinais vitais revela frequência cardíaca de 108 bpm e pressão arterial de 145/95 mmHg, notando-se sudorese moderada difusa em fronte e tronco, sem sinais de desconforto respiratório ou sialorreia. Considerando a estratificação de risco clínico e o manejo do acidente escorpiônico segundo as diretrizes ministeriais, qual é a classificação correta do caso e a respectiva conduta preconizada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Envenenamento leve; manter em observação clínica rigorosa por 6 a 12 horas com analgesia escalonada, dispensando a soroterapia.",
+    "rationale": "Incorreta. O caso não pode ser classificado como leve (verde). No acidente leve, os achados restringem-se ao local da picada (dor, eritema, parestesia e sudorese local), admitindo-se no máximo náusea discreta ou agitação secundária à intensidade da dor. A presença de episódios francos de vômitos, sudorese moderada difusa além do membro acometido e repercussões autonômicas hemodinâmicas (taquicardia e pico hipertensivo) enquadram o paciente compulsoriamente na categoria moderada, na qual a soroterapia antiveneno é mandatória."
+   },
+   {
+    "letter": "B",
+    "text": "Envenenamento moderado; administrar apenas antiemético e analgesia potente, reservando o soro caso ocorram novas alterações.",
+    "rationale": "Incorreta. Embora a estratificação como caso moderado esteja correta, a conduta de postergar a soroterapia antiveneno é inadequada e perigosa. No envenenamento moderado, a administração do soro antiescorpiônico deve ser imediata a fim de neutralizar as toxinas circulantes antes que ocorra ligação irreversível aos canais iônicos e progressão para formas graves com colapso cardiovascular. O tratamento sintomático isolado com antieméticos e analgésicos não substitui a imunoterapia específica."
+   },
+   {
+    "letter": "C",
+    "text": "Envenenamento grave; proceder à intubação orotraqueal imediata e infundir a dose máxima de soro antiescorpiônico venoso.",
+    "rationale": "Incorreta. O quadro ainda não atende aos critérios de envenenamento grave (vermelho). A forma grave é definida por tempestade autonômica exuberante com manifestações de falência de órgãos-alvo, como choque cardiogênico, edema agudo de pulmão, taquidispneia importante, sialorreia profusa, vômitos incoercíveis ou rebaixamento do nível de consciência. Não há indicação de intubação orotraqueal imediata nem de dosagem máxima de soroterapia (6 ampolas)."
+   },
+   {
+    "letter": "D",
+    "text": "Envenenamento moderado; indicar soroterapia antiveneno imediata e manter internação hospitalar para monitoramento contínuo.",
+    "rationale": "CORRETA. O paciente preenche os critérios para a classificação moderada (amarela), caracterizada pela instalação de sintomas sistêmicos leves a moderados sem falência orgânica franca, incluindo vômitos, sudorese moderada em tronco/fronte e oscilações hemodinâmicas transitórias de pressão arterial e frequência cardíaca. Conforme as diretrizes oficiais de escorpionismo, a conduta correta no enquadramento moderado consiste na administração imediata de soroterapia específica (3 ampolas) associada à internação hospitalar por no mínimo 24 horas sob monitoramento rigoroso."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A presença de manifestações sistêmicas como vômitos, sudorese moderada difusa e oscilações hemodinâmicas define o envenenamento escorpiônico moderado (amarelo), diferenciando-o do leve e exigindo soroterapia imediata com internação mínima de 24 horas.",
+  "bookContext": {
+   "text": "A estratificação de risco no escorpionismo é puramente clínica e visa distinguir com precisão os acidentes que necessitam de neutralização imunoterápica daqueles manejados com observação e suporte sintomático. No acidente leve, as manifestações mantêm-se circunscritas ao território da inoculação, onde a dor intensa pode desencadear reações reflexas autonômicas autolimitadas. Já a instalação de sinais sistêmicos, como êmese e diaforese difusa, comprova a absorção e circulação sistêmica do veneno, atuando sobre terminações nervosas autonômicas pós-ganglionares. A neutralização precoce dessas toxinas circulantes com o antiveneno específico previne a progressão do estresse adrenérgico e colinérgico para complicações cardíacas e pulmonares graves.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 260,
+  "code": "ESCORP-20",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Manifestações clínicas de gravidade: comprometimento neuropsíquico e tempestade colinérgica profusa",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma criança de 4 anos é levada ao serviço de emergência 40 minutos após acidente escorpiônico no domicílio. Ao exame inicial, a paciente apresenta-se torporosa, alternando com períodos de intensa agitação psicomotora e confusão mental. Observa-se sudorese profusa com extremidades frias, sialorreia abundante com engasgos frequentes, taquipneia com tiragem subcostal e frequência cardíaca de 160 bpm. Acerca da fisiopatologia e do reconhecimento semiológico dessas manifestações de gravidade segundo as diretrizes de escorpionismo, assinale a afirmativa correta.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A presença de confusão mental e rebaixamento do nível de consciência decorre de neurotoxicidade direta central da toxina, exigindo sedação antes de qualquer medida.",
+    "rationale": "Incorreta. Nas espécies escorpiônicas de relevância clínica predominantes no Brasil (como Tityus serrulatus), o veneno não atravessa de forma expressiva a barreira hematoencefálica íntegra para promover dano citotóxico cortical direto. O comprometimento neuropsíquico expresso por confusão, agitação extrema, sonolência ou coma é decorrente da tempestade disautonômica sistêmica maciça, associada à hipoxemia secundária à disfunção pulmonar e ao baixo débito decorrente da falência miocárdica. Sedar a paciente antes da estabilização e do soro agrava a depressão respiratória e prejudica a vigilância neurológica."
+   },
+   {
+    "letter": "B",
+    "text": "A sialorreia e a sudorese profusa decorrem estritamente da hiperativação simpática alfa-adrenérgica, exigindo atropinização imediata antes da infusão de antiveneno.",
+    "rationale": "Incorreta. A sialorreia abundante e a hipersecreção respiratória decorrem da estimulação colinérgica (parassimpática muscarínica) induzida pela liberação maciça de acetilcolina, e não de ativação alfa-adrenérgica. Além disso, a administração empírica de atropina não neutraliza a peçonha, não é conduta padrão prévia e pode piorar sobremaneira a taquiarritmia e a sobrecarga cardiovascular provocadas pela concomitante descarga adrenérgica."
+   },
+   {
+    "letter": "C",
+    "text": "O acometimento neuropsíquico e os sinais colinérgicos profusos traduzem envenenamento grave por tempestade autonômica, demandando soroterapia e suporte de vida.",
+    "rationale": "CORRETA. O quadro clínico descreve as manifestações clássicas da classificação vermelha (grave), caracterizada por tempestade sistêmica exuberante. A intensa sialorreia e a sudorese profusa refletem o componente colinérgico da desregulação autonômica, enquanto as alterações do sensório (agitação, confusão mental e torpor) denotam sofrimento cerebral por hipoperfusão tecidual sistêmica e hipóxia incipiente, exigindo pronta administração de soroterapia antiescorpiônica na dose máxima (6 frascos-ampolas) associada a medidas imediatas de suporte avançado de vida."
+   },
+   {
+    "letter": "D",
+    "text": "A salivação intensa associada à sudorese fria reflete apenas reação vagal reflexa provocada pela dor física, orientando-se suporte sintomático sem soro antiveneno.",
+    "rationale": "Incorreta. A exuberância dos sinais autonômicos e respiratórios associados ao comprometimento do sensório afasta categoricamente qualquer hipótese de reação vagal reflexa simples à dor. Na faixa etária pediátrica (< 7 anos), a alta concentração sérica de veneno inoculado em relação à pequena superfície corpórea precipita rápida tempestade autonômica grave com elevado risco de óbito por edema pulmonar e choque cardiogênico, tornando imperativa a imediata intervenção antiveneno."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "No envenenamento escorpiônico grave, manifestações como sialorreia profusa e sudorese intensa refletem tempestade colinérgica, ao passo que agitação, confusão ou torpor decorrem de hipóxia e má perfusão tecidual por tempestade autonômica, exigindo soroterapia imediata e suporte intensivo.",
+  "bookContext": {
+   "text": "O envenenamento escorpiônico grave resulta do retardo na inativação dos canais de sódio dependentes de voltagem e do bloqueio de canais de potássio nas terminações nervosas. Esse efeito biofísico induz despolarizações repetitivas que desencadeiam a liberação maciça e desregulada de mediadores autonômicos, tanto adrenérgicos quanto colinérgicos. A hiperestimulação colinérgica muscarínica gera sialorreia profusa, broncorreia e sudorese, que comprometem a perviedade das vias aéreas e agravam a troca gasosa pulmonar. Concomitantemente, a hipoperfusão periférica e a hipoxemia progressiva culminam em alterações agudas do nível de consciência, tornando mandatória a rápida neutralização humoral com soroterapia e a estabilização ventilatória e hemodinâmica.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 261,
+  "code": "ESCORP-21",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Regra de Ouro da soroterapia e dosagem de SAEsc",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma menina de 6 anos (20 kg) dá entrada em unidade de pronto atendimento acompanhada pela mãe, 1 hora após picada de escorpião-amarelo (Tityus serrulatus) no pé direito. Ao exame físico, a paciente apresenta dor local intensa, sudorese moderada, palidez cutânea e episódios repetidos de vômitos (três episódios na última hora), além de oscilação pressórica, sem sinais de insuficiência respiratória ou choque. O médico classifica o envenenamento como moderado. Considerando as diretrizes do Ministério da Saúde para o acidente escorpiônico, a conduta correta em relação à soroterapia é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ajustar a dose de soro antiescorpiônico de acordo com o peso corporal da paciente pediátrica, prescrevendo 1 a 2 frascos-ampolas diluídos em solução glicosada a 5%.",
+    "rationale": "Incorreta. Um dos erros conceituais mais comuns é tentar calcular a dose de antiveneno com base no peso corporal ou na idade da criança, como se faz na farmacologia convencional. A Regra de Ouro da soroterapia determina que a dose de antiveneno visa neutralizar a quantidade de veneno inoculada pelo escorpião, sendo calculada exclusivamente pela gravidade clínica (3 frascos no moderado e 6 no grave). Na pediatria, a mesma dose do adulto deve ser infundida."
+   },
+   {
+    "letter": "B",
+    "text": "Prescrever 3 frascos-ampolas de soro antiescorpiônico por via intravenosa, independentemente da idade ou do peso corporal apresentado pela paciente.",
+    "rationale": "CORRETA. De acordo com a Regra de Ouro da soroterapia escorpiônica, a dose do antiveneno é baseada estritamente na gravidade clínica, nunca na idade ou no peso do paciente. Tratando-se de um caso classificado como moderado (presença de manifestações sistêmicas como sudorese moderada, vômitos e oscilações autonômicas, sem falência orgânica), a posologia preconizada pelo Ministério da Saúde é de exatamente 3 frascos-ampolas de soro antiescorpiônico (SAEsc) por via intravenosa."
+   },
+   {
+    "letter": "C",
+    "text": "Indicar 6 frascos-ampolas de soro antiescorpiônico imediatamente, considerando que a faixa etária abaixo de 7 anos determina classificação de gravidade máxima.",
+    "rationale": "Incorreta. Embora crianças menores de 7 anos apresentem maior risco de evolução desfavorável devido à desproporção entre a carga de veneno inoculada e a menor superfície corpórea, a indicação de 6 frascos-ampolas reserva-se estritamente aos casos graves (com falência ventricular, edema agudo de pulmão, choque, vômitos incoercíveis ou rebaixamento sensorial). O quadro atual possui critérios de envenenamento moderado, cuja dose mandatória é de 3 frascos-ampolas."
+   },
+   {
+    "letter": "D",
+    "text": "Postergar a soroterapia e manter a paciente em observação clínica por 6 horas, iniciando o soro apenas se houver evolução para instabilidade hemodinâmica grave.",
+    "rationale": "Incorreta. O envenenamento moderado possui indicação formal e imediata de soroterapia específica. Postergar a administração do antiveneno para observação de 6 horas é conduta reservada aos acidentes leves (com sintomas exclusivamente locais). Em casos moderados, o atraso porta-agulha aumenta drasticamente o risco de progressão para tempestade disautonômica grave e complicações cardiopulmonares potencialmente fatais."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A dose do soro antiescorpiônico depende unicamente da gravidade clínica (moderado = 3 ampolas; grave = 6 ampolas), nunca do peso ou da idade.",
+  "bookContext": {
+   "text": "A neutralização do veneno escorpiônico fundamenta-se na estequiometria entre os anticorpos heterólogos presentes no antiveneno e a carga total de toxinas circulantes injetada pelo artrópode. Como o escorpião inocula uma quantidade fixa de peçonha independentemente de picar uma criança ou um adulto, a dose de anticorpos necessária para a neutralização é idêntica em qualquer faixa etária. Em crianças pequenas, a menor superfície corpórea e o menor volume de distribuição plasmática resultam em picos de toxicidade mais rápidos e agressivos. Por esse motivo, a prescrição deve ser imediata na dose preconizada pela clínica, evitando diluições excessivas que provoquem sobrecarga hídrica.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 262,
+  "code": "ESCORP-22",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Escada analgésica e infiltração anestésica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 34 anos dá entrada no pronto atendimento 40 minutos após ser picado por escorpião no dorso da mão direita. Ao exame clínico, encontra-se lúcido, eupneico e afebril, com sinais vitais estáveis. Há apenas dor local excruciante avaliada em 9/10 na Escala Visual Numérica (EVN), associada a eritema discreto e hiperestesia, sem qualquer sinal sistêmico. O médico realizou analgesia inicial com dipirona intravenosa, porém, após 30 minutos, o paciente persiste com queixa de dor insuportável. Considerando a escada analgésica do protocolo assistencial, a conduta recomendada para este momento é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Realizar infiltração local de lidocaína a 2% sem vasoconstritor, podendo ser repetida até 3 vezes com intervalos de 40 a 60 minutos entre as aplicações.",
+    "rationale": "CORRETA. Para dores intensas (EVN 8 a 10) refratárias ao manejo sistêmico inicial, a escada analgésica estabelece a infiltração local de lidocaína a 2% sem vasoconstritor. O protocolo autoriza a repetição do procedimento por até 3 vezes, mantendo intervalos de segurança de 40 a 60 minutos entre as doses para reavaliação da resposta álgica."
+   },
+   {
+    "letter": "B",
+    "text": "Realizar bloqueio regional com lidocaína a 2% associada a epinefrina para prolongar a duração do efeito anestésico e conter a circulação local do veneno.",
+    "rationale": "Incorreta. É terminantemente contraindicado o uso de vasoconstritores (como a epinefrina) em anestesias locais ou infiltrativas no escorpionismo, principalmente em extremidades, devido ao alto risco de isquemia tecidual, vasoespasmo e necrose de extremidades decorrente da somação com a descarga adrenérgica local induzida pelo veneno."
+   },
+   {
+    "letter": "C",
+    "text": "Prescrever bólus intravenoso de morfina associado a dexametasona para controle álgico e bloqueio precoce da resposta inflamatória neurogênica local.",
+    "rationale": "Incorreta. Opioides potentes como a morfina não são indicados de rotina; o manejo auxiliar prevê apenas opioides fracos em caso de recidiva álgica. Além disso, corticoides como a dexametasona não possuem benefício clínico comprovado para analgesia ou bloqueio inflamatório no escorpionismo humano."
+   },
+   {
+    "letter": "D",
+    "text": "Indicar 3 frascos-ampolas de soro antiescorpiônico intravenoso para neutralizar as neurotoxinas periféricas responsáveis pela dor refratária intensa.",
+    "rationale": "Incorreta. A soroterapia está formalmente contraindicada em acidentes classificados como leves. A intensidade da dor local, mesmo quando atinge grau máximo na escala de dor (EVN 8 a 10), não classifica o caso como moderado ou grave na ausência de manifestações clínicas sistêmicas."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Dor intensa (EVN 8–10) deve ser tratada com infiltração local de lidocaína 2% sem vasoconstritor (até 3x a cada 40–60 min), nunca com vasoconstritor ou soroterapia.",
+  "bookContext": {
+   "text": "A dor no acidente escorpiônico é de origem neurogênica, desencadeada pela despolarização sustentada das terminações nervosas sensoriais dos tipos A-delta e C por ação direta das toxinas nos canais de sódio voltagem-dependentes. O manejo escalonado preconiza compressas mornas e dipirona oral na dor leve (EVN 1 a 3), dipirona intravenosa na dor moderada (EVN 4 a 7) e infiltração anestésica na dor intensa (EVN 8 a 10). A adição de substâncias vasoconstritoras aos anestésicos locais é estritamente proibida pelo perigo iminente de isquemia distal. Opioides fracos constituem alternativa farmacológica auxiliar apenas diante de recidiva da dor após a abordagem anestésica infiltrativa.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 263,
+  "code": "ESCORP-23",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fluxograma de atendimento e tempos de observação clínica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante o plantão em uma Unidade de Pronto Atendimento, o médico admite dois pacientes com histórico de acidente por escorpião ocorrido há cerca de 1 hora: o Paciente 1 (homem, 42 anos) relata ter sentido o artrópode picar seu braço, mas o exame físico não revela qualquer sinal local ou sistêmico de envenenamento (suspeita de picada seca); o Paciente 2 (mulher, 25 anos) apresenta eritema punctiforme e dor local moderada, sem nenhuma queixa ou alteração sistêmica. Segundo o fluxograma oficial de conduta, os períodos mínimos recomendados de observação hospitalar para esses pacientes são, respectivamente:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "2 horas para o Paciente 1; 4 a 6 horas para o Paciente 2.",
+    "rationale": "Incorreta. porque o período mínimo de observação para acidentes suspeitos sem clínica de envenenamento (Paciente 1) é de 4 horas, enquanto para acidentes leves restritos a manifestações locais (Paciente 2) o intervalo recomendado é de 6 a 12 horas."
+   },
+   {
+    "letter": "B",
+    "text": "6 horas para o Paciente 1; 12 a 24 horas para o Paciente 2.",
+    "rationale": "Incorreta. porque superestima a observação do paciente assintomático (Paciente 1), cujo tempo mínimo preconizado é de 4 horas, e indica internação de 24 horas para o Paciente 2, conduta reservada estritamente aos casos moderados ou graves com repercussão sistêmica."
+   },
+   {
+    "letter": "C",
+    "text": "12 a 24 horas para o Paciente 1; 24 horas para o Paciente 2.",
+    "rationale": "Incorreta. porque prolonga desnecessariamente a observação do paciente sem clínica (Paciente 1) para 12 a 24 horas (o protocolo define 4 horas) e estabelece 24 horas para o envenenamento puramente local (Paciente 2), período indicado apenas para quadros sistêmicos."
+   },
+   {
+    "letter": "D",
+    "text": "4 horas para o Paciente 1; 6 a 12 horas para o Paciente 2.",
+    "rationale": "CORRETA. Conforme o fluxograma padronizado pelo PCDT: no acidente suspeito ou confirmado sem clínica de envenenamento (picada seca), o protocolo determina observação rigorosa por 4 horas com monitoramento dos sinais vitais. Já nos pacientes com clínica de envenenamento confirmada, porém restrita a sintomas locais (caso leve), o período de observação hospitalar obrigatório é de 6 a 12 horas antes da liberação segura com alta."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Tempo de observação: sem envenenamento (picada seca) = 4 horas; envenenamento leve (apenas local) = 6 a 12 horas; moderado/grave (sistêmico) = mínimo de 24 horas.",
+  "bookContext": {
+   "text": "A definição dos tempos de observação no fluxograma de atendimento vincula-se à cinética de distribuição das toxinas escorpiônicas na circulação humana. A ausência inicial de dor ou lesão não afasta o acidente de imediato, exigindo observação padrão de 4 horas para garantir que não houve inoculação fracionada ou absorção lenta. Nos pacientes com sintomas estritamente locais, o risco de progressão para manifestações autonômicas sistêmicas decresce sensivelmente após as primeiras 6 horas, justificando a janela de segurança de 6 a 12 horas. Em qualquer momento de dúvida no diagnóstico ou na definição da conduta clínica, o acionamento do Centro de Informação e Assistência Toxicológica (CIATox) é ferramenta estratégica preconizada.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 264,
+  "code": "ESCORP-24",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Manejo farmacológico auxiliar e diretrizes de administração do soro",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma paciente de 38 anos é atendida em posto de saúde no interior do Pará após ser ferroada por escorpião-preto-da-amazônia (Tityus obscurus). Ela evolui rapidamente com abalos mioclônicos difusos, tremores, disartria, ataxia de marcha, sensação de choques elétricos e vômitos repetidos, caracterizando tempestade neurossistêmica grave. A equipe de enfermagem relata colapso vascular periférico grave com insucesso após três tentativas de punção venosa periférica. Considerando as diretrizes de infusão do antiveneno e os fármacos adjuvantes específicos para a espécie, a conduta terapêutica imediata é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Administrar 6 frascos-ampolas de soro antiaracnídico por via intramuscular profunda e utilizar antieméticos serotoninérgicos para cessar os vômitos incoercíveis.",
+    "rationale": "Incorreta. A via intramuscular não é recomendada para a soroterapia de emergência devido à absorção lenta e errática dos anticorpos heterólogos, sendo mandatórias as vias intravenosa ou intraóssea. A via intramuscular atrasaria a neutralização das neurotoxinas em paciente com clínica grave."
+   },
+   {
+    "letter": "B",
+    "text": "Realizar bloqueio infiltrativo local com anestésico para amenizar a sensação de choque e aplicar prometazina profilática antes da infusão do soro em acesso central.",
+    "rationale": "Incorreta. No envenenamento por Tityus obscurus, o bloqueio anestésico local pode paradoxalmente intensificar a sensação de choque elétrico pelo comprometimento da transmissão sensorial periférica. Além disso, o uso profilático de antialérgicos ou corticoides pré-soro é contraindicado pelas evidências atuais."
+   },
+   {
+    "letter": "C",
+    "text": "Obter acesso intraósseo para infusão de 6 frascos-ampolas de soro antiaracnídico em 20 a 60 minutos e administrar diazepam para o controle das mioclonias.",
+    "rationale": "CORRETA. Diante da impossibilidade de acesso venoso imediato em paciente grave, a via intraóssea (IO) é a via de escolha recomendada para a soroterapia. Para acidentes graves por Tityus obscurus, prescrevem-se 6 frascos-ampolas de Soro Antiaracnídico (SAA), cuja taxa de infusão deve ser mais lenta (20 a 60 minutos). Adicionalmente, as manifestações neurológicas mioclônicas induzidas pelas toxinas amazônicas possuem indicação de controle específico com diazepam."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever infusão rápida de 3 frascos-ampolas de soro antiescorpiônico em bólus de 10 minutos por via subcutânea associada a doses elevadas de metoclopramida.",
+    "rationale": "Incorreta. A via subcutânea é completamente contraindicada para soroterapia antiveneno em envenenamentos escorpiônicos. Ademais, para quadros graves a dose necessária é de 6 frascos-ampolas (não 3) e o soro indicado contra T. obscurus é o SAA, com tempo de infusão de 20 a 60 minutos (a infusão de 10 a 15 min refere-se ao SAEsc)."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Em casos sem acesso venoso, a via intraóssea está indicada; para T. obscurus grave utilizam-se 6 ampolas de SAA infundidas em 20–60 min, e diazepam para mioclonias.",
+  "bookContext": {
+   "text": "Ao contrário dos escorpiões da região extra-amazônica cuja fisiopatologia decorre da tempestade autonômica periférica, o veneno de Tityus obscurus possui neurotoxinas de ação direta no sistema nervoso central. Essa ação central provoca manifestações neurológicas características, como mioclonias, disartria, ataxia de marcha e hiperestesia com sensação de choques elétricos. O controle sintomático dessas alterações neuromusculares é realizado com benzodiazepínicos como o diazepam, ao passo que anestésicos locais periféricos devem ser evitados pelo risco de acentuar os choques. Na impossibilidade de acesso venoso, o acesso intraósseo assegura biodisponibilidade e velocidade de neutralização equivalentes às da via venosa central.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 265,
+  "code": "ESCORP-25",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Manejo neuromuscular e particularidade do bloqueio anestésico em espécie amazônica (Tityus obscurus)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um seringueiro de 38 anos é atendido em uma unidade de saúde no interior do Pará após ser picado na mão direita por um escorpião-preto-da-amazônia (Tityus obscurus). O paciente relata intensa sensação de choque elétrico ascendente pelo membro acometido, associada a disartria, ataxia de marcha e abalos mioclônicos evidentes. O médico plantonista planeja a abordagem sintomática e o controle motor do quadro. De acordo com as diretrizes clínicas de atendimento ao acidente escorpiônico, assinale a conduta farmacológica adequada.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Realizar infiltração com lidocaína a 2% no ponto da picada e prescrever haloperidol intramuscular para os abalos mioclônicos.",
+    "rationale": "Incorreta. A infiltração de anestésico local em picadas por Tityus obscurus é desaconselhada pelas diretrizes, pois pode intensificar a sensação de choques elétricos; ademais, o haloperidol não é a droga indicada para controle de mioclonias escorpiônicas e eleva o risco de arritmias."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar diazepam parenteral para controle das mioclonias e evitar a infiltração anestésica local pelo risco de piora da disestesia.",
+    "rationale": "CORRETA. No acidente por Tityus obscurus, as toxinas atuam diretamente sobre o sistema nervoso central, manifestando-se com mioclonias, tremores, ataxia e sensação de choque elétrico. O protocolo orienta formalmente o uso de diazepam para controle dos espasmos e alerta que o bloqueio anestésico local pode exacerbar a sensação de choques elétricos."
+   },
+   {
+    "letter": "C",
+    "text": "Prescrever bloqueio de plexo braquial com bupivacaína a 0,5% e indicar fenitoína intravenosa para a supressão das manifestações motoras.",
+    "rationale": "Incorreta. A fenitoína não é a droga de escolha para as mioclonias de origem central provocadas pelo veneno de Tityus obscurus (o fármaco preconizado é o diazepam) e bloqueios periféricos regionais podem desencadear piora das parestesias."
+   },
+   {
+    "letter": "D",
+    "text": "Indicar infusão contínua de sulfato de magnésio para alívio neuromuscular e repetir infiltrações locais de anestésico a cada 20 minutos.",
+    "rationale": "Incorreta. O sulfato de magnésio não compõe as diretrizes padronizadas para manifestações neuromusculares no escorpionismo amazônico e a infiltração repetida de anestésicos locais é contraproducente frente ao risco de agravar a sensação de choque."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "No envenenamento por Tityus obscurus, o diazepam é o fármaco de escolha para as mioclonias, enquanto a infiltração anestésica local deve ser evitada por risco de acentuar os choques elétricos.",
+  "bookContext": {
+   "text": "No acidente por escorpião da Amazônia (Tityus obscurus), o quadro neurológico decorre da ação de toxinas que atingem diretamente o sistema nervoso central, manifestando-se por mioclonias, disartria e ataxia. O Ministério da Saúde alerta que bloqueios anestésicos locais periféricos podem desencadear ou intensificar a sensação paroxística de choques elétricos nestes doentes. Por essa razão, a abordagem terapêutica dos abalos motores e da hiperatividade neuromuscular deve ser realizada com diazepam parenteral. A analgesia nesses casos deve priorizar analgésicos sistêmicos e medidas de suporte clínico monitorado.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 266,
+  "code": "ESCORP-26",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Diretrizes de administração, velocidade e diluição de SAEsc versus SAA",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma criança de 6 anos é admitida em unidade hospitalar com quadro classificado como moderado após acidente escorpiônico. A equipe médica prescreve a soroterapia antiveneno e orienta a equipe de enfermagem quanto aos procedimentos corretos de preparo e velocidade de infusão do soro antiescorpiônico (SAEsc) e do soro antiaracnídico (SAA). Em relação às diretrizes técnicas de administração dessas imunoglobulinas heterólogas, assinale a afirmativa correta.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A infusão de SAEsc pode ser realizada de forma rápida em 10 a 15 minutos, exigindo vigilância contra sobrecarga hídrica.",
+    "rationale": "CORRETA. De acordo com o protocolo clínico, o SAEsc é administrado por via intravenosa de maneira rápida (10 a 15 minutos) ou em bolus (8 a 12 mL/minuto), exigindo monitoramento rigoroso em pediatria devido ao perigo de descompensação e sobrecarga hídrica em pacientes suscetíveis a miocardite."
+   },
+   {
+    "letter": "B",
+    "text": "A infusão de SAEsc deve ocorrer lentamente ao longo de 60 a 90 minutos para mitigar o risco de choque pirogênico precoce.",
+    "rationale": "Incorreta. O SAEsc não deve ser infundido lentamente em 60 a 90 minutos; sua administração recomendada é rápida (10 a 15 minutos) ou em bolus para neutralizar o veneno antes da fixação celular maciça."
+   },
+   {
+    "letter": "C",
+    "text": "A infusão de SAA exige administração rápida em bolus de 8 a 12 mL/minuto visando neutralização imediata das toxinas.",
+    "rationale": "Incorreta. A velocidade rápida ou em bolus (8 a 12 mL/minuto) é preconizada para o SAEsc; o soro antiaracnídico (SAA), por sua vez, requer administração mais lenta, com tempo de infusão entre 20 e 60 minutos."
+   },
+   {
+    "letter": "D",
+    "text": "A diluição de ambos os soros deve ser feita em água destilada estéril na proporção de 1:10 para evitar precipitação imune.",
+    "rationale": "Incorreta. A diluição do soro é feita exclusivamente em soro fisiológico a 0,9% ou soro glicosado a 5% (nas proporções de 1:2 a 1:5, ou puro 1:1), sendo expressamente contraindicado o uso de água destilada pura para infusão venosa."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O SAEsc deve ser administrado rapidamente (10-15 minutos ou em bolus de 8-12 mL/min), exigindo cautela volêmica em crianças, enquanto o SAA requer infusão mais lenta (20-60 minutos).",
+  "bookContext": {
+   "text": "A administração do soro antiescorpiônico (SAEsc) visa neutralizar com máxima rapidez os componentes tóxicos circulantes antes de sua fixação aos canais iônicos teciduais. Por essa razão, o protocolo estabelece infusão rápida em 10 a 15 minutos ou em bolus com velocidade de 8 a 12 mL/minuto, contrastando com o soro antiaracnídico (SAA), cuja infusão deve ser mais lenta, durando de 20 a 60 minutos. A diluição padronizada em soro fisiológico a 0,9% ou soro glicosado a 5% deve respeitar proporções adequadas de 1:2 a 1:5 ou pura (1:1). Na população pediátrica, a equipe deve ter vigilância redobrada com a taxa hídrica infundida, prevenindo hipervolemia iatrogênica em pacientes sob risco iminente de disfunção ventricular.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 267,
+  "code": "ESCORP-27",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Via de administração na emergência e alternativa intraóssea em pediatria",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um menino de 3 anos (14 kg) dá entrada em estado grave no pronto atendimento após picada de escorpião-amarelo, apresentando agitação, sudorese profusa, sialorreia e taquipneia acentuada. A equipe médica indica soroterapia imediata, porém as tentativas repetidas de punção venosa periférica falham devido ao colapso vascular periférico. Considerando as diretrizes oficiais de administração do antiveneno em situações de emergência pediátrica, qual é a conduta correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Aplicar a soroterapia por via intramuscular profunda na região glútea com agulha de calibre grosso para absorção tecidual rápida.",
+    "rationale": "Incorreta. A via intramuscular não é indicada para a administração de soroterapia antiescorpiônica de emergência devido à absorção excessivamente lenta e imprevisível, incapaz de deter o choque autonômico."
+   },
+   {
+    "letter": "B",
+    "text": "Infiltrar o volume total do soro antiveneno por via subcutânea perilesional na mesma topografia da inoculação das toxinas.",
+    "rationale": "Incorreta. A administração subcutânea de soro antiveneno é ineficaz para o tratamento sistêmico, não garantindo a biodisponibilidade necessária para neutralizar os componentes da peçonha."
+   },
+   {
+    "letter": "C",
+    "text": "Postergar a infusão do antiveneno até a passagem de cateter venoso central guiado por ultrassom em ambiente de centro cirúrgico.",
+    "rationale": "Incorreta. Não se deve retardar o início da soroterapia (aumentando o tempo porta-agulha) em casos graves à espera de cateter venoso central, visto que a demora amplia o risco de falência cardíaca e óbito."
+   },
+   {
+    "letter": "D",
+    "text": "Estabelecer via intraóssea para infusão imediata da dose recomendada de soro, mantendo controle estrito da infusão hídrica.",
+    "rationale": "CORRETA. Quando o acesso venoso periférico não puder ser obtido prontamente, as diretrizes do Ministério da Saúde indicam formalmente a via intraóssea (IO) para administração da dose total do soro antiveneno, mantendo estrita vigilância hídrica."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Na impossibilidade de acesso venoso periférico imediato em casos graves, a via intraóssea é a escolha formal para a infusão do soro antiveneno.",
+  "bookContext": {
+   "text": "A rapidez na administração da soroterapia específica é determinante para o prognóstico em crianças com picadas escorpiônicas graves, pois a relação desfavorável entre a carga de veneno e a superfície corporal acelera o pico plasmático da peçonha. Em situações de colapso circulatório periférico com impossibilidade de punção venosa periférica célere, o retardo no tempo porta-agulha eleva a morbimortalidade. Nesses cenários críticos, a diretriz estabelece a punção intraóssea como via de acesso vascular de resgate perfeitamente válida e eficaz para a infusão do antiveneno. O procedimento assegura biodisponibilidade imediata semelhante à via intravenosa, devendo ser acompanhado de rigoroso controle do balanço hídrico.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 268,
+  "code": "ESCORP-28",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Papel estratégico do CIATox no fluxograma de conduta e apoio à regulação",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um médico plantonista em uma Unidade Básica de Saúde atende um trabalhador rural vítima de picada de escorpião há 2 horas. Diante de sintomas sistêmicos iniciais, incerteza na diferenciação com araneísmo e necessidade de transferência para leito monitorado, o médico entra em contato com o Centro de Informação e Assistência Toxicológica (CIATox). De acordo com o fluxograma oficial de conduta, assinale a atribuição estratégica prioritária do CIATox nesse contexto.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Autorizar judicialmente a prescrição de antivenenos e assumir a execução do transporte aeromédico do paciente até a unidade de referência.",
+    "rationale": "Incorreta. O CIATox tem papel técnico-consultivo de apoio à decisão médica, não exercendo funções judiciais de autorização de prescrição nem atuando como operadora logística de transporte aeromédico."
+   },
+   {
+    "letter": "B",
+    "text": "Exigir a realização de dosagens séricas confirmatórias de veneno antes de autorizar a administração de qualquer fração de soroterapia.",
+    "rationale": "Incorreta. O diagnóstico e a conduta nos acidentes escorpiônicos são essencialmente clínicos e epidemiológicos; não existe dosagem laboratorial sérica de veneno exigida para orientar a soroterapia."
+   },
+   {
+    "letter": "C",
+    "text": "Prestar assessoria especializada em diagnóstico diferencial, definição de conduta clínica e suporte na indicação de transferência.",
+    "rationale": "CORRETA. Conforme o fluxograma oficial de conduta da aula, o apoio estratégico do CIATox deve ser acionado imediatamente para auxílio técnico no diagnóstico diferencial, definição precisa de conduta clínica e suporte no planejamento de transferência para serviços de maior complexidade."
+   },
+   {
+    "letter": "D",
+    "text": "Recomendar o cancelamento da transferência hospitalar e orientar a alta médica imediata após a aplicação de analgesia parenteral simples.",
+    "rationale": "Incorreta. Diante de sintomas sistêmicos (envenenamento moderado ou grave), o fluxograma preconiza internação mínima de 24 horas e monitoramento contínuo, sendo incorreto orientar alta imediata com analgesia simples."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O CIATox presta suporte técnico e estratégico imediato para elucidação diagnóstica, definição de conduta terapêutica e apoio na regulação de transferência.",
+  "bookContext": {
+   "text": "Os Centros de Informação e Assistência Toxicológica (CIATox) integram a rede de vigilância e assistência do SUS, provendo assessoria ininterrupta aos profissionais de saúde que atendem acidentes por animais peçonhentos. No fluxograma assistencial do escorpionismo, o contato com o CIATox é preconizado para o esclarecimento de dúvidas diagnósticas, ajuste de condutas terapêuticas e definição do nível assistencial exigido para internação ou transferência. Essa articulação matricial é fundamental em unidades de menor densidade tecnológica, garantindo que condutas como a indicação de soroterapia e o suporte intensivo sejam instituídos oportunamente. Além disso, o suporte toxicológico qualificado reduz intervenções ineficazes ou iatrogênicas na atenção básica e de urgência.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 269,
+  "code": "ESCORP-29",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Medidas físicas locais e abordagem da dor leve (EVN 1 a 3)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um jovem de 21 anos procura atendimento médico em Unidade Básica de Saúde após sofrer picada de escorpião na mão direita há 30 minutos. Apresenta dor localizada de leve intensidade, com nota 2 na Escala Verbal Numérica (EVN), eritema discreto e parestesia perilesional, sem qualquer queixa sistêmica. Seus sinais vitais revelam pressão arterial de 120/75 mmHg e frequência cardíaca de 76 bpm. O paciente relata que colocou uma bolsa de gelo sobre a lesão antes de sair de casa para aliviar a queixa, mas percebeu piora progressiva da sensação dolorosa. De acordo com o protocolo clínico oficial do Ministério da Saúde para o manejo da dor e medidas físicas locais no escorpionismo, a conduta correta é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Orientar a manutenção do gelo local para retardar a difusão da peçonha e administrar dipirona por via intravenosa.",
+    "rationale": "Incorreta. A manutenção de compressas frias ou gelo no sítio da picada é um erro frequente de conduta, pois a crioterapia induz vasoconstrição local reflexa, reduzindo a perfusão tecidual, retendo o veneno e agravando a dor isquêmica e neurogênica. Além disso, a via intravenosa para dipirona não é a primeira escolha na dor leve (EVN 1 a 3), sendo reservada no protocolo para quadros de dor moderada (EVN 4 a 7)."
+   },
+   {
+    "letter": "B",
+    "text": "Determinar a retirada do gelo, aplicar compressas mornas sobre a picada e administrar dipirona por via oral.",
+    "rationale": "CORRETA. No manejo da dor leve (EVN 1 a 3) restrita ao ponto da inoculação, a diretriz recomenda a remoção imediata do gelo e o emprego de calor local por meio de compressas mornas, o que promove vasodilatação e atenua a dor, associado ao uso de analgésico simples por via oral (dipirona VO). O paciente deve permanecer em observação clínica rigorosa por 6 a 12 horas."
+   },
+   {
+    "letter": "C",
+    "text": "Infiltrar imediatamente lidocaína a 2% com vasoconstritor no ponto da picada e manter aplicação de crioterapia.",
+    "rationale": "Incorreta. A infiltração anestésica local está indicada apenas para quadros de dor intensa (EVN 8 a 10) refratária a analgésicos sistêmicos e deve ser realizada exclusivamente com lidocaína a 2% sem vasoconstritor; o uso de soluções com vasoconstritor é contraindicado pelo risco de isquemia tecidual e necrose de extremidades, somando-se à contraindicação da crioterapia."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever analgésico opioide fraco por via oral associado a anti-inflamatório não esteroidal e liberar o paciente.",
+    "rationale": "Incorreta. O manejo da dor leve não prescinde de medidas físicas, sendo a aplicação de compressas mornas uma recomendação não farmacológica formal. O uso de opioides fracos fica restrito ao manejo auxiliar de resgate na recidiva da dor e, além disso, acidentes com manifestação local exigem observação clínica mínima de 6 a 12 horas, não sendo permitida a alta imediata."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "No escorpionismo com dor leve (EVN 1–3), o manejo analgésico inicial baseia-se na aplicação de calor local com compressas mornas (o gelo é contraindicado por piorar a dor e causar vasoconstrição) e na administração de dipirona por via oral, mantendo o paciente em observação clínica por 6 a 12 horas.",
+  "bookContext": {
+   "text": "A dor no escorpionismo decorre da ação de toxinas que despolarizam terminações nervosas sensitivas e promovem a liberação local de mediadores químicos e neuropeptídeos algógenos. Diferentemente de outros traumatismos musculoesqueléticos, a aplicação de crioterapia ou compressas frias é prejudicial, pois a vasoconstrição acentua a isquemia tissular local e intensifica os disparos dolorosos. O emprego de calor local por meio de compressas de água morna promove vasodilatação perilesional, relaxamento muscular e alívio do desconforto, funcionando como medida física não farmacológica mandatória. Quando associada à analgesia simples escalonada (dipirona VO nos quadros leves de EVN 1 a 3), essa conduta proporciona controle álgico efetivo na expressiva maioria dos acidentes sem manifestações sistêmicas.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 270,
+  "code": "ESCORP-30",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Manejo farmacológico auxiliar de vômitos profusos e alertas em pediatria",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma menina de 5 anos é admitida na sala de emergência pediátrica 45 minutos após ser picada por escorpião-amarelo (Tityus serrulatus) no membro inferior esquerdo. Ao exame físico inicial, apresenta dor intensa na área da picada, palidez cutânea, sudorese discreta e quatro episódios sucessivos de vômitos incoercíveis. Os sinais vitais mostram frequência cardíaca de 136 bpm e pressão arterial de 115/75 mmHg. Durante a estruturação da conduta terapêutica e a prescrição do manejo farmacológico auxiliar dos vômitos, a equipe debate as intervenções prioritárias. Considerando as diretrizes clínicas e farmacológicas para acidentes escorpiônicos do Ministério da Saúde, a orientação adequada para o caso é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indicar soroterapia imediata pelo sinal de alerta e usar metoclopramida com estrita cautela, dado o risco de complicações cardiológicas na pediatria.",
+    "rationale": "CORRETA. Vômitos incoercíveis ou em profusão são considerados o sinal clínico mais indicativo e sensível de gravidade extrema decorrente da tempestade disautonômica (adrenérgica/colinérgica), exigindo soroterapia imediata com soro antiescorpiônico (3 frascos no moderado ou 6 no grave). No suporte farmacológico auxiliar, o uso de metoclopramida para conter vômitos profusos deve ser conduzido com cautela na pediatria, devido ao risco potencial de reações cardiológicas adversas e arritmias."
+   },
+   {
+    "letter": "B",
+    "text": "Prescrever metoclopramida venosa em dose plena de imediato, pois o controle sintomático dos vômitos estabiliza o quadro autonômico e torna desnecessária a soroterapia.",
+    "rationale": "Incorreta. No escorpionismo, episódios múltiplos ou incoercíveis de vômitos configuram um sinal sentinela de gravidade extrema (red flag) que define envenenamento moderado ou grave, tornando a soroterapia antiveneno mandatória e imediata, não podendo ser dispensada pelo alívio dos vômitos. Além disso, a metoclopramida na pediatria não deve ser feita de forma indiscriminada em dose plena, exigindo cautela rigorosa por riscos cardiológicos."
+   },
+   {
+    "letter": "C",
+    "text": "Contraindicar formalmente antieméticos na infância devido ao risco de depressão do centro respiratório, preconizando jejum absoluto e lavagem gástrica esvaziadora imediata.",
+    "rationale": "Incorreta. A metoclopramida não é contraindicada por causar depressão do centro respiratório (efeito associado a sedativos e opioides), mas sim demanda precaução na faixa etária pediátrica pela possibilidade de reações cardiológicas adversas e manifestações extrapiramidais. Além disso, a lavagem gástrica descompressiva é um procedimento invasivo sem qualquer indicação clínica no envenenamento por picada de escorpião."
+   },
+   {
+    "letter": "D",
+    "text": "Postergar a aplicação de soro antiescorpiônico até a cessação completa das náuseas com ondansetrona, a fim de evitar crises de broncoaspiração durante o período de infusão.",
+    "rationale": "Incorreta. A administração da soroterapia específica jamais deve ser retardada ou postergada para aguardar a cessação dos vômitos ou ação de antieméticos. O tempo decorrido entre a picada e o soro é determinante prognóstico fundamental para barrar a progressão da tempestade autonômica e prevenir falência cardiopulmonar precoce."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Vômitos incoercíveis no escorpionismo constituem sinal de gravidade (red flag) que impõe soroterapia imediata; o manejo farmacológico auxiliar com metoclopramida exige estrita cautela em crianças devido ao risco de eventos adversos cardiológicos.",
+  "bookContext": {
+   "text": "Os vômitos incoercíveis no escorpionismo resultam da ativação colinérgica e da tempestade autonômica sistêmica desencadeada pela liberação maciça de catecolaminas e acetilcolina. Esse achado é reconhecido pelo protocolo oficial como o sinal sentinela mais sensível de gravidade, classificando o quadro no mínimo como moderado e exigindo soroterapia antiveneno imediata sem atrasos. No suporte farmacológico auxiliar, a metoclopramida pode ser utilizada para conter vômitos profusos, mas sua prescrição pediátrica exige monitorização e prudência redobrada em virtude do risco de arritmias, distúrbios de condução cardíaca e efeitos adversos cardiológicos e neurológicos extrapiramidais. Dessa maneira, a estabilização clínica e a neutralização precoce do veneno circulante com o soro antiescorpiônico permanecem como a prioridade terapêutica incontornável.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 271,
+  "code": "ESCORP-31",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Diagnóstico diferencial: escorpionismo (Tityus) vs. araneísmo (Phoneutria / armadeira) e conduta com SAA",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador rural de 34 anos dá entrada no pronto atendimento relatando picada há 1 hora em pé direito ocorrida ao calçar sua bota de trabalho. Ele não conseguiu visualizar o animal agressor. Ao exame físico, queixa-se de dor excruciante no membro inferior, mas a inspeção do local revela ausência de marcas evidentes de punctura e edema praticamente imperceptível, apenas discreta sudorese perilesional. Apresenta ainda sudorese moderada difusa e dois episódios de vômitos. Diante do quadro clínico e da diferenciação etiológica, assinale a assertiva correta.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A presença de edema exuberante e de marcas claras de inoculação constitui o padrão habitual de acidentes causados por Tityus serrulatus.",
+    "rationale": "Incorreta. No escorpionismo por Tityus, a reação local é classicamente quase invisível, sem marcas de picada aparentes e com edema incomum. O edema acentuado e visível com reação inflamatória evidente é característico do araneísmo por Phoneutria (aranha armadeira)."
+   },
+   {
+    "letter": "B",
+    "text": "A dor intensa de difícil controle e o eritema tênue confirmam araneísmo por Phoneutria, autorizando o uso de soro antiloxoscélico isolado.",
+    "rationale": "Incorreta. A clínica de lesão sem edema e com dor irradiada é compatível com escorpião, enquanto Phoneutria cursa com edema acentuado. Ademais, o soro antiloxoscélico isolado só neutraliza a peçonha de Loxosceles (aranha-marrom), sendo desprovido de eficácia contra acidentes por Tityus ou Phoneutria."
+   },
+   {
+    "letter": "C",
+    "text": "A diferenciação clínica inicial entre os gêneros é desnecessária, sendo contraindicado o soro antiaracnídico em ambiente hospitalar de urgência.",
+    "rationale": "Incorreta. A distinção clínica tem valor epidemiológico e prognóstico, e o soro antiaracnídico (SAA) é uma ferramenta terapêutica padronizada e expressamente recomendada pelo Ministério da Saúde tanto para araneísmo quanto para escorpionismo na dúvida clínica ou indisponibilidade de estoque específico."
+   },
+   {
+    "letter": "D",
+    "text": "O sinal local discreto e a dor irradiada sugerem escorpionismo, indicando-se o soro antiaracnídico em caso de dúvida com Phoneutria.",
+    "rationale": "CORRETA. O escorpionismo apresenta tipicamente sinal local quase invisível e dor imediata, intensa e irradiada. Quando houver dúvida diagnóstica entre escorpião e armadeira, ou em cenários de indisponibilidade do soro antiescorpiônico monoespecífico, a conduta protocolar é administrar o soro antiaracnídico (SAA), que possui capacidade neutralizante simultânea contra Tityus, Phoneutria e Loxosceles."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O escorpionismo por Tityus cursa com sinal local quase imperceptível e dor irradiada, ao passo que o araneísmo por Phoneutria provoca edema nítido; na dúvida diagnóstica, indica-se o soro antiaracnídico (SAA).",
+  "bookContext": {
+   "text": "A diferenciação semiológica entre o escorpionismo e o araneísmo por Phoneutria fundamenta-se na magnitude da reação tecidual local. No acidente escorpiônico, o veneno inoculado por ferrão muito fino produz dor neurogênica imediata e intensa sem desencadear processo inflamatório exuberante, resultando em ausência de marcas punctórias conspícuas e edema mínimo ou ausente. Em contrapartida, as quelíceras robustas da armadeira produzem traumatismo mecânico associado a componentes inflamatórios locais da peçonha, gerando edema nítido e eritema evidente. Quando a anamnese for inconclusiva e o espécime não for capturado, o soro antiaracnídico polivalente garante cobertura imunoterápica eficaz contra ambos os agentes.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 272,
+  "code": "ESCORP-32",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Práticas não recomendadas: contraindicação de antibioticoterapia profilática e profilaxia antitetânica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um menino de 8 anos é levado à Unidade de Pronto Atendimento 2 horas após ser picado no antebraço por um escorpião-amarelo (Tityus serrulatus), capturado e trazido pela família. O paciente apresenta dor intensa no membro, sialorreia, sudorese profusa, taquicardia e vômitos repetidos e incoercíveis, sem sinais de lesão necrosante local. Após a classificação de gravidade e indicação da soroterapia com 6 ampolas de soro antiescorpiônico, discute-se a prescrição de medidas adjuvantes. De acordo com a medicina baseada em evidências e as diretrizes do PCDT, a conduta correta em relação à prevenção de infecções secundárias é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prescrever amoxicilina com ácido clavulânico profilática por via intravenosa, tendo em vista o elevado risco de infecção pelo ferrão do escorpião.",
+    "rationale": "Incorreta. O uso rotineiro de antimicrobianos profiláticos em acidentes escorpiônicos é contraindicado, pois a inoculação não carreia carga bacteriana suficiente para justificar profilaxia, promovendo apenas seleção de microrganismos resistentes e toxicidade farmacológica."
+   },
+   {
+    "letter": "B",
+    "text": "Indicar cefalosporina de primeira geração preventiva para pacientes pediátricos graves, objetivando evitar o surgimento de celulite no membro.",
+    "rationale": "Incorreta. A gravidade clínica do envenenamento decorre da tempestade autonômica sistêmica mediada por neurotoxinas, e não de infecção bacteriana invasiva; cefalosporinas profiláticas não reduzem complicações e caracterizam conduta sem respaldo científico."
+   },
+   {
+    "letter": "C",
+    "text": "Dispensar antibioticoterapia profilática, tratando apenas infecção bacteriana secundária documentada e mantendo a profilaxia antitetânica de rotina.",
+    "rationale": "CORRETA. De acordo com as diretrizes do Ministério da Saúde baseadas em evidências, antibióticos profiláticos não são recomendados no acidente escorpiônico. Deve-se tratar estritamente infecções bacterianas secundárias documentadas clinicamente ou laboratorialmente, mantendo-se apenas a avaliação e profilaxia antitetânica de rotina."
+   },
+   {
+    "letter": "D",
+    "text": "Administrar sulfametoxazol com trimetoprima empírico por via oral por sete dias, suspendendo qualquer avaliação quanto ao esquema vacinal antitetânico.",
+    "rationale": "Incorreta. Não existe indicação de terapia antimicrobiana preventiva com sulfametoxazol-trimetoprima. Além disso, a atualização da imunização antitetânica é a única conduta profilática infecciosa padronizada que deve ser checada e realizada se indicada."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Antibióticos profiláticos são contraindicados no escorpionismo, reservando-se a antibioticoterapia apenas para infecção secundária comprovada e preservando-se a profilaxia antitetânica de rotina.",
+  "bookContext": {
+   "text": "No escorpionismo, a peçonha de Tityus é primariamente neurotóxica, desprovida de proteases dermonecróticas expressivas como as observadas em acidentes loxoscélicos ou botrópicos. A lesão de inoculação é puntiforme, estéril na maioria absoluta dos casos e com baixíssimo índice de colonização por microbiota cutânea patogênica. Ensaios clínicos e revisões sistemáticas demonstram que a administração empírica de antimicrobianos não previne complicações de partes moles e contraria os preceitos da prevenção quaternária. A abordagem infecciosa racional limita-se à higienização local com água e sabão e à checagem rigorosa do calendário vacinal antitetânico.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 273,
+  "code": "ESCORP-33",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Condutas sem evidência: ineficácia de corticoides e anti-histamínicos pré-soro na prevenção de anafilaxia",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma mulher de 42 anos é admitida no serviço de emergência após picada de escorpião em zona periurbana. Apresenta dor local intensa, agitação psicomotora, sudorese, náuseas e vômitos frequentes, sendo classificada com envenenamento moderado. Ao prescrever 3 ampolas de soro antiescorpiônico intravenoso, o médico plantonista considera administrar previamente hidrocortisona e difenidramina para prevenir potenciais reações anafiláticas e anafilactoides decorrentes das imunoglobulinas heterólogas de origem equina. Com base nas melhores evidências clínicas e na fisiopatologia do escorpionismo, qual é a justificativa técnica para a conduta preconizada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O uso prévio de anti-histamínicos é obrigatório antes de qualquer soro heterólogo, neutralizando a liberação histamínica induzida por hialuronidases da peçonha.",
+    "rationale": "Incorreta. A pré-medicação com anti-histamínicos não é obrigatória nem previne reações anafiláticas sistêmicas causadas por soros heterólogos; as hialuronidases do veneno atuam na difusão da toxina e não justificam bloqueio anti-H1 prévio."
+   },
+   {
+    "letter": "B",
+    "text": "A pré-medicação profilática com corticoide e anti-histamínico é ineficaz, e a descarga adrenérgica confere bloqueio protetor parcial contra reações precoces.",
+    "rationale": "CORRETA. As evidências científicas demonstram que o uso profilático de corticosteroides e anti-histamínicos antes da soroterapia não previne o surgimento de reações de hipersensibilidade precoce, não sendo recomendado pelo PCDT. No envenenamento escorpiônico, a própria tempestade adrenérgica desencadeada pelo veneno atua como um mecanismo fisiológico de bloqueio parcial contra manifestações de anafilaxia precoce."
+   },
+   {
+    "letter": "C",
+    "text": "A administração profilática de hidrocortisona impede a ocorrência de doença do soro tardia, devendo ser associada à prometazina em todos os casos moderados.",
+    "rationale": "Incorreta. Doses isoladas de corticoide antes da soroterapia não evitam a doença do soro (reação tardia mediada por imunocomplexos) e retardam o início da infusão do antiveneno, violando o princípio do tempo porta-agulha precoce."
+   },
+   {
+    "letter": "D",
+    "text": "A corticoterapia prévia reduz a hiper-reatividade endotelial pulmonar provocada pelas toxinas, diminuindo a letalidade nas primeiras doze horas de admissão.",
+    "rationale": "Incorreta. Não há comprovação clínica de que a corticoterapia precoce previna alterações endoteliais pulmonares ou diminua a mortalidade no escorpionismo; seu uso de rotina pré-soro decorre de práticas empíricas superadas pela medicina baseada em evidências."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Corticoides e anti-histamínicos pré-soro não previnem anafilaxia, e a intensa tempestade adrenérgica desencadeada pelo veneno age como um bloqueio protetor parcial natural contra reações imediatas.",
+  "bookContext": {
+   "text": "A prática histórica de prescrever pré-medicações antes de antivenenos heterólogos foi desmistificada por estudos clínicos que comprovaram sua ineficácia na redução de reações de hipersensibilidade precoce grave. No caso particular dos acidentes escorpiônicos por Tityus, a liberação endógena maciça de noradrenalina e adrenalina decorrente da estimulação simpática pós-ganglionar atua sobre receptores beta-2 adrenérgicos, estabilizando membranas mastocitárias e atenuando a degranulação alérgica. O retardamento da infusão do antiveneno para a infusão prévia de fármacos adjuvantes pode adiar a neutralização das toxinas circulantes, sem oferecer benefício clínico mensurável. Caso surjam reações adversas durante ou após a soroterapia, o tratamento de escolha imediato é a adrenalina intramuscular.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 274,
+  "code": "ESCORP-34",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Ausência de evidências para dexametasona no EAP e posologia estrita do PCDT Brasil",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma criança de 5 anos de idade foi picada por Tityus serrulatus há cerca de 90 minutos. Ao exame, apresenta-se torporosa, sudoreica, com sialorreia abundante, taquipneia importante, estertores crepitantes bilaterais difusos compatíveis com edema agudo de pulmão (EAP) e episódios de vômitos incoercíveis. Durante a discussão clínica na sala de emergência sobre a prescrição terapêutica, um dos membros da equipe sugere a administração imediata de dexametasona intravenosa em altas doses e o escalonamento da soroterapia para 12 ampolas de soro antiescorpiônico, citando protocolos internacionais. Considerando as diretrizes do Ministério da Saúde (PCDT Brasil) e as evidências científicas disponíveis, assinale a orientação correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O PCDT preconiza estritamente seis ampolas por inexistir benefício provado em megadoses, e a dexametasona no EAP carece de evidência clínica em seres humanos.",
+    "rationale": "CORRETA. O protocolo nacional do Ministério da Saúde (PCDT) determina rigorosamente 6 ampolas como dose máxima para envenenamento grave por falta de evidências de superioridade de esquemas com megadoses. Da mesma forma, o emprego de dexametasona para disfunção pulmonar no escorpionismo permanece sem evidência em ensaios clínicos humanos."
+   },
+   {
+    "letter": "B",
+    "text": "O uso de dexametasona deve ser instituído prontamente no EAP escorpiônico, pois ensaios clínicos randomizados comprovaram redução da permeabilidade alvéolo-capilar.",
+    "rationale": "Incorreta. A dexametasona para modulação inflamatória pulmonar sistêmica só possui dados em estudos pré-clínicos (modelos animais), carecendo de evidência clínica em humanos que embase seu uso no edema agudo de pulmão escorpiônico."
+   },
+   {
+    "letter": "C",
+    "text": "A posologia de 12 ampolas de soro é recomendada em crianças com EAP no Brasil, visto que doses maiores neutralizam com mais rapidez o veneno escorpiônico tecidual.",
+    "rationale": "Incorreta. Embora a literatura médica global registre variações empíricas usando de 1 a 20 ampolas, o PCDT Brasil estabelece que a dose máxima para casos graves é estritamente de 6 ampolas, pois não há comprovação da superioridade de doses astronômicas."
+   },
+   {
+    "letter": "D",
+    "text": "A corticoterapia é indicada para acelerar a ação das imunoglobulinas heterólogas, permitindo reduzir a dosagem do soro antiescorpiônico para três ampolas no caso grave.",
+    "rationale": "Incorreta. Corticosteroides não aceleram a atividade neutralizante do soro heterólogo nem permitem descalonar a dose do antiveneno em casos graves, que deve ser mantida em 6 frascos-ampolas conforme a gravidade clínica."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O PCDT estabelece posologia estrita de 6 ampolas para casos graves pela falta de superioridade comprovada de megadoses, e a dexametasona para EAP carece de evidências clínicas em seres humanos.",
+  "bookContext": {
+   "text": "O edema agudo de pulmão induzido pelo escorpionismo apresenta etiologia mista, envolvendo componente cardiogênico por disfunção ventricular aguda decorrente da tempestade catecolaminérgica e componente não cardiogênico secundário ao aumento da permeabilidade capilar pulmonar por mediadores inflamatórios. Apesar de modelos animais pré-clínicos sugerirem atenuação da resposta exsudativa com dexametasona, nenhum ensaio clínico controlado em humanos demonstrou redução da morbidade ou melhora dos parâmetros hemodinâmicos e ventilatórios com corticoides. Quanto à imunoterapia, estudos farmacocinéticos demonstram que 6 ampolas contêm títulos neutralizantes mais do que suficientes para ligar a carga corporal máxima média de veneno inoculada por escorpiões do gênero Tityus, tornando megadoses injustificadas e onerosas ao sistema de saúde.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 275,
+  "code": "ESCORP-35",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Resolução comentada de provas (SUS-SP): complicações sistêmicas e epidemiologia",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em provas de residência médica e concursos unificados (como SUS-SP e ENARE), um erro frequente entre os candidatos é confundir as repercussões fisiopatológicas do escorpionismo com as de outros acidentes por animais peçonhentos. Ao analisar o perfil clínico e as complicações do envenenamento por escorpiões do gênero Tityus no Brasil, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O desenvolvimento de coagulação intravascular disseminada e insuficiência renal aguda oligúrica constitui a principal causa de mortalidade precoce no escorpionismo grave.",
+    "rationale": "Incorreta. Distúrbios graves da coagulação (como CIVD com consumo de fibrinogênio) e insuficiência renal aguda por necrose tubular direta ou rabdomiólise são características marcantes de acidentes ofídicos (como os gêneros Bothrops, Crotalus e Lachesis) ou do loxoscelismo cutâneo-visceral, não integrando a fisiopatologia do escorpionismo por Tityus, cuja gravidade decorre de falência ventricular, arritmias e edema agudo de pulmão induzidos pela tempestade autonômica."
+   },
+   {
+    "letter": "B",
+    "text": "A espécie Tityus bahiensis apresenta capacidade de reprodução por partenogênese, respondendo pela ampla maioria dos acidentes graves registrados nas regiões metropolitanas.",
+    "rationale": "Incorreta. A espécie que se reproduz por partenogênese (reprodução assexuada onde as fêmeas geram prole sem fecundação por machos) e que lidera tanto o número de notificações quanto os casos de maior relevância médica no Brasil é o Tityus serrulatus (escorpião-amarelo), e não o Tityus bahiensis (escorpião-marrom)."
+   },
+   {
+    "letter": "C",
+    "text": "A maior gravidade e letalidade observam-se em adultos idosos com comorbidades, grupo que recebe doses escalonadas de soro superiores às administradas na faixa pediátrica.",
+    "rationale": "Incorreta. Embora comorbidades prévias em idosos agravem o prognóstico, a faixa etária com maior risco crítico de letalidade e gravidade extrema é a pediátrica (menores de 10 anos, especialmente abaixo de 7 anos), em decorrência da desproporção entre a carga de veneno inoculada e a área de superfície corporal. Ademais, a posologia do soro é estritamente pautada na gravidade clínica, jamais no peso ou idade do paciente."
+   },
+   {
+    "letter": "D",
+    "text": "A soroterapia antiveneno intravenosa está indicada exclusivamente para casos classificados como moderados ou graves, sendo dispensada nos pacientes com envenenamento leve.",
+    "rationale": "CORRETA. De acordo com o protocolo nacional e as questões de bancas como a do SUS-SP, a soroterapia antiescorpiônica (ou antiaracnídica) só possui indicação clínica nos envenenamentos moderados (3 frascos-ampolas) e graves (6 frascos-ampolas). Casos leves apresentam sintomatologia exclusivamente local (dor, parestesia, eritema, sudorese discreta) e devem ser conduzidos com analgesia e observação, sem soroterapia."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A soroterapia no escorpionismo é reservada para as formas moderadas e graves; as complicações clássicas de gravidade envolvem falência cardiopulmonar disautonômica, e não coagulopatias ou IRA direta.",
+  "bookContext": {
+   "text": "A prática médica fundamentada em evidências científicas preconiza a diferenciação criteriosa entre os perfis sindrômicos dos agravos para evitar intervenções iatrogênicas ou a omissão de terapias cruciais. Conforme detalhado nas diretrizes de prática clínica, o uso judicioso de imunobiológicos deve ser orientado estritamente por desfechos e escores de risco bem-validados, impedindo que manifestações adrenérgicas e colinérgicas sejam equivocadamente tratadas com medidas voltadas a distúrbios hemostáticos. Esse alinhamento racional otimiza a utilização de recursos no Sistema Único de Saúde e protege os pacientes de condutas inadequadas.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 6: Atualização Clínica em Atenção Primária"
+  },
+  "revisada": true
+ },
+ {
+  "id": 276,
+  "code": "ESCORP-36",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fixação e provas (ENARE): tempo de observação hospitalar e monitoramento",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um paciente de 48 anos é atendido em unidade de emergência 1 hora após picada por escorpião em membro superior. Ao exame físico, apresenta dor e sudorese locais, náuseas, três episódios de vômitos, agitação e taquicardia sinusal de 112 bpm, sem dispneia ou hipotensão. O quadro é classificado como moderado, recebendo soroterapia e analgesia. Com base no fluxograma de atendimento do PCDT e nas questões de fixação de concursos (como ENARE 2025), o tempo mínimo recomendado de internação e monitoramento contínuo para este paciente é de:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "4 horas em observação clínica, liberando o paciente com analgésicos se houver estabilização dos sinais vitais.",
+    "rationale": "Incorreta. O período de 4 horas em observação é reservado para casos confirmados ou suspeitos que não apresentem qualquer clínica inicial de envenenamento (pacientes assintomáticos, permitindo descartar inoculação efetiva ou envenenamento subclínico)."
+   },
+   {
+    "letter": "B",
+    "text": "6 a 12 horas sob monitorização, fornecendo alta após alívio álgico e reavaliação seriada de enzimas cardíacas.",
+    "rationale": "Incorreta. A observação por 6 a 12 horas é indicada para os casos de acidente escorpiônico leve (sintomas estritamente locais), os quais recebem analgesia simples e podem ter alta após esse intervalo caso permaneçam estáveis e sem novos sintomas."
+   },
+   {
+    "letter": "C",
+    "text": "24 horas sob regime de internação hospitalar contínua, mantendo acesso venoso e monitoramento multiparamétrico.",
+    "rationale": "CORRETA. Pacientes com classificação moderada ou grave apresentam acometimento sistêmico (como vômitos, taquicardia e desregulação autonômica) e foram submetidos à soroterapia; o protocolo estabelece internação mínima de 24 horas, manutenção de acesso venoso calibroso, coleta de exames laboratoriais complementares e monitoramento hemodinâmico rigoroso."
+   },
+   {
+    "letter": "D",
+    "text": "48 horas em leito de terapia intensiva, devido ao risco de descompensação inflamatória pulmonar tardia por toxinas.",
+    "rationale": "Incorreta. O tempo mínimo protocolar de internação para casos moderados e graves é de 24 horas, e a indicação de leito de terapia intensiva restringe-se aos pacientes graves com instabilidade refratária, falência ventricular aguda, choque ou edema agudo de pulmão instalado, não sendo exigência para todos os casos moderados."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Casos moderados e graves com manifestações sistêmicas exigem soroterapia e internação mínima de 24 horas sob monitoramento contínuo.",
+  "bookContext": {
+   "text": "A organização do acolhimento e dos fluxos assistenciais com classificação de risco define a permanência do usuário em regime monitorado conforme a potencial gravidade e a vulnerabilidade do quadro. A observação clínica hospitalar contínua durante o intervalo temporal preconizado é indispensável para detectar oscilações autonômicas tardias e arritmias, garantindo uma resposta terapêutica imediata. Esse cuidado integrado e longitudinal durante a fase aguda evita desfechos desfavoráveis provocados por altas precoces inadvertidas na rede de urgência e emergência.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 10: Acolhimento na Atenção Primária à Saúde"
+  },
+  "revisada": true
+ },
+ {
+  "id": 277,
+  "code": "ESCORP-37",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Bioética e diretrizes assistenciais (Momento ENAMED): descentralização e tempo porta-agulha",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Em uma Unidade Básica de Saúde situada em comunidade ribeirinha isolada da Amazônia, uma criança de 6 anos é admitida 40 minutos após picada por Tityus obscurus, apresentando sudorese profusa, sialorreia, mioclonias e ataxia de marcha. A unidade não possui leito de terapia intensiva e o transporte aéreo até o centro terciário demorará 5 horas. Com base nas discussões bioéticas e nas diretrizes assistenciais do PCDT abordadas no Momento ENAMED, assinale a conduta que deve ser adotada pela equipe de saúde local:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Postergar a infusão do soro antiveneno até a chegada ao hospital de referência com unidade de terapia intensiva disponível.",
+    "rationale": "Incorreta. Aguardar a transferência (que levará mais de 5 horas) para administrar o soro em ambiente de UTI posterga o tempo porta-agulha de forma inaceitável, violando as diretrizes técnicas e bioéticas em uma patologia cuja janela terapêutica de neutralização do veneno livre é de extrema urgência."
+   },
+   {
+    "letter": "B",
+    "text": "Iniciar de imediato a soroterapia antiveneno e a estabilização clínica básica no próprio serviço antes do transporte.",
+    "rationale": "CORRETA. De acordo com as diretrizes do PCDT e a ótica bioética da justiça distributiva e proteção à vida, a indisponibilidade de leitos de UTI não pode atuar como barreira para a realização da soroterapia oportuna na Atenção Primária à Saúde. O atraso na administração do antiveneno em crianças gravemente envenenadas eleva exponencialmente a letalidade; portanto, a equipe local deve realizar a infusão intravenosa imediata do soro (6 frascos de SAA ou SAEsc), estabilizar as funções vitais e, ato contínuo, providenciar o transporte seguro."
+   },
+   {
+    "letter": "C",
+    "text": "Prescrever corticoterapia parenteral profilática em altas doses para conter a tempestade autonômica durante a evacuação aérea.",
+    "rationale": "Incorreta. Corticosteroides parenterais não neutralizam o veneno circulante, carecem de comprovação clínica para controle da tempestade autonômica ou do edema pulmonar e jamais podem substituir ou adiar a administração do antiveneno específico."
+   },
+   {
+    "letter": "D",
+    "text": "Encaminhar a paciente imediatamente em jejum absoluto sem intervenções farmacológicas para não atrasar o início do deslocamento.",
+    "rationale": "Incorreta. A transferência imediata desprovida de intervenção terapêutica primária priva a paciente da neutralização precoce da toxina circulante em seu período de maior absorção sistêmica, culminando em piora clínica irreversível durante o trajeto."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A ausência de UTI no serviço local não impede a soroterapia imediata; o soro deve ser administrado na Atenção Primária para garantir o tempo porta-agulha oportuno antes da transferência.",
+  "bookContext": {
+   "text": "A bioética aplicada à atenção básica sustenta-se nos preceitos da equidade, beneficência e justiça distributiva, exigindo que o cuidado proteja ativamente a vida frente a vulnerabilidades socioambientais. Em cenários marcados por isolamento geográfico, o planejamento assistencial transcende a mera intervenção burocrática, impondo a descentralização estratégica dos insumos essenciais como dever sanitário estatal. Negar a intervenção oportuna sob o argumento de infraestrutura imperfeita contradiz a responsabilidade solidária do sistema público de saúde, tornando imperativa a capacitação profissional e a rápida resolutividade local.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 4: Bioética no Contexto da Atenção Básica"
+  },
+  "revisada": true
+ },
+ {
+  "id": 278,
+  "code": "ESCORP-38",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Fisiopatologia nas práticas não recomendadas: bloqueio adrenérgico e anafilaxia",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "As diretrizes do Ministério da Saúde contraindicam expressamente o uso preventivo de corticosteroides e anti-histamínicos prévios à infusão do soro antiescorpiônico, considerando-o uma prática sem respaldo científico. Do ponto de vista fisiopatológico, além da ineficácia clínica comprovada em ensaios, a menor ocorrência de choque anafilático precoce em pacientes com envenenamento escorpiônico grave decorre, em grande parte, do seguinte mecanismo:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Do efeito protetor exercido pela maciça liberação endógena de catecolaminas, que antagoniza os mediadores da hipersensibilidade.",
+    "rationale": "CORRETA. A tempestade adrenérgica deflagrada pelo envenenamento escorpiônico moderado e grave promove uma descarga maciça e sustentada de catecolaminas endógenas (adrenalina e noradrenalina). Essas substâncias agem fisiologicamente estabilizando a membrana de mastócitos e basófilos (inibindo a degranulação e a liberação de histamina/leucotrienos) e promovem potente vasoconstrição periférica e broncodilatação, atuando como um anteparo protetor natural contra reações imediatas graves por hipersensibilidade."
+   },
+   {
+    "letter": "B",
+    "text": "Da inativação química precoce dos anticorpos heterólogos por enzimas proteolíticas inoculadas junto com o veneno escorpiônico.",
+    "rationale": "Incorreta. As toxinas do veneno escorpiônico atuam principalmente modificando canais iônicos de sódio e potássio e não degradam enzimaticamente anticorpos heterólogos no plasma; ademais, o mecanismo de proteção contra anafilaxia é hemodinâmico e neuroendócrino."
+   },
+   {
+    "letter": "C",
+    "text": "Da competição molecular direta exercida pelas neurotoxinas contra os receptores histaminérgicos H1 nos leitos vasculares periféricos.",
+    "rationale": "Incorreta. As toxinas escorpiônicas despolarizam terminações nervosas e canais de sódio voltagem-dependentes, não apresentando antagonismo competitivo em receptores histaminérgicos H1 ou H2."
+   },
+   {
+    "letter": "D",
+    "text": "Da rápida supressão da síntese de imunoglobulinas dependente de células T provocada pela ação das toxinas no sistema reticuloendotelial.",
+    "rationale": "Incorreta. O evento alérgico agudo pós-soro (reação de hipersensibilidade imediata) decorre de desgranulação celular ou ativação do sistema complemento, não dependendo de síntese de novo de anticorpos por linfócitos T no intervalo agudo de minutos em que o soro é infundido."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A tempestade adrenérgica endógena atua como um bloqueio fisiológico natural contra a hipersensibilidade imediata, reforçando a inutilidade do uso profilático de corticoides e anti-histamínicos pré-soro.",
+  "bookContext": {
+   "text": "O conceito de prevenção quaternária enfatiza a obrigação ética de resguardar o paciente de intervenções diagnósticas e terapêuticas excessivas e sem respaldo em evidências sólidas. A prescrição de regimes profiláticos empíricos para anafilaxia no envenenamento escorpiônico não encontra suporte em dados clínicos e introduz potenciais danos adicionais ao enfermo. A medicina baseada em evidências convoca o profissional a abandonar rituais assistenciais automáticos em favor de condutas orientadas pelo princípio do primum non nocere. A não maleficência deve prevalecer, focando a equipe médica na vigilância clínica e no suporte das funções vitais.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 2: Prevenção Quaternária"
+  },
+  "revisada": true
+ },
+ {
+  "id": 279,
+  "code": "ESCORP-39",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Resolução comentada de provas (Revalida 2020): Classificação de risco e soroterapia no escorpionismo moderado",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um adolescente de 13 anos é admitido em Unidade de Pronto Atendimento 40 minutos após picada por escorpião na mão esquerda. Ao exame físico, encontra-se vigil, eupneico e afebril, referindo dor excruciante no membro acometido (EVN 9/10), com discreto eritema e parestesia local. Durante a triagem médica, o paciente apresenta dois episódios de vômitos, sudorese cutânea moderada e sialorreia leve, mantendo pressão arterial de 130/85 mmHg e frequência cardíaca de 110 bpm. Com base nas diretrizes do Ministério da Saúde (PCDT) e nas questões do Revalida trabalhadas na aula, a conduta terapêutica imediata recomendada, além da analgesia eficaz, é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indicar observação clínica rigorosa em leito hospitalar por 6 a 12 horas, postergando a soroterapia caso não haja evolução para insuficiência cardíaca ou edema agudo de pulmão.",
+    "rationale": "Incorreta. A observação clínica de 6 a 12 horas sem soroterapia é restrita aos casos leves, nos quais as manifestações são exclusivamente locais. A presença de manifestações sistêmicas (vômitos ocasionais, sudorese moderada, sialorreia leve e oscilação autonômica) enquadra o paciente na classificação moderada, exigindo soroterapia imediata."
+   },
+   {
+    "letter": "B",
+    "text": "Prescrever 4 a 6 frascos-ampolas de soro antiescorpiônico intravenoso de imediato, em virtude da presença de êmese e do risco iminente de disautonomia colinérgica grave.",
+    "rationale": "Incorreta. A dose máxima de 4 a 6 frascos-ampolas (no slide, 6 frascos-ampolas) é reservada aos casos graves, definidos por tempestade autonômica pronunciada, falência ventricular, edema agudo de pulmão, choque ou o 'red flag' de vômitos incoercíveis/inúmeros episódios. Episódios esparsos de vômito caracterizam quadro moderado."
+   },
+   {
+    "letter": "C",
+    "text": "Realizar bloqueio anestésico local, dispensando o paciente para observação domiciliar de 6 a 12 horas com prescrição de analgésicos orais e orientações de alarme.",
+    "rationale": "Incorreta. A observação domiciliar é terminantemente contraindicada em acidentes escorpiônicos com sintomas sistêmicos. Todo paciente sintomático necessita de ambiente hospitalar com monitorização de sinais vitais, sendo que casos moderados e graves exigem leito de internação por pelo menos 24 horas."
+   },
+   {
+    "letter": "D",
+    "text": "Administrar prontamente o soro antiescorpiônico intravenoso na dose de 2 a 3 frascos-ampolas, mantendo internação de no mínimo 24 horas para monitorização contínua.",
+    "rationale": "CORRETA. Conforme o PCDT e a questão clássica do Revalida 2020 abordada na aula, a presença de sinais sistêmicos discretos ou moderados (sudorese, náuseas, vômitos não incoercíveis, taquicardia) define o acidente escorpiônico moderado. A conduta mandatória é a soroterapia com 2 a 3 frascos-ampolas de soro antiescorpiônico (SAEsc) por via intravenosa, associada à internação hospitalar mínima de 24 horas para monitoramento contínuo."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Manifestações sistêmicas leves a moderadas (vômitos ocasionais, sudorese, sialorreia leve) definem escorpionismo moderado, indicando soroterapia imediata com 2 a 3 ampolas e internação mínima de 24 horas.",
+  "bookContext": {
+   "text": "De acordo com as diretrizes do Ministério da Saúde consolidadas no PCDT, a estratificação do escorpionismo baseia-se estritamente na gravidade do quadro clínico apresentado. O envenenamento moderado caracteriza-se pela presença de sintomas sistêmicos precoces sem falência orgânica franca, incluindo alguns episódios de vômito, sudorese moderada, sialorreia e instabilidade hemodinâmica inicial. Nesses casos, a neutralização das toxinas circulantes deve ser realizada de imediato para interromper a cascata disautonômica antes que ocorra descompensação miocárdica ou pulmonar. Adicionalmente, o fluxograma oficial estabelece que qualquer paciente com sintomas sistêmicos requer internação formal mínima de 24 horas, uma vez que a absorção do veneno pode manter níveis circulantes ativos e desencadear piora tardia.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 280,
+  "code": "ESCORP-40",
+  "assunto": "top-escorp",
+  "category": "Acidentes escorpiônicos",
+  "subcategory": "Práticas não recomendadas no manejo local e prevenção quaternária de iatrogenias",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 38 anos dá entrada em uma Unidade Básica de Saúde 45 minutos após ser picado por um escorpião no antebraço direito. Apresenta dor local intensa (EVN 9/10), eritema discreto e sudorese restrita ao sítio de inoculação, sem qualquer manifestação sistêmica ou alteração de sinais vitais. A equipe debate sobre medidas profiláticas e condutas intervencionistas locais. Considerando as práticas expressamente não recomendadas no PCDT e os conceitos de prevenção quaternária (primum non nocere) abordados na literatura médica de referência, assinale a conduta clinicamente correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Realizar infiltração anestésica local com lidocaína a 2% associada a vasoconstritor para retardar o fluxo tecidual e conter a disseminação linfática das toxinas inoculadas.",
+    "rationale": "Incorreta. O bloqueio anestésico local infiltrativo é indicado para dores intensas (EVN 8–10), porém deve ser realizado obrigatoriamente com lidocaína a 2% SEM vasoconstritor. O uso de anestésico com vasoconstritor é expressamente contraindicado pelo risco de espasmo vascular severo, isquemia e necrose tecidual em extremidades."
+   },
+   {
+    "letter": "B",
+    "text": "Aplicar torniquete elástico proximal no membro acometido e utilizar bolsa de gelo local com a finalidade de inibir a drenagem vascular e mitigar a inflamação tecidual.",
+    "rationale": "Incorreta. O uso de garrote ou torniquete é uma prática histórica proscrita, pois não impede a absorção sistêmica de toxinas e precipita isquemia, congestão e edema grave. Além disso, a conduta física recomendada para alívio da dor leve é a compressa morna, e não o gelo."
+   },
+   {
+    "letter": "C",
+    "text": "Promover alívio álgico com infiltração de lidocaína a 2% sem vasoconstritor, manter observação de 6 a 12 horas e contraindicar antibioticoterapia profilática de rotina.",
+    "rationale": "CORRETA. Para dor intensa (EVN 8–10), o protocolo recomenda infiltração local de lidocaína 2% sem vasoconstritor (podendo ser repetida até 3 vezes com intervalos de 40–60 minutos). Como o caso é leve (apenas sintomas locais), indica-se observação por 6 a 12 horas. Em consonância com a Medicina Baseada em Evidências e a Prevenção Quaternária, a antibioticoterapia profilática é contraindicada, devendo-se tratar apenas infecções secundárias clinicamente documentadas."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever antibioticoterapia profilática por via oral e dexametasona intramuscular com intuito de conter a reação inflamatória tecidual e evitar infecções secundárias.",
+    "rationale": "Incorreta. Conforme destacado no slide de práticas não recomendadas e nos preceitos de prevenção quaternária, não há respaldo para antibioticoterapia profilática em acidentes escorpiônicos. Da mesma forma, o uso de corticosteroides sistêmicos (como dexametasona) para fins anti-inflamatórios locais ou profilaxia não possui evidência clínica em humanos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A analgesia para dor intensa exige lidocaína sem vasoconstritor; torniquetes, gelo, corticoides profiláticos e antibioticoterapia de rotina são práticas contraindicadas e iatrogênicas.",
+  "bookContext": {
+   "text": "A abordagem dos acidentes por animais peçonhentos na Atenção Primária deve ser guiada pelo princípio bioético da não maleficência e pelos preceitos da prevenção quaternária, que visa proteger os indivíduos de intervenções médicas excessivas e potencialmente danosas. Práticas tradicionais desprovidas de evidência científica, tais como garroteamentos, incisões no sítio da picada e aplicação de substâncias empíricas, aumentam consideravelmente a morbidade e o risco de necrose local. Da mesma forma, a prescrição rotineira de antimicrobianos profiláticos expõe o paciente a eventos adversos e estimula a seleção de cepas resistentes sem trazer benefício clínico, visto que o quadro local é predominantemente tóxico-neural e não infeccioso. Cabe ao médico ater-se às intervenções estritamente respaldadas por diretrizes consolidadas, priorizando analgesia adequada e observação rigorosa.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 2: Prevenção Quaternária; e Aula VAT2, Slides 8, 9, 12 e 15."
+  },
+  "revisada": true
+ },
+ {
+  "id": 281,
+  "code": "LESCORP-01",
+  "lista": "escorp",
+  "category": "Lista de aula · Acidentes escorpiônicos",
+  "subcategory": "Classificação de gravidade e indicação de soroterapia",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Momento ENAMED do slide) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "(Revalida 2020) Um adolescente com 13 anos de idade é atendido no pronto-socorro devido à picada de escorpião no dedo indicador esquerdo. Em exame físico, apresenta sinais vitais estáveis, dor intensa, hiperemia e formigamento no local da picada, associados a náuseas, vômitos, sudorese e sialorreia discretos. Além do alívio da dor, a conduta recomendada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Observação domiciliar por 6 a 12 horas.",
+    "rationale": "Incorreta. A observação domiciliar é terminantemente contraindicada em pacientes com manifestações sistêmicas decorrentes do envenenamento escorpiônico; mesmo nos casos estritamente leves, a diretriz exige observação clínica institucional de 6 a 12 horas."
+   },
+   {
+    "letter": "B",
+    "text": "Observação hospitalar por 6 a 12 horas.",
+    "rationale": "Incorreta. A observação hospitalar isolada por 6 a 12 horas sem soroterapia é a conduta reservada aos casos leves, restritos à sintomatologia local. Como o adolescente apresenta repercussão sistêmica (náuseas, vômitos, sudorese e sialorreia), trata-se de envenenamento moderado, que requer soroterapia imediata."
+   },
+   {
+    "letter": "C",
+    "text": "Soro anti-escorpiônico (2 a 3 ampolas).",
+    "rationale": "CORRETA. A presença de dor e parestesia locais associadas a manifestações sistêmicas de pequena intensidade (náuseas, vômitos, sudorese e sialorreia discretos) classifica o acidente como moderado segundo o Ministério da Saúde e os manuais de emergência. A conduta terapêutica recomendada inclui o controle álgico e a administração intravenosa imediata de 2 a 3 ampolas de soro antiescorpiônico (SAEsc) ou soro antiaracnídico (SAA)."
+   },
+   {
+    "letter": "D",
+    "text": "Soro anti-escorpiônico (4 a 6 ampolas).",
+    "rationale": "Incorreta. A dose de 4 a 6 ampolas de soro antiescorpiônico é preconizada exclusivamente para os casos graves, definidos pela presença de vômitos profusos e incoercíveis, sudorese profusa, salivação excessiva, instabilidade hemodinâmica severa, choque cardiogênico ou edema agudo de pulmão."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A presença de manifestações sistêmicas, ainda que discretas, classifica o acidente escorpiônico como moderado. Nesses casos, a conduta imperativa é o manejo da dor associado à soroterapia imediata com 2 a 3 ampolas de SAEsc por via intravenosa.",
+  "bookContext": {
+   "text": "O veneno dos escorpiões do gênero Tityus atua bloqueando a inativação dos canais de sódio dependentes de voltagem nas terminações nervosas, desencadeando despolarização repetitiva e maciça liberação de catecolaminas e acetilcolina. No Tratado de Medicina de Família e Comunidade (Gusso) e nas diretrizes nacionais, destaca-se que as manifestações digestivas como vômitos e náuseas representam sinais altamente sensíveis e precoces de difusão sistêmica do veneno. Nos acidentes moderados, a tempestade autonômica inicial manifesta-se por sudorese, sialorreia discreta, oscilações hemodinâmicas e episódios eméticos. A soroterapia heteróloga específica tem por finalidade neutralizar as frações antigênicas livres no plasma antes de sua ligação nos receptores teciduais, prevenindo a progressão para falência cardíaca.",
+   "fonte": "Aula VAT2 · Acidentes escorpiônicos (Slides 6, 8 e 10); Livro Gusso, Cap. 254 (Picadas de cobras, aranhas e escorpiões, Tabela 254.8); PCDT Acidentes Escorpiônicos (Ministério da Saúde, 2026)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 282,
+  "code": "LESCORP-02",
+  "lista": "escorp",
+  "category": "Lista de aula · Acidentes escorpiônicos",
+  "subcategory": "Determinantes sociais, bioética e descentralização da soroterapia",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Momento ENAMED do slide) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Em comunidades ribeirinhas e territórios indígenas na Amazônia, o acesso ao soro antiescorpiônico é frequentemente postergado devido ao isolamento geográfico. Sob a ótica bioética da justiça distributiva e das diretrizes do PCDT, qual a postura institucional correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A indisponibilidade de UTIs locais impede a soroterapia, devendo-se aguardar a remoção do paciente para centros de alta complexidade.",
+    "rationale": "Incorreta. O protocolo clínico estabelece de maneira enfática que a indisponibilidade de leitos de UTI ou suporte avançado não pode se configurar como barreira para a administração imediata da soroterapia antiveneno nas unidades da Atenção Primária."
+   },
+   {
+    "letter": "B",
+    "text": "A descentralização de estoques e a capacitação local constituem atos de proteção à vida para garantir a soroterapia no tempo oportuno.",
+    "rationale": "CORRETA. Sob os princípios da equidade do SUS e da justiça distributiva, o planejamento e a descentralização de estoques de soro para áreas isoladas, acompanhados da capacitação dos profissionais locais, reduzem o tempo porta-agulha e transformam o cuidado em um ato ético de proteção à vida em cenários de alta vulnerabilidade."
+   },
+   {
+    "letter": "C",
+    "text": "A administração de soro antiescorpiônico em áreas remotas deve ser restrita aos casos graves com edema agudo de pulmão já instalado.",
+    "rationale": "Incorreta. A soroterapia está formalmente indicada tanto nos casos moderados quanto nos graves; aguardar a instalação de edema agudo de pulmão (estágio gravíssimo com risco iminente de óbito) fere as diretrizes clínicas e compromete irreversivelmente o prognóstico."
+   },
+   {
+    "letter": "D",
+    "text": "O protocolo orienta substituir a soroterapia por altas doses de corticosteroides parenterais até que o transporte aéreo seja viabilizado.",
+    "rationale": "Incorreta. O protocolo não preconiza a substituição do soro antiveneno por corticosteroides, uma vez que os corticoides não possuem ação neutralizante contra as toxinas escorpiônicas e sua eficácia contra a desregulação inflamatória aguda não é respaldada por evidências clínicas em humanos."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A descentralização dos estoques de soro e a garantia de atendimento precoce em comunidades remotas concretizam a justiça distributiva no SUS. A indisponibilidade de leitos de UTI locais jamais deve impedir a realização da soroterapia imediata.",
+  "bookContext": {
+   "text": "Nas comunidades ribeirinhas e territórios indígenas amazônicos, o isolamento geográfico e a dependência do transporte fluvial impõem um atraso crítico até o socorro médico, alargando perigosamente o tempo porta-agulha. O PCDT do Ministério da Saúde e o Tratado de Medicina de Família e Comunidade (Gusso, Cap. 63) apontam que os determinantes sociais da saúde e a vulnerabilidade habitacional convergem para aumentar a morbimortalidade por envenenamentos. Na Região Amazônica, o Tityus obscurus produz toxinas com ação neurotrópica direta sobre o SNC, desencadeando mioclonias, disartria e ataxia que demandam pronta neutralização imune com soro antiaracnídico (SAA). A justiça distributiva bioética exige a distribuição equitativa dos insumos estratégicos para que o paciente grave seja estabilizado hemodinamicamente no local antes de qualquer remoção.",
+   "fonte": "Aula VAT2 · Acidentes escorpiônicos (Slides 2 e 7); PCDT Acidentes Escorpiônicos (Seções 2.1 e 2.2); Livro Gusso, Cap. 63 (População ribeirinha)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 283,
+  "code": "LESCORP-03",
+  "lista": "escorp",
+  "category": "Lista de aula · Acidentes escorpiônicos",
+  "subcategory": "Manejo da dor e cuidados locais no escorpionismo leve",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Momento ENAMED do slide) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "Um paciente de 35 anos dá entrada na Unidade Básica de Saúde 1 hora após picada por escorpião em membro superior. Apresenta dor local intensa (EVN 8/10), parestesia e sudorese restrita ao local, sem sintomas sistêmicos. Considerando o PCDT, a conduta analgésica adequada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indicar imediatamente 3 ampolas de SAEsc por via intravenosa e aplicar garrote proximal para conter a disseminação da toxina.",
+    "rationale": "Incorreta. O quadro é estritamente leve por não apresentar manifestações sistêmicas, inexistindo indicação de soroterapia antiescorpiônica; ademais, o uso de garrote ou torniquete é uma prática perigosa e contraindicada, pois induz isquemia tecidual e acentua a dor local."
+   },
+   {
+    "letter": "B",
+    "text": "Proceder lavagem local da picada, administrar dipirona via oral e aplicar compressa morna.",
+    "rationale": "CORRETA. Por se tratar de um acidente escorpiônico leve (dor local intensa, parestesia e sudorese restrita ao ponto de inoculação), o PCDT preconiza os cuidados locais imediatos com água e sabão, analgesia com dipirona e uso de calor local (compressa morna), recurso não farmacológico de comprovada eficácia para alívio álgico."
+   },
+   {
+    "letter": "C",
+    "text": "Prescrever dexametasona parenteral para reduzir o edema inflamatório local e solicitar hemograma completo urgente.",
+    "rationale": "Incorreta. A prescrição de dexametasona não é recomendada pelo protocolo por ausência de evidência clínica de benefício anti-inflamatório em humanos; além disso, a solicitação de hemograma completo urgente não está indicada para casos leves sem repercussão sistêmica."
+   },
+   {
+    "letter": "D",
+    "text": "Realizar bloqueio anestésico com vasoconstritor para retardar a absorção do veneno e dar alta imediata após a infiltração.",
+    "rationale": "Incorreta. O bloqueio anestésico local, quando realizado para dor refratária, deve ser feito obrigatoriamente sem vasoconstritor (para prevenir vasoespasmo e necrose em extremidades); outrossim, o paciente não deve receber alta imediata, devendo permanecer sob observação clínica por 6 a 12 horas."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Nos acidentes escorpiônicos leves, a abordagem fundamenta-se na limpeza local com água e sabão, analgesia medicamentosa e aplicação de calor local. Torniquetes, uso de corticosteroides e alta hospitalar precoce são condutas contraindicadas.",
+  "bookContext": {
+   "text": "A dor aguda provocada pela ferroada do escorpião resulta da estimulação direta das fibras nervosas nociceptivas sensoriais periféricas e da liberação tecidual de substância P e bradicinina facilitada por metaloproteinases e hialuronidases do veneno. O PCDT 2026 e a literatura clássica de toxicologia recomendam como primeiro cuidado a lavagem abundante do sítio de inoculação com água e sabão neutro para diminuir riscos de infecção secundária. O calor local promove vasodilatação superficial e alteração na transmissão periférica da dor, complementando a ação analgésica de anti-inflamatórios ou dipirona. Quando a dor atinge nível intenso (EVN 8 a 10) e não cede com analgésicos sistêmicos, está indicada a infiltração de anestésico local (lidocaína 2%), que deve ser impreterivelmente isento de vasoconstritor.",
+   "fonte": "Aula VAT2 · Acidentes escorpiônicos (Slides 6, 8, 9 e 12); PCDT Acidentes Escorpiônicos (Seções 5.1 e 5.2); Livro Harrison (Cap. Picadas de escorpiões)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 284,
+  "code": "LESCORP-04",
+  "lista": "escorp",
+  "category": "Lista de aula · Acidentes escorpiônicos",
+  "subcategory": "Epidemiologia, fisiopatologia e diretrizes de soroterapia no escorpionismo",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Momento ENAMED do slide) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "(SUS-SP 2024) Em relação aos acidentes com escorpiões:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O quadro clínico sistêmico é mais frequente em adultos do que em crianças.",
+    "rationale": "Incorreta. As manifestações sistêmicas e as formas clínicas graves com evolução fatal ocorrem predominantemente em crianças (especialmente menores de 7 a 10 anos), em decorrência da alta proporção de veneno inoculado em relação à menor superfície corporal pediátrica."
+   },
+   {
+    "letter": "B",
+    "text": "CIVD e insuficiência renal aguda são complicações frequentes.",
+    "rationale": "Incorreta. CIVD e insuficiência renal aguda são complicações cardeais de acidentes ofídicos graves (como nos envenenamentos botrópico e crotálico), não sendo complicações frequentes do escorpionismo, no qual a letalidade decorre de choque cardiogênico e edema agudo de pulmão."
+   },
+   {
+    "letter": "C",
+    "text": "A soroterapia está indicada nos casos de acidente escorpiônico de gravidade moderada e grave.",
+    "rationale": "CORRETA. A soroterapia antiveneno específica está indicada estritamente para os acidentes moderados (3 ampolas) e graves (6 ampolas), nos quais há evidência de repercussão sistêmica; casos leves recebem exclusivamente tratamento sintomático e observação."
+   },
+   {
+    "letter": "D",
+    "text": "A espécie Tityus bahiensis (escorpião marrom) é a responsável pela maioria dos casos de acidentes escorpiônicos.",
+    "rationale": "Incorreta. O Tityus serrulatus (escorpião-amarelo) é o principal agente etiológico de importância médica no Brasil, sendo responsável pela grande maioria dos acidentes registrados e pelos casos de maior gravidade clínica, favorecido por sua reprodução partenogenética."
+   },
+   {
+    "letter": "E",
+    "text": "O quadro clínico local apresenta dor, com intensidade fraca, sudorese, eritema e piloereção.",
+    "rationale": "Incorreta. A dor local no escorpionismo é de instalação imediata e de forte intensidade (habitualmente descrita como intensa ou insuportável), sendo a manifestação clínica mais precoce e característica do acidente."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A soroterapia específica é indicada unicamente nos acidentes escorpiônicos moderados e graves. O escorpião-amarelo (Tityus serrulatus) é o principal responsável pelos acidentes no país, e as crianças representam o grupo de maior vulnerabilidade clínica.",
+  "bookContext": {
+   "text": "O escorpionismo tem como principal agente no Brasil o Tityus serrulatus, espécie adaptada ao meio urbano cuja reprodução por partenogênese acelera a dispersão populacional e a frequência de ferroadas. As toxinas alfa e gama do veneno induzem despolarização descontrolada de fibras simpáticas e parassimpáticas, gerando uma crise adrenérgica e colinérgica que acarreta miocardite aguda, falência ventricular esquerda e edema pulmonar cardiogênico. O Tratado de Medicina Interna de Harrison e os compêndios de vigilância em saúde ressaltam que crianças menores de 10 anos apresentam pico plasmático de veneno muito mais precoce e elevado que adultos, justificando a estrita indicação de soroterapia intravenosa rápida nos casos com envolvimento sistêmico.",
+   "fonte": "Aula VAT2 · Acidentes escorpiônicos (Slides 3, 4, 5 e 10); PCDT Acidentes Escorpiônicos (Seções 2.2 e 5.3); Livro Harrison (Cap. Picadas de escorpiões); Livro Gusso, Cap. 254."
+  },
+  "revisada": true
+ },
+ {
+  "id": 285,
+  "code": "LESCORP-05",
+  "lista": "escorp",
+  "category": "Lista de aula · Acidentes escorpiônicos",
+  "subcategory": "Tempo de observação e classificação clínica no escorpionismo",
+  "difficulty": "Intermediária",
+  "origem": "lista de aula",
+  "sourceLabel": "Lista de aula (Momento ENAMED do slide) · respondida com o NotebookLM; resposta: resposta do NotebookLM (a lista não tem gabarito)",
+  "prompt": "(ENARE 2025) O acidente escorpiônico, ou escorpionismo, é caracterizado pela picada de escorpião com ou sem inoculação de veneno (picada seca). Trata-se de um grave problema de saúde pública, especialmente em países de climas tropicais e subtropicais. O diagnóstico precoce é um fator fundamental no escorpionismo, pois permite o tratamento adequado e imediato, reduzindo a mortalidade e a morbidade. Paciente masculino de 50 anos, vítima de acidente escorpiônico, deu entrada no hospital com quadro de dor, eritema, parestesia, sudorese, vômito e agitação, taquicardia, foi medicado sintomaticamente e não apresentou melhora significativa. O tempo de observação recomendado para esse tipo de acidente é de:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "1 a 2 horas",
+    "rationale": "Incorreta. O intervalo de 1 a 2 horas é insuficiente para qualquer acidente escorpiônico. Mesmo nos casos sem nenhuma manifestação de envenenamento (picada seca), o protocolo recomenda observação mínima de 4 horas; nos casos leves, de 6 a 12 horas."
+   },
+   {
+    "letter": "B",
+    "text": "4 a 6 horas",
+    "rationale": "Incorreta. O período de 4 horas (e não 4 a 6 horas) é preconizado exclusivamente para pacientes sem clínica de envenenamento (assintomáticos/suspeita de picada seca). O paciente descrito apresenta sinais sistêmicos que persistiram após analgesia, enquadrando-se em caso moderado com necessidade de soroterapia e tempo de observação muito mais prolongado."
+   },
+   {
+    "letter": "C",
+    "text": "8 a 18 horas",
+    "rationale": "Incorreta. A faixa de 8 a 18 horas não existe nas diretrizes do Ministério da Saúde. O PCDT estabelece 6 a 12 horas para casos leves puramente locais e internação mínima de 24 horas para casos moderados e graves que recebem soroterapia."
+   },
+   {
+    "letter": "D",
+    "text": "24 horas",
+    "rationale": "CORRETA. De acordo com o Protocolo Clínico e Diretrizes Terapêuticas (PCDT) dos Acidentes Escorpiônicos (Ministério da Saúde, 2026) e os slides da aula, pacientes com manifestações sistêmicas (como vômitos, agitação e taquicardia) persistentes ao tratamento sintomático são reclassificados como casos moderados, requerem soroterapia específica (SAEsc) e devem permanecer em internação sob monitoramento contínuo por, no mínimo, 24 horas."
+   },
+   {
+    "letter": "E",
+    "text": "48 horas",
+    "rationale": "Incorreta. Embora pacientes graves com disfunção orgânica grave ou internados em UTI possam demandar dias de internação, o tempo protocolar padrão recomendado de observação/internação para casos moderados tratados com soro é de no mínimo 24 horas, e não 48 horas."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Vítimas de escorpionismo com sintomas sistêmicos ou refratárias ao manejo sintomático inicial são classificadas como moderadas e têm indicação de soroterapia, exigindo internação e monitorização clínica contínua por no mínimo 24 horas.",
+  "bookContext": {
+   "text": "O veneno dos escorpiões do gênero Tityus atua abrindo canais de sódio voltagem-dependentes e desencadeia uma intensa tempestade disautonômica adrenérgica e colinérgica. Manifestações como vômitos, agitação, sudorese e taquicardia caracterizam acometimento sistêmico (envenenamento moderado), sendo os vômitos incoercíveis considerados o principal sinal de alerta clínico para evolução desfavorável. Conforme preconizado pelo PCDT e pelas referências da disciplina, a persistência dessas alterações após sintomáticos impõe a administração precoce de soro antiescorpiônico (3 frascos-ampolas no moderado) e vigilância estrita por pelo menos 24 horas devido ao risco de descompensação cardiovascular e edema agudo de pulmão.",
+   "fonte": "PCDT de Acidentes Escorpiônicos (Ministério da Saúde, 2026, item 2.4 e Quadro 3) e Aula VAT2 · Acidentes escorpiônicos (Slides 6 e 8)"
+  },
+  "revisada": true
  }
 ]

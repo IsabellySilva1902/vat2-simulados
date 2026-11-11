@@ -23,7 +23,7 @@ for m in materias:
     open(os.path.join(RAIZ, m['pasta'], 'index.html'), 'w', encoding='utf-8').write(pagina)
     assuntos = sorted({q['category'] for q in banco if not q.get('lista')})
     listas = sorted({q['lista'] for q in banco if q.get('lista')})
-    extra = f' · {len(listas)} listas de aula' if listas else ''
+    extra = (f' · {len(listas)} lista de aula' if len(listas) == 1 else f' · {len(listas)} listas de aula') if listas else ''
     cartoes.append(f'<a class="card" href="{m["pasta"]}/"><span>{m["emoji"]}</span><div><b>{html.escape(m["nome"])}</b>'
                    f'<small>{len(banco)} questões · {len(assuntos)} assuntos{extra}</small></div><i>→</i></a>')
     print(f'{m["pasta"]}/index.html: {len(banco)} questões')
