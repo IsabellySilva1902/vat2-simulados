@@ -16,6 +16,12 @@ for m in materias:
         cartoes.append(f'<div class="card off"><span>{m["emoji"]}</span><div><b>{html.escape(m["nome"])}</b><small>em preparação</small></div></div>')
         continue
     banco = json.load(open(caminho, encoding='utf-8'))
+    # fichas do caderno de erros ficam em data/fichas/<id>.json (por code), separadas do banco, para o importador não apagá-las
+    arq_f = os.path.join(RAIZ, 'data', 'fichas', m['id'] + '.json')
+    if os.path.exists(arq_f):
+        fichas = json.load(open(arq_f, encoding='utf-8'))
+        for q in banco:
+            if q.get('code') in fichas: q['ficha'] = fichas[q['code']]
     pagina = (tpl.replace('{{NOME}}', m['nome'] + ' · VAT2')
                  .replace('{{STORAGE}}', m['storage'])
                  .replace('{{BANCO}}', json.dumps(banco, ensure_ascii=False, indent=1)))
