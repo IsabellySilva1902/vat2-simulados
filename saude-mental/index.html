@@ -282,6 +282,7 @@
         <span id="q-origem" class="hidden px-2 py-1 rounded-full bg-emerald-50 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300"></span>
         <button id="btn-clear-highlights" class="hidden ml-auto px-2 py-1 rounded-full border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700" title="Remover todos os grifos desta questão">🖍️ Limpar grifos</button>
         <button id="btn-mark-review" class="px-2 py-1 rounded-full border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700" title="Marcar para revisão">🏳️ <span id="mark-label">Marcar</span></button>
+        <button id="btn-copy-question" class="px-2 py-1 rounded-full border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700" title="Copia só o enunciado e as alternativas (sem gabarito nem explicações), para colar no NotebookLM">📋 <span id="copy-label">Copiar questão</span></button>
       </div>
 
       <p id="q-prompt" class="text-base sm:text-lg font-medium mb-1.5 leading-relaxed select-text" style="white-space: pre-line"></p>
@@ -8847,6 +8848,31 @@ function refreshAttemptFromBank(attempt) {
   });
 }
 
+/* Copia só o enunciado (com a tabela, se houver) e as alternativas na ordem em que aparecem na tela,
+   sem gabarito nem explicações, para colar no NotebookLM e tirar dúvidas. */
+function textoDaQuestao(q) {
+  const letras = ["A", "B", "C", "D", "E"];
+  let t = String(q.prompt || "").trim();
+  const vis = document.querySelector("#q-visual-container .q-visual");
+  if ((q.visual || q.visualHtml) && vis) t += "\n\n" + vis.innerText.trim();
+  t += "\n\n" + q.options.map((o, i) => `${letras[i]}) ${String(o.text).trim()}`).join("\n");
+  return t;
+}
+async function copiarQuestao(q) {
+  const txt = textoDaQuestao(q);
+  let ok = false;
+  try { await navigator.clipboard.writeText(txt); ok = true; } catch (e) {
+    const ta = document.createElement("textarea"); ta.value = txt; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { ok = document.execCommand("copy"); } catch (e2) { ok = false; }
+    ta.remove();
+  }
+  const lab = document.getElementById("copy-label");
+  lab.textContent = ok ? "Copiada! Cole no NotebookLM" : "Não deu para copiar";
+  clearTimeout(copiarQuestao._t);
+  copiarQuestao._t = setTimeout(() => { lab.textContent = "Copiar questão"; }, 2500);
+}
+
 function buildSessionQuestions(questions, rng) {
   return questions.map((q) => {
     const opts = q.options.map((o) => ({
@@ -9594,7 +9620,7 @@ function renderQuizQuestion() {
   document.getElementById("btn-check-answer").classList.toggle("hidden", !(isTutor && isAnswered && !q.checked));
 
   const optionsEl = document.getElementById("q-options");
-  const letters = ["A", "B", "C", "D"];
+  const letters = ["A", "B", "C", "D", "E"];
   optionsEl.innerHTML = q.options
     .map((opt, i) => {
       const isStruck = q.struck.includes(i);
@@ -9709,8 +9735,8 @@ function handleQuizShortcut(e) {
   if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || e.target.isContentEditable) return;
 
   const key = e.key.toLowerCase();
-  let optionIdx = ["a", "b", "c", "d"].indexOf(key);
-  if (optionIdx < 0) optionIdx = ["1", "2", "3", "4"].indexOf(key);
+  let optionIdx = ["a", "b", "c", "d", "e"].indexOf(key);
+  if (optionIdx < 0) optionIdx = ["1", "2", "3", "4", "5"].indexOf(key);
 
   if (optionIdx >= 0 && optionIdx < currentQuestion().options.length) selectOption(optionIdx);
   else if (e.key === "ArrowRight") goNext();
@@ -9897,7 +9923,7 @@ function renderReview() {
     list = list.filter((q) => q.marked);
   }
 
-  const letters = ["A", "B", "C", "D"];
+  const letters = ["A", "B", "C", "D", "E"];
   const listEl = document.getElementById("review-list");
   if (!list.length) {
     listEl.innerHTML = `<p class="text-center text-slate-400 py-10">Nenhuma questão nesse filtro.</p>`;
@@ -10286,6 +10312,7 @@ function init() {
     q.marked = !q.marked;
     renderQuizQuestion();
   });
+  document.getElementById("btn-copy-question").addEventListener("click", () => copiarQuestao(currentQuestion()));
   document.getElementById("btn-clear-highlights").addEventListener("click", () => {
     const q = currentQuestion();
     q.highlights = [];
