@@ -6565,6 +6565,875 @@
   ],
   "fonte": "Thompson & Thompson · Genética Médica, Cap. 15 (Genética do Câncer)"
  },
+ "LPROVA1-01": {
+  "titulo": "Epigenética tumoral — Hipometilação global e hipermetilação focal",
+  "topicos": [
+   {
+    "rotulo": "Conceito epigenético no câncer",
+    "texto": "Refere-se a modificações herdáveis na **expressão gênica e compactação da cromatina** sem que ocorra alteração na sequência primária de nucleotídeos do DNA.",
+    "sub": []
+   },
+   {
+    "rotulo": "Padrão bimodal aberrante",
+    "texto": "O perfil epigenômico tumoral típico combina dois eventos contrastantes de metilação:",
+    "sub": [
+     {
+      "rotulo": "Hipometilação global do DNA",
+      "texto": "Ocorre predominantemente em sequências repetitivas, heterocromatina e elementos transponíveis, desencadeando **instabilidade genômica**, quebras cromossômicas e ativação de oncogenes.",
+      "sub": []
+     },
+     {
+      "rotulo": "Hipermetilação focal de promotores",
+      "texto": "Concentra-se em **ilhas CpG** das regiões promotoras, induzindo o **silenciamento transcricional de genes supressores tumorais** cruciais para o reparo do DNA e controle do ciclo celular.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Implicação terapêutica",
+    "texto": "Diferente das mutações gênicas definitivas, as alterações epigenéticas são dinâmicas e passíveis de reversão por fármacos **demetilantes (como inibidores de DNMT)**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O fenótipo tumoral típico envolve hipermetilação generalizada do genoma e hipometilação seletiva nos promotores de genes supressores de tumor.",
+    "porque": "Ocorre a dinâmica oposta: **hipometilação genômica global** (que gera instabilidade) e **hipermetilação restrita aos promotores** (que silencia os supressores de tumor)."
+   },
+   {
+    "frase": "As modificações epigenéticas na tumorigênese causam deleções irreversíveis na fita primária de nucleotídeos do DNA.",
+    "porque": "Mecanismos epigenéticos alteram a conformação da cromatina e a acessibilidade transcricional, **preservando intacta a sequência de bases nitrogenadas**."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 9 e 15 / Quadro da revisão · Genética (10/11) / Slide da aula VAT2: Oncogenética"
+ },
+ "LPROVA1-02": {
+  "titulo": "Nomenclatura Citogenética (ISCN) — Monoploidias e Rearranjos Cromossômicos Estruturais",
+  "topicos": [
+   {
+    "rotulo": "Monoploidia humana e número cromossômico",
+    "texto": "A monoploidia (ou conjunto haploide completo, n = 23) caracteriza-se pela presença de apenas **23 cromossomos totais**, descritos inicialmente no laudo pelo número cardinal observado.",
+    "sub": []
+   },
+   {
+    "rotulo": "Determinação do cromossomo sexual",
+    "texto": "Em uma linhagem monoploide masculina, o complemento sexual é representado por um único gonossomo, figurando como **, Y** imediatamente após a contagem numérica.",
+    "sub": []
+   },
+   {
+    "rotulo": "Designação de translocação recíproca",
+    "texto": "A troca mútua de segmentos entre cromossomos não-homólogos é designada pelas abreviações autorizadas pelo ISCN, utilizando **rcp** (reciprocal translocation) ou **t**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Estrutura e pontuação da fórmula",
+    "texto": "Os cromossomos participantes são listados entre parênteses em ordem numérica crescente, separando-se as especificações por vírgulas, compondo a fórmula canônica **23, Y, rcp(9;22)**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O laudo de um cariótipo monoploide humano inicia-se obrigatoriamente pelo número diploide seguido de perda por deleção (ex.: 46, XY, -23).",
+    "porque": "A regra internacional do ISCN estabelece que a fórmula sempre registra o **número modal total absoluto de cromossomos observados** na metáfase (neste caso, 23)."
+   },
+   {
+    "frase": "O prefixo citogenético 'rcp' designa a formação de um cromossomo em anel derivado de quebras teloméricas.",
+    "porque": "O termo 'rcp' é a abreviação padronizada para **translocação recíproca**; o cromossomo em anel é descrito pela sigla **'r'** (ring chromosome)."
+   },
+   {
+    "frase": "A monoploidia constitui uma aberração cromossômica estrutural balanceada com duplicação de braços curtos.",
+    "porque": "A monoploidia é uma **anomalia cromossômica numérica do grupo das euploidias** (alteração em lotes genômicos inteiros), não uma mutação estrutural."
+   }
+  ],
+  "fonte": "Livro Clinical Cytogenetics (ISCN Rules) e Slide da aula VAT1 · Alterações cromossômicas"
+ },
+ "LPROVA1-03": {
+  "titulo": "Síndrome de Turner — Citogenética e Investigação de Mosaicismo",
+  "topicos": [
+   {
+    "rotulo": "Sensibilidade do Cariótipo Padrão e Mosaicismos",
+    "texto": "A Síndrome de Turner apresenta frequência expressiva de **mosaicismo cromossômico** (como 45,X/46,XX ou 45,X/46,XY). A contagem convencional de 20 metáfases em linfócitos tem **limitação estatística** e não exclui clones celulares com frequência inferior a 10-15%.",
+    "sub": []
+   },
+   {
+    "rotulo": "Condutas Frente à Alta Suspeição com Cariótipo Normal",
+    "texto": "Se a clínica for fortemente sugestiva de Turner e o cariótipo inicial em sangue periférico for normal (46,XX), a investigação deve ser expandida.",
+    "sub": [
+     {
+      "rotulo": "Ampliação da Contagem Celular",
+      "texto": "Elevar a análise citogenética para **50 a 100 metáfases** aumenta a sensibilidade para identificar clones monossômicos raros.",
+      "sub": []
+     },
+     {
+      "rotulo": "Hibridização In Situ por Fluorescência (FISH)",
+      "texto": "O **FISH com sondas centroméricas** para os cromossomos X e Y examina rapidamente centenas de núcleos interfásicos, detectando mosaicismos crípticos de baixa proporção.",
+      "sub": []
+     },
+     {
+      "rotulo": "Análise de Outros Tecidos",
+      "texto": "A avaliação de **swab de mucosa oral** ou fibroblastos de derme é fundamental para identificar **mosaicismos tecido-específicos** ausentes no sangue.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Relevância Clínica de Sequências do Cromossomo Y",
+    "texto": "Identificar linhagens celulares portadoras de **material cromossômico Y** em pacientes Turner é mandatório pelo alto risco de desenvolvimento de **gonadoblastoma**, exigindo indicação de gonadectomia profilática.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Um cariótipo de 20 células com resultado 46,XX exclui em definitivo a Síndrome de Turner e qualquer tipo de mosaicismo.",
+    "porque": "A análise padrão em sangue periférico não detecta clones celulares em baixa proporção nem mosaicismos restritos a outros tecidos."
+   },
+   {
+    "frase": "O ensaio de FISH é inadequado na triagem de mosaicismo em Turner por depender estritamente de células cultivadas em metáfase.",
+    "porque": "O FISH é altamente eficiente em núcleos interfásicos, viabilizando a contagem rápida de centenas de células sem cultivo longo."
+   },
+   {
+    "frase": "A presença de fragmentos do cromossomo Y em cariótipos com linhagem 45,X é clinicamente irrelevante e não altera a conduta cirúrgica.",
+    "porque": "A presença de sequências do cromossomo Y acarreta elevado risco de neoplasias malignas em gônadas disgenéticas (gonadoblastoma)."
+   }
+  ],
+  "fonte": "Aula VAT1 · Alterações cromossômicas, Livro · Clinical Cytogenetics e Livro · Síndromes genéticas: reconhecer para tratar (Ribeiro, 2021)"
+ },
+ "LPROVA1-04": {
+  "titulo": "Código genético — Tipos de substituição e mutações sinônimas",
+  "topicos": [
+   {
+    "rotulo": "Classificação das substituições pontuais",
+    "texto": "As alterações de base única se dividem conforme a classe química dos nucleotídeos:",
+    "sub": [
+     {
+      "rotulo": "Transição",
+      "texto": "Substituição entre bases da mesma conformação química: **purina por purina (A ↔ G)** ou **pirimidina por pirimidina (C ↔ T)**.",
+      "sub": []
+     },
+     {
+      "rotulo": "Transversão",
+      "texto": "Substituição que altera a conformação estrutural da base: **purina por pirimidina** ou **pirimidina por purina**.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Degenerescência do código",
+    "texto": "O código genético é **degenerado (redundante)**, o que permite que diferentes trincas nucleotídicas (códons sinônimos) codifiquem exatamente o **mesmo aminoácido**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Hipótese da oscilação e efeito sinônimo",
+    "texto": "Na terceira base do códon, mutações por transição frequentemente conservam o resíduo aminoacídico codificado, caracterizando uma **mutação silenciosa (sinônima)** que mantém a integridade da cadeia polipeptídica.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Qualquer mutação por transição no DNA altera a matriz de leitura de todos os códons subsequentes.",
+    "porque": "Substituições pontuais mantêm intacta a matriz de leitura (reading frame); apenas **inserções ou deleções não múltiplas de três** geram frameshift."
+   },
+   {
+    "frase": "A substituição de citosina por timina classifica-se como uma transversão e sempre resulta em mutação missense.",
+    "porque": "A troca de C por T ocorre entre duas pirimidinas, configurando uma **transição**, e devido à degenerescência do código frequentemente resulta em **efeito sinônimo**."
+   }
+  ],
+  "fonte": "Griffiths: Introdução à Genética, Cap. 15 e 16 / Slide da aula VAT1: Mutações gênicas"
+ },
+ "LPROVA1-05": {
+  "titulo": "Síndrome de Li-Fraumeni — Variantes Germinativas em TP53 e Risco Oncológico",
+  "topicos": [
+   {
+    "rotulo": "Padrão de Transmissão Hereditária",
+    "texto": "Mutações germinativas no gene supressor de tumor **TP53** causam a **Síndrome de Li-Fraumeni (LFS)** com padrão de **herança autossômica dominante**. Indivíduos portadores apresentam uma probabilidade de **50% de transmitir a variante** a cada um de seus descendentes.",
+    "sub": []
+   },
+   {
+    "rotulo": "Conceitos Genéticos Fundamentais",
+    "texto": "A presença de mutação patogênica em TP53 estabelece risco elevado, mas sua expressão clínica exibe plasticidade.",
+    "sub": [
+     {
+      "rotulo": "Penetrância Incompleta",
+      "texto": "A variante confere uma **predisposição hereditária acentuada**, mas não certeza inevitável de adoecimento, embora a probabilidade acumulada ao longo da vida alcance níveis próximos a 70-90%.",
+      "sub": []
+     },
+     {
+      "rotulo": "Expressividade Variável",
+      "texto": "A mutação germinativa não define a idade de acometimento nem o sítio primário do tumor, manifestando **amplo espectro fenotípico** dentro da mesma família.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Espectro Tumoral Clássico e Manejo",
+    "texto": "O quadro é tipicamente marcado por **sarcomas de partes moles e ossos**, **câncer de mama pré-menopausa**, **tumores do sistema nervoso central** e **carcinoma adrenocortical**. O seguimento clínico inclui programas de triagem intensificada (como o protocolo de Toronto com ressonância magnética de corpo inteiro).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Herdar uma variante patogênica germinativa em TP53 garante o desenvolvimento obrigatório de câncer em 100% dos casos.",
+    "porque": "A condição apresenta penetrância incompleta; o desenvolvimento tumoral exige mutações somáticas secundárias (hipótese dos dois eventos de Knudson)."
+   },
+   {
+    "frase": "A identificação de mutação patogênica em TP53 prediz com precisão o órgão afetado e a idade exata de aparecimento da neoplasia.",
+    "porque": "A Síndrome de Li-Fraumeni possui alta expressividade variável e pleiotropia, predispondo a uma vasta gama de tumores em diferentes faixas etárias."
+   },
+   {
+    "frase": "A herança da predisposição em TP53 é autossômica recessiva, com risco de transmissão aos filhos de apenas 25%.",
+    "porque": "A síndrome tem herança autossômica dominante, gerando um risco de transmissão biológica de 50% para cada filho."
+   }
+  ],
+  "fonte": "Aula VAT2 · Oncogenética e Thompson & Thompson · Genética Médica, Cap. 15 (Genética do Câncer)"
+ },
+ "LPROVA1-06": {
+  "titulo": "Reação em Cadeia da Polimerase (PCR) — Etapas Cíclicas e Cinética Molecular",
+  "topicos": [
+   {
+    "rotulo": "Desnaturação térmica",
+    "texto": "Conduzida tipicamente entre **94 °C e 96 °C**, rompe as **pontes de hidrogênio** entre as bases nitrogenadas sem quebrar as ligações fosfodiéster, gerando fitas simples de DNA molde.",
+    "sub": []
+   },
+   {
+    "rotulo": "Anelamento específico",
+    "texto": "Realizado em temperatura reduzida (**50 °C a 65 °C**), calculada pela temperatura de fusão (Tm) dos iniciadores, permitindo a **hibridização específica de primers** nas regiões flanqueadoras da sequência-alvo.",
+    "sub": []
+   },
+   {
+    "rotulo": "Extensão catalítica",
+    "texto": "Executada na faixa ótima da DNA polimerase termoestável (**72 °C para Taq polimerase**), sintetizando a fita complementar a partir do grupo **3'-OH livre** do primer no sentido 5' para 3'.",
+    "sub": []
+   },
+   {
+    "rotulo": "Amplificação exponencial",
+    "texto": "Cada repetição térmica dobra a quantidade teórica do fragmento delimitado pelos iniciadores, gerando uma cinética de rendimento proporcional a **2^n cópias**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A síntese da fita complementar ocorre a partir da extremidade 5'-fosfato dos iniciadores durante a extensão.",
+    "porque": "A DNA polimerase requer estritamente uma terminação **3'-OH livre** para realizar o ataque nucleofílico ao desoxirribonucleotídeo trifosfato (dNTP), operando apenas no sentido **5' para 3'**."
+   },
+   {
+    "frase": "A desnaturação da fita dupla na PCR exige helicases e topoisomerases recombinantes no mix de reação.",
+    "porque": "A abertura das fitas na PCR é um processo puramente **físico-térmico**, dispensando qualquer enzima desenroladora celular."
+   },
+   {
+    "frase": "A temperatura de anelamento deve ser igual ou superior à da desnaturação para garantir máxima especificidade.",
+    "porque": "Temperaturas elevadas impedem a estabilização termodinâmica das **pontes de hidrogênio** entre o primer e o DNA molde, exigindo resfriamento controlado na fase de anelamento."
+   }
+  ],
+  "fonte": "Slide da aula VAT1 · PCR e Livro Snustad · Fundamentos de Genética, Cap. 19 (Tecnologia do DNA)"
+ },
+ "LPROVA1-07": {
+  "titulo": "Bandeamento citogenético — Princípio e resolução do Bandeamento G",
+  "topicos": [
+   {
+    "rotulo": "Princípio bioquímico",
+    "texto": "O **bandeamento G** consiste no pré-tratamento enzimático dos cromossomos metafásicos com **tripsina** para desnaturação proteica controlada, seguido pela coloração com o corante **Giemsa**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Padrão morfológico de bandas",
+    "texto": "A técnica evidencia faixas alternadas com características funcionais distintas:",
+    "sub": [
+     {
+      "rotulo": "Bandas escuras (G-positivas)",
+      "texto": "Regiões ricas em bases **adenina-timina (AT)**, com cromatina condensada, menor densidade de genes e **replicação tardia**.",
+      "sub": []
+     },
+     {
+      "rotulo": "Bandas claras (G-negativas)",
+      "texto": "Regiões ricas em bases **guanina-citosina (GC)**, transcricionalmente ativas, com elevada densidade gênica e **replicação precoce**.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Resolução e utilidade diagnóstica",
+    "texto": "Permite individualizar cada um dos **23 pares cromossômicos** e seus braços (p e q), detectando aberrações numéricas e **rearranjos estruturais** como translocações, inversões e deleções de grande porte.",
+    "sub": []
+   },
+   {
+    "rotulo": "Limite de detecção",
+    "texto": "Apresenta resolução óptica limitada ao nível microscópico (cerca de **3 a 5 Mb** na metáfase padrão), sendo incapaz de identificar alterações submicroscópicas ou mutações pontuais.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O bandeamento G emprega sondas de DNA conjugadas a fluoróforos para mapear sequências gênicas pontuais no microscópio óptico comum.",
+    "porque": "A utilização de sondas marcadas com fluorescência é característica da técnica de **FISH (citogenética molecular)**, enquanto o bandeamento G baseia-se em tratamento enzimático e corante químico Giemsa."
+   },
+   {
+    "frase": "O padrão do bandeamento G diagnostica rotineiramente microdeleções inferiores a 1 Mb e mutações de base única.",
+    "porque": "O cariótipo convencional por bandas G possui um **limite de resolução de 3 a 5 Mb**, exigindo técnicas moleculares para alterações gênicas ou submicroscópicas."
+   }
+  ],
+  "fonte": "Snustad: Fundamentos de Genética, Cap. 6 / Slide da aula VAT1: Alterações cromossômicas"
+ },
+ "LPROVA1-08": {
+  "titulo": "Citogenética molecular — Aplicação e alcance da técnica de FISH",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo da técnica",
+    "texto": "A **Hibridização in situ por Fluorescência (FISH)** emprega **sondas de DNA fluorescentes** de fita simples complementares a regiões cromossômicas específicas, visualizadas por microscopia de fluorescência.",
+    "sub": []
+   },
+   {
+    "rotulo": "Resolução diagnóstica",
+    "texto": "Supera amplamente o limite óptico do cariótipo clássico, sendo a ferramenta de escolha para identificar **microdeleções e microduplicações submicroscópicas** (inferiores a 3–5 Mb).",
+    "sub": []
+   },
+   {
+    "rotulo": "Natureza alvo-específica",
+    "texto": "Por depender da escolha prévia de sondas para locos conhecidos, **não realiza varredura genômica ampla** e não detecta anormalidades em cromossomos ou regiões não sondadas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Agilidade em amostras pré-natais",
+    "texto": "Pode ser realizada em **células interfásicas não cultivadas** de líquido amniótico ou vilosidade coriônica, viabilizando triagem rápida (24 a 48 horas) para os cromossomos 13, 18, 21, X e Y.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A FISH representa uma avaliação pangenômica completa capaz de detectar qualquer alteração cromossômica estrutural desconhecida.",
+    "porque": "A FISH é um teste **direcionado a alvos predeterminados**, sendo cega para rearranjos e deleções em regiões não cobertas pelas sondas empregadas."
+   },
+   {
+    "frase": "A execução da FISH pré-natal requer obrigatoriamente cultura celular prolongada e obtenção de metáfases de alta resolução.",
+    "porque": "A FISH pode ser processada diretamente em **núcleos interfásicos**, dispensando o cultivo celular demorado para a análise de sinais numéricos ou estruturais focais."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 5 e 17 / Slide da aula VAT1: Alterações cromossômicas"
+ },
+ "LPROVA1-09": {
+  "titulo": "Reação em Cadeia da Polimerase (PCR) — Reagentes e Função Crítica do Mg²⁺",
+  "topicos": [
+   {
+    "rotulo": "Papel Catalítico do Íon Magnésio (Mg²⁺)",
+    "texto": "O **Mg²⁺ atua como cofator bivalente essencial** para a enzima **DNA-polimerase termoestável** (como a Taq polimerase). Ele atua neutralizando as cargas negativas dos fosfatos dos dNTPs e estabiliza o sítio catalítico durante a formação da ligação fosfodiéster.",
+    "sub": []
+   },
+   {
+    "rotulo": "Concentração de MgCl₂ e Desempenho da Reação",
+    "texto": "A concentração de magnésio regula a precisão e a eficiência da reação em cadeia da polimerase.",
+    "sub": [
+     {
+      "rotulo": "Ausência ou Deficiência de Mg²⁺",
+      "texto": "Bloqueia a atividade funcional da **DNA-polimerase** e impede a hibridização estável entre primers e fita-molde, acarretando **falha total na amplificação (sem amplicon)**.",
+      "sub": []
+     },
+     {
+      "rotulo": "Excesso de Mg²⁺",
+      "texto": "Reduz a fidelidade da reação ao estabilizar pareamentos imperfeitos dos primers, resultando em **amplificações inespecíficas** e artefatos de fita.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Componentes Obrigatórios da Reação",
+    "texto": "A reação necessita obrigatoriamente de **DNA molde intacto**, **iniciadores (primers) oligonucleotídicos específicos**, **dNTPs livres**, **DNA polimerase termoestável**, **tampão de pH** e o cofator **Mg²⁺**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A falta de cloreto de magnésio prejudica unicamente a etapa de desnaturação térmica inicial da dupla fita de DNA.",
+    "porque": "A desnaturação depende apenas do aquecimento térmico; o magnésio é essencial para a atividade catalítica da polimerase na etapa de extensão."
+   },
+   {
+    "frase": "Aumentar excessivamente a concentração de Mg²⁺ garante maior fidelidade e especificidade na amplificação do fragmento.",
+    "porque": "O excesso de magnésio reduz a adstringência da reação, favorecendo o pareamento inespecífico de primers e o surgimento de múltiplos fragmentos espúrios."
+   },
+   {
+    "frase": "A ausência de amplicon na presença de DNA íntegro e primers corretos é invariavelmente causada por erro no desenho das sequências iniciadoras.",
+    "porque": "A ausência ou quelação do cofator catalítico obrigatório Mg²⁺ bloqueia por completo a extensão enzimática, mesmo com primers ideais."
+   }
+  ],
+  "fonte": "Aula VAT1 · PCR e Snustad · Fundamentos de Genética, Cap. 18 (Técnicas de DNA Recombinante)"
+ },
+ "LPROVA1-10": {
+  "titulo": "Aneuploidias sexuais — Rastreamento pré-natal e confirmação diagnóstica",
+  "topicos": [
+   {
+    "rotulo": "Papel do cfDNA (NIPT)",
+    "texto": "O rastreamento por **DNA fetal livre circulante (cfDNA)** no sangue materno avalia o risco estatístico de aneuploidias, mas possui caráter estritamente de **triagem pré-natal**, não constituindo diagnóstico definitivo.",
+    "sub": []
+   },
+   {
+    "rotulo": "Origem biológica e discordâncias",
+    "texto": "A fração livre circulante provém predominantemente do **trofoblasto placentário**, podendo gerar divergências com o genoma fetal verdadeiro em casos de **mosaicismo restrito à placenta** ou alterações maternas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Necessidade de método invasivo",
+    "texto": "Qualquer resultado suspeito na triagem exige **confirmação citogenética diagnóstica**, obtida por meio de **amniocentese** ou **biópsia de vilosidades coriônicas (BVC)** para cariotipagem das células fetais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Particularidades clínicas",
+    "texto": "As aneuploidias dos cromossomos sexuais (como 47,XXX, 47,XXY e 47,XYY) costumam cursar com **fenótipo atenuado** e **fertilidade preservada ou subfertilidade**, frequentemente sem malformações ultrassonográficas graves visíveis.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Um resultado de cfDNA de alto risco para alteração de cromossomos sexuais confirma o diagnóstico e dispensa métodos invasivos.",
+    "porque": "O cfDNA é exclusivamente um teste de **rastreamento placentário** e apresenta taxas de falsos-positivos, exigindo sempre confirmação por cariótipo fetal invasivo."
+   },
+   {
+    "frase": "As aneuploidias de cromossomos sexuais cursam invariavelmente com esterilidade absoluta e malformações anatômicas precoces evidentes.",
+    "porque": "Diversas aneuploidias sexuais apresentam **manifestações clínicas discretas**, ultrassom normal no pré-natal e possibilidade real de fertilidade."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 17 / Slide da aula VAT1: Diagnóstico pré-natal de doenças e síndromes genéticas"
+ },
+ "LPROVA1-11": {
+  "titulo": "Doenças monogênicas — Diagnóstico pré-natal molecular dirigido",
+  "topicos": [
+   {
+    "rotulo": "Identificação prévia da variante",
+    "texto": "O diagnóstico molecular pré-natal direcionado exige o conhecimento prévio da **variante patogênica causal familiar**, previamente estabelecida no caso-índice ou nos genitores.",
+    "sub": []
+   },
+   {
+    "rotulo": "Procedimento amostral invasivo",
+    "texto": "Requer a obtenção de DNA fetal puro por **amniocentese** (preferencialmente a partir da 15ª semana) ou **biópsia de vilosidades coriônicas** (entre 11ª e 14ª semanas).",
+    "sub": []
+   },
+   {
+    "rotulo": "Abordagem molecular por PCR",
+    "texto": "A **Reação em Cadeia da Polimerase (PCR) direcionada**, aliada ao sequenciamento do loco específico, oferece alta sensibilidade analítica para identificar de forma rápida a mutação pontual familiar.",
+    "sub": []
+   },
+   {
+    "rotulo": "Controle de contaminação e bioética",
+    "texto": "O protocolo exige **aconselhamento genético formal**, consentimento informado e ensaios moleculares rigorosos para excluir **contaminação por células maternas** no material biológico fetal.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O diagnóstico confirmatório de doenças monogênicas familiares no feto é realizado de rotina por cariótipo por bandeamento G.",
+    "porque": "O cariótipo óptico detecta exclusivamente anomalias estruturais e numéricas de cromossomos, carecendo de resolução para **mutações pontuais em genes únicos**."
+   },
+   {
+    "frase": "O rastreamento de DNA livre no sangue materno (cfDNA) é o teste invasivo definitivo para mapear qualquer variante monogênica herdada.",
+    "porque": "O cfDNA é um exame de triagem **não invasivo** e apresenta limitações técnicas para variantes monogênicas paternas e maternas, sendo necessária a punção direta para diagnóstico de certeza."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 17 / Slide da aula VAT1: PCR e Diagnóstico pré-natal"
+ },
+ "LPROVA1-12": {
+  "titulo": "Mutações Gênicas — Mudança na Matriz de Leitura (Frameshift) e Consequências Moleculares",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo mutacional",
+    "texto": "Provocada por **inserções ou deleções (indels)** de nucleotídeos em quantidade **não múltipla de três** dentro da sequência codificadora de um éxon.",
+    "sub": []
+   },
+   {
+    "rotulo": "Deslocamento de leitura traducional",
+    "texto": "Como os ribossomos leem trincas contíguas sem pontuação, a remoção ou acréscimo fora de fase altera o enquadramento de **todos os códons subsequentes (a jusante)**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Geração de códon de parada prematuro",
+    "texto": "O embaralhamento dos códons comumente produz um **códon de terminação precoce (códon nonsense prematuro - PTC)** em poucos passos após o sítio da mutação.",
+    "sub": []
+   },
+   {
+    "rotulo": "Decaimento de mRNA mediado por nonsense (NMD)",
+    "texto": "Transcritos contendo PTCs são reconhecidos pela maquinaria de vigilância celular e destruídos pelo mecanismo de **NMD (nonsense-mediated mRNA decay)**, impedindo o acúmulo de peptídeos truncados tóxicos e configurando **perda total de função (alelo nulo)**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A inserção de três pares de bases nitrogenadas em um éxon provoca frameshift com desestruturação da tradução a jusante.",
+    "porque": "A alteração de nucleotídeos em múltiplos de três mantém a matriz de leitura alinhada (**em fase**), resultando apenas na adição ou remoção de aminoácidos pontuais."
+   },
+   {
+    "frase": "Mutações de frameshift preservam a sequência primária de aminoácidos codificada após o ponto da inserção ou deleção.",
+    "porque": "O deslocamento das trincas substitui completamente a sequência original de aminoácidos por uma **cadeia peptídica aberrante** a jusante do erro."
+   },
+   {
+    "frase": "Mutações com desvio de matriz de leitura produzem invariavelmente proteínas mais longas devido ao desaparecimento do códon de parada nativo.",
+    "porque": "Ao acaso estatístico na nova matriz de leitura gerada, o surgimento de um **códon de parada prematuro** ocorre rapidamente, truncando o polipeptídio."
+   }
+  ],
+  "fonte": "Slide da aula VAT1 · Mutações gênicas e Livro Griffiths · Introdução à Genética, Cap. 16 (Mecanismos de Mutação)"
+ },
+ "LPROVA1-13": {
+  "titulo": "Aconselhamento Genético — Princípios Éticos e Não-Diretividade",
+  "topicos": [
+   {
+    "rotulo": "Princípio da Não-Diretividade",
+    "texto": "O aconselhamento genético deve ser conduzido de maneira **imparcial e neutra**, evitando impor valores morais, julgamentos ou direcionamentos de conduta. O foco central é capacitar o consulente e proteger sua **autonomia reprodutiva**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Comunicação Acessível e Variabilidade",
+    "texto": "O profissional deve comunicar o **risco de recorrência** e a história natural da condição em **linguagem compreensível**, esclarecendo conceitos como **expressividade variável** e graus de gravidade da patologia.",
+    "sub": []
+   },
+   {
+    "rotulo": "Apresentação Ampla de Alternativas",
+    "texto": "Devem ser apresentadas todas as opções reprodutivas e diagnósticas viáveis, detalhando minuciosamente os **benefícios, riscos e limitações** de cada abordagem para tomada de decisão consciente.",
+    "sub": []
+   },
+   {
+    "rotulo": "Consentimento Informado e Autonomia",
+    "texto": "Nenhuma intervenção médica, profilática ou exame preditivo invasivo pode ser executado sem o **consentimento livre e esclarecido**, respeitando plenamente a decisão soberana do paciente ou casal.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O médico conselheiro deve recomendar expressamente a interrupção da gravidez ou o uso de reprodução assistida para evitar o nascimento de crianças afetadas.",
+    "porque": "A prática moderna do aconselhamento genético é estritamente não-diretiva, cabendo exclusivamente à família definir a conduta conforme suas crenças e planos."
+   },
+   {
+    "frase": "A conduta não-diretiva consiste em ocultar os riscos percentuais de transmissão para não gerar sofrimento psicológico ao casal.",
+    "porque": "O dever ético exige esclarecer com precisão os riscos numéricos, as incertezas e as probabilidades de forma clara e empática."
+   },
+   {
+    "frase": "Diante de elevado risco de anomalia grave, a solicitação de testes diagnósticos invasivos independe do consentimento do casal.",
+    "porque": "A realização de qualquer exame ou intervenção no contexto genético depende do consentimento livre e esclarecido do paciente."
+   }
+  ],
+  "fonte": "Aula VAT2 · Aconselhamento genético e Thompson & Thompson · Genética Médica, Cap. 19 (Aconselhamento Genético)"
+ },
+ "LPROVA1-14": {
+  "titulo": "Oncogenética — Interpretação de Testes de Predisposição e Resultado Negativo Não Informativo",
+  "topicos": [
+   {
+    "rotulo": "Diferenciação dos Tipos de Resultado Negativo",
+    "texto": "A relevância clínica de um laudo molecular negativo depende essencialmente de se conhecer previamente a **mutação familiar causadora**.",
+    "sub": [
+     {
+      "rotulo": "Negativo Verdadeiro",
+      "texto": "Ocorre quando o indivíduo assintomático testa negativo para a **variante patogênica específica já documentada** em familiares afetados, rebaixando seu risco ao **risco populacional basal**.",
+      "sub": []
+     },
+     {
+      "rotulo": "Negativo Não Informativo",
+      "texto": "Ocorre quando uma pessoa saudável realiza o teste sem que nenhum **familiar afetado** tenha sido previamente genotipado, não excluindo mutações em genes não cobertos ou variantes estruturais não detectadas.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Estratégia de Testagem no Caso-Índice",
+    "texto": "A testagem molecular deve sempre iniciar pelo **familiar afetado pelo câncer** (caso-índice mais jovem ou com tumor característico). Encontrar a alteração causal nesse paciente é o que viabiliza o **teste preditivo direcionado** nos parentes sob risco.",
+    "sub": []
+   },
+   {
+    "rotulo": "Conduta Clínica e Vigilância",
+    "texto": "Diante de um resultado negativo não informativo, a conduta médica deve manter o **rastreamento intensificado** calculado com base na **história familiar**, pois a probabilidade de predisposição hereditária permanece.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Um resultado de sequenciamento negativo em indivíduo assintomático descarta qualquer etiologia genética na família.",
+    "porque": "Sem a confirmação prévia da mutação em um familiar com câncer, o laudo negativo é não informativo e a predisposição familiar persiste como hipótese."
+   },
+   {
+    "frase": "O paciente com resultado negativo não informativo pode retornar com segurança aos protocolos de rastreamento da população geral.",
+    "porque": "O rastreamento de alto risco deve ser mantido de acordo com os critérios clínicos da história familiar pregressa."
+   },
+   {
+    "frase": "Recomenda-se iniciar o rastreamento genético pelos indivíduos sadios da família para poupar pacientes oncológicos em tratamento.",
+    "porque": "A sensibilidade do rastreamento genético familiar depende de se demonstrar primeiro a variante patogênica em um membro clinicamente afetado."
+   }
+  ],
+  "fonte": "Aula VAT2 · Oncogenética e Thompson & Thompson · Genética Médica, Cap. 15 (Genética do Câncer)"
+ },
+ "LPROVA1-15": {
+  "titulo": "Epigenética e Câncer — Modificações de Histonas e Silenciamento Transcricional",
+  "topicos": [
+   {
+    "rotulo": "Acetilação de histonas e eucromatina",
+    "texto": "A adição de grupos acetil por **histona acetiltransferases (HATs)** neutraliza as cargas positivas das lisinas, reduzindo a afinidade pelas fitas de DNA e gerando **eucromatina acessível** para a transcrição gênica.",
+    "sub": []
+   },
+   {
+    "rotulo": "Desacetilação e condensação da cromatina",
+    "texto": "A remoção dos radicais acetil por **histona desacetilases (HDACs)** restaura a atração eletrostática com o esqueleto de fosfato do DNA, induzindo **compactação da cromatina (heterocromatina)**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Silenciamento tumoral sem mutação de sequência",
+    "texto": "A **hipoacetilação aberrante** em promotores impede fisicamente o acoplamento da **RNA polimerase II** e de fatores basais, silenciando **genes supressores de tumor** sem qualquer alteração na sequência de pares de bases.",
+    "sub": []
+   },
+   {
+    "rotulo": "Potencial terapêutico e reversibilidade",
+    "texto": "Por não haver dano na fita de nucleotídeos, esse bloqueio transcricional é passível de reversão farmacológica pelo uso de **inibidores de histona desacetilase (iHDACs)**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A baixa acetilação de histonas induz substituições de bases nitrogenadas e quebras de fita dupla no DNA promotor.",
+    "porque": "Modificações pós-traducionais de histonas são puramente **epigenéticas**, alterando apenas a conformação tridimensional da cromatina sem provocar mutações estruturais na **fita primária de nucleotídeos**."
+   },
+   {
+    "frase": "A heterocromatina condensada promove o recrutamento prioritário da RNA polimerase II por aproximar os éxons distais.",
+    "porque": "A condensação da cromatina gera **impedimento estérico**, bloqueando o acesso de fatores de transcrição e da **RNA polimerase II** à região promotora."
+   },
+   {
+    "frase": "O silenciamento epigenético de supressores tumorais ocorre de forma estritamente isolada e irreversível.",
+    "porque": "Marcas epigenéticas atuam de forma coordenada (desacetilação associada à **hipermetilação de DNA**) e são farmacologicamente **reversíveis**."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 15 (Genética do Câncer) e Slide da aula VAT2 · Oncogenética"
+ },
+ "LPROVA1-16": {
+  "titulo": "Oncogenética — Ativação de Oncogenes por Ganho de Função e Efeito Dominante",
+  "topicos": [
+   {
+    "rotulo": "Conceito de ganho de função",
+    "texto": "A transformação de proto-oncogenes em oncogenes gera proteínas com **atividade biológica autônoma ou desregulada**, que emitem sinais de proliferação e sobrevida celular independentes de fatores de crescimento fisiológicos.",
+    "sub": []
+   },
+   {
+    "rotulo": "Ação dominante no nível celular",
+    "texto": "Diferente dos genes supressores de tumor, a mutação ativadora em **apenas um dos alelos (heterozigose)** é suficiente para conferir a vantagem proliferativa à célula tumoral.",
+    "sub": []
+   },
+   {
+    "rotulo": "Mecanismos estruturais de ativação",
+    "texto": "A desregulação oncogênica pode ser impulsionada por diferentes alterações genômicas.",
+    "sub": [
+     {
+      "rotulo": "Rearranjos e fusões gênicas",
+      "texto": "Translocações balanceadas criam **genes quiméricos** que codificam quinases constitutivamente ativas (como o gene BCR-ABL na leucemia mieloide crônica).",
+      "sub": []
+     },
+     {
+      "rotulo": "Mutações pontuais e amplificações",
+      "texto": "Mutações missense travam a proteína no estado ativado (ex.: **família RAS**) ou a amplificação gênica gera superexpressão extrema de receptores de membrana (ex.: **HER2/ERBB2**).",
+      "sub": []
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Oncogenes celulares dependem da inativação bialélica (two-hit de Knudson) para desencadear a progressão neoplásica.",
+    "porque": "A necessidade de inativação de ambos os alelos por perda de função é o mecanismo clássico dos **genes supressores de tumor**, enquanto oncogenes atuam por **ganho de função monoalélico dominante**."
+   },
+   {
+    "frase": "Quinases quiméricas formadas por translocações perdem sua capacidade fosforiladora intracelular.",
+    "porque": "A fusão estrutural remove domínios inibitórios normais, tornando o domínio tirosina-quinase **hiperativo e constitutivamente fosforilador**."
+   },
+   {
+    "frase": "A ativação de proto-oncogenes no câncer decorre predominantemente de mutações que interrompem a tradução por códons de parada precoces.",
+    "porque": "Códons de parada prematuros geram perda de função proteica por truncamento, ao passo que oncogenes exigem manutenção e hiperativação da **proteína oncogênica** funcional."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 15 (Genética do Câncer) e Slide da aula VAT2 · Oncogenética"
+ },
+ "LPROVA1-17": {
+  "titulo": "Diagnóstico Pré-Natal — Rastreamento por cfDNA vs. Procedimentos Invasivos",
+  "topicos": [
+   {
+    "rotulo": "cfDNA / NIPT como Ferramenta de Rastreamento",
+    "texto": "O DNA fetal livre circulante no plasma materno (**cfDNA**) é um teste de **triagem (screening)**, não diagnóstico, que calcula o risco estatístico para as principais trissomias. Diante de um resultado de alto risco, a confirmação por **método invasivo** é obrigatória.",
+    "sub": []
+   },
+   {
+    "rotulo": "Origem Biológica e Discordâncias Feto-Placentárias",
+    "texto": "A fração fetal do cfDNA deriva predominantemente da apoptose de células do **trofoblasto placentário**, e não diretamente do feto.",
+    "sub": [
+     {
+      "rotulo": "Mosaicismo Placentário Confinado (CPM)",
+      "texto": "Ocorre quando a anomalia cromossômica está restrita à **placenta**, enquanto o feto é diploide normal (ou vice-versa), resultando em discordâncias no cfDNA.",
+      "sub": []
+     },
+     {
+      "rotulo": "Gêmeo Desaparecido (Vanishing Twin)",
+      "texto": "A retenção ou reabsorção de um concepto aneuploide inviável pode liberar **DNA trofoblástico residual**, gerando falso-positivos na análise materna.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Procedimentos Invasivos Diagnósticos",
+    "texto": "Permitem a obtenção de material para análise citogenética definitiva (**cariótipo convencional, FISH ou CMA**).",
+    "sub": [
+     {
+      "rotulo": "Biópsia de Vilo Corial (BVC)",
+      "texto": "Executada entre a **10ª e 13ª semanas** de gestação, aspirando vilosidades coriônicas para diagnóstico citogenético precoce.",
+      "sub": []
+     },
+     {
+      "rotulo": "Amniocentese",
+      "texto": "Realizada tipicamente a partir da **15ª ou 16ª semana**, coletando líquido amniótico com **amniócitos fetais diretos**, apresentando menor índice de discrepância por mosaicismo placentário.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Manejo da Translucência Nucal (TN) Aumentada",
+    "texto": "O achado ultrassonográfico de **translucência nucal aumentada** (> 3,5 mm ou > p95) associa-se a microdeleções e anomalias cardíacas estruturais, indicando diretamente a realização de **teste diagnóstico invasivo**, sem substituir pela triagem com cfDNA.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O teste de cfDNA (NIPT) é considerado padrão-ouro diagnóstico definitivo para aneuploidias, dispensando a confirmação por amniocentese.",
+    "porque": "O cfDNA é um exame de rastreamento baseado em tecido trofoblástico, vulnerável a resultados falso-positivos por mosaicismo placentário confinado."
+   },
+   {
+    "frase": "Quando a translucência nucal está aumentada no primeiro trimestre, o primeiro passo indicado é solicitar o cfDNA materno em vez de procedimento invasivo.",
+    "porque": "A TN aumentada requer avaliação citogenética/genômica invasiva completa (como cariótipo ou microarray), extrapolando a abrangência do NIPT convencional."
+   },
+   {
+    "frase": "A biópsia de vilo corial é o exame de escolha após a 16ª semana gestacional devido à maior representatividade dos amniócitos.",
+    "porque": "A BVC é restrita ao primeiro trimestre (10-13 semanas); após a 15ª semana, o procedimento padrão indicado é a amniocentese."
+   }
+  ],
+  "fonte": "Aula VAT1 · Diagnóstico pré-natal de doenças e síndromes genéticas e Thompson & Thompson · Genética Médica, Cap. 17"
+ },
+ "LPROVA1-18": {
+  "titulo": "Síndrome de Turner — Variabilidade citogenética e limites diagnósticos",
+  "topicos": [
+   {
+    "rotulo": "Espectro citogenético",
+    "texto": "A síndrome abrange diferentes constituições cromossômicas envolvendo o cromossomo X:",
+    "sub": [
+     {
+      "rotulo": "Monossomia completa (45,X)",
+      "texto": "Corresponde a cerca de **50% dos casos**, originada predominantemente por não disjunção meiótica paterna ou perda cromossômica precoce.",
+      "sub": []
+     },
+     {
+      "rotulo": "Mosaicismos e anomalias estruturais",
+      "texto": "Inclui linhagens celulares múltiplas (**45,X/46,XX**, 45,X/46,XY) e alterações estruturais como **isocromossomo do braço longo [i(Xq)]** e cromossomos em anel.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Limitações do rastreamento por cfDNA",
+    "texto": "O cfDNA possui menor valor preditivo positivo para monossomia do X devido à alta interferência de **mosaicismo placentário confinado** e à perda de cromossomo X em células maternas pelo envelhecimento.",
+    "sub": []
+   },
+   {
+    "rotulo": "Sensibilidade da contagem celular",
+    "texto": "A contagem padrão de **20 metáfases** no cariótipo exclui com segurança apenas mosaicismos elevados (acima de 14%), sendo incapaz de descartar **mosaicismos de baixa proporção**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A análise microscópica de 20 metáfases com resultado 46,XX descarta categoricamente qualquer hipótese de mosaicismo associado à síndrome de Turner.",
+    "porque": "A contagem de 20 metáfases possui **limitação estatística**, falhando na exclusão de clones anormais presentes em baixa proporção tecidual."
+   },
+   {
+    "frase": "O teste de cfDNA com indicativo de monossomia do cromossomo X é confirmatório e autoriza o diagnóstico sem estudo fetal invasivo.",
+    "porque": "O cfDNA analisa fragmentos de **origem trofoblástica**, e discrepâncias por mosaicismo confinado ou perda clonal materna de X tornam indispensável o cariótipo invasivo."
+   }
+  ],
+  "fonte": "Ribeiro (2021): Síndromes genéticas: reconhecer para tratar, Cap. 1.4 / Thompson & Thompson: Genética Médica, Cap. 6"
+ },
+ "LPROVA1-19": {
+  "titulo": "Herança Multifatorial — Interação Poligênica, Fatores Ambientais e Limiar",
+  "topicos": [
+   {
+    "rotulo": "Arquitetura poligênica",
+    "texto": "Doenças complexas decorrem da ação cumulativa de **múltiplas variantes genéticas de efeito individual modesto (poligenes)**, sem um único defeito genético determinante.",
+    "sub": []
+   },
+   {
+    "rotulo": "Interação gene-ambiente",
+    "texto": "A **agregação familiar** resulta do compartilhamento simultâneo de alelos de suscetibilidade e de **fatores ambientais e comportamentais comuns** (estilo de vida, dieta e exposições).",
+    "sub": []
+   },
+   {
+    "rotulo": "Ausência de segregação mendeliana",
+    "texto": "A condição não segue proporções mendelianas clássicas (como 25% ou 50%), manifestando-se clinicamente quando a suscetibilidade total ultrapassa um determinado **limiar de manifestação (modelo de limiar)**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Avaliação de risco e manejo",
+    "texto": "O aconselhamento baseia-se em **riscos empíricos de recorrência** e foca na intervenção sobre **fatores de risco clínicos modificáveis**, diferentemente do rastreamento de mutações monogênicas únicas.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A ocorrência de múltiplos casos de doença metabólica comum na mesma família confirma transmissão monogênica autossômica dominante.",
+    "porque": "Agregação familiar de enfermidades comuns reflete **predisposição poligênica com ambiente compartilhado**, e não herança mendeliana unigênica."
+   },
+   {
+    "frase": "O risco de recorrência para parentes de primeiro grau de afetados por condições multifatoriais é sempre matematicamente fixo em 50%.",
+    "porque": "Riscos percentuais fixos aplicam-se exclusivamente a padrões mendelianos estritos; em doenças multifatoriais, utilizam-se **tabelas de risco empírico** variáveis conforme o parentesco e a gravidade."
+   },
+   {
+    "frase": "Fatores comportamentais e estilo de vida não interferem no fenótipo de indivíduos portadores de variantes poligênicas de risco.",
+    "porque": "A penetrância clínica na herança complexa depende fundamentalmente do estímulo ambiental para impulsionar a vulnerabilidade além do **limiar patológico**."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 8 (Herança Complexa) e Slide da aula VAT2 · Aconselhamento genético"
+ },
+ "LPROVA1-20": {
+  "titulo": "Citogenética e Genética Molecular — Mosaicismo e Mutações Pós-zigóticas",
+  "topicos": [
+   {
+    "rotulo": "Definição de mosaicismo",
+    "texto": "Presença de **duas ou mais linhagens geneticamente distintas** em um mesmo indivíduo, todas derivadas de um **único concepto zigótico**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Origem temporal do evento",
+    "texto": "Decorre de erros mitóticos (como **não-disjunção mitótica**, anafase atrasada ou mutações gênicas espontâneas) ocorridos **após a fertilização** durante o desenvolvimento embrionário.",
+    "sub": []
+   },
+   {
+    "rotulo": "Distribuição tecidual heterogênea",
+    "texto": "A proporção de células portadoras da variante varia entre diferentes tecidos corporais, dependendo da linhagem embrionária e do estágio do desenvolvimento em que ocorreu o evento mutacional.",
+    "sub": []
+   },
+   {
+    "rotulo": "Classificação funcional",
+    "texto": "O impacto reprodutivo e clínico depende diretamente da linhagem afetada.",
+    "sub": [
+     {
+      "rotulo": "Mosaicismo somático",
+      "texto": "Restrito a células somáticas corporais, determinando manifestações clínicas assimétricas ou brandas, sem risco de transmissão direta à prole.",
+      "sub": []
+     },
+     {
+      "rotulo": "Mosaicismo germinativo (gonadal)",
+      "texto": "Acomete precursores dos gametas, permitindo a transmissão da variante aos descendentes mesmo em progenitores clinicamente assintomáticos.",
+      "sub": []
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O mosaicismo é definido pela fusão corporal de dois embriões zigóticos geneticamente distintos na cavidade uterina.",
+    "porque": "A coexistência de linhagens oriundas de zigotos distintos denomina-se **quimerismo**; o mosaicismo provém estritamente de um **único zigoto** pós-fertilização."
+   },
+   {
+    "frase": "Indivíduos com mosaicismo genético apresentam a mutação rigorosamente na proporção de 50% em qualquer biópsia tecidual realizada.",
+    "porque": "A distribuição celular da variante pós-zigótica é tipicamente **heterogênea e assimétrica** entre diferentes órgãos e tecidos."
+   },
+   {
+    "frase": "Mutações pós-zigóticas estritamente somáticas apresentam 50% de probabilidade de transmissão vertical mendeliana para cada filho.",
+    "porque": "Variantes somáticas não colonizam a **linhagem germinativa**, de modo que o risco de transmissão biológica para a prole é desprezível."
+   }
+  ],
+  "fonte": "Thompson & Thompson: Genética Médica, Cap. 7 (Padrões de Herança) e Slide da aula VAT1 · Alterações cromossômicas"
+ },
  "LQUAD-01": {
   "titulo": "Farmacogenética — Bioativação de Pré-drogas no Metabolizador Lento",
   "topicos": [
