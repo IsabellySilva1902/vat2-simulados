@@ -98,6 +98,9 @@
         ⬆️ Importar
         <input id="input-import-progress" type="file" accept="application/json" class="hidden">
       </label>
+      <button id="btn-reset-progress" title="Apagar o progresso deste simulado" aria-label="Apagar progresso" class="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-600 hover:bg-red-50 hover:text-red-700 dark:hover:bg-red-900/30 dark:hover:text-red-300">
+        🗑️ Apagar<span class="hidden sm:inline"> progresso</span>
+      </button>
     </div>
   </div>
 </header>
@@ -19399,6 +19402,16 @@ function applyImport(mode) {
   toast("Progresso importado.", "ok");
   renderHome();
 }
+// apaga só o progresso desta matéria (modo escuro e o guia "como usar" ficam)
+function resetProgress() {
+  const ok = confirm("Apagar todo o seu progresso no Simulado de Farmacologia Clínica II · VAT2 neste aparelho?\n\n" +
+    "Somem: questões vistas, histórico de tentativas, pontos fracos, revisão espaçada e acertos/erros " +
+    "(a plataforma de estudos também deixa de ver esses acertos).\n\n" +
+    "Não dá para desfazer. Se quiser guardar uma cópia antes, cancele e use \"Exportar\" no computador.");
+  if (!ok) return;
+  ["seen", "history", "weak", "srs", "answers", "current"].forEach((k) => localStorage.removeItem(LS_KEYS[k]));
+  location.reload();
+}
 
 /* =========================================================================
    14. MODO ESCURO
@@ -19587,6 +19600,7 @@ function init() {
 
   // Export/import progress
   document.getElementById("btn-export-progress").addEventListener("click", exportProgress);
+  document.getElementById("btn-reset-progress").addEventListener("click", resetProgress);
   document.getElementById("input-import-progress").addEventListener("change", (e) => {
     const file = e.target.files[0];
     if (file) handleImportFile(file);
