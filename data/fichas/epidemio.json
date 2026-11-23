@@ -5106,5 +5106,1708 @@
    }
   ],
   "fonte": "Aula VAT2 · Validade e confiabilidade (Slide: Acurácia e Curva ROC); Fletcher, Cap. 3; Rouquayrol, Cap. 8"
+ },
+ "VIG-20": {
+  "titulo": "Sistemas de Informação em Vigilância — Atributo de oportunidade e marcos temporais",
+  "topicos": [
+   {
+    "rotulo": "Conceito de oportunidade",
+    "texto": "Reflete a **rapidez e prontidão** com que as informações trafegam pelas diferentes etapas do sistema de vigilância, da ocorrência do agravo até a intervenção.",
+    "sub": []
+   },
+   {
+    "rotulo": "Marcos temporais críticos",
+    "texto": "A avaliação divide-se em intervalos sucessivos que determinam a eficácia das medidas epidemiológicas.",
+    "sub": [
+     {
+      "rotulo": "Início dos sintomas até notificação",
+      "texto": "Mede a **sensibilidade e precocidade da detecção** clínica pelos serviços de saúde ao identificar o caso suspeito.",
+      "sub": []
+     },
+     {
+      "rotulo": "Notificação até intervenção",
+      "texto": "Determina a **oportunidade da resposta**, definindo se medidas essenciais (como quimioprofilaxia de contatos e isolamento) foram executadas em tempo hábil para interromper cadeias de transmissão.",
+      "sub": []
+     },
+     {
+      "rotulo": "Tramitação e disseminação",
+      "texto": "Avalia a **agilidade no fluxo de dados** entre as esferas municipal, estadual e federal, além do retorno da informação à comunidade.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Impacto no controle de surtos",
+    "texto": "A perda da oportunidade no intervalo de intervenção anula a utilidade de uma notificação precoce, inviabilizando o **bloqueio oportuno de contatos íntimos** em agravos de alta transmissibilidade.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A oportunidade de um sistema de vigilância limita-se a mensurar o tempo decorrido entre os primeiros sintomas do paciente e o registro da notificação compulsória no SINAN.",
+    "porque": "A oportunidade compreende múltiplos marcos sequenciais, sendo crucial o intervalo entre a notificação e o início efetivo das medidas de prevenção, bloqueio e controle."
+   },
+   {
+    "frase": "Um sistema que notifica casos de meningite meningocócica em menos de 24 horas garante plena oportunidade, mesmo que a quimioprofilaxia ocorra após uma semana.",
+    "porque": "Se a intervenção profilática atrasar, o objetivo precípuo da vigilância de quebrar a cadeia de transmissão é frustrado, tornando a oportunidade da resposta inadequada."
+   },
+   {
+    "frase": "A oportunidade do sistema de vigilância é um atributo secundário quando a sensibilidade de captação de casos atinge 100%.",
+    "porque": "Captar todos os casos tardiamente é ineficaz para o controle de surtos, pois a oportunidade dita a capacidade de conter a disseminação antes da emergência de casos secundários."
+   }
+  ],
+  "fonte": "Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 13 (Vigilância Epidemiológica - Avaliação dos Sistemas de Vigilância) e Slide da aula VAT2 (Sistemas de Informação em Saúde)"
+ },
+ "VIG-14": {
+  "titulo": "Comunicação em Vigilância — Boletins epidemiológicos e transparência pública",
+  "topicos": [
+   {
+    "rotulo": "Definição e finalidade",
+    "texto": "Instrumento técnico e oficial que **sistematiza e analisa dados** sobre a situação de saúde de uma população em um território e período específicos.",
+    "sub": []
+   },
+   {
+    "rotulo": "Estrutura técnica essencial",
+    "texto": "Organiza a distribuição dos agravos segundo a **tríade epidemiológica clássica (tempo, lugar e pessoa)**, incorporando séries históricas, coeficientes de incidência, taxas de letalidade e estratificação espacial.",
+    "sub": []
+   },
+   {
+    "rotulo": "Dupla função da disseminação",
+    "texto": "A divulgação das informações cumpre papéis articulados de gestão e cidadania.",
+    "sub": [
+     {
+      "rotulo": "Retroalimentação aos serviços",
+      "texto": "Devolve as análises aos **profissionais e gestores de saúde**, orientando o planejamento, a alocação de recursos e mantendo a motivação para notificar.",
+      "sub": []
+     },
+     {
+      "rotulo": "Comunicação com a sociedade",
+      "texto": "Garante a **transparência pública**, educa a comunidade sobre riscos reais e estimula a adesão às medidas individuais e coletivas de proteção.",
+      "sub": []
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O boletim epidemiológico destina-se exclusivamente à circulação interna de gestores e técnicos, devendo os dados permanecer sob sigilo institucional para evitar pânico público.",
+    "porque": "A divulgação ampla à comunidade é diretriz basilar da vigilância, funcionando como ferramenta de transparência, educação em saúde e esclarecimento sobre riscos."
+   },
+   {
+    "frase": "A apresentação de números brutos de casos notificados é autossuficiente em um boletim epidemiológico, dispensando cálculos de taxas e análises territoriais.",
+    "porque": "Números brutos não consideram o contingente populacional sob risco; a análise epidemiológica exige taxas/coeficientes padronizados e contextualização temporal e espacial."
+   },
+   {
+    "frase": "A periodicidade de divulgação do boletim deve ser estritamente anual para assegurar o fechamento de bancos consolidados.",
+    "porque": "A periodicidade deve ser adaptada à dinâmica epidemiológica do evento (semanal ou diária em emergências e surtos; quinzenal ou mensal na rotina)."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 (Vigilância epidemiológica e diagramas de controle) e Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 13"
+ },
+ "VIG-02": {
+  "titulo": "Processo de Trabalho em Saúde — O ciclo integrado e contínuo da vigilância",
+  "topicos": [
+   {
+    "rotulo": "Definição legal e operativa",
+    "texto": "Conjunto de ações que proporciona o **conhecimento, a detecção ou prevenção** de mudanças nos determinantes e condicionantes de saúde, visando recomendar e adotar medidas de controle.",
+    "sub": []
+   },
+   {
+    "rotulo": "Etapas integradas do ciclo",
+    "texto": "Estrutura-se em um fluxo contínuo e ordenado que transforma dados primários em ações concretas no território.",
+    "sub": [
+     {
+      "rotulo": "Identificação e detecção",
+      "texto": "Captação de **casos suspeitos ou eventos de saúde** pelas redes de atenção a partir de critérios e definições operacionais padronizadas.",
+      "sub": []
+     },
+     {
+      "rotulo": "Notificação e investigação",
+      "texto": "Registro sistemático e **elucidação epidemiológica em campo** para identificar fatores predisponentes, fontes de contaminação e contatos sob risco.",
+      "sub": []
+     },
+     {
+      "rotulo": "Análise e recomendação",
+      "texto": "Transformação de dados em **indicadores e inteligência epidemiológica**, fundamentando as intervenções técnicas mais adequadas.",
+      "sub": []
+     },
+     {
+      "rotulo": "Intervenção e controle",
+      "texto": "Aplicação imediata das **ações profiláticas e preventivas** para bloquear a transmissão e reduzir danos à população.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Retroalimentação contínua",
+    "texto": "O monitoramento dos resultados das intervenções **retroalimenta a base de conhecimento**, ajustando o planejamento e gerando um processo cíclico ininterrupto.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O ciclo da vigilância epidemiológica encerra-se definitivamente no momento em que o agravo é inserido no banco de dados e notificado à autoridade superior.",
+    "porque": "A notificação é apenas uma etapa intermediária; o objetivo final da vigilância é desencadear medidas de intervenção, monitorar o impacto e retroalimentar o sistema."
+   },
+   {
+    "frase": "A fase de intervenção e execução de medidas de controle independe da análise prévia de dados e da inteligência epidemiológica acumulada.",
+    "porque": "Ações de controle eficazes demandam subsídios técnicos provenientes da análise de tempo, espaço, determinantes de risco e características do agravo."
+   },
+   {
+    "frase": "O ciclo da vigilância é unidirecional e linear, de modo que os resultados das intervenções executadas não necessitam retornar às equipes de detecção.",
+    "porque": "O ciclo é essencialmente retroalimentado; os desfechos das ações de controle fornecem novas informações para aprimorar a capacidade de detecção futura e o planejamento."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 (Vigilância epidemiológica e diagramas de controle) e Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 13"
+ },
+ "VIG-24": {
+  "titulo": "Diagramas de Controle — Interpretação do Limite Inferior de Controle (LIC)",
+  "topicos": [
+   {
+    "rotulo": "Arquitetura do diagrama",
+    "texto": "Ferramenta gráfica que delimita a **faixa endêmica esperada (variação habitual)** a partir de séries históricas de anos não epidêmicos, estabelecendo o limite superior (LSC) e o limite inferior (LIC).",
+    "sub": []
+   },
+   {
+    "rotulo": "Significado do comportamento abaixo do LIC",
+    "texto": "A observação de coeficientes ou números de casos abaixo da linha do LIC funciona como um **sinal de alerta epidemiológico**, exigindo investigação técnica das causas subjacentes.",
+    "sub": [
+     {
+      "rotulo": "Hipótese de sucesso epidemiológico",
+      "texto": "Pode representar uma **redução real da transmissão**, reflexo do impacto positivo de intervenções preventivas, ampliação da cobertura vacinal ou interrupção de cadeias de contágio.",
+      "sub": []
+     },
+     {
+      "rotulo": "Hipótese de falha operacional",
+      "texto": "Com frequência indica **subnotificação de casos**, desabastecimento de insumos diagnósticos, perda de sensibilidade da rede sentinela ou represamento no fluxo de envio das fichas.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Conduta do serviço",
+    "texto": "Valores abaixo do LIC jamais devem ser recebidos com complacência passiva; impõe-se a realização de **busca ativa e auditoria de registros** para afastar inconsistências do sistema.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A incidência observada abaixo do LIC atesta inequivocamente a eliminação definitiva da doença e o sucesso absoluto das medidas de controle em saúde pública.",
+    "porque": "Casos abaixo do LIC representam um sinal de alerta e exigem investigação diferencial entre decréscimo real da incidência e graves falhas operacionais, como subnotificação."
+   },
+   {
+    "frase": "O diagrama de controle tem utilidade restrita à identificação de surtos e epidemias quando o LSC é superado, sendo irrelevante a análise dos pontos abaixo da média ou do LIC.",
+    "porque": "O monitoramento do limite inferior é vital para identificar quedas na adesão às notificações, represamento de fichas ou alterações de sensibilidade na rede notificadora."
+   },
+   {
+    "frase": "Sempre que a incidência cai abaixo do LIC, deve-se interromper imediatamente as medidas de vigilância epidemiológica e desmobilizar as equipes territoriais.",
+    "porque": "Quedas artificiais decorrentes de subnotificação mascaram a circulação do agravo; a desmobilização precoce pode culminar em surtos epidêmicos não detectados."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 (Vigilância epidemiológica e diagramas de controle) e Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 5 (Processos Endêmico e Epidêmico)"
+ },
+ "VIG-15": {
+  "titulo": "Equipe Multiprofissional em Vigilância — Divisão técnica e analítica do trabalho",
+  "topicos": [
+   {
+    "rotulo": "Princípio da interdisciplinaridade",
+    "texto": "A vigilância estrutura-se em um modelo cooperativo em que a **especialização de competências** assegura agilidade desde a coleta de campo até a tomada de decisão gerencial.",
+    "sub": []
+   },
+   {
+    "rotulo": "Papel do Epidemiologista / Sanitarista",
+    "texto": "Responsável central pela **análise de indicadores de saúde**, interpretação de tendências temporais/espaciais, reconhecimento de cenários de risco e formulação de recomendações estratégicas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Papéis complementares analíticos e gerenciais",
+    "texto": "Integração das funções de inteligência e governança clínica na equipe.",
+    "sub": [
+     {
+      "rotulo": "Analista de dados / Estatístico",
+      "texto": "Responsável pela **organização, qualificação e processamento** dos bancos de dados, higienização dos registros e geração de tabelas e modelos matemáticos de apoio.",
+      "sub": []
+     },
+     {
+      "rotulo": "Enfermeiro",
+      "texto": "Atua com protagonismo na **coordenação de fluxos operacionais**, supervisão de protocolos, monitoramento contínuo de coortes e acompanhamento das notificações.",
+      "sub": []
+     },
+     {
+      "rotulo": "Médico",
+      "texto": "Provedor de **apoio técnico-clínico na investigação**, validação de critérios diagnósticos diferenciais e subsídio no manejo terapêutico de casos graves ou complexos.",
+      "sub": []
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Ao epidemiologista compete prioritariamente a digitação e conferência mecânica das fichas de notificação compulsória no sistema informatizado local.",
+    "porque": "O epidemiologista tem papel analítico e estratégico de interpretação de dados, cálculo de indicadores e detecção de tendências; o registro e encaminhamento cabem à área de apoio/administrativa."
+   },
+   {
+    "frase": "A equipe de vigilância epidemiológica dispensa profissionais de estatística e análise de dados, uma vez que a avaliação clínica médica abrange todas as demandas bioestatísticas.",
+    "porque": "A bioestatística e a ciência de dados exigem competência específica para modelagem, consistência de bancos de grande volume e controle de duplicidades."
+   },
+   {
+    "frase": "O médico da equipe de vigilância é o único profissional legalmente habilitado para elaborar e assinar relatórios de análise de tendências epidemiológicas.",
+    "porque": "A interpretação e análise de indicadores populacionais e tendências são atribuições típicas do epidemiologista e sanitarista, em trabalho compartilhado com a equipe multiprofissional."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 (Vigilância epidemiológica e diagramas de controle - Composição da equipe) e Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 13"
+ },
+ "VIG-04": {
+  "titulo": "Equipe Multiprofissional em Vigilância — Integração clínico-operacional e campo",
+  "topicos": [
+   {
+    "rotulo": "Complementaridade clínica e territorial",
+    "texto": "O êxito das intervenções depende da sinergia entre o **conhecimento propedêutico individual** dos profissionais de saúde e a **intervenção direta no território**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Atribuição médica na vigilância",
+    "texto": "Fornece **apoio técnico à investigação clínica**, define critérios sindrômicos e diagnósticos, realiza exame de pacientes suspeitos e avalia clinicamente a gravidade e os óbitos do evento.",
+    "sub": []
+   },
+   {
+    "rotulo": "Atuações operacionais e territoriais de campo",
+    "texto": "Ações integradas de contato direto com a comunidade e controle ambiental.",
+    "sub": [
+     {
+      "rotulo": "Agente de Combate às Endemias (ACE)",
+      "texto": "Executa a **identificação e o controle de vetores**, visitas domiciliares a criadouros, aplicação de larvicidas e ações profiláticas ambientais no território.",
+      "sub": []
+     },
+     {
+      "rotulo": "Técnico e auxiliar de enfermagem",
+      "texto": "Presta **apoio na coleta de dados**, auxílio nas buscas ativas comunitárias, rastreamento de faltosos e monitoramento básico de casos nos serviços.",
+      "sub": []
+     },
+     {
+      "rotulo": "Agente administrativo",
+      "texto": "Garante a **organização documental, registro de entrada**, conferência inicial e encaminhamento tempestivo de notificações nos prazos regulamentares.",
+      "sub": []
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A investigação de campo e as medidas de bloqueio vetorial em domicílios competem privativamente ao médico sanitarista da unidade.",
+    "porque": "As ações diretas de campo, como controle vetorial, inspeção ambiental e eliminação de criadouros, são atribuições fundamentais do Agente de Combate às Endemias (ACE)."
+   },
+   {
+    "frase": "O papel do médico na vigilância epidemiológica limita-se ao preenchimento de atestados de óbito, sem interface com a validação diagnóstica de surtos.",
+    "porque": "O médico oferece apoio técnico essencial na elucidação diagnóstica, avaliação clínica de casos complexos e definição do nexo causal e fisiopatológico na investigação de surtos."
+   },
+   {
+    "frase": "As atribuições de agentes de combate às endemias e técnicos de enfermagem são redundantes, podendo o ACE assumir a coordenação e o rastreamento clínico de casos.",
+    "porque": "Cada categoria possui competências regulamentadas distintas: o ACE atua prioritariamente no controle de vetores e ambiente; os profissionais de enfermagem concentram-se no cuidado e monitoramento clínico."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 (Vigilância epidemiológica e diagramas de controle - Composição da equipe)"
+ },
+ "VIG-01": {
+  "titulo": "Vigilância Epidemiológica — Conceito legal e finalidade operacional",
+  "topicos": [
+   {
+    "rotulo": "Definição legal (Lei 8.080/1990)",
+    "texto": "Define-se formalmente como um **conjunto articulado de ações** que proporciona o **conhecimento, a detecção ou prevenção** de qualquer mudança nos fatores determinantes e condicionantes da saúde individual ou coletiva.",
+    "sub": []
+   },
+   {
+    "rotulo": "Finalidade precípua",
+    "texto": "Apresenta como objetivo finalístico **recomendar e adotar medidas de prevenção e controle** de doenças e agravos, consolidando a doutrina sanitária de **informação para a ação**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Evolução do escopo",
+    "texto": "Superou o modelo clássico restrito ao **isolamento individual e quarentena de contatos** em doenças transmissíveis, passando a integrar uma **abordagem populacional contínua** voltada a determinantes biológicos, ambientais, sociais e agravos crônicos.",
+    "sub": []
+   },
+   {
+    "rotulo": "Integração no modelo brasileiro",
+    "texto": "Diferente de sistemas internacionais que apenas produzem inteligência analítica, no SUS a vigilância reúne no mesmo arcabouço a **produção de informação epidemiológica** e a **execução de intervenções diretas** de controle em nível locorregional.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A vigilância epidemiológica restringe-se à coleta passiva e consolidação de dados estatísticos, cabendo unicamente à rede de assistência clínica a prescrição e execução de medidas de intervenção.",
+    "porque": "A legislação orgânica do SUS atribui expressamente à vigilância a responsabilidade técnica não só de conhecer e recomendar, mas também de adotar e orientar as medidas executivas de prevenção e controle."
+   },
+   {
+    "frase": "As ações de vigilância epidemiológica têm sua aplicabilidade circunscrita exclusivamente às doenças transmissíveis agudas de notificação compulsória imediata.",
+    "porque": "O conceito moderno institucionalizado pela Lei 8.080/1990 abrange os fatores condicionantes e determinantes da saúde, monitorando também doenças crônicas não transmissíveis, causas externas e saúde ambiental."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 · Vigilância epidemiológica e diagramas de controle; Rouquayrol · Epidemiologia & Saúde, Cap. 13 (Vigilância em Saúde Pública)"
+ },
+ "VIG-29": {
+  "titulo": "Conceito de Normalidade Epidemiológica — Comportamento endêmico e limiar nulo",
+  "topicos": [
+   {
+    "rotulo": "Normalidade epidemiológica vs. clínica",
+    "texto": "Em epidemiologia descritiva e vigilância, **normalidade não é sinônimo de ausência de doença ou benignidade**, mas sim de **habitualidade e previsibilidade histórica** da ocorrência de um agravo em dada população e recorte temporal.",
+    "sub": []
+   },
+   {
+    "rotulo": "Definição de endemia",
+    "texto": "Reflete a presença constante de uma afecção que evolui dentro de uma faixa estatisticamente esperada (**canal endêmico**), sem indicar descontrole no equilíbrio do processo saúde-doença local.",
+    "sub": []
+   },
+   {
+    "rotulo": "Agravos com limiar nulo",
+    "texto": "Para doenças eliminadas, erradicadas ou sem transmissão autóctone estabelecida na região, o padrão de referência historicamente esperado é a **ausência total de casos**.",
+    "sub": [
+     {
+      "rotulo": "Ruptura de padrão",
+      "texto": "A ocorrência de um **único caso autóctone** rompe a expectativa histórica e já configura formalmente uma **epidemia ou emergência sanitária**, deflagrando ações imediatas de bloqueio vacinal e busca ativa."
+     },
+     {
+      "rotulo": "Exemplos clássicos",
+      "texto": "Patologias sob vigilância de eliminação, como **varíola, poliomielite por poliovírus selvagem** ou **sarampo** em territórios certificados, têm limiar endêmico zero."
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Uma doença em nível endêmico é classificada como normal por apresentar quadro clínico de baixa gravidade e impacto individual desprezível na morbimortalidade.",
+    "porque": "A qualificação de normalidade é puramente quantitativo-populacional, referindo-se à concordância com o padrão temporal historicamente esperado, independentemente da letalidade ou gravidade clínica do agravo."
+   },
+   {
+    "frase": "A caracterização de um processo epidêmico exige obrigatoriamente a observação de um volume expressivo e acumulado de dezenas ou centenas de novos casos.",
+    "porque": "Em doenças com incidência histórica esperada igual a zero, a constatação de um único caso autóctone já constitui excesso estatístico e caracteriza uma epidemia."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 · Vigilância epidemiológica e diagramas de controle; Rouquayrol · Epidemiologia & Saúde, Cap. 5 (Epidemias)"
+ },
+ "VIG-23": {
+  "titulo": "Diagrama de Controle — Concepção metodológica e estrutura gráfica",
+  "topicos": [
+   {
+    "rotulo": "Finalidade operacional",
+    "texto": "É um instrumento dinâmico em coordenadas cartesianas construído para o acompanhamento contínuo da **evolução da incidência**, permitindo discriminar a variação esperada de uma **elevação epidêmica inusitada**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Componentes gráficos integrados",
+    "texto": "Sua leitura baseia-se na sobreposição cronológica de dois traçados técnicos distintos:",
+    "sub": [
+     {
+      "rotulo": "Gráfico de controle",
+      "texto": "Representa a **faixa endêmica (canal endêmico)** delimitada pelos **limites inferior e superior endêmicos**, estimada com base em séries históricas prévias de 5 a 10 anos endêmicos."
+     },
+     {
+      "rotulo": "Gráfico de acompanhamento",
+      "texto": "Consiste na linha poligonal ou sequência de pontos alimentada com os **dados observados contemporâneos**, plotados semana a semana ou mês a mês."
+     }
+    ]
+   },
+   {
+    "rotulo": "Critério de alerta sanitário",
+    "texto": "O sistema entra em estado de alarme quando a curva do gráfico de acompanhamento atinge ou ultrapassa o **limite superior endêmico (limiar epidêmico)**, caracterizando a transição para o **nível epidêmico**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O diagrama de controle é estruturado unicamente a partir do registro dos casos incidentes da série atual, dispensando o cálculo de referências históricas do agravo.",
+    "porque": "O gráfico de controle exige obrigatoriamente dados históricos de anos anteriores para delimitar o corredor endêmico com o qual os dados atuais serão contrastados."
+   },
+   {
+    "frase": "O limiar epidêmico do diagrama de controle corresponde à média aritmética dos casos registrados ao longo da série histórica anterior.",
+    "porque": "A média histórica define o centro do canal endêmico; o limiar epidêmico é o limite superior da faixa de segurança, calculado por metodologias estatísticas como média mais desvios-padrão ou terceiro quartil."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 · Vigilância epidemiológica e diagramas de controle; Rouquayrol · Epidemiologia & Saúde, Cap. 5 (Epidemias)"
+ },
+ "VIG-16": {
+  "titulo": "Curvas Epidêmicas — Exposição única a veículo comum vs. transmissão propagada",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo da fonte comum pontual",
+    "texto": "Verifica-se quando uma coorte de suscetíveis é exposta de forma **simultânea e circunscrita** a uma mesma fonte contaminada (como alimento ou água em evento pontual), cessando a exposição rapidamente.",
+    "sub": []
+   },
+   {
+    "rotulo": "Morfologia e significado biológico",
+    "texto": "Gera um histograma de **curva unimodal explosiva** com subida abrupta e cauda descendente suave, cuja distribuição reflete exatamente a **variabilidade dos períodos de incubação** dos hospedeiros infectados.",
+    "sub": []
+   },
+   {
+    "rotulo": "Propriedade log-normal",
+    "texto": "Quando o tempo decorrido desde a exposição é transformado em **escala logarítmica**, a curva assimétrica aproxima-se de uma **distribuição normal**, facilitando a estimativa precisa da **mediana do período de incubação**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Contraste com epidemias propagadas",
+    "texto": "Diferencia-se dos surtos de contato interpessoal ou vetoriais, os quais desenvolvem **ondas sucessivas e polimodais** com progressão lenta, decorrentes de múltiplas gerações de transmissão em cadeia.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A curva epidêmica de um surto de exposição única a veículo comum caracteriza-se por ondas cíclicas e múltiplos picos sucessivos em decorrência de casos secundários entre contatos.",
+    "porque": "Em surtos pontuais de fonte comum, casos secundários por transmissão pessoa a pessoa são raros; o histograma é unimodal e representa apenas o período de incubação dos expostos primários."
+   },
+   {
+    "frase": "A dispersão temporal observada na curva de um surto pontual ocorre porque os indivíduos ingeriram o inóculo microbiano em momentos diferentes e dias espaçados.",
+    "porque": "Na exposição única, a contaminação ocorre no mesmo instante para todos os acometidos; o espaçamento do início dos sintomas decorre puramente da variabilidade biológica do período de incubação individual."
+   }
+  ],
+  "fonte": "Gordis · Epidemiologia, Cap. 2 (Dinâmica da Transmissão das Doenças); Rouquayrol · Epidemiologia & Saúde, Cap. 5 (Epidemias)"
+ },
+ "VIG-17": {
+  "titulo": "Investigação de Surtos — Modulação de sensibilidade e especificidade na definição de caso",
+  "topicos": [
+   {
+    "rotulo": "Definição operacional de caso",
+    "texto": "Consiste em um conjunto padronizado de critérios que integra elementos de **tempo, lugar e pessoa**, associados a achados clínicos e/ou exames laboratoriais complementares.",
+    "sub": []
+   },
+   {
+    "rotulo": "Estratégia metodológica progressiva",
+    "texto": "A equipe de campo modula propositalmente a acurácia diagnóstica conforme o avanço das etapas da investigação:",
+    "sub": [
+     {
+      "rotulo": "Fase inicial (alta sensibilidade)",
+      "texto": "Emprega critérios amplos para **captar o maior número de potenciais doentes**, minimizando falsos-negativos e orientando **medidas urgentes de controle e contenção territorial**."
+     },
+     {
+      "rotulo": "Fases avançadas (alta especificidade)",
+      "texto": "Introduz critérios laboratoriais e confirmatórios rígidos para **excluir falsos-positivos**, garantindo que apenas casos verdadeiros sejam computados na caracterização analítica e no encerramento do surto."
+     }
+    ]
+   },
+   {
+    "rotulo": "Comportamento do valor preditivo",
+    "texto": "O uso de definições operacionais ultrassensíveis no início da investigação tolera propositalmente um **menor valor preditivo positivo**, priorizando a segurança coletiva frente ao rigor confirmatório.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "No momento inicial da investigação de um surto em campo, deve-se adotar critérios diagnósticos de máxima especificidade para evitar notificações indevidas e desperdício de recursos.",
+    "porque": "Uma definição altamente específica no início geraria muitos falsos-negativos, deixando fontes de transmissão e indivíduos infectados à margem das medidas imediatas de bloqueio."
+   },
+   {
+    "frase": "A definição de caso precisa manter-se rigorosamente inalterada ao longo de todas as etapas da investigação de campo para preservar a validade interna do estudo epidemiológico.",
+    "porque": "A metodologia epidemiológica de surto preconiza a modulação adaptativa, partindo de definições de caso suspeito (sensíveis) para definições de caso confirmado (específicas)."
+   }
+  ],
+  "fonte": "Rouquayrol · Epidemiologia & Saúde, Cap. 13 (Vigilância em Saúde Pública); Gordis · Epidemiologia, Cap. 2 (Dinâmica da Transmissão das Doenças)"
+ },
+ "VIG-22": {
+  "titulo": "Comportamento Temporal das Doenças — Sazonalidade vs. Variações Atípicas",
+  "topicos": [
+   {
+    "rotulo": "Padrão sazonal",
+    "texto": "Expressa a flutuação periódica, cíclica e **historicamente previsível da incidência**, associada a condições climáticas, hábitos sociais ou dinâmica de vetores que se repetem em épocas fixas do ano.",
+    "sub": []
+   },
+   {
+    "rotulo": "Representação no diagrama",
+    "texto": "A sazonalidade já se encontra **incorporada ao desenho do canal endêmico**, de modo que os limites inferior e superior do gráfico de controle elevam-se naturalmente nos períodos habituais de maior transmissão.",
+    "sub": []
+   },
+   {
+    "rotulo": "Variação atípica (nível epidêmico)",
+    "texto": "Configura-se quando os casos observados **superam o limite superior endêmico (limiar epidêmico)** estabelecido para aquele mês ou semana epidemiológica, denunciando um excesso estatístico e ecológico real.",
+    "sub": []
+   },
+   {
+    "rotulo": "Diferenciação conceitual de prova",
+    "texto": "O incremento de casos ocorrido durante o período de pico sazonal mantém-se como **variação endêmica habitual** desde que permaneça abaixo do limite superior projetado para aquele mesmo período do calendário.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Toda elevação aguda na incidência de uma doença respiratória registrada durante os meses de inverno deve ser automaticamente classificada como variação atípica e epidêmica.",
+    "porque": "Se o número de casos situar-se abaixo do limite superior endêmico calculado para a estação fria na série histórica, trata-se de comportamento sazonal normal esperado."
+   },
+   {
+    "frase": "A sazonalidade das doenças impede a detecção precoce de epidemias no diagrama de controle, pois distorce a média anual de casos.",
+    "porque": "O diagrama de controle é construído com limites específicos para cada período unitário (mês a mês ou semana a semana), neutralizando o efeito sazonal ao avaliar excessos pontuais."
+   }
+  ],
+  "fonte": "Slide da aula VAT2 · Vigilância epidemiológica e diagramas de controle; Rouquayrol · Epidemiologia & Saúde, Cap. 4 (Variáveis em Epidemiologia) e Cap. 5 (Epidemias)"
+ },
+ "VIG-28": {
+  "titulo": "Distribuição temporal de doenças — Variações cíclicas e dinâmica de suscetíveis",
+  "topicos": [
+   {
+    "rotulo": "Conceito de variação cíclica",
+    "texto": "Corresponde a oscilações periódicas e regulares na frequência de agravos que ocorrem em **intervalos plurianuais**, ou seja, em períodos superiores a 12 meses. Esse comportamento independe de a tendência secular de longo prazo ser ascendente, descendente ou estacionária.",
+    "sub": []
+   },
+   {
+    "rotulo": "Dinâmica populacional de suscetíveis",
+    "texto": "A ciclicidade é primariamente explicada pelo acúmulo gradual de **indivíduos suscetíveis** por nascimentos ou migração até atingir densidade crítica. A eclosão epidêmica subsequente consome essa massa de suscetíveis por **imunidade pós-infecção**, gerando uma fase de remissão até nova recomposição.",
+    "sub": []
+   },
+   {
+    "rotulo": "Variação cíclica vs. Sazonalidade",
+    "texto": "A distinção baseia-se na extensão temporal e nos fatores determinantes do ciclo de transmissão.",
+    "sub": [
+     {
+      "rotulo": "Variação sazonal",
+      "texto": "Apresenta repetição periódica estrita dentro do ciclo anual de **doze meses**, sendo modulada diretamente por fatores climáticos, estações do ano e hábitos sociais transitórios."
+     },
+     {
+      "rotulo": "Variação cíclica",
+      "texto": "Ultrapassa o ano civil com intervalos de **dois a vários anos**, dependendo essencialmente do ritmo biológico de renovação do contingente de suscetíveis."
+     }
+    ]
+   },
+   {
+    "rotulo": "Impacto das intervenções em saúde",
+    "texto": "Campanhas de **vacinação sistemática** alteram artificialmente a proporção de imunes, sendo capazes de alargar os intervalos entre os ciclos ou abolir a ciclicidade natural observada em doenças como sarampo e difteria.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Flutuações epidêmicas que se repetem a cada três ou quatro anos configuram variações sazonais determinadas pelo clima.",
+    "porque": "A sazonalidade ocorre estritamente dentro de uma janela de 12 meses ligada às estações do ano; flutuações com periodicidade plurianual denominam-se variações cíclicas."
+   },
+   {
+    "frase": "O esgotamento de suscetíveis em uma epidemia cíclica é decorrente unicamente da mortalidade dos indivíduos acometidos.",
+    "porque": "O esgotamento da fração suscetível decorre principalmente da aquisição de imunidade protetora natural pelos sobreviventes da infecção ou pela indução vacinal."
+   },
+   {
+    "frase": "A variação cíclica expressa a tendência secular de aumento contínuo de uma doença crônica ao longo de décadas.",
+    "porque": "Tendência secular refere-se à evolução histórica direcional em longo prazo, enquanto variação cíclica consiste em oscilações periódicas que retornam a patamares basais."
+   }
+  ],
+  "fonte": "Livro Rouquayrol · Epidemiologia & Saúde, Cap. 4 (Variáveis Relacionadas com o Tempo) e Aula VAT2 · Vigilância epidemiológica e diagramas de controle"
+ },
+ "VIG-07": {
+  "titulo": "Disseminação da informação — Papel estratégico dos Boletins Epidemiológicos na gestão",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo de retroalimentação",
+    "texto": "A disseminação regular do boletim epidemiológico operacionaliza a **retroalimentação do sistema** de vigilância, retornando a informação analisada aos profissionais notificantes, gestores e à sociedade. Essa devolução contínua confere transparência, reforça a utilidade dos dados e estimula a **notificação oportuna** na rede assistencial.",
+    "sub": []
+   },
+   {
+    "rotulo": "Tomada de decisão baseada em risco",
+    "texto": "O boletim transcende a contagem de casos ao sintetizar indicadores de morbidade, gravidade e ocupação assistencial para direcionar a **regulação de leitos críticos** (UTI e enfermaria). Ele orienta diretamente o escalonamento ou desmobilização de medidas preventivas e contingenciais conforme a **estratificação territorial de risco**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Comunicação pública e enfrentamento de crises",
+    "texto": "Atua como instrumento oficial de **comunicação de risco**, alinhando orientações sanitárias à imprensa e à população geral para evitar pânico ou descrédito institucional em situações de emergência sanitária.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O boletim epidemiológico tem finalidade puramente acadêmica e de registro histórico, sendo dispensável para a regulação assistencial hospitalar.",
+    "porque": "O boletim subsidia ativamente o planejamento em saúde, a compra de insumos, a abertura de leitos e as decisões gerenciais em tempo real."
+   },
+   {
+    "frase": "A divulgação das informações epidemiológicas deve aguardar a consolidação anual fechada dos bancos de dados antes de orientar a gestão.",
+    "porque": "A vigilância exige oportunidade na informação; boletins periódicos (semanais ou diários em crises) direcionam ações imediatas de controle antes do encerramento analítico anual."
+   },
+   {
+    "frase": "A retroalimentação restringe-se exclusivamente aos órgãos centrais do Ministério da Saúde, não cabendo divulgação aos serviços locais ou à população.",
+    "porque": "O subsistema de divulgação deve alcançar todos os níveis do SUS, unidades da atenção primária e o público amplo para garantir adesão às medidas profiláticas."
+   }
+  ],
+  "fonte": "Aula VAT2 · Vigilância epidemiológica e diagramas de controle (Boletins Epidemiológicos) e Livro Rouquayrol · Epidemiologia & Saúde, Cap. 13"
+ },
+ "VIG-12": {
+  "titulo": "Investigação de surtos em nível local — Detecção na APS e definição operacional de caso",
+  "topicos": [
+   {
+    "rotulo": "Conduta imediata na atenção primária",
+    "texto": "Ao identificar um conglomerado inusitado de casos suspeitos, a equipe da unidade básica de saúde deve efetuar a **notificação imediata** à autoridade sanitária local. Simultaneamente, deflagra-se a **busca ativa de contatos** e casos sintomáticos adicionais no território adscrito.",
+    "sub": []
+   },
+   {
+    "rotulo": "Definição operacional sensível de caso",
+    "texto": "Na fase inicial de resposta a uma emergência, institui-se propositalmente uma definição de caso com **alta sensibilidade**, baseada em critérios clínicos e epidemiológicos amplos. Essa abordagem visa capturar o maior número possível de indivíduos sob risco, impedindo a perda de **cadeias de transmissão**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Investigação clínico-epidemiológica preliminar",
+    "texto": "Consiste na identificação rápida de denominadores populacionais sob risco, no rastreamento de **exposições comuns** (alimentares, hídricas ou vetoriais) e na coleta oportuna de espécimes biológicos para diagnóstico laboratorial.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A notificação à vigilância e a busca ativa só devem ser iniciadas após o retorno de laudos laboratoriais confirmatórios de cultura ou biologia molecular.",
+    "porque": "A espera por exames etiológicos atrasa as medidas de bloqueio; a suspeita clínica fundamentada impõe notificação célere e busca ativa imediata."
+   },
+   {
+    "frase": "A definição inicial de caso suspeito em campo deve ser altamente específica para evitar o dispêndio de recursos em falso-positivos.",
+    "porque": "No início da investigação, prioriza-se alta sensibilidade para não perder casos verdadeiros; o refinamento para maior especificidade ocorre em etapas posteriores."
+   },
+   {
+    "frase": "A unidade de saúde deve restringir sua atuação ao tratamento individual dos doentes que chegam à demanda espontânea, aguardando intervenção externa da gestão estadual.",
+    "porque": "Cabe ao nível local deflagrar prontamente a investigação inicial e medidas territoriais de bloqueio para interromper a propagação."
+   }
+  ],
+  "fonte": "Livro Rouquayrol · Epidemiologia & Saúde, Cap. 13 (Vigilância das Emergências Epidemiológicas: Investigação de Surtos) e Livro Gordis · Epidemiologia, Cap. 2"
+ },
+ "VIG-13": {
+  "titulo": "Resposta a surtos — Intervenção sobre fontes comuns e monitoramento oportuno",
+  "topicos": [
+   {
+    "rotulo": "Oportunidade da intervenção preventiva",
+    "texto": "As ações profiláticas e de controle devem ser implementadas tão logo a **evidência epidemiológica descritiva** (tempo, espaço e pessoa) aponte a plausibilidade da fonte comum de infecção. A interrupção da exposição não pode ser postergada enquanto se aguarda a **conclusão pericial microbiológica** definitiva.",
+    "sub": []
+   },
+   {
+    "rotulo": "Medidas diretas sobre a fonte",
+    "texto": "Englobam intervenções imediatas como interdição de reservatórios hídricos suspeitos, recolhimento de lotes alimentares, bloqueio vetorial territorial ou **quimioprofilaxia de contatos íntimos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Monitoramento e eficácia do controle",
+    "texto": "Após a remoção do fator causal presumido, a equipe de campo mantém o **monitoramento ativo** da ocorrência de novos casos para validar a queda da incidência e confirmar o fim da transmissão.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A interdição de uma fonte de abastecimento alimentar contaminada exige comprovação laboratorial formal do patógeno sob risco de infração ética.",
+    "porque": "O princípio da precaução e a lógica da vigilância impõem ação cautelar imediata sobre a fonte de risco baseada em consistência clínico-epidemiológica."
+   },
+   {
+    "frase": "As medidas de intervenção só devem ser planejadas e executadas como a última etapa formal da investigação, após a entrega do relatório técnico final.",
+    "porque": "Muitas medidas de controle e bloqueio ocorrem no início ou concomitantemente à investigação descritiva para salvar vidas e mitigar danos."
+   },
+   {
+    "frase": "O monitoramento epidemiológico pode ser suspenso no mesmo momento em que a intervenção na fonte comum for executada.",
+    "porque": "É mandatória a vigilância contínua para observar se a curva epidêmica realmente entra em declínio e atinge a fase de resolução dentro dos períodos de incubação esperados."
+   }
+  ],
+  "fonte": "Livro Rouquayrol · Epidemiologia & Saúde, Cap. 13 (Recomendação de Medidas de Intervenção) e Livro Gordis · Epidemiologia, Cap. 2 (Investigação de Surtos)"
+ },
+ "VIG-27": {
+  "titulo": "Diagramas de controle e dinâmica da curva epidêmica — Fases de progressão, regressão e egressão",
+  "topicos": [
+   {
+    "rotulo": "Conceito de egressão epidêmica",
+    "texto": "Designa o **período temporal total** em que os coeficientes de incidência rompem e permanecem acima do limite superior endêmico (limiar epidêmico). Representa toda a janela de vigência da epidemia, estendendo-se do início do descontrole até o retorno aos patamares basais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Fases componentes da egressão",
+    "texto": "A egressão decompõe-se didaticamente em duas metades articuladas pelo ápice da curva.",
+    "sub": [
+     {
+      "rotulo": "Fase de progressão",
+      "texto": "Intervalo marcado pelo ramo ascendente dos casos, iniciando-se na ultrapassagem do **limite superior de controle (LSC)** e estendendo-se até o atingimento da **incidência máxima** (pico epidêmico)."
+     },
+     {
+      "rotulo": "Fase de regressão",
+      "texto": "Intervalo marcado pelo ramo descendente dos casos, iniciando-se logo após a incidência máxima e prolongando-se até a redução da taxa de volta aos valores do **canal endêmico**."
+     }
+    ]
+   },
+   {
+    "rotulo": "Fatores condicionantes do declínio",
+    "texto": "A passagem da progressão para a regressão é impulsionada pela **exaustão de suscetíveis**, redução da exposição ambiental e eficácia das medidas de **bloqueio e intervenção** da vigilância sanitária.",
+    "sub": []
+   },
+   {
+    "rotulo": "Decréscimo de incidência endêmica",
+    "texto": "Ocorre quando as ações intensificadas de controle conseguem rebaixar as taxas a níveis inferiores àqueles historicamente registrados no período pré-epidêmico.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Egressão designa apenas o ramo descendente da curva epidêmica, que vai do pico de casos até o retorno ao canal endêmico.",
+    "porque": "O ramo descendente é estritamente denominado regressão; a egressão corresponde ao intervalo total (somatório da progressão com a regressão)."
+   },
+   {
+    "frase": "A fase de progressão é caracterizada pela diminuição da força de transmissão e retorno da incidência ao limite inferior do diagrama.",
+    "porque": "Progressão é a etapa de expansão com coeficientes crescentes até o clímax (pico da incidência máxima)."
+   },
+   {
+    "frase": "O limiar epidêmico é definido pela mediana histórica dos últimos dez anos do diagrama de controle.",
+    "porque": "A mediana (segundo quartil) representa a incidência habitual/média; o limiar epidêmico é delimitado pelo limite superior endêmico (terceiro quartil ou média somada a desvios-padrão)."
+   }
+  ],
+  "fonte": "Livro Rouquayrol · Epidemiologia & Saúde, Cap. 5 (Processos Endêmico e Epidêmico: Curva Epidêmica e Diagrama de Controle) e Aula VAT2 · Vigilância epidemiológica e diagramas de controle"
+ },
+ "VIG-06": {
+  "titulo": "Sistemas de vigilância em saúde — Encadeamento e lógica operacional frente a surtos",
+  "topicos": [
+   {
+    "rotulo": "Ciclo operacional estruturado",
+    "texto": "A resposta sistemática frente a eventos agudos obedece a um encadeamento funcional: **detecção e notificação oportuna** dos casos suspeitos, deflagração da **investigação epidemiológica de campo**, análise comparativa com padrões históricos e implementação concomitante de **medidas de prevenção e controle**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Análise comparativa e séries temporais",
+    "texto": "A confirmação da existência de um surto exige confrontar os casos observados no tempo e lugar com a **incidência esperada** (baseada em diagramas de controle ou medianas de anos anteriores livres de epidemia), discriminando aumentos reais de flutuações sazonais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Integração dinâmica dos passos",
+    "texto": "Apesar da sequência didática, o processo opera de modo dinâmico no SUS: medidas urgentes de interrupção da transmissão e o **monitoramento sistemático** acontecem frequentemente em paralelo à investigação etiológica.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A execução de medidas de controle em campo deve anteceder a própria notificação e o registro dos casos nos sistemas de informação.",
+    "porque": "A notificação compulsória oportuna é a etapa disparadora do fluxo de inteligência e intervenção técnica das equipes de vigilância."
+   },
+   {
+    "frase": "A análise comparativa com anos anteriores torna-se desnecessária quando a equipe local decide instaurar medidas de quarentena baseada em relatos informais.",
+    "porque": "A validação técnica da existência de um surto depende da confirmação de que os dados observados excedem claramente os níveis habitualmente esperados para a região."
+   },
+   {
+    "frase": "A investigação de campo é dispensável caso o município já possua um boletim epidemiológico divulgado no mês anterior.",
+    "porque": "O boletim reflete dados pretéritos consolidados; o surgimento de novos conglomerados exige investigação presencial territorial imediata para caracterizar tempo, espaço e fontes ativas."
+   }
+  ],
+  "fonte": "Aula VAT2 · Vigilância epidemiológica e diagramas de controle (Ciclo da Vigilância e Planejamento) e Livro Rouquayrol · Epidemiologia & Saúde, Cap. 13"
+ },
+ "VIG-11": {
+  "titulo": "Sistemas de Informação em Saúde — Finalidade primordial e ciclo da vigilância",
+  "topicos": [
+   {
+    "rotulo": "Conceito e Finalidade",
+    "texto": "Os **Sistemas de Informação em Saúde (SIS)** são estruturas desenhadas para coletar, processar e disseminar dados de rotina, transformando registros brutos em **informação qualificada para a ação**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Ciclo da Informação para Decisão",
+    "texto": "O fluxo opera de forma contínua desde a notificação nas unidades assistenciais até a formulação de **intervenções oportunas** de controle e prevenção epidemiológica.",
+    "sub": []
+   },
+   {
+    "rotulo": "Atributos Essenciais de Qualidade",
+    "texto": "A fidedignidade do sistema depende do cumprimento estrito de requisitos operacionais na cadeia de dados:",
+    "sub": [
+     {
+      "rotulo": "Oportunidade",
+      "texto": "Reflete a agilidade no intervalo entre a identificação do evento e o registro no sistema, permitindo **respostas rápidas** antes da disseminação comunitária.",
+      "sub": []
+     },
+     {
+      "rotulo": "Completude e Consistência",
+      "texto": "Garante o preenchimento integral dos campos obrigatórios e a ausência de duplicidades ou contradições nos **bancos de dados oficiais**.",
+      "sub": []
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A finalidade principal dos sistemas de informação em saúde é o arquivamento cadastral e burocrático para fins exclusivos de faturamento hospitalar.",
+    "porque": "O propósito precípuo dos SIS em saúde coletiva é a produção contínua de inteligência epidemiológica para subsidiar o planejamento e o controle sanitário oportuno."
+   },
+   {
+    "frase": "O ciclo da informação em saúde encerra-se com a inserção e o processamento dos dados brutos nos servidores centrais.",
+    "porque": "O fluxo exige obrigatoriamente a disseminação das informações e a retroalimentação das equipes de ponta para orientar a tomada de decisão."
+   },
+   {
+    "frase": "A ampla cobertura digital dos serviços de atenção primária elimina a necessidade de monitorar subnotificações ou atrasos na alimentação do sistema.",
+    "porque": "A subnotificação, a falta de preenchimento e o atraso na transmissão persistem como limitações rotineiras que exigem auditoria e controle de qualidade constantes."
+   }
+  ],
+  "fonte": "Aula VAT2 · Sistemas de Informação em Saúde; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 13"
+ },
+ "VIG-33": {
+  "titulo": "Indicadores Epidemiológicos — Conceitos estruturais e tomada de decisão",
+  "topicos": [
+   {
+    "rotulo": "Medidas de Morbidade",
+    "texto": "A mensuração dos eventos de adoecimento divide-se conforme o momento de surgimento do agravo:",
+    "sub": [
+     {
+      "rotulo": "Incidência",
+      "texto": "Expressa a frequência de **casos novos** em uma população sob risco em dado período, medindo a **velocidade de ocorrência** e o risco de adoecer.",
+      "sub": []
+     },
+     {
+      "rotulo": "Prevalência",
+      "texto": "Indica a proporção de **casos existentes** (novos e antigos) em um ponto específico do tempo, refletindo a **magnitude da carga da doença** na comunidade.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Taxa de Mortalidade",
+    "texto": "Confronta os óbitos ocorridos com a **população total exposta ao risco** de morrer, avaliando o **impacto populacional** e as condições sanitárias gerais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Coeficiente de Letalidade",
+    "texto": "Calcula a proporção de óbitos exclusivamente entre o grupo de **pessoas diagnosticadas com a doença**, aferindo diretamente sua **gravidade clínica e virulência**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A taxa de letalidade mede a probabilidade de um habitante saudável da comunidade falecer devido a um agravo específico.",
+    "porque": "A letalidade tem como denominador estritamente os indivíduos já doentes; a probabilidade populacional geral de morte é estimada pela taxa de mortalidade."
+   },
+   {
+    "frase": "A prevalência reflete com precisão o risco causal de adoecimento, sendo a métrica primária em estudos etiológicos.",
+    "porque": "Apenas a incidência afere risco biológico direto; a prevalência é influenciada pela sobrevida, migrações e duração da afecção."
+   },
+   {
+    "frase": "A mortalidade proporcional por uma patologia expressa a probabilidade individual de óbito na população em risco.",
+    "porque": "A mortalidade proporcional expressa apenas a fatia percentual que determinada causa representa sobre o total de mortes, sem relação com a população viva exposta."
+   }
+  ],
+  "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Cap. 3 e 4; Aula VAT1 · Demografia e indicadores de saúde"
+ },
+ "VIG-36": {
+  "titulo": "Mortalidade versus Letalidade — Denominadores e significado clínico",
+  "topicos": [
+   {
+    "rotulo": "Diferença Matemática de Denominador",
+    "texto": "A divergência crucial entre ambos os indicadores repousa na composição do grupo de referência:",
+    "sub": [
+     {
+      "rotulo": "Denominador da Mortalidade",
+      "texto": "Composto pela **população total sob risco** (habitantes de uma área e período), tratando-se de uma verdadeira **taxa de risco comunitário**.",
+      "sub": []
+     },
+     {
+      "rotulo": "Denominador da Letalidade",
+      "texto": "Restrito exclusivamente ao **número de casos confirmados** da doença, configurando uma **proporção de mortes entre os doentes**.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Significado Prognóstico e Avaliação de Cuidados",
+    "texto": "A letalidade afere a severidade do quadro patológico e o **prognóstico individual**, sendo sensível à **qualidade da assistência hospitalar** e à eficácia do tratamento.",
+    "sub": []
+   },
+   {
+    "rotulo": "Dissociação Epidemiológica",
+    "texto": "Doenças raras e graves apresentam **alta letalidade** associada a uma **baixa taxa de mortalidade**, demonstrando que o risco de morrer é grave para o doente, mas pouco frequente na população.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O coeficiente de letalidade e o de mortalidade possuem denominações idênticas, diferindo apenas pelo fator multiplicador da fórmula (base percentual versus por mil).",
+    "porque": "A distinção é conceitual e estrutural: o denominador da mortalidade é a população exposta, enquanto o da letalidade é o total de pessoas doentes."
+   },
+   {
+    "frase": "Um coeficiente de letalidade de 40% significa que quatro em cada dez pessoas de um determinado município morrerão da referida enfermidade.",
+    "porque": "O cálculo afeta somente o grupo que contraiu a afecção (40% dos doentes evoluíram a óbito), não a população municipal como um todo."
+   },
+   {
+    "frase": "Melhorias substanciais no suporte intensivo reduzem a taxa de mortalidade populacional, mas não interferem na taxa de letalidade.",
+    "porque": "A eficácia terapêutica que evita o falecimento de indivíduos internados promove redução direta e imediata do coeficiente de letalidade."
+   }
+  ],
+  "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Cap. 4 e 6; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 3"
+ },
+ "VIG-39": {
+  "titulo": "Dinâmica Prevalência-Incidência — Impacto da sobrevida e duração",
+  "topicos": [
+   {
+    "rotulo": "Equação Fundamental de Equilíbrio",
+    "texto": "Em cenários de estabilidade demográfica e migratória, a prevalência pontual é proporcional ao produto da incidência pela **duração média da enfermidade** (**P ≈ I × D**).",
+    "sub": []
+   },
+   {
+    "rotulo": "Efeito Paradoxo da Sobrevida",
+    "texto": "A implantação de intervenções que controlam a afecção e **aumentam a sobrevida sem promover a cura** prolonga o tempo de doença, resultando na **elevação da prevalência**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Impacto na Gestão e Serviços",
+    "texto": "A expansão de casos prevalentes decorrente do prolongamento da vida demanda **maior consumo de consultas**, exames contínuos e medicamentos na rede de atenção.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Qualquer aumento observado na prevalência populacional demonstra falha das políticas preventivas e crescimento do surgimento de novos casos.",
+    "porque": "A prevalência cresce mesmo com incidência estável ou em declínio quando novas tecnologias terapêuticas aumentam a sobrevida dos doentes crônicos."
+   },
+   {
+    "frase": "A introdução de tratamentos medicamentosos de alta eficácia sempre reduz a prevalência de doenças crônicas não transmissíveis.",
+    "porque": "Drogas que controlam sem curar evitam o óbito e retêm os doentes vivos na comunidade, expandindo o estoque de casos prevalentes."
+   },
+   {
+    "frase": "A prevalência e a incidência comportam-se de forma estritamente independente em qualquer patologia, independentemente do tempo de evolução.",
+    "porque": "A prevalência é condicionada diretamente pela velocidade de entrada de novos casos (incidência) e pela velocidade de saída por cura ou morte (duração)."
+   }
+  ],
+  "fonte": "Livro · Gordis · Epidemiologia (5ª ed.), Cap. 3; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 3"
+ },
+ "VIG-37": {
+  "titulo": "Indicadores Assistenciais — Cobertura potencial versus utilização real",
+  "topicos": [
+   {
+    "rotulo": "Distinção entre Cobertura e Utilização",
+    "texto": "O planejamento em saúde primária distingue a capacidade instalada do consumo efetivo de procedimentos:",
+    "sub": [
+     {
+      "rotulo": "Cobertura Potencial / Cadastral",
+      "texto": "Avalia o **alcance formal e o teto populacional** sob responsabilidade das equipes adscritas em um território determinado.",
+      "sub": []
+     },
+     {
+      "rotulo": "Utilização Efetiva",
+      "texto": "Mede o **contato real e o consumo de serviços** concretizado pelos usuários nos postos e unidades de saúde.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Barreiras de Acesso e Fragilidade Resolutiva",
+    "texto": "A presença de alta cobertura teórica coexistindo com baixa utilização denuncia **barreiras geográficas, organizacionais e baixa resolutividade** das equipes locais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Intervenção Gerencial",
+    "texto": "Identificar esse hiato subsidia a **reorganização das agendas de atendimento**, implantação de busca ativa e readequação de processos de trabalho na atenção primária.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Atingir 100% de cobertura cadastral pela Estratégia Saúde da Família assegura que toda a população vulnerável está recebendo assistência clínica resolutiva.",
+    "porque": "O cadastro formal reflete capacidade potencial de oferta, mas não elimina barreiras de acesso físico, horários incompatíveis e falta de acolhimento."
+   },
+   {
+    "frase": "A baixa utilização de serviços em áreas adscritas totalmente cobertas comprova ausência de necessidades sanitárias naquela comunidade.",
+    "porque": "O baixo consumo frequentemente expressa demanda reprimida, falta de insumos básicos ou descrédito da população quanto à resolutividade do serviço."
+   },
+   {
+    "frase": "Os indicadores de cobertura avaliam a eficácia biológica final dos procedimentos médicos realizados.",
+    "porque": "Indicadores de cobertura medem proporção da população-alvo alcançada formalmente, tratando-se de métricas operacionais e estruturais, não de eficácia clínica."
+   }
+  ],
+  "fonte": "Aula VAT1 · Demografia e indicadores de saúde; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 14"
+ },
+ "VIG-35": {
+  "titulo": "Distribuição Espacial — Densidade demográfica agregada e microáreas",
+  "topicos": [
+   {
+    "rotulo": "Definição e Cálculo",
+    "texto": "A **densidade demográfica** representa a razão quantitativa média entre o total de habitantes residentes e a superfície territorial em quilômetros quadrados (**hab./km²**).",
+    "sub": []
+   },
+   {
+    "rotulo": "Limitação do Indicador Agregado",
+    "texto": "Como métrica média agregada, a densidade oculta **bolsões de adensamento extremo** e amplos vazios desabitados presentes no mesmo território municipal.",
+    "sub": []
+   },
+   {
+    "rotulo": "Necessidade de Análise em Microáreas",
+    "texto": "O enfrentamento de doenças transmissíveis e vulnerabilidades requer **estratificação espacial por setores censitários**, viabilizando ações sobre aglomerados críticos de risco.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A densidade demográfica municipal média permite orientar diretamente a alocação de equipes de controle de endemias nas ruas críticas de um bairro.",
+    "porque": "A média global dilui as desigualdades espaciais intraurbanas, tornando indispensável a análise de densidade pontual e microáreas censitárias."
+   },
+   {
+    "frase": "Um município com densidade demográfica baixa está imune à ocorrência de surtos infecciosos de rápida transmissão interpessoal.",
+    "porque": "Mesmo em municípios de baixa densidade média, a população pode viver concentrada em núcleos urbanos periféricos densamente povoados e sem saneamento."
+   },
+   {
+    "frase": "A utilização de recortes geográficos amplos é superior à análise em microáreas por impedir a falácia ecológica nos diagnósticos comunitários.",
+    "porque": "Grandes agregados espaciais aumentam o risco de falácia ecológica; a identificação de iniquidades exige desagregação em unidades espaciais menores."
+   }
+  ],
+  "fonte": "Aula VAT1 · Estudos epidemiológicos descritivos; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 4 e 7"
+ },
+ "VIG-40": {
+  "titulo": "Indicadores Demográficos — Razão de Dependência vs. Índice de Envelhecimento",
+  "topicos": [
+   {
+    "rotulo": "Razão de Dependência Total (RDT)",
+    "texto": "Expressa o encargo econômico teórico suportado pela população produtiva (15 a 64 anos), somando os contingentes de menores de 15 anos e de 65 anos ou mais no numerador. Sua fórmula operacional é **[(Pop <15 + Pop ≥65) / Pop 15-64] × 100**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Índice de Envelhecimento (IE)",
+    "texto": "Mede diretamente a velocidade e o estágio da transição demográfica ao confrontar os dois extremos etários da população. Sua fórmula é **(Pop ≥65 / Pop <15) × 100**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Limitação da RDT Isolada",
+    "texto": "Populações com a **mesma Razão de Dependência Total** podem apresentar composições etárias e perfis de morbimortalidade completamente antagônicos.",
+    "sub": [
+     {
+      "rotulo": "Predomínio Jovem",
+      "texto": "Direciona a sobrecarga assistencial para **saúde materno-infantil**, imunizações de rotina, doenças infecciosas e atenção primária básica."
+     },
+     {
+      "rotulo": "Predomínio Idoso",
+      "texto": "Desloca as demandas prioritárias para **doenças crônicas não transmissíveis (DCNT)**, reabilitação física, suporte geriátrico e internações prolongadas."
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Municípios com a mesma Razão de Dependência Total demandam alocações financeiras e assistenciais idênticas na rede de saúde.",
+    "porque": "A RDT oculta se a carga de dependência provém de crianças ou de idosos, grupos que exigem modelos de atenção à saúde completamente distintos."
+   },
+   {
+    "frase": "O Índice de Envelhecimento calcula a proporção de indivíduos com 65 anos ou mais em relação à população economicamente ativa.",
+    "porque": "O denominador do Índice de Envelhecimento é exclusivamente a população jovem (menores de 15 anos), e não o estrato em idade produtiva."
+   },
+   {
+    "frase": "A redução da fecundidade diminui a Razão de Dependência Total e o Índice de Envelhecimento de maneira simultânea.",
+    "porque": "A queda da fecundidade reduz a base infantil e encolhe o denominador do Índice de Envelhecimento, provocando elevação expressiva do índice."
+   }
+  ],
+  "fonte": "Livro Rouquayrol (Cap. 20 - Epidemiologia do Envelhecimento) e Aula VAT1 · Demografia e indicadores de saúde"
+ },
+ "VIG-19": {
+  "titulo": "Modalidades de Vigilância no SIS — Vigilância Passiva vs. Busca Ativa",
+  "topicos": [
+   {
+    "rotulo": "Vigilância Passiva",
+    "texto": "Baseia-se no recebimento rotineiro de notificações de agravos compulsórios emitidas espontaneamente pelos profissionais nos serviços de saúde. Apresenta **baixo custo operacional** e simplicidade logística, mas é limitada por **subnotificação frequente** e atraso de oportunidade.",
+    "sub": []
+   },
+   {
+    "rotulo": "Vigilância Ativa",
+    "texto": "Caracteriza-se pelo envio deliberado de profissionais a unidades de saúde, laboratórios ou comunidades para **busca direta de casos suspeitos** e contatos. Garante **elevada sensibilidade e oportunidade**, sendo mandatória na investigação e controle de **surtos e epidemias**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Balanço Custo-Efetividade",
+    "texto": "A modalidade ativa supera a perda de dados da passiva e quebra cadeias de transmissão em tempo oportuno, contudo demanda **alocação expressiva de recursos financeiros** e sobrecarga de **equipes dedicadas em campo**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A vigilância passiva é o método preferencial para contenção rápida de surtos em razão de sua ampla captação territorial.",
+    "porque": "Em surtos, a lentidão e a subnotificação da via passiva retardam o rastreamento de contatos e impedem o bloqueio em tempo hábil."
+   },
+   {
+    "frase": "A busca ativa substitui de forma definitiva os sistemas universais de notificação passiva na rotina dos municípios.",
+    "porque": "A vigilância ativa é financeiramente inviável de ser mantida de maneira perene e contínua para a totalidade dos agravos do sistema."
+   },
+   {
+    "frase": "A notificação compulsória na vigilância passiva tem caráter facultativo para a rede assistencial suplementar privada.",
+    "porque": "A notificação compulsória de doenças e agravos da lista nacional é obrigatória para todos os serviços de saúde, públicos e privados."
+   }
+  ],
+  "fonte": "Livro Gordis (Cap. 3 - Acometimento pela Doença: Vigilância) e Livro Rouquayrol (Cap. 13 - Vigilância em Saúde Pública)"
+ },
+ "VIG-26": {
+  "titulo": "Diagramas de Controle — Método de Cullen vs. Método do Terceiro Quartil",
+  "topicos": [
+   {
+    "rotulo": "Pressupostos Distribucionais",
+    "texto": "A escolha metodológica para definição dos limites de controle depende do padrão de distribuição da frequência do agravo ao longo da série histórica.",
+    "sub": [
+     {
+      "rotulo": "Método de Cullen (Paramétrico)",
+      "texto": "Assume que os dados seguem uma **distribuição normal (gaussiana)** simétrica, calculando os limites a partir da **média aritmética** acrescida ou subtraída de múltiplos do **desvio-padrão** (geralmente Média ± 1,96 DP)."
+     },
+     {
+      "rotulo": "Método do Terceiro Quartil (Não Paramétrico)",
+      "texto": "Baseia-se em **posições ordinais (percentis)** da distribuição ordenada, adotando a **mediana (Q2)** como incidência esperada e o **terceiro quartil (Q3/P75)** como limite superior endêmico."
+     }
+    ]
+   },
+   {
+    "rotulo": "Impacto de Assimetria e Valores Extremos",
+    "texto": "Distribuições assimétricas ou que contêm picos epidêmicos históricos prévios distorcem severamente a média e o desvio-padrão. Nessas condições, utiliza-se o método do terceiro quartil, que é **resistente a valores extremos (outliers)** e independe de normalidade.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O método de Cullen deve ser indicado em séries temporais com assimetria à direita para aumentar o rigor estatístico.",
+    "porque": "A assimetria invalida o pressuposto de normalidade de Cullen, distorcendo a média e gerando limites superiores excessivamente altos que mascaram surtos."
+   },
+   {
+    "frase": "O método do terceiro quartil emprega a média histórica como valor central de incidência esperada.",
+    "porque": "Por ser um método não paramétrico, a medida de tendência central empregada é a mediana (segundo quartil), e não a média aritmética."
+   },
+   {
+    "frase": "Séries históricas que não aderem ao modelo gaussiano inviabilizam a construção técnica de diagramas de controle.",
+    "porque": "Distribuições não gaussianas são rotineiramente monitoradas por métodos não paramétricos robustos, como o terceiro quartil e o método de Albuquerque."
+   }
+  ],
+  "fonte": "Livro Rouquayrol (Cap. 5 - Medidas de Saúde Coletiva: Diagrama de Controle e Cap. 7 - Estatística Descritiva) e Fletcher (Cap. 2 - Anormalidade)"
+ },
+ "VIG-10": {
+  "titulo": "Vigilância Epidemiológica no SUS — Descentralização e Competências Federativas",
+  "topicos": [
+   {
+    "rotulo": "Diretriz da Descentralização",
+    "texto": "O sistema de vigilância epidemiológica estrutura-se sob o princípio da **descentralização com direção única em cada esfera de governo**, transferindo o protagonismo executivo para o nível mais próximo do cidadão.",
+    "sub": []
+   },
+   {
+    "rotulo": "Divisão de Atribuições Federativas",
+    "texto": "As competências funcionam de maneira cooperativa, articulando execução direta local e retaguarda técnico-estratégica.",
+    "sub": [
+     {
+      "rotulo": "Esfera Municipal",
+      "texto": "Constitui o **executor primordial** das ações no território: captação de notificações, investigação de campo, busca ativa, rastreamento de contatos e aplicação de medidas imediatas de controle e bloqueio."
+     },
+     {
+      "rotulo": "Esferas Estadual e Federal",
+      "texto": "Assumem funções de **coordenação do sistema**, normatização técnica, gestão da rede de **laboratórios de referência (LACEN/Fiocruz)**, vigilância de pontos de entrada e suporte suplementar diante de crises."
+     }
+    ]
+   },
+   {
+    "rotulo": "Subsidiariedade de Ação",
+    "texto": "Os níveis estadual e nacional apenas assumem a execução operacional de modo excepcional, quando o evento ultrapassar fronteiras intermunicipais ou exceder a capacidade técnica do município.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A investigação epidemiológica de campo no domicílio é competência exclusiva e direta do Ministério da Saúde para garantir padronização.",
+    "porque": "A execução direta no território compete à equipe municipal de vigilância; a União atua na coordenação normativa e apoio suplementar."
+   },
+   {
+    "frase": "A descentralização das ações de vigilância transfere aos municípios a autoridade para instituir listas de notificação com dispensa das normas federais.",
+    "porque": "O município é obrigado a cumprir a lista nacional de notificação compulsória do Ministério da Saúde, podendo apenas suplementá-la com agravos de interesse local."
+   },
+   {
+    "frase": "Os estados e municípios são hierarquicamente subordinados à União para a tomada de decisões de bloqueio sanitário imediato.",
+    "porque": "No SUS não há subordinação hierárquica entre entes federativos, vigorando a autonomia federativa, a direção única e a cooperação interfederativa."
+   }
+  ],
+  "fonte": "Livro Rouquayrol (Cap. 13 - Vigilância em Saúde Pública) e Aula VAT2 · Vigilância epidemiológica e diagramas de controle"
+ },
+ "VIG-21": {
+  "titulo": "Diagramas de Controle — Limites Estatísticos e Disparo de Alerta",
+  "topicos": [
+   {
+    "rotulo": "Componentes Estruturais",
+    "texto": "Gráfico temporal construído a partir de dados históricos (habitualmente 5 a 10 anos) para estabelecer as fronteiras estatísticas de ocorrência esperada de um agravo.",
+    "sub": [
+     {
+      "rotulo": "Linha Central (Média ou Mediana)",
+      "texto": "Indica a **incidência esperada habitual** para o período ou semana epidemiológica analisada."
+     },
+     {
+      "rotulo": "Limite Superior de Controle (LSC)",
+      "texto": "Representa o **limiar epidêmico** da faixa endêmica. A ultrapassagem desse limite aponta frequência além da variação casual esperada."
+     },
+     {
+      "rotulo": "Limite Inferior de Controle (LIC)",
+      "texto": "Constitui o piso inferior da faixa habitual. Níveis abaixo do LIC sinalizam possível **subnotificação sistemática**, represamento de dados ou sucesso de intervenções sanitárias."
+     }
+    ]
+   },
+   {
+    "rotulo": "Interpretação e Conduta Técnica",
+    "texto": "Frequências mantidas entre o LIC e o LSC definem o **comportamento endêmico habitual**. A incidência que ultrapassa o LSC funciona como **sinal de alerta epidemiológico**, exigindo deflagração imediata de investigação de campo, busca ativa e medidas de contenção para verificar a instalação de surto ou epidemia.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Qualquer elevação no número de casos que se mantenha abaixo do Limite Superior de Controle já configura epidemia declarada.",
+    "porque": "Valores contidos entre o limite inferior e o limite superior representam a variação habitual esperada para o agravo (nível endêmico)."
+   },
+   {
+    "frase": "A transposição do Limite Superior de Controle dispensa a investigação epidemiológica local e confirma automaticamente uma epidemia laboratorial.",
+    "porque": "O rompimento do LSC é um sinal de alerta de vigilância que dispara a investigação; alterações administrativas ou intensificação de testes podem simular picos pontuais."
+   },
+   {
+    "frase": "Valores observados abaixo do Limite Inferior de Controle comprovam de modo irrefutável a eliminação sustentada do agravo no território.",
+    "porque": "Registros abaixo do LIC alertam primariamente para falhas no sistema de notificação, interrupção na alimentação das fichas ou atrasos de digitação."
+   }
+  ],
+  "fonte": "Aula VAT2 · Vigilância epidemiológica e diagramas de controle e Livro Rouquayrol (Cap. 5 - Medidas de Saúde Coletiva: Diagrama de Controle)"
+ },
+ "VIG-30": {
+  "titulo": "Diagrama de controle — Pressuposto de estacionariedade e impacto da tendência secular",
+  "topicos": [
+   {
+    "rotulo": "Pressuposto de estacionariedade",
+    "texto": "A construção clássica da faixa endêmica pressupõe que o agravo apresenta **estacionariedade temporal**, ou seja, tendência média estável ao longo do tempo. Admitem-se apenas **flutuações sazonais** regulares ou variações aleatórias esperadas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Impacto da tendência secular decrescente",
+    "texto": "Quando uma doença apresenta **tendência secular de redução**, o uso de dados de um passado remoto mantém valores médios elevados. Isso provoca a **superestimação do limite superior de controle (LSC)** em relação ao patamar epidemiológico vigente.",
+    "sub": []
+   },
+   {
+    "rotulo": "Falso sinal de segurança",
+    "texto": "Com o LSC artificialmente inflado, uma elevação anormal de casos pode ocorrer sem romper a linha de alerta. Isso retarda a deflagração de **medidas de contenção** e mascara a ocorrência de **epidemias emergentes**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Revisão e recálculo periódico",
+    "texto": "Para manter a sensibilidade do sistema, recomenda-se o **recálculo do canal endêmico** a cada novo ciclo com dados recentes ou a aplicação de modelos de **séries temporais** que isolem e ajustem a tendência.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O diagrama de controle incorpora automaticamente tendências de queda na incidência sem necessidade de recálculo dos limites.",
+    "porque": "O método paramétrico convencional assume média estável e não possui ajuste dinâmico automático para mudanças seculares de nível."
+   },
+   {
+    "frase": "Uma série histórica longa com tendência de queda aumenta a sensibilidade da vigilância para detectar surtos precocemente.",
+    "porque": "Séries antigas sob queda elevam indevidamente o limiar de alarme, reduzindo a sensibilidade e provocando atraso na identificação de epidemias."
+   }
+  ],
+  "fonte": "Rouquayrol · Epidemiologia & Saúde, Cap. 5 (Processos Endêmico e Epidêmico) e Slide da Aula VAT2 · Vigilância epidemiológica e diagramas de controle"
+ },
+ "VIG-25": {
+  "titulo": "Canal endêmico — Requisitos metodológicos para construção e cálculo de limites",
+  "topicos": [
+   {
+    "rotulo": "Extensão temporal da série histórica",
+    "texto": "A elaboração da faixa endêmica exige uma série temporal retrospectiva de **no mínimo 5 e preferencialmente 10 anos**. Essa amplitude minimiza a influência de variações atípicas recentes e confere **estabilidade estatística** às estimativas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Depuração e exclusão de anomalias",
+    "texto": "É mandatório realizar a **exclusão de anos epidêmicos** da base histórica utilizada para o cálculo. A permanência de picos anômalos desloca a média e o desvio-padrão para cima, distorcendo o **limiar epidêmico**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Padronização da definição de caso",
+    "texto": "O evento monitorado deve manter **estabilidade na definição operacional de caso** durante todo o intervalo histórico analisado. Mudanças nos critérios clínicos ou laboratoriais inserem **viés de informação** e invalidam as comparações temporais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Métrica e método de cálculo",
+    "texto": "Recomenda-se a utilização preferencial de **coeficientes de incidência** em vez de frequências absolutas. Quando a distribuição dos dados afasta-se da normalidade, adota-se o método não paramétrico baseado na **mediana e quartis**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Todos os anos consecutivos da série histórica devem ser mantidos no cômputo para garantir a integridade estatística dos dados.",
+    "porque": "Anos com surtos ou epidemias registradas devem ser eliminados do cálculo, pois inflacionam o limite superior e encobrem novas epidemias."
+   },
+   {
+    "frase": "Alterações recentes nas definições de caso da vigilância aumentam a validade interna do canal endêmico calculado.",
+    "porque": "A ausência de padronização na definição de caso cria artefatos estatísticos de aumento ou redução que invalidam a série histórica."
+   }
+  ],
+  "fonte": "Rouquayrol · Epidemiologia & Saúde, Cap. 5 (Processos Endêmico e Epidêmico) e Slide da Aula VAT2 · Vigilância epidemiológica e diagramas de controle"
+ },
+ "VIG-05": {
+  "titulo": "Sistemas de Informação em Saúde — Modalidades de vigilância e superação da subnotificação",
+  "topicos": [
+   {
+    "rotulo": "Modalidades de vigilância",
+    "texto": "Os fluxos de coleta de dados organizam-se em duas estratégias operacionais complementares com diferentes níveis de sensibilidade.",
+    "sub": [
+     {
+      "rotulo": "Vigilância passiva",
+      "texto": "Baseia-se no envio espontâneo e rotineiro de fichas pelos profissionais e serviços de saúde. Apresenta **baixo custo operacional**, mas é vulnerável à **subnotificação sistemática** e atrasos.",
+      "sub": []
+     },
+     {
+      "rotulo": "Vigilância ativa",
+      "texto": "Envolve equipes dedicadas que realizam **visitas regulares a unidades de saúde**, laboratórios e prontuários para captar eventos omitidos. Proporciona **maior exatidão e sensibilidade** na detecção de agravos.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Integração e linkage de bases",
+    "texto": "O cruzamento nominal de dados entre o **Sinan**, as internações do **SIH/SUS** e os óbitos do **SIM** recupera casos não informados na rotina. Esse processo viabiliza o controle de qualidade e a mensuração da **completude dos registros**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Oportunidade da notificação",
+    "texto": "Para fins de interrupção de cadeias de transmissão, a notificação compulsória deve ocorrer logo na **suspeita clínica inicial**. Não se deve aguardar a **confirmação diagnóstica laboratorial** para registrar e disparar ações de bloqueio.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A notificação compulsória no Sinan deve ser realizada apenas após a liberação dos laudos laboratoriais confirmatórios.",
+    "porque": "A notificação imediata diante da suspeita clínica é o pilar que assegura ações epidemiológicas em tempo oportuno para bloquear surtos."
+   },
+   {
+    "frase": "A vigilância passiva garante completude epidemiológica total dispensando o cruzamento com dados hospitalares do SIH e declarações de óbito do SIM.",
+    "porque": "A notificação passiva rotineira sofre expressiva subnotificação, necessitando da busca ativa e do relacionamento de bases para corrigir perdas."
+   }
+  ],
+  "fonte": "Rouquayrol · Epidemiologia & Saúde, Cap. 13 (Vigilância em Saúde Pública), Gordis · Epidemiologia, Cap. 3 e Slide da Aula VAT2 · Sistemas de Informação em Saúde"
+ },
+ "VIG-18": {
+  "titulo": "Surtos alimentares — Taxa de ataque e epidemiologia analítica",
+  "topicos": [
+   {
+    "rotulo": "Conceito de taxa de ataque",
+    "texto": "A taxa de ataque é uma medida de **incidência cumulativa** expressa em porcentagem, aplicada a uma população bem delimitada sob risco durante um intervalo de tempo curto. O denominador representa o **total de indivíduos expostos** ao cenário ou alimento avaliado.",
+    "sub": []
+   },
+   {
+    "rotulo": "Taxa de ataque por alimento específico",
+    "texto": "Consiste na razão entre os indivíduos que adoeceram após ingerir determinado item e o número total de pessoas que o consumiram. Deve ser obrigatoriamente comparada com a taxa observada entre os **não expostos ao alimento**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Identificação do veículo provável",
+    "texto": "O alimento causal caracteriza-se por apresentar elevada incidência entre os expostos, baixa incidência entre não expostos e a **maior razão de taxas de ataque (risco relativo)**. Uma grande diferença absoluta de risco reforça a **força de associação** epidemiológica.",
+    "sub": []
+   },
+   {
+    "rotulo": "Tabulação cruzada",
+    "texto": "Técnica analítica utilizada quando múltiplos alimentos suspeitos foram consumidos em conjunto na mesma refeição. Permite isolar os efeitos independentes de cada item e controlar potenciais **fatores de confundimento**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A taxa de ataque constitui uma medida de densidade de incidência mensurada em unidades de pessoas-tempo.",
+    "porque": "Trata-se de uma proporção cumulativa de risco em que o período de exposição e seguimento está implicitamente circunscrito à duração do surto."
+   },
+   {
+    "frase": "O alimento incriminado em um surto é definido unicamente pelo maior número absoluto de casos observados entre os comensais.",
+    "porque": "O número absoluto depende da popularidade do prato; o veículo etiológico exige comparação de riscos relativos entre expostos e não expostos."
+   }
+  ],
+  "fonte": "Gordis · Epidemiologia, Cap. 2 (Dinâmica da Transmissão das Doenças) e Cap. 11 (Estimando o Risco) e Slide da Aula VAT1 · Medidas de frequência e associação"
+ },
+ "VIG-31": {
+  "titulo": "Transição demográfica — Dinâmica populacional e indicadores de estrutura etária",
+  "topicos": [
+   {
+    "rotulo": "Mecanismos da transição",
+    "texto": "A transição demográfica inicia-se com a **queda da mortalidade geral e infantil** em decorrência de melhorias no saneamento e assistência. Posteriormente, ocorre o **declínio sustentado da fecundidade**, reduzindo o contingente jovem e acelerando o envelhecimento populacional.",
+    "sub": []
+   },
+   {
+    "rotulo": "Razão de dependência (RD)",
+    "texto": "Mede a carga econômica e de cuidados sobre a sociedade, relacionando os estratos dependentes com a força de trabalho ativa. Expressa o contingente potencialmente inativo que deve ser sustentado pela parcela economicamente produtiva.",
+    "sub": [
+     {
+      "rotulo": "Numerador da RD",
+      "texto": "Soma da população jovem de **0 a 14 anos** com a população idosa de **65 anos ou mais**.",
+      "sub": []
+     },
+     {
+      "rotulo": "Denominador da RD",
+      "texto": "População em idade potencialmente ativa e produtiva compreendida entre **15 e 64 anos**.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Índice de envelhecimento",
+    "texto": "Indicador que compara diretamente os extremos etários da população residente. É calculado pela razão entre o número de **idosos com 65 anos ou mais** para cada 100 **jovens menores de 15 anos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Transformação da pirâmide etária",
+    "texto": "O avanço da transição promove o **estreitamento da base** da pirâmide (redução da natalidade) e a transição para um modelo estacionário ou regressivo. Há expressivo **alargamento do topo**, demandando reorganização nas linhas de cuidado geriátrico do SUS.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A razão de dependência inclui a população com 60 anos ou mais no numerador e os indivíduos de 18 a 59 anos no denominador.",
+    "porque": "Segundo as convenções demográficas internacionais e os indicadores de saúde, a razão de dependência utiliza cortes rígidos: 0 a 14 e 65+ anos no numerador, e 15 a 64 anos no denominador."
+   },
+   {
+    "frase": "O motor inicial da transição demográfica no Brasil foi o declínio abrupto da natalidade, seguido posteriormente pela redução da mortalidade.",
+    "porque": "A transição sempre é deflagrada pela queda precoce da mortalidade; o declínio da taxa de fecundidade ocorre em etapa subsequente."
+   }
+  ],
+  "fonte": "Rouquayrol · Epidemiologia & Saúde, Cap. 20 (Epidemiologia do Envelhecimento) e Slide da Aula VAT1 · Demografia e indicadores de saúde"
+ },
+ "VIG-32": {
+  "titulo": "Transição epidemiológica — Sobreposição de perfis e tripla carga de agravos",
+  "topicos": [
+   {
+    "rotulo": "Modelo não linear no Brasil",
+    "texto": "A transição epidemiológica brasileira não seguiu o padrão clássico europeu de substituição total das doenças infecciosas pelas não transmissíveis. Configura-se por uma **polarização epidemiológica prolongada**, marcada pela coexistência duradoura de múltiplos padrões de morbimortalidade.",
+    "sub": []
+   },
+   {
+    "rotulo": "Tripla carga de doenças",
+    "texto": "O cenário sanitário nacional caracteriza-se pela superposição simultânea de três grandes grupos de condições clínicas e sociais.",
+    "sub": [
+     {
+      "rotulo": "Doenças crônicas não transmissíveis (DCNT)",
+      "texto": "Liderança na morbimortalidade por **doenças cardiovasculares, neoplasias e diabetes**, ligadas ao envelhecimento populacional e determinantes comportamentais.",
+      "sub": []
+     },
+     {
+      "rotulo": "Causas externas",
+      "texto": "Elevado impacto de **homicídios, violência urbana e acidentes de transporte**, concentrando anos potenciais de vida perdidos na população de jovens adultos.",
+      "sub": []
+     },
+     {
+      "rotulo": "Doenças infecciosas e parasitárias",
+      "texto": "Persistência de endemias clássicas negligenciadas (como **hanseníase e tuberculose**) associada ao impacto recorrente de **epidemias de arboviroses**.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Desafio assistencial ao SUS",
+    "texto": "Essa multiplicidade exige uma rede assistencial ambivalente e integrada. O sistema precisa responder com prontidão a **eventos agudos e emergências**, ao mesmo tempo em que estrutura linhas longitudinais de **cuidado crônico continuado**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A transição epidemiológica brasileira completou-se com a substituição plena das enfermidades infecciosas por neoplasias e coronariopatias.",
+    "porque": "O padrão epidemiológico brasileiro é caracterizado pela sobreposição e não pela substituição, coexistindo doenças crônicas com endemias infecciosas e arboviroses."
+   },
+   {
+    "frase": "O aumento das doenças crônicas no país acarretou a redução proporcional das mortes por causas externas na população jovem.",
+    "porque": "As causas externas cresceram significativamente ao longo do processo de transição, tornando-se um componente maciço da mortalidade precoce no país."
+   }
+  ],
+  "fonte": "Rouquayrol · Epidemiologia & Saúde, Cap. 14 (Doenças Crônicas Não Transmissíveis) e Cap. 4 e Slide da Aula VAT1 · Demografia e indicadores de saúde"
+ },
+ "VIG-34": {
+  "titulo": "Transição Nutricional — Dupla carga de má nutrição",
+  "topicos": [
+   {
+    "rotulo": "Conceito de dupla carga",
+    "texto": "Refere-se à **coexistência simultânea de carências nutricionais** (desnutrição pregressa ou atual e déficits de micronutrientes) e **excesso ponderal** (sobrepeso e obesidade). Esse fenômeno manifesta-se no mesmo território, no mesmo domicílio familiar ou até no mesmo indivíduo ao longo do ciclo vital.",
+    "sub": []
+   },
+   {
+    "rotulo": "Transição nutricional no Brasil",
+    "texto": "Caracterizou-se pela **queda acelerada da desnutrição infantil** concomitante à **ascensão desproporcional do sobrepeso e da obesidade** em adultos e crianças nas últimas décadas. Ocorreu de forma rápida e assimétrica, consolidando uma sobreposição de perfis nosológicos.",
+    "sub": []
+   },
+   {
+    "rotulo": "Impacto dos alimentos ultraprocessados",
+    "texto": "A ampla penetração no mercado de **alimentos ultraprocessados com alta densidade energética** e pobres em nutrientes essenciais estimula o ganho excessivo de peso enquanto perpetua a carência oculta de vitaminas e minerais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Vulnerabilidade socioeconômica",
+    "texto": "Atinge com maior intensidade os **estratos populacionais mais pobres e vulnerabilizados**, nos quais a restrição orçamentária impulsiona o consumo de itens industrializados baratos em detrimento de alimentos frescos.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A dupla carga de má nutrição manifesta-se por segregação geográfica rígida, restringindo a desnutrição às zonas rurais e a obesidade aos grandes centros urbanos e classes altas.",
+    "porque": "A coexistência de obesidade e déficits nutricionais ocorre no mesmo espaço geográfico, nas periferias urbanas e inclusive dentro da mesma unidade domiciliar."
+   },
+   {
+    "frase": "A transição nutricional brasileira representou uma substituição sequencial completa, eliminando inteiramente as deficiências de micronutrientes antes do surgimento da epidemia de sobrepeso.",
+    "porque": "Houve superposição de problemas nutricionais: o excesso de peso avançou expressivamente sem que as carências nutricionais específicas fossem plenamente superadas."
+   },
+   {
+    "frase": "O diagnóstico de sobrepeso ou obesidade exclui a possibilidade de carência de ferro, vitamina A ou outros micronutrientes essenciais.",
+    "porque": "O excesso de peso decorrente do consumo de ultraprocessados é tipicamente hipercalórico e hiponutritivo, convivendo com anemia e outras deficiências nutricionais."
+   }
+  ],
+  "fonte": "Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 14 (Epidemiologia das Doenças Crônicas Não Transmissíveis) e Cap. 17 (Epidemiologia Nutricional)"
+ },
+ "VIG-38": {
+  "titulo": "Transição Nutricional — Ambiente alimentar e ultraprocessados",
+  "topicos": [
+   {
+    "rotulo": "Conceito de ambiente alimentar",
+    "texto": "Compreende o **conjunto de fatores físicos, econômicos, políticos e socioculturais** que medeiam as oportunidades e barreiras de acesso da população aos alimentos em seu território. As condições desse ambiente determinam e constrangem as escolhas alimentares individuais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Configurações territoriais de risco",
+    "texto": "A distribuição espacial do comércio varejista modela padrões de consumo nocivos à saúde coletiva.",
+    "sub": [
+     {
+      "rotulo": "Desertos alimentares",
+      "texto": "Áreas marcadas pela **escassez de comércio de alimentos in natura ou minimamente processados**, dificultando o acesso físico a itens saudáveis.",
+      "sub": []
+     },
+     {
+      "rotulo": "Pântanos alimentares",
+      "texto": "Espaços saturados pela **oferta maciça e predominante de produtos ultraprocessados**, amplamente disponíveis a baixo custo financeiro.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Classificação NOVA e regra de ouro",
+    "texto": "O Guia Alimentar preconiza que **alimentos in natura ou minimamente processados** formem a base da dieta. Recomenda **evitar radicalmente o consumo de alimentos ultraprocessados** devido à formulação hiperpalatável e desbalanceada.",
+    "sub": []
+   },
+   {
+    "rotulo": "Diretrizes regulatórias e estruturais da PNAN",
+    "texto": "O enfrentamento das DCNT exige transcender intervenções restritas à mudança individual de comportamento, incorporando **ações regulatórias de rotulagem e taxação**, restrição à publicidade abusiva e **garantia do abastecimento público saudável** nos territórios.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O aumento das doenças crônicas ligadas à má alimentação decorre exclusivamente da desinformação individual e falta de autocontrole dos usuários dos serviços de saúde.",
+    "porque": "O consumo alimentar é condicionado estruturalmente pelo ambiente alimentar, pelo preço relativo dos produtos e pela disponibilidade física nos territórios de residência e trabalho."
+   },
+   {
+    "frase": "O Guia Alimentar para a População Brasileira orienta a alimentação exclusivamente por meio da contagem rigorosa de calorias e cálculo percentual de macronutrientes por refeição.",
+    "porque": "O Guia adota o paradigma da extensão e propósito do processamento industrial (Classificação NOVA), priorizando alimentos in natura e preparações culinárias em detrimento de ultraprocessados."
+   },
+   {
+    "frase": "Medidas estatais de regulação de mercado, controle de publicidade e tributação de bebidas açucaradas fogem ao escopo da vigilância e das diretrizes da PNAN.",
+    "porque": "A Política Nacional de Alimentação e Nutrição preconiza a atuação intersetorial e medidas fiscais e regulatórias protetivas como elementos essenciais da promoção da saúde."
+   }
+  ],
+  "fonte": "Slide da aula · Aula VAT2 · Vigilância epidemiológica e diagramas de controle; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 14 e Cap. 17"
+ },
+ "VIG-09": {
+  "titulo": "Transições Populacionais — Articulação com vigilância e equidade",
+  "topicos": [
+   {
+    "rotulo": "Tríplice transição populacional",
+    "texto": "O cenário sanitário brasileiro resulta da convergência sincronizada de três processos dinâmicos de transformação estrutural.",
+    "sub": [
+     {
+      "rotulo": "Transição demográfica",
+      "texto": "Redução acentuada da **fecundidade e da mortalidade precoce**, resultando em estreitamento da base piramidal e expressivo **envelhecimento populacional**.",
+      "sub": []
+     },
+     {
+      "rotulo": "Transição epidemiológica",
+      "texto": "Mudança no perfil de adoecimento com declínio das **doenças infecciosas** e predomínio de **doenças crônicas não transmissíveis e causas externas**, em modelo polarizado e prolongado.",
+      "sub": []
+     },
+     {
+      "rotulo": "Transição nutricional",
+      "texto": "Deslocamento epidemiológico com redução relativa da **desnutrição proteico-calórica** e emergência generalizada do **sobrepeso e da obesidade**.",
+      "sub": []
+     }
+    ]
+   },
+   {
+    "rotulo": "Missão da vigilância frente às transições",
+    "texto": "A vigilância municipal deve superar o foco exclusivo em surtos transmissíveis agudos e consolidar o **monitoramento contínuo dos fatores de risco crônicos**, antecipando demandas assistenciais de longa duração.",
+    "sub": []
+   },
+   {
+    "rotulo": "Indicadores para desvelar desigualdades",
+    "texto": "A análise agregada e espacializada dos indicadores territoriais serve como **ferramenta de revelação de disparidades ocultas**, fornecendo evidências para orientar **intervenções preventivas focadas em grupos vulnerabilizados** sob o princípio da equidade.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O avanço da transição demográfica e epidemiológica autoriza a desativação da vigilância sobre doenças infecciosas e causas materno-infantis na gestão municipal.",
+    "porque": "O modelo epidemiológico brasileiro é caracterizado pela tripla carga de doenças e transição polarizada, exigindo vigilância contínua tanto das infecções quanto das afecções crônicas e agravos externos."
+   },
+   {
+    "frase": "O papel técnico da vigilância nas transições populacionais resume-se ao registro descritivo retrospectivo de óbitos, sem articulação direta com a formulação de ações preventivas territoriais.",
+    "porque": "A vigilância constitui inteligência epidemiológica para a ação, tendo por finalidade precípua orientar intervenções preventivas, controle de riscos e redução de iniquidades."
+   },
+   {
+    "frase": "A resposta técnica da vigilância às mudanças demográficas consiste em ofertar serviços e tecnologias idênticos em todas as áreas do município.",
+    "porque": "A vigilância subsidia a equidade, orientando respostas diferenciadas de maior intensidade técnica e orçamentária onde as desigualdades populacionais são mais graves."
+   }
+  ],
+  "fonte": "Slide da aula · Aula VAT2 · Vigilância epidemiológica e diagramas de controle; Slide da aula · Aula VAT1 · Demografia e indicadores de saúde; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 14"
+ },
+ "VIG-03": {
+  "titulo": "Vigilância em Saúde — Planejamento, gestão e ciclo de intervenção",
+  "topicos": [
+   {
+    "rotulo": "Ciclo integrado de gestão",
+    "texto": "A vigilância qualifica a governança sanitária ao articular permanentemente quatro etapas interdependentes: **diagnóstico situacional, planejamento estratégico, organização de serviços e avaliação de impacto**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Diagnóstico situacional",
+    "texto": "Identifica com precisão os **principais problemas de saúde, agravos prioritários e determinantes sociais** de dada comunidade, constituindo a base empírica para definir metas e prioridades operacionais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Organização dos serviços e recursos",
+    "texto": "Orienta a **reestruturação da rede assistencial e alocação equitativa** de recursos financeiros, leitos, medicamentos, exames e equipes de saúde, direcionando maiores investimentos aos territórios de maior carência.",
+    "sub": []
+   },
+   {
+    "rotulo": "Monitoramento versus avaliação",
+    "texto": "Distinguem-se pela temporalidade e foco na gestão pública de saúde.",
+    "sub": [
+     {
+      "rotulo": "Monitoramento",
+      "texto": "Acompanha rotineiramente a **evolução temporal dos problemas sanitários e o cumprimento das etapas** das intervenções em curso.",
+      "sub": []
+     },
+     {
+      "rotulo": "Avaliação",
+      "texto": "Aferição metódica para verificar se as medidas implementadas produziram os **resultados esperados e modificaram os indicadores de impacto** na população.",
+      "sub": []
+     }
+    ]
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A vigilância em saúde na gestão municipal cumpre função meramente notificatória e cartorial, cabendo unicamente às diretorias administrativas a decisão sobre distribuição de recursos.",
+    "porque": "A vigilância é instrumento central de planejamento e gestão no SUS, definindo 'onde, quando, como e para quem' os recursos assistenciais devem ser priorizados."
+   },
+   {
+    "frase": "A avaliação do impacto sanitário deve ser realizada antes da implementação dos serviços, servindo apenas para projetar estimativas teóricas de custo.",
+    "porque": "O diagnóstico situacional antecede a ação para planejar; a avaliação ocorre no pós-intervenção para aferir a eficácia e os desfechos reais produzidos na saúde da população."
+   },
+   {
+    "frase": "A organização da rede assistencial norteada pela vigilância deve distribuir profissionais e insumos em proporções rigorosamente iguais por habitante entre todas as unidades de saúde.",
+    "porque": "A alocação deve basear-se na equidade e no risco sanitário levantado pelo diagnóstico, canalizando mais recursos para regiões de piores indicadores e maior vulnerabilidade."
+   }
+  ],
+  "fonte": "Slide da aula · Aula VAT2 · Vigilância epidemiológica e diagramas de controle; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 3 (Medidas em Saúde) e Cap. 13 (Vigilância em Saúde Pública)"
+ },
+ "VIG-08": {
+  "titulo": "Vigilância Epidemiológica — Indicadores e equidade territorial",
+  "topicos": [
+   {
+    "rotulo": "Integração matricial de sistemas de informação",
+    "texto": "A caracterização sanitária exige a **triangulação contínua de bases de dados** demográficas (IBGE), nutricionais (SISVAN), de morbidade (SINAN, e-SUS APS, SIH) e de mortalidade (SIM). Essa integração evita a fragmentação analítica.",
+    "sub": []
+   },
+   {
+    "rotulo": "Espaço como condicionante do processo saúde-doença",
+    "texto": "Conforme a concepção epidemiológica, se a doença manifesta-se no indivíduo, a **situação de saúde é uma manifestação do lugar**. Diferenças geográficas expressam assimetrias no acesso à água tratada, moradia digna, renda e serviços assistenciais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Diferença versus desigualdade social",
+    "texto": "As discrepâncias observadas nos indicadores de saúde entre bairros do mesmo município não representam meras variações numéricas casuais, mas sim **desigualdades injustas e evitáveis (iniquidades)** geradas pelos determinantes sociais da saúde.",
+    "sub": []
+   },
+   {
+    "rotulo": "Equidade na distribuição de investimentos",
+    "texto": "O diagnóstico territorial estratificado orienta a **priorização e expansão da cobertura da Estratégia Saúde da Família (ESF)** e ações intersetoriais de saneamento nas microáreas mais críticas, concretizando a equidade em saúde.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A interpretação de indicadores de saúde deve apoiar-se exclusivamente na média global do município, pois análises por bairros induzem a vieses ecológicos irrelevantes para a gestão.",
+    "porque": "Médias agregadas ocultam realidades discrepantes; a análise estratificada por território expõe as desigualdades e identifica onde a intervenção pública é mais urgente."
+   },
+   {
+    "frase": "Diante de territórios com mortalidade infantil elevada e pré-natal insuficiente, a diretriz prioritária da vigilância consiste em investir na aquisição de equipamentos hospitalares de alta complexidade.",
+    "porque": "O enfrentamento dessas iniquidades requer o fortalecimento da Atenção Primária em Saúde, busca ativa de gestantes, qualificação do pré-natal e melhoria do saneamento básico."
+   },
+   {
+    "frase": "A equipe de vigilância deve concentrar suas análises exclusivamente em indicadores biomédicos de mortalidade hospitalar, desconsiderando variáveis nutricionais e socioambientais.",
+    "porque": "A vigilância integral exige a articulação de determinantes sociais, demografia, estado nutricional e condições de vida para fundamentar tomadas de decisão voltadas à equidade."
+   }
+  ],
+  "fonte": "Slide da aula · Aula VAT2 · Vigilância epidemiológica e diagramas de controle; Slide da aula · Aula VAT1 · Demografia e indicadores de saúde; Livro · Rouquayrol · Epidemiologia & Saúde (8ª ed.), Cap. 4 (Abordagens e Usos da Epidemiologia Descritiva)"
  }
 }
