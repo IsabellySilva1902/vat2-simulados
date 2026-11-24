@@ -9344,5 +9344,1585 @@
    }
   ],
   "fonte": "Slide da aula (Contracepção)"
+ },
+ "ANTICONV-T01": {
+  "titulo": "Crise provocada — não é epilepsia e não pede DA crônica",
+  "topicos": [
+   {
+    "rotulo": "Definição",
+    "texto": "Crise causada por **insulto agudo removível**, sem predisposição persistente.",
+    "sub": []
+   },
+   {
+    "rotulo": "Gatilhos do slide",
+    "texto": "**Privação de sono**, álcool e abstinência, **hipoglicemia**, distúrbio eletrolítico, uremia, eclâmpsia e **fármacos que baixam o limiar** (ex.: bupropiona).",
+    "sub": []
+   },
+   {
+    "rotulo": "Conduta",
+    "texto": "Tratar e **remover a causa**; anticonvulsivante de manutenção **não** está indicado.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Toda primeira crise exige DA de manutenção.",
+    "porque": "Crise **provocada** não define epilepsia."
+   },
+   {
+    "frase": "Crise com gatilho metabólico já fecha epilepsia.",
+    "porque": "Epilepsia exige crise **não provocada** com predisposição persistente."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T02": {
+  "titulo": "Fisiopatologia da crise — hiperexcitabilidade + hiperssincronização",
+  "topicos": [
+   {
+    "rotulo": "Hiperexcitabilidade",
+    "texto": "O neurônio **despolariza e dispara** com mais facilidade.",
+    "sub": []
+   },
+   {
+    "rotulo": "Hiperssincronização",
+    "texto": "Muitos neurônios **descarregam juntos** e formam uma rede epileptiforme.",
+    "sub": []
+   },
+   {
+    "rotulo": "Ideia-chave",
+    "texto": "A hiperexcitabilidade **isolada não basta**: a crise exige **sincronização em rede**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Sequência",
+    "texto": "**Início** em grupo pequeno → **propagação** → crise **focal** ou **generalizada**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Um único grupo hiperexcitável já produz a crise.",
+    "porque": "Sem **sincronização** da rede não há crise."
+   },
+   {
+    "frase": "A crise vem só do excesso de GABA.",
+    "porque": "GABA é **inibitório**; a crise vem de excitação e sincronização."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T03": {
+  "titulo": "Politerapia racional — associar mecanismos diferentes",
+  "topicos": [
+   {
+    "rotulo": "Alvos das DAs",
+    "texto": "**Canais de Na⁺/Ca²⁺**, **aumento de GABA**, **redução de glutamato** e **SV2A**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Regra",
+    "texto": "Na associação, preferir **mecanismos diferentes ou complementares**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Exemplo",
+    "texto": "Levetiracetam (**SV2A**) + bloqueador de **canal de Na⁺** (lamotrigina, carbamazepina).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Associar dois fármacos do mesmo alvo potencializa com segurança.",
+    "porque": "Mesmo mecanismo **soma toxicidade** sem ganho racional."
+   },
+   {
+    "frase": "Politerapia é o primeiro passo.",
+    "porque": "Só após falha de **duas monoterapias**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T04": {
+  "titulo": "Carbamazepina na ausência — risco de piorar as crises",
+  "topicos": [
+   {
+    "rotulo": "Ausência",
+    "texto": "Crise generalizada não motora: **parada breve e olhar fixo**; EEG com ponta-onda de 3 Hz.",
+    "sub": []
+   },
+   {
+    "rotulo": "Carbamazepina",
+    "texto": "Boa em crises **focais**, mas **pode piorar ausências** e algumas epilepsias generalizadas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Escolha certa",
+    "texto": "**Etossuximida** (bloqueia Ca²⁺ tipo T) é o fármaco de escolha na ausência típica; valproato é opção de amplo espectro.",
+    "sub": []
+   },
+   {
+    "rotulo": "Lição",
+    "texto": "A **classificação da crise** direciona a DA e evita fármacos que pioram certos tipos.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Carbamazepina é 1ª escolha na ausência.",
+    "porque": "Ela pode **agravar** ausências; a escolha é **etossuximida**."
+   },
+   {
+    "frase": "Toda DA serve para qualquer crise.",
+    "porque": "O **tipo de crise** define o fármaco."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T05": {
+  "titulo": "Uma crise + lesão estrutural — critério de epilepsia",
+  "topicos": [
+   {
+    "rotulo": "Critério 2",
+    "texto": "**Uma crise não provocada** + risco de recorrência **≥ 60% em 10 anos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "O que indica o risco",
+    "texto": "**Lesão epileptogênica na RM** e **EEG** compatível na mesma região.",
+    "sub": []
+   },
+   {
+    "rotulo": "Lembrar",
+    "texto": "EEG pode ser **normal** mesmo com epilepsia; a RM ajuda a achar **causa estrutural**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Sempre é preciso esperar a segunda crise.",
+    "porque": "Com risco alto de recorrência, **uma crise basta**."
+   },
+   {
+    "frase": "EEG normal exclui epilepsia.",
+    "porque": "O slide lembra que o EEG **pode ser normal**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T06": {
+  "titulo": "ILAE 2017 — crise focal com consciência comprometida",
+  "topicos": [
+   {
+    "rotulo": "Primeiro passo",
+    "texto": "Definir **onde a crise começa**: focal, generalizada ou desconhecida.",
+    "sub": []
+   },
+   {
+    "rotulo": "Focal com consciência comprometida",
+    "texto": "Perde o contato com o ambiente; **automatismos**, parada comportamental; no pós-ictal, **confusão e amnésia**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Evolução possível",
+    "texto": "Pode evoluir para **tônico-clônica bilateral**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Por que importa",
+    "texto": "A classificação **direciona a DA** (ex.: carbamazepina e lamotrigina em crises focais).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Automatismos indicam crise generalizada.",
+    "porque": "Automatismos com foco temporal são de **início focal**."
+   },
+   {
+    "frase": "Amnésia pós-crise define ausência.",
+    "porque": "Ausência é **breve, sem pós-ictal**; amnésia aponta focal com consciência comprometida."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T07": {
+  "titulo": "Carbamazepina + contraceptivo — indução enzimática e falha",
+  "topicos": [
+   {
+    "rotulo": "Carbamazepina",
+    "texto": "**Forte indutora enzimática** (1ª geração), com muitas interações.",
+    "sub": []
+   },
+   {
+    "rotulo": "Efeito no ACO",
+    "texto": "Acelera o metabolismo dos hormônios: **níveis menores** e risco de **gravidez não planejada**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Também com",
+    "texto": "**Fenobarbital** e **oxcarbazepina** podem reduzir a eficácia do anticoncepcional.",
+    "sub": []
+   },
+   {
+    "rotulo": "Alternativa",
+    "texto": "DAs de **2ª geração** com poucas interações, como o **levetiracetam**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A carbamazepina aumenta os níveis do ACO e o risco de trombose.",
+    "porque": "Como **indutora**, ela **reduz** os níveis."
+   },
+   {
+    "frase": "Só a lamotrigina interfere no ACO.",
+    "porque": "O slide destaca **carbamazepina e oxcarbazepina** como redutoras da eficácia."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T08": {
+  "titulo": "Lamotrigina + valproato — titulação ainda mais lenta",
+  "topicos": [
+   {
+    "rotulo": "Interação",
+    "texto": "O **valproato inibe a glicuronidação** da lamotrigina e **eleva** seus níveis.",
+    "sub": []
+   },
+   {
+    "rotulo": "Risco",
+    "texto": "Mais risco de **rash e síndrome de Stevens-Johnson**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Conduta",
+    "texto": "**Titulação lenta** e doses menores quando associadas.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O valproato induz o metabolismo da lamotrigina.",
+    "porque": "Ele **inibe**; por isso os níveis sobem."
+   },
+   {
+    "frase": "A titulação lenta serve para evitar hiponatremia.",
+    "porque": "Hiponatremia é da **oxcarbazepina/carbamazepina**; aqui o risco é **cutâneo**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T09": {
+  "titulo": "Lacosamida — inativação lenta do canal de Na⁺",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo",
+    "texto": "Favorece a **inativação lenta** dos canais de Na⁺ e limita disparos repetitivos sustentados.",
+    "sub": []
+   },
+   {
+    "rotulo": "Diferença",
+    "texto": "Carbamazepina e fenitoína agem na **inativação rápida** (estado inativado).",
+    "sub": []
+   },
+   {
+    "rotulo": "Outros de 3ª geração",
+    "texto": "**Perampanel** (antagonista AMPA), **brivaracetam** (SV2A), **cenobamato** (Na⁺ + GABA-A), **vigabatrina** (inibe GABA-transaminase).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A lacosamida age na proteína SV2A.",
+    "porque": "SV2A é alvo do **levetiracetam e brivaracetam**."
+   },
+   {
+    "frase": "A lacosamida bloqueia receptores AMPA.",
+    "porque": "Antagonista AMPA é o **perampanel**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTICONV-T10": {
+  "titulo": "Farmacorresistência — politerapia racional",
+  "topicos": [
+   {
+    "rotulo": "Quando",
+    "texto": "Após falha de **duas monoterapias** otimizadas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Como",
+    "texto": "Associar DAs com **mecanismos complementares**, para ganhar eficácia sem somar a mesma toxicidade.",
+    "sub": []
+   },
+   {
+    "rotulo": "Se ainda falhar",
+    "texto": "Encaminhar a **centro especializado**; 20–35% dos pacientes são farmacorresistentes.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Associar dois bloqueadores de Na⁺ é a melhor estratégia.",
+    "porque": "Mesmo mecanismo **soma toxicidade**."
+   },
+   {
+    "frase": "Farmacorresistência indica aumentar a dose acima da tolerada.",
+    "porque": "Doses já estão na **máxima tolerada**; o passo é politerapia racional."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia da epilepsia)"
+ },
+ "ANTIDEP-T01": {
+  "titulo": "Reserpina e depressão — prova da hipótese monoaminérgica",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo",
+    "texto": "A reserpina **impede o armazenamento vesicular** (VMAT) e **depleta** NA, 5-HT e DA.",
+    "sub": []
+   },
+   {
+    "rotulo": "Efeito",
+    "texto": "Menos aminas na fenda → **piora da depressão**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Contraprova",
+    "texto": "**ADT** (inibem recaptação) e **IMAO** (inibem degradação) aumentam aminas → **melhora**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A reserpina bloqueia receptores pós-sinápticos de 5-HT.",
+    "porque": "Ela **depleta as vesículas**, não bloqueia receptor."
+   },
+   {
+    "frase": "A reserpina estimula a MAO.",
+    "porque": "O efeito é perda do **armazenamento vesicular**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T02": {
+  "titulo": "Latência do antidepressivo — hipótese neurotrófica",
+  "topicos": [
+   {
+    "rotulo": "Hipótese do slide",
+    "texto": "Na depressão há **débito do fator neurotrófico (BDNF) no hipocampo**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Por que demora",
+    "texto": "O aumento de aminas é imediato, mas recuperar BDNF e plasticidade **leva semanas**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Na prática",
+    "texto": "Sem melhora em 10 dias **não é falha**: manter e reavaliar.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Sem melhora em 10 dias, o ISRS falhou.",
+    "porque": "A resposta exige **semanas** de uso."
+   },
+   {
+    "frase": "A resposta depende de abrir canais de cloreto.",
+    "porque": "Antidepressivos agem por **monoaminas e adaptações crônicas**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos) e Rang & Dale"
+ },
+ "ANTIDEP-T03": {
+  "titulo": "Latência do antidepressivo — sensibilidade dos receptores",
+  "topicos": [
+   {
+    "rotulo": "Hipótese do slide",
+    "texto": "**Dessensibilização ou infrarregulação** de receptores de NA e **5-HT1A** se relaciona ao início do efeito.",
+    "sub": []
+   },
+   {
+    "rotulo": "O que acontece",
+    "texto": "No início, mais 5-HT ativa **autorreceptores inibitórios**, que freiam o disparo; com semanas eles se dessensibilizam.",
+    "sub": []
+   },
+   {
+    "rotulo": "Tempo",
+    "texto": "Por isso o efeito leva **2 a 4 semanas**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O efeito é imediato porque a recaptação é bloqueada na hora.",
+    "porque": "O bloqueio é imediato; a **adaptação dos receptores** leva semanas."
+   },
+   {
+    "frase": "A latência ocorre por suprarregulação de receptores.",
+    "porque": "O slide fala em **dessensibilização/infrarregulação**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T04": {
+  "titulo": "Episódio depressivo maior — critérios do DSM-IV",
+  "topicos": [
+   {
+    "rotulo": "Quantidade",
+    "texto": "**Pelo menos 5 sintomas**, sendo um deles **humor depressivo**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Tempo",
+    "texto": "Maior parte do dia, quase todos os dias, por **pelo menos 2 semanas**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Exclusões",
+    "texto": "Não atribuível a **medicações, doenças físicas** ou **luto**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Uma semana de tristeza intensa já fecha o diagnóstico.",
+    "porque": "O mínimo é **2 semanas**."
+   },
+   {
+    "frase": "Luto recente não interfere no diagnóstico.",
+    "porque": "O **luto** é critério de exclusão."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T05": {
+  "titulo": "Depressão leve a moderada — psicoterapia isolada é opção",
+  "topicos": [
+   {
+    "rotulo": "Leve a moderada",
+    "texto": "**Psicoterapia isolada** é adequada.",
+    "sub": []
+   },
+   {
+    "rotulo": "Grave",
+    "texto": "**Farmacoterapia é imprescindível**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Ideal",
+    "texto": "Associação **remédio + psicoterapia**; a psicoterapia ajuda na **manutenção da cura**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Todo caso de depressão exige antidepressivo.",
+    "porque": "Casos **leves a moderados** podem ser tratados só com psicoterapia."
+   },
+   {
+    "frase": "Psicoterapia isolada serve para depressão grave.",
+    "porque": "Na grave, a farmacoterapia é **obrigatória**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T06": {
+  "titulo": "Antes de tratar depressão — triagem e diagnóstico diferencial",
+  "topicos": [
+   {
+    "rotulo": "Triagem",
+    "texto": "Antes de fechar o diagnóstico, fazer **triagem completa** do paciente.",
+    "sub": []
+   },
+   {
+    "rotulo": "Por quê",
+    "texto": "Doenças físicas (ex.: **hipotireoidismo**) e **medicações** podem imitar depressão.",
+    "sub": []
+   },
+   {
+    "rotulo": "Objetivos depois",
+    "texto": "Reduzir sintomas agudos, **retornar às atividades** e **evitar reincidência**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Com sintomas típicos, pode-se prescrever sem investigar.",
+    "porque": "O slide exige **triagem completa** antes."
+   },
+   {
+    "frase": "Causas orgânicas não entram no diagnóstico.",
+    "porque": "Doença física e medicação são **critérios de exclusão**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T07": {
+  "titulo": "Mirtazapina x bupropiona — insônia, peso e epilepsia",
+  "topicos": [
+   {
+    "rotulo": "Mirtazapina",
+    "texto": "Antagonismo **α2** (mais NA e 5-HT) e bloqueio **H1**: **sedação** e **aumento do apetite**; útil com insônia e perda de peso.",
+    "sub": []
+   },
+   {
+    "rotulo": "Bupropiona",
+    "texto": "Bloqueia recaptação de **dopamina** e NA; **risco em epilépticos** (reduz o limiar convulsivo).",
+    "sub": []
+   },
+   {
+    "rotulo": "Lição",
+    "texto": "Escolher o antidepressivo pelo **perfil de RAMs** e comorbidades.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Bupropiona é boa para quem tem insônia e epilepsia.",
+    "porque": "É **estimulante** e **reduz o limiar convulsivo**."
+   },
+   {
+    "frase": "Mirtazapina causa perda de peso.",
+    "porque": "O bloqueio H1 **aumenta o apetite e o peso**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T08": {
+  "titulo": "Venlafaxina após falha do ISRS — indicação e interações",
+  "topicos": [
+   {
+    "rotulo": "Indicação",
+    "texto": "Duais (**venlafaxina, duloxetina, milnaciprano**) para depressão **severa ou refratária** ao ISRS.",
+    "sub": []
+   },
+   {
+    "rotulo": "Farmacocinética",
+    "texto": "**Baixa ligação a proteínas** e **não inibem o P450**: poucas interações.",
+    "sub": []
+   },
+   {
+    "rotulo": "Monitorar",
+    "texto": "**PA e ECG** em duais e tricíclicos; a NA pode **elevar a PA**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Duais inibem fortemente o P450.",
+    "porque": "O slide diz que **não inibem** o P450."
+   },
+   {
+    "frase": "Duais são 1ª escolha antes do ISRS.",
+    "porque": "Entram quando o **ISRS não funcionou**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T09": {
+  "titulo": "Tricíclicos — por que monitorar ECG e PA",
+  "topicos": [
+   {
+    "rotulo": "Acompanhamento do slide",
+    "texto": "**PA e ECG** em pacientes com **duais e tricíclicos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Coração",
+    "texto": "ADTs alteram a **condução cardíaca** (efeito tipo quinidina): **arritmias**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Pressão",
+    "texto": "Bloqueio **α1**: **hipotensão postural**, sobretudo em idosos.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O ECG é pedido por causa de hiperpotassemia.",
+    "porque": "O risco é **arritmia por alteração de condução**."
+   },
+   {
+    "frase": "ISRS e tricíclicos exigem o mesmo monitoramento cardíaco.",
+    "porque": "O slide cita **duais e tricíclicos**; ISRS têm menos efeitos cardíacos."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "ANTIDEP-T10": {
+  "titulo": "IMAO e tiramina — crise hipertensiva",
+  "topicos": [
+   {
+    "rotulo": "Tiramina",
+    "texto": "Está em **queijos maturados** e fermentados; normalmente é degradada pela **MAO-A** no intestino.",
+    "sub": []
+   },
+   {
+    "rotulo": "Com IMAO",
+    "texto": "A tiramina passa intacta e provoca **liberação de noradrenalina**: **crise hipertensiva**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Uso do IMAO",
+    "texto": "Reservado para depressão **refratária** a ADT e ISRS (moclobemida, tranilcipromina).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A crise vem do excesso de serotonina.",
+    "porque": "O mecanismo é **noradrenérgico**, pela tiramina."
+   },
+   {
+    "frase": "Qualquer antidepressivo exige dieta sem tiramina.",
+    "porque": "A restrição é dos **IMAOs**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacologia clínica dos antidepressivos)"
+ },
+ "CONTRA-T01": {
+  "titulo": "Ovulação — o surto de LH",
+  "topicos": [
+   {
+    "rotulo": "Fase folicular",
+    "texto": "O **folículo dominante** cresce e produz estradiol.",
+    "sub": []
+   },
+   {
+    "rotulo": "Gatilho",
+    "texto": "Estradiol alto e mantido muda o feedback para **positivo** e dispara o **pico de LH**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Resultado",
+    "texto": "O pico de LH libera o **óvulo** (ovulação).",
+    "sub": []
+   },
+   {
+    "rotulo": "Ligação com o ACO",
+    "texto": "O ACO **suprime FSH e LH** e impede esse pico.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A progesterona alta dispara o pico de LH.",
+    "porque": "O gatilho é o **estradiol** do folículo dominante."
+   },
+   {
+    "frase": "O pico de FSH sozinho libera o óvulo.",
+    "porque": "A ovulação depende do **surto de LH**."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção)"
+ },
+ "CONTRA-T02": {
+  "titulo": "Ciclo menstrual — estradiol prolifera, progesterona mantém",
+  "topicos": [
+   {
+    "rotulo": "Fase proliferativa",
+    "texto": "O **estradiol** reconstitui o endométrio e prepara para a implantação.",
+    "sub": []
+   },
+   {
+    "rotulo": "Fase lútea",
+    "texto": "A **progesterona** mantém o endométrio (secretor).",
+    "sub": []
+   },
+   {
+    "rotulo": "Menstruação",
+    "texto": "**Queda da progesterona** leva à descamação.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A progesterona comanda a fase proliferativa.",
+    "porque": "Proliferação é efeito do **estradiol**."
+   },
+   {
+    "frase": "A menstruação vem do aumento de progesterona.",
+    "porque": "Vem da **queda** da progesterona."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção)"
+ },
+ "CONTRA-T03": {
+  "titulo": "Biossíntese dos esteroides sexuais — do colesterol ao estradiol",
+  "topicos": [
+   {
+    "rotulo": "Base",
+    "texto": "Todos derivam do **colesterol** (núcleo ciclopentanoperidrofenantreno).",
+    "sub": []
+   },
+   {
+    "rotulo": "Estradiol",
+    "texto": "Formado pela **aromatização de androgênios** (testosterona, androstenediona).",
+    "sub": []
+   },
+   {
+    "rotulo": "Controle",
+    "texto": "Eixo **GnRH → FSH/LH → ovário**, com retroalimentação.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O estradiol é sintetizado sem passar por androgênios.",
+    "porque": "A via passa por **androgênios aromatizados**."
+   },
+   {
+    "frase": "A progesterona deriva do estradiol.",
+    "porque": "A progesterona vem **antes**, a partir da pregnenolona."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção) e Goodman & Gilman"
+ },
+ "CONTRA-T04": {
+  "titulo": "ACO combinado — bloqueio do eixo por feedback negativo",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo principal",
+    "texto": "**Suprime o surto de FSH e LH** no meio do ciclo e impede o folículo dominante.",
+    "sub": []
+   },
+   {
+    "rotulo": "Efeitos somados",
+    "texto": "**Muco cervical espesso** e endométrio desfavorável.",
+    "sub": []
+   },
+   {
+    "rotulo": "Esperado",
+    "texto": "Sem ovulação; o sangramento na pausa é **por suspensão**, não menstruação ovulatória.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O ACO estimula FSH e LH.",
+    "porque": "Ele **suprime** por feedback negativo."
+   },
+   {
+    "frase": "O ACO age só no endométrio.",
+    "porque": "O efeito principal é **inibir a ovulação**."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção)"
+ },
+ "CONTRA-T05": {
+  "titulo": "Emergência — levonorgestrel isolado x Yuzpe",
+  "topicos": [
+   {
+    "rotulo": "Levonorgestrel",
+    "texto": "**Dose alta** (2 × 0,75 mg) até **72 h**; preferido.",
+    "sub": []
+   },
+   {
+    "rotulo": "Yuzpe",
+    "texto": "**Etinilestradiol + levonorgestrel**: o estrogênio em dose alta causa **mais náusea e vômito**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Eficácia",
+    "texto": "Quanto **mais cedo**, melhor.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Yuzpe tem menos náusea por usar doses menores.",
+    "porque": "O **estrogênio** do Yuzpe aumenta náusea e vômito."
+   },
+   {
+    "frase": "Pode-se usar até uma semana depois sem perda.",
+    "porque": "O slide limita a **72 h** e a eficácia cai com o tempo."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção)"
+ },
+ "CONTRA-T06": {
+  "titulo": "Atrofia urogenital — estrogênio vaginal em baixa dose",
+  "topicos": [
+   {
+    "rotulo": "Aplicação do slide",
+    "texto": "**Atrofia urogenital**: ação trófica dos hormônios.",
+    "sub": []
+   },
+   {
+    "rotulo": "Via tópica",
+    "texto": "Estradiol vaginal em **baixa dose** tem **mínima absorção sistêmica**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Progestagênio",
+    "texto": "Como quase não age no útero, **dispensa** progestagênio associado.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Todo estrogênio exige progestagênio.",
+    "porque": "Na via **vaginal em baixa dose**, a exposição uterina é mínima."
+   },
+   {
+    "frase": "A via oral é preferida para atrofia isolada.",
+    "porque": "A via **tópica** trata o local com menos efeitos sistêmicos."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção) e Goodman & Gilman"
+ },
+ "CONTRA-T07": {
+  "titulo": "Drospirenona + IECA — risco de hipercalemia",
+  "topicos": [
+   {
+    "rotulo": "Drospirenona",
+    "texto": "Progestágeno com ação **antimineralocorticoide** (como a espironolactona).",
+    "sub": []
+   },
+   {
+    "rotulo": "Vantagem do slide",
+    "texto": "**Menor ganho de peso** e melhor tolerância em **hipertensas**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Risco",
+    "texto": "Com **IECA, BRA ou poupador de potássio**, soma retenção de K⁺: **hipercalemia**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A drospirenona causa hipocalemia.",
+    "porque": "Antagonizando a aldosterona, ela **retém potássio**."
+   },
+   {
+    "frase": "A drospirenona eleva a PA por retenção de sódio.",
+    "porque": "Ela tem efeito **antimineralocorticoide**, oposto."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção)"
+ },
+ "CONTRA-T08": {
+  "titulo": "ACO + carbamazepina — falha contraceptiva",
+  "topicos": [
+   {
+    "rotulo": "Interação",
+    "texto": "**Anticonvulsivantes indutores** (carbamazepina) aceleram o metabolismo hepático dos hormônios.",
+    "sub": []
+   },
+   {
+    "rotulo": "Consequência",
+    "texto": "Níveis menores → **gravidez não planejada**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Outros do slide",
+    "texto": "Rifampicina, ampicilina, pioglitazona, sulfonamidas e tetraciclinas **diminuem a ação** do ACO.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A carbamazepina aumenta os níveis do ACO.",
+    "porque": "É **indutora**: reduz os níveis."
+   },
+   {
+    "frase": "O ACO reduz o efeito da carbamazepina.",
+    "porque": "O efeito relevante é a **queda da eficácia contraceptiva**."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção)"
+ },
+ "CONTRA-T09": {
+  "titulo": "Sinais de alarme com contraceptivo — suspender já",
+  "topicos": [
+   {
+    "rotulo": "Suspender (slide)",
+    "texto": "**Alteração visual**, **formigamento unilateral**, **fala arrastada**, dor no tórax, braço esquerdo ou pescoço.",
+    "sub": []
+   },
+   {
+    "rotulo": "Por quê",
+    "texto": "Podem ser **AVC, IAM ou trombose**, ligados ao estrogênio.",
+    "sub": []
+   },
+   {
+    "rotulo": "Avaliar sem urgência",
+    "texto": "Amenorreia, sangramento anormal, nódulo ou dor na mama.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Sintomas neurológicos permitem manter o ACO até a consulta.",
+    "porque": "São **sintomas graves**: suspender e buscar urgência."
+   },
+   {
+    "frase": "Trocar de marca do ACO resolve.",
+    "porque": "O risco é do **estrogênio**; o método precisa ser revisto."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção)"
+ },
+ "CONTRA-T10": {
+  "titulo": "Injetável de medroxiprogesterona — o que monitorar",
+  "topicos": [
+   {
+    "rotulo": "Mecanismo",
+    "texto": "Progestágeno que **inibe a ovulação**, espessa o muco e suprime o endométrio.",
+    "sub": []
+   },
+   {
+    "rotulo": "Esquemas do slide",
+    "texto": "**Depomedroxiprogesterona trimestral**; mensal associada a cipionato de estradiol.",
+    "sub": []
+   },
+   {
+    "rotulo": "Monitorar",
+    "texto": "**PA**, **glicemia** e, no uso longo, **massa óssea** pelo hipoestrogenismo.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O injetável não exige acompanhamento.",
+    "porque": "O slide pede **PA e glicemia**; o uso prolongado pede atenção ao **osso**."
+   },
+   {
+    "frase": "A medroxiprogesterona aumenta a densidade óssea.",
+    "porque": "A supressão estrogênica prolongada favorece **perda óssea**."
+   }
+  ],
+  "fonte": "Slide da aula (Contracepção) e Goodman & Gilman"
+ },
+ "INFEC-T01": {
+  "titulo": "Da terapia empírica à definitiva — descalonar",
+  "topicos": [
+   {
+    "rotulo": "Três usos",
+    "texto": "**Empírica** (inicial), **definitiva** e **preventiva**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Definitiva",
+    "texto": "Após **cultura e antibiograma**: antibiótico **direcionado** ao patógeno isolado.",
+    "sub": []
+   },
+   {
+    "rotulo": "Ganho",
+    "texto": "Menos **resistência**, toxicidade e custo, com a mesma eficácia.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Manter o amplo espectro é mais seguro após o resultado.",
+    "porque": "Com o agente conhecido, o certo é **direcionar**."
+   },
+   {
+    "frase": "Paciente estável pode suspender o antibiótico com cultura positiva.",
+    "porque": "A cultura **orienta a escolha**; o tratamento continua."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T02": {
+  "titulo": "Uso indiscriminado de antibióticos — mais tóxico, potente e caro que o necessário",
+  "topicos": [
+   {
+    "rotulo": "Problema",
+    "texto": "Usar droga **mais tóxica, potente e cara** que o necessário.",
+    "sub": []
+   },
+   {
+    "rotulo": "Infecção viral",
+    "texto": "A maioria das infecções do TRS é **viral e autolimitada**: antibiótico não trata.",
+    "sub": []
+   },
+   {
+    "rotulo": "Consequências",
+    "texto": "**Seleção de resistência**, toxicidade e custo **sem benefício**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Carbapenêmico em virose previne complicações bacterianas.",
+    "porque": "Não há benefício; só **resistência e toxicidade**."
+   },
+   {
+    "frase": "Quanto mais potente o antibiótico, menor a resistência.",
+    "porque": "Amplo espectro sem indicação **acelera a resistência**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T03": {
+  "titulo": "Terapia preventiva — profilaxia antes de procedimento",
+  "topicos": [
+   {
+    "rotulo": "Definição",
+    "texto": "Proteger paciente **exposto ou em risco** com droga de **poucos efeitos adversos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Exemplos do slide",
+    "texto": "**Rifampicina** em contactantes de meningite meningocócica; **lesão valvar** antes de cirurgia (endocardite).",
+    "sub": []
+   },
+   {
+    "rotulo": "Princípio",
+    "texto": "Direcionada ao **agente mais provável**, curta, quando o benefício supera o risco de resistência.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Profilaxia usa o antibiótico de maior espectro possível.",
+    "porque": "Usa droga de **baixa toxicidade** direcionada ao agente provável."
+   },
+   {
+    "frase": "Profilaxia deve durar o mesmo que um tratamento.",
+    "porque": "A duração é **mínima**, ligada à exposição."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T04": {
+  "titulo": "Terapia empírica — começar logo após colher culturas",
+  "topicos": [
+   {
+    "rotulo": "Por que não esperar",
+    "texto": "Doenças infecciosas são **agudas**: atrasar o tratamento piora o prognóstico.",
+    "sub": []
+   },
+   {
+    "rotulo": "Base da escolha",
+    "texto": "História, exame físico, testes rápidos e **padrões locais de suscetibilidade**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Em paralelo",
+    "texto": "Colher **cultura e antibiograma** o quanto antes para depois direcionar.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Deve-se aguardar o antibiograma antes de tratar quadro grave.",
+    "porque": "No quadro agudo, a terapia **empírica é imediata**."
+   },
+   {
+    "frase": "A empírica dispensa coleta de cultura.",
+    "porque": "A cultura é necessária para a **terapia definitiva**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T05": {
+  "titulo": "Imunodeprimido ou neutropênico — bactericida, nunca bacteriostático",
+  "topicos": [
+   {
+    "rotulo": "Regra do slide",
+    "texto": "Imunodeprimidos (HIV, etilista, diabético, neutropênico) **não devem usar bacteriostáticos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Por quê",
+    "texto": "Bacteriostático só **inibe o crescimento**; quem elimina a bactéria é a **defesa do hospedeiro**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Exemplos",
+    "texto": "Bactericidas: **penicilinas, cefalosporinas, quinolonas**. Bacteriostáticos: tetraciclinas, eritromicina, sulfonamidas, cloranfenicol.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Eritromicina é boa escolha no neutropênico.",
+    "porque": "É **bacteriostática**: depende de fagócitos que ele não tem."
+   },
+   {
+    "frase": "Neutropenia não é sinal de infecção.",
+    "porque": "O slide cita a **neutropenia** como sinal clínico de infecção."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T06": {
+  "titulo": "Abscesso — drenar para o antibiótico funcionar",
+  "topicos": [
+   {
+    "rotulo": "O que é o pus",
+    "texto": "**Leucócitos degenerados**, plasma, bactérias, proteínas e debris.",
+    "sub": []
+   },
+   {
+    "rotulo": "Falha do tratamento",
+    "texto": "Abscessos, tecido necrosado e corpo estranho devem ser **retirados ou drenados**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Exemplos do slide",
+    "texto": "Drenagem de **líquido pleural infectado**; retirada de **dispositivo intravascular** na bacteremia por S. aureus.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Antibiótico IV isolado resolve o abscesso.",
+    "porque": "Sem **drenagem**, o fármaco não alcança a bactéria no pus."
+   },
+   {
+    "frase": "Aumentar a dose substitui a drenagem.",
+    "porque": "O problema é **acesso ao foco**, não dose."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T07": {
+  "titulo": "HIV/imunodeprimido — bactericida em vez de bacteriostático",
+  "topicos": [
+   {
+    "rotulo": "Regra",
+    "texto": "Imunodeprimidos **não devem usar bacteriostáticos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Bactericidas",
+    "texto": "**Penicilinas, cefalosporinas** (ex.: ceftriaxona), quinolonas.",
+    "sub": []
+   },
+   {
+    "rotulo": "Bacteriostáticos",
+    "texto": "**Eritromicina**, tetraciclinas, sulfonamidas, cloranfenicol.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Macrolídeo é igual a cefalosporina no imunodeprimido.",
+    "porque": "Eritromicina é **bacteriostática**."
+   },
+   {
+    "frase": "No imunodeprimido, o espectro importa mais que o tipo de ação.",
+    "porque": "Sem defesa, é preciso **matar** a bactéria."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T08": {
+  "titulo": "Prostatite — fármacos levemente básicos",
+  "topicos": [
+   {
+    "rotulo": "Fator da doença",
+    "texto": "O local da infecção define o fármaco que chega ao foco.",
+    "sub": []
+   },
+   {
+    "rotulo": "Próstata",
+    "texto": "Meio **mais ácido** que o plasma: fármacos **básicos** (trimetoprima) se ionizam e ficam **retidos**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Exemplo do slide",
+    "texto": "**Sulfa + trimetoprima** tem melhor resposta nas prostatites.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Fármacos ácidos se acumulam melhor na próstata.",
+    "porque": "Quem fica retido é o fármaco **básico**."
+   },
+   {
+    "frase": "Qualquer β-lactâmico atinge bem a próstata.",
+    "porque": "A penetração depende das **propriedades físico-químicas**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T09": {
+  "titulo": "Sem melhora em 2–3 dias — procure o corpo estranho",
+  "topicos": [
+   {
+    "rotulo": "Avaliar resposta",
+    "texto": "Febre caindo, **leucócitos normalizando**, menos sinais inflamatórios e secreção.",
+    "sub": []
+   },
+   {
+    "rotulo": "Sem melhora",
+    "texto": "Em **2 a 3 dias**, **reavaliar** a terapia.",
+    "sub": []
+   },
+   {
+    "rotulo": "Causa não farmacológica",
+    "texto": "**Corpo estranho**, abscesso ou tecido necrosado: **retirar ou drenar** (ex.: cateter na bacteremia por S. aureus).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Basta trocar por antibiótico mais potente.",
+    "porque": "Com o **foco mantido**, nenhum antibiótico resolve."
+   },
+   {
+    "frase": "Deve-se esperar 10 dias antes de reavaliar.",
+    "porque": "O slide manda reavaliar em **2 a 3 dias**."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "INFEC-T10": {
+  "titulo": "Antibiograma e CIM — por que in vitro difere de in vivo",
+  "topicos": [
+   {
+    "rotulo": "Falha na definitiva",
+    "texto": "Mesmo com antibiótico adequado, pode falhar por **limitações do antibiograma e da CIM**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Por quê",
+    "texto": "O teste é feito em **condições ideais**; no corpo há penetração tecidual, ligação a proteínas, pH e pus.",
+    "sub": []
+   },
+   {
+    "rotulo": "Na prática",
+    "texto": "Considerar o **sítio da infecção** e a farmacocinética, não só o resultado do laboratório.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Sensível no antibiograma garante cura.",
+    "porque": "Há **discrepância in vivo/in vitro**."
+   },
+   {
+    "frase": "A CIM já inclui a penetração no tecido.",
+    "porque": "A CIM é medida **in vitro**, sem barreiras do organismo."
+   }
+  ],
+  "fonte": "Slide da aula (Farmacoterapia das infecções)"
+ },
+ "TRS-T01": {
+  "titulo": "Otite média aguda — por que a amoxicilina é a 1ª escolha",
+  "topicos": [
+   {
+    "rotulo": "Agentes",
+    "texto": "Os mais comuns são **S. pneumoniae**, **H. influenzae** e **M. catarrhalis**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Amoxicilina",
+    "texto": "1ª escolha empírica: **chega à orelha média em concentração eficaz** e atua contra o **S. pneumoniae**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Sintomáticos",
+    "texto": "**Paracetamol** ou AINE para febre e dor.",
+    "sub": []
+   },
+   {
+    "rotulo": "Monitorar",
+    "texto": "Melhora esperada em **até 3 dias**; se não melhorar, trocar.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Toda OMA exige amoxicilina + clavulanato desde o início.",
+    "porque": "O clavulanato entra quando se suspeita de **produtores de β-lactamase** ou há falha da amoxicilina."
+   },
+   {
+    "frase": "A amoxicilina tem ação concentração-dependente.",
+    "porque": "β-lactâmicos são **tempo-dependentes**."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T02": {
+  "titulo": "Falha da amoxicilina na OMA — β-lactamase de H. influenzae e M. catarrhalis",
+  "topicos": [
+   {
+    "rotulo": "Por que falha",
+    "texto": "**H. influenzae** e **M. catarrhalis** podem produzir **β-lactamase**, que hidrolisa a amoxicilina.",
+    "sub": []
+   },
+   {
+    "rotulo": "Sequência do slide",
+    "texto": "(1) **Amoxicilina** → (2) **amoxicilina + clavulanato** → (3) **cefuroxima** → (4) **ceftriaxona IM**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Como o clavulanato ajuda",
+    "texto": "Inibidor **suicida**: inativa a β-lactamase e protege a amoxicilina.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O clavulanato reverte mutações nas PBPs.",
+    "porque": "Ele só atua sobre **β-lactamases**; PBP alterada não é corrigida."
+   },
+   {
+    "frase": "A cefuroxima resiste a qualquer β-lactamase.",
+    "porque": "Tem estabilidade **maior**, não absoluta."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T03": {
+  "titulo": "Ceftriaxona IM na OMA — quando e por quê",
+  "topicos": [
+   {
+    "rotulo": "Lugar na sequência",
+    "texto": "É a **4ª opção** do slide, após falha ou intolerância às opções orais.",
+    "sub": []
+   },
+   {
+    "rotulo": "Farmacocinética",
+    "texto": "**Meia-vida longa**: permite **dose única diária** e boa concentração tecidual; atinge bem o **LCR**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Segurança",
+    "texto": "Atenção à interação com **cálcio IV em neonatos** (precipitação).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A ceftriaxona é a 1ª escolha na OMA.",
+    "porque": "A 1ª escolha é a **amoxicilina** oral."
+   },
+   {
+    "frase": "A ceftriaxona exige várias doses ao dia.",
+    "porque": "A meia-vida longa permite **uma dose ao dia**."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T04": {
+  "titulo": "Faringite na criança — paracetamol para dor e febre",
+  "topicos": [
+   {
+    "rotulo": "Escolha",
+    "texto": "**Paracetamol** é a 1ª escolha para dor e febre na faringite.",
+    "sub": []
+   },
+   {
+    "rotulo": "Por quê",
+    "texto": "Em crianças, grupo mais atingido, os **AINEs podem causar reações adversas graves**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Medidas de apoio",
+    "texto": "Líquidos, pastilhas, gargarejos e **assepsia local**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "AAS é seguro para febre em criança.",
+    "porque": "AAS em criança com virose se associa à **síndrome de Reye**."
+   },
+   {
+    "frase": "AINE é preferido por ser anti-inflamatório.",
+    "porque": "O slide prioriza **segurança**: paracetamol primeiro."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T05": {
+  "titulo": "Faringite estreptocócica em alérgico à penicilina — alternativas e proibição",
+  "topicos": [
+   {
+    "rotulo": "Ordem do slide",
+    "texto": "(1) **Penicilina** → (2) **amoxicilina** VO → (3) **eritromicina ou cefalexina** → (4) azitromicina/claritromicina só se resistência.",
+    "sub": []
+   },
+   {
+    "rotulo": "Alérgico à penicilina",
+    "texto": "Usar **eritromicina** (macrolídeo) ou **cefalexina** (cefalosporina de 1ª geração).",
+    "sub": []
+   },
+   {
+    "rotulo": "Nunca",
+    "texto": "**Tetraciclina**: resistência bacteriana confirmada do estreptococo.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Doxiciclina é boa alternativa na faringite.",
+    "porque": "Tetraciclinas são **proscritas** por resistência confirmada."
+   },
+   {
+    "frase": "Azitromicina é a 1ª alternativa por ser mais barata.",
+    "porque": "Macrolídeos novos são **mais caros** e reservados para **resistência**."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T06": {
+  "titulo": "Faringite — tempo de melhora e isolamento",
+  "topicos": [
+   {
+    "rotulo": "Febre",
+    "texto": "Costuma melhorar entre o **3º e o 5º dia**; a maioria dos sintomas em **uma semana**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Isolamento",
+    "texto": "Manter a criança em casa até **24 h após o início do antibiótico**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Lembrar",
+    "texto": "A maioria das faringites é **viral e autolimitada**.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A criança pode voltar à escola no mesmo dia do antibiótico.",
+    "porque": "O slide orienta **24 h** de afastamento após iniciar."
+   },
+   {
+    "frase": "Sem melhora em 24 h, deve-se trocar o antibiótico.",
+    "porque": "A febre pode levar **3 a 5 dias** para ceder."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T07": {
+  "titulo": "Aminopenicilinas — espectro ampliado, mas sensíveis à β-lactamase",
+  "topicos": [
+   {
+    "rotulo": "Quem são",
+    "texto": "**Amoxicilina e ampicilina**: gram-positivos e **alguns gram-negativos**, uso oral, indicadas no TRS.",
+    "sub": []
+   },
+   {
+    "rotulo": "Ponto fraco",
+    "texto": "São **sensíveis às β-lactamases**: produtores de penicilinase causam falha.",
+    "sub": []
+   },
+   {
+    "rotulo": "Resistentes à penicilinase",
+    "texto": "**Oxacilina, cloxacilina, nafcilina e dicloxacilina** (semissintéticas).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Aminopenicilinas resistem às penicilinases.",
+    "porque": "Quem resiste são as **penicilinas antiestafilocócicas** (oxacilina, dicloxacilina)."
+   },
+   {
+    "frase": "A falha vem de baixa absorção oral.",
+    "porque": "Amoxicilina tem **boa absorção oral**; o problema é a **β-lactamase**."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T08": {
+  "titulo": "Piperacilina + tazobactam — inibidor suicida amplia o espectro",
+  "topicos": [
+   {
+    "rotulo": "Piperacilina",
+    "texto": "Penicilina **antipseudomonas**, com espectro maior que a ampicilina, mas **sensível às β-lactamases**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Tazobactam",
+    "texto": "**Inibidor suicida**: liga-se **irreversivelmente** à β-lactamase, com pouca ação antibacteriana própria.",
+    "sub": []
+   },
+   {
+    "rotulo": "Resultado",
+    "texto": "A associação tem **amplo espectro**, incluindo produtores de β-lactamase.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "O tazobactam é um antibiótico potente por si só.",
+    "porque": "Tem **pouca atividade intrínseca**; protege a piperacilina."
+   },
+   {
+    "frase": "O tazobactam inibe as transpeptidases (PBPs).",
+    "porque": "Quem age nas PBPs é a **piperacilina**; o tazobactam age na **β-lactamase**."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T09": {
+  "titulo": "Cefepima — neurotoxicidade por ação no receptor GABA",
+  "topicos": [
+   {
+    "rotulo": "Quem é",
+    "texto": "**Cefalosporina de 4ª geração** (Pseudomonas, produtores de β-lactamase).",
+    "sub": []
+   },
+   {
+    "rotulo": "Toxicidade do slide",
+    "texto": "Maior potencial de **neurotoxicidade**, ligado à **inibição do receptor GABA**.",
+    "sub": []
+   },
+   {
+    "rotulo": "Quem tem mais risco",
+    "texto": "**Insuficiência renal**: acumula (depuração renal das cefalosporinas).",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "A neurotoxicidade vem de precipitação com cálcio.",
+    "porque": "Precipitação com cálcio é da **ceftriaxona**."
+   },
+   {
+    "frase": "Cefepima aumenta a ação do GABA.",
+    "porque": "Ela **inibe** a transmissão GABAérgica."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
+ },
+ "TRS-T10": {
+  "titulo": "Aztreonam — monobactâmico só para gram-negativos aeróbios",
+  "topicos": [
+   {
+    "rotulo": "Espectro",
+    "texto": "Ativo contra **gram-negativos aeróbios**; **sem ação** em gram-positivos e anaeróbios.",
+    "sub": []
+   },
+   {
+    "rotulo": "Usos do slide",
+    "texto": "Bacteremia, **osteomielite** e infecções de pele.",
+    "sub": []
+   },
+   {
+    "rotulo": "Alergia",
+    "texto": "Anel **monocíclico**: baixa reatividade cruzada, opção em alérgicos a penicilina.",
+    "sub": []
+   }
+  ],
+  "distratores": [
+   {
+    "frase": "Aztreonam cobre gram-positivos.",
+    "porque": "Não tem atividade contra **gram-positivos**."
+   },
+   {
+    "frase": "Aztreonam é um carbapenêmico.",
+    "porque": "É **monobactâmico**."
+   }
+  ],
+  "fonte": "Slide da aula (Infecções do TRS e beta-lactâmicos)"
  }
 }
