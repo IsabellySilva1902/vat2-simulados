@@ -187,6 +187,11 @@
           <button type="button" id="btn-select-none-subjects" class="text-xs px-3 py-1 rounded-lg border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700">Desmarcar todos</button>
         </div>
         <div id="subjects-list" class="grid sm:grid-cols-2 gap-2 max-h-64 overflow-y-auto pr-1 border border-slate-100 dark:border-slate-700 rounded-lg p-3"></div>
+        <label id="so-prof-wrap" class="hidden mt-3 flex items-start gap-2 text-sm p-3 rounded-lg bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 cursor-pointer">
+          <input type="checkbox" id="input-so-prof" class="mt-0.5 accent-brand-600">
+          <span class="flex-1"><b>Só questões no estilo do professor</b> <span id="so-prof-count" class="text-xs text-slate-500 dark:text-slate-400"></span><br>
+            <span class="text-xs text-slate-500 dark:text-slate-400">Caso curto e pergunta sobre o fármaco (mecanismo, efeitos adversos, escolha do fármaco, interações), como na AVT1.</span></span>
+        </label>
       </div>
 
       <div class="grid sm:grid-cols-2 gap-6">
@@ -19967,6 +19972,7 @@ const LS_KEYS = {
   current: `simfc_${STORAGE_SUBJECT}_current_attempt`,
   dark: "simfc_dark_mode", // preferencia de modo escuro compartilhada entre todos os simulados
   tutorialSeen: "simfc_tutorial_seen", // guia "como usar" ja visto, compartilhado entre todos os simulados
+  soProf: `simfc_${STORAGE_SUBJECT}_so_prof`, // caixinha "so estilo do professor" marcada
 };
 const HISTORY_MAX = 50;
 
@@ -20482,7 +20488,7 @@ function renderSubjectsList(subjects) {
       <label class="flex items-center gap-2 text-sm p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-900 cursor-pointer">
         <input type="checkbox" class="subject-checkbox accent-brand-600" value="${escapeHtml(s)}" ${checked ? "checked" : ""}>
         <span class="flex-1">${escapeHtml(s)}</span>
-        <span class="text-xs text-slate-400">${count}</span>
+        <span class="text-xs text-slate-400 subject-count" data-s="${escapeHtml(s)}">${count}</span>
       </label>`;
     })
     .join("");
@@ -20492,14 +20498,27 @@ function renderSubjectsList(subjects) {
   );
 }
 
+// banco do sorteio: todas as questoes, ou so as do estilo do professor se a caixinha estiver marcada
+function soProfAtivo() {
+  const cb = document.getElementById("input-so-prof");
+  return !!(cb && cb.checked && QUESTIONS_DATABASE.some((q) => q.estilo === "professor"));
+}
+function poolBase() {
+  return soProfAtivo() ? QUESTIONS_DATABASE.filter((q) => q.estilo === "professor") : QUESTIONS_DATABASE;
+}
+
 function getSelectedSubjects() {
   return Array.from(document.querySelectorAll(".subject-checkbox:checked")).map((cb) => cb.value);
 }
 
 function updateQtdMaxLabel() {
   const subjects = getSelectedSubjects();
-  const max = QUESTIONS_DATABASE.filter((q) => subjects.includes(q.category)).length;
+  const base = poolBase();
+  const max = base.filter((q) => subjects.includes(q.category)).length;
   document.getElementById("qtd-max-label").textContent = max;
+  document.querySelectorAll(".subject-count").forEach((el) => {
+    el.textContent = base.filter((q) => q.category === el.dataset.s).length;
+  });
   const qtdInput = document.getElementById("input-qtd");
   if (Number(qtdInput.value) > max && max > 0) qtdInput.value = max;
 }
@@ -20751,7 +20770,7 @@ function renderResumeBanner() {
    ========================================================================= */
 function startQuiz(opts) {
   const { subjects, qtd, mode, sessionCode, poolOverride, label } = opts;
-  const pool = poolOverride || QUESTIONS_DATABASE.filter((q) => subjects.includes(q.category));
+  const pool = poolOverride || poolBase().filter((q) => subjects.includes(q.category));
   if (!pool.length) {
     toast("Nenhuma questão disponível para os critérios escolhidos.", "err");
     return;
@@ -21789,6 +21808,15 @@ function applyQueryParams() {
    ========================================================================= */
 function init() {
   applyDarkMode(lsGet(LS_KEYS.dark, false));
+  // caixinha "so estilo do professor": aparece so se o banco tiver essas questoes; lembra a escolha
+  const nProf = QUESTIONS_DATABASE.filter((q) => q.estilo === "professor").length;
+  if (nProf) {
+    document.getElementById("so-prof-wrap").classList.remove("hidden");
+    document.getElementById("so-prof-count").textContent = `(${nProf})`;
+    const cbProf = document.getElementById("input-so-prof");
+    cbProf.checked = !!lsGet(LS_KEYS.soProf, false);
+    cbProf.addEventListener("change", () => { lsSet(LS_KEYS.soProf, cbProf.checked); updateQtdMaxLabel(); });
+  }
   renderHome();
   applyQueryParams();
 

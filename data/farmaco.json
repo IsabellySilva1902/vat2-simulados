@@ -8478,5 +8478,2055 @@
    "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26; e Slide da aula (Farmacoterapia da contracepção)."
   },
   "revisada": true
+ },
+ {
+  "id": 213,
+  "code": "ANTICONV-P01",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Principais alvos farmacológicos neuronais e modulação da liberação vesicular (SV2A)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente de 34 anos com epilepsia inicia tratamento com um anticonvulsivante cujo mecanismo de ação inovador não envolve a modulação direta de canais iônicos voltagem-dependentes nem a ativação de receptores pós-sinápticos, atuando primariamente pela ligação à proteína de vesícula sináptica SV2A para atenuar a exocitose pré-sináptica de neurotransmissores. Qual fármaco apresenta esse mecanismo de ação?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Lamotrigina",
+    "rationale": "Incorreta. A lamotrigina atua primariamente por meio do bloqueio dos canais de sódio voltagem-dependentes no estado inativado e canais de cálcio de alta voltagem, reduzindo a liberação de glutamato de forma indireta, sem ligação à proteína SV2A."
+   },
+   {
+    "letter": "B",
+    "text": "Levetiracetam",
+    "rationale": "CORRETA. O levetiracetam possui como alvo molecular exclusivo a proteína de vesícula sináptica 2A (SV2A). Sua ligação a essa proteína modula a fusão e a exocitose vesicular, diminuindo seletivamente a liberação pré-sináptica de neurotransmissores excitatórios durante descargas anormais e de alta frequência."
+   },
+   {
+    "letter": "C",
+    "text": "Carbamazepina",
+    "rationale": "Incorreta. A carbamazepina é um bloqueador clássico de canais de sódio voltagem-dependentes com efeito dependente do uso, estabilizando membranas neuronais hiperexcitáveis sem interagir com a proteína vesicular SV2A."
+   },
+   {
+    "letter": "D",
+    "text": "Vigabatrina",
+    "rationale": "Incorreta. A vigabatrina atua na neurotransmissão inibitória através da inibição irreversível da enzima GABA-transaminase (GABA-T), elevando os níveis sinápticos de GABA, sem ação sobre a proteína SV2A."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O levetiracetam atua seletivamente ligando-se à proteína vesicular pré-sináptica SV2A, diferenciando-se dos anticonvulsivantes tradicionais por não modular diretamente canais iônicos de membrana.",
+  "bookContext": {
+   "text": "A proteína SV2A está ubiquamente expressa nas vesículas sinápticas de todo o sistema nervoso central e desempenha papel crucial no controle do tráfego vesicular e na exocitose dependente de cálcio. A ligação do levetiracetam à SV2A reduz seletivamente a liberação excessiva de neurotransmissores excitatórios durante padrões de descargas anormais e repetitivas. Diferente dos anticonvulsivantes clássicos de primeira geração, esse mecanismo confere ao levetiracetam um amplo espectro clínico com mínima toxicidade neurocognitiva e ausência de bloqueio sobre as transmissões neuronais basais. Além disso, análogos como o brivaracetam compartilham esse mesmo alvo, apresentando afinidade ainda maior pela SV2A.",
+   "fonte": "Rang & Dale · Farmacologia (8ª ed.), Cap. 45; Katzung · Farmacologia Básica e Clínica (12ª ed.), Cap. 24; Aula VAT2 · Slide 3 (Fisiopatologia e Alvos)"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 214,
+  "code": "ANTICONV-P02",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Gatilhos e crises provocadas / Fármacos proconvulsivantes",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 29 anos, portadora de epilepsia bem controlada em monoterapia, busca atendimento médico com quadro de humor deprimido, apatia e perda de interesse compatíveis com episódio depressivo maior. Sabendo que determinados fármacos podem precipitar crises provocadas por redução significativa do limiar convulsivo, qual dos seguintes antidepressivos deve ser evitado nessa paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Bupropiona (atípico)",
+    "rationale": "CORRETA. A bupropiona é um antidepressivo atípico inibidor da recaptação de noradrenalina e dopamina que possui efeito proconvulsivante dose-dependente bem documentado, reduzindo significativamente o limiar convulsivo e sendo contraindicada em pacientes com histórico de epilepsia."
+   },
+   {
+    "letter": "B",
+    "text": "Sertralina (ISRS)",
+    "rationale": "Incorreta. A sertralina é um inibidor seletivo da recaptação de serotonina (ISRS) que apresenta perfil seguro em doses terapêuticas habituais, sendo frequentemente opção de primeira linha para depressão comórbida em pacientes com crises convulsivas."
+   },
+   {
+    "letter": "C",
+    "text": "Duloxetina (IRSN)",
+    "rationale": "Incorreta. A duloxetina é um inibidor da recaptação de serotonina e noradrenalina (IRSN) que tem baixo potencial de alterar o limiar epileptogênico nas doses preconizadas, não constituindo contraindicação formal em pacientes epilépticos controlados."
+   },
+   {
+    "letter": "D",
+    "text": "Mirtazapina (atípico)",
+    "rationale": "Incorreta. A mirtazapina é um antagonista de adrenoceptores alfa-2 centrais e receptores serotoninérgicos 5-HT2/5-HT3 com propriedades sedativas, que não exibe a propensão marcante da bupropiona para precipitar eventos convulsivos."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A bupropiona reduz expressivamente o limiar convulsivo e é contraindicada em portadores de epilepsia por constituir um potente gatilho farmacológico para crises provocadas.",
+  "bookContext": {
+   "text": "Crises provocadas são eventos epilépticos agudos desencadeados por agressões transitórias ao sistema nervoso central, como distúrbios metabólicos, abstinência de depressores do SNC ou exposição a agentes proconvulsivantes. A bupropiona inibe a recaptação de dopamina e noradrenalina e, mesmo em faixas terapêuticas em indivíduos predispostos, pode induzir hiperexcitabilidade neuronal intrínseca. Essa ação desestabiliza o equilíbrio sináptico excitatório-inibitório no córtex cerebral, facilitando a sincronização anormal de redes neuronais. Em pacientes com epilepsia pré-existente, o uso de bupropiona pode quebrar o controle clínico prévio e precipitar crises graves ou refratárias.",
+   "fonte": "Goodman & Gilman · As Bases Farmacológicas da Terapêutica (12ª ed.), Cap. 15; Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 10 e 12; Aula VAT2 · Slide 1 (Conceitos e Gatilhos)"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 215,
+  "code": "ANTICONV-P03",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Fisiopatologia da hiperexcitabilidade e bloqueio dos canais de Na+ voltagem-dependentes",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Homem de 42 anos com crises epilépticas focais inicia carbamazepina para conter a hiperexcitabilidade neuronal e os disparos repetitivos de alta frequência. Do ponto de vista biofísico e farmacodinâmico, qual mecanismo molecular explica a capacidade desse bloqueador de canal de sódio de suprimir as descargas epileptiformes sem interromper a neurotransmissão fisiológica basal?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Inibição dependente de voltagem dos canais de potássio, retardando a repolarização celular na fase 3.",
+    "rationale": "Incorreta. A carbamazepina atua primariamente sobre canais de sódio dependentes de voltagem, e não inibindo canais de potássio ou retardando a fase 3 de repolarização."
+   },
+   {
+    "letter": "B",
+    "text": "Bloqueio alostérico de receptores NMDA com facilitação do influxo e fixação de magnésio no poro iônico.",
+    "rationale": "Incorreta. O fármaco não atua como bloqueador alostérico de receptores NMDA nem age promovendo ou fixando o bloqueio por magnésio no canal."
+   },
+   {
+    "letter": "C",
+    "text": "Abertura direta de canais de cloreto associados ao receptor GABA-A de forma independente de agonistas.",
+    "rationale": "Incorreta. A carbamazepina não atua na abertura direta de canais de cloreto no complexo GABA-A nem possui ação independente de ligante (efeito característico de concentrações elevadas de barbitúricos)."
+   },
+   {
+    "letter": "D",
+    "text": "Ligação seletiva ao canal no estado inativado, retardando sua recuperação para o estado de repouso.",
+    "rationale": "CORRETA. A carbamazepina apresenta bloqueio uso-dependente (e voltagem-dependente), ligando-se preferencialmente aos canais de sódio voltagem-dependentes na sua conformação inativada. Ao lentificar a transição do estado inativado de volta ao estado de repouso, prolonga o período refratário neuronal e impede especificamente os disparos repetitivos de alta frequência característicos da crise, sem afetar os potenciais de ação isolados de baixa frequência."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A carbamazepina atua com uso-dependência ligando-se preferencialmente aos canais de sódio no estado inativado, prolongando o período refratário e impedindo disparos epileptiformes de alta frequência.",
+  "bookContext": {
+   "text": "Os canais de sódio voltagem-dependentes transitam ciclicamente entre os estados de repouso (fechado), aberto (ativo) e inativado (refratário). Fármacos como a carbamazepina e a fenitoína têm afinidade de ligação significativamente maior pelo estado inativado do canal, estabilizando essa conformação e atrasando a reabertura do poro. Como os neurônios focais em uma crise epiléptica sofrem despolarizações repetitivas e sustentadas de alta frequência, uma fração progressivamente maior de canais permanece retida no estado inativado. Esse bloqueio dependente do uso e da voltagem suprime a propagação e o recrutamento da rede neuronal hiperssincrônica sem interferir nos disparos fisiológicos de baixa frequência do cérebro sadio.",
+   "fonte": "Rang & Dale · Farmacologia (8ª ed.), Cap. 4 e Cap. 45; Katzung · Farmacologia Básica e Clínica (12ª ed.), Cap. 24; Aula VAT2 · Slide 3 (Fisiopatologia e Alvos)"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 216,
+  "code": "ANTICONV-P04",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Crises de Início Generalizado Não Motoras (Ausência Típica) e Fármacos de Escolha",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Escolar de 8 anos é diagnosticado com crises generalizadas não motoras (ausência típica), caracterizadas por episódios súbitos de olhar vago e amnésia do evento, segundo a classificação da ILAE 2017. Para instituir monoterapia de primeira linha voltada especificamente para esse padrão eletroclínico, qual fármaco deve ser prescrito?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fenitoína (hidantoína)",
+    "rationale": "Incorreta. A fenitoína atua bloqueando canais de sódio dependentes de voltagem e prolongando seu estado inativado, mecanismo ineficaz contra o circuito oscilatório talamocortical da ausência típica, podendo inclusive agravar essas crises."
+   },
+   {
+    "letter": "B",
+    "text": "Carbamazepina (iminostilbeno)",
+    "rationale": "Incorreta. A carbamazepina bloqueia canais de sódio voltagem-dependentes e tem indicação primária em crises focais e tônico-clônicas bilaterais; em crises de ausência típica, ela está contraindicada por risco documentado de exacerbação e indução de estado de mal de ausência."
+   },
+   {
+    "letter": "C",
+    "text": "Etossuximida (succinimida)",
+    "rationale": "CORRETA. A etossuximida é o anticonvulsivante de primeira escolha para crises de ausência típica puras, pois reduz as correntes de cálcio de baixo limiar (tipo T) nos neurônios do marca-passo talâmico, suprimindo as descargas paroxísticas de ponta-onda lenta de 3 Hz."
+   },
+   {
+    "letter": "D",
+    "text": "Fenobarbital (barbitúrico)",
+    "rationale": "Incorreta. O fenobarbital atua como modulador alostérico positivo do receptor GABA-A prolongando a abertura de canais de cloreto, sendo eficaz em crises focais e tônico-clônicas, mas inútil em crises de ausência típica e associado a sedação excessiva e prejuízo cognitivo escolar."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A etossuximida bloqueia especificamente os canais de cálcio neuronais do tipo T no tálamo, constituindo a terapia padrão-ouro para crises generalizadas de ausência típica, enquanto bloqueadores isolados de canais de sódio podem agravá-las.",
+  "bookContext": {
+   "text": "As crises de ausência resultam de descargas sincronizadas rítmicas geradas na rede neuronal recíproca entre o córtex cerebral e o tálamo. Os canais de cálcio do tipo T dependentes de voltagem nos neurônios reticulares talâmicos são fundamentais para sustentar essa atividade oscilatória de disparos em rajada. A etossuximida bloqueia seletivamente essas correntes de cálcio de baixo limiar em concentrações terapêuticas, sem exercer bloqueio significativo dos canais de sódio em disparos fisiológicos normais. Por essa especificidade funcional, o fármaco possui espectro anticonvulsivante restrito, não sendo protetor contra crises motoras tônico-clônicas generalizadas associadas.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 12"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 217,
+  "code": "ANTICONV-P05",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Crises de Início Focal em Pacientes Idosos e Farmacocinética de Anticonvulsivantes",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 72 anos, em uso de múltiplos fármacos para hipertensão e diabetes, desenvolve crises de início focal motoras com consciência preservada após evento isquêmico cerebral. Buscando minimizar o risco de interações por indução enzimática hepática e toxicidade em idosos, qual fármaco é o mais apropriado para iniciar o tratamento?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Carbamazepina (iminostilbeno)",
+    "rationale": "Incorreta. A carbamazepina é potente indutora de múltiplas isoenzimas do citocromo P450 (como CYP3A4, CYP1A2 e CYP2C) e da UGT, além de promover autoindução e elevar consideravelmente o risco de hiponatremia, ataxia e quedas na população idosa."
+   },
+   {
+    "letter": "B",
+    "text": "Levetiracetam (pirrolidona)",
+    "rationale": "CORRETA. O levetiracetam é um fármaco de segunda geração com eliminação predominantemente renal na forma inalterada (cerca de 66%), não depende de metabolismo pelo sistema CYP450 e não atua como indutor ou inibidor enzimático, oferecendo perfil ideal para idosos polimedicados com crises focais."
+   },
+   {
+    "letter": "C",
+    "text": "Fenitoína (hidantoína)",
+    "rationale": "Incorreta. A fenitoína apresenta cinética não linear saturável de Michaelis-Menten, estreita margem terapêutica, elevada ligação a proteínas plasmáticas e forte indução de CYP2C e CYP3A4, facilitando toxicidade vestibular (nistagmo e ataxia) e interações graves em idosos."
+   },
+   {
+    "letter": "D",
+    "text": "Fenobarbital (barbitúrico)",
+    "rationale": "Incorreta. O fenobarbital induz fortemente o sistema microssomal hepático, possui meia-vida de eliminação muito longa (mais de 70 horas) e causa sedação intensa, letargia e declínio no desempenho cognitivo, sendo má opção para idosos com comorbidades."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O levetiracetam destaca-se em idosos com crises focais por apresentar mecanismo inovador na proteína SV2A, eliminação renal quase exclusiva e ausência de interferência nas isoenzimas do citocromo P450.",
+  "bookContext": {
+   "text": "Ao contrário dos anticonvulsivantes clássicos de primeira geração, os fármacos de segunda geração foram desenhados para contornar problemas críticos de biodisponibilidade e interações metabólicas. O levetiracetam atua primariamente ligando-se à proteína de vesícula sináptica SV2A, diminuindo a exocitose e a liberação pré-sináptica de neurotransmissores excitatórios como o glutamato. Sua depuração ocorre primariamente por excreção renal glomerular com filtração sem dependência de clivagem hepática oxidativa, mantendo ligação a proteínas plasmáticas inferior a 10%. Essa característica confere previsibilidade linear entre dose e concentração sérica, prevenindo as interações medicamentosas farmacocinéticas frequentes em esquemas terapêuticos geriátricos.",
+   "fonte": "Livro · Rang & Dale · Farmacologia (8ª ed.), Capítulo 45 e Aula VAT2"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 218,
+  "code": "ANTICONV-P06",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Crises de Início Generalizado Mioclônicas e Contraindicação de Bloqueadores de Canais de Sódio",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Jovem de 18 anos apresenta abalos musculares involuntários e simétricos nos braços pela manhã, sem perda de consciência, compatíveis com crises generalizadas mioclônicas pela ILAE 2017. Qual dos fármacos a seguir é contraindicado nessa condição por apresentar potencial de agravar a frequência e a intensidade dessas crises?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Carbamazepina (iminostilbeno)",
+    "rationale": "CORRETA. A carbamazepina bloqueia de modo uso-dependente os canais de sódio dependentes de voltagem no estado inativado; em epilepsias com crises mioclônicas ou ausências, esse mecanismo seletivo desorganiza a modulação inibitória cortical e agrava significativamente os abalos musculares e as descargas generalizadas."
+   },
+   {
+    "letter": "B",
+    "text": "Valproato (ácido carboxílico)",
+    "rationale": "Incorreta. O valproato é o agente de primeira linha de amplo espectro para crises generalizadas mioclônicas, atuando de maneira combinada sobre canais de sódio, canais de cálcio do tipo T e incremento dos níveis cerebrais de GABA."
+   },
+   {
+    "letter": "C",
+    "text": "Levetiracetam (pirrolidona)",
+    "rationale": "Incorreta. O levetiracetam tem eficácia reconhecida e indicação formal como monoterapia ou adjuvante em crises mioclônicas e epilepsias generalizadas genéticas, atuando pela proteína SV2A sem precipitar exacerbação motora."
+   },
+   {
+    "letter": "D",
+    "text": "Lamotrigina (feniltriazina)",
+    "rationale": "Incorreta. A lamotrigina possui espectro amplo de ação que abrange crises focais e generalizadas, incluindo ausências e crises mioclônicas, sendo uma alternativa terapêutica válida e não a droga contraindicada por agravamento clássico."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Anticonvulsivantes com mecanismo restrito ao bloqueio de canais de sódio, como a carbamazepina e a fenitoína, são formalmente contraindicados em crises generalizadas mioclônicas devido ao risco de exacerbação paradoxal das crises.",
+  "bookContext": {
+   "text": "A classificação da ILAE 2017 é determinante para a farmacoterapia porque estabelece a fronteira entre crises que respondem a bloqueadores seletivos de canais de sódio e aquelas que necessitam de fármacos de amplo espectro. Bloqueadores seletivos de canais de sódio como a carbamazepina, a oxcarbazepina e a fenitoína diminuem a condutância neuronal prolongando a inativação do canal, o que é excelente para controlar focos epileptogênicos corticais e sua propagação bilateral. No entanto, nas redes talamocorticais envolvidas nas epilepsias mioclônicas primárias, a redução da atividade dos canais de sódio de interneurônios inibitórios GABAérgicos desinibe os circuitos oscilatórios, resultando em exacerbação paradoxal dos abalos mioclônicos. O manejo correto dessas síndromes exige fármacos de múltiplos mecanismos, como o valproato de sódio, ou moduladores vesiculares como o levetiracetam.",
+   "fonte": "Livro · Goodman & Gilman · As Bases Farmacológicas da Terapêutica (12ª ed.), Capítulo 21"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 219,
+  "code": "ANTICONV-P07",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Anticonvulsivantes de 2ª Geração / Farmacocinética e Interações Medicamentosas",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Homem de 67 anos, cardiopata e hipertenso, em uso regular de varfarina, atorvastatina e enalapril, recebe diagnóstico de crises epilépticas focais. Visando minimizar o risco de interações farmacocinéticas com o citocromo P450 e garantir excreção predominantemente renal, qual fármaco é a escolha mais apropriada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Oxcarbazepina (anticonvulsivante de 2ª geração)",
+    "rationale": "Incorreta. A oxcarbazepina é um pró-fármaco convertido no metabólito ativo 10-monoidróxi (MHD), que é indutor enzimático moderado da CYP3A4 e da UGT, além de inibidor da CYP2C19, apresentando potencial relevante de interação com outros fármacos metabolizados por essas vias (como estatinas e anticoagulantes), além de induzir hiponatremia frequente em idosos."
+   },
+   {
+    "letter": "B",
+    "text": "Lamotrigina (anticonvulsivante de 2ª geração)",
+    "rationale": "Incorreta. A lamotrigina possui eliminação predominantemente hepática via glicuronidação (UGT1A4), sendo suscetível a fármacos indutores e inibidores enzimáticos; ademais, requer titulação posológica muito lenta pelo risco de erupções cutâneas graves (síndrome de Stevens-Johnson), não sendo vantajosa em relação ao perfil renal/ausência de CYP do levetiracetam."
+   },
+   {
+    "letter": "C",
+    "text": "Topiramato (anticonvulsivante de 2ª geração)",
+    "rationale": "Incorreta. O topiramato apresenta metabolismo hepático parcial e inibe a isoenzima CYP2C19, além de induzir a CYP3A4 em doses elevadas, podendo interagir com substratos dessas enzimas; também está associado a lentificação cognitiva, parestesias, perda de peso e risco de nefrolitíase, não sendo a melhor opção para evitar alterações metabólicas hepáticas."
+   },
+   {
+    "letter": "D",
+    "text": "Levetiracetam (anticonvulsivante de 2ª geração)",
+    "rationale": "CORRETA. O levetiracetam é eliminado primariamente por via renal (cerca de 66% na forma inalterada e o restante por hidrólise enzimática não hepática), possui baixa ligação a proteínas plasmáticas (< 10%) e não induz nem inibe as enzimas do citocromo P450, apresentando risco mínimo de interações medicamentosas farmacocinéticas com o regime cardioprotetor do paciente."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O levetiracetam destaca-se entre as drogas de 2ª geração pela eliminação predominantemente renal e ausência de biotransformação pelo citocromo P450, tornando-o o anticonvulsivante ideal para pacientes polimedicados.",
+  "bookContext": {
+   "text": "O levetiracetam atua ligando-se especificamente à proteína da vesícula sináptica SV2A, modulando a liberação exocítica pré-sináptica de neurotransmissores como o glutamato. Diferente da maioria dos antiepilépticos tradicionais, exibe cinética linear, baixa taxa de ligação proteica e nenhuma interferência nas vias clássicas do CYP450 ou glicuronidação. Por não competir por sítios metabólicos hepáticos nem alterar a depuração de outros substratos, é amplamente utilizado em idosos com comorbidades clínicas e regimes polifarmacológicos complexos. Sua principal limitação clínica concentra-se em alterações neuropsiquiátricas, como irritabilidade, agressividade ou sonolência.",
+   "fonte": "Livro Whalen · Farmacologia Ilustrada (6ª ed., Cap. 12) e Slide da aula (Bloco 5: Tratamento farmacológico da epilepsia)"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 220,
+  "code": "ANTICONV-P08",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Anticonvulsivantes de 1ª Geração / Interações Farmacocinéticas e Inibição Enzimática",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 24 anos em monoterapia com lamotrigina para epilepsia necessita da adição de um segundo fármaco devido ao controle subótimo das crises. O médico assistente deve reduzir a dose de lamotrigina pela metade e titular muito lentamente para evitar o risco de necrólise epidérmica tóxica/SJS, pois o novo fármaco inibe a glicuronidação hepática (UGT). Qual anticonvulsivante possui essa propriedade inibidora?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fenobarbital (anticonvulsivante de 1ª geração)",
+    "rationale": "Incorreta. O fenobarbital é um potente indutor enzimático do citocromo P450 (como CYP2C e CYP3A) e das enzimas UGT, o que acelera a depuração metabólica da lamotrigina e reduz seus níveis plasmáticos, demandando aumento de dose e não redução."
+   },
+   {
+    "letter": "B",
+    "text": "Carbamazepina (anticonvulsivante de 1ª geração)",
+    "rationale": "Incorreta. A carbamazepina é uma indutora enzimática clássica e generalizada de CYP1A2, CYP2C, CYP3A e UGT, além de promover autoindução metabólica; sua associação com a lamotrigina diminui consideravelmente a meia-vida da lamotrigina por aumentar sua eliminação."
+   },
+   {
+    "letter": "C",
+    "text": "Valproato (anticonvulsivante de 1ª geração)",
+    "rationale": "CORRETA. O valproato (ácido valproico/divalproex) é um potente inibidor enzimático das enzimas UGT (notadamente UGT1A4 e UGT2B7), da CYP2C9 e da epóxido-hidrolase; ele inibe a glicuronidação da lamotrigina, mais que dobrando sua meia-vida plasmática e exigindo redução obrigatória de 50% na dose de lamotrigina associada a titulação lenta para prevenir reações dermatológicas graves (rash cutâneo e síndrome de Stevens-Johnson)."
+   },
+   {
+    "letter": "D",
+    "text": "Fenitoína (anticonvulsivante de 1ª geração)",
+    "rationale": "Incorreta. A fenitoína atua como potente indutora dos sistemas microssomais CYP2C, CYP3A e das transferases UGT, provocando redução substancial das concentrações séricas de fármacos coadministrados biotransformados por glicuronidação, como a lamotrigina."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O valproato é a exceção inibidora entre os anticonvulsivantes de 1ª geração, inibindo a UGT e elevando perigosamente os níveis plasmáticos da lamotrigina, o que exige redução da dose e escalonamento cauteloso.",
+  "bookContext": {
+   "text": "Enquanto a maioria dos fármacos anticonvulsivantes clássicos de 1ª geração (carbamazepina, fenitoína e fenobarbital) são indutores enzimáticos de largo espectro, o valproato atua de maneira inversa, inibindo ativamente o metabolismo microssomal de fase I e fase II. A lamotrigina depende quase exclusivamente da glicuronidação mediada pela enzima UGT1A4 para sua inativação e depuração. A coadministração do valproato prolonga a meia-vida de eliminação da lamotrigina de cerca de 25-30 horas para mais de 60 horas. Essa elevação abrupta das concentrações séricas de lamotrigina está diretamente correlacionada à ativação imunológica e ao surgimento de erupções bolhosas cutâneas fatais (SJS/NET).",
+   "fonte": "Livro Whalen · Farmacologia Ilustrada (6ª ed., Cap. 12) e Slide da aula (Bloco 5: Tratamento farmacológico da epilepsia)"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 221,
+  "code": "ANTICONV-P09",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Anticonvulsivantes de 3ª Geração para uso geral em crises e seus alvos moleculares",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Em pacientes com crises focais farmacorresistentes, pode-se associar um anticonvulsivante de 3ª geração que reduz a hiperexcitabilidade neuronal por meio do antagonismo seletivo e não competitivo dos receptores ionotrópicos de glutamato do tipo AMPA na membrana pós-sináptica. Qual fármaco apresenta esse mecanismo de ação?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Lacosamida",
+    "rationale": "Incorreta. A lacosamida atua potencializando seletivamente a inativação lenta dos canais de sódio voltagem-dependentes (sem alterar a inativação rápida) e ligando-se à proteína moduladora da resposta à colapsina-2 (CRMP-2), não exercendo antagonismo em receptores AMPA."
+   },
+   {
+    "letter": "B",
+    "text": "Perampanel",
+    "rationale": "CORRETA. O perampanel é um anticonvulsivante de terceira geração cujo mecanismo específico e inovador consiste no antagonismo não competitivo e de alta seletividade sobre os receptores de glutamato do tipo AMPA, reduzindo a neurotransmissão excitatória pós-sináptica."
+   },
+   {
+    "letter": "C",
+    "text": "Brivaracetam",
+    "rationale": "Incorreta. O brivaracetam possui como alvo primário a glicoproteína da vesícula sináptica 2A (SV2A), ligando-se a ela com afinidade cerca de 10 a 30 vezes maior que a do levetiracetam para modular a exocitose de neurotransmissores, sem antagonizar receptores AMPA."
+   },
+   {
+    "letter": "D",
+    "text": "Cenobamato",
+    "rationale": "Incorreta. O cenobamato apresenta um mecanismo de ação duplo centrado na inibição de correntes de sódio (tanto na inativação rápida quanto na corrente persistente não inativada) e na modulação alostérica positiva de receptores GABA-A em sítios não benzodiazepínicos, sem bloqueio de receptores AMPA."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O perampanel atua exclusivamente como antagonista alostérico não competitivo dos receptores glutamatérgicos pós-sinápticos do tipo AMPA.",
+  "bookContext": {
+   "text": "O glutamato é o principal neurotransmissor excitatório do encéfalo e medeia a despolarização pós-sináptica rápida ao ativar receptores de superfície acoplados a canais iônicos, predominantemente AMPA e NMDA. Ao ligar-se a um sítio alostérico não competitivo nos receptores AMPA, o perampanel bloqueia a entrada de sódio induzida pela liberação sináptica de glutamato, impedindo a geração e a propagação de descargas epileptiformes despolarizantes. Devido à sua longa meia-vida plasmática (aproximadamente 105 horas), o fármaco possibilita administração em tomada única diária ao deitar. Contudo, em decorrência da modulação glutamatérica central, exige vigilância clínica rigorosa para alterações comportamentais e reações neuropsiquiátricas graves, tais como irritabilidade, agressividade e hostilidade.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 12 (Antiepilépticos); Aula VAT2 · Farmacoterapia da epilepsia (anticonvulsivantes)."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 222,
+  "code": "ANTICONV-P10",
+  "assunto": "far-anticonv",
+  "category": "Anticonvulsivantes (epilepsia)",
+  "subcategory": "Fármacos de 3ª Geração direcionados a síndromes epilépticas específicas",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Lactente de 7 meses recebe diagnóstico de espasmos infantis (síndrome de West). No raciocínio terapêutico direcionado a síndromes específicas, prescreve-se um fármaco de 3ª geração de primeira linha que atua elevando as concentrações cerebrais de GABA, mas cuja utilização exige monitorização oftalmológica estrita devido ao risco de perda concêntrica e irreversível de campo visual. Qual fármaco corresponde a essa conduta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Vigabatrina (3ª geração)",
+    "rationale": "CORRETA. A vigabatrina é o fármaco de primeira escolha para os espasmos infantis (síndrome de West). Ela age como inibidor irreversível da enzima GABA-transaminase (GABA-T), aumentando substancialmente o tônus inibitório gabaérgico. Seu uso clínico é restrito e exige acompanhamento oftalmológico especializado periódico porque provoca defeitos concêntricos irreversíveis de campo visual periférico em 30% a 50% dos pacientes."
+   },
+   {
+    "letter": "B",
+    "text": "Stiripentol (3ª geração)",
+    "rationale": "Incorreta. O stiripentol é um fármaco de 3ª geração direcionado primariamente à síndrome de Dravet (em terapia adjuvante ao clobazam e valproato), atuando como modulador alostérico positivo do receptor GABA-A e potente inibidor de enzimas do citocromo P450 (CYP2C19 e CYP3A4), sem indicação em espasmos infantis nem toxicidade retiniana característica."
+   },
+   {
+    "letter": "C",
+    "text": "Fenfluramina (3ª geração)",
+    "rationale": "Incorreta. A fenfluramina atua na modulação da neurotransmissão de serotonina (liberação e agonismo de receptores 5-HT2) e receptores sigma-1, sendo aprovada para as crises associadas à síndrome de Dravet e síndrome de Lennox-Gastaut, exigindo monitoramento ecocardiográfico por risco de valvopatia cardíaca e hipertensão pulmonar, e não avaliações de campo visual."
+   },
+   {
+    "letter": "D",
+    "text": "Clobazam (benzodiazepínico)",
+    "rationale": "Incorreta. O clobazam é um benzodiazepínico (modulador alostérico positivo de canais de cloreto acoplados ao receptor GABA-A) indicado como terapia adjuvante na síndrome de Lennox-Gastaut e em crises focais, não constituindo tratamento de primeira linha para espasmos infantis nem apresentando retinopatia periférica como toxicidade marcante."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A vigabatrina é inibidora irreversível da GABA-transaminase e primeira linha na síndrome de West, com risco marcante de retinopatia e constrição concêntrica do campo visual.",
+  "bookContext": {
+   "text": "A enzima GABA-transaminase (GABA-T) é a principal responsável pela degradação metabólica intraneuronal e glial do neurotransmissor inibitório GABA em semialdeído succínico. A vigabatrina é um análogo estrutural do GABA que se liga covalentemente e de maneira irreversível ao centro ativo da GABA-T, inativando-a enzimaticamente de forma suicida e promovendo elevação sustentada dos níveis cerebrais de GABA. Em razão dessa inibição covalente, a duração do seu efeito farmacodinâmico independe de sua meia-vida de eliminação plasmática (cerca de 7,5 horas), correlacionando-se diretamente com o tempo necessário para a ressíntese de novas moléculas da enzima pelo organismo. Todavia, o acúmulo gabaérgico sustentado na retina culmina em atrofia de cones e bastonetes da periferia retiniana, gerando perda visual concêntrica bilateral e permanente que motivou a criação de programas de distribuição controlada e vigilância oftalmológica mandatória.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 12 (Antiepilépticos); Aula VAT2 · Farmacoterapia da epilepsia (anticonvulsivantes)."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 223,
+  "code": "INFEC-P01",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Terapia Empírica e seleção de antimicrobianos em imunodeprimidos",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente de 45 anos, com imunossupressão decorrente de infecção pelo HIV, apresenta infecção bacteriana aguda necessitando de início imediato de antibioticoterapia empírica. Considerando que pacientes imunodeprimidos exigem fármacos bactericidas para a erradicação do patógeno por não possuírem resposta imune suficiente para o uso de bacteriostáticos, qual antimicrobiano é adequado para essa estratégia?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Eritromicina (macrolídeo)",
+    "rationale": "Incorreta. A eritromicina pertence à classe dos macrolídeos e atua ligando-se reversivelmente à subunidade 50S do ribossomo bacteriano, inibindo a translocação proteica. Por exercer efeito predominantemente bacteriostático, apenas inibe o crescimento bacteriano, dependendo do sistema imune íntegro do hospedeiro para erradicar a infecção, sendo desfavorável em imunodeprimidos graves."
+   },
+   {
+    "letter": "B",
+    "text": "Doxiciclina (tetraciclina)",
+    "rationale": "Incorreta. A doxiciclina é uma tetraciclina que atua ligando-se reversivelmente à subunidade 30S ribossômica bacteriana, impedindo a ligação do aminoacil-RNAt. Trata-se de um fármaco bacteriostático clássico, cujo uso em pacientes imunocomprometidos apresenta risco substancial de falha terapêutica ou recidiva da infecção."
+   },
+   {
+    "letter": "C",
+    "text": "Sulfametoxazol (sulfonamida)",
+    "rationale": "Incorreta. O sulfametoxazol é uma sulfonamida que age como análogo estrutural do PABA, inibindo competitivamente a di-hidropteroato sintase na via de síntese do ácido fólico. Quando utilizado em monoterapia, atua como bacteriostático, demandando a atuação de neutrófilos e macrófagos para a destruição bacteriana final."
+   },
+   {
+    "letter": "D",
+    "text": "Amoxicilina (penicilina)",
+    "rationale": "CORRETA. A amoxicilina é um antibiótico do grupo das penicilinas (betalactâmicos) que atua inibindo a síntese da parede celular bacteriana, exercendo efeito bactericida, o que a torna a escolha adequada para pacientes imunodeprimidos que dependem da erradicação direta do patógeno pelo fármaco."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Pacientes imunodeprimidos não devem receber antimicrobianos bacteriostáticos; a terapia empírica deve priorizar agentes bactericidas, como as penicilinas, que promovem lise celular e erradicação independente da resposta imune do hospedeiro.",
+  "bookContext": {
+   "text": "Os agentes bacteriostáticos inibem o crescimento e a multiplicação das bactérias sem matá-las imediatamente, requerendo a fagocitose mediada pelo sistema imune do hospedeiro para eliminação definitiva do patógeno. Se um bacteriostático for suspenso precocemente em pacientes com defesas imunes debilitadas, os microrganismos viáveis remanescentes podem reiniciar a proliferação. Em contrapartida, os fármacos bactericidas, como os betalactâmicos e as fluoroquinolonas, causam morte celular direta e rápida, tornando-se a base mandatória do tratamento em hospedeiros imunocomprometidos e em infecções graves.",
+   "fonte": "Livro Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 37 (Princípios do Tratamento Antimicrobiano) e Aula VAT2 · Farmacoterapia das infecções."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 224,
+  "code": "INFEC-P02",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Terapia Preventiva e interações por indução enzimática",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente de 52 anos em anticoagulação oral crônica com varfarina necessita iniciar terapia preventiva com rifampicina após contato domiciliar íntimo com caso confirmado de meningite meningocócica. Considerando as propriedades farmacocinéticas da rifampicina, qual alteração farmacológica deve ser esperada como consequência dessa associação?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Aumento do efeito anticoagulante por inibição do citocromo P450.",
+    "rationale": "Incorreta. A rifampicina não é inibidora enzimática do citocromo P450, mas sim uma potente indutora. A inibição enzimática com elevação do risco hemorrágico ocorreria com outros antimicrobianos, como metronidazol, sulfametoxazol ou claritromicina."
+   },
+   {
+    "letter": "B",
+    "text": "Elevação da fração livre de varfarina por deslocamento proteico.",
+    "rationale": "Incorreta. Embora a varfarina seja fortemente ligada à albumina sérica, o mecanismo determinante da interação grave com a rifampicina não decorre do deslocamento de sítios de ligação proteica, mas sim da indução da síntese de enzimas metabólicas hepáticas."
+   },
+   {
+    "letter": "C",
+    "text": "Redução da eficácia da varfarina por indução do citocromo P450.",
+    "rationale": "CORRETA. A rifampicina é um dos mais potentes indutores conhecidos do sistema enzimático microssomal hepático (citocromo P450, notadamente CYP2C9 e CYP3A4). A indução acelera a biotransformação oxidativa e a depuração hepática da varfarina, reduzindo significativamente seus níveis plasmáticos e diminuindo seu efeito anticoagulante (queda do INR)."
+   },
+   {
+    "letter": "D",
+    "text": "Diminuição da absorção de varfarina por quelação gastrintestinal.",
+    "rationale": "Incorreta. A rifampicina não forma quelatos insolúveis com a varfarina no trato gastrintestinal. Esse mecanismo de interação por quelação e redução de absorção oral ocorre tipicamente entre tetraciclinas ou fluoroquinolonas e cátions polivalentes."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A rifampicina é empregada na quimioprofilaxia de comunicantes de meningite meningocócica, mas sua potente ação indutora do citocromo P450 acelera a metabolização da varfarina, diminuindo sua eficácia terapêutica.",
+  "bookContext": {
+   "text": "A quimioterapia preventiva visa proteger indivíduos expostos a microrganismos de alta virulência utilizando fármacos com baixa toxicidade direta e eficácia direcionada. A rifampicina é o fármaco de escolha para profilaxia de contatos de meningite meningocócica, mas apresenta um perfil farmacocinético marcado por aumentar a síntese de diversas isoformas do citocromo P450 e da glicoproteína P. Em pacientes anticoagulados com varfarina, essa indução metabólica reduz substancialmente as concentrações plasmáticas do anticoagulante, exigindo monitoramento estrito do tempo de protrombina (INR) e eventual ajuste ascendente de dose para prevenir eventos tromboembólicos.",
+   "fonte": "Livro Rang & Dale · Farmacologia (8ª ed.), Capítulos 9 (Biotransformação de fármacos) e 51 (Fármacos antibacterianos) e Aula VAT2 · Farmacoterapia das infecções."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 225,
+  "code": "INFEC-P03",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Consequências do uso indiscriminado e toxicidade em neonatos",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um recém-nascido pré-termo de 14 dias apresenta quadro infeccioso bacteriano em ambiente hospitalar. O prescritor revisa os fatores do paciente para evitar classes formalmente contraindicadas no período neonatal pelo risco de toxicidade grave associada à imaturidade fisiológica. Qual antimicrobiano é contraindicado nessa faixa etária devido ao risco de desencadear icterícia nuclear (kernicterus) por deslocamento da bilirrubina ligada à albumina sérica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ampicilina (aminopenicilina)",
+    "rationale": "Incorreta. A ampicilina apresenta ampla margem de segurança no período neonatal por ter como alvo exclusivo as transpeptidases da parede bacteriana. Não desloca a bilirrubina plasmática da albumina e é amplamente utilizada em infecções neonatais, como na meningite por Listeria monocytogenes ou estreptococos do grupo B."
+   },
+   {
+    "letter": "B",
+    "text": "Sulfametoxazol (sulfonamida)",
+    "rationale": "CORRETA. As sulfonamidas competem com a bilirrubina não conjugada pelos sítios de ligação na albumina plasmática, promovendo sua liberação e aumento da fração livre. Em neonatos, que possuem sistemas de glicuronidação hepática imaturos e barreira hematoencefálica permeável, a bilirrubina livre deposita-se nos gânglios da base, provocando encefalopatia bilirrubínica grave (kernicterus), justificando sua contraindicação formal."
+   },
+   {
+    "letter": "C",
+    "text": "Cefotaxima (cefalosporina)",
+    "rationale": "Incorreta. A cefotaxima é uma cefalosporina de terceira geração segura e frequentemente indicada em neonatos com sepse ou meningite, não apresentando afinidade de deslocamento da bilirrubina na albumina capaz de deflagrar icterícia nuclear."
+   },
+   {
+    "letter": "D",
+    "text": "Gentamicina (aminoglicosídeo)",
+    "rationale": "Incorreta. Embora a gentamicina exija cautela e monitoramento posológico devido à filtração glomerular reduzida em recém-nascidos, sua toxicidade primária é a nefrotoxicidade e a ototoxicidade, e não o deslocamento de bilirrubina plasmática com indução de kernicterus."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "As sulfonamidas são contraindicadas em recém-nascidos porque deslocam a bilirrubina dos sítios de ligação na albumina plasmática, elevando a fração livre de bilirrubina e desencadeando kernicterus (icterícia nuclear).",
+  "bookContext": {
+   "text": "No período neonatal, a farmacocinética é amplamente modificada pelo desenvolvimento incompleto dos sistemas enzimáticos hepáticos e pela menor taxa de filtração glomerular. As sulfonamidas ligam-se avidamente à albumina sérica, deslocando a bilirrubina e aumentando a fração não conjugada lipossolúvel circulante. Como a barreira hematoencefálica do recém-nascido apresenta maior permeabilidade e a glicuronidação pela UDP-glicuroniltransferase é deficiente, a bilirrubina livre penetra facilmente no sistema nervoso central, causando lesão neuronal tóxica e irreversível nos núcleos da base.",
+   "fonte": "Livro Whalen · Farmacologia Ilustrada (6ª ed.), Capítulos 37 (Princípios do Tratamento Antimicrobiano) e 40 (Quinolonas, antagonistas do ácido fólico e antissépticos do trato urinário) e Aula VAT2 · Farmacoterapia das infecções."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 226,
+  "code": "INFEC-P04",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Terapia empírica e contagem de células brancas (escolha bactericida vs. bacteriostático em paciente neutropênico)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente em quimioterapia é admitido com febre e neutropenia grave documentada no hemograma, demandando início imediato de antibioticoterapia empírica. Diante da incapacidade do sistema imune de conter a infecção, qual antimicrobiano com ação bactericida é o mais apropriado para esse caso?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ciprofloxacino (quinolona)",
+    "rationale": "CORRETA. O ciprofloxacino é uma fluoroquinolona bactericida que inibe a topoisomerase II (DNA-girase) e a topoisomerase IV bacterianas, provocando morte celular bacteriana rápida e direta, o que o torna a opção indicada em quadros de neutropenia grave nos quais a fagocitose está comprometida."
+   },
+   {
+    "letter": "B",
+    "text": "Doxiciclina (tetraciclina)",
+    "rationale": "Incorreta. A doxiciclina pertence à classe das tetraciclinas e atua primariamente como bacteriostática ao inibir a subunidade 30S do ribossomo bacteriano, dependendo da resposta celular imune íntegra do paciente para completar a depuração dos microrganismos."
+   },
+   {
+    "letter": "C",
+    "text": "Eritromicina (macrolídeo)",
+    "rationale": "Incorreta. A eritromicina é um macrolídeo que exerce atividade bacteriostática ao se fixar reversivelmente à subunidade 50S ribossômica e interromper a translocação de peptídeos, deixando bactérias viáveis que necessitam dos neutrófilos do hospedeiro para sua erradicação."
+   },
+   {
+    "letter": "D",
+    "text": "Sulfametoxazol (sulfonamida)",
+    "rationale": "Incorreta. O sulfametoxazol atua de maneira isoladamente bacteriostática por inibição competitiva da enzima di-hidropteroato sintetase na síntese de folato bacteriano, não sendo recomendado em monoterapia para pacientes neutropênicos agudos."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Em pacientes imunodeprimidos e neutropênicos, a erradicação microbiana exige agentes bactericidas, pois os bacteriostáticos apenas inibem a replicação e dependem de neutrófilos funcionais para a eliminação final do patógeno.",
+  "bookContext": {
+   "text": "Os fármacos bacteriostáticos limitam a progressão da infecção ao inibir o crescimento bacteriano, mas mantêm bactérias viáveis no organismo, dependendo da atividade fagocitária dos leucócitos do hospedeiro para a depuração completa. Já os antimicrobianos bactericidas provocam lesão letal e lise rápida dos microrganismos, tornando-se a escolha mandatória em infecções graves em indivíduos neutropênicos ou intensamente imunocomprometidos. Se um agente bacteriostático for suspenso antes da resolução imune ou utilizado em pacientes sem neutrófilos funcionais, as bactérias remanescentes voltam a se multiplicar, provocando recidiva clínica rápida e sepse.",
+   "fonte": "Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 37: Princípios do tratamento antimicrobiano; Aula VAT2 · Farmacoterapia das infecções."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 227,
+  "code": "INFEC-P05",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Variáveis na escolha empírica / Fatores do paciente (toxicidade e contraindicação em recém-nascidos)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um recém-nascido prematuro com febre é admitido sob suspeita de sepse precoce e requer terapia empírica imediata, havendo proibição formal ao uso de sulfonamidas nessa população. Qual complicação grave decorrente do mecanismo farmacocinético desse antimicrobiano justifica sua contraindicação em neonatos?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fechamento prematuro do ducto arterioso por bloqueio de prostaglandinas fetais.",
+    "rationale": "Incorreta. O fechamento prematuro do canal arterial é uma complicação farmacológica relacionada ao uso de anti-inflamatórios não esteroidais (AINEs) durante a vida fetal devido à inibição das enzimas COX e supressão de PGE2, não às sulfonamidas no período neonatal."
+   },
+   {
+    "letter": "B",
+    "text": "Lesão da cartilagem articular por alteração do desenvolvimento epifisário.",
+    "rationale": "Incorreta. A toxicidade sobre a cartilagem articular e o comprometimento do crescimento epifisário decorrem do uso de fluoroquinolonas em crianças e neonatos, e não da ação das sulfas."
+   },
+   {
+    "letter": "C",
+    "text": "Ototoxicidade coclear irreversível por acúmulo nas células ciliadas auditivas.",
+    "rationale": "Incorreta. A ototoxicidade coclear e vestibular irreversível por acúmulo nas células sensoriais da orelha interna é um efeito adverso característico dos aminoglicosídeos (como gentamicina e amicacina), e não das sulfonamidas."
+   },
+   {
+    "letter": "D",
+    "text": "Icterícia nuclear pelo deslocamento da bilirrubina dos sítios da albumina.",
+    "rationale": "CORRETA. As sulfonamidas competem com a bilirrubina não conjugada e a deslocam dos seus sítios habituais de ligação na albumina sérica; em recém-nascidos, a imaturidade da barreira hematencefálica e a deficiência fisiológica na glicuronidação hepática facilitam a passagem da bilirrubina livre para o SNC, gerando deposição encefálica e icterícia nuclear (kernicterus)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Em recém-nascidos, as sulfonamidas são contraindicadas porque deslocam a bilirrubina da albumina plasmática, levando à impregnação do sistema nervoso central e icterícia nuclear (kernicterus).",
+  "bookContext": {
+   "text": "Os processos de eliminação renal e de biotransformação hepática por conjugação glicurônica são incompletos e pouco desenvolvidos em recém-nascidos, sobretudo em prematuros. Nessa faixa etária, a administração de sulfonamidas resulta em competição direta e deslocamento da bilirrubina dos sítios de ligação protéica na albumina sérica. O expressivo aumento dos níveis de bilirrubina livre circulante permite sua passagem facilitada através da barreira hematencefálica imatura, precipitando nos gânglios da base e gerando encefalopatia bilirrubínica crônica. Por esse motivo, fármacos dessa classe são estritamente contraindicados em neonatos com menos de dois meses de vida e em gestantes no termo da gravidez.",
+   "fonte": "Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 37: Princípios do tratamento antimicrobiano e Capítulo 40: Quinolonas, antagonistas do ácido fólico e antissépticos do trato urinário; Aula VAT2 · Farmacoterapia das infecções."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 228,
+  "code": "INFEC-P06",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Variáveis na escolha empírica / Sítio da infecção e propriedades físico-químicas (penetração tecidual prostática)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente de 58 anos apresenta febre alta, calafrios e sintomas locais sugestivos de prostatite bacteriana aguda. Considerando que o líquido prostático possui pH ácido e exige que o antimicrobiano empírico atravesse a barreira lipídica epitelial e sofra retenção iônica, qual fármaco é a escolha farmacológica adequada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ampicilina (aminopenicilina)",
+    "rationale": "Incorreta. A ampicilina é um composto hidrofílico de caráter zwitteriônico no pH fisiológico que apresenta baixa solubilidade lipídica, ultrapassando de modo insuficiente o epitélio biológico prostático e falhando em alcançar níveis teciduais adequados na glândula."
+   },
+   {
+    "letter": "B",
+    "text": "Cefazolina (cefalosporina de 1ª geração)",
+    "rationale": "Incorreta. A cefazolina exibe alta ligação a proteínas séricas e caráter polar com baixa lipossolubilidade tecidual, sendo eficaz em osso e partes moles, mas atingindo concentrações subterapêuticas no interior do ácino prostático."
+   },
+   {
+    "letter": "C",
+    "text": "Trimetoprima (antagonista do folato)",
+    "rationale": "CORRETA. A trimetoprima comporta-se como uma base fraca lipofílica que permanece em grande parte não ionizada no pH plasmático (7,4), difundindo-se facilmente através do epitélio glandular prostático; ao alcançar o líquido prostático ácido (pH inferior a 7,0), torna-se ionizada e fica retida por armadilha de íons (ion trapping), acumulando níveis terapêuticos elevados no tecido."
+   },
+   {
+    "letter": "D",
+    "text": "Nitrofurantoína (antisséptico urinário)",
+    "rationale": "Incorreta. A nitrofurantoína é rapidamente excretada na urina, onde atinge concentrações antimicrobianas ativas apenas na luz vesical, apresentando níveis séricos e penetração tecidual prostática insignificantes, sendo formalmente inadequada para infecções do parênquima como prostatites e pielonefrites."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A penetração no tecido prostático é favorecida por fármacos lipofílicos e de caráter fracamente básico, como a trimetoprima, que sofrem armadilha iônica no fluido prostático ácido e atingem concentrações teciduais terapêuticas.",
+  "bookContext": {
+   "text": "O epitélio do ácino prostático impõe uma barreira biológica lipídica que limita significativamente a passagem de antimicrobianos polares, ionizados ou que possuam elevada taxa de ligação às proteínas plasmáticas. Por ser uma base fraca lipossolúvel com constante de dissociação favorável, a trimetoprima transita em fração não ionizada no plasma e atravessa a membrana lipídica das células prostáticas por difusão passiva. Ao penetrar no líquido prostático, cujo pH é ácido em relação ao sangue, a molécula atrai prótons, assume a forma ionizada e não consegue retornar ao compartimento vascular, acumulando-se no parênquima em concentrações até várias vezes maiores que as séricas. Em contrapartida, fármacos como a nitrofurantoína limitam-se ao espaço luminal da bexiga, não gerando níveis terapêuticos nos tecidos prostáticos profundos.",
+   "fonte": "Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 37: Princípios do tratamento antimicrobiano e Capítulo 40: Quinolonas, antagonistas do ácido fólico e antissépticos do trato urinário; Aula VAT2 · Farmacoterapia das infecções."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 229,
+  "code": "INFEC-P07",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Fatores do paciente e seleção de bactericidas vs. bacteriostáticos",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente de 38 anos, portador do HIV com contagem de linfócitos T CD4+ profundamente reduzida, apresenta infecção bacteriana sistêmica. Considerando os determinantes da seleção antimicrobiana no paciente imunodeprimido, a equipe médica deve prescrever um fármaco de ação bactericida. Qual dos seguintes antimicrobianos é o mais apropriado para atender a essa exigência terapêutica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Demeclociclina (tetraciclina)",
+    "rationale": "Incorreta. As tetraciclinas (como a demeclociclina) são fármacos bacteriostáticos que inibem reversivelmente a síntese de proteínas ao se ligarem à subunidade ribossômica 30S bacteriana; por dependerem da imunidade celular intacta do hospedeiro para eliminar os patógenos remanescentes, não são recomendadas isoladamente em pacientes imunocomprometidos graves."
+   },
+   {
+    "letter": "B",
+    "text": "Ciprofloxacino (quinolona)",
+    "rationale": "CORRETA. As quinolonas (como o ciprofloxacino) exercem ação bactericida potente e rápida por inibirem as enzimas topoisomerase II (DNA-girase) e topoisomerase IV bacterianas, inviabilizando a replicação cromossômica e destruindo ativamente a bactéria, sendo a escolha recomendada em pacientes imunodeprimidos incapazes de depurar bactérias bacteriostaticamente inibidas."
+   },
+   {
+    "letter": "C",
+    "text": "Eritromicina (macrolídeo)",
+    "rationale": "Incorreta. Os macrolídeos (como a eritromicina) atuam como agentes bacteriostáticos ligando-se à subunidade ribossômica 50S e interrompendo a translocação proteica, sem provocar a lise letal imediata do microrganismo, o que eleva a taxa de recidiva ou falha terapêutica na vigência de imunodeficiência grave."
+   },
+   {
+    "letter": "D",
+    "text": "Sulfametoxazol (sulfonamida)",
+    "rationale": "Incorreta. O sulfametoxazol isolado é um antimicrobiano bacteriostático que atua como antimetabólito do PABA, bloqueando competitivamente a enzima di-hidropteroato sintase e a síntese de folato; na ausência de leucócitos funcionais competentes para erradicação secundária, patógenos apenas inibidos mantêm-se viáveis no hospedeiro."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Em pacientes com imunodepressão grave (como infecção avançada por HIV, alcoolismo e neutropenia), a antibioticoterapia empírica ou definitiva deve priorizar agentes bactericidas (penicilinas, cefalosporinas, quinolonas), evitando-se o uso de bacteriostáticos (tetraciclinas, macrolídeos, sulfonamidas e cloranfenicol), cuja eficácia depende da depuração imune pelo próprio organismo.",
+  "bookContext": {
+   "text": "A diferenciação entre fármacos bactericidas e bacteriostáticos baseia-se na capacidade da substância de matar as bactérias ou de apenas inibir seu crescimento em concentrações clinicamente alcançáveis no soro ou urina. Enquanto os bacteriostáticos contêm a progressão do inóculo para que as defesas do hospedeiro realizem a destruição e eliminação dos patógenos, a sua descontinuação em pacientes anérgicos permite o recrudescimento infeccioso. Em contrapartida, os agentes bactericidas reduzem ativamente o número de microrganismos viáveis de forma independente do sistema fagocítico. Por essa razão, a conduta farmacológica em pacientes imunodeprimidos graves e sépticos preconiza o emprego de fármacos bactericidas com posologia que assegure níveis séricos adequados.",
+   "fonte": "Aula VAT2 · Farmacoterapia das infecções (slides 21-23); Whalen, Farmacologia Ilustrada, 6ª ed., Capítulo 37."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 230,
+  "code": "INFEC-P08",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Fatores da doença: sítio infeccioso e propriedades físico-químicas",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um homem de 52 anos apresenta prostatite bacteriana aguda. As características histológicas do epitélio prostático e o pH ligeiramente ácido do fluido local impõem severas barreiras biológicas à distribuição de diversos antibacterianos. Considerando os fatores físico-químicos determinantes da penetração tecidual, qual antimicrobiano se acumula eficazmente no tecido prostático por se comportar como uma base fraca lipofílica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Trimetoprima (diaminopirimidina)",
+    "rationale": "CORRETA. A trimetoprima possui pKa básico fraco e boa lipossolubilidade; sua fração molecular neutra difunde-se livremente pela barreira epitelial lipídica prostática e, ao atingir o meio prostático mais ácido que o sangue (pH ~6,4), torna-se ionizada (protonada), sofrendo aprisionamento iônico e concentrando-se no tecido em níveis terapêuticos elevados."
+   },
+   {
+    "letter": "B",
+    "text": "Cefazolina (cefalosporina de 1ª geração)",
+    "rationale": "Incorreta. A cefazolina é um betalactâmico de natureza ácida e hidrofílica, que se apresenta majoritariamente ionizado no plasma fisiológico e possui mínima difusão através da barreira lipídica epitelial prostática, não atingindo níveis terapêuticos adequados no fluido da próstata."
+   },
+   {
+    "letter": "C",
+    "text": "Amicacina (aminoglicosídeo)",
+    "rationale": "Incorreta. A amicacina é uma molécula policatiônica altamente polar e hidrossolúvel, apresentando baixíssima lipossolubilidade e distribuição restrita ao compartimento extracelular, sendo incapaz de atravessar satisfatoriamente as membranas biológicas lipídicas do tecido prostático."
+   },
+   {
+    "letter": "D",
+    "text": "Benzilpenicilina (penicilina natural)",
+    "rationale": "Incorreta. A benzilpenicilina comporta-se como um ácido orgânico fraco e polar; além de baixa lipossolubilidade para cruzar barreiras intactas, substâncias ácidas não sofrem aprisionamento iônico em fluidos biológicos cujo pH seja inferior ao pH sanguíneo."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O estroma e fluido prostático possuem pH inferior ao do plasma, de modo que antimicrobianos com características físico-químicas de bases fracas e lipossolúveis (como a trimetoprima e as fluoroquinolonas) atravessam as membranas epiteliais e sofrem aprisionamento iônico no tecido.",
+  "bookContext": {
+   "text": "A eficácia antimicrobiana depende da chegada do fármaco ao foco da infecção em concentrações que superem a concentração inibitória mínima do patógeno. Em órgãos protegidos por barreiras endoteliais ou epiteliais estritas com junções oclusivas — a exemplo do cérebro, do globo ocular e da próstata —, a passagem transcelular requer baixo peso molecular e elevada lipossolubilidade. No epitélio prostático, a partição por pH desempenha papel preponderante: o fármaco em sua forma não ionizada permeia passivamente a membrana celular lipídica a favor do gradiente de concentração. Ao alcançar o compartimento prostático ácido, a molécula básica fraca protona-se; por ser a fração ionizada impermeável à membrana celular, ela permanece aprisionada no sítio anatômico em níveis superiores aos plasmáticos.",
+   "fonte": "Aula VAT2 · Farmacoterapia das infecções (slide 25); Whalen, Farmacologia Ilustrada, 6ª ed., Capítulos 37 e 40; Goodman & Gilman, 12ª ed., Capítulo 52."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 231,
+  "code": "INFEC-P09",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Terapia Preventiva (Profilaxia) e Interações Farmacocinéticas",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Uma mulher de 23 anos, em uso regular de contraceptivo oral combinado e varfarina, necessita de terapia preventiva para erradicar o estado de portador após contato domiciliar íntimo com caso de meningite meningocócica. Qual antimicrobiano de primeira linha é indicado nessa profilaxia, mas exige monitoramento rigoroso por reduzir a eficácia dessas medicações via potente indução do sistema CYP450?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ciprofloxacino (fluoroquinolona)",
+    "rationale": "Incorreta. O ciprofloxacino atua inibindo a DNA-girase e a topoisomerase IV bacterianas e pode ser utilizado como opção profilática alternativa em adultos, mas não é um indutor enzimático; ao contrário, comporta-se como inibidor moderado da isoenzima CYP1A2, não explicando a perda de eficácia de substratos metabolizados por indução do CYP450."
+   },
+   {
+    "letter": "B",
+    "text": "Ceftriaxona (cefalosporina de 3ª geração)",
+    "rationale": "Incorreta. A ceftriaxona inibe a transpeptidação na síntese da parede celular de peptidoglicano e pode ser utilizada em dose única intramuscular como profilaxia alternativa (inclusive em gestantes), mas é eliminada pelas vias renal e biliar sem causar indução das enzimas hepáticas do citocromo P450."
+   },
+   {
+    "letter": "C",
+    "text": "Sulfametoxazol (sulfonamida)",
+    "rationale": "Incorreta. O sulfametoxazol inibe a di-hidropteroato sintetase bacteriana e não constitui primeira linha para profilaxia meningocócica devido a altas taxas de resistência. Além disso, as sulfonamidas atuam como inibidoras da CYP2C9, o que provocaria acúmulo e potencialização do efeito anticoagulante da varfarina (com risco de sangramento), em vez de redução da sua eficácia."
+   },
+   {
+    "letter": "D",
+    "text": "Rifampicina (rifamicina)",
+    "rationale": "CORRETA. A rifampicina é o fármaco de primeira escolha para a profilaxia de contatos de meningite meningocócica, com o objetivo de eliminar o estado de portador de Neisseria meningitidis da nasofaringe. Seu mecanismo baseia-se na inibição da subunidade beta da RNA-polimerase DNA-dependente bacteriana. Farmacocineticamente, a rifampicina é um dos mais potentes indutores conhecidos do sistema enzimático microssomal hepático CYP450 (como CYP3A4 e CYP2C9), acelerando a depuração de fármacos coadministrados e provocando redução dos níveis e falha de contraceptivos hormonais orais e da varfarina."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A rifampicina é a opção de primeira linha para quimioprofilaxia de meningite meningocócica, caracterizando-se por inibir a transcrição de RNA bacteriano e induzir fortemente o citocromo P450, o que reduz os níveis plasmáticos de fármacos coadministrados.",
+  "bookContext": {
+   "text": "A rifampicina exerce seu efeito bactericida ligando-se à subunidade beta da RNA-polimerase dependente de DNA, bloqueando a iniciação da transcrição gênica no microrganismo. Em nível celular humano, o fármaco ativa o receptor nuclear de pregnano X (PXR), desencadeando uma marcante suprarregulação na transcrição de enzimas oxidativas de Fase I (especialmente CYP3A4 e CYP2C9), conjugadoras de Fase II e transportadores como a glicoproteína-P. Por essa razão, a administração concomitante de rifampicina diminui significativamente a meia-vida e a exposição sérica de contraceptivos orais, anticoagulantes cumarínicos e anticonvulsivantes, exigindo ajustes de dose ou métodos contraceptivos alternativos. Vale ressaltar que a eliminação hepática e renal do fármaco e de seus metabólitos produz uma coloração vermelho-alaranjada característica e inócua em líquidos e secreções corporais, como urina, fezes, suor e lágrimas.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulos 37 e 41; Slide 'Aula VAT2 · Farmacoterapia das infecções', Slide 285."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 232,
+  "code": "INFEC-P10",
+  "assunto": "far-infec",
+  "category": "Farmacoterapia das infecções",
+  "subcategory": "Terapia Definitiva, Falhas Terapêuticas e Drenagem de Abscessos",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente hospitalizado com abscesso intracavitário profundo não drenado apresenta falha da antibioticoterapia, apesar de o patógeno apresentar baixa concentração inibitória mínima (CIM) no antibiograma. A ineficácia in vivo decorre do ambiente purulento ácido e anaeróbio, que bloqueia o transporte celular ativo dependente de oxigênio necessário para a entrada do antimicrobiano na bactéria. A qual fármaco o enunciado se refere?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Cefepima (cefalosporina de 4ª geração)",
+    "rationale": "Incorreta. A cefepima é um betalactâmico que penetra na parede celular através de canais proteicos de porina por difusão passiva e inativa as enzimas transpeptidases (PLPs), não dependendo de transporte ativo transmembrana dependente de oxigênio."
+   },
+   {
+    "letter": "B",
+    "text": "Ciprofloxacino (fluoroquinolona)",
+    "rationale": "Incorreta. As fluoroquinolonas, como o ciprofloxacino, penetram no envoltório bacteriano via porinas e difusão apolar para inibir as topoisomerases nucleares, mantendo capacidade de penetração independente de transporte ativo acoplado à respiração aeróbia."
+   },
+   {
+    "letter": "C",
+    "text": "Gentamicina (aminoglicosídeo)",
+    "rationale": "CORRETA. A gentamicina e os demais aminoglicosídeos têm como alvo a subunidade ribossômica 30S para inibir a síntese de proteínas e provocar leitura errônea do RNAm. Contudo, para atravessar a membrana citoplasmática interna das bactérias, esses compostos policatiônicos dependem estritamente de um processo de transporte ativo carreador acoplado à cadeia respiratória e dependente de oxigênio. Em coleções purulentas e abscessos fechados não drenados, a acentuada hipóxia local (anaerobiose) e o pH ácido bloqueiam essa captação ativa, inviabilizando que o fármaco alcance seu sítio-alvo e provocando discrepância in vivo frente à sensibilidade observada in vitro na CIM."
+   },
+   {
+    "letter": "D",
+    "text": "Clindamicina (lincosamida)",
+    "rationale": "Incorreta. A clindamicina atua ligando-se à subunidade 50S do ribossomo e não necessita de transporte ativo dependente de oxigênio para atuar (sendo amplamente ativa contra anaeróbios estritos); além disso, não possui espectro para bacilos Gram-negativos entéricos devido à impermeabilidade natural da membrana externa desses microrganismos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A eficácia bactericida dos aminoglicosídeos depende do influxo ativo celular impulsionado pela cadeia de transporte de elétrons e oxigênio, sendo anulada pela hipóxia e acidez de abscessos purulentos não drenados.",
+  "bookContext": {
+   "text": "A entrada dos aminoglicosídeos na bactéria requer uma etapa inicial eletrostática na membrana externa seguida por uma fase de transporte ativo através da membrana interna, estritamente dependente do potencial de membrana gerado pela fosforilação oxidativa e pelo oxigênio. Por essa razão, bactérias anaeróbias estritas são naturalmente refratárias a essa classe, e bacilos Gram-negativos facultativos tornam-se fenotipicamente resistentes quando expostos a microambientes anaeróbios. Em coleções purulentas fechadas, a baixa tensão de oxigênio combinada à hiperosmolaridade, ao pH ácido e à alta concentração de debris celulares (que quelam as moléculas catiônicas da droga) impede a penetração do fármaco. Esse cenário exemplifica uma das causas mais comuns de discrepância entre os testes laboratoriais de CIM (realizados em meios aeróbios tamponados) e a resposta clínica in vivo, demonstrando a necessidade mandatória de intervenção física por drenagem cirúrgica para que a antibioticoterapia atinja êxito.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulos 37 e 39; Slide 'Aula VAT2 · Farmacoterapia das infecções', Slides 284 e 290."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 233,
+  "code": "ANTIDEP-P01",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Evidências farmacológicas da hipótese monoaminérgica (mecanismo da reserpina)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Historicamente, a observação de que pacientes hipertensos desenvolviam quadros depressivos graves ao utilizar reserpina foi crucial para a formulação da hipótese monoaminérgica da depressão. Esse efeito depressogênico da reserpina decorre diretamente de sua capacidade de:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "inibir a enzima tirosina hidroxilase, impedindo a síntese citosólica de dopamina.",
+    "rationale": "Incorreta. Quem inibe a tirosina hidroxilase é a alfa-metiltirosina, utilizada em pesquisas e no manejo de feocromocitoma; a reserpina não inibe etapas enzimáticas de síntese, mas sim o transporte vesicular."
+   },
+   {
+    "letter": "B",
+    "text": "bloquear o transportador VMAT, esgotando os estoques vesiculares de monoaminas.",
+    "rationale": "CORRETA. A reserpina bloqueia de modo irreversível o transportador vesicular de monoaminas (VMAT 1 e 2), impedindo o influxo e o armazenamento de noradrenalina, serotonina e dopamina nas vesículas sinápticas. Com isso, os neurotransmissores livres no citoplasma neuronal são degradados pela monoamino-oxidase (MAO) mitocondrial, provocando depleção profunda dos estoques vesiculares e colapso da transmissão sináptica, o que precipita o quadro depressivo."
+   },
+   {
+    "letter": "C",
+    "text": "antagonizar os receptores pós-sinápticos 5-HT1A, bloqueando a transmissão límbica.",
+    "rationale": "Incorreta. A reserpina não atua como antagonista de receptores serotoninérgicos 5-HT1A pós-sinápticos; seu sítio de ação é estritamente pré-sináptico sobre o armazenamento de aminas biogênicas."
+   },
+   {
+    "letter": "D",
+    "text": "estimular a recaptação pré-sináptica pelo NET, reduzindo as aminas na fenda.",
+    "rationale": "Incorreta. O transportador neuronal de norepinefrina (NET) atua na recaptação da fenda para o citoplasma e é inibido por antidepressivos tricíclicos; a reserpina não estimula o NET, mas bloqueia o transportador intracelular VMAT."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A reserpina bloqueia o transportador vesicular VMAT, levando à metabolização precoce de noradrenalina, serotonina e dopamina pela MAO citosólica e ao esgotamento das vesículas sinápticas.",
+  "bookContext": {
+   "text": "A reserpina é um alcaloide derivado de Rauwolfia serpentina que bloqueia o transportador vesicular de monoaminas dependente de prótons (VMAT), impedindo o sequestro e armazenamento vesicular de noradrenalina, dopamina e serotonina nas terminações nervosas. Com o transporte vesicular bloqueado, as monoaminas acumulam-se no citoplasma e são rapidamente desaminadas pela enzima monoamino-oxidase (MAO) associada à membrana mitocondrial externa. A consequente depleção acentuada de neurotransmissores disponíveis para liberação exocítica induzia quadros depressivos graves em até 15% a 20% dos pacientes tratados para hipertensão arterial. Esse achado constituiu a evidência farmacológica fundamental que originou a clássica hipótese monoaminérgica, segundo a qual a depressão decorre de um déficit funcional de monoaminas nas fendas sinápticas centrais.",
+   "fonte": "Livro · Rang & Dale · Farmacologia (8ª ed.), Caps. 14 e 47; Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 7; Aula VAT2 · Farmacologia clínica dos antidepressivos, slide 146"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 234,
+  "code": "ANTIDEP-P02",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Evidências farmacológicas da hipótese monoaminérgica (ADTs e efeitos antimuscarínicos)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Homem de 58 anos em tratamento para depressão maior queixa-se de boca seca intensa, constipação intestinal, visão turva e retenção urinária. Esses efeitos adversos decorrem do bloqueio de receptores muscarínicos por um fármaco clássico que inibe a recaptação de noradrenalina e serotonina. Qual fármaco foi prescrito a esse paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Imipramina (ADT)",
+    "rationale": "CORRETA. A imipramina é um antidepressivo tricíclico (ADT) que atua bloqueando a recaptação neuronal de noradrenalina e serotonina (via inibição de NET e SERT), elevando suas concentrações na fenda sináptica. Contudo, exibe alta afinidade antagônica não seletiva sobre receptores muscarínicos colinérgicos (M1 a M3), provocando efeitos anticolinérgicos marcantes como xerostomia (boca seca), constipação intestinal, midríase/visão turva e retenção urinária."
+   },
+   {
+    "letter": "B",
+    "text": "Tranilcipromina (IMAO)",
+    "rationale": "Incorreta. A tranilcipromina é um inibidor não seletivo e irreversível da monoamino-oxidase (IMAO); seu perfil não envolve o bloqueio de transportadores de recaptação de aminas nem produz antagonismo muscarínico expressivo, tendo como principal toxicidade o risco de crises hipertensivas por tiramina."
+   },
+   {
+    "letter": "C",
+    "text": "Moclobemida (IMAO)",
+    "rationale": "Incorreta. A moclobemida é um inibidor reversível e seletivo da isoforma A da MAO (RIMA); não atua como bloqueador da recaptação de aminas na membrana plasmática e é desprovida de ação bloqueadora sobre receptores muscarínicos."
+   },
+   {
+    "letter": "D",
+    "text": "Fluoxetina (ISRS)",
+    "rationale": "Incorreta. A fluoxetina é um inibidor seletivo da recaptação de serotonina (ISRS) com afinidade clinicamente insignificante por receptores muscarínicos colinérgicos, não desencadeando a constelação de sintomas anticolinérgicos dos tricíclicos."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Os antidepressivos tricíclicos (como a imipramina) inibem a recaptação de aminas biogênicas, mas produzem efeitos adversos atropínicos acentuados pelo bloqueio concorrente de receptores muscarínicos colinérgicos.",
+  "bookContext": {
+   "text": "A introdução clínica dos antidepressivos tricíclicos (ADTs) forneceu respaldo empírico vital à hipótese monoaminérgica ao demonstrar que a inibição da recaptação de noradrenalina e serotonina por bloqueio de transportadores transmembrana (NET e SERT) alivia os sintomas do humor deprimido. Todavia, a estrutura tricíclica confere promiscuidade farmacodinâmica a esses compostos, atuando como antagonistas competitivos em receptores muscarínicos (M1-M3), alfa-1 adrenérgicos e histamínicos (H1). O bloqueio muscarínico pós-sináptico periférico é responsável pela inibição da secreção salivar, relaxamento da musculatura lisa intestinal com obstipação, perda da acomodação visual por paralisia do músculo ciliar e relaxamento do detrusor vesical com contração do esfíncter interno, precipitando retenção urinária aguda. Por esses motivos, os ADTs demandam cautela estrita ou são contraindicados em indivíduos idosos, portadores de hiperplasia prostática benigna ou glaucoma de ângulo fechado.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 10; Livro · Rang & Dale · Farmacologia (8ª ed.), Cap. 47; Aula VAT2 · Farmacologia clínica dos antidepressivos, slides 146 e 155"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 235,
+  "code": "ANTIDEP-P03",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Hipótese neurotrófica (débito de BDNF no hipocampo) e latência terapêutica",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Apesar de os antidepressivos tricíclicos e os inibidores da MAO aumentarem rapidamente a concentração de monoaminas na fenda sináptica, a resposta clínica só surge após semanas de tratamento. De acordo com as hipóteses neurotrófica e da sensibilidade de receptores, qual alteração molecular crônica é fundamental para a recuperação da plasticidade neuronal no hipocampo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Infrarregulação progressiva dos receptores de tirosina quinase B (TrkB) por degradação proteossômica.",
+    "rationale": "Incorreta. O fator neurotrófico derivado do cérebro (BDNF) exerce suas ações neurotróficas ativando o receptor de tirosina quinase B (TrkB); a melhora clínica exige o estímulo e a manutenção da sinalização TrkB, e não sua degradação proteossômica."
+   },
+   {
+    "letter": "B",
+    "text": "Redução crônica da síntese neuronal de AMPc decorrente da inibição mantida da enzima adenililciclase.",
+    "rationale": "Incorreta. A cascata neurotrófica depende fundamentalmente da ativação sustentada da via da adenililciclase e do aumento dos níveis de AMPc para ativação de proteínas quinases, e não de sua inibição crônica."
+   },
+   {
+    "letter": "C",
+    "text": "Hipersensibilização adaptativa dos autorreceptores 5-HT1A e alfa-2 adrenérgicos pré-sinápticos.",
+    "rationale": "Incorreta. A adaptação necessária para a resposta antidepressiva é a dessensibilização (infrarregulação ou down-regulation) dos autorreceptores inibitórios pré-sinápticos (5-HT1A e alfa-2), permitindo que o neurônio aumente sua taxa de disparo e libere mais monoaminas; uma hipersensibilização inibiria ainda mais a liberação fásica."
+   },
+   {
+    "letter": "D",
+    "text": "Aumento da expressão gênica de BDNF no hipocampo mediado pela fosforilação do fator nuclear CREB.",
+    "rationale": "CORRETA. A estimulação tônica prolongada das vias monoaminérgicas por antidepressivos desencadeia cascatas de sinalização intracelular via adenililciclase-AMPc-PKA e cálcio-calmodulina, promovendo a fosforilação do fator de transcrição nuclear CREB (cAMP response element-binding protein). O CREB ativado liga-se a promotores gênicos e estimula a síntese e liberação de BDNF no hipocampo e córtex pré-frontal, revertendo o débito neurotrófico, restaurando sinapses e promovendo neurogênese, eventos que coincidem temporalmente com a remissão dos sintomas depressivos."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "O atraso terapêutico dos antidepressivos reflete o tempo necessário para adaptações intracelulares crônicas, incluindo ativação de CREB e aumento da expressão gênica de BDNF hipocampal para resgatar a neuroplasticidade.",
+  "bookContext": {
+   "text": "O principal paradoxo da hipótese monoaminérgica pura é a latência terapêutica: enquanto a inibição da recaptação ou da degradação enzimática eleva as monoaminas sinápticas em minutos ou horas, a resposta clínica só se estabelece após duas a quatro semanas de farmacoterapia contínua. A hipótese neurotrófica da depressão elucida esse fenômeno ao demonstrar que estados de estresse crônico elevam os glicocorticoides e reduzem a expressão de BDNF, induzindo atrofia dendrítica e apoptose em neurônios das regiões CA3 e giro denteado do hipocampo. O tratamento crônico com antidepressivos induz, em uma primeira etapa, a dessensibilização de autorreceptores inibitórios pré-sinápticos (5-HT1A e alfa-2), normalizando o tônus de disparo neural. Em seguida, a ativação sustentada de receptores pós-sinápticos acoplados a proteínas G estimulatórias eleva o AMPc intracelular e ativa a PKA, a qual migra ao núcleo e fosforila o fator CREB. A transcrição aumentada de BDNF e a sinalização via receptores TrkB revertem a perda sináptica e restabelecem a plasticidade neuronal e o volume hipocampal, correlacionando-se perfeitamente com a curva de melhora clínica.",
+   "fonte": "Livro · Katzung · Farmacologia Básica e Clínica (12ª ed.), Cap. 30; Livro · Rang & Dale · Farmacologia (8ª ed.), Cap. 47; Aula VAT2 · Farmacologia clínica dos antidepressivos, slides 145-147"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 236,
+  "code": "ANTIDEP-P04",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Escolha do antidepressivo baseada no perfil de efeitos adversos e queixas somáticas",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Paciente de 32 anos procura atendimento com quadro de episódio depressivo maior, apresentando queixas proeminentes de apatia, fadiga e sonolência diurna excessiva. Visando restaurar a funcionalidade sem agravar o quadro sedativo, o médico opta por um fármaco de perfil ativador. Qual antidepressivo é o mais apropriado para esse perfil de paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Amitriptilina (ADT)",
+    "rationale": "Incorreta. A amitriptilina é um antidepressivo tricíclico com potente ação antagonista sobre receptores histaminérgicos H1 e muscarínicos, provocando intensa sedação e sonolência, o que agravaria as queixas diurnas do paciente."
+   },
+   {
+    "letter": "B",
+    "text": "Mirtazapina (atípico)",
+    "rationale": "Incorreta. A mirtazapina possui potente atividade antagonista de receptores H1 centrais, sendo acentuadamente sedativa; costuma ser reservada para quadros depressivos acompanhados de insônia grave e não de hipersonolência."
+   },
+   {
+    "letter": "C",
+    "text": "Fluoxetina (ISRS)",
+    "rationale": "CORRETA. A fluoxetina é um inibidor seletivo da recaptação de serotonina (ISRS) que apresenta perfil farmacodinâmico ativador/estimulante no sistema nervoso central, sendo a escolha ideal para pacientes com depressão associada a fadiga e sonolência excessiva."
+   },
+   {
+    "letter": "D",
+    "text": "Trazodona (atípico)",
+    "rationale": "Incorreta. A trazodona apresenta marcante efeito sedativo mediado pelo bloqueio de receptores histaminérgicos H1 e alfa-1 adrenérgicos, sendo amplamente utilizada em doses baixas para indução do sono."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A escolha do antidepressivo deve considerar o perfil de efeitos adversos; enquanto mirtazapina, trazodona e tricíclicos são sedativos por bloqueio H1, a fluoxetina tem perfil ativador.",
+  "bookContext": {
+   "text": "Os inibidores seletivos da recaptação de serotonina (ISRSs) apresentam seletividade centenas a milhares de vezes maior pelo transportador SERT em relação ao NET, carecendo de afinidade relevante por receptores histamínicos H1 ou muscarínicos. A fluoxetina, especificamente, destaca-se por seu efeito estimulante central, sendo vantajosa em pacientes com retardo psicomotor e queixas de fadiga crônica. Por outro lado, fármacos com potente bloqueio histamínico H1 produzem sonolência marcante, sendo desfavoráveis quando o objetivo terapêutico inclui restaurar o estado de alerta diurno.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 10 (Antidepressivos); Aula VAT2 · Farmacologia clínica dos antidepressivos, slides 64 e 70."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 237,
+  "code": "ANTIDEP-P05",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Condições clínicas coexistentes e perfil de toxicidade anticolinérgica",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Paciente de 69 anos, diagnosticado com depressão maior, relata histórico de retenção urinária decorrente de hiperplasia prostática benigna. Visando à segurança e à manutenção da funcionalidade, qual antidepressivo deve ser evitado pelo alto risco de agravar os sintomas urinários desse paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Escitalopram (ISRS)",
+    "rationale": "Incorreta. O escitalopram é um ISRS altamente seletivo para o SERT, com afinidade quase nula por receptores muscarínicos, sendo uma opção segura em pacientes com queixas urológicas obstrutivas."
+   },
+   {
+    "letter": "B",
+    "text": "Amitriptilina (ADT)",
+    "rationale": "CORRETA. A amitriptilina é um antidepressivo tricíclico com potente ação antagonista sobre receptores muscarínicos (M2/M3), inibindo a contratilidade do músculo detrusor da bexiga e aumentando o tônus esfincteriano interno, o que pode precipitar retenção urinária aguda em portadores de hiperplasia prostática."
+   },
+   {
+    "letter": "C",
+    "text": "Desvenlafaxina (IRSN)",
+    "rationale": "Incorreta. A desvenlafaxina atua inibindo a recaptação de serotonina e noradrenalina (IRSN) sem bloquear significativamente receptores muscarínicos, não apresentando o perfil anticolinérgico clássico dos tricíclicos."
+   },
+   {
+    "letter": "D",
+    "text": "Mirtazapina (atípico)",
+    "rationale": "Incorreta. A mirtazapina exerce antagonismo em autorreceptores alfa-2 adrenérgicos e receptores 5-HT2/5-HT3 e H1, mas possui afinidade desprezível por receptores muscarínicos, não comprometendo a micção."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Antidepressivos tricíclicos bloqueiam receptores muscarínicos, inibindo a contração do detrusor vesical e agravando a retenção urinária em pacientes com hiperplasia prostática.",
+  "bookContext": {
+   "text": "Os antidepressivos tricíclicos (ADTs) possuem baixa especificidade farmacológica e bloqueiam receptores muscarínicos, alfa-1 adrenérgicos e histamínicos H1, além de inibirem os transportadores de monoaminas. O bloqueio muscarínico periférico diminui a contratilidade vesical mediada por acetilcolina, resultando em retenção urinária potencialmente grave em homens com obstrução mecânica do colo vesical. Em contrapartida, fármacos de segunda geração, como os ISRSs e IRSNs, são desprovidos de atividade antimuscarínica clinicamente relevante, representando alternativas seguras.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 10 (Antidepressivos); Livro · Rang & Dale · Farmacologia (8ª ed.), Cap. 47; Aula VAT2 · Farmacologia clínica dos antidepressivos, slides 67-68."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 238,
+  "code": "ANTIDEP-P06",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Particularidades farmacocinéticas e transição segura entre classes antidepressivas",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Paciente de 42 anos com depressão maior grave e refratária necessita substituir a fluoxetina por tranilcipromina (IMAO) devido à ausência de resposta terapêutica. Do ponto de vista farmacocinético, qual fator fundamenta a recomendação de aguardar um intervalo de cinco a seis semanas antes de iniciar o IMAO?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A formação de metabólito ativo de meia-vida prolongada como a norfluoxetina",
+    "rationale": "CORRETA. A fluoxetina é metabolizada pela CYP2D6 em S-norfluoxetina, um metabólito biologicamente ativo com meia-vida de eliminação de 7 a 10 dias. Por essa razão, a introdução de um IMAO sem o período de descontinuação (washout) de 5 a 6 semanas causa acúmulo sinérgico de serotonina, precipitando a síndrome serotoninérgica potencialmente fatal."
+   },
+   {
+    "letter": "B",
+    "text": "A circulação entero-hepática persistente que atrasa a depuração do fármaco inicial",
+    "rationale": "Incorreta. A persistência sérica prolongada da fluoxetina decorre da biotransformação enzimática com geração de metabólito ativo de meia-vida longa, e não de uma recirculação entero-hepática significativa."
+   },
+   {
+    "letter": "C",
+    "text": "A inibição irreversível e duradoura do transportador SERT por ligação covalente",
+    "rationale": "Incorreta. A fluoxetina e seus congêneres realizam bloqueio reversível e competitivo do transportador SERT, sem formar ligações covalentes irreversíveis."
+   },
+   {
+    "letter": "D",
+    "text": "A saturação contínua dos carreadores tubulares renais de excreção inalterada",
+    "rationale": "Incorreta. A depuração da fluoxetina depende predominantemente do metabolismo oxidativo hepático pelas isoenzimas do citocromo P450, e não da saturação de mecanismos de secreção tubular renal inalterada."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A norfluoxetina é um metabólito ativo da fluoxetina com meia-vida de até 10 dias, exigindo washout de 5 a 6 semanas antes do início de um IMAO para evitar síndrome serotoninérgica.",
+  "bookContext": {
+   "text": "Enquanto a maioria dos ISRSs possui meia-vida plasmática variando entre 16 e 36 horas, exigindo um período de depuração de apenas duas semanas antes da introdução de um IMAO, a fluoxetina apresenta uma cinética única. Ela possui meia-vida de cerca de 50 horas e é biotransformada no metabólito ativo S-norfluoxetina, cuja meia-vida atinge cerca de 10 dias. Se um inibidor irreversível da monoamina oxidase for iniciado precocemente, o bloqueio concomitante da degradação e da recaptação de 5-HT culmina em hipertermia, mioclonias e instabilidade autonômica características da síndrome serotoninérgica.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 10 (Antidepressivos); Livro · Katzung · Farmacologia Básica e Clínica (12ª ed.), Cap. 30; Aula VAT2 · Farmacologia clínica dos antidepressivos, slide 64."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 239,
+  "code": "ANTIDEP-P07",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Antidepressivos Atípicos: Bupropiona e risco em epilépticos",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Paciente de 31 anos em tratamento para depressão maior queixa-se de perda de libido associada ao uso de ISRS. Ao planejar a substituição por um fármaco com menor impacto na função sexual, o médico constata no histórico clínico que o paciente apresenta diagnóstico de epilepsia. Qual antidepressivo é contraindicado nessa situação devido ao risco de redução do limiar convulsivo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Duloxetina (dual)",
+    "rationale": "Incorreta. A duloxetina é um inibidor da recaptação de serotonina e noradrenalina que não possui contraindicação formal relacionada a distúrbios epilépticos, além de apresentar taxa relevante de disfunção sexual."
+   },
+   {
+    "letter": "B",
+    "text": "Sertralina (ISRS)",
+    "rationale": "Incorreta. A sertralina é um ISRS clássico que não apresenta contraindicação absoluta na epilepsia, mas frequentemente mantém ou piora o quadro de anorgasmia e perda de libido pela estimulação serotoninérgica."
+   },
+   {
+    "letter": "C",
+    "text": "Mirtazapina (atípico)",
+    "rationale": "Incorreta. A mirtazapina apresenta baixo risco de causar disfunções sexuais por antagonizar receptores 5-HT2 e 5-HT3, mas seu perfil não se caracteriza pelo risco epileptogênico da bupropiona, destacando-se por sedação e ganho de peso."
+   },
+   {
+    "letter": "D",
+    "text": "Bupropiona (atípico)",
+    "rationale": "CORRETA. A bupropiona atua bloqueando a recaptação de dopamina e noradrenalina, preservando a função sexual, porém diminui o limiar convulsivo de modo dose-dependente, sendo contraindicada em pacientes com epilepsia."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A bupropiona tem perfil poupador da função sexual por não atuar primariamente na serotonina, mas reduz o limiar convulsivo e é contraindicada na epilepsia.",
+  "bookContext": {
+   "text": "A bupropiona atua como um inibidor fraco da recaptação neuronal de dopamina e noradrenalina, aliviando os sintomas depressivos sem intensificar a via serotoninérgica. Por essa razão, apresenta uma incidência extremamente baixa de disfunção sexual quando comparada aos ISRSs e venlafaxina. No entanto, o fármaco promove uma redução dose-dependente do limiar de excitabilidade neuronal, elevando o risco de crises epilépticas mesmo dentro da faixa terapêutica usual. Em virtude dessa propriedade neurofarmacológica, seu emprego é formalmente contraindicado em indivíduos com histórico de convulsões ou transtornos alimentares como bulimia e anorexia nervosa.",
+   "fonte": "Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 10: Antidepressivos; Aula VAT2 · Farmacologia clínica dos antidepressivos, slide 75."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 240,
+  "code": "ANTIDEP-P08",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Antidepressivos de Ação Dual: perfil farmacocinético e interações",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Paciente de 62 anos, em uso de múltiplos fármacos para cardiopatia que dependem das isoenzimas do citocromo P450, necessita de intervenção para depressão severa refratária a ISRSs. O médico opta por prescrever um antidepressivo de ação dual (como a venlafaxina). Qual característica farmacocinética dessa classe reduz o risco de interações medicamentosas graves quando comparada aos antidepressivos tricíclicos?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ausência de biotransformação hepática de primeira passagem.",
+    "rationale": "Incorreta. Os antidepressivos duais sofrem ampla biotransformação hepática de primeira passagem; a venlafaxina, por exemplo, é extensamente metabolizada pela CYP2D6 em desvenlafaxina."
+   },
+   {
+    "letter": "B",
+    "text": "Eliminação renal exclusiva sob a forma inalterada do fármaco.",
+    "rationale": "Incorreta. Fármacos como venlafaxina e duloxetina não são depurados predominantemente de forma inalterada pelos rins, dependendo da biotransformação prévia em metabólitos polares."
+   },
+   {
+    "letter": "C",
+    "text": "Baixa inibição do citocromo P450 e menor ligação proteica.",
+    "rationale": "CORRETA. Diferente dos tricíclicos (que possuem alta ligação proteica, superior a 90%) e de ISRSs como fluoxetina e paroxetina (potentes inibidores de CYP2D6), a venlafaxina exibe baixa ligação a proteínas plasmáticas (~27-30%) e inibição desprezível do complexo P450."
+   },
+   {
+    "letter": "D",
+    "text": "Indução enzimática acentuada da isoforma microssomal CYP1A2.",
+    "rationale": "Incorreta. Os antidepressivos de ação dual não se comportam como potentes indutores microssomais hepáticos e não aceleram de forma expressiva o metabolismo da isoforma CYP1A2."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Os antidepressivos duais (como a venlafaxina) destacam-se pela menor ligação a proteínas plasmáticas e mínima inibição do sistema CYP450, resultando em menor propensão a interações medicamentosas.",
+  "bookContext": {
+   "text": "Os inibidores da recaptação de serotonina e noradrenalina, conhecidos como antidepressivos duais, são amplamente empregados no manejo de depressões severas e refratárias após falha terapêutica com ISRSs. Em contraste com os antidepressivos tricíclicos, que circulam predominantemente ligados à albumina plasmática em taxas que superam 90%, a venlafaxina apresenta ligação proteica muito baixa, em torno de 27% a 30%. Adicionalmente, enquanto agentes tricíclicos e certos ISRSs inibem expressivamente isoenzimas como CYP2D6, os duais produzem interferência mínima sobre a atividade metabólica do citocromo P450. Esse perfil farmacocinético singular minimiza sobremaneira o potencial de interações farmacológicas por deslocamento de sítio ou acúmulo de substratos administrados em conjunto.",
+   "fonte": "Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 10: Antidepressivos; Aula VAT2 · Farmacologia clínica dos antidepressivos, slide 74."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 241,
+  "code": "ANTIDEP-P09",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Inibidores da Monoamina Oxidase (IMAOs) e Interação com Tiramina",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Homem de 48 anos em tratamento de depressão atípica com tranilcipromina dá entrada na emergência com cefaleia occipital súbita, palpitações e pressão arterial de 210/120 mmHg após ingerir queijos maturados e vinho tinto. Do ponto de vista farmacodinâmico, essa crise hipertensiva aguda decorre do fato de que a inibição da MAO-A:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "bloqueia a síntese de prostaciclina vascular, desencadeando vasoespasmo arteriolar intenso, imediato e sustentado no leito periférico.",
+    "rationale": "Incorreta. A tranilcipromina e os demais IMAOs não afetam a via da ciclo-oxigenase nem inibem a síntese endotelial de prostaciclina (PGI2); o mecanismo vasopressor da interação alimentar é estritamente adrenérgico."
+   },
+   {
+    "letter": "B",
+    "text": "inibe a metabolização da tiramina intestinal, permitindo que ela alcance a circulação e libere noradrenalina estocada.",
+    "rationale": "CORRETA. A tiramina ingerida na dieta é um substrato degradado oxidativamente pela isoforma MAO-A na mucosa gastrintestinal e no fígado. Ao usar um IMAO não seletivo e irreversível como a tranilcipromina, essa barreira enzimática de primeira passagem é inibida; a tiramina atinge a circulação sistêmica inalterada, entra nos terminais nervosos noradrenérgicos via transportador de recaptação e atua como amina simpatomimética de ação indireta, deslocando e liberando quantidades maciças de noradrenalina na fenda sináptica sobre os receptores alfa-1 e beta-1 vasculares e cardíacos."
+   },
+   {
+    "letter": "C",
+    "text": "impede seletivamente a recaptação neuronal de catecolaminas no terminal simpático, esgotando os estoques vesiculares teciduais.",
+    "rationale": "Incorreta. Quem inibe o transportador de recaptação neuronal de noradrenalina (NET) são os antidepressivos tricíclicos e os duais, e não os IMAOs. Ademais, o esgotamento vesicular diminuiria a transmissão simpática em vez de deflagrar pico hipertensivo."
+   },
+   {
+    "letter": "D",
+    "text": "potencializa a atividade dos receptores pré-sinápticos alfa-2 adrenérgicos, aumentando a descarga simpática vascular periférica.",
+    "rationale": "Incorreta. Os receptores alfa-2 adrenérgicos pré-sinápticos funcionam fisiologicamente como autorreceptores inibitórios da liberação de noradrenalina; potencializá-los diminuiria o tônus simpático, enquanto seu bloqueio é que aumentaria o efluxo de catecolaminas."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A MAO-A intestinal e hepática inativa a tiramina da dieta; sob inibição por IMAOs, a tiramina absorvida age como simpatomimético indireto, provocando liberação maciça de noradrenalina e crise hipertensiva.",
+  "bookContext": {
+   "text": "A enzima monoamina oxidase mitocondrial possui duas isoformas principais: a MAO-A, que metaboliza preferencialmente serotonina, noradrenalina e tiramina, e a MAO-B, com maior afinidade pela dopamina. Em condições fisiológicas normais, a tiramina presente em alimentos fermentados e maturados (como queijos envelhecidos, vinhos e embutidos) é extensamente desaminada na parede intestinal e no fígado antes de alcançar a circulação geral. Quando fármacos como a tranilcipromina inativam irreversivelmente a MAO-A periférica, a tiramina atinge as terminações nervosas simpáticas pós-ganglionares, onde compete pelo transportador de recaptação (NET) e promove a extrusão vesicular de noradrenalina. Essa inundação de catecolaminas na fenda sináptica estimula potentemente os adrenoceptores alfa-1 vasculares, gerando vasoconstrição periférica intensa, aumento da resistência vascular e episódios hipertensivos com risco de hemorragia intracraniana.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 10 (Antidepressivos) e Livro · Rang & Dale · Farmacologia (8ª ed.), Capítulo 47 (Fármacos antidepressivos); complementado pelo slide da aula."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 242,
+  "code": "ANTIDEP-P10",
+  "assunto": "far-antidep",
+  "category": "Antidepressivos",
+  "subcategory": "Antidepressivos Tricíclicos (ADTs): Cardiotoxicidade e Acompanhamento Farmacoterapêutico",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 66 anos, com histórico de infarto agudo do miocárdio e bloqueio de condução atrioventricular, apresenta depressão refratária associada a neuropatia periférica. O médico deve prescrever um antidepressivo seguro, evitando fármacos com efeito quinidina-símile sobre os canais de sódio cardíacos que alargam o complexo QRS e precipitam arritmias ventriculares fatais. Qual fármaco está CONTRAINDICADO para essa paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Amitriptilina (ADT)",
+    "rationale": "CORRETA. A amitriptilina é uma amina terciária da classe dos antidepressivos tricíclicos (ADTs) que possui ação quinidina-símile (efeito antiarrítmico de classe IA), bloqueando canais de sódio voltagem-dependentes cardíacos e retardando a condução no sistema His-Purkinje. Em pacientes cardiopatas com histórico de infarto ou distúrbios de condução, esse bloqueio prolonga os intervalos PR e QRS, predispondo a bloqueios atrioventriculares avançados e arritmias ventriculares reentrantes fatais. Por esse motivo, os ADTs exigem monitoramento prévio e periódico de ECG e pressão arterial, sendo formalmente contraindicados na cardiopatia isquêmica instável e nos bloqueios cardíacos."
+   },
+   {
+    "letter": "B",
+    "text": "Sertralina (ISRS)",
+    "rationale": "Incorreta. A sertralina é um inibidor seletivo da recaptação de serotonina (ISRS) com perfil de segurança cardiovascular bem estabelecido em pacientes pós-infarto, desprovida de bloqueio relevante de canais de sódio miocárdicos nas doses terapêuticas."
+   },
+   {
+    "letter": "C",
+    "text": "Moclobemida (IMAO)",
+    "rationale": "Incorreta. A moclobemida é um inibidor reversível e seletivo da MAO-A (RIMA) que não bloqueia canais de sódio rápidos do miocárdio nem retarda a condução intraventricular de maneira comparável aos tricíclicos."
+   },
+   {
+    "letter": "D",
+    "text": "Bupropiona (atípico)",
+    "rationale": "Incorreta. A bupropiona atua inibindo a recaptação de dopamina e noradrenalina e não exibe efeito bloqueador significativo de canais de sódio cardíacos ou atividade antimuscarínica marcante, tendo como contraindicação primária distúrbios convulsivos e epilepsia, e não cardiopatias de condução."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Os antidepressivos tricíclicos (ADTs) bloqueiam canais de sódio cardíacos (efeito quinidina-símile), alargando o complexo QRS e aumentando o risco de arritmias fatais e bloqueios em cardiopatas, exigindo monitoramento por ECG.",
+  "bookContext": {
+   "text": "Além de inibirem a recaptação neuronal de serotonina e noradrenalina, os antidepressivos tricíclicos atuam como antagonistas em receptores colinérgicos muscarínicos, histamínicos H1 e alfa-1 adrenérgicos. No tecido cardíaco, os ADTs exercem bloqueio nos canais de sódio voltagem-dependentes rápidos de forma semelhante aos antiarrítmicos da classe IA (efeito tipo quinidina), o que diminui a velocidade de despolarização de fase 0 nas fibras ventriculares. Esse retardo de condução manifesta-se eletrocardiograficamente pelo alargamento do complexo QRS e prolongamento dos intervalos PR e QTc, facilitando circuitos de reentrada e taquicardias ventriculares que ameaçam a vida. Em razão do índice terapêutico estreito dos ADTs e de sua elevada lipofilia e ligação proteica, o acompanhamento farmacoterapêutico exige atenção obrigatória a sinais vitais e traçado de ECG em pacientes com fatores de risco cardiovasculares.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 10 (Antidepressivos) e Livro · Katzung · Farmacologia Básica e Clínica (12ª ed.), Capítulo 30 (Antidepressivos); complementado pelo slide da aula."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 243,
+  "code": "TRS-P01",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Primeira escolha farmacológica na Otite Média Aguda (OMA)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Uma criança de 3 anos é diagnosticada com otite média aguda não complicada e sem histórico de alergias medicamentosas. O médico prescreve o antimicrobiano oral de primeira escolha, que atua inibindo a transpeptidação final do peptidoglicano da parede bacteriana através da ligação às proteínas ligadoras de penicilina (PBPs). Qual fármaco representa essa escolha inicial?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ceftriaxona (cefalosporina de 3ª geração)",
+    "rationale": "Incorreta. A ceftriaxona é uma cefalosporina de 3ª geração de administração exclusivamente parenteral (IM ou IV); na otite média aguda, é reservada para casos de falha terapêutica grave ou intolerância/impossibilidade de uso da via oral, não sendo o fármaco de primeira linha."
+   },
+   {
+    "letter": "B",
+    "text": "Cefuroxima (cefalosporina de 2ª geração)",
+    "rationale": "Incorreta. A cefuroxima é uma cefalosporina de 2ª geração com estabilidade frente a certas beta-lactamases, constituindo alternativa oral em casos de falha terapêutica após 48 a 72 horas ou em infecções por patógenos produtores de beta-lactamase, mas não primeira escolha inicial."
+   },
+   {
+    "letter": "C",
+    "text": "Cefazolina (cefalosporina de 1ª geração)",
+    "rationale": "Incorreta. A cefazolina é uma cefalosporina de 1ª geração de uso parenteral com espectro predominantemente direcionado a cocos gram-positivos sensíveis à meticilina e uso principal em profilaxia cirúrgica, carecendo de cobertura oral adequada e indicação para OMA."
+   },
+   {
+    "letter": "D",
+    "text": "Amoxicilina (aminopenicilina)",
+    "rationale": "CORRETA. A amoxicilina é uma aminopenicilina de excelente absorção oral que atinge concentrações eficazes no fluido da orelha média para erradicar o Streptococcus pneumoniae, sendo estabelecida tanto em diretrizes quanto nas aulas como a primeira escolha padrão para OMA."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A amoxicilina é a aminopenicilina oral de primeira linha na OMA por atingir concentrações adequadas na orelha média e apresentar excelente eficácia contra o Streptococcus pneumoniae.",
+  "bookContext": {
+   "text": "As penicilinas interferem na etapa terminal de síntese da parede celular bacteriana, inibindo a reação de transpeptidação catalisada pelas proteínas ligadoras de penicilina (PBPs). Como consequência, ocorre desestruturação da integridade osmótica da parede do peptidoglicano e ativação de autolisinas bacterianas, conferindo efeito bactericida tempo-dependente. A amoxicilina destaca-se entre as aminopenicilinas por possuir biodisponibilidade oral superior à da ampicilina, sendo pouco afetada pela presença de alimentos. Sua penetração tecidual na mucosa e nas secreções da orelha média atinge concentrações superiores à concentração inibitória mínima da maioria dos pneumococos.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 38 (Antimicrobianos inibidores da parede celular) e Aula VAT2 · Infecções do TRS e beta-lactâmicos"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 244,
+  "code": "TRS-P02",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Manejo da falha terapêutica e patógenos resistentes na OMA",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente pediátrico de 4 anos com otite média aguda mantém otalgia intensa e febre após 72 horas de uso de amoxicilina em dose adequada, caracterizando falha terapêutica clínica. O médico decide substituir o esquema por uma cefalosporina oral de segunda geração com estabilidade frente às beta-lactamases de Haemophilus influenzae e Moraxella catarrhalis. Qual fármaco deve ser prescrito?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Cefazolina",
+    "rationale": "Incorreta. A cefazolina é uma cefalosporina de 1ª geração de uso parenteral, suscetível à inativação por beta-lactamases de bacilos gram-negativos e não recomendada no resgate ambulatorial da OMA."
+   },
+   {
+    "letter": "B",
+    "text": "Cefepima",
+    "rationale": "Incorreta. A cefepima é uma cefalosporina de 4ª geração de administração exclusivamente parenteral (IV), reservada para infecções hospitalares graves por patógenos multirresistentes como Pseudomonas aeruginosa, sem indicação para OMA ambulatorial."
+   },
+   {
+    "letter": "C",
+    "text": "Cefuroxima",
+    "rationale": "CORRETA. A cefuroxima (apresentada por via oral como o pró-fármaco axetilcefuroxima) é uma cefalosporina de 2ª geração que apresenta maior estabilidade contra a hidrólise por beta-lactamases de bactérias gram-negativas respiratórias, sendo opção preconizada na falha terapêutica de OMA."
+   },
+   {
+    "letter": "D",
+    "text": "Cefadroxila",
+    "rationale": "Incorreta. A cefadroxila pertence à 1ª geração das cefalosporinas e possui espectro voltado a gram-positivos e alguns gram-negativos comunitários básicos, sofrendo hidrólise pelas beta-lactamases produzidas por H. influenzae e M. catarrhalis."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A cefuroxima é a cefalosporina de 2ª geração oral de escolha na falha terapêutica de amoxicilina na OMA, pois resiste às beta-lactamases de H. influenzae e M. catarrhalis.",
+  "bookContext": {
+   "text": "A resistência às penicilinas nas infecções respiratórias comunitárias decorre frequentemente da produção de beta-lactamases codificadas por plasmídeos em espécies como Haemophilus influenzae e Moraxella catarrhalis. As cefalosporinas de segunda geração possuem modificações químicas na cadeia lateral ligada ao anel beta-lactâmico que conferem maior resistência à hidrólise por essas enzimas bacterianas quando comparadas às aminopenicilinas isoladas. A axetilcefuroxima é hidrolisada na mucosa intestinal e na circulação para liberar cefuroxima ativa, atingindo níveis séricos e teciduais adequados para combater cepas resistentes. Outra conduta consagrada para o mesmo cenário de falha clínica aos 3 dias é a associação de amoxicilina ao ácido clavulânico.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 38 (Antimicrobianos inibidores da parede celular) e Aula VAT2 · Infecções do TRS e beta-lactâmicos"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 245,
+  "code": "TRS-P03",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Particularidades farmacológicas e interações da Ceftriaxona na falha da OMA",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Uma criança com otite média aguda refratária e vômitos incoercíveis é admitida para receber ceftriaxona por via intramuscular. Durante a internação hospitalar, a administração simultânea ou em curto intervalo de soluções intravenosas contendo cálcio (como o Ringer lactato) é formalmente contraindicada porque a ceftriaxona:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "inibe a excreção tubular de cálcio por competição com carreadores OAT renais.",
+    "rationale": "Incorreta. A incompatibilidade e contraindicação formal decorrem de um fenômeno físico-químico de precipitação intravascular de cristais de ceftriaxona-cálcio, e não de bloqueio ou competição farmacocinética por carreadores tubulares renais de ânions orgânicos (OAT)."
+   },
+   {
+    "letter": "B",
+    "text": "forma precipitado cristalino insolúvel na vasculatura pulmonar e renal.",
+    "rationale": "CORRETA. A ceftriaxona liga-se fortemente a íons de cálcio livres, formando um sal insolúvel que precipita como cristais na circulação, acumulando-se letalmente nos leitos vasculares pulmonares e renais, motivo pelo qual a coadministração com soluções contendo cálcio é rigorosamente contraindicada."
+   },
+   {
+    "letter": "C",
+    "text": "quelata o cálcio sérico livre, inativando o efeito bactericida sobre a parede.",
+    "rationale": "Incorreta. O risco crítico da coadministração não se baseia na perda de eficácia bactericida por quelação no plasma, mas sim no risco de embolização e deposição mecânica de macroagregados e precipitados cristalinos insolúveis na microcirculação."
+   },
+   {
+    "letter": "D",
+    "text": "estimula a abertura de canais de cálcio deflagrando necrose tubular aguda.",
+    "rationale": "Incorreta. A ceftriaxona não atua sobre canais de cálcio celulares e não induz necrose tubular direta via influxo iônico intracelular; a lesão tecidual pulmonar e renal descrita decorre da oclusão vascular por deposição dos cristais de ceftriaxona-cálcio."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A associação de ceftriaxona com soluções contendo cálcio gera precipitados cristalinos de ceftriaxona-cálcio potencialmente fatais nos pulmões e rins.",
+  "bookContext": {
+   "text": "A ceftriaxona é uma cefalosporina de terceira geração caracterizada por meia-vida prolongada (cerca de 6 a 8 horas) decorrente de sua elevada ligação às proteínas plasmáticas, o que possibilita posologia em dose única diária por via intramuscular ou intravenosa no tratamento de resgate da OMA. Apresenta eliminação mista, com fração expressiva excretada inalterada pela bile, além da depuração renal. Em presença de íons divalentes como o cálcio, a molécula de ceftriaxona forma um sal insolúvel com cinética de precipitação rápida. Essa incompatibilidade físico-química gera microcristais que ocluem capilares pulmonares e renais, tendo motivado alertas estritos de segurança em pediatria e neonatologia contra o uso conjunto com Ringer lactato.",
+   "fonte": "Aula VAT2 · Infecções do TRS e beta-lactâmicos e Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 38 (Antimicrobianos inibidores da parede celular)"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 246,
+  "code": "TRS-P04",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Tratamento antimicrobiano de 1ª escolha e mecanismo de ação",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Criança de 7 anos recebe prescrição de amoxicilina por via oral para o tratamento de faringite estreptocócica aguda. O efeito bactericida desse antimicrobiano decorre diretamente de sua ação sobre qual alvo molecular?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Inativação das transpeptidases (PBPs), impedindo a síntese da parede celular.",
+    "rationale": "CORRETA. A amoxicilina é uma aminopenicilina bactericida que se liga covalentemente às proteínas ligadoras de penicilina (PBPs), inibindo a reação de transpeptidação final. Isso impede a formação das ligações cruzadas da cadeia de peptidoglicano, fragilizando a parede celular e culminando na lise osmótica bacteriana."
+   },
+   {
+    "letter": "B",
+    "text": "Inibição da subunidade 50S ribossômica, bloqueando a translocação peptídica.",
+    "rationale": "Incorreta. A inibição reversível da subunidade 50S ribossômica com bloqueio da translocação do peptidil-RNAt é o mecanismo de ação de macrolídeos (como eritromicina, azitromicina e claritromicina) e lincosamidas, que são fármacos predominantemente bacteriostáticos, e não das aminopenicilinas."
+   },
+   {
+    "letter": "C",
+    "text": "Inibição da subunidade 30S ribossômica, bloqueando o acesso do RNAt bacteriano.",
+    "rationale": "Incorreta. A ligação reversível à subunidade 30S do ribossomo com bloqueio do acoplamento do aminoacil-RNAt ao sítio aceptor é o mecanismo molecular das tetraciclinas (como a doxiciclina), agentes bacteriostáticos contraindicados na faringite estreptocócica."
+   },
+   {
+    "letter": "D",
+    "text": "Inibição da enzima DNA-girase bacteriana, fragmentando as fitas de DNA genômico.",
+    "rationale": "Incorreta. A inibição da DNA-girase (topoisomerase II) e da topoisomerase IV bacterianas é o mecanismo característico das fluoroquinolonas (como ciprofloxacino e levofloxacino), não correspondendo ao mecanismo dos antibióticos beta-lactâmicos."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A amoxicilina inibe as transpeptidases (PBPs), impedindo as ligações cruzadas de peptidoglicano da parede celular bacteriana e provocando lise bactericida.",
+  "bookContext": {
+   "text": "As penicilinas são antibióticos bactericidas tempo-dependentes que atuam interferindo na última etapa de síntese do peptidoglicano da parede celular. Ao se fixarem nas enzimas transpeptidases ancoradas na membrana citoplasmática (conhecidas como PBPs), impedem a formação das pontes cruzadas essenciais à integridade mecânica bacteriana. A perda dessa barreira estrutural em bactérias em rápida proliferação desregula autolisinas endógenas e conduz à ruptura osmótica da célula. Como as células dos mamíferos não possuem parede celular de peptidoglicano, os beta-lactâmicos exibem elevado índice terapêutico e notável toxicidade seletiva.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 38: Antimicrobianos inibidores da parede celular."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 247,
+  "code": "TRS-P05",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Manejo da faringite em alérgicos e contraindicações pediátricas",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Menino de 8 anos com faringite estreptocócica apresenta antecedente de choque anafilático após uso de penicilina injetável. Diante dessa reação de hipersensibilidade grave mediada por IgE, qual antimicrobiano oral é a opção mais segura e apropriada para erradicar a infecção?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Cefalexina (cefalosporina)",
+    "rationale": "Incorreta. Embora as cefalosporinas possam ser consideradas em reações alérgicas leves e tardias, a cefalexina (cefalosporina de 1ª geração) é expressamente contraindicada em pacientes com histórico de anafilaxia ou reações graves prévias a penicilinas, devido ao risco substancial de reatividade alérgica cruzada entre os anéis beta-lactâmicos."
+   },
+   {
+    "letter": "B",
+    "text": "Amoxicilina (aminopenicilina)",
+    "rationale": "Incorreta. A amoxicilina é uma aminopenicilina e compartilha o núcleo 6-aminopenicilânico, apresentando reatividade cruzada completa e contraindicação absoluta em pacientes com hipersensibilidade imediata (tipo I) a qualquer derivado da penicilina."
+   },
+   {
+    "letter": "C",
+    "text": "Doxiciclina (tetraciclina)",
+    "rationale": "Incorreta. As tetraciclinas são contraindicadas em crianças menores de 8 anos devido à quelação de cálcio e deposição em ossos e esmalte dentário, além de apresentarem contraindicação formal na faringite aguda devido à resistência bacteriana documentada e disseminada de Streptococcus pyogenes."
+   },
+   {
+    "letter": "D",
+    "text": "Azitromicina (macrolídeo)",
+    "rationale": "CORRETA. A azitromicina pertence à classe dos macrolídeos, cuja estrutura química consiste em um anel lactona macrocíclico desprovido de anel beta-lactâmico. Por não apresentar risco de reatividade cruzada imunológica com as penicilinas e ser segura para uso pediátrico, constitui a escolha preconizada para pacientes com histórico de alergia grave mediada por IgE."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Em pacientes com histórico de anafilaxia a penicilinas, todos os beta-lactâmicos (incluindo cefalosporinas) são contraindicados pelo risco de reação cruzada, sendo os macrolídeos como a azitromicina a alternativa oral de escolha.",
+  "bookContext": {
+   "text": "Reações de hipersensibilidade imediata a penicilinas mediadas por IgE (como anafilaxia, broncoespasmo e angioedema) contraindicam a reexposição a qualquer penicilina e impõem restrição estrita ao uso de outros beta-lactâmicos. As cefalosporinas de primeira geração exibem a maior taxa de reatividade cruzada com as penicilinas (cerca de 3% a 5%), sendo desaconselhadas após episódio anafilático comprovado. Por sua vez, os macrolídeos (como azitromicina, claritromicina e eritromicina) atuam pela inibição da síntese proteica ribossômica e possuem estrutura química totalmente distinta, garantindo segurança imunológica. Além de erradicarem eficazmente o Streptococcus pyogenes, oferecem comodidade posológica e excelente penetração tecidual.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulos 38 e 39; e Aula VAT2 · Infecções do TRS e beta-lactâmicos."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 248,
+  "code": "TRS-P06",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Interações medicamentosas do CYP450 e conduta no paciente epiléptico",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Menino de 11 anos em tratamento de epilepsia com carbamazepina apresenta faringite estreptocócica e necessita de terapia com macrolídeo por apresentar alergia a penicilinas. A claritromicina deve ser evitada nessa associação porque, diferentemente da azitromicina, ela promove:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "indução microsomal do CYP3A4, levando à falha terapêutica no controle das crises.",
+    "rationale": "Incorreta. A claritromicina atua como inibidora, e não indutora, do citocromo P450. A indução aceleraria a eliminação da carbamazepina, efeito típico de fármacos como rifampicina ou da própria carbamazepina por autoindução crônica, mas oposto ao efeito dos macrolídeos inibidores."
+   },
+   {
+    "letter": "B",
+    "text": "deslocamento da carbamazepina da albumina plasmática, reduzindo sua meia-vida.",
+    "rationale": "Incorreta. Embora a carbamazepina se ligue moderadamente às proteínas plasmáticas, a toxicidade precipitada pela claritromicina decorre estritamente da inibição do metabolismo oxidativo microssomal hepático (fase I), e não de deslocamento de sítios de ligação proteica."
+   },
+   {
+    "letter": "C",
+    "text": "inibição potente do CYP3A4, provocando elevação tóxica dos níveis do antiepiléptico.",
+    "rationale": "CORRETA. A claritromicina (assim como a eritromicina) é um potente inibidor da isoenzima CYP3A4 do citocromo P450 hepático. Como a carbamazepina é metabolizada predominantemente por essa via, a coadministração inibe sua depuração, elevando acentuadamente as concentrações plasmáticas do anticonvulsivante e deflagrando intoxicação aguda (ataxia, sonolência, vertigem e diplopia). A azitromicina possui anel de 15 membros e não inibe o CYP3A4 de forma clinicamente relevante, sendo a alternativa segura."
+   },
+   {
+    "letter": "D",
+    "text": "inibição da secreção tubular renal do fármaco, reduzindo sua depuração hidrossolúvel.",
+    "rationale": "Incorreta. A carbamazepina é um composto lipofílico depurado quase exclusivamente por biotransformação hepática, de modo que alterações na secreção tubular renal não exercem impacto significativo sobre seus níveis sanguíneos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A claritromicina inibe potentemente o CYP3A4, levando ao acúmulo e intoxicação por carbamazepina, enquanto a azitromicina não interfere no metabolismo desse anticonvulsivante.",
+  "bookContext": {
+   "text": "A claritromicina e a eritromicina ligam-se ao heme da isoenzima CYP3A4 formando complexos inativos estáveis que comprometem gravemente a metabolização de fármacos coadministrados. Quando combinadas a fármacos de estreita janela terapêutica que dependem dessa via, como a carbamazepina, ocorre rápido acúmulo sérico com risco de neurotoxicidade grave. Em contrapartida, a azitromicina é um azalídeo derivado de um anel lactona expandido de 15 membros que não estabelece esse complexo inibitório estável com o CYP3A4. Consequentemente, a azitromicina não interfere de forma significativa na farmacocinética de substratos do CYP3A4, sendo a opção de eleição da classe dos macrolídeos para pacientes em uso crônico de carbamazepina.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Capítulo 39: Antimicrobianos inibidores da síntese proteica; e Rang & Dale · Farmacologia (8ª ed.), Capítulos 8 e 51."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 249,
+  "code": "TRS-P07",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Aminopenicilinas (Amoxicilina e Ampicilina): espectro e farmacocinética oral",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Ao prescrever antibioticoterapia por via oral para o tratamento de uma infecção bacteriana do trato respiratório superior, o médico opta pela amoxicilina em detrimento da ampicilina. Sob o ponto de vista farmacocinético e de tolerabilidade, qual fator justifica a escolha da amoxicilina?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Resistência natural à hidrólise por beta-lactamases devido à presença do anel tiazolidínico modificado.",
+    "rationale": "Incorreta. Ambas são aminopenicilinas com anel beta-lactâmico intacto suscetível à clivagem por beta-lactamases (penicilinases); nenhuma possui resistência intrínseca a essas enzimas, necessitando de inibidores como o ácido clavulânico para essa proteção."
+   },
+   {
+    "letter": "B",
+    "text": "Maior biodisponibilidade por via oral com menor impacto na microbiota e menor indução de diarreia.",
+    "rationale": "CORRETA. A amoxicilina apresenta absorção gastrintestinal praticamente completa e não prejudicada por alimentos, o que garante níveis séricos mais elevados e reduz a quantidade de resíduo do fármaco no lúmen do cólon, diminuindo significativamente os distúrbios na flora intestinal e a ocorrência de diarreia."
+   },
+   {
+    "letter": "C",
+    "text": "Menor depuração renal por ser biotransformada predominantemente pelo citocromo hepático CYP3A4.",
+    "rationale": "Incorreta. Ambas são eliminadas quase que exclusivamente por excreção renal ativa (via sistema secretor de ácidos orgânicos tubulares e filtração glomerular), não sofrendo metabolismo hepático relevante pelo CYP450."
+   },
+   {
+    "letter": "D",
+    "text": "Maior lipossolubilidade que garante penetração passiva nas meninges sem necessidade de inflamação.",
+    "rationale": "Incorreta. As penicilinas são compostos hidrofílicos que exibem baixa penetração pela barreira hematencefálica íntegra; a passagem para o líquor só atinge concentrações terapêuticas úteis na vigência de processo inflamatório meningocítico."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A amoxicilina possui biodisponibilidade oral superior à da ampicilina e absorção não alterada por alimentos, gerando menos efeitos adversos gastrointestinais.",
+  "bookContext": {
+   "text": "As aminopenicilinas foram desenvolvidas pela adição de um grupo amino à cadeia lateral da benzilpenicilina, ampliando o espectro de ação para bacilos Gram-negativos devido à maior capacidade de travessia das porinas de membrana externa. A amoxicilina é um derivado hidroxilado da ampicilina que exibe farmacocinética oral muito superior, com absorção gastrintestinal rápida e estável em pH ácido. Por deixar fração residual fecal significativamente menor do que a ampicilina oral, a amoxicilina minimiza a destruição da microbiota colônica fisiológica, justificando sua taxa expressivamente menor de diarreia associada a antimicrobianos.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 38 (Antimicrobianos inibidores da parede celular) e Aula VAT2 · Infecções do TRS e beta-lactâmicos."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 250,
+  "code": "TRS-P08",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Penicilinas resistentes às beta-lactamases (isoxazolilpenicilinas) e excreção em nefropatas",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente de 58 anos, internado em enfermaria clínica e portador de insuficiência renal crônica grave, necessita de antibioticoterapia para tratar infecção cutânea por Staphylococcus aureus produtor de penicilinase (MSSA). Para assegurar a eficácia bactericida sem necessidade de ajuste de dose para a disfunção renal, qual antimicrobiano é o mais indicado?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Oxacilina (penicilina antiestafilocócica)",
+    "rationale": "CORRETA. A oxacilina pertence à subclasse das penicilinas resistentes às penicilinases (antiestafilocócicas) devido ao impedimento estérico conferido por sua cadeia lateral, sendo ativa contra MSSA. Além disso, apresenta eliminação primariamente hepática e biliar, constituindo exceção entre os beta-lactâmicos por dispensar reajuste posológico na insuficiência renal."
+   },
+   {
+    "letter": "B",
+    "text": "Ampicilina (penicilina de espectro ampliado)",
+    "rationale": "Incorreta. A ampicilina é uma aminopenicilina facilmente inativada pelas penicilinases do MSSA e tem excreção predominantemente renal, o que exigiria redução de dose ou aumento do intervalo posológico no paciente nefropata."
+   },
+   {
+    "letter": "C",
+    "text": "Piperacilina (penicilina antipseudomonas)",
+    "rationale": "Incorreta. A piperacilina isolada é suscetível à degradação por beta-lactamases estafilocócicas e depende fundamentalmente da depuração renal, necessitando de correção mandatória de dosagem em pacientes com disfunção renal grave."
+   },
+   {
+    "letter": "D",
+    "text": "Benzilpenicilina potássica (penicilina natural)",
+    "rationale": "Incorreta. A benzilpenicilina é prontamente hidrolisada pelas beta-lactamases produzidas pela quase totalidade das cepas de MSSA e é eliminada por via renal, acumulando-se perigosamente em insuficiência renal se a dose não for ajustada."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A oxacilina resiste às penicilinases estafilocócicas (MSSA) e tem depuração predominantemente hepática/biliar, não exigindo ajuste posológico na insuficiência renal.",
+  "bookContext": {
+   "text": "As penicilinas antiestafilocócicas, representadas pela oxacilina, cloxacilina, dicloxacilina e nafcilina, possuem volumosas cadeias laterais aromáticas que criam impedimento estérico sobre o anel beta-lactâmico, bloqueando o encaixe e a clivagem enzimática pelas penicilinases estafilocócicas. Ao contrário da vasta maioria dos antibióticos beta-lactâmicos, que são excretados pelos rins por secreção tubular ativa e filtração glomerular, a oxacilina e a nafcilina sofrem depuração predominantemente por biotransformação hepática e excreção biliar. Essa particularidade farmacocinética faz com que a concentração plasmática desses agentes permaneça em faixa terapêutica segura mesmo em pacientes anúricos ou com insuficiência renal avançada, prescindindo de redução na posologia padrão.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 38 (Antimicrobianos inibidores da parede celular) e Aula VAT2 · Infecções do TRS e beta-lactâmicos."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 251,
+  "code": "TRS-P09",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Neurotoxicidade de cefalosporinas e antagonismo GABA",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Um paciente idoso com disfunção renal desenvolve confusão mental aguda, mioclonias e crises convulsivas após antibioticoterapia hospitalar parenteral sem correção posológica. Sabendo que esse quadro de neurotoxicidade grave é decorrente do antagonismo competitivo de receptores GABAA após acúmulo sérico, qual antimicrobiano foi administrado?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Cefazolina (cefalosporina de 1ª geração)",
+    "rationale": "Incorreta. A cefazolina é uma cefalosporina de 1ª geração voltada predominantemente para cocos Gram-positivos e profilaxia cirúrgica; embora tenha eliminação renal, não apresenta afinidade significativa pelos receptores GABA no sistema nervoso central nem o potencial neurotóxico característico da 4ª geração."
+   },
+   {
+    "letter": "B",
+    "text": "Cefuroxima (cefalosporina de 2ª geração)",
+    "rationale": "Incorreta. A cefuroxima é uma cefalosporina de 2ª geração com atividade estendida contra Haemophilus influenzae e outros patógenos respiratórios; possui excreção renal, mas não se associa tipicamente a esse bloqueio gabaérgico central com neurotoxicidade grave."
+   },
+   {
+    "letter": "C",
+    "text": "Ceftriaxona (cefalosporina de 3ª geração)",
+    "rationale": "Incorreta. A ceftriaxona é uma cefalosporina de 3ª geração que se destaca farmacocineticamente por ter eliminação biliar relevante além da renal, não sofrendo o mesmo acúmulo tóxico rápido na insuficiência renal isolada e não sendo a causa clássica de antagonismo de GABA."
+   },
+   {
+    "letter": "D",
+    "text": "Cefepima (cefalosporina de 4ª geração)",
+    "rationale": "CORRETA. A cefepima é uma cefalosporina de 4ª geração com ampla penetração orgânica e eliminação quase exclusiva por filtração glomerular renal. Em pacientes nefropatas ou idosos sem ajuste adequado de dose, ocorre acúmulo liquórico e sérico do fármaco, que atua como antagonista competitivo dos receptores GABAA, suprimindo o tônus inibitório cerebral e provocando encefalopatia, abalos mioclônicos e convulsões."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A cefepima sofre depuração renal e, quando administrada sem ajuste posológico em nefropatas, acumula no sistema nervoso central e antagoniza receptores GABAA, provocando encefalopatia e convulsões.",
+  "bookContext": {
+   "text": "As cefalosporinas são agentes bactericidas que agem inibindo a síntese da parede celular por ligação às proteínas ligadoras de penicilina (PBPs). A maioria dos representantes da classe depende estritamente da depuração renal por filtração glomerular e secreção tubular proximal. A estrutura zwitteriônica da cefepima facilita sua penetração na barreira hematoencefálica, tornando o tecido neuronal suscetível ao bloqueio competitivo das vias inibitórias mediadas pelo GABA em caso de sobredose relativa. Esse efeito adverso se manifesta tipicamente por confusão mental, mioclonias multifocais e crises epilépticas não convulsivas reversíveis com a suspensão do fármaco ou hemodiálise.",
+   "fonte": "Aula VAT2 · Infecções do TRS e beta-lactâmicos e Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 38"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 252,
+  "code": "TRS-P10",
+  "assunto": "far-trs",
+  "category": "Infecções do TRS e beta-lactâmicos",
+  "subcategory": "Reações adversas graves de cefalosporinas e incompatibilidade físico-química",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Durante a prescrição para um paciente internado que recebe hidratação venosa contínua com solução de Ringer Lactato, o médico deve evitar a administração simultânea de ceftriaxona pela mesma linha de infusão. Essa contraindicação absoluta fundamenta-se em qual mecanismo farmacotóxico?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Inativação química do anel beta-lactâmico por oxidação direta induzida pelo lactato.",
+    "rationale": "Incorreta. O ânion lactato presente na solução atua como precursor de tampão bicarbonato no organismo, não promovendo hidrólise ou oxidação química direta do anel beta-lactâmico do antimicrobiano."
+   },
+   {
+    "letter": "B",
+    "text": "Inibição competitiva da depuração biliar da ceftriaxona devido à sobrecarga iônica.",
+    "rationale": "Incorreta. A ceftriaxona é eliminada de modo significativo pelas vias biliares, porém essa via excretora não sofre bloqueio competitivo nem inibição por eletrólitos presentes no carreador parenteral."
+   },
+   {
+    "letter": "C",
+    "text": "Precipitação de cristais insolúveis de ceftriaxona com cálcio na microcirculação.",
+    "rationale": "CORRETA. A ceftriaxona apresenta forte afinidade de ligação por cátions divalentes de cálcio, presentes na formulação do Ringer Lactato. A mistura direta desses agentes resulta na formação imediata de um sal insolúvel (ceftriaxona-cálcio), provocando precipitação cristalina maciça que pode ocluir leitos vasculares pulmonares e renais, causando lesões orgânicas potencialmente fatais."
+   },
+   {
+    "letter": "D",
+    "text": "Quelação irreversível do antibiótico gerando metabólitos nefrotóxicos em solução.",
+    "rationale": "Incorreta. A reação observada não é uma quelação com geração de um novo metabólito solúvel nefrotóxico, mas sim uma incompatibilidade físico-química clássica de precipitação sólida cristalina do próprio sal insolúvel."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A coadministração de ceftriaxona com soluções parenterais ricas em cálcio (como Ringer Lactato) forma precipitados cristalinos insolúveis com alto risco de oclusão microvascular pulmonar e renal.",
+  "bookContext": {
+   "text": "A ceftriaxona é uma cefalosporina de 3ª geração de espectro estendido caracterizada por meia-vida plasmática longa e excreção mista biliar e renal. Sua conformação molecular confere capacidade de complexação ávida com íons cálcio livres em soluções aquosas e tecidos biológicos. A precipitação de ceftriaxona cálcica na microcirculação gera microembolias mecânicas graves, especialmente descritas em neonatos e pacientes sob infusão simultânea na mesma linha venosa. Por esse motivo, soluções contendo cálcio são formalmente contraindicadas em associação direta ou em intervalos curtos com a ceftriaxona.",
+   "fonte": "Aula VAT2 · Infecções do TRS e beta-lactâmicos e Livro · Goodman & Gilman · As Bases Farmacológicas da Terapêutica (12ª ed.), Cap. 53"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 253,
+  "code": "CONTRA-P01",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Eixo hipotalâmico-hipofisário-ovariano e inibição da ovulação",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 20 anos inicia o uso de contraceptivo oral combinado contendo etinilestradiol e levonorgestrel. Do ponto de vista farmacodinâmico no eixo reprodutor, o principal mecanismo pelo qual essa associação hormonal previne a concepção consiste em:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Bloquear os receptores ovarianos de gonadotrofinas nas células da teca, promovendo a luteinização precoce do folículo.",
+    "rationale": "Incorreta. Os contraceptivos hormonais combinados não atuam bloqueando os receptores periféricos ovarianos de FSH ou LH; sua ação primordial ocorre a montante, inibindo a própria síntese e secreção hipofisária dessas gonadotrofinas."
+   },
+   {
+    "letter": "B",
+    "text": "Inibir a secreção de FSH e LH por feedback negativo hipofisário, impedindo a maturação folicular e o surto ovulatório.",
+    "rationale": "CORRETA. A administração de estrogênio sintético (etinilestradiol) associado a uma progestina (levonorgestrel) exerce retroalimentação negativa potente e contínua sobre a adeno-hipófise e o hipotálamo. Isso suprime a liberação de FSH, impedindo o recrutamento e a maturação do folículo dominante, e impede o pico pré-ovulatório de LH na metade do ciclo, bloqueando a ovulação."
+   },
+   {
+    "letter": "C",
+    "text": "Inibir a enzima aromatase ovariana de forma irreversível, cessando a conversão de androstenediona em estrona tecidual.",
+    "rationale": "Incorreta. A inibição enzimática da aromatase é o mecanismo de antineoplásicos específicos como o anastrozol, não dos contraceptivos hormonais combinados, que fornecem derivados esteroides sintéticos para modular o eixo neuroendócrino."
+   },
+   {
+    "letter": "D",
+    "text": "Antagonizar os receptores endometriais de progesterona, estimulando a descamação precoce da camada basal uterina.",
+    "rationale": "Incorreta. O levonorgestrel atua como um potente agonista dos receptores de progesterona, e não como antagonista; o bloqueio de receptores de progesterona é mecanismo de fármacos antiprogestágenos como a mifepristona."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Contraceptivos combinados exercem retroalimentação negativa sobre o eixo hipotálamo-hipófise, suprimindo o FSH e abolindo o surto ovulatório de LH.",
+  "bookContext": {
+   "text": "O controle endócrino da reprodução feminina é governado pela secreção hipotalâmica de GnRH, que comanda a liberação das gonadotrofinas hipofisárias FSH e LH. No ciclo fisiológico, a elevação progressiva de estradiol pelo folículo em maturação induz um feedback positivo que culmina no surto agudo de LH, evento determinante para a ruptura folicular. Os contraceptivos combinados mantêm concentrações plasmáticas estáveis de esteroides que mimetizam a fase lútea, promovendo retroalimentação negativa constante na hipófise anterior e no hipotálamo. Como resultado, não há elevação basal de FSH necessária para o desenvolvimento do folículo de Graaf, nem ocorre o surto ovulatório de LH na metade do ciclo.",
+   "fonte": "Livro · Rang & Dale · Farmacologia (8ª ed.), Cap. 35 e Aula VAT2 · Farmacoterapia da contracepção"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 254,
+  "code": "CONTRA-P02",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Papel da progesterona e modulação do endométrio e muco cervical",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 26 anos opta pelo uso de contraceptivo oral contendo apenas progestina em baixas doses (noretisterona). Considerando que esse esquema pode não suprimir totalmente o eixo em todos os ciclos, a eficácia contraceptiva decorre primariamente de qual efeito farmacológico periférico?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Tornar o muco cervical espesso e hostil à migração dos espermatozoides.",
+    "rationale": "CORRETA. As minipílulas de progestina isolada em baixas doses atuam de forma preponderante nos tecidos-alvo periféricos: tornam o muco cervical espesso, viscoso e escasso, impedindo mecanicamente a ascensão dos espermatozoides, além de induzirem atrofia glandular endometrial que desfavorece a implantação embrionária."
+   },
+   {
+    "letter": "B",
+    "text": "Estimular a proliferação endometrial com secreção de muco cervical fluido.",
+    "rationale": "Incorreta. O estímulo à proliferação do endométrio e a formação de muco cervical copioso, fluido, aquoso e alcalino são efeitos característicos da ação estrogênica na fase folicular, que favorecem a entrada dos espermatozoides."
+   },
+   {
+    "letter": "C",
+    "text": "Bloquear os receptores de estrogênio induzindo atrofia miometrial aguda.",
+    "rationale": "Incorreta. A noretisterona é um agonista direto dos receptores de progesterona e não atua como antagonista de receptores estrogênicos."
+   },
+   {
+    "letter": "D",
+    "text": "Inibir a síntese ovariana de prostaglandinas por bloqueio direto da COX-2.",
+    "rationale": "Incorreta. As progestinas não pertencem à classe dos anti-inflamatórios não esteroidais e não atuam como inibidores da cicloxigenase-2 (COX-2)."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "As formulações contendo apenas progestina em baixas doses atuam prioritariamente espessando o muco cervical e alterando o endométrio para impedir a fecundação e nidação.",
+  "bookContext": {
+   "text": "Na segunda metade do ciclo menstrual fisiológico, a progesterona liberada pelo corpo lúteo atua sobre o endométrio previamente estimulado pelo estrogênio, promovendo a fase secretora e tornando o muco cervical viscoso e impermeável aos espermatozoides. Os regimes hormonais compostos exclusivamente por progestinas mimetizam essas alterações periféricas de forma contínua. Em doses baixas (minipílulas), a inibição do pico de LH não ocorre em todos os ciclos menstruais, de modo que a prevenção da gravidez depende fundamentalmente do espessamento do muco cervical como barreira à migração espermática. Paralelamente, o fármaco promove descompasso na maturação endometrial, criando um tecido atrófico desfavorável à nidação do óvulo eventualmente fertilizado.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26 e Aula VAT2 · Farmacoterapia da contracepção"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 255,
+  "code": "CONTRA-P03",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Mecanismo molecular e sinalização dos receptores de esteroides sexuais",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 23 anos faz uso regular de contraceptivo oral combinado. Durante a discussão farmacológica sobre a ação celular dos esteroides sexuais nos tecidos-alvo, o mecanismo molecular primário pelo qual os complexos ativados estrogênio-receptor (ER) e progestina-receptor (PR) modulam as respostas biológicas é caracterizado por:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ativação da adenilil ciclase de membrana gerando acúmulo de AMPc e fosforilação de canais iônicos.",
+    "rationale": "Incorreta. A via dependente de adenilil ciclase e elevação de AMPc é o mecanismo clássico de receptores de membrana acoplados à proteína Gs (como os receptores de FSH e LH na gônada), não correspondendo ao mecanismo genômico principal dos hormônios esteroides."
+   },
+   {
+    "letter": "B",
+    "text": "Abertura direta de canais de cálcio voltagem-dependentes acoplados a proteínas quinases citosólicas.",
+    "rationale": "Incorreta. A abertura de canais de cálcio voltagem-dependentes é típica de células eletricamente excitáveis despolarizadas e não representa a via primária transcricional ativada por receptores esteroides."
+   },
+   {
+    "letter": "C",
+    "text": "Inibição alostérica da fosfolipase C com bloqueio da clivagem do fosfatidilinositol difosfato.",
+    "rationale": "Incorreta. A via da fosfolipase C (com formação de IP3 e diacilglicerol) é mediada por receptores de membrana acoplados à proteína Gq (como os de ocitocina ou GnRH), e não pelos receptores nucleares de estrogênios e progestinas."
+   },
+   {
+    "letter": "D",
+    "text": "Dimerização nuclear e ligação a elementos de resposta hormonais no DNA para modular a transcrição.",
+    "rationale": "CORRETA. Tanto os receptores de estrogênio (ER-alfa e ER-beta) quanto os de progesterona (PR-A e PR-B) pertencem à superfamília dos receptores nucleares. Os fármacos esteroides difundem-se pela membrana celular lipídica, ligam-se aos seus respectivos receptores intracelulares, induzem dissociação de chaperonas, dimerizam e interagem com sequências regulatórias específicas no DNA (elementos de resposta hormonais, ERE e PRE), modulando a transcrição de RNA mensageiro e a síntese proteica."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Estrogênios e progestogênios atuam por meio de receptores intracelulares/nucleares (ER e PR) que dimerizam e funcionam como fatores de transcrição reguladores de genes específicos.",
+  "bookContext": {
+   "text": "Os hormônios sexuais esteroides e seus análogos farmacológicos sintéticos são compostos lipofílicos que atravessam livremente a bicamada fosfolipídica das células-alvo. No interior celular, acoplam-se a receptores específicos do Tipo I (ER-alfa, ER-beta, PR-A e PR-B), que se encontram complexados com proteínas de choque térmico em estado basal inativo. A ocupação pelo ligante acarreta mudança conformacional, dissociação das chaperonas e dimerização do complexo receptor-fármaco. Esse dímero transloca-se ao núcleo e reconhece sequências palindrômicas específicas de DNA denominadas elementos de resposta a hormônios, recrutando cofatores transcricionais para iniciar ou reprimir a expressão de RNA mensageiro responsável pelas ações proliferativas e secretoras no trato reprodutor.",
+   "fonte": "Livro · Goodman & Gilman · As Bases Farmacológicas da Terapêutica (12ª ed.), Cap. 40 e Livro · Katzung · Farmacologia Básica e Clínica (12ª ed.), Cap. 40"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 256,
+  "code": "CONTRA-P04",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Mecanismo de ação dos ACOs (receptores ER/PR e inibição do surto de FSH/LH)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 22 anos busca orientação médica para iniciar contracepção com anticoncepcional oral combinado contendo etinilestradiol e levonorgestrel. Considerando as ações hormonais sobre o eixo hipotálamo-hipófise-ovariano, a prevenção primária da ovulação ocorre porque:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O estrogênio induz a degradação folicular direta e o progestagênio estimula a proliferação endometrial.",
+    "rationale": "Incorreta. O estrogênio não promove degradação celular ovariana direta; sua ação inibitória é indireta via retroalimentação negativa no eixo hipotálamo-hipófise. Além disso, quem induz a fase secretora do endométrio é o progestagênio, enquanto o estrogênio fisiologicamente responde pela fase proliferativa."
+   },
+   {
+    "letter": "B",
+    "text": "Ambos os esteroides bloqueiam a captação ovariana de colesterol, inibindo a aromatase nas células da teca.",
+    "rationale": "Incorreta. Os contraceptivos hormonais combinados não atuam bloqueando a absorção de colesterol nos ovários nem funcionam como inibidores enzimáticos diretos da aromatase gonadal. O efeito anovulatório decorre da supressão das gonadotrofinas hipofisárias mediada por receptores nucleares esteroides."
+   },
+   {
+    "letter": "C",
+    "text": "O componente estrogênico suprime a secreção de FSH e o componente progestagênico bloqueia o surto de LH.",
+    "rationale": "CORRETA. O etinilestradiol ativa receptores nucleares estrogênicos (ER-alfa e ER-beta) na adeno-hipófise e no hipotálamo, exercendo retroalimentação negativa que suprime a liberação de FSH e impede a seleção do folículo dominante. Concomitantemente, o levonorgestrel ativa receptores de progesterona (PR-alfa e PR-beta), inibindo a pulsatilidade do GnRH e bloqueando o surto pré-ovulatório de LH, o que impede a ovulação."
+   },
+   {
+    "letter": "D",
+    "text": "O progestagênio suprime unicamente a secreção de FSH e o estrogênio torna o muco cervical impenetrável.",
+    "rationale": "Incorreta. A alternativa inverte os papéis primários de cada hormônio no eixo: a inibição da secreção basal de FSH é a função central do estrogênio, ao passo que o bloqueio do surto ovulatório de LH e o espessamento do muco cervical (tornando-o viscoso e hostil aos espermatozoides) são efeitos exercidos pelo progestagênio."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A anovulação em contraceptivos combinados resulta da retroalimentação negativa dupla: supressão de FSH pelo estrogênio e bloqueio do surto de LH pelo progestagênio.",
+  "bookContext": {
+   "text": "Os contraceptivos orais combinados atuam mimetizando e sustentando concentrações hormonais exógenas que exercem retroalimentação negativa sobre o hipotálamo e a adeno-hipófise. O estrogênio sintético, como o etinilestradiol, inibe a secreção do hormônio folículo-estimulante (FSH), impedindo o recrutamento e o crescimento do folículo ovariano dominante de Graaf. Simultaneamente, o progestagênio, como o levonorgestrel, inibe a liberação de GnRH e bloqueia o surto pré-ovulatório do hormônio luteinizante (LH), que é o estímulo fisiológico indispensável para a ruptura folicular. Além disso, o progestagênio promove alterações periféricas sinérgicas, gerando um muco cervical escasso e viscoso que impede a ascensão espermática e desfavorabiliza a receptividade endometrial.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26 e Aula VAT2 · Farmacoterapia da contracepção"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 257,
+  "code": "CONTRA-P05",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Contracepção de emergência (levonorgestrel e esquema Yuzpe)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 20 anos procura atendimento em serviço de urgência 24 horas após relação sexual com ruptura de preservativo. Para contracepção de emergência, o protocolo com levonorgestrel isolado em dose elevada é preferido em relação ao esquema Yuzpe (etinilestradiol associado a levonorgestrel) porque:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Garante bloqueio dos receptores ovarianos de gonadotrofinas mesmo após a implantação do blastocisto.",
+    "rationale": "Incorreta. O levonorgestrel não interrompe uma gravidez já estabelecida nem impede a continuidade da gestação após a nidação. Seu mecanismo de ação primordial consiste em postergar ou bloquear o surto de LH e impedir a ovulação quando administrado antes da fase ovulatória imediata, além de não agir como antagonista de receptores ovarianos de gonadotrofinas."
+   },
+   {
+    "letter": "B",
+    "text": "Apresenta menor incidência de náuseas e êmese ao prescindir do componente estrogênico em altas doses.",
+    "rationale": "CORRETA. O esquema Yuzpe administra doses elevadas de etinilestradiol (50 mcg por tomada associado a levonorgestrel 0,25 mg), o que desencadeia alta frequência de efeitos adversos gastrointestinais, especialmente náuseas e vômitos (êmese em até 20 a 50% das usuárias). O levonorgestrel isolado (1,5 mg dose única ou duas tomadas de 0,75 mg) não possui estrogênio, demonstrando tolerabilidade amplamente superior e menor risco de vômitos, que poderiam comprometer a absorção do fármaco."
+   },
+   {
+    "letter": "C",
+    "text": "Exibe menor metabolização hepática de primeira passagem, dispensando sua absorção no trato gastrointestinal.",
+    "rationale": "Incorreta. O levonorgestrel administrado por via oral depende da absorção no trato gastrointestinal. Trata-se de um esteroide sintético derivado da 19-nortestosterona com excelente biodisponibilidade oral, e sua vantagem em relação ao Yuzpe reside na ausência dos efeitos emetogênicos do estrogênio, e não em uma inexistente dispensa de absorção enteral."
+   },
+   {
+    "letter": "D",
+    "text": "Atua como antagonista seletivo da enzima aromatase periférica, acelerando a descamação do endométrio.",
+    "rationale": "Incorreta. O levonorgestrel é um agonista potente de receptores de progesterona (PR), não apresentando nenhuma ação como inibidor da enzima aromatase periférica. Inibidores de aromatase (como letrozol e anastrozol) pertencem a classes farmacológicas distintas empregadas no câncer de mama e na indução de ovulação, sem papel na contracepção pós-coital."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O levonorgestrel isolado em alta dose é a primeira escolha na contracepção pós-coito por ter eficácia superior e perfil emetogênico muito inferior ao esquema Yuzpe.",
+  "bookContext": {
+   "text": "A contracepção de emergência visa a prevenir a gravidez após intercurso desprotegido por meio do bloqueio ou atraso da ovulação antes que o óvulo seja liberado. O regime de levonorgestrel isolado atua primariamente inibindo ou retardando o pico de secreção de LH quando administrado na fase folicular, demonstrando eficácia máxima quando utilizado nas primeiras 72 horas pós-coito. Em comparação direta com o esquema Yuzpe clássico, que associa etinilestradiol e levonorgestrel, o progestagênio isolado apresenta eficácia contraceptiva superior e reduz drasticamente a incidência de náuseas e êmese. A ausência de vômitos é crítica na farmacoterapia pós-coital, pois episódios eméticos nas primeiras duas horas após a ingestão demandam redosagem do medicamento pelo risco evidente de absorção incompleta.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26 e Aula VAT2 · Farmacoterapia da contracepção"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 258,
+  "code": "CONTRA-P06",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Terapia de reposição hormonal e atrofia urogenital",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 55 anos na pós-menopausa, com queixa exclusiva de atrofia urogenital sintomática (ressecamento vaginal severo e dispareunia), sem queixas vasomotoras, recebe indicação de estrogênio tópico vaginal em baixa dose. Do ponto de vista farmacocinético e farmacodinâmico, essa conduta é fundamentada porque:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A aplicação local restaura o trofismo da mucosa vaginal com absorção sistêmica mínima, dispensando progestagênio.",
+    "rationale": "CORRETA. Quando os sintomas do hipoestrogenismo menopáusico restringem-se ao trato urogenital inferior (atrofia de vulva, vagina, uretra e trígono vesical), a via vaginal em baixas doses é a via de escolha. Ela atua diretamente nos receptores ER locais, promovendo maturação epitelial e secreção fisiológica com níveis de absorção plasmática insignificantes, o que evita a estimulação proliferativa endometrial sistêmica e elimina a obrigatoriedade de associar um progestagênio em mulheres com útero intacto."
+   },
+   {
+    "letter": "B",
+    "text": "O estrogênio tópico induz reversão da atrofia genital sem atingir circulação, ativando receptores de progesterona.",
+    "rationale": "Incorreta. O estrogênio tópico liga-se especificamente aos receptores nucleares estrogênicos (ER) no epitélio vaginal e na mucosa vesicouretral, e não a receptores de progesterona (PR). Ademais, ocorre mínima absorção tecidual, embora sem impacto sistêmico clinicamente relevante em doses baixas."
+   },
+   {
+    "letter": "C",
+    "text": "A via tópica estimula a aromatase periférica no epitélio vaginal, promovendo síntese endógena de progesterona.",
+    "rationale": "Incorreta. O estrogênio exógeno atua diretamente como ligante agonista de receptores intracelulares específicos de estrogênio no tecido urogenital; ele não atua estimulando a enzima aromatase local nem induz o epitélio vaginal a sintetizar progesterona."
+   },
+   {
+    "letter": "D",
+    "text": "O estrogênio oral induz tolerância rápida pela dessensibilização dos receptores ER-alfa do epitélio urogenital.",
+    "rationale": "Incorreta. A via oral de estrogênios não causa tolerância tecidual rápida ou dessensibilização patológica de receptores ER-alfa. O motivo para contraindicar a via oral nessa paciente é a exposição sistêmica desnecessária (elevando riscos tromboembólicos hepáticos e exigindo progestagênio protetor) para tratar um sintoma exclusivamente local."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Na atrofia urogenital isolada pós-menopausa, o estrogênio tópico local trata os tecidos-alvo com absorção sistêmica mínima, dispensando oposição de progestagênio.",
+  "bookContext": {
+   "text": "O hipoestrogenismo da pós-menopausa resulta na perda do trofismo tecidual da vulva, vagina, uretra e trígono vesical, desencadeando a síndrome urogenital. Enquanto os sintomas vasomotores sistêmicos (fogachos) exigem terapia hormonal sistêmica oral ou transdérmica com associação protetora obrigatória de progestagênios em mulheres não histerectomizadas, a atrofia urogenital isolada é tratada preferencialmente pela via vaginal em baixas doses. A via tópica atua diretamente nos receptores estrogênicos da mucosa genital, restabelecendo a espessura e a vascularização do epitélio sem elevar significativamente os níveis séricos circulantes. Dessa forma, a formulação tópica minimiza os riscos tromboembólicos e cardiovasculares associados ao estrogênio oral e dispensa o uso concomitante de progestagênios para proteção endometrial.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26 e Aula VAT2 · Farmacoterapia da contracepção"
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 259,
+  "code": "CONTRA-P07",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Progestágenos modernos e reações adversas por mecanismo",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Paciente de 29 anos, hipertensa em uso regular de enalapril, inicia contraceptivo oral combinado contendo etinilestradiol e drospirenona. Qual efeito adverso pode ocorrer especificamente nesta paciente em decorrência do mecanismo de ação desse progestágeno?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Hipopotassemia pelo estímulo aos receptores de aldosterona.",
+    "rationale": "Incorreta. A drospirenona atua como antagonista competitiva e não como agonista dos receptores mineralocorticoides, não estimulando a excreção renal de potássio."
+   },
+   {
+    "letter": "B",
+    "text": "Hirsutismo intenso pelo estímulo aos receptores androgênicos.",
+    "rationale": "Incorreta. A drospirenona não ativa receptores androgênicos; pelo contrário, apresenta atividade antiandrogênica intrínseca, sendo indicada para a melhora de acne e hirsutismo."
+   },
+   {
+    "letter": "C",
+    "text": "Retenção de sódio pelo efeito agonista tubular em néfrons.",
+    "rationale": "Incorreta. Por antagonizar a aldosterona, a drospirenona promove natriurese e discreta perda de volume hídrico, não induzindo retenção de sódio por efeito agonista."
+   },
+   {
+    "letter": "D",
+    "text": "Hiperpotassemia pelo bloqueio dos receptores de aldosterona.",
+    "rationale": "CORRETA. A drospirenona é um progestágeno derivado da espironolactona que atua como antagonista dos receptores de aldosterona (mineralocorticoides), inibindo a troca de sódio por potássio no túbulo coletor renal. Quando associada a outros fármacos poupadores de potássio ou inibidores da ECA (como o enalapril), que diminuem a síntese de aldosterona, ocorre risco aditivo de hiperpotassemia."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A drospirenona possui propriedades antimineralocorticoides que poupam potássio, predispondo à hiperpotassemia quando combinada com inibidores da ECA.",
+  "bookContext": {
+   "text": "A drospirenona é um progestágeno sintético moderno estruturalmente análogo à espironolactona, combinando ação progestacional a efeitos antiandrogênicos e antimineralocorticoides. Essa atividade bloqueadora sobre os receptores mineralocorticoides contrabalança a retenção de sódio e água tipicamente induzida pelo componente estrogênico via estímulo hepático do angiotensinogênio. No entanto, ao bloquear o efeito da aldosterona nos túbulos coletores renais, reduz a excreção de potássio. Por essa razão, a administração concomitante de drospirenona com fármacos que elevam o potássio sérico, como inibidores da enzima conversora de angiotensina, requer vigilância laboratorial pelo risco de arritmias associadas à hiperpotassemia.",
+   "fonte": "Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26; e Slide da aula (Farmacoterapia da contracepção)."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 260,
+  "code": "CONTRA-P08",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Interações medicamentosas dos contraceptivos orais",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Paciente de 24 anos em uso regular de contraceptivo oral combinado apresenta falha do método com sangramento de escape após iniciar terapia antimicrobiana. O quadro decorre da indução potente de isoenzimas hepáticas da família CYP450, que acelerou a depuração metabólica dos esteroides. Qual fármaco causou essa alteração?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ampicilina (beta-lactâmico)",
+    "rationale": "Incorreta. A ampicilina diminui a eficácia dos contraceptivos orais ao alterar a microbiota gastrintestinal e comprometer a circulação entero-hepática do etinilestradiol, sem exercer indução microssomal hepática sobre o citocromo P450."
+   },
+   {
+    "letter": "B",
+    "text": "Tetraciclina (tetraciclina)",
+    "rationale": "Incorreta. As tetraciclinas reduzem os níveis de estrogênio pela diminuição da desconjugação bacteriana entérica de sulfatos e glicuronídeos, não por ativação enzimática do CYP450."
+   },
+   {
+    "letter": "C",
+    "text": "Rifampicina (rifamicina)",
+    "rationale": "CORRETA. A rifampicina é um potente indutor das enzimas do sistema citocromo P450, especialmente a isoforma CYP3A4, responsável pela oxidação hepática dos estrogênios e progestinas. A indução acelera acentuadamente a depuração dos esteroides plasmáticos para níveis subterapêuticos, resultando em falha da supressão do pico ovulatório de gonadotropinas e sangramento de escape."
+   },
+   {
+    "letter": "D",
+    "text": "Sulfametoxazol (sulfonamida)",
+    "rationale": "Incorreta. O sulfametoxazol interfere primariamente na flora bacteriana intestinal e na reciclagem entero-hepática, não atuando como indutor potente de oxidases microssomais hepáticas."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A rifampicina causa falha contraceptiva por mecanismo farmacocinético de indução enzimática do CYP3A4, diferindo de antibacterianos que atuam reduzindo o ciclo entero-hepático.",
+  "bookContext": {
+   "text": "A depuração metabólica do etinilestradiol e das progestinas ocorre predominantemente no fígado por meio de oxidações dependentes do citocromo P450, em particular a isoenzima CYP3A4. A rifampicina liga-se ao receptor nuclear PXR, estimulando acentuadamente a transcrição e expressão de CYP3A4 e aumentando a taxa de biotransformação dos esteroides contraceptivos. Esse mecanismo difere fundamentalmente do mecanismo de antibióticos de amplo espectro, como penicilinas e tetraciclinas, que erradicam as bactérias cólicas produtoras de glicuronidases e reduzem a hidrólise necessária para a reabsorção entero-hepática do estrogênio. Na vigência de indutores fortes como a rifampicina, métodos não hormonais ou de barreira são indispensáveis para garantir a segurança contraceptiva.",
+   "fonte": "Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26; Rang & Dale · Farmacologia (8ª ed.), Cap. 9; e Slide da aula (Farmacoterapia da contracepção)."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 261,
+  "code": "CONTRA-P09",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Anticoncepcionais injetáveis e implantes",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 24 anos em uso de contraceptivo injetável trimestral de depósito retorna à consulta após 24 meses de uso contínuo. Diante da necessidade de reavaliar a troca do método pelo risco de osteopenia e osteoporose, qual repercussão farmacológica fundamenta essa preocupação clínica?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Elevação pressórica sustentada por retenção hidrossalina estrogênica",
+    "rationale": "Incorreta. O acetato de medroxiprogesterona injetável trimestral é uma formulação de progestagênio isolado, desprovida de qualquer componente estrogênico. Dessa forma, não induz a síntese hepática de angiotensinogênio nem promove a retenção hidrossalina estrogênio-dependente que poderia causar elevação pressórica sustentada."
+   },
+   {
+    "letter": "B",
+    "text": "Redução da densidade mineral óssea decorrente do hipoestrogenismo",
+    "rationale": "CORRETA. O acetato de medroxiprogesterona de depósito, administrado por via intramuscular em doses elevadas a cada 3 meses, exerce potente retroalimentação negativa sobre o hipotálamo e a hipófise, suprimindo de forma contínua a secreção de gonadotropinas (FSH e LH). A consequente inibição da foliculogênese ovariana leva a um estado prolongado de hipoestrogenismo, acelerando a reabsorção óssea mediada por osteoclastos e reduzindo a densidade mineral óssea, o que motiva a advertência de uso cauteloso e reavaliação após 2 anos."
+   },
+   {
+    "letter": "C",
+    "text": "Hipocalemia grave decorrente do estímulo aos receptores mineralocorticoides",
+    "rationale": "Incorreta. O acetato de medroxiprogesterona não atua como agonista de receptores mineralocorticoides e não induz perda renal de potássio ou hipocalemia. Além disso, progestagênios sintéticos com atividade sobre esses receptores, como a drospirenona, possuem efeito antimineralocorticoide (antagonismo), que cursa com risco de hipercalemia e não de hipocalemia."
+   },
+   {
+    "letter": "D",
+    "text": "Hiperplasia endometrial por estímulo proliferativo tecidual sem oposição",
+    "rationale": "Incorreta. A medroxiprogesterona promove potente efeito progestagênico com atrofia e supressão do endométrio, levando frequentemente à amenorreia. A hiperplasia endometrial decorre do estímulo proliferativo estrogênico contínuo na ausência de oposição progestagênica, sendo exatamente o oposto do efeito promovido por progestagênios isolados."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O acetato de medroxiprogesterona de depósito suprime intensamente o eixo hipotálamo-hipófise, gerando hipoestrogenismo e consequente perda de densidade mineral óssea.",
+  "bookContext": {
+   "text": "O acetato de medroxiprogesterona de depósito administrado por via intramuscular forma um reservatório tecidual de liberação lenta, com meia-vida aparente de 40 a 50 dias e duração da eficácia contraceptiva por 3 meses. Por atuar em altas concentrações sistêmicas sem contrapartida estrogênica, promove supressão acentuada do FSH e do LH, impedindo a maturação folicular e a síntese ovariana de estradiol. Os níveis cronicamente reduzidos de estrogênio desequilibram a homeostase óssea em favor da reabsorção osteoclástica, elevando o risco de osteopenia e fraturas. Por essa razão, os consensos e diretrizes recomendam que o fármaco não seja utilizado de forma contínua por mais de dois anos, a menos que outros métodos sejam inviáveis.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26 e Cap. 35; Aula VAT2 · Farmacoterapia da contracepção."
+  },
+  "revisada": true,
+  "estilo": "professor"
+ },
+ {
+  "id": 262,
+  "code": "CONTRA-P10",
+  "assunto": "far-contra",
+  "category": "Contraceptivos",
+  "subcategory": "Manejo de sintomas de alarme e monitoramento clínico",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Estilo do professor · NotebookLM",
+  "prompt": "Mulher de 30 anos em uso regular de contraceptivo oral combinado (etinilestradiol associado a levonorgestrel) procura pronto atendimento com quadro súbito de escotomas cintilantes, disartria com fala arrastada e parestesia em hemicorpo esquerdo. O médico determina a suspensão imediata do fármaco. Qual evento farmacológico fundamenta a gravidade desse sintoma de alarme e a conduta adotada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Evento tromboembólico arterial ou venoso estimulado pela ação do etinilestradiol",
+    "rationale": "CORRETA. O etinilestradiol presente nos contraceptivos combinados estimula a síntese hepática de fatores de coagulação (fibrinogênio e fatores II, VII, VIII e X), ao mesmo tempo em que reduz os níveis circulantes de anticoagulantes endógenos como a antitrombina III e a proteína S. O surgimento de sintomas neurológicos focais agudos (fala arrastada, alteração visual súbita e parestesia unilateral) constitui sintoma de alarme formal para acidente vascular encefálico isquêmico ou trombose vascular, exigindo a interrupção imediata e definitiva do estrogênio."
+   },
+   {
+    "letter": "B",
+    "text": "Vasoespasmo coronariano grave desencadeado pela ativação de receptores androgênicos",
+    "rationale": "Incorreta. Embora o levonorgestrel possua discreta atividade androgênica residual por ser derivado da 19-nortestosterona, ele não desencadeia vasoespasmo coronariano ou cerebral agudo, e os sintomas apresentados pela paciente são neurológicos focais típicos de isquemia encefálica e não coronariopatia."
+   },
+   {
+    "letter": "C",
+    "text": "Hemorragia intracraniana difusa por inibição direta da cascata da coagulação",
+    "rationale": "Incorreta. Os contraceptivos hormonais combinados não inibem a coagulação nem provocam diátese hemorrágica; pelo contrário, seu impacto hematológico é essencialmente pró-coagulante e trombogênico, elevando o risco de trombose e não de hemorragia primária por consumo de fatores."
+   },
+   {
+    "letter": "D",
+    "text": "Hipotensão sistêmica refratária decorrente do bloqueio da síntese de aldosterona",
+    "rationale": "Incorreta. Os estrogênios e progestinas usuais não bloqueiam a síntese de aldosterona e não causam hipotensão sistêmica; pelo contrário, os estrogênios aumentam a síntese hepática de angiotensinogênio, predispondo à elevação da pressão arterial e retenção hídrica."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Sintomas neurológicos focais súbitos são sinais de alarme de acidente vascular isquêmico por efeito pró-trombótico estrogênio-induzido, exigindo suspensão imediata do contraceptivo combinado.",
+  "bookContext": {
+   "text": "A passagem de estrogênios sintéticos por via oral pelo fígado exerce marcado efeito de primeira passagem sobre os hepatócitos, promovendo a transcrição gênica de pró-coagulantes como fibrinogênio, protrombina e fatores VII e X. Simultaneamente, observa-se resistência adquirida à proteína C ativada e queda nas concentrações plasmáticas de antitrombina III, configurando um estado de hipercoagulabilidade sistêmica. Esse mecanismo eleva de modo expressivo a incidência de trombose venosa profunda, embolia pulmonar, infarto do miocárdio e acidente vascular encefálico isquêmico. Sinais focais como disartria, déficits sensitivo-motores unilaterais e perturbações visuais são sintomas de alarme cardinais nos quais a descontinuação imediata do método é mandatória para evitar sequelas permanentes ou óbito.",
+   "fonte": "Livro · Whalen · Farmacologia Ilustrada (6ª ed.), Cap. 26; Livro · Rang & Dale · Farmacologia (8ª ed.), Cap. 35; Aula VAT2 · Farmacoterapia da contracepção."
+  },
+  "revisada": true,
+  "estilo": "professor"
  }
 ]
