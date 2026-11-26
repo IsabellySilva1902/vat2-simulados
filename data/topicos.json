@@ -7961,6 +7961,1606 @@
  },
  {
   "id": 320,
+  "code": "RAIVA-01",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Ecologia das Vulnerabilidades e Tétano Neonatal",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Recém-nascido de 8 dias de vida, nascido de parto domiciliar em comunidade rural desprovida de saneamento básico e assistido por parteira tradicional, é levado à Unidade Básica de Saúde. A mãe, primigesta sem acompanhamento pré-natal formal e sem registro vacinal, relata que a criança nasceu saudável e mamou vigorosamente nos primeiros dias, mas há 24 horas chora sem parar, mostra-se extremamente irritada e parou de sugar o peito. Ao exame físico, o bebê encontra-se afebril, vigil, com rigidez de musculatura masseterina que impede a abertura da boca, contratura involuntária da musculatura facial e hipertonia corporal reflexa exacerbada à manipulação. O coto umbilical apresenta crostas e sinais de manipulação com pós caseiros. Diante da ecologia das vulnerabilidades e do quadro clínico apresentado, assinale a opção correta quanto à avaliação e conduta clínica:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O quadro sugere sepse neonatal tardia primária, devendo-se aguardar hemoculturas e líquor antes de instituir imunoglobulina ou sedação.",
+    "rationale": "Incorreta. Embora o coto umbilical contaminado e a vulnerabilidade social aumentem o risco de sepse, a presença de trismo, fácies de rigidez e hipertonia desencadeada por estímulos com lucidez preservada aponta fortemente para tétano neonatal. Além disso, no tétano o diagnóstico é eminentemente clínico e a terapia de suporte, sedação e neutralização da toxina jamais devem aguardar resultados de exames laboratoriais."
+   },
+   {
+    "letter": "B",
+    "text": "A manifestação clínica decorre de meningoencefalite bacteriana aguda grave, sendo a ausência de febre patognomônica de infecção estreptocócica.",
+    "rationale": "Incorreta. A meningoencefalite bacteriana neonatal habitualmente cursa com abaulamento de fontanela, hipotonia inicial ou letargia, convulsões verdadeiras e, na maioria dos casos, instabilidade térmica (febre ou hipotermia acentuada). A ausência de febre associada a trismo e espasmos reflexos sem turvação sensorial é compatível com tétano, e não patognomônica de infecção por Streptococcus agalactiae."
+   },
+   {
+    "letter": "C",
+    "text": "O quadro representa tétano neonatal, caracterizado por recusa alimentar e trismo precoce, exigindo internação imediata e suporte intensivo.",
+    "rationale": "CORRETA. O tétano neonatal é um marcador trágico de vulnerabilidade social associado à falta de assistência pré-natal (ausência de vacinação materna com dTpa para transmissão transplacentária de anticorpos protetores) e práticas inadequadas de parto e assepsia do cordão umbilical. O início típico ocorre entre 2 e 28 dias de vida, manifestando-se precocemente por choro constante, irritabilidade, dificuldade de sucção e recusa alimentar (expressão neonatal do trismo), exigindo rápida intervenção terapêutica."
+   },
+   {
+    "letter": "D",
+    "text": "A perda do reflexo de sucção decorre de encefalopatia anóxica perinatal tardia, dispensando o isolamento estrito contra estímulos sonoros e luminosos.",
+    "rationale": "Incorreta. A encefalopatia hipóxico-isquêmica perinatal decorre de asfixia intraparto e se manifesta logo nas primeiras horas de vida com depressão neurológica profunda ao nascer (baixo índice de Apgar), e não após um período de normalidade de 7 dias com início abrupto de trismo e hipertonia reflexa. Além disso, o paciente tetânico necessita obrigatoriamente de controle ambiental com redução estrita de luz e ruídos para atenuar o disparo de paroxismos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O tétano neonatal surge tipicamente entre 2 e 28 dias de vida em filhos de mães não imunizadas; a tríade de irritabilidade, choro constante e dificuldade de sucção é a expressão clínica inicial do trismo.",
+  "bookContext": {
+   "text": "A eliminação do tétano neonatal depende da abordagem estrutural das vulnerabilidades sociais e da garantia de acesso equitativo à Atenção Primária à Saúde. A vacinação de todas as mulheres em idade fértil e de gestantes com a vacina dTpa a partir da vigésima semana de gestação assegura a transferência passiva de anticorpos IgG antitoxina tetânica através da barreira transplacentária, conferindo proteção efetiva ao concepto durante as primeiras semanas de vida. Aliado a isso, as boas práticas de assepsia no parto domiciliar e no manejo do coto umbilical com antissépticos padronizados rompem a cadeia de contaminação por esporos ambientais do Clostridium tetani.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico e Ministério da Saúde · Tétano acidental"
+  },
+  "revisada": true
+ },
+ {
+  "id": 321,
+  "code": "RAIVA-02",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Etiologia, Gatilho de Anaerobiose e Dinâmica Patogênica",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador da construção civil de 42 anos dá entrada na Unidade Básica de Saúde 4 dias após pisar em um prego enferrujado em uma vala com lama e entulho no canteiro de obras. Ele não utilizava botas de segurança adequadas no momento do acidente. Ao exame do membro afetado, identifica-se uma lesão puntiforme profunda na fáscia plantar, com bordas maceradas, presença de secreção seropurulenta escura fétida, retenção de corpos estranhos (fragmentos de ferrugem e terra) e área circunvizinha desvitalizada e isquêmica. O paciente relata dor local moderada, mas nega rigidez muscular sistêmica. Considerando os determinantes microbiológicos e a dinâmica patogênica da infecção pelo Clostridium tetani no sítio da lesão, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A administração empírica de penicilina benzatina ou metronidazol substitui a necessidade de toalete mecânica e desbridamento da ferida.",
+    "rationale": "Incorreta. A antibioticoterapia não substitui o desbridamento cirúrgico e a limpeza meticulosa da ferida. A erradicação física do tecido desvitalizado e do corpo estranho é o pilar fundamental para restabelecer o potencial de oxirredução tecidual e interromper a produção de toxina no sítio lesado."
+   },
+   {
+    "letter": "B",
+    "text": "O desbridamento cirúrgico de tecidos desvitalizados é mandatório para erradicar o microambiente de anaerobiose propício à toxigênese.",
+    "rationale": "CORRETA. A presença de tecidos desvitalizados, corpos estranhos e isquemia local atua como o gatilho fisiopatológico crucial para a ativação do esporo inerte na forma vegetativa ativa de Clostridium tetani. O desbridamento cirúrgico precoce e a remoção minuciosa de sujidades eliminam as condições anaeróbias locais, impedindo a síntese continuada da tetanospasmina."
+   },
+   {
+    "letter": "C",
+    "text": "A transição do esporo inerte para forma vegetativa ocorre preferencialmente em tecidos oxigenados sob hiperemia reativa local pós-trauma.",
+    "rationale": "Incorreta. O Clostridium tetani é um bacilo gram-positivo estritamente anaeróbio esporulado. Os esporos são altamente resistentes ao oxigênio, porém sua germinação para formas vegetativas metabolicamente ativas e produtoras de toxina exige obrigatoriamente um ambiente com baixo potencial de oxirredução (anaerobiose), propiciado por isquemia, necrose tecidual e corpos estranhos."
+   },
+   {
+    "letter": "D",
+    "text": "A inoculação dos esporos gera infecção bacterêmica com disseminação sistêmica vascular invasiva e citotoxicidade direta ao endotélio.",
+    "rationale": "Incorreta. O tétano não é uma infecção invasiva bacterêmica disseminada. O Clostridium tetani permanece estritamente restrito ao sítio de inoculação da lesão tecidual, onde prolifera localmente sob anaerobiose; as repercussões clínicas motoras e autonômicas decorrem da absorção e disseminação neural/hematogênica exclusiva de sua potente exotoxina (tetanospasmina)."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O Clostridium tetani é anaeróbio estrito e não invasivo; a germinação de seus esporos exige tecido desvitalizado e isquemia, tornando a limpeza e o desbridamento medidas patogenicamente cruciais.",
+  "bookContext": {
+   "text": "A patogenia do tétano fundamenta-se na produção de duas exotoxinas principais pela forma vegetativa: a tetanolisina, cuja função patogênica exata ainda envolve facilitação da necrose tecidual local, e a tetanospasmina, uma neurotoxina polipeptídica de peso molecular de 150 kDa de extrema potência letal. O esporo inerte é ubíquo no solo, esterco e poeira, sendo incapaz de germinar em tecidos com oxigenação e perfusão capilar preservadas. A lesão penetrante associada à necrose tecidual e à infecção bacteriana secundária mista consome o oxigênio residual local, criando a queda do potencial de oxidação-redução indispensável para a liberação da neurotoxina.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico e Ministério da Saúde · Tétano acidental"
+  },
+  "revisada": true
+ },
+ {
+  "id": 322,
+  "code": "RAIVA-03",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Paradigma Diagnóstico e Diagnóstico Diferencial do Tétano",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 58 anos é trazido por familiares ao pronto-socorro apresentando rigidez progressiva de nuca, abdome endurecido (\"em tábua\"), trismo e episódios de contração espasmódica dolorosa dos membros inferiores após estímulos táteis. O acompanhante relata que o paciente sofreu uma escoriação traumática infectada na perna há 10 dias em atividade de jardinagem. Durante a admissão, o médico residente propõe postergar a infusão de imunobiológicos e sedativos até a chegada dos resultados do hemograma, gasometria arterial, punção lombar e dosagem de toxina tetânica sérica, argumentando a necessidade de confirmação etiológica laboratorial. Considerando os preceitos de Medicina Baseada em Evidências e as diretrizes clínicas para o diagnóstico do tétano acidental, assinale a afirmativa correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O diagnóstico é estritamente clínico, não se devendo retardar a sedação e a neutralização da toxina circulante à espera de exames.",
+    "rationale": "CORRETA. O paradigma diagnóstico do tétano é 100% clínico e epidemiológico, respaldado na história de lesão prévia e no exame físico característico. Os exames laboratoriais e de imagem (como hemograma, gasometria, radiografia de tórax e coluna) prestam-se unicamente ao controle e monitoramento de complicações respiratórias, metabólicas ou fraturas por contratura, sendo vedado o retardo das intervenções clínicas essenciais à espera de resultados."
+   },
+   {
+    "letter": "B",
+    "text": "O diagnóstico requer isolamento do bacilo em cultura anaeróbia do ferimento, sob pena de incorrer em erro de prescrição de soro equino.",
+    "rationale": "Incorreta. O isolamento de Clostridium tetani por cultura do ferimento tem baixo rendimento, sensibilidade limitada e não é necessário para o manejo. Além disso, a presença de bacilos no ferimento não comprova a doença (pode haver apenas colonização sem toxigênese) e sua ausência não a descarta. A conduta terapêutica jamais deve aguardar culturas."
+   },
+   {
+    "letter": "C",
+    "text": "O atraso para realização de punção lombar e eletroneuromiografia é plenamente justificável para afastar meningite e síndrome estricnínica.",
+    "rationale": "Incorreta. O diagnóstico do tétano é uma emergência médica baseada no reconhecimento semiológico (trismo, rigidez corporal, espasmos reflexos e lucidez). Retardar o tratamento com sedativos (benzodiazepínicos), bloqueadores neuromusculares e neutralização da toxina circulante (SAT ou IGHAT) para realizar exames invasivos como punção lombar coloca em risco a via aérea e a vida do paciente."
+   },
+   {
+    "letter": "D",
+    "text": "A identificação de leucocitose com desvio à esquerda em hemograma constitui parâmetro confirmatório obrigatório para o diagnóstico clínico.",
+    "rationale": "Incorreta. No tétano não complicado, o hemograma habitualmente apresenta-se inteiramente normal ou exibe alterações inespecíficas discretas decorrentes de estresse físico ou infecção piogênica secundária do ferimento. Elevações de enzimas musculares ou transaminases podem ocorrer tardiamente devido aos espasmos severos, mas exames hematológicos não possuem papel diagnóstico confirmatório."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O diagnóstico do tétano é exclusivamente clínico-epidemiológico; exames laboratoriais destinam-se apenas à monitorização de complicações e jamais devem atrasar o tratamento imediato.",
+  "bookContext": {
+   "text": "Na avaliação diagnóstica diferencial do tétano generalizado, o clínico da Atenção Primária ou da urgência deve atentar para síndromes como intoxicação por estricnina (na qual há relaxamento muscular completo entre os espasmos e ausência clássica de trismo sustentado), tetania hipocalcêmica (caracterizada pelos sinais de Trousseau e Chvostek com espasmos carpopodálicos e hipocalcemia laboratorial) e meningites infecciosas agudas (que cursam com febre alta desde o início, confusão mental precoce, cefaleia intensa e ausência de trismo). Quadros de reações extrapiramidais agudas secundárias ao uso de neurolépticos ou metoclopramida também podem simular trismo e distonia cervical, respondendo rapidamente à administração parenteral de anticolinérgicos como o biperideno.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico e Ministério da Saúde · Tétano acidental"
+  },
+  "revisada": true
+ },
+ {
+  "id": 323,
+  "code": "RAIVA-04",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Mecanismo de Ação da Tetanospasmina e Neurofisiopatologia",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador braçal de 42 anos é admitido com rigidez mastigatória dolorosa e espasmos musculares intensos disparados por ruídos do ambiente, mantendo lucidez preservada. O quadro clínico decorre da ação da tetanospasmina, exotoxina liberada pelo Clostridium tetani no foco tecidual e transportada retrogradeamente pelos axônios motores até o sistema nervoso central. Qual é o mecanismo de ação molecular dessa neurotoxina nos circuitos sinápticos que resulta nas manifestações espásticas observadas?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Degradação enzimática das vesículas pós-sinápticas colinérgicas, com ativação mantida da musculatura estriada.",
+    "rationale": "Incorreta. A toxina atua no sistema nervoso central bloqueando a exocitose pré-sináptica de mediadores inibitórios, e não destruindo vesículas colinérgicas pós-sinápticas na placa motora periférica."
+   },
+   {
+    "letter": "B",
+    "text": "Estimulação simpática periférica por despolarização axonal contínua dos neurônios do sistema autônomo.",
+    "rationale": "Incorreta. A hiperatividade autonômica simpática do tétano decorre da desinibição de centros simpáticos pré-ganglionares no tronco encefálico e medula, e não de uma despolarização axonal periférica primária."
+   },
+   {
+    "letter": "C",
+    "text": "Inativação direta dos receptores nicotínicos musculares na fenda sináptica da junção neuromuscular.",
+    "rationale": "Incorreta. O bloqueio dos receptores nicotínicos na placa motora causaria paralisia flácida (efeito curarizante), quadro oposto à contratura tetânica espástica gerada pela desinibição central dos motoneurônios."
+   },
+   {
+    "letter": "D",
+    "text": "Bloqueio pré-sináptico da liberação de GABA e glicina nos interneurônios inibitórios da medula espinal.",
+    "rationale": "CORRETA. A tetanospasmina migra por transporte axonal retrógrado até o corno anterior da medula espinal e tronco encefálico, onde cliva a sinaptobrevina dos interneurônios inibitórios (células de Renshaw), suprimindo a liberação de GABA e glicina e desinibindo os motoneurônios alfa."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A tetanospasmina impede a liberação dos neurotransmissores inibitórios GABA e glicina nos interneurônios da medula e do tronco encefálico, levando à desinibição motora e contraturas contínuas.",
+  "bookContext": {
+   "text": "A tetanospasmina é uma potente exotoxina polipeptídica de cadeia dupla unida por pontes dissulfeto, sintetizada durante a fase vegetativa da bactéria. Após a absorção na terminação nervosa motora, a toxina atinge o sistema nervoso central por transporte intra-axonal retrógrado. Ao penetrar nos interneurônios inibitórios espinhais, sua cadeia leve cliva a proteína de fusão vesicular sinaptobrevina, impedindo a exocitose de ácido gama-aminobutírico (GABA) e glicina. A ausência desses mediadores inibitórios suprime o relaxamento fisiológico dos músculos agonistas e antagonistas, originando a hipertonia e os espasmos reflexos.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 324,
+  "code": "RAIVA-05",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Ausência de Imunidade Pós-Infecção e Imunoprofilaxia",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um agricultor de 50 anos recebe alta após 35 dias de internação hospitalar por tétano acidental generalizado decorrente de acidente perfurante na lavoura. Ao retornar para acolhimento na Unidade Básica de Saúde, indaga ao médico se a gravidade do quadro enfrentado conferiu imunidade definitiva contra novos episódios causados pelo Clostridium tetani. Diante da imunobiologia da doença e das orientações técnicas vigentes, qual conduta e esclarecimento devem ser fornecidos ao paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A exposição à toxina tetânica induz títulos permanentes de anticorpos, tornando desnecessária a revacinação.",
+    "rationale": "Incorreta. Ao contrário de diversas enfermidades infecciosas, a infecção natural pelo tétano não induz memória imune humoral nem protege o paciente de futuros episódios caso sofra nova lesão contaminada."
+   },
+   {
+    "letter": "B",
+    "text": "A imunidade natural persiste por cinco anos, período no qual se dispensa qualquer reforço do toxoide tetânico.",
+    "rationale": "Incorreta. Não existe período residual de 5 anos de proteção biológica após a cura clínica; o indivíduo recuperado permanece imediatamente suscetível a nova inoculação esporulada se não for imunizado ativamente."
+   },
+   {
+    "letter": "C",
+    "text": "A cura clínica do tétano não confere proteção imunológica, sendo obrigatório iniciar ou completar a vacinação.",
+    "rationale": "CORRETA. A dose de tetanospasmina necessária para deflagrar manifestações clínicas graves de tétano é extremamente diminuta e subimunogênica, sendo incapaz de induzir anticorpos protetores duradouros. Por conseguinte, ter adoecido por tétano não confere imunidade, sendo indispensável a vacinação ativa completa com o toxoide tetânico."
+   },
+   {
+    "letter": "D",
+    "text": "A resposta humoral obtida é plena para novas cepas telúricas, demandando apenas soroprofilaxia em novos cortes.",
+    "rationale": "Incorreta. Não há geração de imunidade natural contra cepas e tampouco a estratégia recomendada é a soroprofilaxia contínua, que traz risco de reações de hipersensibilidade e não substitui a vacinação regular da Atenção Básica."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O adoecimento e a recuperação do tétano não conferem imunidade biológica; a imunização ativa por meio da vacina antitetânica é indispensável após a alta.",
+  "bookContext": {
+   "text": "A tetanospasmina possui potência biológica letal em concentrações infinitesimais, na ordem de nanogramas por quilo de peso corporal. Essa quantidade mínima de toxina circulante, embora suficiente para gerar quadro clínico fulminante, é insuficiente para sensibilizar os linfócitos e estimular a síntese de anticorpos neutralizantes protetores. Desse modo, o hospedeiro recuperado de tétano acidental ou neonatal continua desprovido de memória imunológica contra a bactéria. É imperativa a aplicação do esquema vacinal com toxoide tetânico (vacina dupla adulto - dT), iniciando-se ainda durante a internação hospitalar ou na Atenção Primária à Saúde.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 325,
+  "code": "RAIVA-06",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Manifestações Clínicas e Semiologia do Tétano Acidental",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador da construção civil de 38 anos procura atendimento médico com queixa de rigidez nos músculos mastigatórios que impede a abertura adequada da boca. Ao exame físico, o médico constata contratura mantida dos músculos faciais com repuxamento dos ângulos orais e elevação das sobrancelhas, associada a arqueamento involuntário do tronco em hiperextensão por hipertonia paravertebral. O paciente permanece lúcido, orientado e plenamente comunicativo por acenos. Quais sinais semiológicos definem o quadro clínico apresentado?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Paralisia facial periférica bilateral, sinal de Kernig positivo e postura em decerebração decorrente de coma.",
+    "rationale": "Incorreta. O quadro facial no tétano é decorrente de espasmo contínuo e não de paralisia flácida bilateral, o sinal de Kernig reflete irritação meníngea e não há estado comatoso ou rigidez de decerebração."
+   },
+   {
+    "letter": "B",
+    "text": "Trismo mastigatório, riso sardônico e postura em opistótono, cursando com estado de sensório preservado.",
+    "rationale": "CORRETA. O trismo (contratura do masseter) é o sinal inicial mais comum, o riso sardônico resulta da contração involuntária e sustentada dos músculos da mímica, e o opistótono decorre do espasmo acentuado da musculatura paravertebral extensora, ocorrendo com manutenção estrita da lucidez e vigília."
+   },
+   {
+    "letter": "C",
+    "text": "Sinal de Bell motor, espasmos laríngeos por alcalose metabólica e postura rígida de flexão em decorticação.",
+    "rationale": "Incorreta. O sinal de Bell ocorre na paralisia periférica do nervo facial, os espasmos por distúrbios metabólicos compõem a tetania hipocalcêmica e a hiperextensão axial do tétano não corresponde à decorticação."
+   },
+   {
+    "letter": "D",
+    "text": "Rigidez nucal meningítica, sinal de Brudzinski positivo e crises tônico-clônicas com rebaixamento sensorial.",
+    "rationale": "Incorreta. Sinais meníngeos (como Brudzinski) e convulsões epilépticas com alteração cognitiva e rebaixamento do nível de consciência não correspondem ao tétano acidental clássico, no qual a consciência é preservada."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O tétano acidental manifesta-se tipicamente com trismo, riso sardônico e opistótono, mantendo o sensório e a lucidez do paciente totalmente preservados.",
+  "bookContext": {
+   "text": "O tétano acidental apresenta como queixa inaugural em grande parte dos casos o trismo, caracterizado pela contratura espástica dolorosa dos músculos masseteres que inviabiliza a abertura bucal. A disseminação descendente da hipertonia muscular atinge a face, moldando o fácies tetânico ou riso sardônico, no qual os cantos labiais são tracionados lateralmente e as fendas palpebrais se estreitam. O acometimento dos músculos dorsais e cervicais provoca a hiperextensão acentuada do tronco, configurando o clássico opistótono. Durante toda a evolução da doença, a atividade do córtex cerebral cognitivo não é suprimida pela toxina, fazendo com que o paciente experimente crises espásticas reflexas mantendo plena consciência do sofrimento.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 326,
+  "code": "RAIVA-07",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Fatores Prognósticos e Dinâmica Temporal do Tétano Acidental",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante o plantão em uma unidade de emergência, o médico avalia dois pacientes com diagnóstico clínico de tétano acidental. O paciente X sofreu perfuração com prego no pé há 4 dias e evoluiu com trismo e espasmos paroxísticos generalizados em menos de 24 horas. O paciente Y sofreu corte superficial em membro superior há 16 dias e há 4 dias iniciou trismo leve localizado, sem espasmos musculares à distância até o momento. De acordo com os marcadores cronológicos da doença, como deve ser interpretada a estratificação de gravidade desses casos?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O paciente X exibe marcadores de alta gravidade, dados os reduzidos períodos de incubação e de progressão.",
+    "rationale": "CORRETA. O período de incubação menor que 7 dias (tempo da inoculação ao primeiro sinal) e o período de progressão inferior a 48 horas (tempo do primeiro sinal ao primeiro espasmo paroxístico) são os dois critérios cronológicos clássicos indicativos de alta gravidade e pior prognóstico no tétano."
+   },
+   {
+    "letter": "B",
+    "text": "O paciente X tem prognóstico benigno, pois a manifestação precoce evidencia eliminação rápida da exotoxina.",
+    "rationale": "Incorreta. Um período de incubação curto (< 7 dias) traduz alta carga toxínica e rápida ascensão neuronal, associando-se clinicamente a pior prognóstico e risco acentuado de mortalidade, e não a evolução benigna."
+   },
+   {
+    "letter": "C",
+    "text": "O paciente Y apresenta curso hiperagudo, já que o tempo prolongado favoreceu a replicação clonal bacteriana.",
+    "rationale": "Incorreta. O paciente Y exibe incubação longa (16 dias) e período de progressão arrastado (> 48 horas sem espasmos paroxísticos), padrões que tradicionalmente se correlacionam a formas clínicas mais leves ou moderadas."
+   },
+   {
+    "letter": "D",
+    "text": "Ambos compartilham idêntico prognóstico clínico, visto que o sítio de inoculação é periférico em ambos os casos.",
+    "rationale": "Incorreta. A via de entrada tegumentar é comum aos acidentes tetânicos, mas a velocidade de eclosão sintomática e progressão espástica reflete diretamente a severidade do quadro, conferindo ao paciente X gravidade significativamente maior."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Período de incubação inferior a 7 dias e período de progressão menor que 48 horas indicam tétano acidental de elevada gravidade e alto risco de óbito.",
+  "bookContext": {
+   "text": "A avaliação cronológica inicial é a principal ferramenta à beira do leito para antecipar a gravidade clínica do tétano acidental. O período de incubação, definido como o intervalo entre a contaminação da ferida e o primeiro sintoma (geralmente o trismo), costuma durar de 5 a 15 dias; quando é inferior a 7 dias, correlaciona-se com prognóstico reservado e maior taxa de letalidade. O período de progressão, que compreende o tempo entre o surgimento do trismo e a deflagração do primeiro espasmo paroxístico, sinaliza a velocidade de saturação dos interneurônios no sistema nervoso central. Intervalos de progressão menores do que 48 horas, e especialmente abaixo de 24 horas, definem formas fulminantes com indicação mandatória de suporte intensivo imediato e ventilação mecânica.",
+   "fonte": "MS · Tétano acidental e Aula VAT2 · Acidentes tetânico e rábico"
+  },
+  "revisada": true
+ },
+ {
+  "id": 327,
+  "code": "RAIVA-08",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Dimensão Estrutural e Ecologia das Vulnerabilidades na Raiva Humana",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante uma visita domiciliar em uma microárea periurbana de ocupação recente e desordenada, vizinha a um remanescente de mata nativa, a equipe de Saúde da Família observa habitações precárias de madeira e lona, ausência de saneamento básico, acúmulo de resíduos e grande número de cães errantes sem vacinação, além de relatos de morcegos sobrevoando o peridomicílio. Sob a ótica da Ecologia das Vulnerabilidades e dos determinantes socioambientais da raiva humana, como se estrutura o risco epidemiológico desse território?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O risco biológico concentra-se estritamente na transmissão silvestre por quirópteros, pois o ciclo urbano encontra-se biologicamente desvinculado das condições de moradia.",
+    "rationale": "Incorreta. O ciclo urbano não é independente das condições socioambientais; a precariedade habitacional e a ausência de infraestrutura favorecem o acúmulo de lixo, a proliferação de animais errantes e a falha na cobertura vacinal animal, mantendo o ciclo urbano ativo."
+   },
+   {
+    "letter": "B",
+    "text": "A precariedade socioespacial rompe o isolamento ecológico, expondo a comunidade à transmissão silvestre sem elevar o risco de manutenção do ciclo urbano em cães.",
+    "rationale": "Incorreta. A vulnerabilidade socioespacial não afeta apenas a transmissão silvestre; a falta de infraestrutura e serviços públicos básicos é precisamente o que sustenta bolsões endêmicos urbanos em animais domésticos errantes."
+   },
+   {
+    "letter": "C",
+    "text": "A vulnerabilidade decorre exclusivamente da ausência de vacinação dos moradores, sendo irrelevante a modificação do ecossistema na aproximação dos vetores aéreos.",
+    "rationale": "Incorreta. A vacinação humana para raiva é prioritariamente pós-exposição ou indicada como pré-exposição apenas para grupos ocupacionais de risco estrito; a vulnerabilidade primária é socioecológica e determinada pelo meio físico degradado."
+   },
+   {
+    "letter": "D",
+    "text": "A sobreposição entre expansão urbana desordenada e infraestrutura sanitária precária aproxima o ciclo silvestre e perpetua bolsões endêmicos no meio urbano.",
+    "rationale": "CORRETA. A ecologia das vulnerabilidades evidencia que a ocupação territorial desordenada degrada fronteiras ecológicas, aproximando as populações humanas dos reservatórios silvestres (como morcegos) ao mesmo tempo em que a carência de saneamento e políticas públicas consolida nichos endêmicos urbanos de cães e gatos desassistidos."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A raiva humana na ecologia das vulnerabilidades resulta da expansão urbana desordenada, que une a intrusão no ciclo silvestre à negligência estrutural do ciclo urbano.",
+  "bookContext": {
+   "text": "A raiva apresenta letalidade de aproximadamente 100% e sua dinâmica epidemiológica reflete diretamente as condições socioambientais do território. Enquanto os quirópteros atuam como reservatórios do ciclo silvestre e mantêm o vírus albergado por longos períodos sem adoecimento imediato, o ciclo urbano é mantido por cães e gatos em comunidades com saneamento precário e cães errantes desprovidos de imunização anual. A análise integrada do território no âmbito da atenção primária é indispensável para identificar esses determinantes socioecológicos antes da ocorrência do acidente.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 328,
+  "code": "RAIVA-09",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Comorbidades Metabólicas e Vasculares como Gatilho de Anaerobiose",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 64 anos, portador de diabetes mellitus tipo 2 mal controlado e insuficiência venosa crônica avançada em membros inferiores com edema e dermatite de estase, é atendido na Atenção Primária para avaliação de uma úlcera crônica em terço distal da perna direita, presente há 5 meses, recoberta por esfacelos e fibrina desvitalizada, sem história de ferimento perfurocortante agudo. Queixa-se de desconforto mandibular progressivo e dificuldade de mastigação iniciados há 2 dias. Considerando a fisiopatogenia do tétano acidental e o conceito de gatilho tecidual, assinale a correlação fisiopatológica correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A penetração dos esporos requer traumatismos perfurantes por pregos ou espinhos, de modo que lesões crônicas da pele não fornecem condições para tetanogênese.",
+    "rationale": "Incorreta. Embora ferimentos perfurocortantes sujos sejam clássicos, as úlceras crônicas de perna, o pé diabético e as lesões isquêmicas são portas de entrada amplamente reconhecidas na literatura e no slide para o tétano acidental."
+   },
+   {
+    "letter": "B",
+    "text": "A neuropatia do diabetes propicia rigidez motora reflexa periférica semelhante à toxina, tornando dispensável a ocorrência de germinação para o quadro clínico.",
+    "rationale": "Incorreta. A hipertonia e o trismo decorrem do bloqueio da liberação de neurotransmissores inibitórios (GABA e glicina) na medula e no tronco encefálico pela tetanospasmina, e não de reflexos periféricos neuropáticos do diabetes desacompanhados de toxina."
+   },
+   {
+    "letter": "C",
+    "text": "A isquemia tecidual e os tecidos desvitalizados decorrentes das comorbidades reduzem a oxirredução local, criando o ambiente anaeróbio exigido para a germinação.",
+    "rationale": "CORRETA. O Clostridium tetani é um bacilo anaeróbio estrito cujos esporos necessitam de um baixo potencial de oxirredução tecidual para germinar e produzir tetanospasmina. Doenças de base como diabetes mellitus e insuficiência venosa crônica provocam isquemia, hipóxia e acúmulo de tecido necrótico/desvitalizado, configurando o gatilho perfeito de anaerobiose mesmo na ausência de trauma penetrante agudo."
+   },
+   {
+    "letter": "D",
+    "text": "O Clostridium tetani invade a corrente sanguínea a partir da úlcera crônica de estase, multiplicando-se sistemicamente para consumir oxigênio em tecidos profundos.",
+    "rationale": "Incorreta. O Clostridium tetani não possui capacidade invasiva tecidual e não realiza disseminação bacterêmica sistêmica; a bactéria permanece restrita ao foco da lesão anaeróbia, sendo a toxina (tetanospasmina) a responsável pelo acometimento à distância via transporte axonal retrógrado e via hematogênica."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Comorbidades que reduzem a perfusão (DM2 e insuficiência venosa) produzem necrose e isquemia, servindo de gatilho de anaerobiose para a germinação de esporos em úlceras crônicas.",
+  "bookContext": {
+   "text": "A patogenia do tétano não depende de infecção bacteriana disseminada, mas sim da germinação de esporos em tecidos sob estrita anaerobiose com produção de exotoxina. O esporo bacteriano é ubíquo no ambiente e permanece inerte em tecidos vascularizados oxigenados normais. Entretanto, a presença de corpos estranhos, isquemia microvascular e desvitalização tecidual — frequentemente encontradas em úlceras crônicas de pacientes diabéticos ou com insuficiência venosa — cria as condições físico-químicas indispensáveis para sua transformação vegetativa e liberação de tetanospasmina.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 329,
+  "code": "RAIVA-10",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Red Flags e Semiologia Precoce do Tétano Neonatal",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um recém-nascido com 7 dias de vida é levado à Unidade Básica de Saúde pela avó. A genitora realizou apenas uma consulta de pré-natal e o parto ocorreu no domicílio sem assistência profissional, tendo o coto umbilical sido seccionado com lâmina não esterilizada e tratado empiricamente com pós caseiros. A acompanhante relata que a criança chorava e sugava o seio normalmente até o 5º dia, mas há 24 horas evoluiu com choro contínuo, irritabilidade e incapacidade progressiva de alimentar-se e sugar o leite materno. Sob a perspectiva dos sinais de alerta (red flags) do tétano neonatal, qual é a conduta e interpretação correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A recusa alimentar com choro constante é manifestação típica de cólica fisiológica do lactente, devendo-se orientar técnicas de aleitamento e observação ambulatorial.",
+    "rationale": "Incorreta. O início de choro contínuo e recusa de sucção em recém-nascido com histórico de risco constitui red flag gravíssimo para tétano neonatal e infecções graves, sendo erro crasso atribuí-lo a cólica benigna."
+   },
+   {
+    "letter": "B",
+    "text": "A incapacidade súbita de sucção e apreensão mamária expressa a instalação precoce do trismo neonatal, constituindo sinal de alerta para transferência de emergência.",
+    "rationale": "CORRETA. No tétano neonatal, o trismo não se expressa primariamente como queixa de dor mandibular relatada, mas sim como espasmo da musculatura massetérica que impede a abertura da boca, manifestando-se clinicamente como recusa alimentar e incapacidade de sucção em bebê que previamente mamava bem, acompanhado de choro e hipertonia."
+   },
+   {
+    "letter": "C",
+    "text": "A dificuldade alimentar decorre tipicamente de sepse bacteriana tardia, cujo diagnóstico diferencial exige coleta de líquor e sangue antes de qualquer transferência.",
+    "rationale": "Incorreta. Embora a sepse seja um diagnóstico diferencial importante, o tétano neonatal tem paradigma diagnóstico estritamente clínico; a conduta de aguardar ou condicionar a transferência/tratamento a exames laboratoriais ou punção lombar coloca em risco a sobrevida do neonato."
+   },
+   {
+    "letter": "D",
+    "text": "O quadro clínico caracteriza traumatismo mecânico da mucosa oral pelo aleitamento materno, descartando-se tétano neonatal por seu período de incubação após 28 dias.",
+    "rationale": "Incorreta. O tétano neonatal manifesta-se tipicamente entre o 2º e o 28º dia de vida (conhecido historicamente como 'mal de sete dias'), estando o 7º dia perfeitamente inserido na janela patognomônica da doença."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A recusa alimentar e a dificuldade de sucção em bebês entre 2 e 28 dias com histórico de parto domiciliar/coto desprotegido constituem a manifestação clínica precoce do trismo neonatal.",
+  "bookContext": {
+   "text": "O tétano neonatal caracteriza-se pelo acometimento de recém-nascidos entre o 2º e o 28º dia de vida, resultante da contaminação do coto umbilical por esporos durante o parto ou nos cuidados pós-natais desprovidos de assepsia. O sinal semiológico inicial mais evidente é a perda progressiva da capacidade de sucção após um período em que o neonato sugava normalmente, reflexo direto da contratura espástica dos músculos mastigatórios. O reconhecimento imediato desse sinal de alerta exige internação em unidade terciária de terapia intensiva, bloqueio neuromuscular e neutralização de toxina sem aguardar investigações laboratoriais.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 330,
+  "code": "RAIVA-11",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Classificação de risco de queimaduras e conduta profilática",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 32 anos dá entrada na Unidade Básica de Saúde após sofrer acidente doméstico com fogo ao acender uma churrasqueira há duas horas. Ao exame físico, apresenta lesão com flictenas rotas e íntegras em antebraço direito e dorso da mão, compatível com queimadura de segundo grau, sem sujidades aparentes. O paciente apresenta caderneta com comprovação de esquema primário completo de três doses da vacina antitetânica (dT), tendo recebido a última dose de reforço há 3 anos. Diante da correta classificação de risco do ferimento e do histórico vacinal apresentado, qual é a conduta profilática preconizada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Manter os cuidados locais da lesão sem aplicar vacina ou soro/IGHAT.",
+    "rationale": "CORRETA. Embora as queimaduras de segundo e terceiro graus sejam categorizadas como ferimentos de alto risco para o tétano (independentemente da presença de sujidade), pacientes com esquema vacinal completo comprovado (três ou mais doses) cuja última dose foi administrada há menos de cinco anos não necessitam de reforço vacinal nem de imunização passiva, demandando apenas a limpeza, curativo e cuidados locais."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar dose de reforço da vacina dT e aplicar soro antitetânico.",
+    "rationale": "Incorreta. O soro antitetânico (SAT) ou imunoglobulina (IGHAT) só estaria indicado em casos de ferimentos de alto risco quando o histórico vacinal é incerto, menor que três doses, ou em populações especiais (imunodeprimidos, idosos, desnutridos graves). Paciente com três doses há menos de cinco anos não necessita de nenhuma intervenção imunobiológica."
+   },
+   {
+    "letter": "C",
+    "text": "Indicar apenas a dose de reforço com a vacina dT por ser ferida grave.",
+    "rationale": "Incorreta. Em ferimentos de alto risco, a dose de reforço com a vacina dT só é indicada se a última dose tiver sido aplicada há cinco anos ou mais (entre 5 e 10 anos, ou mais de 10 anos). Como a última dose ocorreu há 3 anos, o paciente ainda possui títulos protetores elevados de anticorpos circulantes neutralizantes."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever imunoglobulina antitetânica isolada sem reforço vacinal.",
+    "rationale": "Incorreta. A imunoglobulina humana antitetânica (IGHAT) não tem indicação em pacientes imunocompetentes com três doses recentes (< 5 anos), além de que a imunização passiva isolada não é utilizada na profilaxia pós-exposição padrão sem a devida atualização da vacina quando indicada."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Queimaduras de 2º e 3º graus são sempre ferimentos de alto risco, porém pacientes com três ou mais doses de vacina antitetânica há menos de 5 anos dispensam qualquer vacina ou imunização passiva.",
+  "bookContext": {
+   "text": "A patogênese do tétano exige uma solução de continuidade associada a condições teciduais favoráveis à germinação dos esporos de Clostridium tetani, destacando-se a anaerobiose provocada por desvitalização tecidual e isquemia local. Nas queimaduras de espessura parcial e total (segundo e terceiro graus), a destruição da barreira epidérmica e a presença de exsudato inflamatório e restos necróticos configuram ambiente estritamente tetanogênico, mesmo sem contaminação grosseira por terra. No entanto, indivíduos com vacinação recente preservam níveis séricos protetores de antitoxina circulante suficientes para neutralizar prontamente a tetanospasmina antes de sua fixação no sistema nervoso.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 331,
+  "code": "RAIVA-12",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Conduta em ferimentos de alto risco com histórico vacinal incerto",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador da construção civil de 42 anos comparece à Unidade Básica de Saúde após sofrer acidente de trabalho há quatro horas, quando pisou em uma tábua com prego enferrujado. O exame físico evidencia ferimento puntiforme profundo com sangramento escasso e restos de poeira e ferrugem na região plantar do mediopé esquerdo. O paciente relata que nunca tomou vacina na idade adulta e não tem nenhum registro ou lembrança de vacinação na infância. Após lavagem exaustiva com água e sabão e desinfecção local, qual é a conduta imunoprofilática adequada segundo os protocolos de vigilância?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prescrever antibioticoterapia profilática com cefalexina oral por sete dias.",
+    "rationale": "Incorreta. A antibioticoterapia não substitui a imunoprofilaxia específica e não é recomendada como medida profilática isolada contra o tétano em ferimentos de alto risco."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar uma dose de reforço da vacina dT sem necessidade de soroterapia.",
+    "rationale": "Incorreta. Em paciente não vacinado ou com situação vacinal desconhecida apresentando ferimento grave e contaminado, uma dose de reforço é insuficiente; é mandatório iniciar o esquema básico completo de vacinação associado à imunização passiva."
+   },
+   {
+    "letter": "C",
+    "text": "Administrar o soro antitetânico de forma isolada, dispensando a vacinação.",
+    "rationale": "Incorreta. A administração de soroterapia isolada proporciona apenas imunidade passiva transitória, sendo indispensável iniciar simultaneamente o esquema de vacinação ativa para conferir proteção duradoura."
+   },
+   {
+    "letter": "D",
+    "text": "Iniciar o esquema de vacina dT associado à indicação de SAT ou IGHAT.",
+    "rationale": "CORRETA. Diante de ferimento perfurocortante profundo contaminado (alto risco) em paciente não vacinado ou com esquema vacinal incerto, a conduta preconizada pelos manuais do Ministério da Saúde é iniciar o esquema com a vacina dT associado à imunização passiva com SAT ou IGHAT."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Ferimento de alto risco (puntiforme/profundo/sujo) em indivíduo com histórico vacinal incerto ou < 3 doses exige profilaxia dupla: vacina antitetânica associada a SAT ou IGHAT.",
+  "bookContext": {
+   "text": "A tetanospasmina liberada na ferida liga-se irreversivelmente aos terminais pré-sinápticos dos interneurônios inibitórios glicinérgicos e GABAérgicos na medula espinal e tronco encefálico, gerando desinibição motora e espasmos paroxísticos graves. Em indivíduos sem memória imunológica prévia, a vacinação isolada demanda semanas para que ocorra a ativação de linfócitos B e produção de anticorpos neutralizantes específicos da classe IgG, intervalo no qual o paciente permanece totalmente vulnerável à toxina. A administração precoce de imunoglobulina homóloga (IGHAT) ou soro heterólogo (SAT) confere anticorpos imediatos capazes de interceptar a toxina livre circulante antes de seu transporte axonal retrógrado.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 332,
+  "code": "RAIVA-13",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Profilaxia antitetânica em idosos e imunodeprimidos com ferimentos de alto risco",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma agricultora de 72 anos, portadora de diabetes mellitus tipo 2 descompensado e doença renal crônica, comparece à UBS acompanhada pela filha após sofrer laceração extensa na perna esquerda provocada por enxada em área de adubo animal e terra. Ao exame físico, observa-se ferida profunda com bordas irregulares, presença de tecidos desvitalizados e crostas de sujidade fecal/telúrica. A caderneta de vacinação da paciente está atualizada, demonstrando três doses prévias de vacina antitetânica e a última dose de reforço realizada há 2 anos. Diante da classificação da lesão e da condição clínica subjacente da paciente, qual é a conduta médica correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Proceder ao debridamento cirúrgico da ferida sem indicar imunobiológicos.",
+    "rationale": "Incorreta. Essa conduta seria restrita a adultos jovens imunocompetentes com três doses e reforço há menos de 5 anos. Na presença de imunossupressão, nefropatia crônica e idade avançada com ferimento de alto risco, a omissão da imunização passiva expõe a paciente a risco elevado de desenvolvimento de tétano acidental grave."
+   },
+   {
+    "letter": "B",
+    "text": "Indicar debridamento e administrar apenas dose de reforço com vacina dT.",
+    "rationale": "Incorreta. A administração de reforço vacinal isolado não garante neutralização imediata da toxina em pacientes imunocomprometidos e idosos, cuja resposta anamnéstica de anticorpos pode ser lenta ou insuficiente, sendo mandatório o suporte imediato de anticorpos neutralizantes passivos."
+   },
+   {
+    "letter": "C",
+    "text": "Realizar debridamento cirúrgico da ferida e prescrever IGHAT ou SAT.",
+    "rationale": "CORRETA. Conforme a diretriz de profilaxia pós-exposição ao tétano, pacientes imunodeprimidos, desnutridos graves ou idosos que sofrem ferimentos de alto risco (profundos, contaminados com fezes/terra, com tecido necrótico) devem receber imunização passiva com IGHAT (preferencial por ser idosa/imunossuprimida) ou SAT, independentemente do tempo decorrido desde a última dose de vacina, devido à senescência imune e à menor capacidade de sustentar títulos protetores adequados."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever metronidazol profilático por dez dias e dispensar imunobiológico.",
+    "rationale": "Incorreta. A antibioticoterapia com metronidazol ou penicilinas atua contra formas vegetativas do C. tetani em infecções instaladas, mas não impede a ação da toxina pré-formada e não substitui a indicação formal de neutralização por imunobiológicos específicos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Pacientes imunodeprimidos, desnutridos graves ou idosos com ferimento de alto risco devem receber imunização passiva (IGHAT ou SAT) independentemente do intervalo da última dose de vacina.",
+  "bookContext": {
+   "text": "A imunossenescência e estados de imunocomprometimento crônico reduzem substancialmente a avidez, a afinidade e a titulação dos anticorpos IgG contra o toxoide tetânico, comprometendo a eficácia protetora de reforços vacinais prévios. Em situações de lesões altamente tetanogênicas com corpos estranhos e necrose, a produção massiva de toxina pode suplantar a defesa humoral de base do hospedeiro fragilizado. Por esse motivo, as diretrizes clínicas estabelecem a indicação mandatória de IGHAT (ou SAT quando IGHAT não disponível) para assegurar neutralização imediata da toxina circulante, priorizando-se a imunoglobulina humana para evitar riscos de anafilaxia e doença do soro comuns aos soros heterólogos equinos.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 333,
+  "code": "RAIVA-14",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Critérios de intervalo vacinal em ferimentos de baixo risco",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma auxiliar de cozinha de 26 anos procura atendimento na Unidade Básica de Saúde trinta minutos após cortar o dedo indicador esquerdo com uma faca de inox limpa enquanto cortava legumes higienizados. Ao exame físico, constata-se ferimento incômodo, linear, superficial, com bordas nítidas e limpas, sem sangramento ativo, corpos estranhos ou sinais de necrose. A paciente exibe cartão vacinal comprovando esquema básico completo de três doses na infância e última dose de reforço com a vacina dupla adulto (dT) recebida há 7 anos. Diante da avaliação do ferimento e do histórico imunológico, qual deve ser a conduta recomendada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Administrar dose de reforço com dT associada ao soro antitetânico.",
+    "rationale": "Incorreta. O soro antitetânico (SAT) é um imunobiológico de risco e de uso restrito, completamente contraindicado em ferimentos limpos e superficiais de baixo risco, especialmente em pacientes com vacinação básica completa."
+   },
+   {
+    "letter": "B",
+    "text": "Realizar os cuidados locais e limpeza sem indicar imunobiológicos.",
+    "rationale": "CORRETA. O ferimento é estritamente de baixo risco (corte superficial com instrumento limpo, sem terra ou sujidades). De acordo com o algoritmo do Ministério da Saúde, indivíduos com esquema completo de três doses cuja última dose foi aplicada entre 5 e 10 anos atrás necessitam apenas de cuidados locais usuais de higiene, não sendo necessária nenhuma intervenção com vacina ou soro."
+   },
+   {
+    "letter": "C",
+    "text": "Indicar dose de reforço imediata da vacina dupla adulto por via IM.",
+    "rationale": "Incorreta. Em ferimentos de baixo risco (superficiais e limpos, sem corpos estranhos ou tecidos desvitalizados), a dose de reforço com a vacina dT só é indicada se o intervalo desde a última dose for superior a 10 anos. Como a última dose ocorreu há 7 anos, a paciente ainda está protegida para feridas de baixo risco."
+   },
+   {
+    "letter": "D",
+    "text": "Iniciar novo esquema básico completo de três doses da vacina com dT.",
+    "rationale": "Incorreta. Doses aplicadas previamente não perdem a validade no histórico do indivíduo; esquemas completos não são reiniciados, apenas complementados com reforços quando os prazos protetores forem ultrapassados (reforço a cada 10 anos na rotina ou a cada 5 anos frente a ferimento grave)."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Em ferimentos de baixo risco (limpos e superficiais), indivíduos com 3 doses de vacina antitetânica só necessitam de dose de reforço se a última dose tiver ocorrido há mais de 10 anos.",
+  "bookContext": {
+   "text": "A classificação adequada dos ferimentos na atenção primária orienta o uso racional dos imunobiológicos e evita intervenções desnecessárias que configuram sobretratamento ou potenciais eventos adversos. Em feridas incisas, limpas e superficiais, a oxigenação tecidual permanece preservada, inibindo a germinação dos esporos e a consequente síntese de tetanospasmina. Dessa forma, a barreira imunológica conferida pela vacinação completa há menos de 10 anos é clinicamente suficiente para proteger o indivíduo, reservando-se a antecipação do reforço vacinal para o intervalo de 5 anos exclusivamente às lesões de alto potencial tetanogênico.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 334,
+  "code": "RAIVA-15",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Profilaxia pós-exposição em ferimento de baixo risco com histórico vacinal incerto",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma jovem de 24 anos, auxiliar de cozinha, comparece à Unidade Básica de Saúde após sofrer um corte superficial no polegar direito com lâmina de faca limpa há duas horas, enquanto cortava legumes higienizados. Ao exame clínico, a lesão tem 1,5 cm de extensão, bordos regulares, ausência de sangramento ativo expressivo, sem corpos estranhos, necrose ou tecidos desvitalizados. A paciente relata que perdeu a caderneta de vacinação e não sabe informar se recebeu as doses da infância ou reforços na idade adulta. Considerando a classificação de risco do ferimento e o status imunológico, assinale a conduta profilática correta segundo o Ministério da Saúde:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indicar o início do esquema de vacinação com vacina dT, sem prescrição de soro ou imunoglobulina.",
+    "rationale": "CORRETA. O ferimento é classificado como de baixo risco (superficial, limpo, sem tecido desvitalizado ou corpos estranhos). Em pacientes com história vacinal incerta ou com menos de 3 doses diante de ferimentos de baixo risco, o protocolo oficial do Ministério da Saúde orienta apenas a vacinação (iniciar ou atualizar o esquema com dT), dispensando formalmente a imunização passiva (SAT ou IGHAT)."
+   },
+   {
+    "letter": "B",
+    "text": "Prescrever apenas imunoglobulina humana antitetânica em dose única, sem necessidade de vacinação imediata.",
+    "rationale": "Incorreta. A imunização passiva isolada não promove imunidade ativa duradoura e sua indicação restringe-se a situações específicas de ferimentos de alto risco em pacientes sem cobertura vacinal ou imunodeprimidos, não sendo conduta em lesões superficiais limpas."
+   },
+   {
+    "letter": "C",
+    "text": "Realizar a aplicação combinada da vacina dT e do soro antitetânico para garantir dupla proteção.",
+    "rationale": "Incorreta. A associação de vacina com imunização passiva (SAT ou IGHAT) só é preconizada quando a história vacinal for incerta ou com menos de 3 doses na presença de ferimento de alto risco (profundo, sujo, puntiforme ou com necrose), o que não é o caso desta lesão limpa e superficial."
+   },
+   {
+    "letter": "D",
+    "text": "Dispensar qualquer imunobiológico no momento, orientando apenas higienização local com antissépticos.",
+    "rationale": "Incorreta. Embora a higienização local com água e sabão seja fundamental, não se pode liberar sem vacina um paciente com histórico vacinal incerto ou incompleto, pois o ferimento representa uma solução de continuidade que exige o início da imunoprofilaxia ativa com dT."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Ferimentos de baixo risco em pacientes com histórico vacinal desconhecido ou incompleto exigem apenas vacinação, dispensando soro ou imunoglobulina.",
+  "bookContext": {
+   "text": "O algoritmo do Ministério da Saúde divide as condutas profiláticas conforme o binômio tipo de lesão e história vacinal prévia. Lesões limpas e superficiais sem corpos estranhos ou tecidos desvitalizados possuem risco mínimo para proliferação anaeróbia dos esporos tetânicos. Por essa razão, a administração de anticorpos exógenos não traz benefício clínico comprovado nesse perfil de ferimento, mesmo quando não há comprovação documental prévia de vacinação. Nesses casos, aproveita-se a oportunidade do atendimento para iniciar ou completar o esquema vacinal com a vacina dupla adulto (dT), assegurando proteção futura.",
+   "fonte": "Ministério da Saúde · Tétano acidental e Aula VAT2 · Acidentes tetânico e rábico"
+  },
+  "revisada": true
+ },
+ {
+  "id": 335,
+  "code": "RAIVA-16",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Intervalo de reforço vacinal em ferimento de alto risco em paciente previamente imunizado",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um pedreiro de 35 anos busca atendimento médico na UBS após pisar em um prego enferrujado em canteiro de obras há quatro horas, sofrendo ferimento puntiforme de 2 cm de profundidade na região plantar esquerda, com sangramento discreto e sujidade visível por terra. Ele apresenta caderneta vacinal original e comprovada com esquema básico completo na infância e última dose de reforço com vacina dupla adulto (dT) recebida há 7 anos. O paciente é previamente hígido e não faz uso de qualquer medicação. De acordo com o protocolo nacional de profilaxia pós-exposição antitetânica, qual é a conduta preconizada para este paciente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Administrar uma dose da vacina dT associada a uma dose de soro antitetânico (SAT) intramuscular.",
+    "rationale": "Incorreta. A associação de soro antitetânico à vacina não é indicada para indivíduos imunocompetentes com esquema básico comprovado de três ou mais doses, mesmo diante de ferimentos graves ou puntiformes com prego."
+   },
+   {
+    "letter": "B",
+    "text": "Liberar o paciente sem aplicação de imunobiológicos, visto que o esquema básico completo confere imunidade permanente.",
+    "rationale": "Incorreta. Embora o esquema básico de 3 doses forneça títulos protetores por anos, a imunidade contra o tétano decai ao longo do tempo e não é permanente sem reforços periódicos. Diante de ferimento de alto risco, o intervalo tolerado sem necessidade de nova dose é de apenas 5 anos."
+   },
+   {
+    "letter": "C",
+    "text": "Indicar o uso de Imunoglobulina Humana Antitetânica (IGHAT) isolada, sem necessidade de vacina adicional.",
+    "rationale": "Incorreta. A IGHAT está indicada na profilaxia pós-exposição em pacientes com histórico vacinal incerto ou incompleto com ferimentos graves, ou em pacientes imunodeprimidos, não sendo prescrita de forma isolada em trabalhadores adultos imunocompetentes com vacinação básica completa."
+   },
+   {
+    "letter": "D",
+    "text": "Administrar uma dose de reforço da vacina antitetânica (dT), sem indicação de soro ou imunoglobulina.",
+    "rationale": "CORRETA. Trata-se de ferimento de alto risco (puntiforme, penetrante e contaminado por terra). Em pacientes com três ou mais doses prévias cuja última dose ocorreu entre 5 e 10 anos atrás, a recomendação formal é administrar uma dose de reforço da vacina dT, dispensando qualquer imunização passiva (SAT ou IGHAT)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Em ferimento de alto risco com esquema básico prévio completo (≥ 3 doses), a vacina de reforço é indicada se a última dose ocorreu há mais de 5 anos; soro/imunoglobulina é dispensado em imunocompetentes.",
+  "bookContext": {
+   "text": "A proteção conferida pela vacina antitetânica baseia-se na concentração circulante de anticorpos antitoxina tetânica, os quais neutralizam a tetanospasmina antes de sua fixação no sistema nervoso central. Em indivíduos com imunização prévia de três ou mais doses, uma dose de reforço é capaz de induzir resposta amnéstica e elevação expressiva dos títulos de IgG em poucos dias. Em ferimentos de baixo risco, a dose de reforço só é exigida após 10 anos da última dose, mas em ferimentos de alto risco o intervalo de segurança é reduzido para 5 anos. Pacientes imunocompetentes com esse histórico mantêm células de memória celular suficientes, tornando desnecessária a aplicação de imunobiológicos heterólogos ou homólogos.",
+   "fonte": "Ministério da Saúde · Tétano acidental e Aula VAT2 · Acidentes tetânico e rábico"
+  },
+  "revisada": true
+ },
+ {
+  "id": 336,
+  "code": "RAIVA-17",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Critérios de indicação e propriedades farmacológicas de SAT versus IGHAT",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador rural de 42 anos é admitido em serviço de pronto atendimento após sofrer extensa laceração contuso-lacerada na coxa direita durante manutenção de maquinário agrícola, com ferida profundamente contaminada por terra e fezes de gado. O paciente afirma categoricamente nunca ter tomado vacinas antitetânicas na vida. Na avaliação dos antecedentes alérgicos, relata ter apresentado choque anafilático grave há 3 anos após receber soro antiofídico heterólogo em hospital de referência. Diante da necessidade mandatória de imunização passiva associada à vacina, assinale a alternativa que descreve a escolha do imunobiológico e suas propriedades farmacológicas fundamentais:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indica-se o Soro Antitetânico (SAT) equino diluído, visto que o protocolo de dessensibilização rápida anula o risco de anafilaxia.",
+    "rationale": "Incorreta. Protocolos de dessensibilização rápida não anulam o risco de nova reação anafilática grave com risco de morte em indivíduo com histórico comprovado de choque a soro heterólogo; a presença de anafilaxia prévia constitui indicação formal para o uso de IGHAT."
+   },
+   {
+    "letter": "B",
+    "text": "Indica-se a vacina dT em dose dobrada sem imunobiológico passivo, já que a IGHAT é restrita a indivíduos com imunodeficiência grave.",
+    "rationale": "Incorreta. A IGHAT não se restringe a indivíduos imunodeprimidos, estando indicada formalmente para pessoas hipersensíveis a soros heterólogos. Ademais, a vacina isolada em dose dobrada não confere os anticorpos neutralizantes imediatos requeridos na profilaxia pós-exposição de ferimento grave."
+   },
+   {
+    "letter": "C",
+    "text": "Indica-se a Imunoglobulina Humana Antitetânica (IGHAT), por ter menor risco de anafilaxia e meia-vida de 21 a 28 dias.",
+    "rationale": "CORRETA. Por ser um imunobiológico homólogo, a IGHAT acarreta menor risco de reações de hipersensibilidade grave e possui meia-vida biológica de 21 a 28 dias, sendo a opção de escolha em pacientes com histórico de anafilaxia a soros heterólogos."
+   },
+   {
+    "letter": "D",
+    "text": "Indica-se o Soro Antitetânico (SAT) por apresentar meia-vida mais longa que a IGHAT, garantindo proteção por mais de trinta dias.",
+    "rationale": "Incorreta. O SAT heterólogo possui meia-vida biológica significativamente menor (cerca de 7 a 14 dias) do que a IGHAT (21 a 28 dias), além de ser contraindicado diante do antecedente de choque anafilático."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A IGHAT é indicada em pacientes com histórico de hipersensibilidade a soros equinos, imunodeprimidos e recém-nascidos, possuindo meia-vida mais longa (21 a 28 dias) e menor índice de reações adversas que o SAT.",
+  "bookContext": {
+   "text": "A imunização passiva contra o tétano visa fornecer títulos imediatos de anticorpos neutralizantes livres no plasma para ligar-se à tetanospasmina antes de seu transporte axonal retrógrado. O soro antitetânico (SAT), por ser de origem equina, expõe o organismo a proteínas heterólogas com potencial para desencadear reações de hipersensibilidade do tipo I (anafilaxia mediada por IgE) e do tipo III (doença do soro por deposição de imunocomplexos). Em contrapartida, a Imunoglobulina Humana Antitetânica (IGHAT), obtida do fracionamento de plasma de doadores humanos hiperimunizados, oferece meia-vida de 21 a 28 dias e risco desprezível de reações sistêmicas graves. Sua alocação no SUS deve priorizar critérios de equidade e segurança biológica estrita.",
+   "fonte": "Ministério da Saúde · Tétano acidental e Aula VAT2 · Acidentes tetânico e rábico"
+  },
+  "revisada": true
+ },
+ {
+  "id": 337,
+  "code": "RAIVA-18",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Manejo local de feridas tetanogênicas, desbridamento cirúrgico e papel da antibioticoprofilaxia",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 28 anos é atendido na sala de pequenos procedimentos da APS após colisão moto-anteparo em estrada de chão batido há três horas. O paciente apresenta ferimento contuso-lacerado de 6 cm de extensão no terço médio da perna direita, com bordos irregulares e macerados, impregnação profunda por terra e fezes de animais, além de focos visíveis de tecido muscular desvitalizado e necrose de bordas. Com base na dinâmica patogênica do Clostridium tetani e nos princípios de controle local de infecções na Atenção Primária, qual é a conduta local e medicamentosa adjuvante recomendada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prescrever antibioticoterapia sistêmica imediata com metronidazol para erradicar esporos viáveis e dispensar qualquer toalete mecânica.",
+    "rationale": "Incorreta. os antimicrobianos não possuem atividade esporicida nem substituem a limpeza mecânica e o desbridamento cirúrgico de tecidos desvitalizados."
+   },
+   {
+    "letter": "B",
+    "text": "Proceder à limpeza rigorosa e desbridamento amplo, visto que a eliminação do meio anaeróbio bloqueia a germinação dos esporos.",
+    "rationale": "CORRETA. a toalete vigorosa e a remoção de corpos estranhos e tecidos desvitalizados restauram a oxigenação tecidual e extinguem o microambiente anaeróbio indispensável à conversão de esporos em formas vegetativas produtoras de toxina."
+   },
+   {
+    "letter": "C",
+    "text": "Realizar síntese primária com sutura contínua imediata para selar as margens do leito da lesão e evitar contaminações secundárias.",
+    "rationale": "Incorreta. o fechamento primário por sutura contínua em ferimentos altamente contaminados e lacerados sela o leito da lesão e gera anaerobiose estrita, criando as condições ideais para a germinação do Clostridium tetani."
+   },
+   {
+    "letter": "D",
+    "text": "Aplicar pomada tópica cicatrizante sob curativo oclusivo compressivo, priorizando a regeneração sem intervir no tecido necrótico.",
+    "rationale": "Incorreta. o emprego de pomadas tópicas com curativo oclusivo sem a devida manipulação cirúrgica preserva o tecido necrótico e a anaerobiose, favorecendo a proliferação bacilar."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O desbridamento de tecidos desvitalizados é o procedimento mecânico fundamental para eliminar o ambiente de anaerobiose que permite a germinação do esporo de C. tetani; antibiótico não substitui o desbridamento.",
+  "bookContext": {
+   "text": "A patogênese do tétano está estritamente condicionada ao microambiente tecidual da porta de entrada, uma vez que os esporos de Clostridium tetani são inertes e metabolicamente inativos em tecidos oxigenados normais. A presença de corpos estranhos, isquemia, sujidades contendo cálcio ou terra e debris necróticos consome o oxigênio local, estabelecendo o potencial de oxirredução anaeróbio necessário para a conversão esporular na forma bacilar vegetativa. Essa forma vegetativa ativa passa então a sintetizar a tetanospasmina e a tetanolisina no leito da lesão. O desbridamento cirúrgico remove mecanicamente os tecidos sem perfusão, restabelecendo as condições aeróbias locais que inviabilizam a produção toxinogênica.",
+   "fonte": "Ministério da Saúde · Tétano acidental e Aula VAT2 · Acidentes tetânico e rábico"
+  },
+  "revisada": true
+ },
+ {
+  "id": 338,
+  "code": "RAIVA-19",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Classificação de risco dos ferimentos e determinantes fisiopatológicos de alto risco",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um jovem de 24 anos, ajudante de marcenaria, dá entrada na Unidade Básica de Saúde após sofrer acidente de trabalho. Ao exame físico, apresenta duas lesões distintas: no antebraço direito, uma escoriação linear superficial e limpa de 5 cm, sem sangramento ativo, corpos estranhos ou tecidos desvitalizados; na região plantar do pé esquerdo, uma lesão punctiforme de 3 mm de diâmetro provocada por perfuração profunda por prego, sem sangramento visível externamente. Durante a discussão do caso, o interno de medicina sugere classificar a lesão plantar como de baixo risco por ser punctiforme e milimétrica, e a lesão do antebraço como de alto risco devido à sua extensão anatômica. Considerando as diretrizes do Ministério da Saúde e a fisiopatologia do Clostridium tetani, qual é a classificação correta e a justificativa técnica das lesões?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A escoriação é de baixo risco por ser superficial e limpa, enquanto a punctiforme é de alto risco por criar trajeto profundo e oclusivo propício ao microambiente de anaerobiose essencial à germinação dos esporos.",
+    "rationale": "CORRETA. Ferimentos limpos, superficiais e sem tecidos desvitalizados são de baixo risco. Por outro lado, feridas punctiformes profundas por pregos geram estrita anaerobiose local e isquemia de trajeto, configurando o 'gatilho' fisiopatológico para a transformação do esporo inerte na forma vegetativa produtora de tetanospasmina."
+   },
+   {
+    "letter": "B",
+    "text": "Ambas as lesões devem ser classificadas como de baixo risco, pois a lesão plantar é punctiforme diminuta sem secreção ativa e a escoriação do antebraço é totalmente superficial e não apresenta tecidos desvitalizados.",
+    "rationale": "Incorreta. A lesão punctiforme plantar não pode ser classificada como de baixo risco; ferimentos punctiformes, causados tipicamente por pregos ou espinhos, são definidos categoricamente como de alto risco tetânico devido à profundidade e oclusão do trajeto penetrante."
+   },
+   {
+    "letter": "C",
+    "text": "A escoriação é de alto risco pela extensão superior a 3 cm na pele, enquanto a punctiforme é de alto risco exclusivamente pelo contato com óxido de ferro (ferrugem) do prego causador do trauma mecânico.",
+    "rationale": "Incorreta. A extensão longitudinal de uma escoriação não determina alto risco quando a lesão é estritamente superficial e isenta de desvitalização tecidual; além disso, o risco do prego decorre da inoculação profunda e anaerobiose, sendo a presença de ferrugem um mito popular desprovido de base patogênica."
+   },
+   {
+    "letter": "D",
+    "text": "Ambas as lesões devem ser classificadas como de alto risco, pois qualquer solução de continuidade cutânea de origem ocupacional é padronizada como tetanogênica severa nas normas sanitárias vigentes.",
+    "rationale": "Incorreta. A origem ocupacional indica vulnerabilidade social e risco epidemiológico aumentado, mas não altera os critérios biológicos e morfológicos de classificação da ferida: lesões superficiais e limpas mantêm a classificação de baixo risco independentemente do contexto laboral."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Ferimentos punctiformes por pregos são classicamente de alto risco pela anaerobiose profunda gerada no trajeto, enquanto escoriações superficiais e limpas são de baixo risco.",
+  "bookContext": {
+   "text": "A classificação de risco do ferimento tetanogênico fundamenta-se na biologia do Clostridium tetani, um bacilo gram-positivo anaeróbio estrito cujos esporos inertes necessitam de um ambiente com baixo potencial de oxirredução para germinar. Ferimentos punctiformes criam um trajeto penetrante estreito e profundo cujo orifício de entrada fecha-se facilmente, estabelecendo o microambiente de estrita anaerobiose indispensável para a multiplicação da forma vegetativa e liberação da toxina tetanospasmina. Em contrapartida, ferimentos superficiais e limpos mantêm ampla exposição ao oxigênio tecidual e atmosférico, impedindo a germinação dos esporos. Corpos estranhos, terra, fezes, tecidos desvitalizados, mordeduras e queimaduras de segundo ou terceiro graus também alteram a perfusão local e catalisam esse processo infeccioso.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 339,
+  "code": "RAIVA-20",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Algoritmo decisório em esquema vacinal incompleto e técnica de administração de imunobiológicos",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador rural de 19 anos comparece à Unidade Básica de Saúde após sofrer laceração profunda na perna esquerda com arame farpado em área de pastagem, apresentando leito cruento com terra e detritos vegetais. O paciente é imunocompetente e apresenta cartão de vacinação oficial comprovando o recebimento de apenas 1 dose da vacina dupla adulto (dT) há 4 meses, quando iniciou o esquema do adulto, não tendo retornado para as etapas seguintes. Diante da classificação de alto risco do ferimento e do histórico vacinal incompleto, qual é a conduta imunoprofilática preconizada pelo Ministério da Saúde e sua respectiva diretriz técnica de administração?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Reiniciar o esquema vacinal básico com 3 doses de dT e administrar o Soro Antitetânico (SAT) na mesma seringa da vacina para otimizar a neutralização imunitária das toxinas bacterianas.",
+    "rationale": "Incorreta. Esquemas vacinais nunca devem ser reiniciados, apenas continuados a partir da dose faltante; ademais, a vacina e o soro jamais podem ser administrados na mesma seringa ou no mesmo sítio anatômico, sob risco de neutralização precoce do antígeno vacinal."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar apenas uma dose de reforço da vacina dT e dispensar a imunização passiva com SAT ou IGHAT, considerando que o paciente possui uma dose prévia aplicada há menos de um ano.",
+    "rationale": "Incorreta. Em ferimentos de alto risco com esquema incompleto (menor que 3 doses), a vacinação isolada é insuficiente para conferir proteção em tempo hábil, sendo mandatória a associação de imunização passiva imediata com SAT ou IGHAT."
+   },
+   {
+    "letter": "C",
+    "text": "Indicar a imunização passiva com IGHAT em dose única e contraindicar novas doses de vacina dT até a cicatrização completa da ferida para evitar competição ou sobrecarga imune aguda.",
+    "rationale": "Incorreta. A imunização ativa não deve ser postergada nem contraindicada na presença de ferimento aberto; a resposta humoral ativa precisa ser estimulada conjuntamente com a proteção passiva para garantir imunidade duradoura após a meia-vida dos anticorpos administrados."
+   },
+   {
+    "letter": "D",
+    "text": "Aplicar a 2ª dose da vacina dT para dar seguimento ao esquema sem reiniciá-lo, associada a SAT ou IGHAT, administrados em locais anatômicos distintos e com seringas separadas.",
+    "rationale": "CORRETA. Conforme o algoritmo oficial, indivíduos com vacinação incerta ou menor que 3 doses que sofrem ferimentos de alto risco necessitam de vacina e imunização passiva (SAT ou IGHAT). O esquema vacinal prévio deve ser continuado (administrando-se a 2ª dose e agendando a 3ª) e as aplicações devem ser feitas em locais anatômicos diferentes com seringas distintas."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Em ferimentos de alto risco com esquema incompleto (< 3 doses), indica-se vacina para completar o esquema (sem reiniciar) associada a SAT/IGHAT em sítios anatômicos distintos.",
+  "bookContext": {
+   "text": "A profilaxia pós-exposição antitetânica em indivíduos com esquema básico incompleto requer o emprego simultâneo de imunização ativa e passiva diante de lesões tetanogênicas de alto risco. A administração de anticorpos prontos, seja por soro heterólogo equino (SAT) ou imunoglobulina homóloga humana (IGHAT), assegura a neutralização imediata da tetanospasmina circulante durante a janela em que o organismo ainda é incapaz de montar resposta imune secundária eficaz. Paralelamente, o esquema vacinal com toxoide tetânico deve ser continuado a partir da dose pendente, nunca reiniciado, pois a memória imunológica celular persiste independentemente do intervalo transcorrido. A obrigatoriedade técnica de aplicar os imunobiológicos em membros corporais distintos e com seringas separadas impede que a fração de anticorpos passivos neutralize os antígenos vacinais antes do processamento imunitário adequado.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 340,
+  "code": "RAIVA-21",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Algoritmo de profilaxia pós-exposição: cão ou gato sadio e passível de observação (Cenário 1)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um jovem de 22 anos procura a Unidade Básica de Saúde após sofrer mordedura superficial na região da coxa direita provocada pelo cão de estimação de sua vizinha. Ao interrogatório clínico, o paciente relata que o animal é domiciliado, apresenta comportamento habitual sadio e permanece confinado na residência da proprietária, que se comprometeu formalmente a acompanhá-lo. O paciente realizou apenas lavagem com água corrente em domicílio. Diante do quadro e das diretrizes do Ministério da Saúde para profilaxia antirrábica pós-exposição, qual é a conduta médica recomendada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Iniciar imediatamente 4 doses de vacina antirrábica nos dias 0, 3, 7 e 14 e dispensar a observação do cão agressor.",
+    "rationale": "Incorreta. Em cães e gatos sadios e passíveis de observação rigorosa por 10 dias (Cenário 1), a conduta inicial consiste apenas em cuidados locais e monitoramento do animal. A vacinação imediata só está indicada se o cão fosse suspeito, desconhecido, raivoso ou se adoecer/morrer durante a observação."
+   },
+   {
+    "letter": "B",
+    "text": "Prescrever esquema vacinal reduzido em 2 doses nos dias 0 e 3, associado à infiltração local de soro antirrábico heterólogo.",
+    "rationale": "Incorreta. O esquema de 2 doses (dias 0 e 3) destina-se exclusivamente a casos de reexposição em pacientes previamente vacinados com esquema completo e nunca se associa a soro antirrábico (SAR ou IGHAR), que é formalmente dispensado nessas circunstâncias."
+   },
+   {
+    "letter": "C",
+    "text": "Proceder à higienização adequada da ferida, manter o cão sob observação por 10 dias e não indicar vacina ou soro de imediato.",
+    "rationale": "CORRETA. De acordo com o algoritmo do Ministério da Saúde e as diretrizes da aula, no Cenário 1 (cão/gato sadio e passível de observação clínica domiciliar por 10 dias), não se indica profilaxia imunobiológica imediata (nem vacina, nem soro), priorizando-se a limpeza exaustiva do ferimento com água e sabão e o acompanhamento rigoroso do animal por 10 dias."
+   },
+   {
+    "letter": "D",
+    "text": "Administrar dose única de imunoglobulina antirrábica humana e liberar o paciente caso o animal não adoeça nas primeiras 48 horas.",
+    "rationale": "Incorreta. Imunoglobulina ou soro não são administrados isoladamente sem vacina e não possuem indicação em acidentes com animais sadios sob observação. Além disso, o período de observação seguro e padronizado para cães e gatos é de 10 dias, e não de 48 horas."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Cão ou gato sadio e observável por 10 dias não exige vacina nem soro de imediato, apenas cuidados locais e vigilância clínica do animal.",
+  "bookContext": {
+   "text": "Nos cães e gatos, a excreção do vírus rábico na saliva ocorre entre 2 a 5 dias antes do surgimento dos sinais neurológicos da doença e persiste até o óbito do animal, que sucede em média em até 5 a 7 dias após os primeiros sintomas. Em razão dessa cinética biológica bem estabelecida, o período padronizado de 10 dias de observação clínica é suficiente para garantir a ausência de transmissão viral no momento da agressão. Caso o animal permaneça sadio e vivo ao final dos 10 dias, encerra-se o caso com segurança epidemiológica total. Por outro lado, caso o animal adoeça, morra ou desapareça nesse intervalo, o protocolo profilático humano com vacinação deve ser prontamente instaurado.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 341,
+  "code": "RAIVA-22",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Avaliação do tipo de exposição e cão/gato suspeito ou desaparecido (Cenário 2)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma mulher de 38 anos dá entrada na Unidade Básica de Saúde 4 horas após sofrer mordedura profunda no dorso da mão esquerda e ferimento puntiforme no punho, provocados por um cão de rua desconhecido que fugiu logo após o ataque. Ao exame físico, observa-se sangramento ativo, laceração com exposição do subcutâneo e bordas irregulares na mão. A paciente nunca recebeu vacina antirrábica prévia. Considerando a gravidade da exposição e a condição do animal agressor segundo as diretrizes oficiais de profilaxia pós-exposição da raiva humana, qual a conduta indicada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Lavar abundantemente o ferimento, prescrever antibioticoterapia profilática e aguardar 10 dias para verificar se o cão é localizado.",
+    "rationale": "Incorreta. Por se tratar de um animal não passível de observação (cão de rua que fugiu/desapareceu) e de um acidente classificado como grave, a conduta imunobiológica deve ser imediata. Postergar o início da profilaxia em ferimentos graves de alta inervação acarreta risco iminente de óbito por raiva."
+   },
+   {
+    "letter": "B",
+    "text": "Realizar lavagem exaustiva da lesão, iniciar vacina antirrábica nos dias 0, 3, 7 e 14 e associar soro antirrábico ou imunoglobulina.",
+    "rationale": "CORRETA. Ferimentos nas mãos, pés, face ou mucosas, bem como lesões profundas, múltiplas ou puntiformes, são classificados como acidentes graves. Diante de animal agressor que desapareceu, morreu ou é raivoso/suspeito (Cenário 2 com acidente grave), a conduta preconizada é lavagem minuciosa com água e sabão, início imediato do esquema vacinal (dias 0, 3, 7 e 14) e aplicação combinada de Soro Antirrábico (SAR) ou Imunoglobulina Humana Antirrábica (IGHAR)."
+   },
+   {
+    "letter": "C",
+    "text": "Realizar sutura hermética primária das lacerações e administrar 4 doses da vacina antirrábica, dispensando o uso de soro específico.",
+    "rationale": "Incorreta. Suturas herméticas em mordeduras de animais devem ser rigorosamente evitadas pelo risco elevado de infecção bacteriana secundária e retenção viral profunda. Além disso, por se tratar de ferimento profundo em mãos (acidente grave) por animal desaparecido, a indicação de soro antirrábico associado à vacina é mandatória."
+   },
+   {
+    "letter": "D",
+    "text": "Administrar apenas soro antirrábico infiltrado ao redor da lesão e programar reforço vacinal único após 30 dias de acompanhamento.",
+    "rationale": "Incorreta. O soro antirrábico confere imunidade passiva imediata e transitória, necessitando obrigatoriamente da vacinação ativa concomitante (4 doses: dias 0, 3, 7 e 14) para induzir produção endógena prolongada de anticorpos neutralizantes."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Acidente grave associado a cão/gato desaparecido, suspeito ou morto impõe o uso combinado de vacina (dias 0, 3, 7 e 14) e soro (SAR/IGHAR).",
+  "bookContext": {
+   "text": "A classificação anatômica e morfológica do ferimento é determinante para a estratificação do risco de infecção pelo vírus rábico. Regiões corporais ricamente inervadas, como mãos, pés, cabeça, face e pescoço, bem como ferimentos profundos ou puntiformes, facilitam a rápida penetração do vírus nas terminações nervosas periféricas e encurtam criticamente o período de incubação. Nesses acidentes graves em que o animal agressor não pode ser submetido à observação clínica de 10 dias, a imunização ativa proporcionada pela vacina é insuficiente nos primeiros dias, tornando indispensável a infusão precoce de imunidade passiva por meio do soro heterólogo (SAR) ou homólogo (IGHAR). O soro deve ser infiltrado prioritariamente ao redor e no leito das lesões anatômicas, neutralizando localmente o inóculo viral.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 342,
+  "code": "RAIVA-23",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Regra de ouro epidemiológica para mamíferos silvestres e morcegos (Cenário 3)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um biólogo de 29 anos comparece ao serviço de atenção básica após sofrer um arranhão superficial puntiforme, sem sangramento expressivo, na região dorsal do antebraço direito, causado por um sagui de vida livre durante expedição em parque florestal. O paciente afirma não possuir esquema vacinal prévio contra raiva humana e solicita apenas curativo local, argumentando que a lesão foi mínima, distal e superficial. Considerando os ciclos epidemiológicos da raiva e as diretrizes do Ministério da Saúde, assinale a opção que apresenta a conduta correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Classificar compulsoriamente como acidente grave e iniciar imediatamente vacina (dias 0, 3, 7 e 14) combinada ao soro antirrábico.",
+    "rationale": "CORRETA. Pela regra de ouro epidemiológica, todo e qualquer acidente envolvendo morcegos ou mamíferos silvestres (incluindo saguis, raposas e macacos), independentemente da extensão, profundidade ou localização da lesão (mesmo um arranhão mínimo ou lambedura em pele não íntegra), é mandatório e compulsoriamente classificado como GRAVE. A conduta imediata e inegociável (Cenário 3) consiste em lavagem do sítio anatômico, início imediato da vacina antirrábica (dias 0, 3, 7 e 14) e administração de soro antirrábico (SAR ou IGHAR)."
+   },
+   {
+    "letter": "B",
+    "text": "Enquadrar o caso como acidente leve por ser arranhão único e superficial, indicando exclusivamente vacinação nos dias 0, 3, 7 e 14.",
+    "rationale": "Incorreta. A diferenciação anatômica e morfológica entre acidente leve e grave se aplica apenas a cães e gatos sob determinadas condições de observação. Para animais silvestres, não existe a categoria 'acidente leve'; toda exposição é considerada grave por definição técnica."
+   },
+   {
+    "letter": "C",
+    "text": "Dispensar o uso de imunobiológicos caso o animal silvestre seja capturado pela equipe ambiental para observação em cativeiro por 10 dias.",
+    "rationale": "Incorreta. Não existe período de observação clínica seguro para animais silvestres e quirópteros. A patogenia e a cinética de eliminação viral nessas espécies são imprevisíveis (morcegos, por exemplo, podem albergar o vírus assintomaticamente), sendo contraindicado aguardar ou observar o animal."
+   },
+   {
+    "letter": "D",
+    "text": "Indicar sorologia prévia para detecção de anticorpos neutralizantes e iniciar profilaxia apenas se o título for inferior a 0,5 UI/mL.",
+    "rationale": "Incorreta. A titulação sorológica é reservada para acompanhamento da profilaxia pré-exposição ocupacional (14 dias após a 2ª dose). Na profilaxia pós-exposição após agressão, o risco de encefalite letal exige início imediato dos imunobiológicos, sem esperar exames laboratoriais."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Qualquer contato de risco com animais silvestres ou morcegos é compulsoriamente classificado como grave, exigindo vacina (4 doses) e soro de imediato.",
+  "bookContext": {
+   "text": "No ciclo silvestre da raiva, cujos principais reservatórios incluem quirópteros, primatas não humanos (saguis, macacos) e canídeos silvestres (raposas), a biologia da infecção difere substancialmente do ciclo urbano clássico. A eliminação viral nesses reservatórios pode ocorrer por períodos prolongados sem que haja manifestação sindrômica evidente, tornando o conceito de observação clínica ineficaz e perigoso. Por esse motivo, as diretrizes de vigilância epidemiológica do Ministério da Saúde determinam que qualquer agressão ou contato suscetível envolvendo mamíferos silvestres receba classificação de gravidade máxima imediata. A conduta clínica universal para esse cenário demanda a associação mandatória de vacina antirrábica celular e imunoglobulina ou soro neutralizante.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 343,
+  "code": "RAIVA-24",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Conduta na reexposição antirrábica e quadro clínico da encefalite",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um médico veterinário de 31 anos procura a UBS após ser mordido no antebraço por um cão com sinais neurológicos evidentes de agressividade e sialorreia intensa, que veio a óbito 2 horas após a agressão. O profissional comprova ter realizado esquema completo de profilaxia pós-exposição há 1 ano com sorologia protetora documentada. Paralelamente, o profissional discute com o residente sobre a fisiopatologia da doença, destacando que a encefalite rábica humana cursa com letalidade de quase 100%, caracterizada tipicamente por espasmos musculares à deglutição, hidrofobia, aerofobia e instabilidade autonômica. Diante do histórico vacinal prévio e da reexposição atual a animal comprovadamente raivoso, qual é a conduta técnica indicada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Repetir o esquema completo com 4 doses de vacina antirrábica nos dias 0, 3, 7 e 14 e indicar soro antirrábico heterólogo.",
+    "rationale": "Incorreta. Pacientes com imunização prévia comprovada não necessitam do esquema completo de 4 doses e não devem receber soro antirrábico (SAR ou IGHAR), que é formalmente contraindicado/dispensado na reexposição."
+   },
+   {
+    "letter": "B",
+    "text": "Apenas higienizar o local com água e sabão, dispensando vacina e soro devido à presença de memória imune permanente.",
+    "rationale": "Incorreta. Embora o paciente possua memória imunológica, a letalidade de quase 100% da infecção pelo Lyssavirus não permite conduta expectante; a reexposição exige obrigatoriamente a reativação rápida da resposta anamnéstica por meio de doses de reforço vacinal."
+   },
+   {
+    "letter": "C",
+    "text": "Administrar dose única de reforço vacinal associada à infiltração de imunoglobulina humana antirrábica na ferida.",
+    "rationale": "Incorreta. O esquema de reexposição preconiza 2 doses de vacina (dias 0 e 3), e o uso de soro ou imunoglobulina é dispensado, já que a presença prévia de memória imune celular e humoral torna desnecessária a infusão passiva de anticorpos, além de poder interferir na resposta imune anamnéstica."
+   },
+   {
+    "letter": "D",
+    "text": "Realizar limpeza rigorosa do ferimento e administrar 2 doses de reforço da vacina nos dias 0 e 3, dispensando o soro.",
+    "rationale": "CORRETA. De acordo com o protocolo oficial do Ministério da Saúde e os slides da aula, nos casos de reexposição de indivíduos que já receberam profilaxia pré-exposição completa ou esquema pós-exposição anterior comprovado, a conduta consiste exclusivamente na lavagem criteriosa do ferimento e na administração de 2 doses de reforço da vacina antirrábica nos dias 0 e 3. O soro antirrábico (SAR) ou a imunoglobulina (IGHAR) é formalmente dispensado nessas situações, pois o organismo é capaz de produzir rapidamente títulos protetores de anticorpos em resposta ao reforço antigênico."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Na reexposição de paciente previamente imunizado, administram-se apenas 2 doses de vacina (dias 0 e 3), com dispensa formal de soro antirrábico.",
+  "bookContext": {
+   "text": "A encefalite rábica decorrente da ação neurotrópica do gênero Lyssavirus instala-se após a replicação viral nas terminações nervosas periféricas e ascensão retrógrada pelos axônios até o sistema nervoso central. Clinicamente, manifesta-se por extrema hiperexcitabilidade, espasmos dolorosos dos músculos laríngeos e faríngeos desencadeados pela tentativa de ingerir líquidos (hidrofobia) ou pelo contato com correntes de ar (aerofobia), culminando invariavelmente em coma e óbito por falência cardiorrespiratória em praticamente 100% dos indivíduos não imunizados a tempo. Na vigência de reexposição de indivíduo previamente imunizado, a capacidade de ativação rápida das células de memória dispensa o uso de imunização passiva com soro ou imunoglobulina, que poderiam bloquear epítopos vacinais. Assim, a aplicação criteriosa de duas doses de reforço nos dias 0 e 3 garante a rápida elevação dos títulos de anticorpos neutralizantes acima de 0,5 UI/mL antes do acometimento do neuroeixo.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 344,
+  "code": "RAIVA-25",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Período de transmissibilidade viral e fundamentação biológica do período de observação de 10 dias",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um médico de família e comunidade atende um homem de 30 anos que sofreu mordedura na perna provocada pelo cão de seu vizinho. O animal apresenta comportamento habitual, está aparentemente sadio e o tutor aceitou mantê-lo sob isolamento e vigilância domiciliar. Durante a consulta, o paciente questiona por que a conduta preconizada consiste em observar o cão durante exatamente 10 dias antes de definir a necessidade de imunização humana. Considerando a dinâmica de replicação viral e a história natural da raiva no ciclo urbano, a justificativa biológica correta repassada pelo médico é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "o vírus rábico permanece contido no encéfalo durante dez dias antes de iniciar sua migração centrífuga rumo às glândulas salivares.",
+    "rationale": "Incorreta. a disseminação centrífuga para glândulas salivares não segue uma janela de restrição encefálica fixa de dez dias; o período de observação decorre da velocidade letal da doença após o acometimento glandular."
+   },
+   {
+    "letter": "B",
+    "text": "a sorologia canina para titulação de anticorpos neutralizantes só atinge sensibilidade diagnóstica após dez dias de observação clínica.",
+    "rationale": "Incorreta. o protocolo de observação de dez dias é estritamente clínico e epidemiológico, não dependendo de coleta sorológica nem de titulação de anticorpos no animal."
+   },
+   {
+    "letter": "C",
+    "text": "a eliminação salivar do vírus antecede os sintomas em 2 a 5 dias, e o animal morre em até uma semana após o início do quadro.",
+    "rationale": "CORRETA. em cães e gatos, o vírus é excretado na saliva por um curto intervalo (2 a 5 dias) antes das manifestações clínicas e a evolução para o óbito ocorre invariavelmente em poucos dias (até uma semana), tornando o período de 10 dias seguro para descartar transmissão."
+   },
+   {
+    "letter": "D",
+    "text": "os cães podem albergar o vírus de forma latente na saliva por meses sem sintomas, adoecendo repentinamente após o término desse período.",
+    "rationale": "Incorreta. canídeos não atuam como portadores crônicos ou assintomáticos com excreção salivar por meses; uma vez que o vírus atinge as glândulas salivares, o quadro clínico e o óbito são rápidos e inevitáveis."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A observação de cães e gatos por 10 dias fundamenta-se na excreção viral salivar de 2 a 5 dias antes dos sintomas e morte em 5 a 7 dias após o adoecimento.",
+  "bookContext": {
+   "text": "O vírus da raiva, pertencente ao gênero Lyssavirus e família Rhabdoviridae, apresenta tropismo estrito pelo tecido nervoso. Uma vez no sistema nervoso central, o vírus realiza disseminação centrífuga através das fibras nervosas autonômicas e sensitivas até atingir as glândulas salivares, onde passa a ser excretado na saliva. No ciclo urbano, cães e gatos transmitem a infecção apenas nos dias finais da fase de incubação e durante o período clínico, culminando inevitavelmente na morte do hospedeiro. Dessa forma, a sobrevida do animal com higidez clínica ao décimo dia pós-exposição exclui a transmissibilidade do agente durante a agressão.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico e MS · Raiva"
+  },
+  "revisada": true
+ },
+ {
+  "id": 345,
+  "code": "RAIVA-26",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Classificação topográfica e morfológica do acidente rábico (Leve vs. Grave)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Durante o plantão em uma Unidade Básica de Saúde, chegam quatro pacientes vítimas de agressões causadas por cães e gatos domiciliados. O médico analisa a localização anatômica, a extensão e a integridade da barreira cutânea ou mucosa para estratificar a gravidade de cada caso de acordo com as normas de vigilância epidemiológica. Assinale a alternativa que apresenta uma exposição que deve ser enquadrada taxonomicamente como ACIDENTE GRAVE, independentemente de haver sangramento profuso no momento do exame:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Lambedura de pele íntegra no antebraço e tronco por cão com histórico de vacinação anual em atraso.",
+    "rationale": "Incorreta. O contato de saliva de animal suspeito com pele comprovadamente íntegra não rompe as barreiras biológicas, não constituindo exposição rábica efetiva e dispensando o uso de imunobiológicos."
+   },
+   {
+    "letter": "B",
+    "text": "Lambedura de mucosa labial íntegra por cão comunitário de rua durante momento de interação lúdica.",
+    "rationale": "CORRETA. Qualquer contato de saliva rábica com mucosas (incluindo boca, lábios, narinas e conjuntiva ocular), ainda que histologicamente ou macroscopicamente íntegras, é automaticamente classificado como acidente grave pela ausência de camada córnea espessa e pela rica inervação subepitelial, o que facilita o contato imediato do vírus com terminações nervosas."
+   },
+   {
+    "letter": "C",
+    "text": "Arranhadura linear e superficial na região abdominal provocada por gato, sem sangramento ativo.",
+    "rationale": "Incorreta. Ferimentos superficiais e arranhaduras no tronco ou em membros (com exceção de mãos, pés e polpas digitais) sem sangramento importante são categorizados como acidentes leves."
+   },
+   {
+    "letter": "D",
+    "text": "Mordedura puntiforme superficial restrita à face anterior da coxa, sem lesão de planos profundos.",
+    "rationale": "Incorreta. Mordeduras superficiais no tronco ou segmentos proximais dos membros (coxas, pernas, braços), sem atingir extremidades distais ou face, configuram acidentes leves."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Lambedura de mucosas (mesmo íntegras) e lesões em face, pescoço, mãos e pés são classificadas taxonomicamente como acidentes graves.",
+  "bookContext": {
+   "text": "A classificação da exposição rábica em leve ou grave leva em consideração dois fatores críticos: a densidade de terminações nervosas na área anatômica agredida e a distância em relação ao sistema nervoso central. Ferimentos em cabeça, face, pescoço, mãos, polpas digitais e pés oferecem trajetos neuronais curtos e densos, o que encurta drasticamente o período de incubação da doença. Além disso, as mucosas possuem elevada permeabilidade biológica e vascularização abundante, de modo que o contato salivar direto com a superfície mucosa deve ser conduzido invariavelmente sob o protocolo de exposição grave. Nos ferimentos leves em tronco ou membros proximais, o maior tempo de migração axonal permite respostas imunes mais flexíveis.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico e MS · Raiva"
+  },
+  "revisada": true
+ },
+ {
+  "id": 346,
+  "code": "RAIVA-27",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Cuidados locais com o ferimento e técnica de infiltração de imunobiológicos (SAR/IGHAR)",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma jovem de 22 anos é admitida em uma unidade de pronto atendimento após sofrer mordedura profunda com laceração na mão direita provocada por um cão de rua desconhecido, que fugiu logo em seguida. O médico constata tratar-se de exposição grave em membro distal, indicando profilaxia com vacina associada ao soro antirrábico heterólogo (SAR) ou imunoglobulina humana (IGHAR). Em relação aos cuidados com a ferida e às normas de administração dos imunobiológicos na atenção primária, a conduta técnica adequada é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "lavar exaustivamente a lesão com água e sabão e infiltrar a maior quantidade anatômica possível do soro na ferida.",
+    "rationale": "CORRETA. A lavagem imediata com água e sabão remove a saliva e inativa mecanicamente o vírus rábico. A neutralização passiva com SAR ou IGHAR exige que a maior dose possível (ou a totalidade) seja infiltrada nas bordas e no interior da própria ferida; caso sobre volume que não caiba anatomicamente, este deve ser aplicado por via intramuscular em local distante da vacina."
+   },
+   {
+    "letter": "B",
+    "text": "realizar sutura cirúrgica hermética das bordas da laceração antes de injetar o soro por via intravenosa contínua.",
+    "rationale": "Incorreta. A sutura de ferimentos por mordedura animal deve ser evitada devido ao alto risco de infecções secundárias e facilitação da penetração viral; caso seja estritamente necessária por motivos hemostáticos ou funcionais, deve-se realizar apenas aproximação frouxa e obrigatoriamente após a infiltração prévia do soro local."
+   },
+   {
+    "letter": "C",
+    "text": "administrar todo o volume do soro por via intramuscular no mesmo membro e no mesmo sítio de aplicação da vacina.",
+    "rationale": "Incorreta. O soro e a vacina nunca devem ser aplicados no mesmo sítio anatômico ou misturados, pois os anticorpos do soro neutralizariam de imediato os antígenos da vacina, impedindo a imunização ativa do indivíduo."
+   },
+   {
+    "letter": "D",
+    "text": "debridar as bordas feridas e instituir antibioticoterapia oral profilática em substituição à administração de soros.",
+    "rationale": "Incorreta. O uso de antibioticoterapia atua na profilaxia contra infecções bacterianas mistas (como Pasteurella multocida e anaeróbios da flora bucal do animal), mas não exerce qualquer ação antiviral e não substitui a imunoprofilaxia antirrábica."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A lavagem com água e sabão e a infiltração local do soro na ferida são prioritárias; a sutura hermética e a aplicação de soro e vacina no mesmo sítio são contraindicadas.",
+  "bookContext": {
+   "text": "A primeira barreira terapêutica contra a infecção pelo vírus da raiva é a remoção física imediata das partículas virais depositadas no leito da lesão, devendo-se utilizar sabão, detergentes ou antissépticos como iodopovidona e clorexidina. O vírus rábico possui envelope lipídico que se desestabiliza rapidamente em contato com agentes tensoativos. A infiltração de anticorpos neutralizantes específicos (SAR ou IGHAR) diretamente nos tecidos adjacentes à mordedura tem a função crítica de neutralizar o vírus in situ antes de sua ancoragem nos receptores nicotínicos de acetilcolina da placa motora. A sutura primária compressiva é contraindicada por reter secreções virais e favorecer o influxo de microrganismos invasores.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico e MS · Raiva"
+  },
+  "revisada": true
+ },
+ {
+  "id": 347,
+  "code": "RAIVA-28",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Esquema de imunização pós-exposição e profilaxia pré-exposição (PrEP) ocupacional",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um biólogo de 27 anos foi contratado por um centro de triagem de animais silvestres e zoológico para atuar no manejo de mamíferos selvagens e quirópteros. Antes de iniciar suas atividades em campo, ele busca a equipe de saúde da família para planejar sua proteção vacinal contra a raiva. Além disso, busca orientações sobre as vias de aplicação e a monitorização laboratorial exigidas pelos manuais de vigilância em saúde do trabalhador. De acordo com as diretrizes do Ministério da Saúde para o manejo profilático da raiva, é correto afirmar que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "a profilaxia pré-exposição ocupacional requer quatro doses de vacina e dispensa o seguimento sorológico posterior.",
+    "rationale": "Incorreta. O esquema de profilaxia pré-exposição (PrEP) rábica ocupacional consiste em 2 doses (dias 0 e 7), e a avaliação sorológica a partir do 14º dia pós-esquema é etapa obrigatória para comprovar títulos protetores."
+   },
+   {
+    "letter": "B",
+    "text": "o protocolo pré-exposição preconiza reforços anuais obrigatórios da vacina independentemente do título sorológico.",
+    "rationale": "Incorreta. Os reforços vacinais em profissionais expostos não devem ser aplicados anualmente de forma empírica; eles são condicionados aos resultados da monitorização sorológica periódica (reforço apenas se o título for menor que 0,5 UI/mL)."
+   },
+   {
+    "letter": "C",
+    "text": "a vacinação antirrábica deve ser administrada de preferência no músculo glúteo máximo para atenuar o edema local.",
+    "rationale": "Incorreta. A via de escolha para a vacina antirrábica é o músculo deltoide (ou face anterolateral da coxa em crianças pequenas); a administração no glúteo máximo é expressamente contraindicada devido à espessa camada de tecido adiposo, que acarreta absorção errática e falha no alcance de títulos protetores."
+   },
+   {
+    "letter": "D",
+    "text": "a profilaxia pré-exposição é composta por 2 doses (dias 0 e 7), com titulação de anticorpos a partir do 14º dia.",
+    "rationale": "CORRETA. O Ministério da Saúde padronizou a profilaxia pré-exposição em 2 doses de vacina de cultivo celular (nos dias 0 e 7), aplicadas por via intramuscular ou intradérmica. A realização do exame sorológico de neutralização é mandatória a partir do 14º dia após a última dose, considerando-se adequado o título superior a 0,5 UI/mL."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A profilaxia pré-exposição ocupacional utiliza 2 doses (dias 0 e 7) com sorologia a partir do 14º dia (sucesso: > 0,5 UI/mL); o uso do glúteo é contraindicado.",
+  "bookContext": {
+   "text": "A profilaxia pré-exposição (PrEP) da raiva é voltada a indivíduos sob risco ocupacional ou recreativo contínuo de contato com o vírus rábico, tais como biólogos, médicos veterinários, espeleólogos e equipes de zoonoses. O esquema prévio simplifica de forma determinante a abordagem caso ocorra um acidente rábico futuro, eliminando a necessidade de uso de soro heterólogo ou imunoglobulina humana homóloga e reduzindo o número de doses de reforço pós-exposição para apenas 2 aplicações (dias 0 e 3). A monitorização sorológica visa certificar que a resposta imunológica ultrapassou o limiar de 0,5 UI/mL estipulado pela OMS, disparando doses de reforço imediatas caso o indivíduo não apresente títulos neutralizantes protetores.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico e MS · Raiva"
+  },
+  "revisada": true
+ },
+ {
+  "id": 348,
+  "code": "RAIVA-29",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Forma clínica paralítica da raiva e diagnósticos diferenciais neurológicos",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 42 anos, morador de comunidade ribeirinha, é admitido na Unidade de Emergência com queixa de fraqueza muscular simétrica progressiva em membros inferiores há quatro dias, com evolução ascendente para membros superiores, hiporreflexia e retenção urinária. Não são observados sinais de agitação psicomotora, confusão mental, febre elevada, hidrofobia ou aerofobia. A hipótese diagnóstica inicial aventada pelo plantonista foi de Síndrome de Guillain-Barré. Entretanto, na anamnese detalhada colhida com familiares, relata-se que o paciente havia acordado com marcas de sangramento no pé após contato inadvertido com um morcego há cerca de 40 dias, sem ter procurado assistência médica à época. Diante da correlação clínica e epidemiológica da raiva humana, assinale a opção correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O diagnóstico de raiva humana pode ser prontamente descartado pela presença de paralisia flácida associada à ausência completa de hidrofobia.",
+    "rationale": "Incorreta. Em cerca de 20% dos casos de raiva humana, o quadro não se manifesta na forma clássica furiosa/encefalítica (com hidrofobia, aerofobia e agitação), mas sim na forma paralítica ('raiva muda'). Essa apresentação paralítica cursa com fraqueza flácida progressiva ascendente e arreflexia, não podendo ser descartada pela ausência de hidrofobia."
+   },
+   {
+    "letter": "B",
+    "text": "A confirmação etiológica rápida em vida exige a realização de tomografia craniana contrastada para evidenciar áreas de desmielinização focal.",
+    "rationale": "Incorreta. Exames de neuroimagem não são específicos nem estabelecem confirmação etiológica na raiva. O diagnóstico laboratorial em vida é firmado por imunofluorescência direta ou RT-PCR em biópsia de folículos pilosos da região da nuca (pele cervical), raspado de mucosa lingual ou impressão de córnea, cuja negatividade, contudo, não exclui o diagnóstico."
+   },
+   {
+    "letter": "C",
+    "text": "A infecção por morcegos hematófagos cursa predominantemente com a forma paralítica da raiva, simulando a Síndrome de Guillain-Barré.",
+    "rationale": "CORRETA. A raiva humana transmitida por quirópteros hematófagos manifesta-se predominantemente sob a forma paralítica, cuja apresentação clínica assemelha-se a uma polirradiculoneuropatia flácida ascendente, tornando a Síndrome de Guillain-Barré, o botulismo e as mielites os principais diagnósticos diferenciais descritos pelos protocolos oficiais."
+   },
+   {
+    "letter": "D",
+    "text": "A administração imediata do soro antirrábico heterólogo é indicada nesse momento para neutralizar as partículas virais no sistema nervoso.",
+    "rationale": "Incorreta. Após a instalação das manifestações clínicas neurológicas da raiva, a imunoprofilaxia passiva (soro antirrábico) e ativa (vacina) não possui mais indicação terapêutica nem eficácia, pois as imunoglobulinas não ultrapassam a barreira hematoencefálica e a doença já se estabeleceu nos neurônios centrais, restando suporte intensivo."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "A raiva transmitida por morcegos hematófagos cursa frequentemente sob a forma paralítica (raiva muda), sem hidrofobia, mimetizando a Síndrome de Guillain-Barré.",
+  "bookContext": {
+   "text": "A raiva humana clássica manifesta-se em cerca de 80% dos indivíduos sob a forma encefalítica, caracterizada por hidrofobia, aerofobia, salivação intensa e hiperexcitabilidade autonômica com lucidez preservada até o coma. No entanto, infecções causadas por cepas de quirópteros hematófagos apresentam predominantemente a forma paralítica, na qual predominam paralisia flácida simétrica e paresias ascendentes. Nesses cenários atípicos, a confusão com polirradiculoneuropatias inflamatórias como a Síndrome de Guillain-Barré e botulismo é frequente, exigindo investigação minuciosa de antecedentes epidemiológicos. Uma vez iniciada a sintomatologia clínica, a evolução para óbito ocorre habitualmente em 2 a 7 dias, mantendo letalidade de aproximadamente 100%.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 349,
+  "code": "RAIVA-30",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Fatores determinantes do período de incubação e neurofisiopatologia da raiva",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um médico atende na Unidade de Saúde uma jovem de 19 anos que sofreu mordedura por raposa na mão há 20 dias em área rural. A paciente não procurou atendimento médico à época da agressão e o ferimento encontra-se completamente cicatrizado. No momento, a jovem queixa-se de dor local em queimação, hiperestesia e formigamento restritos ao trajeto nervoso do membro acometido, acompanhados de cefaleia, indisposição e febre baixa. Ao orientar a família a respeito da neurofisiopatologia e do curso temporal da infecção pelo Lyssavirus, o médico deve explicar adequadamente que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O surgimento de sintomas após o fechamento da ferida indica que houve reativação bacteriana secundária no subcutâneo, afastando a raiva.",
+    "rationale": "Incorreta. A cicatrização macroscópica da ferida é o padrão habitual durante o período de incubação da raiva. Os sinais de dor, queimação, prurido e parestesia no local da inoculação já cicatrizada constituem o pródromo neurológico típico da replicação e progressão centrípeta do vírus pelos nervos periféricos e gânglios sensoriais."
+   },
+   {
+    "letter": "B",
+    "text": "A duração da incubação varia com o inóculo e a via neural, sendo as queixas sensitivas locais reflexo da replicação nos nervos e gânglios.",
+    "rationale": "CORRETA. O período de incubação depende da distância anatômica até o sistema nervoso central, da concentração de partículas virais inoculadas, da cepa viral e da riqueza de inervação local; as manifestações de dor, queimação e parestesia no sítio da lesão cicatrizada representam a fase prodrômica decorrente da replicação e transporte retrógrado no sistema nervoso periférico."
+   },
+   {
+    "letter": "C",
+    "text": "O período de incubação da raiva humana é homogêneo, durando obrigatoriamente entre sete e catorze dias, qualquer que seja a topografia.",
+    "rationale": "Incorreta. O período de incubação da raiva humana é extremamente variável, indo de dias até anos, com média de 45 dias no ser humano, sendo tipicamente mais curto em crianças e em ferimentos localizados próximos ao sistema nervoso central ou em áreas de rica densidade de inervação."
+   },
+   {
+    "letter": "D",
+    "text": "A replicação inicial do Lyssavirus ocorre nos tecidos linfoides profundos, atingindo o sistema nervoso periférico por disseminação hemática.",
+    "rationale": "Incorreta. O Lyssavirus não possui tropismo linfático primário nem atinge o sistema nervoso central por via hematogênica. A sua invasão ocorre a partir de terminações nervosas periféricas e fusos neuromusculares no sítio da inoculação, propagando-se exclusivamente por transporte axonal retrógrado até a medula espinal e o encéfalo."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "O período de incubação da raiva é variável (média de 45 dias), e parestesias no sítio da lesão cicatrizada constituem pródromos clássicos do transporte neural retrógrado do vírus.",
+  "bookContext": {
+   "text": "O período de incubação do Lyssavirus no ser humano é amplamente dependente da localização da porta de entrada, da proximidade com troncos nervosos e com o encéfalo, além da profundidade e carga viral inoculada pela saliva. O vírus penetra pelas terminações nervosas periféricas e viaja por transporte axonal retrógrado em direção aos gânglios das raízes dorsais e ao sistema nervoso central. Na fase prodrômica, que dura em média de 2 a 10 dias, a dor, parestesia e queimação irradiadas no membro previamente agredido (mesmo com ferimento cicatrizado) constituem sinal patognomônico de acometimento radicular. A compreensão dessa dinâmica temporal e neural fundamenta a urgência da profilaxia pós-exposição antes que o vírus atinja as estruturas neurais protegidas.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 350,
+  "code": "RAIVA-31",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Escolha imunobiológica: soros heterólogos equinos vs. imunoglobulinas homólogas humanas",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 42 anos, transplantado renal em uso de imunossupressores, sofreu corte profundo com estilhaço de metal sujo em área rural. Seu histórico vacinal é incerto. O médico da Unidade Básica de Saúde decide indicar imunização passiva e ativa para tétano. Ao prescrever a imunização passiva, ele pondera entre o Soro Antitetânico (SAT) e a Imunoglobulina Humana Antitetânica (IGHAT). Considerando as propriedades farmacocinéticas, indicações clínicas formais e aspectos bioéticos dos imunobiológicos no SUS, assinale a conduta correta:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Indicar a IGHAT devido à imunossupressão do paciente e à proteção conferida por sua meia-vida biológica prolongada.",
+    "rationale": "CORRETA. Pacientes imunodeprimidos ou transplantados em uso de imunossupressores com ferimentos de risco para tétano têm indicação formal de imunização passiva com IGHAT, aproveitando sua farmacocinética favorável de meia-vida prolongada e menor reatogenicidade."
+   },
+   {
+    "letter": "B",
+    "text": "Prescrever o SAT, visto que a capacidade de neutralização das toxinas pelo soro heterólogo supera a da imunoglobulina humana.",
+    "rationale": "Incorreta. O SAT não apresenta eficácia neutralizante superior à da IGHAT, além de carregar maior risco de reações de hipersensibilidade e eliminação mais rápida. Indivíduos em imunossupressão têm indicação formal de receber a IGHAT no SUS."
+   },
+   {
+    "letter": "C",
+    "text": "Administrar o SAT precedido de anti-histamínicos, destinando a IGHAT do SUS aos casos de prematuridade e recém-nascidos.",
+    "rationale": "Incorreta. A IGHAT não se restringe a prematuros e recém-nascidos; pacientes imunodeprimidos, pessoas com histórico de reação anafilática ou hipersensibilidade ao soro equino e indivíduos com hipogamaglobulinemia também têm indicação formal pelo Ministério da Saúde."
+   },
+   {
+    "letter": "D",
+    "text": "Optar pela IGHAT por via endovenosa direta, visto que a via intramuscular é contraindicada na presença de transplante renal.",
+    "rationale": "Incorreta. A IGHAT para profilaxia antitetânica pós-exposição é administrada por via intramuscular profunda, e o transplante renal não representa contraindicação para aplicação intramuscular na ausência de coagulopatia grave associada."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A IGHAT tem indicação formal em imunodeprimidos, alérgicos a soro heterólogo e prematuros, apresentando meia-vida de 21 a 28 dias frente a menos de 14 dias do SAT.",
+  "bookContext": {
+   "text": "A escolha entre soros heterólogos equinos e imunoglobulinas humanas homólogas envolve critérios farmacocinéticos e bioéticos de justiça distributiva. O soro heterólogo é produzido a partir da hiperimunização equina, sendo mais acessível e amplamente disponível no SUS, porém com meia-vida inferior a 14 dias e potencial de desencadear reações adversas graves, como choque anafilático e doença do soro. Já a imunoglobulina humana homóloga (obtida de plasma de doadores hiperimunizados) confere títulos protetores com meia-vida prolongada de 21 a 28 dias e excelente tolerabilidade. Por se tratar de hemoderivado nobre e de alto custo, sua dispensação no SUS é reservada a situações clínicas estritas: indivíduos imunodeprimidos, antecedentes de reação alérgica a soros de origem equina, recém-nascidos prematuros com ferimentos de risco ou neonatos sob risco de tétano.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 351,
+  "code": "RAIVA-32",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Profilaxia pré-exposição da raiva em grupos ocupacionais de risco",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma estudante do último ano de Medicina Veterinária procura a UBS antes de iniciar estágio em centro de triagem e reabilitação de animais silvestres e quirópteros. Ela nunca foi vacinada contra a raiva e solicita orientações sobre a imunização pré-exposição. Com base nas normas vigentes do Ministério da Saúde e nas diretrizes de saúde ocupacional da atenção primária, qual deve ser a conduta recomendada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prescrever 3 doses da vacina antirrábica nos dias 0, 7 e 28, dispensando exames de titulação sorológica posterior.",
+    "rationale": "Incorreta. O esquema clássico de 3 doses (dias 0, 7 e 28) foi atualizado pelas diretrizes do Ministério da Saúde para o protocolo simplificado de 2 doses (dias 0 e 7). Além disso, em profissionais de alto risco de exposição contínua, o controle sorológico pós-vacinal não pode ser dispensado."
+   },
+   {
+    "letter": "B",
+    "text": "Indicar 2 doses de vacina antirrábica nos dias 0 e 14 e liberar a acadêmica para o estágio imediatamente após a última dose.",
+    "rationale": "Incorreta. O intervalo correto da profilaxia pré-exposição é nos dias 0 e 7 (e não dias 0 e 14). Ademais, a liberação para atividades com animais silvestres ou quirópteros exige a comprovação da soroconversão protetora."
+   },
+   {
+    "letter": "C",
+    "text": "Administrar 4 doses de vacina antirrábica nos dias 0, 3, 7 e 14, associadas ao soro antirrábico devido ao risco com morcegos.",
+    "rationale": "Incorreta. O esquema de 4 doses (dias 0, 3, 7 e 14) associado ou não a soro/imunoglobulina destina-se à profilaxia pós-exposição frente a acidentes graves ou animais suspeitos/silvestres. Na pré-exposição, soro ou imunoglobulina nunca são indicados."
+   },
+   {
+    "letter": "D",
+    "text": "Administrar 2 doses da vacina nos dias 0 e 7, com controle sorológico obrigatório a partir de 14 dias após o esquema.",
+    "rationale": "CORRETA. A profilaxia pré-exposição para grupos com risco ocupacional permanente (veterinários, biólogos, espeleólogos, laboratoristas de virologia) consiste em 2 doses de vacina antirrábica humana (administradas nos dias 0 e 7 por via intramuscular ou intradérmica). A realização de titulação de anticorpos neutralizantes a partir do 14º dia após a última dose é mandatória; considera-se protegida a pessoa com título igual ou superior a 0,5 UI/mL."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "A pré-exposição da raiva é feita com 2 doses (dias 0 e 7) e titulação sorológica obrigatória a partir do 14º dia, exigindo títulos maiores ou iguais a 0,5 UI/mL.",
+  "bookContext": {
+   "text": "A profilaxia pré-exposição contra a raiva humana simplifica expressivamente a intervenção terapêutica na eventualidade de uma exposição futura ao vírus rábico. Caso um indivíduo previamente imunizado com sorologia protetora confirmada sofra agressão por mamífero, não haverá necessidade do uso de soro antirrábico (SAR) ou imunoglobulina humana (IGHAR), além de exigir um número menor de doses vacinais de reforço (apenas nos dias 0 e 3). O protocolo preconiza duas doses da vacina de cultivo celular ou embrião de galinha nos dias 0 e 7, por via intramuscular (0,5 mL ou 1,0 mL) ou intradérmica (0,2 mL fracionado em dois sítios). A avaliação da resposta imunológica via teste sorológico aos 14 dias pós-esquema garante a titulação protetora mínima de 0,5 UI/mL, sendo recomendada dose adicional de reforço caso o valor seja inferior a esse corte.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 352,
+  "code": "RAIVA-33",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Cuidados locais na APS: lavagem, desbridamento cirúrgico, sutura e antimicrobianos",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um carpinteiro de 38 anos procura a Unidade Básica de Saúde duas horas após sofrer laceração irregular e profunda na face volar do antebraço direito por serra manual enferrujada e impregnada de serragem. Durante o atendimento, o médico planeja a abordagem da ferida. Considerando as recomendações de boas práticas para prevenção de infecções anaeróbias e manejo local de ferimentos de alto risco na APS, assinale a conduta adequada:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Suturar a lesão hermeticamente com pontos simples imediatos e iniciar antibioticoterapia com amoxicilina em vez da vacina.",
+    "rationale": "Incorreta. Suturas herméticas em ferimentos com alto grau de contaminação e potencial desvitalização tecidual favorecem o fechamento de cavidades anaeróbias ideais para a proliferação bacteriana e produção de tetanospasmina, além de aumentar o risco de infecções supurativas secundárias. Ademais, antibióticos não substituem a vacinação."
+   },
+   {
+    "letter": "B",
+    "text": "Aplicar degermante tópico de clorexidina e dispensar desbridamento caso seja iniciada antibioticoterapia profilática venosa.",
+    "rationale": "Incorreta. O desbridamento mecânico-cirúrgico é insubstituível. Nenhuma substância antisséptica tópica nem antimicrobiano sistêmico é capaz de penetrar eficazmente em tecidos necróticos isquêmicos para eliminar os esporos bacterianos."
+   },
+   {
+    "letter": "C",
+    "text": "Realizar lavagem abundante, desbridar tecido desvitalizado, aproximar bordas sem tensão hermética e avaliar vacina.",
+    "rationale": "CORRETA. As ações de ouro no manejo local envolvem lavagem mecânica exaustiva com água corrente e sabão ou antissépticos degermantes (clorexidina ou povidona) para remoção mecânica de sujidades e corpos estranhos. O desbridamento cirúrgico criterioso de tecidos desvitalizados e necróticos é mandatório para destruir o microambiente de anaerobiose estrita exigido pela germinação dos esporos do Clostridium tetani. Além disso, em feridas complexas, contaminadas ou por mordedura, deve-se evitar suturas primárias herméticas, optando-se pela aproximação frouxa ou cicatrização por segunda intenção, sem negligenciar a verificação vacinal."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever profilaxia com penicilina benzatina como substituto do desbridamento para evitar a germinação das formas esporuladas.",
+    "rationale": "Incorreta. Conforme destacado expressamente no slide de cuidados locais, 'antibiótico não é vacina'. Antimicrobianos não substituem a remoção cirúrgica de corpos estranhos e tecidos desvitalizados nem substituem a imunoprofilaxia adequada com vacina e soro/imunoglobulina."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "O desbridamento cirúrgico elimina a anaerobiose necessária ao esporo de C. tetani; suturas herméticas devem ser evitadas e antibiótico não substitui imunoprofilaxia.",
+  "bookContext": {
+   "text": "A patogênese do tétano está estritamente condicionada à existência de anaerobiose tecidual ('gatilho patogênico'), sem a qual os esporos inertes de Clostridium tetani não conseguem germinar para a forma vegetativa capaz de secretar tetanospasmina. Por essa razão, os cuidados locais na atenção primária têm valor preventivo tão decisivo quanto os imunobiológicos. A limpeza vigorosa sob jato de água corrente e solução degermante reduz a carga bacteriana de superfície, enquanto o desbridamento cirúrgico de margens necróticas restabelece a oxigenação tecidual e remove o leito anaeróbio. Em contrapartida, erros frequentes na prática médica incluem a sutura hermética oclusiva de lesões contaminadas — o que catalisa a multiplicação bacteriana — e a ilusão de que a antibioticoterapia profilática substitui a necessidade de limpeza cirúrgica ou a indicação de imunobiológicos.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 353,
+  "code": "RAIVA-34",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Profilaxia universal do tétano, vacinação na gestante e notificação com emissão de CAT",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma trabalhadora da construção civil de 26 anos, gestante com 24 semanas de idade gestacional, sofreu ferimento perfurocortante profundo no pé por prego sujo de terra no canteiro de obras. Ela comprova esquema básico completo de tétano na infância e última dose de reforço (dT) há 3 anos. Diante da gestação, do risco do ferimento e do contexto ocupacional, qual é a conduta sequencial integral recomendada na APS?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Aplicar soro antitetânico equino imediatamente e emitir notificação de agravo, dispensando qualquer dose de vacina durante a gestação.",
+    "rationale": "Incorreta. A paciente tem esquema prévio completo e última dose há menos de 5 anos; portanto, para ferimento de alto risco, ela não necessita de soro antitetânico (SAT) nem de reforço emergencial para o tétano acidental. Além disso, a vacinação no pré-natal não é dispensada, sendo indicada a dTpa."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar a vacina dTpa preconizada no pré-natal, dispensar imunoglobulina/soro e emitir a Comunicação de Acidente de Trabalho.",
+    "rationale": "CORRETA. A paciente completou o esquema básico e recebeu reforço há menos de 5 anos; pelo algoritmo de pós-exposição ao tétano, nenhuma conduta imunobiológica de urgência (reforço ou soro/imunoglobulina) seria mandatória apenas pela lesão aguda. Entretanto, por estar com 24 semanas de gestação (acima da 20ª semana), ela tem indicação eletiva da dose de dTpa da gravidez, garantindo a passagem transplacentária de anticorpos protetores contra tétano neonatal e coqueluche do recém-nascido. Por se tratar de agravo ocorrido no exercício do trabalho, é compulsória a emissão da Comunicação de Acidente de Trabalho (CAT)."
+   },
+   {
+    "letter": "C",
+    "text": "Administrar dose de reforço da vacina dT por se tratar de ferimento perfurante e dispensar a CAT por já existir registro vacinal prévio.",
+    "rationale": "Incorreta. Como o esquema vacinal tem 3 doses e a última foi há menos de 5 anos, não há indicação estrita de dose emergencial de reforço antitetânico apenas pelo acidente. Contudo, sendo um acidente de trabalho típico em trabalhadora com carteira formal, a emissão da CAT é obrigatória por lei."
+   },
+   {
+    "letter": "D",
+    "text": "Contraindicar a vacina contendo pertussis na gestação, aplicar IGHAT profilática e orientar repouso domiciliar sem necessidade de CAT.",
+    "rationale": "Incorreta. A dTpa (tríplice acelular do adulto) não é contraindicada na gravidez; pelo contrário, é formalmente indicada a cada gestação a partir da 20ª semana. Além disso, o acidente de trabalho impõe a emissão obrigatória da CAT."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A dTpa é indicada a cada gestação a partir da 20ª semana; pacientes com esquema completo há menos de 5 anos dispensam SAT/IGHAT, sendo mandatória a emissão de CAT em acidente laboral.",
+  "bookContext": {
+   "text": "A proteção contra o tétano na atenção primária articula medidas de caráter universal, materno-infantil e de saúde do trabalhador. A conduta universal consiste no esquema primário infantil (pentavalente e DTP) com reforços decenais da vacina dT ao longo da vida adulta. Para as gestantes, o Ministério da Saúde padronizou a administração de uma dose de dTpa a cada gestação, a partir da 20ª semana, como estratégia definitiva para a erradicação do tétano neonatal e fornecimento precoce de imunoglobulinas maternas protetoras contra Bordetella pertussis ao recém-nascido. Em paralelo, a abordagem do trabalhador acidentado na APS requer a notificação compulsória do evento nos sistemas de vigilância e a emissão obrigatória da Comunicação de Acidente de Trabalho (CAT), documento essencial para assegurar direitos previdenciários e subsidiar ações de vigilância em saúde do trabalhador.",
+   "fonte": "Somente slide da aula"
+  },
+  "revisada": true
+ },
+ {
+  "id": 354,
+  "code": "RAIVA-35",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Indicações estritas de Imunoglobulina Humana Antitetânica (IGHAT)",
+  "difficulty": "Básica",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 38 anos procura a Unidade Básica de Saúde após sofrer laceração profunda no antebraço direito com arame farpado em área rural. Ele relata esquema vacinal antitetânico incerto na infância e nenhuma dose nos últimos quinze anos. Durante a anamnese dirigida, relata ter apresentado episódio prévio de choque anafilático com edema de glote após uso de soro antiofídico equino em acidente anterior. Diante da necessidade de profilaxia passiva e ativa para tétano acidental, qual imunobiológico heterólogo ou homólogo deve ser obrigatoriamente prescrito?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Imunoglobulina Humana Antitetânica (IGHAT), devido à anafilaxia prévia a soro heterólogo equino.",
+    "rationale": "CORRETA. A IGHAT possui indicações estritas e prioritárias no SUS, incluindo histórico comprovado de hipersensibilidade a soros heterólogos de origem equina (SAT, SAR, antiofídicos), imunodeprimidos, prematuros e recém-nascidos de risco, garantindo neutralização segura da tetanospasmina sem induzir choque anafilático."
+   },
+   {
+    "letter": "B",
+    "text": "Soro Antitetânico (SAT) associado à pré-medicação com bloqueadores H1 e corticoterapia endovenosa.",
+    "rationale": "Incorreta. O pré-tratamento com anti-histamínicos e corticoides não impede de forma segura reações anafiláticas mediadas por IgE em indivíduos previamente sensibilizados a proteínas equinas, sendo contraindicada a reaplicação de soro heterólogo quando há alternativa homóloga."
+   },
+   {
+    "letter": "C",
+    "text": "Soro Antitetânico (SAT) sob dessensibilização rápida e leito de suporte para parada cardiorrespiratória.",
+    "rationale": "Incorreta. A dessensibilização rápida a soros heterólogos só se justifica em circunstâncias excepcionais de indisponibilidade absoluta de imunoglobulina humana e risco iminente de morte, o que não se aplica diante da existência da IGHAT regulada pelo SUS."
+   },
+   {
+    "letter": "D",
+    "text": "Vacina adsorvida difteria e tétano (dT) em dose dupla, dispensando neutralização passiva de toxina.",
+    "rationale": "Incorreta. O ferimento é classificado como de alto risco e o esquema vacinal é incerto/incompleto há mais de dez anos, o que torna obrigatória a neutralização imediata da toxina tetânica circulante por imunização passiva, não bastando a vacinação isolada."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "O histórico de anafilaxia ou hipersensibilidade prévia a qualquer soro heterólogo equino contraindica formalmente o SAT e constitui indicação estrita de Imunoglobulina Humana Antitetânica (IGHAT).",
+  "bookContext": {
+   "text": "A alocação criteriosa de imunoglobulinas humanas homólogas fundamenta-se nos princípios bioéticos de justiça distributiva e não maleficência, preservando insumos de alto custo para indivíduos com contraindicação formal aos soros heterólogos. Enquanto os soros equinos apresentam meia-vida inferior a 14 dias e elevado potencial alergênico, as imunoglobulinas humanas conferem proteção estendida por 21 a 28 dias sem desencadear reações anafiláticas sistêmicas graves. Na Atenção Primária à Saúde, a identificação imediata dessas indicações estritas previne iatrogenias e garante a regulação ágil do imunobiológico junto aos Centros de Referência de Imunobiológicos Especiais.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulos 2 e 4; e Aula VAT2 · Acidentes tetânico e rábico."
+  },
+  "revisada": true
+ },
+ {
+  "id": 355,
+  "code": "RAIVA-36",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Reexposição rábica após esquema profilático prévio completo",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma médica veterinária de 31 anos, que concluiu esquema de profilaxia pré-exposição antirrábica com titulação sorológica protetora confirmada há 8 meses, sofre arranhadura profunda e sangrante na mão esquerda causada por um morcego insetívoro durante manejo de campo. A profissional lava o ferimento imediatamente com água e sabão por 15 minutos e comparece à Unidade Básica de Saúde para atendimento. Considerando as diretrizes do Ministério da Saúde para reexposição rábica, qual é a conduta imunobiológica correta?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prescrever quatro doses de vacina antirrábica nos dias 0, 3, 7 e 14 associadas à infiltração de IGHAR.",
+    "rationale": "Incorreta. O esquema de quatro doses associado a soro ou imunoglobulina é indicado para exposições graves em indivíduos não previamente imunizados; na reexposição com esquema anterior completo comprovado, a memória imune dispensa soro e reduz o número de doses vacinais."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar o soro antirrábico (SAR) em dose calculada pelo peso corporal, dispensando novas vacinas.",
+    "rationale": "Incorreta. O soro heterólogo (SAR) ou a imunoglobulina (IGHAR) é formalmente dispensado na reexposição, pois a resposta anamnéstica do hospedeiro é precoce e a infusão de anticorpos exógenos pode atenuar a resposta vacinal ativa de reforço."
+   },
+   {
+    "letter": "C",
+    "text": "Adotar apenas conduta expectante e cuidados locais antissépticos, dispensando vacinas e imunoglobulina.",
+    "rationale": "Incorreta. Acidentes com morcegos e mamíferos silvestres são invariavelmente classificados como graves, sendo inaceitável a conduta puramente expectante; a lavagem mecânica deve ser imediatamente sucedida pelas doses de reforço vacinal."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever apenas duas doses de vacina antirrábica nos dias 0 e 3, dispensando o uso de SAR ou IGHAR.",
+    "rationale": "CORRETA. Conforme as normas técnicas do Ministério da Saúde, na reexposição de indivíduos que completaram adequadamente a pré-exposição ou profilaxia anterior, a conduta consiste na limpeza criteriosa da lesão e administração de apenas 2 doses de vacina antirrábica (dias 0 e 3), sendo o SAR e a IGHAR formalmente dispensados."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Na reexposição rábica de indivíduo previamente imunizado, independentemente da gravidade da lesão ou da espécie agressora, o uso de soro (SAR) ou imunoglobulina (IGHAR) é dispensado, exigindo-se apenas 2 doses de vacina (dias 0 e 3).",
+  "bookContext": {
+   "text": "A profilaxia pré-exposição antirrábica induz a formação de células B e T de memória que persistem circulantes no hospedeiro. Em caso de reexposição viral por mordedura ou arranhadura de mamífero, a administração de doses vacinais de reforço nos dias 0 e 3 estimula uma elevação anamnéstica precoce e intensa dos títulos de anticorpos neutralizantes antes da disseminação viral para os axônios periféricos. A infusão passiva de anticorpos exógenos não é apenas desnecessária nessa conjuntura, mas pode atenuar a resposta ativa do sistema imunológico.",
+   "fonte": "Aula VAT2 · Acidentes tetânico e rábico; e MS · Raiva."
+  },
+  "revisada": true
+ },
+ {
+  "id": 356,
+  "code": "RAIVA-37",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Manejo de ferimento tetanogênico em paciente imunodeprimido",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um homem de 62 anos, em quimioterapia imunossupressora para mieloma múltiplo, é trazido à Unidade Básica de Saúde após sofrer ferimento perfurante no pé direito ao pisar em um prego oxidado enterrado em solo adubado. Sua carteira vacinal comprova 3 doses de vacina antitetânica e uma dose de reforço (dT) recebida há 2 anos. Diante da classificação do ferimento como de alto risco tetânico em paciente imunossuprimido, qual é a conduta profilática indicada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Realizar exclusivamente o desbridamento local da ferida, dispensando vacina ou soro pelo reforço recente.",
+    "rationale": "Incorreta. Em indivíduos imunocompetentes com esquema básico completo e reforço há menos de 5 anos, não há indicação de imunobiológicos; todavia, a imunodepressão grave constitui exceção formal a esse algoritmo, exigindo neutralização passiva com IGHAT."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar exclusivamente o Soro Antitetânico (SAT), sendo a vacinação contraindicada em imunodeprimidos.",
+    "rationale": "Incorreta. A vacina dupla adulto (dT) é composta por toxoides inativados, não possuindo risco de replicação e sendo plenamente indicada em pacientes imunossuprimidos; ademais, a IGHAT é a primeira escolha nesse perfil devido à meia-vida prolongada e ausência de imunogenicidade equina."
+   },
+   {
+    "letter": "C",
+    "text": "Prescrever dose de reforço da vacina dT associada ao uso de IGHAT, devido ao estado imunodeprimido.",
+    "rationale": "CORRETA. Segundo o alerta de Medicina Baseada em Evidências dos protocolos oficiais e da aula, pacientes imunodeprimidos, desnutridos graves ou idosos que sofrem ferimentos de alto risco requerem imunização passiva com IGHAT (ou SAT) associada à vacina, independentemente do tempo decorrido desde a última dose vacinal."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever antibioticoprofilaxia com metronidazol oral por 10 dias, dispensando qualquer imunobiológico.",
+    "rationale": "Incorreta. O uso profilático de antibióticos não substitui o desbridamento cirúrgico e não neutraliza a toxina tetânica circulante, configurando erro grave na abordagem do acidente tetânico na atenção primária."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Pacientes imunodeprimidos com ferimentos de alto risco para tétano devem receber reforço vacinal e imunização passiva (preferencialmente IGHAT), independentemente do intervalo da última dose de vacina.",
+  "bookContext": {
+   "text": "Indivíduos com imunossupressão celular ou humoral grave apresentam falha frequente na síntese e manutenção de títulos protetores de antitoxina tetânica, tornando a memória imunológica induzida por doses prévias clinicamente não confiável. Na Atenção Primária, a tomada de decisão baseada em evidências exige reconhecer que diretrizes universais de intervalo quinquenal ou decenal aplicam-se apenas a indivíduos imunocompetentes. A falha em fornecer anticorpos neutralizantes imediatos a pacientes sob terapia imunossupressora diante de lesões anaeróbias expõe o usuário a risco inaceitável de adoecimento grave e óbito por tétano acidental.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulos 2 e 6; e Aula VAT2 · Acidentes tetânico e rábico."
+  },
+  "revisada": true
+ },
+ {
+  "id": 357,
+  "code": "RAIVA-38",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Reações adversas a soros heterólogos: Doença do Soro e diagnóstico diferencial",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um jovem de 24 anos procura a UBS 9 dias após ter sofrido perfuração profunda no calcâneo por estaca suja de terra, ocasião em que recebeu limpeza local, vacina dT e Soro Antitetânico (SAT) equino. O paciente queixa-se de febre baixa, surgimento de exantema urticariforme difuso, artralgia em punhos e tornozelos, linfadenopatia palpável e dor mandibular intensa com discreta dificuldade para mastigar. Ao exame, constata-se dor à palpação da articulação temporomandibular bilateralmente, sem contraturas abdominais ou riso sardônico. Qual é a principal hipótese diagnóstica e seu mecanismo fisiopatológico?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Tétano acidental hiperagudo, decorrente da migração retrógrada axonal de tetanospasmina até os interneurônios.",
+    "rationale": "Incorreta. O tétano acidental clássico cursa com espasmos e trismo por hipertonia sustentada da musculatura mastigatória com lucidez preservada, não cursando com manifestações imunoalérgicas como exantema urticariforme, poliartrite ou linfadenomegalia difusa."
+   },
+   {
+    "letter": "B",
+    "text": "Doença do soro, caracterizada por vasculite por deposição de imunocomplexos circulantes antígeno-anticorpo.",
+    "rationale": "CORRETA. A doença do soro é uma reação de hipersensibilidade do tipo III mediada pela formação e deposição de imunocomplexos teciduais decorrentes de proteínas heterólogas equinas (do SAT ou SAR), manifestando-se tipicamente após 7 a 14 dias com febre, urticária, artralgias e artrite temporomandibular, simulando trismo."
+   },
+   {
+    "letter": "C",
+    "text": "Reação anafilática tardia ao soro equino, mediada por degranulação de mastócitos dependente de anticorpos IgE.",
+    "rationale": "Incorreta. As reações anafiláticas sistêmicas são reações de hipersensibilidade imediata (tipo I) que ocorrem nas primeiras horas após o contato com o alérgeno heterólogo, e não após um período de latência de 7 a 14 dias."
+   },
+   {
+    "letter": "D",
+    "text": "Artrite séptica pós-traumática disseminada, acompanhada de bacteremia com febre e exantema cutâneo maculopapular.",
+    "rationale": "Incorreta. Uma artrite séptica pós-traumática acometeria articulações locais por contiguidade ou via hematogênica com sinais flogísticos intensos monoarticulares, não justificando o exantema generalizado e a poliartralgia simétrica associada à exposição prévia a soro equino."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "A doença do soro é uma complicação de hipersensibilidade tipo III que ocorre de 7 a 14 dias após o uso de soros heterólogos equinos (SAT/SAR) e pode mimetizar o tétano pela presença de artrite temporomandibular dolorosa simulando trismo.",
+  "bookContext": {
+   "text": "A exposição a soros heterólogos equinos introduz no organismo proteínas estranhas em grande quantidade. À medida que o sistema imunológico do paciente sintetiza anticorpos da classe IgG contra essas proteínas, formam-se imunocomplexos circulantes que, em excesso de antígeno, depositam-se nas membranas basais de capilares e sinóvias, ativando a cascata do complemento e provocando febre, rash urticariforme, linfonodomegalias e artrites. O comprometimento inflamatório da articulação temporomandibular é uma pegadinha clássica, pois a limitação na abertura bucal por dor mecânica pode ser erroneamente rotulada como trismo tetânico inicial.",
+   "fonte": "Livro · Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulos 2 e 6; e MS · Tétano acidental."
+  },
+  "revisada": true
+ },
+ {
+  "id": 358,
+  "code": "RAIVA-39",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Segurança clínica e infraestrutura na APS para administração de soros heterólogos equinos (SAT/SAR)",
+  "difficulty": "Intermediária",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Um trabalhador da construção civil de 42 anos comparece à Unidade Básica de Saúde (UBS) após sofrer pisadura profunda com prego enferrujado no pé direito há 4 horas em canteiro de obras. Ao inspecionar o cartão de vacinas, o médico constata que o paciente recebeu apenas uma dose da vacina antitetânica há 12 anos. O médico classifica a lesão como de alto risco com indicação formal de vacina e Soro Antitetânico (SAT). Contudo, a sala de procedimentos da UBS não conta com carrinho de parada cardiorrespiratória equipado, desfibrilador ou medicamentos para manejo de anafilaxia grave (como adrenalina injetável). Considerando a segurança do paciente e as diretrizes de imunização do Ministério da Saúde, qual deve ser a conduta médica sequencial imediata?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Realizar a limpeza e o desbridamento da ferida, aplicar a dose da vacina antitetânica e encaminhar o paciente em transporte adequado a um serviço de urgência para receber o soro.",
+    "rationale": "CORRETA. O soro heterólogo de origem equina (SAT) apresenta risco não desprezível de reações de hipersensibilidade imediata (anafilaxia grave), exigindo ambiente preparado para urgências com carrinho de emergência e adrenalina. Na APS desprovida desse suporte, o médico deve realizar os cuidados locais essenciais (lavagem e desbridamento para destruir o ambiente anaeróbio), aplicar a vacina antitetânica (que não oferece risco anafilático por soro) e providenciar o encaminhamento com transporte seguro para a aplicação do soro na unidade de referência."
+   },
+   {
+    "letter": "B",
+    "text": "Encaminhar o paciente imediatamente ao pronto-socorro de referência sem realizar intervenções locais na UBS, para que a limpeza cirúrgica e os dois imunobiológicos sejam feitos em conjunto.",
+    "rationale": "Incorreta. A limpeza exaustiva com água corrente e sabão, a remoção mecânica de sujidades, o desbridamento de tecidos necróticos e a aplicação da vacina antitetânica (dT) devem ser realizados imediatamente na APS. Adiar a toalete da lesão e a vacinação aumenta o risco de instalação da infecção pelo Clostridium tetani."
+   },
+   {
+    "letter": "C",
+    "text": "Administrar imediatamente o soro antitetânico e a vacina na UBS, mantendo o paciente em observação clínica rigorosa na sala de espera por sessenta minutos antes de conceder a alta.",
+    "rationale": "Incorreta. Administrar soro heterólogo equino em estabelecimento de saúde desprovido de equipamento para ressuscitação cardiorrespiratória e fármacos de emergência viola o preceito bioético da não maleficência e as diretrizes técnicas do Ministério da Saúde, expondo o paciente ao risco de choque anafilático sem assistência imediata."
+   },
+   {
+    "letter": "D",
+    "text": "Prescrever antibioticoterapia profilática oral de amplo espectro por dez dias, liberando o paciente com orientação de retorno à UBS para tomar a vacina apenas caso ocorram sinais flogísticos.",
+    "rationale": "Incorreta. O uso de antibióticos profiláticos não substitui os cuidados locais nem a imunoprofilaxia adequada (soro e vacina). Além disso, o tétano não é uma infecção invasiva típica com sinais flogísticos proeminentes no ferimento, mas sim uma toxinfecção sistêmica grave."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "A administração de soros heterólogos equinos exige ambiente preparado com suporte para anafilaxia; na sua ausência na UBS, executam-se os cuidados locais e a vacina, encaminhando o paciente para o soro na referência.",
+  "bookContext": {
+   "text": "Na Atenção Primária à Saúde, a gestão da segurança do paciente e a observância do princípio bioético de não maleficência exigem o reconhecimento estrito dos limites estruturais da unidade. Conforme preconizado pelas diretrizes clínicas e de bioética em saúde pública, intervenções associadas ao risco de reações adversas severas, como anafilaxia por proteínas heterólogas equinas, demandam retaguarda médica e insumos imediatos de reanimação. A coordenação do cuidado na APS preconiza executar as ações profiláticas seguras e oportunas no primeiro contato e regular responsavelmente os procedimentos de maior risco para unidades de suporte adequado.",
+   "fonte": "Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 4: Bioética no Contexto da Atenção Básica; e Aula VAT2 · Acidentes tetânico e rábico (slides 10 e 12)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 359,
+  "code": "RAIVA-40",
+  "assunto": "top-raiva",
+  "category": "Raiva e tétano",
+  "subcategory": "Síntese diagnóstica no Guia de Bolso: ferimento de baixo risco com histórico vacinal incerto e Prevenção Quaternária",
+  "difficulty": "Avançada",
+  "origem": "notebooklm",
+  "sourceLabel": "Gerada no NotebookLM · slide + livros",
+  "prompt": "Uma jovem de 19 anos, estudante universitária, procura a Unidade Básica de Saúde 2 horas após sofrer um corte linear e superficial de 1,5 cm na face palmar da mão esquerda ao manusear folhas de papel sulfite em seu escritório. Ao exame, a lesão é limpa, superficial, com hemostasia espontânea e sem presença de corpos estranhos ou tecidos desvitalizados. A paciente refere que perdeu seu cartão de vacinação na infância e desconhece completamente seu histórico de doses contra o tétano. Diante do quadro clínico e da síntese diagnóstica recomendada para a atenção primária, qual é a conduta preconizada?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prescrever o Soro Antitetânico (SAT) por via intramuscular e agendar o início do esquema vacinal para a semana seguinte.",
+    "rationale": "Incorreta. O SAT não deve ser prescrito de forma isolada nem possui indicação em ferimentos limpos e superficiais. Indicar soro heterólogo sem necessidade expõe a paciente a riscos iatrogênicos evitáveis e sobrecarrega o sistema de saúde."
+   },
+   {
+    "letter": "B",
+    "text": "Administrar prontamente a vacina antitetânica associada à Imunoglobulina Humana Antitetânica (IGHAT) em braços opostos.",
+    "rationale": "Incorreta. A indicação combinada de vacina com imunoglobulina passiva (IGHAT) ou soro (SAT) em pacientes com vacinação incerta ou com menos de 3 doses é exclusiva de ferimentos de alto risco (profundos, contaminados, perfurantes, mordeduras ou queimaduras graves). Em lesões de baixo risco, a imunização passiva é contraindicada."
+   },
+   {
+    "letter": "C",
+    "text": "Realizar o desbridamento da borda e iniciar a antibioticoterapia profilática oral, dispensando qualquer imunobiológico.",
+    "rationale": "Incorreta. Um corte linear e superficial de baixo risco não requer desbridamento cirúrgico nem antibioticoterapia profilática. Ademais, a paciente não possui comprovação vacinal e necessita ter sua imunização ativa iniciada prontamente."
+   },
+   {
+    "letter": "D",
+    "text": "Iniciar o esquema de vacinação básica com a vacina dT na UBS, dispensando formalmente o uso de SAT ou de IGHAT.",
+    "rationale": "CORRETA. De acordo com o algoritmo de profilaxia e o guia de bolso clínico do Ministério da Saúde, ferimentos limpos e superficiais (baixo risco) em pessoas com histórico vacinal incerto ou incompleto exigem apenas a administração da vacina (início do esquema básico com dT), dispensando categoricamente qualquer imunobiológico de neutralização passiva (SAT ou IGHAT)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Em ferimentos limpos e superficiais (baixo risco), mesmo diante de histórico vacinal incerto ou menor que 3 doses, preconiza-se apenas a vacinação (dT), com dispensa formal de SAT ou IGHAT.",
+  "bookContext": {
+   "text": "O conceito de prevenção quaternária na atenção primária visa proteger o paciente de intervenções diagnósticas e terapêuticas desnecessárias e potencialmente danosas. A prescrição automática de soros heterólogos ou imunoglobulinas motivada unicamente pela incerteza vacinal, desconsiderando a ausência de risco tetanogênico no leito da lesão, constitui um sobretratamento iatrogênico. O manejo racional preconizado na medicina de família valoriza a estratificação clínica criteriosa, evitando expor a pessoa a riscos biológicos injustificados e preservando os recursos imunobiológicos do SUS.",
+   "fonte": "Manual ACM de Terapêutica em Medicina de Família e Comunidade (4ª ed.), Capítulo 2: Prevenção Quaternária; e Aula VAT2 · Acidentes tetânico e rábico (slides 5, 6 e 13)"
+  },
+  "revisada": true
+ },
+ {
+  "id": 360,
   "code": "LESCORP-01",
   "lista": "escorp",
   "category": "Lista de aula · Acidentes escorpiônicos",
@@ -8000,7 +9600,7 @@
   "revisada": true
  },
  {
-  "id": 321,
+  "id": 361,
   "code": "LESCORP-02",
   "lista": "escorp",
   "category": "Lista de aula · Acidentes escorpiônicos",
@@ -8040,7 +9640,7 @@
   "revisada": true
  },
  {
-  "id": 322,
+  "id": 362,
   "code": "LESCORP-03",
   "lista": "escorp",
   "category": "Lista de aula · Acidentes escorpiônicos",
@@ -8080,7 +9680,7 @@
   "revisada": true
  },
  {
-  "id": 323,
+  "id": 363,
   "code": "LESCORP-04",
   "lista": "escorp",
   "category": "Lista de aula · Acidentes escorpiônicos",
@@ -8125,7 +9725,7 @@
   "revisada": true
  },
  {
-  "id": 324,
+  "id": 364,
   "code": "LESCORP-05",
   "lista": "escorp",
   "category": "Lista de aula · Acidentes escorpiônicos",
